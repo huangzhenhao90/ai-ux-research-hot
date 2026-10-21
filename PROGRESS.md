@@ -172,3 +172,71 @@ Maze、UserTesting、User Interviews、Optimal Workshop、Great Question、Sprig
 - **信源总数 37 → 44**（T1 29 / T2 13 / hot_signal 2）
 
 详见 `DECISIONS.md` 的 D5 与修订记录。
+
+---
+
+## 阶段 3：配置文件 — ✅ 完成（2026-10-21）
+
+**做了什么**
+
+1. **六份配置**（`config/`）：
+   - `site.yaml`：站名 UXHOT / 副名「AI 用研热点」/ 行业词「AI 用研」；**`siteUrl` 按 D7 用
+     `https://huangzhenhao90.github.io/ai-ux-research-hot`**（不是计划预填的 `/uxhot`）；
+     出刊时间按 D10（日报 08:00、周报 MON 10:00）
+   - `taxonomy.yaml`：6 分类（含兜底 `industry`）、7 个 `itemTypes` 及与分类标签的自洽对照、
+     `release`（日报「N 款新工具」）、14 个分类标签、15 个主题标签、11 个实体标签、
+     标签同义词归并、**36 个实体**（含中英文别名与域名，供主题页与防张冠李戴）、通用词表
+   - `topics.yaml`：**24 个主题页**，分 3 组（公司 10 / 研究方向 9 / 内容类型 5）
+   - `sources.yaml`：**44 个信源**（T1 29 / T2 13 / hot_signal 2），含 9 个 `web_list` 的选择器
+   - `selection.yaml`：门槛按计划占位（T1 60 / T1_5 65 / T2 76）、`understandFloor` 50、
+     `freshHours` 48、预算按 D9（300/1000）
+   - `overrides.yaml`：初始为空，附用法示例（注释形式）
+2. **`uxhot/config.py`**：pydantic 模型 + 跨文件一致性校验，失败时抛带文件名与项名的 `ConfigError`。
+3. **`tests/test_config.py`**：32 条用例（正例 + 负例）。
+4. **9 个 `web_list` 选择器实测**（selector-scout 子代理），并用 `sources.yaml` 里的选择器做**冒烟验证**。
+
+**命令与结果**
+
+| 命令 | 结果 |
+|---|---|
+| `.venv/bin/python -m pytest -q` | **36 passed**（test_config 32 + test_skeleton 4） |
+| 配置汇总打印 | 44 信源 = 参与精选 42 + hot_signal 2；T1 29、T2 13；rss 33、web_list 9 |
+| web_list 冒烟（真实抓取 + selectolax 抽条） | **9/9 通过**，共抽出 151 条 |
+
+**web_list 冒烟结果**（用 `sources.yaml` 的选择器实际抓取）
+
+| id | 抽出 | 有标题 | 有日期 |
+|---|---|---|---|
+| strella-blog | 38 | 38 | 38 |
+| sprig-blog | 25 | 25 | 25 |
+| userinterviews-blog | 24 | 24 | 24 |
+| dscout-people-nerds | 16 | 16 | 16 |
+| greatquestion-blog | 13 | 13 | 12 |
+| usertesting-blog | 12 | 12 | **0** |
+| mrs-news | 10 | 10 | 10 |
+| optimalworkshop-blog | 7 | 7 | **0** |
+| maze-blog | 6 | 6 | **0** |
+
+3 个源（usertesting / optimalworkshop / maze）**列表页确实没有日期**，已在 `sources.yaml` 的 `note` 写明，
+并有测试守住「无 dateSelector 必须在 note 说明」。这些源的日期要靠抓正文页补（阶段 5 处理）。
+
+**本轮踩到并已处理的三个坑**
+
+1. **校验器一开始过严**：`validate_topics` 只允许主题页标签取自 `topicTags`，但计划里 `genre` 组
+   （论文、方法、提示词、案例、报告）本来就是按 `categoryTags` 匹配的。已被测试拦下并修正为
+   `topicTags ∪ categoryTags`。**这是配置校验第一次真的抓到问题。**
+2. **`greatquestion.co` 与 `strella.io` 会 301**：前者 301 到 `www.greatquestion.com`，
+   非 www 的文章链接直接 404；后者 301 到 `www.strella.io`。`sources.yaml` 已统一用 www 域名。
+3. **`selectolax` 1.0 弃用了 modest 后端**：`from selectolax.parser import HTMLParser` 直接抛
+   `ImportError`。必须改用 `from selectolax.lexbor import LexborHTMLParser`。
+   **阶段 5 的采集模块要按 lexbor 写**（本机装的是 1.0.1）。
+
+**遗留问题**
+
+1. 3 个无日期源（usertesting / optimalworkshop / maze）需要抓正文页补日期；拿不到就按
+   「无可信日期不公开，下次再试」处理（计划 §5.2 第 2 条）。
+2. 多个源分页是 JS（无限滚动 / Load more），静态抓取只拿首屏：UserTesting 12、Optimal Workshop 7、
+   Maze 6。二期可考虑无头浏览器。
+3. `testingtime`（停更 103 天）、`uxmag`（停更 112 天）仍未复验活跃度 —— 阶段 5 采集跑通后用真实
+   抓取结果决定去留。
+4. 门槛仍是计划占位值，**只在阶段 8 按用户金标评测结果改**。

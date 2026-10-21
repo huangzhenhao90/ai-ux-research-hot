@@ -1,0 +1,347 @@
+{
+  "generatedAt": "2026-10-21T21:43:56+08:00",
+  "sources": [
+    {
+      "id": "usertesting-blog",
+      "url": "https://www.usertesting.com/blog",
+      "ok": true,
+      "itemSelector": "div.teaser, div.featured-card",
+      "titleSelector": "h4",
+      "linkSelector": "a[href^=\"/blog/\"]",
+      "dateSelector": null,
+      "sampleCount": 12,
+      "samples": [
+        {
+          "title": "Why research teams need influence more than budget",
+          "url": "https://www.usertesting.com/blog/why-research-teams-need-influence-more-budget",
+          "date": null
+        },
+        {
+          "title": "Design feedback loops: the secret to faster, smarter, more confident teams",
+          "url": "https://www.usertesting.com/blog/feedback-drives-design-iteration",
+          "date": null
+        },
+        {
+          "title": "13 Powerful customer retention strategies",
+          "url": "https://www.usertesting.com/blog/customer-retention-strategies",
+          "date": null
+        },
+        {
+          "title": "What is UX design? 15 user experience design experts weigh in",
+          "url": "https://www.usertesting.com/blog/what-is-ux-design-15-user-experience-experts-weigh-in",
+          "date": null
+        },
+        {
+          "title": "Customer experience has a connection problem. AI won't solve it alone.",
+          "url": "https://www.usertesting.com/blog/customer-experience-human-connection-ai",
+          "date": null
+        }
+      ],
+      "notes": "itemSelector 命中两种卡片：顶部轮播的 3 条 div.featured-card + 列表 9 条 div.teaser（共 12 条）。列表页完全没有日期：整页无 <time> 元素、无任何日期字符串，dateSelector 只能为 null。链接是相对路径 /blog/xxx。分页是 JS 无限滚动（div.views-infinite-scroll-content-wrapper + “Load more”按钮），静态抓取只能拿到首屏 12 条。"
+    },
+    {
+      "id": "userinterviews-blog",
+      "url": "https://www.userinterviews.com/blog",
+      "ok": true,
+      "itemSelector": "div.blog-item.w-dyn-item",
+      "titleSelector": "div[fs-cmsfilter-field=\"header\"]",
+      "linkSelector": "a.content-feed-link-block.blog",
+      "dateSelector": "div.blog-grid-txt-wrap > div:last-child div.content-grid-eyebrow",
+      "sampleCount": 24,
+      "samples": [
+        {
+          "title": "Hiring Isn’t a Scaling Strategy: Turning Research Expertise into Self‑Serve Infrastructure",
+          "url": "https://www.userinterviews.com/blog/scaling-research-operations",
+          "date": "October 15, 2026"
+        },
+        {
+          "title": "A letter to our customers: serving you in the AI era.",
+          "url": "https://www.userinterviews.com/blog/letter-our-customers-serving-you-ai-era",
+          "date": "October 8, 2026"
+        },
+        {
+          "title": "The Ultimate UX Research Job Board – Updated August 2026",
+          "url": "https://www.userinterviews.com/blog/the-ultimate-remote-ux-research-job-board",
+          "date": "August 5, 2026"
+        },
+        {
+          "title": "AI, Margins, and the New Division of Labour: Three Reversals Reshaping How Research Operates",
+          "url": "https://www.userinterviews.com/blog/new-division-of-labor-reshaping-how-research-operates",
+          "date": "August 3, 2026"
+        },
+        {
+          "title": "Delivering Continuous Discovery Programs That Run like Clockwork",
+          "url": "https://www.userinterviews.com/blog/delivering-continuous-discovery-programs",
+          "date": "July 15, 2026"
+        }
+      ],
+      "notes": "日期必须限定在“最后一个子 div”内：div.blog-grid-txt-wrap > div:last-child div.content-grid-eyebrow 取到日期；同一行后面还有作者名，若直接写 div.content-grid-eyebrow 会先取到分类名。页面另有一组 24 条的侧栏列表（div.featured-blog-item.w-dyn-item / a.featured-blog-link-block），与主列表内容重复，只用 div.blog-item.w-dyn-item 可避开。链接是相对路径。分页是 JS“Load more”按钮，静态只拿到 24 条。"
+    },
+    {
+      "id": "optimalworkshop-blog",
+      "url": "https://www.optimalworkshop.com/blog",
+      "ok": true,
+      "itemSelector": "a.blog-item",
+      "titleSelector": "h2, h3",
+      "linkSelector": ":scope",
+      "dateSelector": null,
+      "sampleCount": 7,
+      "samples": [
+        {
+          "title": "Meet Optimal's AI Interviewer: Scale Your Research Without Scaling Your Workload",
+          "url": "https://www.optimalworkshop.com/blog/ai-interviewer",
+          "date": null
+        },
+        {
+          "title": "Optimal MCP + Figma Agent: Turning User Research Into Better Designs",
+          "url": "https://www.optimalworkshop.com/blog/optimal-mcp-figma-agent",
+          "date": null
+        },
+        {
+          "title": "What Do Participants Think About AI Interviewers? Insights from a Recent Study",
+          "url": "https://www.optimalworkshop.com/blog/ai-interviewer-participant-experience",
+          "date": null
+        },
+        {
+          "title": "Recruit Hard-to-Reach B2B Participants",
+          "url": "https://www.optimalworkshop.com/blog/recruit-hard-to-reach-b2b-participants",
+          "date": null
+        },
+        {
+          "title": "Bring Your Research Data into the Rest of Your Business with the Optimal API",
+          "url": "https://www.optimalworkshop.com/blog/optimal-api",
+          "date": null
+        }
+      ],
+      "notes": "7 条 = 1 条 featured 大卡（div.featured-blog-grid，标题是 h2）+ 6 条网格卡（标题是 h3），所以 titleSelector 用 'h2, h3'（取 item 内第一个匹配）。卡片里只有“N min read”阅读时长，没有发布日期：整页无日期字符串、无 <time>，dateSelector 为 null。链接是相对路径。列表页有“Load more”（?152bab39_page=2），静态只拿到 7 条。"
+    },
+    {
+      "id": "greatquestion-blog",
+      "url": "https://greatquestion.co/blog",
+      "ok": true,
+      "itemSelector": "div.mt-10 > a[href^=\"/blog/\"], div.grid.gap-x-12.gap-y-14 > a",
+      "titleSelector": "h2",
+      "linkSelector": ":scope",
+      "dateSelector": "div.font-mono span",
+      "sampleCount": 13,
+      "samples": [
+        {
+          "title": "8 Maze alternatives for UX research teams in 2026",
+          "url": "https://www.greatquestion.com/blog/maze-alternatives",
+          "date": null
+        },
+        {
+          "title": "The best user research recruitment tools in 2026, compared by price and panel",
+          "url": "https://www.greatquestion.com/blog/user-research-recruitment-tools",
+          "date": "October 7, 2026"
+        },
+        {
+          "title": "8 User Interviews alternatives for research recruitment in 2026",
+          "url": "https://www.greatquestion.com/blog/user-interviews-alternatives",
+          "date": "October 5, 2026"
+        },
+        {
+          "title": "Most “digital twins” in research are synthetic users with a better name",
+          "url": "https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins",
+          "date": "October 2, 2026"
+        },
+        {
+          "title": "Great Question now has its own agentic moderator",
+          "url": "https://www.greatquestion.com/blog/agentic-ai-moderation",
+          "date": "August 20, 2026"
+        }
+      ],
+      "notes": "itemSelector 覆盖 featured 大卡 + 12 条网格卡，刻意排除 /blog/page/2 与 /blog/page/16 分页链接；等价备选 main a[href^=\"/blog/\"]:not([href*=\"/page/\"]) 同样得到 13 条。日期取网格卡的 div.font-mono 里第一个 span（第二个 span 是“12 min”阅读时长）；featured 大卡的 span.font-mono 文本是“Featured”而非日期，故该条 date 为 null，属预期而非漏抓。日期格式 'October 7, 2026'；链接相对路径 /blog/xxx；分页 /blog/page/N（共 16 页）。"
+    },
+    {
+      "id": "sprig-blog",
+      "url": "https://sprig.com/blog",
+      "ok": true,
+      "itemSelector": "a.blog-cms-card",
+      "titleSelector": "h4",
+      "linkSelector": ":scope",
+      "dateSelector": "div.text-size-tiny_v2",
+      "sampleCount": 25,
+      "samples": [
+        {
+          "title": "A First Look at Sprig’s Analyze Agent",
+          "url": "https://sprig.com/blog/analyze-agent-first-look",
+          "date": "Oct 8, 2026"
+        },
+        {
+          "title": "Email vs. Panels: How to Choose Your Survey Distribution Method",
+          "url": "https://sprig.com/blog/deploy-email-vs-panels",
+          "date": "Sep 23, 2026"
+        },
+        {
+          "title": "Using Sprig MCP to Build a Continuous Feedback Monitoring System",
+          "url": "https://sprig.com/blog/mcp-continous-feedback-monitoring",
+          "date": "Sep 8, 2026"
+        },
+        {
+          "title": "Build the conditions, and the insight follows",
+          "url": "https://sprig.com/blog/continuous-insight-system",
+          "date": "Aug 21, 2026"
+        },
+        {
+          "title": "There Are Three Kinds of Research Leaders Right Now. Only One Is Built for the AI Era.",
+          "url": "https://sprig.com/blog/three-kinds-of-leaders",
+          "date": "Aug 13, 2026"
+        }
+      ],
+      "notes": "itemSelector 命中 41 个节点，但前 16 条在页面里存在两份 DOM（桌面/移动重复渲染），按 URL 去重后 25 条。日期在 div.text-size-tiny_v2，格式 'Oct 8, 2026'（月缩写）；标题 h4。页顶 nav banner 里也有一个 /blog/analyze-agent-first-look 链接（class text-size-small_v2 text-link-gradient），不在 itemSelector 内，不会被误抓。分页 ?4b6c50ca_page=2（Next）。"
+    },
+    {
+      "id": "strella-blog",
+      "url": "https://strella.io/blog",
+      "ok": true,
+      "itemSelector": "div.collection-case-study-post.w-dyn-item, div.collection-side-item.w-dyn-item, div.collection-grid-item.w-dyn-item",
+      "titleSelector": "h2",
+      "linkSelector": "a[href^=\"/blog/\"]",
+      "dateSelector": "div.data-text",
+      "sampleCount": 38,
+      "samples": [
+        {
+          "title": "What Are the Main Types of Qualitative Research?",
+          "url": "https://www.strella.io/blog/types-of-qualitative-research-methods",
+          "date": "October 20, 2026"
+        },
+        {
+          "title": "Research Platform, Agency or AI-Native Research Partner: How to Choose",
+          "url": "https://www.strella.io/blog/platform-vs-agency-market-research",
+          "date": "October 16, 2026"
+        },
+        {
+          "title": "Can an AI Moderator Run Research Interviews in Multiple Languages?",
+          "url": "https://www.strella.io/blog/ai-moderated-interviews-multiple-languages",
+          "date": "October 16, 2026"
+        },
+        {
+          "title": "Types of Market Segmentation: How To Build and Choose Segments",
+          "url": "https://www.strella.io/blog/types-of-market-segmentation",
+          "date": "October 15, 2026"
+        },
+        {
+          "title": "AI-Moderated Interviews vs Surveys: What Each One Tells an Insights Team",
+          "url": "https://www.strella.io/blog/ai-moderated-interviews-vs-surveys",
+          "date": "October 15, 2026"
+        }
+      ],
+      "notes": "itemSelector 必须用容器层而不是 a 本身：日期 div.data-text 位于 a.main-post-content-wrapper 的兄弟节点 div.post-info-wrapper 里，即“日期在 item 外”。若把 item 写成 a.main-post-content-wrapper，hero(1) 与 side(2) 这 3 条会取不到日期。三种容器：div.collection-case-study-post.w-dyn-item(1) + div.collection-side-item.w-dyn-item(2) + div.collection-grid-item.w-dyn-item(35)。链接是相对路径 /blog/xxx；日期格式 'October 20, 2026'。页面未发现分页控件，静态一次给 38 条。域名 https://strella.io/blog 会 301 到 https://www.strella.io/blog；文章链接用非 www 域名访问也能通（再 301 一次），但建议统一用 www 作 base。"
+    },
+    {
+      "id": "maze-blog",
+      "url": "https://maze.co/blog/",
+      "ok": true,
+      "itemSelector": "a[class*=\"BlogPostPreviewLink\"]",
+      "titleSelector": "article > div:last-child > p",
+      "linkSelector": ":scope",
+      "dateSelector": null,
+      "sampleCount": 6,
+      "samples": [
+        {
+          "title": "More of your market research, now in Maze",
+          "url": "https://maze.co/blog/ai-for-market-research/",
+          "date": null
+        },
+        {
+          "title": "AI has made my job as a researcher more social, not less",
+          "url": "https://maze.co/blog/guest-ai-changing-research/",
+          "date": null
+        },
+        {
+          "title": "Market research trends: What’s changing in research today",
+          "url": "https://maze.co/blog/market-research-report/",
+          "date": null
+        },
+        {
+          "title": "Connect the dots in your research with Maze MCP",
+          "url": "https://maze.co/blog/maze-mcp-best-practices/",
+          "date": null
+        },
+        {
+          "title": "The system of learning playbook: How research teams build lasting advantage",
+          "url": "https://maze.co/blog/system-of-learning-playbook/",
+          "date": null
+        }
+      ],
+      "notes": "文章链接带尾斜杠：/blog/xxx/ —— 用“以字母数字结尾”的正则会把整类漏掉，务必不要用。itemSelector a[class*=\"BlogPostPreviewLink\"] 依赖 styled-components 类名里的组件名前缀 BlogPostPreviewLink（哈希后缀 -sc-b92cir-0 随构建变化，前缀稳定）；等价结构式备选 a:has(article) 结果相同，但 :has() 在部分 CSS 引擎不可用，故未作默认。卡片里没有日期（整页无日期字符串、无 <time>），dateSelector 为 null。标题在 article > div:last-child > p；卡内另有一个分类 tag 的 p（如“Market Research”），别用 p 或 p:last-of-type，否则会取到 tag。列表页只有 6 条 + /blog/page/2/ 分页。"
+    },
+    {
+      "id": "dscout-people-nerds",
+      "url": "https://dscout.com/people-nerds",
+      "ok": true,
+      "itemSelector": "div.postpreview",
+      "titleSelector": "h1.postpreview_title",
+      "linkSelector": "a.postpreview_text",
+      "dateSelector": "p.postpreview_date",
+      "sampleCount": 16,
+      "samples": [
+        {
+          "title": "Common Research Mistakes (and How to Fix Them)",
+          "url": "https://dscout.com/people-nerds/for-high-fidelity-feedback-start-with-a-quality-participant-panel",
+          "date": "September 24, 2024"
+        },
+        {
+          "title": "50 People Shared Their Paranormal Stories, and How They Feel Now",
+          "url": "https://dscout.com/people-nerds/paranormal-experiences-research",
+          "date": "Oct 15, 2026"
+        },
+        {
+          "title": "3 Ways to Use Dscout MCP to Transform Your Research Workflow",
+          "url": "https://dscout.com/people-nerds/how-to-use-dscout-mcp-for-research",
+          "date": "Oct 13, 2026"
+        },
+        {
+          "title": "Synthetic Users vs. Digital Twins: Definitions, Risks, and Real Use Cases",
+          "url": "https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases",
+          "date": "Oct 7, 2026"
+        },
+        {
+          "title": "10 Ways to Stay Relevant as AI Changes UX Practices",
+          "url": "https://dscout.com/people-nerds/stay-relevant-as-ai-changes-ux-practices",
+          "date": "Oct 6, 2026"
+        }
+      ],
+      "notes": "文章前缀是 /people-nerds/<slug>，不是 /blog/。itemSelector 命中 18 个节点，其中首条“Common Research Mistakes”在页面上出现两次（顶部资源轮播 + 主列表），按 URL 去重后 16 条。标题 h1.postpreview_title、日期 p.postpreview_date。日期格式混用：主列表为 'September 24, 2024'（月全称），轮播卡为 'Oct 15, 2026'（月缩写）。item 内还有分类链接 /people-nerds-categories/articles，但 linkSelector a.postpreview_text 只指向文章详情页，不会误抓分类页。分页 ?96be3baf_page=2（Webflow Next）。"
+    },
+    {
+      "id": "mrs-news",
+      "url": "https://www.mrs.org.uk/news",
+      "ok": true,
+      "itemSelector": "div.guide_.blog_ a.guide_row",
+      "titleSelector": "h5",
+      "linkSelector": ":scope",
+      "dateSelector": "div.blog_desc > p",
+      "sampleCount": 10,
+      "samples": [
+        {
+          "title": "Changes to the Government's Social Value Model",
+          "url": "https://www.mrs.org.uk/article/mrs/changes-to-the-governments-social-value-model",
+          "date": "05 October 2026"
+        },
+        {
+          "title": "MRS Celebrates 16 New Honorary Fellows for 80th Anniversary",
+          "url": "https://www.mrs.org.uk/article/mrs/mrs-celebrates-16-new-honorary-fellows-for-80th-anniversary",
+          "date": "07 July 2026"
+        },
+        {
+          "title": "Two Honorary Posthumous Fellowships awarded in our 80th year",
+          "url": "https://www.mrs.org.uk/article/mrs/two-honorary-posthumous-fellowships-awarded-in-our-80th-year",
+          "date": "03 June 2026"
+        },
+        {
+          "title": "Finalists revealed for the Audience Award - MRS Annual Conference 2026",
+          "url": "https://www.mrs.org.uk/article/mrs/finalists-revealed-for-the-audience-award-mrs-annual-conference-2026",
+          "date": "12 May 2026"
+        },
+        {
+          "title": "Equality, Diversity & Inclusion Changemaker of the Year – Finalists 2026",
+          "url": "https://www.mrs.org.uk/article/mrs/edi-changemaker-of-the-year-finalists-2026",
+          "date": "12 May 2026"
+        }
+      ],
+      "notes": "列表页混排两类详情页：5 条新闻 /article/mrs/<slug> + 5 条博客 /blog/<分类>/<slug>（如 /blog/operations/...），两类都是文章详情页，共 10 条。item 必须限定在 div.guide_.blog_ 容器内：页脚还有一条 /article/mrs/mrs-wins-membership-excellence-awards- 链接，不加容器限定会被误抓。日期在 item 内 div.blog_desc > p 的第一个 p（第二个 p 是摘要），格式 '05 October 2026'（日在前、两位补零）。页面未发现分页控件，静态一次 10 条。"
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+# 信源名单（D5 确认版，共 44 个）。
+#
+# 字段：
+#   id / name          信源标识与显示名
+#   kind               rss | web_list | external_json
+#   url                feed 地址 或 列表页地址
+#   tier               T1 官方一手 | T1_5 官方账号与准官方 | T2 媒体与个人 | EXCLUDE 不参与精选
+#   mode               editorial 参与精选 | hot_signal 只记热度不展示 | isolated 隔离
+#   entity             对应 taxonomy.yaml 的 entities id（可选）
+#   initialBackfillLimit  首次导入只取前 N 条并全部归档（防旧文刷屏）
+#   timezone           无时区日期按此解析（默认 +08:00）
+#   web_list           仅 kind=web_list 需要：itemSelector/titleSelector/linkSelector/dateSelector
+#
+# 全部地址均由执行模型实测：HTTP 200 + 有条目 + 日期可解析（无日期的源已在 note 注明）。
+# 探测方法见 scripts/probe_feeds.py；web_list 选择器实测结果见 eval/weblist-selectors.json。
+
+sources:
+  # ══ T1 官方一手：研究工具厂商与机构（RSS）══════════════════════════
+  - id: dovetail-blog
+    name: Dovetail Blog
+    kind: rss
+    url: https://dovetail.com/blog/rss.xml
+    tier: T1
+    mode: editorial
+    entity: dovetail
+
+  - id: nngroup
+    name: Nielsen Norman Group
+    kind: rss
+    url: https://www.nngroup.com/feed/rss/
+    tier: T1
+    mode: editorial
+    entity: nngroup
+
+  - id: medallia
+    name: Medallia
+    kind: rss
+    url: https://www.medallia.com/feed/
+    tier: T1
+    mode: editorial
+    entity: medallia
+
+  - id: qualtrics
+    name: Qualtrics
+    kind: rss
+    url: https://www.qualtrics.com/rss.xml
+    tier: T1
+    mode: editorial
+    entity: qualtrics
+    note: 条目偏少（约 4 条/期），实测活跃
+
+  - id: xm-institute
+    name: Qualtrics XM Institute
+    kind: rss
+    url: https://xm-institute.com/feed/
+    tier: T1
+    mode: editorial
+    entity: qualtrics
+
+  - id: listen-labs
+    name: Listen Labs
+    kind: rss
+    url: https://listenlabs.com/articles/feed/
+    tier: T1
+    mode: editorial
+    entity: listen-labs
+
+  - id: maxqda
+    name: MAXQDA
+    kind: rss
+    url: https://maxqda.com/blog/feed/
+    tier: T1
+    mode: editorial
+    entity: maxqda
+
+  - id: quirkos
+    name: Quirkos
+    kind: rss
+    url: https://quirkos.com/blog/feed/
+    tier: T1
+    mode: editorial
+    entity: quirkos
+
+  - id: delve
+    name: Delve
+    kind: rss
+    url: https://delvetool.com/rss.xml
+    tier: T1
+    mode: editorial
+    entity: delve
+
+  - id: surveycto
+    name: SurveyCTO
+    kind: rss
+    url: https://surveycto.com/blog/feed/
+    tier: T1
+    mode: editorial
+    entity: surveycto
+
+  - id: surveymonkey
+    name: SurveyMonkey
+    kind: rss
+    url: https://surveymonkey.com/feed/
+    tier: T1
+    mode: editorial
+    entity: surveymonkey
+
+  - id: quantilope
+    name: quantilope
+    kind: rss
+    url: https://quantilope.com/blog/rss.xml
+    tier: T1
+    mode: editorial
+    entity: quantilope
+
+  - id: mopinion
+    name: Mopinion
+    kind: rss
+    url: https://mopinion.com/feed/
+    tier: T1
+    mode: editorial
+    entity: mopinion
+
+  - id: dynata
+    name: Dynata
+    kind: rss
+    url: https://www.dynata.com/feed/
+    tier: T1
+    mode: editorial
+    entity: dynata
+
+  - id: cint
+    name: Cint
+    kind: rss
+    url: https://www.cint.com/blog/feed/
+    tier: T1
+    mode: editorial
+    entity: cint
+
+  - id: prodege
+    name: Prodege
+    kind: rss
+    url: https://www.prodege.com/feed/
+    tier: T1
+    mode: editorial
+    entity: prodege
+
+  - id: ipsos
+    name: Ipsos
+    kind: rss
+    url: https://www.ipsos.com/en/rss.xml
+    tier: T1
+    mode: editorial
+    entity: ipsos
+
+  - id: aapor
+    name: AAPOR（美国民意研究协会）
+    kind: rss
+    url: https://aapor.org/feed/
+    tier: T1
+    mode: editorial
+    entity: aapor
+
+  - id: uxpa
+    name: UXPA（用户体验专业协会）
+    kind: rss
+    url: https://uxpa.org/feed/
+    tier: T1
+    mode: editorial
+    entity: uxpa
+
+  - id: testingtime
+    name: TestingTime
+    kind: rss
+    url: https://www.testingtime.com/blog/feed/
+    tier: T1
+    mode: editorial
+    entity: testingtime
+    note: ⚠️ 停更约 103 天（2026-07-09），阶段 3 复验后决定去留
+
+  # ══ T2 学术：HCI 与研究方法学（RSS）══════════════════════════════════
+  - id: arxiv-cs-hc
+    name: arXiv cs.HC
+    kind: rss
+    url: https://export.arxiv.org/rss/cs.HC
+    tier: T2
+    mode: editorial
+    note: 量大（约 35 条/期），靠预筛把关
+
+  - id: frontiers-cs
+    name: Frontiers in Computer Science
+    kind: rss
+    url: https://www.frontiersin.org/journals/computer-science/rss
+    tier: T2
+    mode: editorial
+
+  - id: bit
+    name: Behaviour & Information Technology
+    kind: rss
+    url: https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tbit20
+    tier: T2
+    mode: editorial
+    note: 量大（约 285 条/期），HCI/UX 期刊，最活跃的学术源
+
+  - id: hci-journal
+    name: Human-Computer Interaction
+    kind: rss
+    url: https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=hhci20
+    tier: T2
+    mode: editorial
+
+  - id: jmmr
+    name: Journal of Mixed Methods Research
+    kind: rss
+    url: https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=mmra&type=etoc&feed=rss
+    tier: T2
+    mode: editorial
+    note: 混合研究方法期刊，与用研方法学直接相关
+
+  - id: ijmr
+    name: International Journal of Market Research
+    kind: rss
+    url: https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=mrea&type=etoc&feed=rss
+    tier: T2
+    mode: editorial
+    note: 市场研究方法期刊
+
+  # ══ T2 行业媒体与个人（RSS）══════════════════════════════════════════
+  - id: measuringu
+    name: MeasuringU（Jeff Sauro）
+    kind: rss
+    url: https://measuringu.com/feed/
+    tier: T2
+    mode: editorial
+
+  - id: producttalk
+    name: Product Talk（Teresa Torres）
+    kind: rss
+    url: https://producttalk.org/feed/
+    tier: T2
+    mode: editorial
+
+  - id: uxdesign-cc
+    name: UX Collective
+    kind: rss
+    url: https://uxdesign.cc/feed
+    tier: T2
+    mode: editorial
+    note: 噪声偏高，靠预筛把关
+
+  - id: rosenfeldmedia
+    name: Rosenfeld Media
+    kind: rss
+    url: https://rosenfeldmedia.com/feed/
+    tier: T2
+    mode: editorial
+
+  - id: jakobnielsenphd
+    name: Jakob Nielsen on UX
+    kind: rss
+    url: https://jakobnielsenphd.substack.com/feed
+    tier: T2
+    mode: editorial
+    entity: nngroup
+
+  - id: johnnyholland
+    name: Johnny Holland
+    kind: rss
+    url: https://johnnyholland.org/blog/feed/
+    tier: T2
+    mode: editorial
+
+  - id: uxmag
+    name: UX Magazine
+    kind: rss
+    url: https://uxmag.com/feed
+    tier: T2
+    mode: editorial
+    note: ⚠️ 停更约 112 天（2026-06-30），阶段 3 复验后决定去留
+
+  # ══ hot_signal：只记热度，不展示、不评分 ══════════════════════════════
+  - id: reddit-uxresearch
+    name: Reddit r/UXResearch
+    kind: rss
+    url: https://www.reddit.com/r/UXResearch/.rss
+    tier: EXCLUDE
+    mode: hot_signal
+    note: 只用于热度信号，不进精选、不上页面
+
+  - id: hnrss-user-research
+    name: HNRSS（关键词 user research）
+    kind: rss
+    url: https://hnrss.org/newest?q=user+research
+    tier: EXCLUDE
+    mode: hot_signal
+    note: 只用于热度信号，不进精选、不上页面
+
+  # ══ T1 官方一手：无 RSS，用网页列表抓取（选择器实测见 eval/weblist-selectors.json）══
+  - id: usertesting-blog
+    name: UserTesting Blog
+    kind: web_list
+    url: https://www.usertesting.com/blog
+    tier: T1
+    mode: editorial
+    entity: usertesting
+    web_list:
+      itemSelector: 'div.teaser, div.featured-card'
+      titleSelector: 'h4'
+      linkSelector: 'a[href^="/blog/"]'
+      dateSelector: null
+    note: ⚠️ 列表页无日期（整页无 time 元素）→ dateSelector 为 null；分页是 JS 无限滚动，静态只拿首屏约 12 条
+
+  - id: userinterviews-blog
+    name: User Interviews Blog
+    kind: web_list
+    url: https://www.userinterviews.com/blog
+    tier: T1
+    mode: editorial
+    entity: user-interviews
+    web_list:
+      itemSelector: 'div.blog-item.w-dyn-item'
+      titleSelector: 'div[fs-cmsfilter-field="header"]'
+      linkSelector: 'a.content-feed-link-block.blog'
+      dateSelector: 'div.blog-grid-txt-wrap > div:last-child div.content-grid-eyebrow'
+    note: 日期必须限定在最后一个子 div 内，否则会先取到分类名；侧栏另有 24 条重复列表，已用 itemSelector 避开
+
+  - id: optimalworkshop-blog
+    name: Optimal Workshop Blog
+    kind: web_list
+    url: https://www.optimalworkshop.com/blog
+    tier: T1
+    mode: editorial
+    entity: optimal-workshop
+    web_list:
+      itemSelector: 'a.blog-item'
+      titleSelector: 'h2, h3'
+      linkSelector: ':scope'
+      dateSelector: null
+    note: ⚠️ 卡片只有阅读时长无日期 → dateSelector 为 null；1 条 featured(h2) + 6 条网格(h3)
+
+  - id: greatquestion-blog
+    name: Great Question Blog
+    kind: web_list
+    # 原 https://greatquestion.co/blog 会 301 到 www.greatquestion.com，统一用 www
+    url: https://www.greatquestion.com/blog
+    tier: T1
+    mode: editorial
+    entity: great-question
+    web_list:
+      itemSelector: 'div.mt-10 > a[href^="/blog/"], div.grid.gap-x-12.gap-y-14 > a'
+      titleSelector: 'h2'
+      linkSelector: ':scope'
+      dateSelector: 'div.font-mono span'
+    note: 已刻意排除 /blog/page/N 分页链接；featured 大卡的 span 文本是 Featured 而非日期，该条 date 为 null（预期）
+
+  - id: sprig-blog
+    name: Sprig Blog
+    kind: web_list
+    url: https://sprig.com/blog
+    tier: T1
+    mode: editorial
+    entity: sprig
+    web_list:
+      itemSelector: 'a.blog-cms-card'
+      titleSelector: 'h4'
+      linkSelector: ':scope'
+      dateSelector: 'div.text-size-tiny_v2'
+    note: itemSelector 命中 41 节点，含 16 条桌面/移动重复 DOM，按 URL 去重后约 25 条
+
+  - id: strella-blog
+    name: Strella Blog
+    kind: web_list
+    # 原 https://strella.io/blog 会 301 到 www.strella.io
+    url: https://www.strella.io/blog
+    tier: T1
+    mode: editorial
+    entity: strella
+    web_list:
+      itemSelector: 'div.collection-case-study-post.w-dyn-item, div.collection-side-item.w-dyn-item, div.collection-grid-item.w-dyn-item'
+      titleSelector: 'h2'
+      linkSelector: 'a[href^="/blog/"]'
+      dateSelector: 'div.data-text'
+    note: item 必须用容器层：日期在 a 的兄弟节点里（日期在 item 外），用 a 当 item 会漏掉 hero 与 side 共 3 条的日期
+
+  - id: maze-blog
+    name: Maze Blog
+    kind: web_list
+    url: https://maze.co/blog/
+    tier: T1
+    mode: editorial
+    entity: maze
+    web_list:
+      itemSelector: 'a[class*="BlogPostPreviewLink"]'
+      titleSelector: 'article > div:last-child > p'
+      linkSelector: ':scope'
+      dateSelector: null
+    note: >-
+      ⚠️ 文章链接带尾斜杠（/blog/xxx/），写正则时不可要求以字母数字结尾；
+      卡片无日期 → dateSelector 为 null；列表页仅 6 条 + /blog/page/N 分页；
+      itemSelector 依赖 styled-components 的组件名前缀（哈希后缀随构建变化，前缀稳定）
+
+  - id: dscout-people-nerds
+    name: dscout People Nerds
+    kind: web_list
+    url: https://dscout.com/people-nerds
+    tier: T1
+    mode: editorial
+    entity: dscout
+    web_list:
+      itemSelector: 'div.postpreview'
+      titleSelector: 'h1.postpreview_title'
+      linkSelector: 'a.postpreview_text'
+      dateSelector: 'p.postpreview_date'
+    note: 文章前缀是 /people-nerds/<slug> 而非 /blog/；日期格式混用（月全称与月缩写）
+
+  - id: mrs-news
+    name: MRS（英国市场研究协会）新闻
+    kind: web_list
+    url: https://www.mrs.org.uk/news
+    tier: T1
+    mode: editorial
+    entity: mrs
+    web_list:
+      itemSelector: 'div.guide_.blog_ a.guide_row'
+      titleSelector: 'h5'
+      linkSelector: ':scope'
+      dateSelector: 'div.blog_desc > p'
+    note: 列表混排 5 条 /article/mrs/ 与 5 条 /blog/<分类>/；必须限定容器，否则会误抓页脚那条链接

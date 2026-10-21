@@ -1,0 +1,163 @@
+# 主题页。slug 按 D4 精神「上线后不改」。
+# entityId 必须存在于 taxonomy.yaml 的 entities；tags 必须存在于 taxonomy.yaml 的 topicTags。
+#
+# 分组依据 AIHOT industry/topics.json 的三组结构（company / field / genre）。
+
+groups:
+  - key: company
+    name: 公司与平台
+    blurb: 按厂商追踪研究工具与研究机构的动态
+  - key: field
+    name: 研究方向
+    blurb: 按研究领域深挖：AI 访谈、合成用户、定性分析……
+  - key: genre
+    name: 内容类型
+    blurb: 按体裁浏览：论文、方法、提示词、案例、报告
+
+topics:
+  # ── 公司与平台（8–10 家）────────────────────────────────────────────
+  - slug: qualtrics
+    name: Qualtrics
+    group: company
+    entityId: qualtrics
+    definition: Qualtrics 的 XM 平台与 XM Institute 研究，以及体验管理产品的 AI 能力更新。
+
+  - slug: dovetail
+    name: Dovetail
+    group: company
+    entityId: dovetail
+    definition: Dovetail 的洞察库与研究分析产品更新，以及其对研究流程自动化的做法。
+
+  - slug: usertesting
+    name: UserTesting
+    group: company
+    entityId: usertesting
+    definition: UserTesting（含 UserZoom）的可用性测试与 AI 分析能力更新。
+
+  - slug: maze
+    name: Maze
+    group: company
+    entityId: maze
+    definition: Maze 的快速研究平台、AI 功能与研究方法内容。
+
+  - slug: nngroup
+    name: Nielsen Norman Group
+    group: company
+    entityId: nngroup
+    definition: NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。
+
+  - slug: ipsos
+    name: Ipsos
+    group: company
+    entityId: ipsos
+    definition: Ipsos 的市场与民意研究业务、AI 化产品与行业动作。
+
+  - slug: surveymonkey
+    name: SurveyMonkey
+    group: company
+    entityId: surveymonkey
+    definition: SurveyMonkey 的问卷产品 AI 能力与自助研究工具更新。
+
+  - slug: medallia
+    name: Medallia
+    group: company
+    entityId: medallia
+    definition: Medallia 的体验与反馈分析产品更新。
+
+  - slug: listen-labs
+    name: Listen Labs
+    group: company
+    entityId: listen-labs
+    definition: Listen Labs 的 AI 主持访谈产品与研究能力更新。
+
+  - slug: dscout
+    name: dscout
+    group: company
+    entityId: dscout
+    definition: dscout 的远程研究与日记研究产品，以及 People Nerds 上的方法内容。
+
+  # ── 研究方向 ────────────────────────────────────────────────────────
+  - slug: ai-interview
+    name: AI 访谈
+    group: field
+    tags: [AI 访谈]
+    definition: AI 主持或辅助访谈的实践、工具与效度证据。
+
+  - slug: synthetic-users
+    name: 合成用户
+    group: field
+    tags: [合成用户]
+    definition: 合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。
+
+  - slug: survey
+    name: 问卷与定量
+    group: field
+    tags: [问卷/定量]
+    definition: AI 辅助问卷设计、投放、清洗与定量分析。
+
+  - slug: qual-analysis
+    name: 定性分析
+    group: field
+    tags: [定性分析, 转写/编码]
+    definition: AI 辅助的定性编码、主题分析、亲和图与转写工具。
+
+  - slug: voc
+    name: 文本分析 / VOC
+    group: field
+    tags: [文本分析/VOC]
+    definition: 用 AI 分析用户反馈、评论、开放题与客服文本。
+
+  - slug: usability
+    name: 可用性测试
+    group: field
+    tags: [可用性测试]
+    definition: AI 参与的可用性测试设计、执行与结果分析。
+
+  - slug: research-ops
+    name: 洞察库与 ResearchOps
+    group: field
+    tags: [洞察库/ResearchOps, 招募/样本]
+    definition: 洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。
+
+  - slug: ethics
+    name: 研究伦理
+    group: field
+    tags: [研究伦理]
+    definition: 合成用户与 AI 研究的知情同意、隐私、偏见与合规争议。
+
+  - slug: careers
+    name: 岗位与职业
+    group: field
+    tags: [岗位/职业]
+    definition: AI 对用研岗位需求、技能结构与团队组织的影响。
+
+  # ── 内容类型 ────────────────────────────────────────────────────────
+  - slug: papers
+    name: 论文
+    group: genre
+    tags: [论文/研究]
+    definition: 有实验与数据的学术论文、技术报告与白皮书。
+
+  - slug: methods
+    name: 方法
+    group: genre
+    tags: [方法/实践]
+    definition: 能照着做的研究流程、模板与质检办法。
+
+  - slug: prompts
+    name: 提示词与模板
+    group: genre
+    tags: [提示词/模板]
+    definition: 可直接复用的研究用提示词与模板。
+
+  - slug: cases
+    name: 案例
+    group: genre
+    tags: [案例]
+    definition: 有具体规模、成本或质量数据的落地案例。
+
+  - slug: reports
+    name: 行业报告
+    group: genre
+    tags: [行业报告, 行业动态]
+    definition: 调研公司报告、行业协会规范与市场结构变化。

@@ -1,0 +1,335 @@
+# 分类、标签词表、实体表。供 prompts/structure.md（{{categoryGuide}} / {{categoryTags}} /
+# {{topicTags}} / {{entityTags}} / {{entities}}）与 tests/test_config.py 校验使用。
+#
+# ⚠️ 分类 key 按 D4 确认：上线后不改。
+
+# ── 分类（D4：6 类，必须有 industry 兜底）────────────────────────────────
+categories:
+  - key: tools
+    label: 工具
+    section: 工具发布/更新
+    commentary: false
+    guide: >-
+      研究工具、平台、插件、API 的发布与重大更新：AI 访谈/主持、合成用户、AI 问卷与文本分析、
+      洞察库、可用性测试、招募、转写编码。通用大模型发布不算，除非是研究工具厂商发布的研究专用能力。
+
+  - key: methods
+    label: 方法
+    section: 方法与实践
+    commentary: true
+    guide: >-
+      能照着做的研究方法、提示词、工作流、模板、质检办法、实践复盘。
+      纯介绍某工具的营销文归工具或剔除。
+
+  - key: research
+    label: 论文
+    section: 研究与证据
+    commentary: false
+    guide: >-
+      论文、技术报告、白皮书中的新实验与新发现：合成受访者效度、AI 访谈 vs 人工访谈、
+      LLM 编码一致性、AI 对研究岗位影响的实证。
+
+  - key: industry
+    label: 行业
+    section: 行业动态
+    commentary: false
+    guide: >-
+      已发生的研究行业事件：研究/调研公司融资并购上市裁员、产品下线、合作、岗位与组织变化、
+      隐私伦理监管、行业协会（ESOMAR、MRS）规范。材料不足时归这里。
+
+  - key: cases
+    label: 案例
+    section: 案例与落地
+    commentary: false
+    guide: >-
+      团队/公司把 AI 用进研究流程的真实案例，须有任务、规模、时间、质量、成本中至少一项具体信息。
+
+  - key: opinion
+    label: 观点
+    section: 观点与讨论
+    commentary: true
+    guide: >-
+      从业者/学者对 AI 与用研关系的判断、争论、预测、访谈。
+
+# ── 内容类型（与 selection-score.md 的权重表、content-understanding.md 一一对应）──
+itemTypes:
+  - tool_launch
+  - method_or_template
+  - research_paper
+  - industry_event
+  - case_study
+  - opinion_analysis
+  - tutorial_explainer
+
+# itemType → 第一个分类标签的自洽对照（供 content-understanding.md 输出前自查）
+itemTypeCategoryTag:
+  tool_launch: 工具发布
+  method_or_template: 方法/实践
+  research_paper: 论文/研究
+  industry_event: 行业动态
+  case_study: 案例
+  opinion_analysis: 观点/讨论
+  tutorial_explainer: 方法/实践
+
+# ── 日报报头统计用：`N 款新工具` ────────────────────────────────────────
+release:
+  category: tools
+  tag: 工具发布
+  unit: 款新工具
+
+# ── 分类标签（第一个必选其一）────────────────────────────────────────────
+categoryTags:
+  - 工具发布
+  - 功能更新
+  - 方法/实践
+  - 提示词/模板
+  - 论文/研究
+  - 行业报告
+  - 行业动态
+  - 融资/并购
+  - 案例
+  - 观点/讨论
+  - 伦理/隐私
+  - 岗位/职业
+  - 非用研/通用
+  - 其他
+
+# ── 主题标签（其后可选 0–5 个）──────────────────────────────────────────
+topicTags:
+  - AI 访谈
+  - 合成用户
+  - 问卷/定量
+  - 定性分析
+  - 文本分析/VOC
+  - 可用性测试
+  - 招募/样本
+  - 洞察库/ResearchOps
+  - 转写/编码
+  - 多模态
+  - Agent
+  - 行为数据
+  - 市场研究
+  - 学术 HCI
+  - 研究伦理
+
+# ── 实体标签（其后可选 0–5 个；只用这里的，不要创造新实体）──────────────
+entityTags:
+  - Qualtrics
+  - Dovetail
+  - UserTesting
+  - Maze
+  - Sprig
+  - Medallia
+  - Ipsos
+  - Kantar
+  - NN/g
+  - ESOMAR
+  - ACM CHI
+
+# ── 标签同义词归并（结构模型输出后按此归一，避免同一概念多个写法）──────────
+tagSynonyms:
+  合成用户:
+    - 合成受访者
+    - 虚拟用户
+    - synthetic users
+    - synthetic respondents
+    - digital twin
+  AI 访谈:
+    - AI moderated
+    - AI 主持
+    - AI 访谈员
+    - AI-moderated interview
+  文本分析/VOC:
+    - VoC
+    - 用户反馈分析
+    - voice of customer
+  融资/并购:
+    - 融资
+    - 收购
+    - 并购
+  方法/实践:
+    - 教程
+    - 指南
+    - 玩法
+  提示词/模板:
+    - prompt
+    - 提示词
+    - 模板
+  可用性测试:
+    - usability testing
+    - 易用性测试
+  定性分析:
+    - 质性分析
+    - qualitative analysis
+  洞察库/ResearchOps:
+    - ResearchOps
+    - 洞察库
+    - insight repository
+
+# ── 实体表 ─────────────────────────────────────────────────────────────
+# 用途：① 公司主题页（config/topics.yaml 的 entityId 必须在这里）
+#       ② 防张冠李戴：标题/摘要里出现的公司名，原文必须真的出现过
+# aliases 含中英文，用于召回与校验；domains 用于判定一手来源。
+entities:
+  - id: qualtrics
+    name: Qualtrics
+    aliases: [Qualtrics, XM Institute, 昆泰]
+    domains: [qualtrics.com, xm-institute.com]
+  - id: medallia
+    name: Medallia
+    aliases: [Medallia]
+    domains: [medallia.com]
+  - id: dovetail
+    name: Dovetail
+    aliases: [Dovetail]
+    domains: [dovetail.com]
+  - id: usertesting
+    name: UserTesting
+    aliases: [UserTesting, UserZoom]
+    domains: [usertesting.com, userzoom.com]
+  - id: maze
+    name: Maze
+    aliases: [Maze]
+    domains: [maze.co]
+  - id: sprig
+    name: Sprig
+    aliases: [Sprig]
+    domains: [sprig.com]
+  - id: contentsquare
+    name: Contentsquare
+    aliases: [Contentsquare, Hotjar]
+    domains: [contentsquare.com, hotjar.com]
+  - id: listen-labs
+    name: Listen Labs
+    aliases: [Listen Labs]
+    domains: [listenlabs.com]
+  - id: strella
+    name: Strella
+    aliases: [Strella]
+    domains: [strella.io]
+  - id: conveo
+    name: Conveo
+    aliases: [Conveo]
+    domains: [conveo.ai]
+  - id: outset
+    name: Outset
+    aliases: [Outset]
+    domains: [outset.ai]
+  - id: great-question
+    name: Great Question
+    aliases: [Great Question]
+    domains: [greatquestion.co]
+  - id: user-interviews
+    name: User Interviews
+    aliases: [User Interviews]
+    domains: [userinterviews.com]
+  - id: optimal-workshop
+    name: Optimal Workshop
+    aliases: [Optimal Workshop, OptimalSort, Treejack]
+    domains: [optimalworkshop.com]
+  - id: dscout
+    name: dscout
+    aliases: [dscout, People Nerds]
+    domains: [dscout.com]
+  - id: surveycto
+    name: SurveyCTO
+    aliases: [SurveyCTO]
+    domains: [surveycto.com]
+  - id: surveymonkey
+    name: SurveyMonkey
+    aliases: [SurveyMonkey, Momentive]
+    domains: [surveymonkey.com]
+  - id: maxqda
+    name: MAXQDA
+    aliases: [MAXQDA]
+    domains: [maxqda.com]
+  - id: quirkos
+    name: Quirkos
+    aliases: [Quirkos]
+    domains: [quirkos.com]
+  - id: delve
+    name: Delve
+    aliases: [Delve]
+    domains: [delvetool.com]
+  - id: quantilope
+    name: quantilope
+    aliases: [quantilope]
+    domains: [quantilope.com]
+  - id: mopinion
+    name: Mopinion
+    aliases: [Mopinion]
+    domains: [mopinion.com]
+  - id: dynata
+    name: Dynata
+    aliases: [Dynata]
+    domains: [dynata.com]
+  - id: cint
+    name: Cint
+    aliases: [Cint]
+    domains: [cint.com]
+  - id: prodege
+    name: Prodege
+    aliases: [Prodege]
+    domains: [prodege.com]
+  - id: testingtime
+    name: TestingTime
+    aliases: [TestingTime]
+    domains: [testingtime.com]
+  - id: ipsos
+    name: Ipsos
+    aliases: [Ipsos, 益普索]
+    domains: [ipsos.com]
+  - id: kantar
+    name: Kantar
+    aliases: [Kantar, 凯度]
+    domains: [kantar.com]
+  - id: nielsen
+    name: Nielsen
+    aliases: [Nielsen, 尼尔森]
+    domains: [nielsen.com]
+  - id: nngroup
+    name: Nielsen Norman Group
+    aliases: [Nielsen Norman Group, NN/g, NNg, 尼尔森诺曼]
+    domains: [nngroup.com]
+  - id: esomar
+    name: ESOMAR
+    aliases: [ESOMAR]
+    domains: [esomar.org]
+  - id: mrs
+    name: MRS
+    aliases: [Market Research Society, MRS]
+    domains: [mrs.org.uk]
+  - id: aapor
+    name: AAPOR
+    aliases: [AAPOR, American Association for Public Opinion Research]
+    domains: [aapor.org]
+  - id: uxpa
+    name: UXPA
+    aliases: [UXPA, User Experience Professionals Association]
+    domains: [uxpa.org]
+  - id: wjx
+    name: 问卷星
+    aliases: [问卷星, WJX, wjx.cn]
+    domains: [wjx.cn]
+  - id: tencent-wj
+    name: 腾讯问卷
+    aliases: [腾讯问卷]
+    domains: [wj.qq.com]
+
+# ── 通用词（周报总述校验时豁免；这些词不算「条目里没有的名字」）──────────
+plainTerms:
+  - ai
+  - ux
+  - ui
+  - llm
+  - nps
+  - csat
+  - ces
+  - voc
+  - jtbd
+  - sus
+  - b2b
+  - saas
+  - ceo
+  - cx
+  - hci
