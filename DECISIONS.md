@@ -52,8 +52,13 @@
 
 **确认值**：采纳实测名单，**去掉偏题的 4 个**（Smashing Magazine、McKinsey Insights、JMIR、AMA）
 
+**2026-10-21 修订（用户第二次确认）**：补充 3 个 web_list 源（Maze、dscout People Nerds、MRS）与 4 本对口期刊（BIT、HCI、JMMR、IJMR）。见文末「修订记录」。
+
 - 全部信源均由执行模型实测：HTTP 200 + 有条目 + 日期可解析。
 - 计划 §4.4 初稿里直接写死的地址**大部分不可用**（21 个 404/403/SSL 失败），已按实测结果替换。
+
+> ⚠️ **注意区分两件事**：feed 地址 404 ≠ 该站点抓不到内容。计划初稿里的地址确实不存在，
+> 但其中多数站点本身可达、列表页可抽，改用 `web_list` 即可。实测 10 个被点名域名中 **8 个能抓到内容**。
 
 ### 入选：29 个 RSS（editorial）
 
@@ -84,12 +89,21 @@
 
 > ⚠️ `testingtime` 最后更新 2026-07-09（约 103 天前），偏冷。阶段 3 的 `check_sources.py` 复验；仍不更新则移出。
 
-**T2 学术 — 2 个**
+**T2 学术 — 6 个**
 
 | id | 名称 | feed |
 |---|---|---|
 | `arxiv-cs-hc` | arXiv cs.HC | `https://export.arxiv.org/rss/cs.HC` |
 | `frontiers-cs` | Frontiers in Computer Science | `https://www.frontiersin.org/journals/computer-science/rss` |
+| `bit` | Behaviour & Information Technology（行为与信息技术，HCI/UX） | `https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tbit20` |
+| `hci-journal` | Human-Computer Interaction（人机交互） | `https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=hhci20` |
+| `jmmr` | Journal of Mixed Methods Research（混合方法研究杂志） | `https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=mmra&type=etoc&feed=rss` |
+| `ijmr` | International Journal of Market Research（国际市场研究杂志） | `https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=mrea&type=etoc&feed=rss` |
+
+来源：后 4 本复用 `ur-ai-papers/config/journals.yaml` 的 `rss` 字段（计划 §4.4 指定的做法）。
+实测该文件 20 条 RSS 中 10 条可用，此处只取与 HCI／研究方法学最对口的 4 本；
+`JMR / JM / MktSci / JCP / JCA / JSR` 属纯营销期刊，噪声高，暂不纳入。
+`IJHCS`、`JR` 虽有条目但**日期解析不出**，暂不纳入（无日期会破坏「旧文不刷屏」规则）。
 
 **T2 媒体与个人 — 7 个**
 
@@ -112,7 +126,7 @@
 | `reddit-uxresearch` | Reddit r/UXResearch | `https://www.reddit.com/r/UXResearch/.rss` |
 | `hnrss-user-research` | HNRSS 关键词 user research | `https://hnrss.org/newest?q=user+research` |
 
-### 入选：6 个 web_list（无 RSS，用网页列表抓取；均为 T1）
+### 入选：9 个 web_list（无 RSS，用网页列表抓取；均为 T1）
 
 | id | 名称 | 列表页 |
 |---|---|---|
@@ -122,10 +136,15 @@
 | `greatquestion-blog` | Great Question Blog | `https://greatquestion.co/blog` |
 | `sprig-blog` | Sprig Blog | `https://sprig.com/blog` |
 | `strella-blog` | Strella Blog | `https://strella.io/blog` |
+| `maze-blog` | Maze Blog | `https://maze.co/blog/` |
+| `dscout-people-nerds` | dscout People Nerds | `https://dscout.com/people-nerds` |
+| `mrs-news` | MRS（英国市场研究协会）新闻 | `https://www.mrs.org.uk/news` |
 
 选择器（`itemSelector/titleSelector/linkSelector/dateSelector`）在阶段 3 逐个实测确定。
+实测每页可抽到的文章链接数：User Interviews 32、Sprig 25、Great Question 15、UserTesting 12、
+Maze 7、Optimal Workshop 7、MRS 5；dscout 用 `/people-nerds/` 前缀（非 `/blog/`）。
 
-**合计 37 个信源**（T1 26 / T2 9 / hot_signal 2），超过计划门槛「≥30 个成功、T1 ≥10」。
+**合计 44 个信源**（T1 29 / T2 13 / hot_signal 2），超过计划门槛「≥30 个成功、T1 ≥10」。
 
 ### 明确排除，及理由
 
@@ -145,7 +164,16 @@
 
 **用户指定去掉的偏题源**：Smashing Magazine（前端/设计）、McKinsey Insights（泛商业咨询）、JMIR（医学信息学）、AMA（泛营销）。
 
-**二期候选（JS 渲染，静态抓取拿不到列表，需无头浏览器）**：Maze、Outset、Conveo。`lookback.com/blog` 返回 404，博客地址待查。
+**站点本身抓不到（非 RSS 问题，整站不可用）**
+
+| 域名 | 实测 | 原因 |
+|---|---|---|
+| `dl.acm.org`（TOCHI / TiiS / CHI eTOC） | **403** | 整站 Cloudflare 拦截，不只是 RSS 失效。计划 §4.4 说「复用 journals.yaml 的 rss 字段」，该字段对 ACM 已失效 |
+| `esomar.org` | 200 但 15 KB | Next.js 全客户端渲染，HTML 里没有任何文章链接，静态抓取拿不到；需无头浏览器 |
+
+**二期候选（需无头浏览器）**：ESOMAR。`lookback.com/blog` 返回 404，博客地址待查。
+
+**已实测但暂不纳入的期刊**：`JMR`、`JM`、`MktSci`、`JCP`、`JCA`、`JSR`（纯营销/消费者，噪声高）；`IJHCS`、`JR`（有条目但日期解析不出，会破坏「旧文不刷屏」）。
 
 ## D6 托管
 
@@ -235,3 +263,4 @@
 | 日期 | 变更 | 依据 |
 |---|---|---|
 | 2026-10-21 | D1–D12 首次确认 | 用户在决策表选项中选择 |
+| 2026-10-21 | **D5 修订**：新增 3 个 web_list（Maze、dscout People Nerds、MRS）+ 4 本期刊（BIT、HCI、JMMR、IJMR）；信源总数 37 → 44 | 用户就「这些站点是否真的抓不到内容」追问后，执行模型重新实测并更正误判；用户在补充选项中选定 |

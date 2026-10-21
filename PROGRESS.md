@@ -108,6 +108,67 @@ Maze、UserTesting、User Interviews、Optimal Workshop、Great Question、Sprig
 **遗留问题**
 
 1. `testingtime`（停更 103 天）、`uxmag`（停更 112 天）偏冷，阶段 3 复验后决定去留。
-2. 6 个 `web_list` 信源的选择器（`itemSelector/titleSelector/linkSelector/dateSelector`）尚未实测，阶段 3 逐个确定。
-3. Maze、Outset、Conveo 为 JS 渲染，静态抓取拿不到列表，列二期候选；`lookback.com/blog` 返回 404，博客地址待查。
+2. **9 个** `web_list` 信源的选择器（`itemSelector/titleSelector/linkSelector/dateSelector`）尚未实测，阶段 3 逐个确定。
+3. Outset、Conveo、ESOMAR 为 JS 渲染，静态抓取拿不到列表，列二期候选；`lookback.com/blog` 返回 404，博客地址待查。
+   （**注**：Maze 原先被误判为同类，已在下方「阶段 2 补充」更正为可抓。）
 4. **仓库名与计划默认值不同**：用户选定 `huangzhenhao90/ai-ux-research-hot`，`siteUrl` 须为 `https://huangzhenhao90.github.io/ai-ux-research-hot`（不是计划里预填的 `/uxhot`）。
+
+---
+
+## 阶段 2 补充：误判更正（2026-10-21）
+
+用户追问「括号里的这些都没有抓到内容吗？」，复查后发现执行模型**两处误判**与**计划一处错误**，已更正并扩充 D5。
+
+### 误判一：把「feed 地址 404」等同于「抓不到内容」
+
+初次汇报时把「计划里写死的 feed 地址返回 404」表述成了这些源不可用。**这两件事不同**：地址不存在，但站点本身可达、列表页可抽。
+
+复查结果：用户点名的 10 个域名中，**8 个能抓到内容**，只有 2 个真的抓不到。
+
+| 域名 | 首页 | 列表页 | 抽出文章链接 | 结论 |
+|---|---|---|---|---|
+| Maze | 200 | 200 | 7 | ✅ 可抓 |
+| UserTesting | 200 | 200 | 12 | ✅ 已列入 D5 |
+| User Interviews | 200 | 200 | 32 | ✅ 已列入 D5 |
+| Optimal Workshop | 200 | 200 | 7 | ✅ 已列入 D5 |
+| Great Question | 200 | 200 | 15 | ✅ 已列入 D5 |
+| Sprig | 200 | 200 | 25 | ✅ 已列入 D5 |
+| MRS | 200 | 200 | 5 | ✅ 可抓 |
+| dscout People Nerds | 200 | 200 | 多条 | ✅ 可抓 |
+| ESOMAR | 200 | 200 | 0 | ❌ Next.js 全客户端渲染 |
+| ACM (dl.acm.org) | **403** | **403** | 0 | ❌ 整站 Cloudflare 拦截 |
+
+### 误判二：两个源的正则/前缀写错，导致漏判
+
+- **Maze**：曾判定「JS 渲染、拿不到列表」。实际能抽到 `/blog/ai-for-market-research/`、`/blog/maze-mcp-best-practices/` 等真实链接。
+  **原因**：探测正则写成 `href="/blog/[a-z0-9-]{8,}"`，要求以字母数字结尾；而 Maze 的文章链接**带尾斜杠**（`/blog/xxx/`），被整类漏掉。
+- **dscout People Nerds**：曾按 `/blog/` 前缀找，而 dscout 用的是 `/people-nerds/` 前缀，因此抽到 0 条。
+  **原因**：假设了所有博客都用 `/blog/`，没有先看页面实际链接模式。
+
+→ **教训（写入阶段 3 检查脚本的要求）**：`check_sources.py` 探测 `web_list` 时，必须先看目标页真实链接模式再写选择器，不能用固定前缀假设；正则要允许尾斜杠。
+
+### 计划本身的错误：ACM
+
+计划 §4.4 说「ACM CHI/CSCW/TOCHI eTOC RSS（直接复用 `ur-ai-papers/config/journals.yaml` 的 rss 字段）」。照做后发现 `dl.acm.org` **整站 403**，`journals.yaml` 里 ACM 的 rss 字段已失效。
+
+于是把该文件**全部 20 条 RSS 实测一遍：10 条可用**。
+
+| 可用期刊 | 领域 | 条目 | 最新 |
+|---|---|---|---|
+| BIT Behaviour & Information Technology | HCI, UX | 285 | 2026-10-21 |
+| HCI Human-Computer Interaction | HCI | 19 | 2026-10-15 |
+| JMMR Journal of Mixed Methods Research | 研究方法 | 26 | 2026-10-14 |
+| IJMR International Journal of Market Research | 研究方法 | 16 | 2026-10-12 |
+| JMR Journal of Marketing Research | 研究方法+营销 | 26 | 2026-10-10 |
+| JM / MktSci / JSR / JCP / JCA | 营销、消费者 | 6–63 | 2026-08 ~ 10 |
+| IJHCS / JR | HCI / 零售 | 22 / 55 | ⚠️ 日期解析不出 |
+
+不可用：TOCHI、TiiS、IwC、JIM、JCR、JAMS、APS、Design Issues。
+
+### 用户确认的扩充（D5 修订）
+
+- 新增 3 个 web_list：Maze、dscout People Nerds、MRS
+- 新增 4 本期刊：BIT、HCI、JMMR、IJMR（只取与 HCI／研究方法学最对口的；纯营销期刊噪声高，暂不纳入）
+- **信源总数 37 → 44**（T1 29 / T2 13 / hot_signal 2）
+
+详见 `DECISIONS.md` 的 D5 与修订记录。
