@@ -1,0 +1,24 @@
+UXHOT
+Copyright (c) 2026 huangzhenhao90. 代码以 MIT 许可证发布（见 LICENSE）。
+
+本项目改编自 AIHOT
+------------------
+
+本站的精选流程设计——预筛、同一评分标准独立打两次分、按信源分级设门槛、内容理解写作、
+去重与日报编排规则、金标校准方法——改编自开源项目 AIHOT：
+
+    AIHOT (https://github.com/KKKKhazix/AIHOT)
+    Copyright (c) 2026 数字生命卡兹克
+    MIT License (https://github.com/KKKKhazix/AIHOT/blob/main/LICENSE)
+    改编所依据的版本：commit a0d1e75
+
+`prompts/` 下的提示词逐文件改编自 AIHOT `industry/prompts/` 中的对应文件，
+每个文件的来源在 `prompts/README.md` 中逐条注明。
+
+注意：AIHOT 的名称与 Logo 不在 MIT 许可范围内。本站不使用 AIHOT 的名称与 Logo，
+只在「关于」页保留一行致谢。
+
+第三方材料
+----------
+
+本站采集的信源内容版权归各发布方所有；默认只展示摘要与原文链接。

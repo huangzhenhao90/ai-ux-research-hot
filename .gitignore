@@ -1,0 +1,31 @@
+# 环境与密钥
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.coverage
+
+# Node / Next.js
+node_modules/
+web/.next/
+web/out/
+web/next-env.d.ts
+*.tsbuildinfo
+
+# 数据与产物（公开 JSON 由 publish 生成，需提交 web/public/data）
+data/runs/*.json
+!data/runs/.gitkeep
+eval/gold_candidates.xlsx
+eval/gold.jsonl
+eval/cache/
+
+# 系统
+.DS_Store
+screenshots/**/*.png
+!screenshots/.gitkeep
