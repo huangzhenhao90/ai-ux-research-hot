@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Fixture No Dates</title>
+    <link>https://fixture-nodate.example.com</link>
+    <description>测试无日期处理</description>
+    <item>
+      <title>Item with no date at all</title>
+      <link>https://fixture-nodate.example.com/no-date</link>
+      <description>This item has no pubDate and no updated field.</description>
+    </item>
+    <item>
+      <title>Item with future date</title>
+      <link>https://fixture-nodate.example.com/future</link>
+      <pubDate>Fri, 01 Jan 2027 00:00:00 +0000</pubDate>
+      <description>Journal-style future issue date that must not be treated as fresh.</description>
+    </item>
+  </channel>
+</rss>

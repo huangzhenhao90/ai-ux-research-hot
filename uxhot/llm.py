@@ -245,6 +245,69 @@ class LLMClient:
 
         raise LLMError(f"调用失败（{attempts} 次尝试）：{last_error}")
 
+    def complete_text(
+        self,
+        prompt: str,
+        *,
+        step: str = "write",
+        model: str | None = None,
+        temperature: float | None = None,
+        max_retries: int = 1,
+    ) -> str:
+        """要一段纯文本。
+
+        `summarize-*.md` 这几份提示词要求输出 `title_zh: ...` / `summary_zh: ...`
+        这种行格式（保留 AIHOT 原结构），不是 JSON，所以不能走 JSON 模式。
+        """
+        self.ensure_ready()
+        use_model = model or self.config.model_for(step)
+        attempts = max_retries + 1
+        last_error: str | None = None
+
+        for attempt in range(1, attempts + 1):
+            try:
+                kwargs: dict[str, Any] = {
+                    "model": use_model,
+                    "messages": [{"role": "user", "content": prompt}],
+                }
+                if temperature is not None:
+                    kwargs["temperature"] = temperature
+
+                resp = self._sdk().chat.completions.create(**kwargs)
+                text = (resp.choices[0].message.content or "").strip()
+                if not text:
+                    raise LLMError("模型返回空内容")
+
+                usage = getattr(resp, "usage", None)
+                self.records.append(
+                    CallRecord(
+                        step=step,
+                        model=use_model,
+                        ok=True,
+                        prompt_chars=len(prompt),
+                        prompt_tokens=getattr(usage, "prompt_tokens", 0) or 0,
+                        completion_tokens=getattr(usage, "completion_tokens", 0) or 0,
+                        attempts=attempt,
+                    )
+                )
+                return text
+
+            except Exception as exc:  # noqa: BLE001
+                last_error = f"{type(exc).__name__}: {exc}"
+                if attempt == attempts:
+                    self.records.append(
+                        CallRecord(
+                            step=step,
+                            model=use_model,
+                            ok=False,
+                            prompt_chars=len(prompt),
+                            attempts=attempt,
+                            error=last_error,
+                        )
+                    )
+
+        raise LLMError(f"调用失败（{attempts} 次尝试）：{last_error}")
+
     # ── 审计 ──────────────────────────────────────────────────────────
 
     @property

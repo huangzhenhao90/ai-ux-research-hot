@@ -1,0 +1,407 @@
+{
+  "dovetail-blog": {
+    "etag": null,
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "nngroup": {
+    "etag": null,
+    "lastModified": "Sat, 17 Oct 2026 14:55:28 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "medallia": {
+    "etag": "W/\"3f130806e76831d3889c1a82e6aa31c5-gzip\"",
+    "lastModified": "Tue, 20 Oct 2026 21:13:27 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "qualtrics": {
+    "etag": "\"1792591072\"",
+    "lastModified": "Wed, 21 Oct 2026 13:57:52 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "xm-institute": {
+    "etag": null,
+    "lastModified": null,
+    "firstImportAt": null,
+    "lastFetchAt": null,
+    "consecutiveFailures": 1,
+    "lastError": "ConnectTimeout: _ssl.c:989: The handshake operation timed out",
+    "extra": {}
+  },
+  "listen-labs": {
+    "etag": "W/\"6710e0ac4fada6f4e3dd90a577309eed\"",
+    "lastModified": "Wed, 21 Oct 2026 05:56:18 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "maxqda": {
+    "etag": "\"35a7d0b22a1b26d0e07af210267d4fe2-gzip\"",
+    "lastModified": "Wed, 21 Oct 2026 09:55:05 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "quirkos": {
+    "etag": "W/\"50923-cg9CXs9fz5mnY7yK3JVL+S6iKXk\"",
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "delve": {
+    "etag": "W/\"c7438ce4d9194dc6ac98b45d4225bdff\"",
+    "lastModified": "Wed, 21 Oct 2026 08:08:51 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "surveycto": {
+    "etag": "\"a6a39cc51393f3374caca5072f2aabd0\"",
+    "lastModified": "Wed, 21 Oct 2026 14:45:13 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "surveymonkey": {
+    "etag": null,
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "quantilope": {
+    "etag": "W/\"0d534c684328c415c8fd368bd8b4f76d\"",
+    "lastModified": "Tue, 20 Oct 2026 12:00:50 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "mopinion": {
+    "etag": "\"d7c031109e1488ff76fc3bd0d1ccf1c6-gzip\"",
+    "lastModified": "Wed, 21 Oct 2026 14:42:44 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "dynata": {
+    "etag": "\"f583886a3e73c24724e649b6d9260226\"",
+    "lastModified": "Wed, 21 Oct 2026 13:02:12 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "cint": {
+    "etag": "W/\"4b11db887e743c117509fe65825146b5\"",
+    "lastModified": "Tue, 20 Oct 2026 20:52:57 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "prodege": {
+    "etag": "W/\"ca15ab1d135d25cc04ee59db283a486b\"",
+    "lastModified": "Tue, 20 Oct 2026 15:49:49 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "ipsos": {
+    "etag": "W/\"1792590296\"",
+    "lastModified": "Wed, 21 Oct 2026 13:44:56 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "aapor": {
+    "etag": "\"f8034edbc958b1470fc4eac81f599491\"",
+    "lastModified": "Wed, 21 Oct 2026 14:22:53 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "uxpa": {
+    "etag": "\"e2895c97e0aa35f22d35c78d5f1325aa\"",
+    "lastModified": "Mon, 12 Oct 2026 17:32:55 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "testingtime": {
+    "etag": "\"e621f80ce5f662373a351d57eaf734a8-gzip\"",
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "arxiv-cs-hc": {
+    "etag": "8a4a842cfaa05f6b406010155954f44c67cfdd6d6a05baa5e5a4efd397cea5d3",
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "frontiers-cs": {
+    "etag": null,
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "bit": {
+    "etag": null,
+    "lastModified": "Wed, 21 Oct 2026 10:08:52 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "hci-journal": {
+    "etag": null,
+    "lastModified": "Sat, 17 Oct 2026 09:30:52 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "jmmr": {
+    "etag": null,
+    "lastModified": "Wed, 14 Oct 2026 00:11:19 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "ijmr": {
+    "etag": null,
+    "lastModified": "Tue, 20 Oct 2026 05:54:57 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "measuringu": {
+    "etag": "W/\"d93d32c80cff01651c97daf9e52bbdc3\"",
+    "lastModified": "Tue, 20 Oct 2026 21:59:50 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "producttalk": {
+    "etag": "W/\"3fae1-I7jT2hE7VB+TCDeyT1uVcQ6AY7o\"",
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "uxdesign-cc": {
+    "etag": null,
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "rosenfeldmedia": {
+    "etag": null,
+    "lastModified": null,
+    "firstImportAt": null,
+    "lastFetchAt": null,
+    "consecutiveFailures": 1,
+    "lastError": "HTTP 522",
+    "extra": {}
+  },
+  "jakobnielsenphd": {
+    "etag": "W/\"452942-QAL66cg2W2Q+lw1pr9DicNE4on4\"",
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "johnnyholland": {
+    "etag": null,
+    "lastModified": "Wed, 21 Oct 2026 03:31:34 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "uxmag": {
+    "etag": "W/\"822f6b3ee093e255047d76bd6bae984a\"",
+    "lastModified": "Thu, 09 Jul 2026 10:05:07 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "reddit-uxresearch": {
+    "etag": null,
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "hnrss-user-research": {
+    "etag": null,
+    "lastModified": null,
+    "firstImportAt": null,
+    "lastFetchAt": null,
+    "consecutiveFailures": 1,
+    "lastError": "HTTP 502",
+    "extra": {}
+  },
+  "usertesting-blog": {
+    "etag": "\"1792575324-gzip\"",
+    "lastModified": "Wed, 21 Oct 2026 09:35:24 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "userinterviews-blog": {
+    "etag": null,
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "optimalworkshop-blog": {
+    "etag": null,
+    "lastModified": "Wed, 21 Oct 2026 07:18:16 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "greatquestion-blog": {
+    "etag": "W/\"3a050d89f19619ca10fd1e00cd7dbf20\"",
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "sprig-blog": {
+    "etag": null,
+    "lastModified": "Tue, 20 Oct 2026 23:28:00 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "strella-blog": {
+    "etag": null,
+    "lastModified": "Wed, 21 Oct 2026 13:34:48 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "maze-blog": {
+    "etag": "\"3e89199f25eab994244e513afe30cdda-ssl-df\"",
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "dscout-people-nerds": {
+    "etag": null,
+    "lastModified": "Wed, 21 Oct 2026 13:24:56 GMT",
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "mrs-news": {
+    "etag": null,
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  },
+  "ur-ai-papers": {
+    "etag": "W/\"14f77b9e6d98b8fcb4feb5c922804d6f921784783ed8a31246e0073faab51f37\"",
+    "lastModified": null,
+    "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
+    "extra": {}
+  }
+}

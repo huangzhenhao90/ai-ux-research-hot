@@ -1,0 +1,26 @@
+{
+  "month": "2022-02",
+  "count": 1,
+  "items": [
+    {
+      "id": "660c0f2358f53252",
+      "sourceId": "uxmag",
+      "sourceName": "UX Magazine",
+      "tier": "T2",
+      "url": "https://uxmag.com/articles/the-ukrainian-ux-magazine-community-is-asking-for-your-help",
+      "title": "We stand with Ukraine. Here are ways you can help.",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2022-02-26T15:43:28+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "archived",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
+}

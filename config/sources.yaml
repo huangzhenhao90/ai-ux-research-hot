@@ -426,3 +426,17 @@ sources:
       linkSelector: ':scope'
       dateSelector: 'div.blog_desc > p'
     note: 列表混排 5 条 /article/mrs/ 与 5 条 /blog/<分类>/；必须限定容器，否则会误抓页脚那条链接
+
+  # ══ 外部 JSON 信源（D12：并入 ur-ai-papers 的高分论文）══════════════════
+  - id: ur-ai-papers
+    name: ur-ai-papers（用户与交互 AI 论文库）
+    kind: external_json
+    url: https://raw.githubusercontent.com/huangzhenhao90/ur-ai-papers/main/web/public/data/papers.json
+    tier: T2
+    mode: editorial
+    initialBackfillLimit: 8
+    note: >-
+      ⚠️ 只读上游：不得修改、提交、推送或停用 ur-ai-papers 仓库（其 AGENTS.md 契约 1）。
+      实测 1857 篇，字段含 ai_score/domain_score（1–5）、tldr、title_zh。
+      只取近 30 天内且 ai_score ≥ 4 的论文，否则一次会灌进上千条。
+      ⚠️ date 会到 2027-01（期刊提前标期号），这类未来日期按不可信处理、不公开。

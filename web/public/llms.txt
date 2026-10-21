@@ -1,0 +1,21 @@
+# UXHOT · AI 用研热点
+
+> AI 用研的每日精选｜AI 用研
+
+UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学术与行业媒体收集AI 用研的动态，模型双评分筛出值得看的，每天早上 08:00 后出日报。站点是纯静态页面，不调模型、不访问后端，页面上的链接都指向原文。
+
+入口：
+
+- [首页](https://huangzhenhao90.github.io/ai-ux-research-hot/)：今日精选
+- [全部动态](https://huangzhenhao90.github.io/ai-ux-research-hot/all/)：含未入选的条目
+- [日报](https://huangzhenhao90.github.io/ai-ux-research-hot/daily/)：每天早上 08:00 后出刊
+- [周报](https://huangzhenhao90.github.io/ai-ux-research-hot/weekly/)：周一汇编上周
+- [分类](https://huangzhenhao90.github.io/ai-ux-research-hot/categories/)：AI 用研的六个方向
+- [主题](https://huangzhenhao90.github.io/ai-ux-research-hot/topics/)：按公司与研究方向追踪
+- [关于本站](https://huangzhenhao90.github.io/ai-ux-research-hot/about/)：做什么、怎么选、信源名单
+- [RSS（精选）](https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml)
+- [RSS（日报）](https://huangzhenhao90.github.io/ai-ux-research-hot/rss-daily.xml)
+
+## 最新精选
+
+- 暂无精选。

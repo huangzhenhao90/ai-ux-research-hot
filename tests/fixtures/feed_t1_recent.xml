@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Fixture T1 Research Tools</title>
+    <link>https://fixture-t1.example.com</link>
+    <description>测试用 T1 信源</description>
+    <item>
+      <title>Acme launches AI-moderated interview feature</title>
+      <link>https://fixture-t1.example.com/blog/ai-interview?utm_source=rss&amp;utm_medium=feed</link>
+      <pubDate>Tue, 21 Oct 2026 08:00:00 +0000</pubDate>
+      <description>Acme released an AI-moderated interview feature today. It runs on the existing panel and costs $0.50 per interview.</description>
+    </item>
+    <item>
+      <title>Dovetail adds synthetic respondent validation checks</title>
+      <link>https://fixture-t1.example.com/blog/synthetic-validation/</link>
+      <pubDate>Tue, 21 Oct 2026 09:30:00 +0000</pubDate>
+      <description>Dovetail added validation checks for synthetic respondents, reporting inter-rater reliability against a human-coded baseline of 0.72.</description>
+    </item>
+    <item>
+      <title>Old post from two weeks ago</title>
+      <link>https://fixture-t1.example.com/blog/old-post</link>
+      <pubDate>Sat, 10 Oct 2026 08:00:00 +0000</pubDate>
+      <description>This item is older than freshHours and should be archived.</description>
+    </item>
+  </channel>
+</rss>

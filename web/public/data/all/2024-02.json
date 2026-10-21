@@ -1,0 +1,26 @@
+{
+  "month": "2024-02",
+  "count": 1,
+  "items": [
+    {
+      "id": "b50b079513af6053",
+      "sourceId": "testingtime",
+      "sourceName": "TestingTime",
+      "tier": "T1",
+      "url": "https://www.testingtime.com/blog/ux-writing-framework/",
+      "title": "UX-Writing: Ein praxisnahes Framework",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2024-02-01T10:42:09+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "archived",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
+}

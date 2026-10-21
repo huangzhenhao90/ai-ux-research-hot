@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Fixture T2 Media</title>
+    <link>https://fixture-t2.example.com</link>
+    <description>测试用 T2 信源</description>
+    <item>
+      <title>Study finds synthetic users overestimate SUS scores</title>
+      <link>https://fixture-t2.example.com/study-synthetic-sus</link>
+      <pubDate>Tue, 21 Oct 2026 06:00:00 +0000</pubDate>
+      <description>A controlled study compared synthetic respondents with 1,204 real participants and found SUS scores overestimated by 12 points (p&lt;0.05).</description>
+    </item>
+    <item>
+      <title>Stale media item</title>
+      <link>https://fixture-t2.example.com/stale</link>
+      <pubDate>Fri, 02 Oct 2026 10:00:00 +0000</pubDate>
+      <description>Older than freshHours.</description>
+    </item>
+  </channel>
+</rss>

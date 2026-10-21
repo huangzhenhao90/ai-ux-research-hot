@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UXHOT · AI 用研热点</title>
+    <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
+    <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 21 Oct 2026 14:44:20 GMT</lastBuildDate>
+    <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
+    <generator>UXHOT publish/rss_out.py</generator>
+  </channel>
+</rss>

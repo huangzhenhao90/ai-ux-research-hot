@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-10-21T14:44:20.522731+00:00",
+  "categories": [
+    {
+      "key": "tools",
+      "label": "工具",
+      "section": "工具发布/更新",
+      "commentary": false,
+      "count": 0
+    },
+    {
+      "key": "methods",
+      "label": "方法",
+      "section": "方法与实践",
+      "commentary": true,
+      "count": 0
+    },
+    {
+      "key": "research",
+      "label": "论文",
+      "section": "研究与证据",
+      "commentary": false,
+      "count": 0
+    },
+    {
+      "key": "industry",
+      "label": "行业",
+      "section": "行业动态",
+      "commentary": false,
+      "count": 0
+    },
+    {
+      "key": "cases",
+      "label": "案例",
+      "section": "案例与落地",
+      "commentary": false,
+      "count": 0
+    },
+    {
+      "key": "opinion",
+      "label": "观点",
+      "section": "观点与讨论",
+      "commentary": true,
+      "count": 0
+    }
+  ]
+}

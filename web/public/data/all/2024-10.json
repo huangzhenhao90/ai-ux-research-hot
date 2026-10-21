@@ -1,0 +1,26 @@
+{
+  "month": "2024-10",
+  "count": 1,
+  "items": [
+    {
+      "id": "13c2b225a0577e37",
+      "sourceId": "maxqda",
+      "sourceName": "MAXQDA",
+      "tier": "T1",
+      "url": "https://www.maxqda.com/blogpost/maxqda-24-6-update",
+      "title": "MAXQDA 24.6 update",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2024-10-22T14:00:58+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "archived",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
+}

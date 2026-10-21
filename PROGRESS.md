@@ -314,3 +314,96 @@ Maze、UserTesting、User Interviews、Optimal Workshop、Great Question、Sprig
 2. 两次评分在论文类上差 11 分，需在金标评测里观察是否普遍。
 3. 用户确认保留的两处子代理判断：`rules-domain.md` 里额外保留「国内 AI 厂商中文品牌名」一行；
    `summarize-short-post.md` 新增一条用研语境的「优先保留」（AIHOT 原文件没有）。
+
+---
+
+## 阶段 5：流水线（Python）— ✅ 完成（2026-10-21）
+
+**做了什么**
+
+| 模块 | 内容 |
+|---|---|
+| `uxhot/models.py` | `Item` 数据模型（计划 §5.1 全字段）、`Status` 生命周期、JSONL 存取、按 id 合并 |
+| `uxhot/collect/dates.py` | 时区解析、**未来日期拦截**、`freshHours` 判断、日报窗口 `day_bounds_bj` |
+| `uxhot/collect/fetch.py` | HTTP 抓取（条件请求 ETag/Last-Modified）、正文抽取、语言探测 |
+| `uxhot/collect/rss.py` | RSS/Atom 采集 + 「旧文不刷屏」 |
+| `uxhot/collect/web_list.py` | 网页列表采集（选择器来自 `sources.yaml`）+ 列表页无日期时抓正文页补 |
+| `uxhot/collect/external_json.py` | **D12：`ur-ai-papers` 适配器**（只读上游） |
+| `uxhot/pipeline/normalize.py` | URL 规范化、标题相似度 |
+| `uxhot/pipeline/prefilter.py` | 预筛（PASS/BLOCK/UNKNOWN） |
+| `uxhot/pipeline/score.py` | 两次独立评分 + 分级门槛 |
+| `uxhot/pipeline/structure.py` | 结构化（分类/标签/主体/scope/fact）+ 白名单过滤 |
+| `uxhot/pipeline/write.py` | 写作（深写/简写）+ **实体防张冠李戴** |
+| `uxhot/pipeline/dedupe.py` | 机械去重（标题相似度 + 时间窗） |
+| `uxhot/pipeline/select.py` | 同事件去重 + 进精选 + 人工覆盖 |
+| `uxhot/pipeline/common.py` | 模型步骤公共部分（渲染、预算、错误记录、提示词版本） |
+| `uxhot/pipeline/runner.py` | 编排 + 运行审计 |
+| `uxhot/budget.py` | 预算熔断（跨运行累计日计数） |
+| `uxhot/publish/*` | 发布层 4 模块（子代理完成，见下） |
+| `uxhot/report/*` | 日报/周报（子代理完成，见下） |
+| `scripts/run_pipeline.py`、`build_daily.py`、`build_weekly.py` | 命令行入口 |
+
+**命令与结果**
+
+| 命令 | 结果 |
+|---|---|
+| `.venv/bin/python -m pytest -q` | **221 passed**（config 32 / pipeline 71 / prompts 30 / publish 50 / report 34 / skeleton 4） |
+| `run_pipeline.py --dry-run`（**全部 45 个真实信源**） | 42 成功、3 瞬时失败；采集 329 条；发布 321 个公开条目；**零模型调用** |
+
+**全量 dry-run 明细**
+
+- 成功 42/45，覆盖 33 个 RSS + 9 个 `web_list` + 1 个 `external_json`。
+- 3 个失败均为**瞬时网络错误**，非信源失效：`xm-institute`、`rosenfeldmedia`（HTTP 522）、`hnrss-user-research`（HTTP 502）。
+  → `check_sources.py` 必须带重试（已记入遗留问题）。
+- 发布产物：`public 321 / months 28 / categories 6 / topics 24 / searchIndex 321`，`validate_publish_dir` 无问题。
+- **零模型调用**，`MODEL_CALLS_ENABLED` 保持 `false`。
+
+**本轮发现并修掉的 5 个真 bug**（都是测试或实测抓出来的，不是猜的）
+
+1. **`ur-ai-papers` 灌进 1469 条**：`max_age_days` 只把老论文标 `ARCHIVED` 而没有跳过，
+   于是 1263 篇超 30 天的论文全被写进 `data/items`（1.85 MB）。改成**硬跳过**后降到 8 条（首次导入上限）。
+2. **dry-run 低估预算**：`score.run` 在拿到 `None` 时 `break`，导致 dry-run 只把每条算成 1 次调用。
+   实测 4 条应 12 次却报 8 次。已改成 dry-run 显式按 `attempts` 计数。
+3. **`external_json` 不认 304**：条件请求命中时被当成失败。已与其他 kind 对齐。
+4. **`parse_feed` 未来日期绕过检查**：未来日期校验只加在「原始字符串」分支上，
+   走 `published_parsed` 的条目（含 2027-01 这类期刊提前期号）会绕过检查、被当成「刚发布」。
+   已对 `published_parsed` 分支同样拦截。
+5. **⚠️ 出刊日算错一天（跨层不一致）**：发布层的 `edition_day` 用 `date(dt − hour)`，
+   比正确值早一天。实测：10-21 09:00（北京）选的条目，窗口 `[10-21 08:00, 10-22 08:00)`
+   才是真正包含它的那一期（即 **10-22 期**），而 `edition_day` 返回 10-21。
+   这会让**首页按出刊日分组**与 `/daily/<date>/` 页面对不上。
+   已改为 `date(dt + (24 − hour))`，并更新了 3 条编码了旧行为的测试，
+   另加 **4 条回归测试**：用「窗口是否真的包含该时刻」这个独立事实验证，
+   并断言发布层与出刊脚本对同一时刻给出同一个出刊日。
+
+**子代理完成的模块**
+
+- **发布层**（`uxhot/publish/`，50 条测试）：公开字段白名单（产物**不含 `body`**，已断言）、
+  `latest.json`/`all/`/`items/`/`categories/`/`topics/`/`search-index.json`/`site.json`、
+  `rss.xml` + `rss-daily.xml`、`llms.txt`、12 类产物校验，
+  以及「**先写临时目录、校验通过才整体替换**」——校验失败时 `web/public` 一字节不动。
+- **日报/周报**（`uxhot/report/`，34 条测试）：日报纯规则（重要性 `avgScore + 5×(独立来源数−1)`、
+  同信源 ≤2、7 期内不重复、正文 ≤12、快讯 ≤10、空刊）；周报汇编日报取前 20，
+  总述默认模板句，**只有显式 `--execute` 才让模型写**，名字/数字校验不过自动换模板句。
+
+**接口契约**
+
+两份契约文档：`docs/report-schema.md`（日报/周报 JSON，含 8 个歧义点的裁定）。
+报告层提出的 8 个歧义点已逐条裁定并记录在案（`date` 是出刊日、`sections` 只装第 5–12 条、
+`empty ⇔ headline == null` 等）。
+
+**模型补充**
+
+`Item` 增加 `selectedAt`（入选时刻）。原因：日报窗口按**入选时间**分期，
+用 `publishedAt`/`discoveredAt` 近似会让补跑与延迟确认的条目落错期。
+
+**遗留问题**
+
+1. **`--execute` 真实运行尚未做**：计划 §阶段 5 验收要求「征得用户同意后 `--execute --limit 30`
+   跑一次，记录调用次数、token、估算日成本」。**按 §2.7 需先问用户**，故暂停在此。
+   注意：当前所有条目都是首次导入的 `ARCHIVED`，`--execute` 前需要先让一批条目处于 `NEW`
+   （真实新文章出现，或把子集重置为 `NEW` 模拟）。
+2. 3 个瞬时失败信源需要在 `check_sources.py` 里加重试（阶段 3 的遗留项，一并处理）。
+3. `rosenfeldmedia` 返回 522 说明其源站不稳；若持续失败，阶段 8 前应考虑移出。
+4. 周报 `sections[].lead` 恒为空（计划 §5.5「模型只写总述」）；二期若要栏目导读需扩提示词。
+5. `web/public/` 目前是 dry-run 产物（`selected: 0`），阶段 6 接前端后由真实运行覆盖。

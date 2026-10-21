@@ -18,6 +18,9 @@ web/out/
 web/next-env.d.ts
 *.tsbuildinfo
 
+# publish 的临时目录（先写临时目录、校验通过才替换 web/public，正常情况下不留痕）
+web/.publish-stage-*/
+
 # 数据与产物（公开 JSON 由 publish 生成，需提交 web/public/data）
 data/runs/*.json
 !data/runs/.gitkeep
@@ -33,3 +36,9 @@ screenshots/**/*.png
 # 评测样本含第三方文章全文（版权归各发布方），只留本地，不提交
 eval/samples-direction.json
 eval/samples-*.json
+
+# data/items 存的是第三方文章正文（实测 329 条 ≈ 80 万字）。
+# D6 仓库要 public，提交等于再分发他人内容 —— 策略待用户决定，见 PROGRESS.md。
+# 注意：不提交它会让 GitHub Actions 每次从零开始（首次导入全部归档，永远不出新条目），
+# 所以阶段 7 之前必须定下来。
+data/items/*.jsonl

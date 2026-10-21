@@ -1,0 +1,26 @@
+{
+  "month": "2025-03",
+  "count": 1,
+  "items": [
+    {
+      "id": "3c20df18e5cccd58",
+      "sourceId": "hci-journal",
+      "sourceName": "Human-Computer Interaction",
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2475743?af=R",
+      "title": "H is for human and how (not) to evaluate qualitative research in HCI",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-03-19T06:00:18+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "archived",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
+}

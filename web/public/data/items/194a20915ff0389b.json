@@ -1,0 +1,21 @@
+{
+  "id": "194a20915ff0389b",
+  "sourceId": "surveycto",
+  "sourceName": "SurveyCTO",
+  "tier": "T1",
+  "url": "https://www.surveycto.com/data-collection-quality/data-monitoring-guide/",
+  "title": "Data monitoring guide: How to catch leading indicators of bad data early",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": null,
+  "tags": [],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-03-26T15:34:41+00:00",
+  "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+  "status": "archived",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

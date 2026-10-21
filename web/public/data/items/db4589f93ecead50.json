@@ -1,0 +1,21 @@
+{
+  "id": "db4589f93ecead50",
+  "sourceId": "frontiers-cs",
+  "sourceName": "Frontiers in Computer Science",
+  "tier": "T2",
+  "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1946723",
+  "title": "Constructing t-way test suites: a systematic survey and qualitative synthesis of the One-Parameter-at-a-Time approach",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": null,
+  "tags": [],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-15T00:00:00+00:00",
+  "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+  "status": "archived",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

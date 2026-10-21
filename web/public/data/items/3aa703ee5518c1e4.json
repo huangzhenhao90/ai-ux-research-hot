@@ -1,0 +1,21 @@
+{
+  "id": "3aa703ee5518c1e4",
+  "sourceId": "hci-journal",
+  "sourceName": "Human-Computer Interaction",
+  "tier": "T2",
+  "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2708617?af=R",
+  "title": "Designing cognitive friction with concept suppression in large language models",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": null,
+  "tags": [],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-09-22T06:47:03+00:00",
+  "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+  "status": "archived",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
