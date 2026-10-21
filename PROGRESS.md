@@ -240,3 +240,77 @@ Maze、UserTesting、User Interviews、Optimal Workshop、Great Question、Sprig
 3. `testingtime`（停更 103 天）、`uxmag`（停更 112 天）仍未复验活跃度 —— 阶段 5 采集跑通后用真实
    抓取结果决定去留。
 4. 门槛仍是计划占位值，**只在阶段 8 按用户金标评测结果改**。
+
+---
+
+## 阶段 4：提示词移植 — ✅ 完成（2026-10-21）
+
+**做了什么**
+
+1. **18 份提示词**（`prompts/`），改编自 AIHOT `industry/prompts/`，逐文件来源写在 `prompts/README.md`：
+   - Lead 写「编辑大脑」8 份：`prefilter.md`、`selection-score.md`、`content-understanding.md`、
+     `understand.md`、`structure.md`、`group-pair.md`、`group-definitions.md`、`group-method.md`
+   - 子代理写支持性 10 份：`safety.md`、`rules-*.md`（4 份）、`summarize-*.md`（3 份）、
+     `translate-body.md`、`report-period.md`
+2. **`uxhot/prompts.py`**：渲染器，支持 `{{siteName}}` 与 `{{> 文件名}}` 递归展开，
+   检测**包含循环**、**文件缺失**、**未知占位符**；`prompt_version()` 给出 sha256 前 8 位。
+3. **`uxhot/llm.py`**：OpenAI 兼容客户端，三重安全阀（`--execute` + `LLM_API_KEY` +
+   `MODEL_CALLS_ENABLED=true`），JSON 模式，解析失败重试 1 次，记录 token 审计。
+4. **`tests/test_prompts.py`**：30 条用例。
+5. **`scripts/eval_prompt_direction.py`**：5 条真实样本的方向性验证。
+
+**命令与结果**
+
+| 命令 | 结果 |
+|---|---|
+| `.venv/bin/python -m pytest -q` | **66 passed**（config 32 + prompts 30 + skeleton 4） |
+| `scripts/eval_prompt_direction.py`（dry-run） | 打印「预计 15 次调用」，零真实调用 ✅ |
+| `--execute`（未开安全阀） | 被拒：`MODEL_CALLS_ENABLED 不是 true` ✅ |
+| `MODEL_CALLS_ENABLED=true … --execute` | **15 次调用，0 失败，54,889 token**（输入 54,728 / 输出 161） |
+
+**5 条样本的真实评分结果**（用户同意后执行）
+
+样本取自真实信源真实条目，正文抓自原文页（不是编造样本）。
+
+| id | 内容 | 期望 | 评分1 | 评分2 | 均分 | 门槛 | 判定 | 方向 |
+|---|---|---|---:|---:|---:|---:|---|---|
+| dir-01 | MeasuringU：合成用户系统性高估 SUS 分数 | select | 84 | 82 | 83.0 | 76 | select | ✅ |
+| dir-02 | arXiv：可检查的 LLM 模拟受访者用于访谈演练 | select | 63 | 74 | 68.5 | 76 | reject | ❌ |
+| dir-03 | Qualtrics 研讨会报名页 | reject | 22 | 22 | 22.0 | 60 | reject | ✅ |
+| dir-04 | UX Collective：Design v ADHD | reject | 34 | 31 | 32.5 | 76 | reject | ✅ |
+| dir-05 | Dovetail：9 个可建 Digital Twins（边界） | either | 58 | 58 | 58.0 | 60 | reject | ✅ |
+
+**方向一致 4/5。**
+
+**结论与发现**
+
+1. **噪声压得很稳**：研讨会报名页（来自 T1 官方源）只拿到 22 分，泛设计文章 32.5 分，
+   厂商 listicle 58 分——说明「必须压住的噪声」规则生效，且**没有因为信源是 T1 就抬分**。
+2. **反直觉的效度证据拿到高分**：dir-01 的 83 分正是计划想要的
+   「有对照实验的效度证据，结论正反都算」。
+3. **⚠️ dir-02 暴露一个真问题**：论文类在 T2 门槛（76）下被卡掉，两次评分还差了 **11 分**
+   （63 vs 74）。其余 4 条两次评分差分别只有 2、0、3、0 分。
+   两种可能：① T2 门槛 76 对学术论文偏严；② 评分标准对 `research_paper` 的表述让模型拿不准。
+   **按计划 §2.6，门槛只在阶段 8 按用户金标评测结果改**，所以现在**不动门槛**，
+   先把这个现象记下来，阶段 8 用金标数据判断该改门槛还是改标准。
+4. **预筛比预期宽**：5 条全部 PASS，包括研讨会报名页与泛设计文章。这符合计划 §4.1「宽召回」
+   的设计意图（靠评分而非预筛做质量判断），但也意味着预筛没能替后面的评分省下调用。
+
+**成本观察**
+
+15 次调用消耗 54,889 token，其中**输入 54,728（99.7%）、输出仅 161**。
+原因是评分只返回 `{"attentionScore": N}`，而输入要带上正文。
+按此推算单条资料约 3,650 token（预筛 + 2 次评分）。精确日成本留到阶段 5 用真实全量运行估算。
+
+**⚠️ 版权处理**
+
+`eval/samples-direction.json` 含第三方文章全文（48 KB），**已加入 `.gitignore` 不提交**
+（D6 仓库要 public，提交等于再分发他人内容）。仓库里只提交不含正文的报告。
+样本可用 `scripts/build_direction_samples.py` 重新构建。
+
+**遗留问题**
+
+1. dir-02 的方向错误待阶段 8 用金标数据判定（改门槛还是改评分标准）。
+2. 两次评分在论文类上差 11 分，需在金标评测里观察是否普遍。
+3. 用户确认保留的两处子代理判断：`rules-domain.md` 里额外保留「国内 AI 厂商中文品牌名」一行；
+   `summarize-short-post.md` 新增一条用研语境的「优先保留」（AIHOT 原文件没有）。

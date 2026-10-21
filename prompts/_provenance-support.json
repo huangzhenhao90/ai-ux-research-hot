@@ -1,0 +1,42 @@
+{
+  "safety.md": {
+    "adaptedFrom": "industry/prompts/safety.md",
+    "changes": "原样移植，未改动一字（该文件本身与行业无关）"
+  },
+  "rules-anti-hallucination.md": {
+    "adaptedFrom": "industry/prompts/rules-anti-hallucination.md",
+    "changes": "保留全部 9 条与编号；第 4 条在「产品名/功能名/数字/版本号」基础上补入样本量、百分比、显著性、量表名；第 6 条「同类产品功能」改为「同类工具功能」"
+  },
+  "rules-self-contained-title.md": {
+    "adaptedFrom": "industry/prompts/rules-self-contained-title.md",
+    "changes": "保留 6 条与骨架；第 1 条主体改为工具名/产品名/公司名/研究方法名/项目名；第 3 条 teaser 例子改为用研工具版本号场景（Maze Release Notes）；第 4 条上位词兜底例子改为「AI 主持访谈工具/合成用户产品」；第 5 条类型硬边界例子改为 AI 主持访谈、Dovetail 洞察库；第 6 条本条动作 vs 背景旧发布例子改为「上周上线 AI 主持访谈功能，今天演示怎么用」"
+  },
+  "rules-answer-first-summary.md": {
+    "adaptedFrom": "industry/prompts/rules-answer-first-summary.md",
+    "changes": "保留 5 条与结构；第 2 条字数区间维持原文 30-70 字不变；第 1 条「已发布的产品」改为「已发布的工具」，第 3 条影响对象由「用户或行业」改为「研究者或行业」"
+  },
+  "rules-domain.md": {
+    "adaptedFrom": "industry/prompts/rules-domain.md",
+    "changes": "标题与适用范围由「AI 领域」改为「AI 用研领域」，接入 {{siteName}}；第 1 节通用 AI 术语歧义默认值 16 条照搬；新增第 2 节 12 条用研/市场研究术语固定译法（可用性测试、合成用户/合成受访者、AI 主持访谈、主题分析、亲和图、卡片分类、树测试、甄别问卷、洞察库、样本库、编码者一致性、日记研究）；第 3 节保留英文规则中，AI 公司与 AI 工具列表替换为国际用研/调研机构与工具、研究平台与文档工具，保留模型族/版本号/技术缩写/评测基准的通用规则，新增用研与体验缩写（UXR/UX/CX/ResearchOps/NPS/CSAT/CES/VoC/JTBD/SUS/A/B）和量表评测（SUS/UMUX-Lite/SEQ/NASA-TLX/UEQ/AttrakDiff/Top-2-Box）两组；第 4 节中国厂商改为用研/调研公司优先中文品牌名（益普索/凯度/尼尔森/尼尔森诺曼/问卷星/腾讯问卷），并保留一行国内 AI 厂商中文品牌名；第 5 节数字/单位/URL/代码一字不改照搬，数字示例补入 n=1,204、p<0.05、α=0.87"
+  },
+  "summarize-article.md": {
+    "adaptedFrom": "industry/prompts/summarize-article.md",
+    "changes": "角色补为「长期跟踪 AI 与用户研究行业的资深科技编辑」；标题要求里的专有名词例子改为模型名 + 用研工具名；摘要「AI 内容优先保留」改为用研语境（工具/平台名 + 版本、样本量、效应量或一致性指标、benchmark 分数、价格、可用性）；80-160 字/最多 3 句/50-80 字兜底不变；五个 include（safety、rules-answer-first-summary、rules-self-contained-title、rules-domain、rules-anti-hallucination）与时间锚点/来源/identity/标题/正文输入结构、title_zh/summary_zh 输出格式全部保留"
+  },
+  "summarize-article-empty.md": {
+    "adaptedFrom": "industry/prompts/summarize-article-empty.md",
+    "changes": "原样移植"
+  },
+  "summarize-short-post.md": {
+    "adaptedFrom": "industry/prompts/summarize-short-post.md",
+    "changes": "保留翻译任务、10-15 字标题要求与四条原有规则；新增一条用研语境的「用研内容优先保留」（工具/平台名 + 版本、样本量、效应量或一致性指标、量表名、价格、可用性）；三个 include 与输入结构不变"
+  },
+  "translate-body.md": {
+    "adaptedFrom": "industry/prompts/translate-body.md",
+    "changes": "基本照搬；仅角色由「专业的科技新闻译者」改为「专业的用户研究 / 科技新闻译者」；原文件没有 rules-domain include，按原结构不加"
+  },
+  "report-period.md": {
+    "adaptedFrom": "industry/prompts/report-period.md",
+    "changes": "基本照搬；「公司、产品、模型和人名照条目写」改为「公司、产品、工具和人名照条目写」；{{siteName}}/{{kindName}}/{{span}}/{{sentences}}/{{chars}}/{{sections}}/{{sectionsExample}} 占位符与 JSON 输出格式不变"
+  }
+}

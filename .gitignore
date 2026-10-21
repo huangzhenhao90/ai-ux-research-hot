@@ -29,3 +29,7 @@ eval/cache/
 .DS_Store
 screenshots/**/*.png
 !screenshots/.gitkeep
+
+# 评测样本含第三方文章全文（版权归各发布方），只留本地，不提交
+eval/samples-direction.json
+eval/samples-*.json
