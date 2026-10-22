@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-10-22T00:12:31.995222+00:00",
+  "generatedAt": "2026-10-22T00:25:43.012365+00:00",
   "kind": "weekly",
-  "count": 0,
-  "entries": []
+  "count": 2,
+  "entries": [
+    {
+      "week": "2026-W43",
+      "url": "https://huangzhenhao90.github.io/ai-ux-research-hot/weekly/2026-W43/",
+      "count": 4,
+      "title": null
+    },
+    {
+      "week": "2026-W42",
+      "url": "https://huangzhenhao90.github.io/ai-ux-research-hot/weekly/2026-W42/",
+      "count": 1,
+      "title": null
+    }
+  ]
 }

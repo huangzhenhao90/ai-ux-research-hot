@@ -1,6 +1,31 @@
 {
-  "generatedAt": "2026-10-22T00:12:31.995222+00:00",
+  "generatedAt": "2026-10-22T00:25:43.012365+00:00",
   "kind": "daily",
-  "count": 0,
-  "entries": []
+  "count": 4,
+  "entries": [
+    {
+      "date": "2026-10-22",
+      "url": "https://huangzhenhao90.github.io/ai-ux-research-hot/daily/2026-10-22/",
+      "count": 2,
+      "title": null
+    },
+    {
+      "date": "2026-10-21",
+      "url": "https://huangzhenhao90.github.io/ai-ux-research-hot/daily/2026-10-21/",
+      "count": 1,
+      "title": null
+    },
+    {
+      "date": "2026-10-20",
+      "url": "https://huangzhenhao90.github.io/ai-ux-research-hot/daily/2026-10-20/",
+      "count": 1,
+      "title": null
+    },
+    {
+      "date": "2026-10-17",
+      "url": "https://huangzhenhao90.github.io/ai-ux-research-hot/daily/2026-10-17/",
+      "count": 1,
+      "title": null
+    }
+  ]
 }

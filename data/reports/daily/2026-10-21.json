@@ -1,0 +1,39 @@
+{
+  "kind": "daily",
+  "date": "2026-10-21",
+  "siteName": "UXHOT",
+  "generatedAt": "2026-10-22T00:25:43.012365+00:00",
+  "window": {
+    "start": "2026-10-20T00:00:00+00:00",
+    "end": "2026-10-21T00:00:00+00:00"
+  },
+  "empty": false,
+  "stats": {
+    "selectedCount": 1,
+    "newTools": 0,
+    "briefCount": 0
+  },
+  "headline": {
+    "id": "0dad8a14e94f399a",
+    "titleZh": "Listen Labs 媒体市场研究统计 2026 版：全球媒体规模、广告支出与流媒体数据",
+    "summaryZh": "Listen Labs 发布 2026 版媒体市场研究统计，指出全球媒体市场规模 $1.73T、全球广告收入约 $1.30T、数字媒体市场 $1.039T 属不同口径，不可相加。数据含流媒体占美国电视观看时间 47.0%、美国社交媒体广告 $117.7B 居数字广告首位，以及传统电视收入 2025 年下滑 2.7% 至 $360.5B。",
+    "reason": "",
+    "category": "industry",
+    "categoryLabel": "行业",
+    "sourceId": "listen-labs",
+    "sourceName": "Listen Labs",
+    "tier": "T1",
+    "url": "https://listenlabs.com/articles/media-market-research-statistics/",
+    "publishedAt": "2026-10-20T05:15:31+00:00",
+    "avgScore": 15.0,
+    "importance": 15.0,
+    "tags": [
+      "行业报告",
+      "市场研究"
+    ],
+    "relatedIds": []
+  },
+  "highlights": [],
+  "sections": [],
+  "briefs": []
+}

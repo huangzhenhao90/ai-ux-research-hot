@@ -25,7 +25,7 @@
       "itemType": "research_paper",
       "publishedAt": null,
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -52,7 +52,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-06T16:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     }

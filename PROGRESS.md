@@ -493,3 +493,99 @@ T1 60 / T2 76 是 AIHOT 在 AI 领域用的值，用研行业的分数整体低�
 1. ~~`--execute` 真实运行尚未做~~ → **已完成**（见上）。
 2. **门槛偏严**（T1 60 / T2 76 下 21 条只选 1 条）→ 阶段 8 用金标数据重定，是本项目上线前的头号风险。
 3. 3 个瞬时失败信源（xm-institute / rosenfeldmedia / hnrss）需要重试机制。
+
+---
+
+## 阶段 6：前端（Next.js 静态导出）— ✅ 完成（2026-10-22）
+
+**技术栈**：Next.js **16.2.10** + React **19.2.7** + TS **5.9.3**（与 `human-ai-papers/web` 同版本）。
+
+**`next.config.mjs` 要点**
+
+| 配置 | 值 | 原因 |
+|---|---|---|
+| `output` | `"export"` | GitHub Pages 只能托管静态文件 |
+| `basePath` / `assetPrefix` | 从 `public/data/site.json` 读（=`/ai-ux-research-hot`） | D6 + D7；读不到退回空串，保证 `next dev` 在没跑过 publish 时也能起 |
+| `images.unoptimized` | `true` | 静态导出没有图片优化服务 |
+| `trailingSlash` | `true` | 导出成 `/path/index.html`，Pages 才能按目录命中 |
+
+⚠️ 计划 §阶段 6 说「参照 `human-ai-papers/web` 的栈」，但那个站的 `next.config.mjs` **没有** `output: "export"`、也没有 `basePath`（它部署在 Vercel，走 SSR）。静态导出这套是自己配的。
+
+**实现的 14 组路由**
+
+`/`（首页，按出刊日分组）· `/all/`（全部动态 + 分类筛选 + 加载更多）· `/item/[id]/`（369 个）·
+`/search/`（本地搜索）· `/category/[key]/`（6 个）· `/daily/` · `/daily/[date]/` ·
+`/weekly/` · `/weekly/[week]/` · `/topics/` · `/topics/[slug]/`（24 个）· `/about/` · 404。
+
+**验收**
+
+| 检查 | 结果 |
+|---|---|
+| `pytest -q`（后端） | **224 passed** |
+| `npm run typecheck` | **0 错误** |
+| `npm run build` | **成功，414 个静态页** |
+| 各页面 HTTP 状态（按 basePath 子路径结构访问） | 全部 **200**，含 `rss.xml` / `llms.txt` |
+| 静态资源（CSS/JS）在 basePath 下可取 | **200** |
+| 横向溢出（390px 与 1440px） | **14/14 无溢出** |
+| 控制台错误 | **9 个页面全部 0 错误** |
+| AIHOT 出现位置 | **仅 `out/about/index.html`**（符合成功标准 6） |
+
+截图 14 张存 `screenshots/`：首页/全部/详情/日报/周报/主题/搜索/关于/分类（桌面 1440）
++ 首页/日报/全部/关于/主题（手机 390，真实移动端 viewport）。
+
+**本轮发现并修掉的 3 个问题**
+
+1. **⚠️ `ItemCard` 无法在客户端组件里用（架构缺陷，我自己引入的）**：
+   `components/ItemCard.tsx` → `lib/data.ts` → `node:fs`，任何 `"use client"` 组件一旦
+   import 到这条链，webpack 直接报 `UnhandledSchemeError: Reading from "node:fs" is not handled`。
+   子代理被迫在 `AllClient` 里**重抄了约 50 行卡片标记**来绕过。
+   **已修**：把纯展示函数（`categoryLabel` / `displayTitle` / `formatTime` / `formatDate` / `href`）
+   拆到新的 `lib/format.ts`（**不 import fs**），`lib/data.ts` 重新导出以保持兼容，
+   `ItemCard` 改为只依赖 `lib/format.ts`。随后删掉 `AllClient` 里的重复标记，改回直接用 `ItemCard`。
+   `lib/format.ts` 顶部有醒目注释说明「这个文件不能 import node:fs」。
+2. **RSS 链接被拼了两次 basePath**：`metadataBase` 已含 `/ai-ux-research-hot`，我又把
+   `site.basePath` 拼进 `alternates.types`，Next 再加一次 → 变成
+   `.../ai-ux-research-hot/ai-ux-research-hot/rss.xml`。已改成只给相对路径 `/rss.xml`。
+3. **AIHOT 出现在每一页的页脚**：计划成功标准 6 只允许「关于页一行致谢」。
+   我原本把 `site.credit` 渲染在全局页脚里，等于每页都出现。已从页脚移除，只保留关于页。
+
+**顺带解决的两个边界**
+
+- **`generateStaticParams()` 不能返回空数组**（Next 16 + `output: export` 会报
+  `Page "/daily/[date]" is missing "generateStaticParams()"`）。而 `reports/daily/index.json`
+  在还没出过日报时正是 `count: 0 / entries: []`，干净 checkout 直接 build 会炸。
+  已用占位参数兜住：产物为空时生成 `/daily/__none__/`（渲染「还没有日报」+ `noindex`，
+  无任何页面链向它）。**已实测**：删掉整个 `reports/` 目录后 build 仍成功（410 页）。
+- **`/all/` 增加「未分类」筛选**：369 条里只有 15 条有分类（首次导入的历史条目没走结构化），
+  只给 6 个分类会让筛选看起来是坏的。
+
+**⚠️ 重要说明：当前站点数据是「开发种子数据」**
+
+真实门槛（T1 60 / T2 76）下 21 条评分只选出 **1 条**，日报会是空刊，
+前端的日报/周报页就没有内容可渲染、无法验收。
+
+所以我加了 `scripts/seed_dev_data.py`：把符合条件的条目临时标为精选、补出日报与周报，
+**只改内存里的条目状态，不改 `config/selection.yaml`**。当前 `web/public/` 里是它的产物：
+4 期日报 + 2 期周报 + 17 条精选。
+
+**阶段 8 定完门槛、跑一次真实流水线后，这些产物会被覆盖。** 现在首页上的内容不代表
+真实门槛的筛选结果。
+
+**一个诊断教训（值得记住）**
+
+用 `chrome --headless --screenshot --window-size=390,844` 截出来的「手机图」**不是真实移动端布局**：
+它不改布局视口，等于把桌面布局裁到 390px，会让人误判成「横向溢出」。
+我一开始就被它骗了，差点去改一个并不存在的 bug。
+正确做法是用 Playwright 的真实 viewport（`viewport` + `is_mobile` + `device_scale_factor`），
+并**直接量 `document.documentElement.scrollWidth` 与 `innerWidth`** 来判断溢出。
+`web/scripts/shoot_mobile.py` 就是干这个的（CDP 手写版因为本机代理会拦 127.0.0.1 而反复卡住，已放弃）。
+
+**遗留问题**
+
+1. **站点数据是种子数据**，阶段 8 后需重跑真实流水线覆盖。
+2. `/all/` 首屏 HTML 241KB（含 369 条内联 RSC 数据）。若在意可改成分月读取，
+   但那就不是纯客户端筛选了；目前可接受。
+3. `about` 页读 `../config/sources.yaml`（三级路径回退）。**CI 必须在仓库根构建**，
+   否则信源表会退化成空态说明文字。
+4. `/daily/__none__/`、`/weekly/__none__/` 是空数据时的占位页（noindex，无入口链接）。
+5. 收藏功能（计划 §阶段 6 列为「可选」）未做。

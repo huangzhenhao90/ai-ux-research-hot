@@ -27,7 +27,7 @@
       "itemType": null,
       "publishedAt": "2026-03-26T15:34:41+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -53,7 +53,7 @@
       "itemType": null,
       "publishedAt": "2026-09-08T00:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -79,7 +79,7 @@
       "itemType": null,
       "publishedAt": "2026-09-24T07:24:08+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     }

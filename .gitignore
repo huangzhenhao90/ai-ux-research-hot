@@ -30,8 +30,9 @@ eval/cache/
 
 # 系统
 .DS_Store
-screenshots/**/*.png
-!screenshots/.gitkeep
+
+# 阶段 6 验收截图（计划 §阶段 6 要求存 screenshots/），14 张约 2.9MB
+# 阶段 9 会把最终截图放到 screenshots/final/
 
 # 评测样本含第三方文章全文（版权归各发布方），只留本地，不提交
 eval/samples-direction.json

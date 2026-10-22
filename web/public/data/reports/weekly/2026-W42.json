@@ -1,0 +1,47 @@
+{
+  "kind": "weekly",
+  "week": "2026-W42",
+  "siteName": "UXHOT",
+  "generatedAt": "2026-10-22T00:25:43.012365+00:00",
+  "window": {
+    "start": "2026-10-12T00:00:00+00:00",
+    "end": "2026-10-19T00:00:00+00:00"
+  },
+  "overview": "本期（2026-10-12 至 2026-10-18）汇编 1 期日报、共 1 件条目，覆盖论文。",
+  "overviewSource": "template",
+  "stats": {
+    "itemCount": 1,
+    "dailyCount": 1
+  },
+  "sections": [
+    {
+      "key": "research",
+      "label": "论文",
+      "lead": "",
+      "items": [
+        {
+          "id": "0f6df2ffe2a6818a",
+          "titleZh": "对比合成用户与真人受访者：结论一致但答案差异更小",
+          "summaryZh": "复用此前关于 UX 术语的调研问题，让 604 名技术与设计从业者作答，又向 120 名合成受访者提出同一问题并比较两组数据。两组数据得出相同总体结论，但合成回答的多样性远低于真人回答。合成回答于 2026 年 2 月通过生成式 AI 平台 Synthetic Users 生成",
+          "reason": "NN/g 用人均同一道开放题对比 604 名真人与 120 名合成受访者，结论一致但合成答案多样性明显更低。",
+          "category": "research",
+          "categoryLabel": "论文",
+          "sourceId": "nngroup",
+          "sourceName": "Nielsen Norman Group",
+          "tier": "T1",
+          "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-16T17:00:00+00:00",
+          "avgScore": 65.5,
+          "importance": 65.5,
+          "tags": [
+            "论文/研究",
+            "合成用户",
+            "问卷/定量",
+            "定性分析"
+          ],
+          "relatedIds": []
+        }
+      ]
+    }
+  ]
+}

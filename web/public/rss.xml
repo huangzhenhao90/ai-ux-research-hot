@@ -5,9 +5,45 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 22 Oct 2026 00:12:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:25:43 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
+    <item>
+      <title>对话风格如何影响儿童自我报告：基于 LLM 语音日记的实地研究</title>
+      <link>https://doi.org/10.1016/j.ijhcs.2026.103906</link>
+      <guid isPermaLink="true">https://doi.org/10.1016/j.ijhcs.2026.103906</guid>
+      <pubDate>Wed, 21 Oct 2026 14:44:20 GMT</pubDate>
+      <description>一项实地研究让 32 名 7-13 岁儿童参与七次 LLM 语音日记实验，对比押韵与散文两种对话风格。押韵风格带来更高完成率、更少缺勤和更高回答质量，享受度起中介作用；低龄儿童强烈偏好押韵，高龄儿童偏好更多样且随时间衰减。研究据此提出兼顾语义支架与音韵增强的对话风格设计框架。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>ValiAssist：通过演示扩展 LLM 生成编程反馈的验证</title>
+      <link>https://arxiv.org/abs/2610.27248</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.27248</guid>
+      <pubDate>Wed, 21 Oct 2026 04:00:00 GMT</pubDate>
+      <description>ValiAssist 以“演示验证”方式从教师对 AI 生成反馈的修改中推断可复用的验证逻辑，并让教师查看和调整该逻辑在其他学生作业上的应用。在 16 名教师的对比研究中，其反馈与教学目标的一致率为 91%（对照组 57%），纠正问题准则的准确率超过 77% 对 32% 的一倍以上。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>Listen Labs 媒体市场研究统计 2026 版：全球媒体规模、广告支出与流媒体数据</title>
+      <link>https://listenlabs.com/articles/media-market-research-statistics/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/media-market-research-statistics/</guid>
+      <pubDate>Tue, 20 Oct 2026 05:15:31 GMT</pubDate>
+      <description>Listen Labs 发布 2026 版媒体市场研究统计，指出全球媒体市场规模 $1.73T、全球广告收入约 $1.30T、数字媒体市场 $1.039T 属不同口径，不可相加。数据含流媒体占美国电视观看时间 47.0%、美国社交媒体广告 $117.7B 居数字广告首位，以及传统电视收入 2025 年下滑 2.7% 至 $360.5B。</description>
+      <category>Listen Labs</category>
+      <category>industry</category>
+    </item>
+    <item>
+      <title>tvbeat 与 合作，为 TVNZ 和 Sky 推进新西兰 Total TV 受众测量</title>
+      <link>https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand</link>
+      <guid isPermaLink="true">https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand</guid>
+      <pubDate>Mon, 19 Oct 2026 10:12:34 GMT</pubDate>
+      <description>tvbeat 与 达成合作，将为 TVNZ 和 Sky 在新西兰推进 Total TV 受众测量。新的受众测量系统（Audience Measurement System）会把 TVNZ 和 Sky 的大规模一方观看数据与独立受众研究结合，为 Total TV 建立可信基础</description>
+      <category>Ipsos</category>
+      <category>industry</category>
+    </item>
     <item>
       <title>对比合成用户与真人受访者：结论一致但答案差异更小</title>
       <link>https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
@@ -16,6 +52,111 @@
       <description>复用此前关于 UX 术语的调研问题，让 604 名技术与设计从业者作答，又向 120 名合成受访者提出同一问题并比较两组数据。两组数据得出相同总体结论，但合成回答的多样性远低于真人回答。合成回答于 2026 年 2 月通过生成式 AI 平台 Synthetic Users 生成</description>
       <category>Nielsen Norman Group</category>
       <category>research</category>
+    </item>
+    <item>
+      <title>合成用户与数字孪生：定义、风险与真实用例</title>
+      <link>https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases</link>
+      <guid isPermaLink="true">https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases</guid>
+      <pubDate>Tue, 06 Oct 2026 16:00:00 GMT</pubDate>
+      <description>dscout 的 People Nerds 梳理了合成用户与数字孪生的定义差异，并逐一说明两者的风险与真实使用场景。文章把这两个常被混用的概念分开，供研究团队判断各自适用的环节与边界。</description>
+      <category>dscout People Nerds</category>
+      <category>opinion</category>
+    </item>
+    <item>
+      <title>研究中的多数「数字孪生」其实就是换了名字的合成用户</title>
+      <link>https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins</link>
+      <guid isPermaLink="true">https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins</guid>
+      <pubDate>Thu, 01 Oct 2026 16:00:00 GMT</pubDate>
+      <description>文章指出研究中的多数「数字孪生」实际上就是换了名字的合成用户，并围绕这两个概念的区别展开讨论。这一区分关系到团队如何界定合成受访者方案的能力边界。</description>
+      <category>Great Question Blog</category>
+    </item>
+    <item>
+      <title>人机共创中的创造力如何测量？评估方法的系统综述与分类体系</title>
+      <link>https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2720237?af=R</link>
+      <guid isPermaLink="true">https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2720237?af=R</guid>
+      <pubDate>Thu, 01 Oct 2026 05:24:35 GMT</pubDate>
+      <description>一项系统综述梳理了人机共创研究中评估创造力的方法，并构建了相应的分类体系。综述聚焦人类与 AI 协作创作场景下创造力评估手段的类型划分。</description>
+      <category>Human-Computer Interaction</category>
+    </item>
+    <item>
+      <title>Mopinion：网站反馈分析如何把反馈转化为行动</title>
+      <link>https://mopinion.com/website-feedback-analytics/</link>
+      <guid isPermaLink="true">https://mopinion.com/website-feedback-analytics/</guid>
+      <pubDate>Thu, 24 Sep 2026 07:24:08 GMT</pubDate>
+      <description>Mopinion 发文介绍网站反馈分析如何把评分、评论和上下文数据转化为团队可理解、可执行的模式。文章指出行为分析能显示访客在哪里点击、犹豫或离开网站，而网站反馈则解释原因，两者结合可指导改进。</description>
+      <category>Mopinion</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>定性研究中的可确认性：含义与建立方法</title>
+      <link>https://delvetool.com/blog/confirmability-in-qualitative-research/</link>
+      <guid isPermaLink="true">https://delvetool.com/blog/confirmability-in-qualitative-research/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Delve 发文讲解定性研究中的可确认性，即如何证明研究发现来自数据本身。文章建议在编码过程中同步建立审计轨迹，由 Delve 集中保存记录。</description>
+      <category>Delve</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>quantilope 平台新功能：AI 研究伙伴 quinn、CEP Generator 与合成 Category Twins</title>
+      <link>https://www.quantilope.com/resources/quantilopes-latest-platform-innovations-fueling-brand-growth</link>
+      <guid isPermaLink="true">https://www.quantilope.com/resources/quantilopes-latest-platform-innovations-fueling-brand-growth</guid>
+      <pubDate>Thu, 27 Aug 2026 13:47:47 GMT</pubDate>
+      <description>quantilope 在平台中上线多项 AI 创新：AI 研究伙伴 quinn 已原生进入 Survey Editor，可从提示词秒级生成完整的高级方法研究草稿，并新增 quinn Search 将项目库整合为可检索的品牌记忆。CEP Generator 用 AI 一分钟生成 35 个初始 Category Entry Point，供团队筛选至约 20 个用于最终线上研究；Category Twins 则用品牌追踪数据以合成受访者预测试概念与信息。团队还将推出覆盖 1,000+ 品牌、150+ 品类的 Mental Availability Norms。</description>
+      <category>quantilope</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>今天就能构建的 9 个 Dovetail Digital Twins，以及它们各自能为团队做什么</title>
+      <link>https://dovetail.com/blog/9-digital-twins-you-can-build-today/</link>
+      <guid isPermaLink="true">https://dovetail.com/blog/9-digital-twins-you-can-build-today/</guid>
+      <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
+      <description>Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。</description>
+      <category>Dovetail Blog</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>短视频时代的长问卷： 呼吁研究行业跟上节奏</title>
+      <link>https://www.dynata.com/why-dynata/resources/blog/short-form-world-long-form-surveys-its-time-for-research-to-catch-up/</link>
+      <guid isPermaLink="true">https://www.dynata.com/why-dynata/resources/blog/short-form-world-long-form-surveys-its-time-for-research-to-catch-up/</guid>
+      <pubDate>Fri, 17 Jul 2026 14:45:10 GMT</pubDate>
+      <description>发文指出，人们已习惯短视频与即时反馈，但问卷仍要求受访者长时间专注作答，行业需要跟上这一变化。文中提到，网红发布的 10 分钟晚餐食谱视频都难以被看完，而问卷却常要求受访者花 30 分钟作答</description>
+      <category>Dynata</category>
+      <category>opinion</category>
+    </item>
+    <item>
+      <title>Quirkos 出版定性研究新教材《Making Qualitative Research Happen》</title>
+      <link>https://www.quirkos.com/blog/post/now-published-our-new-textbook-on-qualitative-analysis-and-research/</link>
+      <guid isPermaLink="true">https://www.quirkos.com/blog/post/now-published-our-new-textbook-on-qualitative-analysis-and-research/</guid>
+      <pubDate>Wed, 22 Apr 2026 11:00:59 GMT</pubDate>
+      <description>Quirkos 正式开售其定性研究教材《Making Qualitative Research Happen》，该书整合了其最受欢迎的资源，覆盖从研究构思到论文写作的完整定性研究流程。书中包含 Mónica Sánchez-Hernández、Helen Kara、Christina Silver 和 Anuja Cabraal 的专章，涉及去殖民化定性研究、创意研究方法、AI 与机器学习工具的使用以及用 emoji 分析定性数据。Quirkos 团队另撰写了定性学术论文写作、叙事分析以及在 Quirkos 中协作分析数据等新章节，读者可在官网购买或联系其用于课堂教学。</description>
+      <category>Quirkos</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>数据监测指南：如何及早发现坏数据的领先指标</title>
+      <link>https://www.surveycto.com/data-collection-quality/data-monitoring-guide/</link>
+      <guid isPermaLink="true">https://www.surveycto.com/data-collection-quality/data-monitoring-guide/</guid>
+      <pubDate>Thu, 26 Mar 2026 15:34:41 GMT</pubDate>
+      <description>发布数据监测指南，讲解如何用自动化和智能检查识别坏数据的早期指标。指南以分步方式说明及早发现数据质量问题的方法</description>
+      <category>SurveyCTO</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>MAXQDA 24.6 更新：新增 Light 2 主题与 AI Assist「Summarize Paraphrases」功能</title>
+      <link>https://www.maxqda.com/blogpost/maxqda-24-6-update</link>
+      <guid isPermaLink="true">https://www.maxqda.com/blogpost/maxqda-24-6-update</guid>
+      <pubDate>Tue, 22 Oct 2024 14:00:58 GMT</pubDate>
+      <description>MAXQDA 发布 24.6 更新，新增第三套界面主题 Light 2，并为主菜单上的 AI Assist 增加「Summarize Paraphrases」功能，可将单份文档内所有释义整合为一段摘要。释义输出长度可选 short、medium、long，AI Assist 偏好设置中新增「Additional Instructions」字段以自定义输出。AI Assist 为可选付费插件，更新免费，购买后可获得免费或高级版本。</description>
+      <category>MAXQDA</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>International Journal of Market Research 专刊征稿：市场研究与洞察的过去、现在与未来</title>
+      <link>https://journals.sagepub.com/doi/abs/10.1177/1470785320941417?ai=2b4&amp;mi=ehikzz&amp;af=R</link>
+      <guid isPermaLink="true">https://journals.sagepub.com/doi/abs/10.1177/1470785320941417?ai=2b4&amp;mi=ehikzz&amp;af=R</guid>
+      <pubDate>Thu, 02 Jul 2020 10:29:38 GMT</pubDate>
+      <description>International Journal of Market Research 发布专刊征稿，主题为"市场研究与洞察：过去、现在与未来"，目前处于 Ahead of Print 阶段。</description>
+      <category>International Journal of Market Research</category>
     </item>
   </channel>
 </rss>
