@@ -5,6 +5,15 @@ name: Update
 # 定时：每 4 小时采集评分一次；UTC 00:05（北京 08:05）那一趟顺带出日报。
 # 注意 GitHub 的定时任务常延迟 5–30 分钟，所以「8 点出刊」实际可能是 8:10–8:40，
 # 关于页如实写的是「每天早上 8 点后」。
+#
+# ── 两个需要配置的开关 ────────────────────────────────────────────────
+#
+# 1) Secret `LLM_API_KEY`：**没配就自动降级为 dry-run**（只抓取、不花钱），
+#    并在日志里明确告警。这样仓库在密钥就位前也能正常跑，不会一路红。
+# 2) Variable `PAGES_ENABLED`：设为 `true` 才会上传产物并部署 Pages。
+#    private 仓库开不了 Pages（除非 GitHub Pro），所以默认不开；
+#    阶段 8 之后把仓库转 public、在 Settings → Pages 选 GitHub Actions，
+#    再把该 Variable 设成 true 即可。
 
 on:
   schedule:
@@ -37,8 +46,6 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    outputs:
-      mode: ${{ steps.mode.outputs.mode }}
     steps:
       - name: 检出
         uses: actions/checkout@v4
@@ -48,9 +55,21 @@ jobs:
         # 定时触发默认 execute；手动触发按输入
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+            echo "wanted=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
           else
-            echo "mode=execute" >> "$GITHUB_OUTPUT"
+            echo "wanted=execute" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 检查模型密钥
+        id: key
+        env:
+          KEY: ${{ secrets.LLM_API_KEY }}
+        run: |
+          if [ -z "$KEY" ]; then
+            echo "::warning title=未配置 LLM_API_KEY::本次降级为 dry-run（只抓取，不调用模型）。在 Settings → Secrets and variables → Actions 添加 LLM_API_KEY 后即可真实运行。"
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: 安装 Python
@@ -64,17 +83,24 @@ jobs:
 
       - name: 跑流水线
         env:
-          # 安全阀：只有 execute 才打开（脚本还会再检查一次）
-          MODEL_CALLS_ENABLED: ${{ steps.mode.outputs.mode == 'execute' && 'true' || 'false' }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL || 'https://api.deepseek.com' }}
           LLM_MODEL: ${{ vars.LLM_MODEL || 'deepseek-flash' }}
         run: |
-          ARGS="--${{ steps.mode.outputs.mode }}"
+          # 只有「想要 execute」且「密钥就位」才真调模型；脚本内还有一道安全阀
+          if [ "${{ steps.mode.outputs.wanted }}" = "execute" ] && [ "${{ steps.key.outputs.ready }}" = "true" ]; then
+            MODE=execute
+            export MODEL_CALLS_ENABLED=true
+          else
+            MODE=dry-run
+            export MODEL_CALLS_ENABLED=false
+          fi
+
+          ARGS="--$MODE"
           if [ -n "${{ inputs.limit }}" ]; then
             ARGS="$ARGS --limit ${{ inputs.limit }}"
           fi
-          echo "运行：python scripts/run_pipeline.py $ARGS"
+          echo "运行：python scripts/run_pipeline.py $ARGS（MODEL_CALLS_ENABLED=$MODEL_CALLS_ENABLED）"
           python scripts/run_pipeline.py $ARGS
 
       - name: 出日报与周报
@@ -114,17 +140,20 @@ jobs:
           if git diff --cached --quiet; then
             echo "没有变化，跳过提交"
           else
-            git commit -m "chore: 更新数据与站点产物（${{ steps.mode.outputs.mode }}）"
+            git commit -m "chore: 更新数据与站点产物"
             git push
           fi
 
       - name: 上传 Pages 产物
+        # private 仓库开不了 Pages，用 Variable 控制；转 public 后设为 true
+        if: vars.PAGES_ENABLED == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: web/out
 
   deploy:
     needs: update
+    if: vars.PAGES_ENABLED == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
