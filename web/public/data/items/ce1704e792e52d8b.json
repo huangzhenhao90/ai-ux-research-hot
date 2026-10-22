@@ -1,0 +1,26 @@
+{
+  "id": "ce1704e792e52d8b",
+  "sourceId": "mopinion",
+  "sourceName": "Mopinion",
+  "tier": "T1",
+  "url": "https://mopinion.com/ai-follow-up-questions/",
+  "title": "AI follow-up questions: Get clearer feedback without longer forms",
+  "titleZh": "Mopinion：用 AI 追问获取更清晰反馈，不拉长表单",
+  "summaryZh": "Mopinion 提出用 AI 追问澄清“页面令人困惑”“结账不可用”等模糊回答，帮助团队判断发生了什么、下一步修什么。目标是在不增加表单长度的情况下获得更清晰的反馈。",
+  "reason": null,
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "问卷/定量"
+  ],
+  "entities": [
+    "mopinion"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-09-14T09:37:31+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

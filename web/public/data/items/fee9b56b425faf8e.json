@@ -1,0 +1,27 @@
+{
+  "id": "fee9b56b425faf8e",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/trustworthiness-in-qualitative-research/",
+  "title": "Trustworthiness in qualitative research: What it means and how to show it",
+  "titleZh": "定性研究中的可信度：含义、展示方式与 Delve 的编码决策记录",
+  "summaryZh": "Delve 会在编码过程中持续记录编码决策，使定性研究的可信度有据可查。内容同时说明定性研究中可信度的含义与展示方式。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-07-14T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

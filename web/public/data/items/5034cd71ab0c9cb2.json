@@ -1,0 +1,25 @@
+{
+  "id": "5034cd71ab0c9cb2",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.29413",
+  "title": "Beyond Small Talk: Modeling Disclosure Trajectories in Human-AI Conversation",
+  "titleZh": "超越寒暄：TraDE 为人机对话中的自我披露轨迹建模",
+  "summaryZh": "研究提出基于社会渗透理论的 TraDE，用预设披露轨迹考察先前披露历史如何影响模型对同等深度披露的回应。多个模型与关系行为基准显示，回应随先前轨迹而变，尤其在接受还是质疑用户框架上；差异跟随深度披露的累计暴露，而非单次脆弱或披露顺序，并在转浅后持续数轮。ESConv 中模型与人类支持者最一致的分歧出现在用户收回披露时，而非敞开时。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "Agent",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-22T04:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

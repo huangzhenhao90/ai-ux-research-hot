@@ -3,8 +3,320 @@
   "label": "工具",
   "section": "工具发布/更新",
   "commentary": false,
-  "count": 4,
+  "count": 27,
   "items": [
+    {
+      "id": "a5f46290272974dd",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/suns-out-2026-launch/",
+      "title": "Our Sun’s Out launch: Introducing Digital Twins, agents, Channels 2.0, and new enterprise-grade features",
+      "titleZh": "Dovetail 夏季发布推出 Digital Twins、agents、Channels 2.0 与企业级功能",
+      "summaryZh": "Dovetail 在 Sun's Out 夏季发布中推出 Digital Twins、agents、Channels 2.0 以及新的企业级功能。此次发布还包含 MCP connectors 和企业级治理能力。官方称，这些更新意在缩短客户上下文与业务决策之间的距离。",
+      "reason": "Dovetail 在同一次夏季发布里推出 Digital Twins、agents 与 MCP 连接器，可用来观察洞察库与智能体结合的形态。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "Agent",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-07-14T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f00c9ca6c426bf88",
+      "sourceId": "maxqda",
+      "sourceName": "MAXQDA",
+      "tier": "T1",
+      "url": "https://www.maxqda.com/blogpost/maxqda-26-2",
+      "title": "MAXQDA Update 26.2: Smarter Memos, AI Coding, and AI Reports",
+      "titleZh": "MAXQDA 发布 26.2 更新，新增片段级 AI 编码与 AI Reports",
+      "summaryZh": "MAXQDA 发布 26.2（2026 年 3 月）更新，新增片段级 AI 编码与 Beta 版 AI Reports，并改版 Memos 布局。片段级 AI 编码会对选中的文本片段给出编码建议并附理由，需人工批准后应用，AI Assist 免费版一次最多分析 5 个编码，Premium 最多 20 个。AI Reports 按自定问题生成可回溯到原文的报告，免费版最多纳入 2 份文档，Premium 最多 50 份。",
+      "reason": "新版把 AI 编码从文档级细化到片段级并加入 AI Reports，研究者可据此判断哪些编码与汇总环节能交给模型提速。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "转写/编码",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-03-05T13:21:19+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "46fe5ae344a21995",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/2025-fall-launch/",
+      "title": "Introducing Dovetail’s Fall 2025 Launch: AI Agents, Dashboards, Docs, integrations, and more",
+      "titleZh": "Dovetail 发布 2025 秋季版本，推出 AI Agents、Dashboards、Docs 与集成等 10 项能力",
+      "summaryZh": "Dovetail 发布 2025 秋季版本，上线 10 项新能力，覆盖 AI Agents、Dashboards、Docs 与集成。官方称这些能力将客户反馈放在产品构建流程的核心，并改变传统线性的 SDLC 工作流。",
+      "reason": "Dovetail 一次上线 10 项能力，覆盖 AI Agents、Dashboards、Docs 与集成，研究员可据此判断反馈分析流程会如何变化。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "Agent",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2025-10-08T15:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "dedfd59baa47acfd",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/",
+      "title": "Introducing Dovetail’s most powerful chat yet",
+      "titleZh": "发布迄今最强的聊天功能更新",
+      "summaryZh": "发布聊天功能上线以来规模最大的一次更新，支持在对话中内嵌富媒体、多上下文提问与网页搜索。此次更新还包括重新设计的交互体验和更广的数据覆盖范围",
+      "reason": "官方列出聊天功能的多项变化，包括富媒体内嵌、多上下文提问与网页搜索，可据此判断访谈与洞察整理的调整空间。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-05-11T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1b9962ed79acf9f4",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/collaboration-in-delve/",
+      "title": "Collaboration in Delve: Assign, Code, and Align as a Team",
+      "titleZh": "更新团队编码协作，新增 Transcript Dashboard、就地编辑与部分计分的编码者一致性",
+      "summaryZh": "更新团队定性编码协作，新增 Transcript Dashboard 用于分配和跟踪团队工作，编码对比页面支持就地编辑，多编码片段可采用部分计分的编码者一致性计算。三项更新分别对应分工跟踪、编码对齐与一致性核对，面向多人协作处理同一批材料的场景",
+      "reason": "更新把任务分配、编码对比与编码者一致性放进同一协作流程，团队做定性编码时可据此调整分工与质检方式。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-07-24T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "89c56ba372b9678d",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/dovetail-connector-figma-make/",
+      "title": "Prototype with real customer data using the Dovetail connector for Figma Make",
+      "titleZh": "Dovetail 发布 Figma Make 连接器，可用真实客户数据做原型",
+      "summaryZh": "Dovetail 发布面向 Figma Make 的连接器，用户在做原型时可以直接调用客户洞察数据。官方称使用该连接器无需切换上下文，就能在原型环节利用这些客户情报。",
+      "reason": "官方宣布 Dovetail 与 Figma Make 打通，研究员在原型阶段就能调用客户洞察，省去在不同工具间来回切换。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-02-16T13:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a3087d5fd45ca8bc",
+      "sourceId": "cint",
+      "sourceName": "Cint",
+      "tier": "T1",
+      "url": "https://www.cint.com/blog/mcps-market-research-esomar/",
+      "title": "Research has entered the chat: how MCPs and AI agents are reshaping market insights",
+      "titleZh": "Cint 发文分析 MCP 与 AI 智能体如何重塑市场洞察",
+      "summaryZh": "Cint 发布文章，讨论 MCP 与 AI 智能体正在如何重塑市场洞察的工作方式。文章以行业分析视角展开，未在标题层面给出具体案例或数据。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "观点/讨论",
+        "Agent",
+        "市场研究"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-09-10T21:29:14+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "cde5eb2df8b572a4",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/suns-out-summer-launch-26/",
+      "title": "Dovetail launches major AI-powered platform expansion including Agents and category-defining Digital Twins, to close the gap between customer signal and business outcomes",
+      "titleZh": "Dovetail 发布 AI 平台扩展，推出 Agents 与 Digital Twins",
+      "summaryZh": "Dovetail 宣布 Sun’s Out Summer Launch ’26，涉及 AI Agents、Digital Twins、Channels 2.0、MCP 连接器和 ISO 42001 认证。官方称这次平台扩展的目标是缩小客户信号与业务结果之间的差距。Digital Twins 被描述为具有品类定义意义的数字孪生能力。",
+      "reason": "Dovetail 一次性公布 Agents、Digital Twins、Channels 2.0 与 MCP 连接器，研究员可据此判断洞察平台正往哪些环节延伸。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Agent"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-07-14T12:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a6138ac6efa9ae84",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/",
+      "title": "Introducing Explore: a new way to dive into customer knowledge",
+      "titleZh": "推出 Explore：可视化搜索客户知识的新体验",
+      "summaryZh": "推出 Explore，一种新的可视化搜索体验，帮助团队在工作区中浏览高亮、项目、对话和客户时刻。该功能定位为跨工作区串联客户知识的入口",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-27T01:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "77abf1d30d076038",
+      "sourceId": "surveycto",
+      "sourceName": "SurveyCTO",
+      "tier": "T1",
+      "url": "https://www.surveycto.com/press-releases/ai-form-tools-improve-survey-design/",
+      "title": "NEW: SurveyCTO brings AI-powered features into the platform to help users build better forms",
+      "titleZh": "SurveyCTO 将 AI 表单工具引入平台，帮助用户构建更好的表单",
+      "summaryZh": "SurveyCTO 将 AI 表单工具引入平台，支持用 AI 编写表达式、审查调查问题并获取更好的数据。该工具面向问卷设计，目标是简化建表体验。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "问卷/定量"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-01-12T01:23:34+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0c7d9d6ab48ef951",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/quirkos-3-is-released-best-qualitative-software/",
+      "title": "Quirkos 3 is released: our best offline qualitative analysis software",
+      "titleZh": "Quirkos 3 发布：不含 AI 功能的完全离线定性分析软件",
+      "summaryZh": "Quirkos 发布完全离线的桌面定性分析软件 Quirkos 3，支持 Windows、Mac 和 Linux，不含任何 AI 功能，数据不与外部共享。新版沿用 Quirkos Web 界面，新增各来源主题使用频次表、编码间相关性等报告与图表，并支持导入 REFI-QDA 标准项目。Quirkos 2 继续获得支持且与新版双向兼容；过去 3 个月购买者可免费升级，其他用户升级费为新许可的 50%，并提供 14 天免费试用。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-01-23T10:27:25+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "c6c0cb60a6027a70",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/whats-possible-with-claude-x-dovetail/",
+      "title": "What’s possible when Claude’s connected to Dovetail",
+      "titleZh": "Claude 连接 Dovetail 后能做什么？",
+      "summaryZh": "将 Claude 连接到 Dovetail 后，用户可把客户证据带入草稿、决策和简报，同时不打断工作流。Dovetail 以此说明 Claude 与 Dovetail 连接后的使用场景。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-05-19T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "15710eb0367bf6e8",
       "sourceId": "dovetail-blog",
@@ -28,6 +340,57 @@
       "itemType": null,
       "publishedAt": "2026-08-26T12:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fe71c070d9bd33e4",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
+      "title": "Fetch once, use everywhere: rebuilding how Dovetail ingests your data",
+      "titleZh": "重建数据接入：一次抓取，处处可用",
+      "summaryZh": "正在重建数据接入方式：不再让每个 Channel 各自抓取一份数据，而是改为工作区中的一份共享数据源。这份共享源可在需要的位置直接使用，对应“一次抓取，处处可用”",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-06-14T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0fb5cd21ea968d97",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/updates-to-quirkos-web-and-transcribe-september-2025/",
+      "title": "Updates to Quirkos Web and Transcribe - September 2025",
+      "titleZh": "Quirkos Web 与 Transcribe 9 月更新：编码性能优化、转写新增说话人识别",
+      "summaryZh": "Quirkos Web 与 Transcribe 9 月更新：编码数超 100 个 Quirks 时的概览加载与高亮卡顿大幅改善。可选加购的转写服务（50 小时/月、US$12/月）新增说话人识别，1 小时访谈约 5 分钟返回，自动语言识别被移除。PDF 导入新增 OCR，转写提供 100 分钟免费试用；官方仍不打算加入 AI 编码或分析工具。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-09-03T14:53:53+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -54,6 +417,211 @@
       "itemType": null,
       "publishedAt": "2024-10-22T14:00:58+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8719f3a37f50c586",
+      "sourceId": "surveycto",
+      "sourceName": "SurveyCTO",
+      "tier": "T1",
+      "url": "https://www.surveycto.com/press-releases/hipaa-compliance/",
+      "title": "Medical professionals, protect your data with HIPAA-compliant SurveyCTO",
+      "titleZh": "SurveyCTO 数据收集平台正式符合 HIPAA 合规要求",
+      "summaryZh": "SurveyCTO 的数据收集平台现已正式符合 HIPAA 合规要求，医疗专业人员可借助这一合规平台保护自身数据。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "研究伦理"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-03T20:43:47+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "993dab508828e82d",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ipsos-launches-its-new-creative-assessment-solution-creativespark-ipsosdigital-platform",
+      "title": "Ipsos launches its new creative assessment solution – Creative|Spark on Ipsos.Digital Platform in more countries",
+      "titleZh": "Ipsos 在 Ipsos.Digital 平台面向更多国家推出 Creative|Spark 视频创意评估方案",
+      "summaryZh": "Ipsos 在 Ipsos.Digital 平台面向更多国家推出 Creative|Spark，用于在线评估视频创意。该方案目前已在 16 个国家上线。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-08T13:12:29+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ba7cb117e7c61fa6",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/new-dovetail-experience/",
+      "title": "Introducing the new Dovetail experience—a simpler way to get around",
+      "titleZh": "推出全新个性化首页体验，并更新侧边栏、文件夹导航与搜索",
+      "summaryZh": "正在推出全新的个性化首页体验，并同步更新侧边栏、文件夹导航和搜索。此次更新聚焦更简单的导航方式",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-31T01:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a9875bdb3d08142c",
+      "sourceId": "mopinion",
+      "sourceName": "Mopinion",
+      "tier": "T1",
+      "url": "https://mopinion.com/introducing-the-mopinion-survey-marketplace/",
+      "title": "Introducing the Mopinion Survey Marketplace",
+      "titleZh": "Mopinion 推出 Survey Marketplace",
+      "summaryZh": "Mopinion 推出 Survey Marketplace，提供 8 个调查模板类别和近 30 个模板示例。每个调查附有收益列表，帮助用户了解创建和使用在线调查所需的要素。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "问卷/定量"
+      ],
+      "entities": [
+        "mopinion"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-17T07:18:50+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "002442d71426528e",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/pixel-fing-the-new-chat-library/",
+      "title": "Pixel-f**ing the new chat library",
+      "titleZh": "Dovetail 如何重建新版 Chat：打磨引用、思考状态与视频播放器",
+      "summaryZh": "Dovetail 设计师重建 Chat，重点打磨引用、思考状态和视频播放器等细节。这是一份幕后记录，强调设计师对每个细节的反复打磨。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-06-14T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "41065320cd5e6a93",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/comparing-best-software-for-thematic-analysis/",
+      "title": "Comparing the Best Software for Thematic Analysis",
+      "titleZh": "最佳主题分析软件对比：NVivo、ATLAS.ti、MAXQDA、Quirkos、Taguette、Dedoose 与 Delve 的编码、主题构建和工作流",
+      "summaryZh": "NVivo、ATLAS.ti、MAXQDA、Quirkos、Taguette、Dedoose 与 Delve 七款主题分析软件被集中对比，考察编码、主题构建和工作流。对比聚焦各工具在这些环节的具体处理方式。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "maxqda",
+        "quirkos",
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-09T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "38ce9fc155bbeb26",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/power-product-strategy-with-customer-intelligence-pms-guide/",
+      "title": "How to power your product strategy with customer intelligence—a PM’s guide",
+      "titleZh": "Dovetail 客户智能平台如何驱动产品策略：PM 指南",
+      "summaryZh": "Dovetail 发布首个同类客户智能平台，并展示其如何帮助产品经理更快更好地开展工作。PM 指南说明如何用客户智能驱动产品策略。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-10-08T13:04:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ce1704e792e52d8b",
+      "sourceId": "mopinion",
+      "sourceName": "Mopinion",
+      "tier": "T1",
+      "url": "https://mopinion.com/ai-follow-up-questions/",
+      "title": "AI follow-up questions: Get clearer feedback without longer forms",
+      "titleZh": "Mopinion：用 AI 追问获取更清晰反馈，不拉长表单",
+      "summaryZh": "Mopinion 提出用 AI 追问澄清“页面令人困惑”“结账不可用”等模糊回答，帮助团队判断发生了什么、下一步修什么。目标是在不增加表单长度的情况下获得更清晰的反馈。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "问卷/定量"
+      ],
+      "entities": [
+        "mopinion"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-14T09:37:31+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -107,6 +675,32 @@
       "itemType": null,
       "publishedAt": "2026-04-22T11:00:59+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "497b2818397b5444",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/top-alternatives-to-nvivo-for-dissertation-students-delvetool/",
+      "title": "Top Alternatives to NVivo for Dissertation Students",
+      "titleZh": "论文学生的 NVivo 替代方案：Delve 更易用",
+      "summaryZh": "面向论文学生的 NVivo 替代方案文章将 Delve 列为更易用选择，并指出 NVivo 的学习曲线和价格对新用户及首次研究者构成障碍。文章称 Delve 受到全球论文学生青睐，定位为 NVivo 的替代工具。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-04-14T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

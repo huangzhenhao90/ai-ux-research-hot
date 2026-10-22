@@ -1,0 +1,26 @@
+{
+  "id": "3515d44b343a6e73",
+  "sourceId": "nngroup",
+  "sourceName": "Nielsen Norman Group",
+  "tier": "T1",
+  "url": "https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+  "title": "Artificial Intelligence: Glossary",
+  "titleZh": "NN/g AI 术语表：从 token、上下文窗口到智能体、evals 与提示词注入",
+  "summaryZh": "NN/g 整理了一份面向产品与设计工作的 AI 术语表，解释 token、上下文窗口、智能体、evals 和提示词注入等术语。词条按字母排列，可查表、用浏览器查找或顺序阅读，并链接到 NN/g 的深入文章。定义遵循 AI 产品与 UX 工作中的用法，厂商和研究者的用法可能不同。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "非用研/通用"
+  ],
+  "entities": [
+    "nngroup"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-08-21T17:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

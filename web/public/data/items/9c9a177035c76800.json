@@ -1,0 +1,27 @@
+{
+  "id": "9c9a177035c76800",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/how-to-create-apply-thematic-analysis-codebook-using-ai/",
+  "title": "How to Build and Apply a Thematic Analysis Codebook Using AI",
+  "titleZh": "如何用 AI 构建并应用主题分析编码本",
+  "summaryZh": "的指南演示如何用 AI 从首个编码到最终主题构建并应用主题分析编码本。指南具体说明在哪些环节、何时以及为何应信任 AI 工具，而不是依赖人工判断",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-03-17T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

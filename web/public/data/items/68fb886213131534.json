@@ -1,0 +1,26 @@
+{
+  "id": "68fb886213131534",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/generating-customer-intelligence-at-scale/",
+  "title": "What’s the best way to generate customer intelligence at scale?",
+  "titleZh": "大规模生成客户情报的最佳方式是什么？Dovetail 分步指南",
+  "summaryZh": "Dovetail 在博文中给出分步指南，讲解如何大规模获取客户情报、预判客户需求，并将情报整合进决策与产品原型。指南以 Dovetail 这类平台为例，说明生成和利用客户情报的流程。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "dovetail"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-12-18T14:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

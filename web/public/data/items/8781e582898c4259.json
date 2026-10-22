@@ -1,0 +1,25 @@
+{
+  "id": "8781e582898c4259",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/how-top-brands-collect-customer-intelligence/",
+  "title": "How do top brands collect and apply customer intelligence?",
+  "titleZh": "Itaú、Atlassian 等品牌如何用 Dovetail 收集并应用客户智能？",
+  "summaryZh": "Itaú Unibanco、Atlassian、Petal Health、Breville 和 Canva 使用 Dovetail 客户智能平台处理非结构化数据。它们据此制定产品路线图和策略。",
+  "reason": null,
+  "category": null,
+  "tags": [
+    "其他"
+  ],
+  "entities": [
+    "dovetail"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-12-18T14:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "04f60951feacbffd",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/chatgpt-for-thematic-analysis-alternatives/",
+  "title": "Can You Use ChatGPT for Thematic Analysis?",
+  "titleZh": "ChatGPT 能用于主题分析吗？",
+  "summaryZh": "ChatGPT 在主题分析中的“dump and done”式用法存在局限，但 ChatGPT 和 Delve 的 AI 助手仍能帮助节省时间。内容围绕二者在质性分析与主题分析中的实际提效方式展开，并说明这些用法边界。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-02-10T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

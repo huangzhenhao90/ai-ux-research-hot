@@ -1,7 +1,89 @@
 {
   "month": "2025-09",
-  "count": 1,
+  "count": 4,
   "items": [
+    {
+      "id": "0fb5cd21ea968d97",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/updates-to-quirkos-web-and-transcribe-september-2025/",
+      "title": "Updates to Quirkos Web and Transcribe - September 2025",
+      "titleZh": "Quirkos Web 与 Transcribe 9 月更新：编码性能优化、转写新增说话人识别",
+      "summaryZh": "Quirkos Web 与 Transcribe 9 月更新：编码数超 100 个 Quirks 时的概览加载与高亮卡顿大幅改善。可选加购的转写服务（50 小时/月、US$12/月）新增说话人识别，1 小时访谈约 5 分钟返回，自动语言识别被移除。PDF 导入新增 OCR，转写提供 100 分钟免费试用；官方仍不打算加入 AI 编码或分析工具。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-09-03T14:53:53+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "16241e12403d1bc3",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/ai-features-in-qda-software/",
+      "title": "AI Features in QDA Software (2026): NVivo, Delve, MAXQDA, ATLAS.ti, Dedoose, Quirkos & Taguette Compared",
+      "titleZh": "QDA 软件 AI 功能对比（2026）：NVivo、、、ATLAS.ti、Dedoose、 与 Taguette",
+      "summaryZh": "一项对比测试考察了 NVivo、、、ATLAS.ti、Dedoose、 与 Taguette 的 AI 功能，并按研究者最关心的维度评估这些 QDA 平台。测试覆盖多款 AI 辅助 QDA 平台，重点比较现有 AI 能力的表现",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "文本分析/VOC",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve",
+        "maxqda",
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-09-09T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "c79ea5e8b5c6c363",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/qualitative-survey-analysis-guide/",
+      "title": "Qualitative Survey Analysis: A Practical Guide",
+      "titleZh": "定性问卷分析实用指南：Delve 如何简化定性编码流程",
+      "summaryZh": "Delve 的《定性问卷分析实用指南》梳理现代问卷分析方法，并说明其问卷分析软件如何让定性编码流程更易管理。该指南面向定性问卷分析实践，介绍软件辅助的编码管理思路。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "问卷/定量",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-09-10T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "8d5187692f2a9b3f",
       "sourceId": "uxpa",

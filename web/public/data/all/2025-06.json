@@ -1,7 +1,29 @@
 {
   "month": "2025-06",
-  "count": 3,
+  "count": 4,
   "items": [
+    {
+      "id": "a7e6f824dc1eb06d",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/marxism-and-critical-theory-in-qualitative-research/",
+      "title": "Marxism, critical theory and working class studies: economics and power in qualitative research",
+      "titleZh": "马克思主义、批判理论与工人阶级研究：定性研究中的经济与权力",
+      "summaryZh": "Quirkos 的定性研究方法文章梳理马克思主义理论中的阶级、资本主义剥削与异化概念，并回顾马克思在《资本论》未完成卷中对劳动者、资本家与财产所有者三类人的划分。文章还讨论阶级边界与阶级文化的主观性，以及收入低、就业灵活且保障有限的“precariat”等当代阶级议题。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-06-10T17:33:58+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "a4fd3845cb8a31a2",
       "sourceId": "uxpa",

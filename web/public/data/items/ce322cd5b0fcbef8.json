@@ -1,0 +1,25 @@
+{
+  "id": "ce322cd5b0fcbef8",
+  "sourceId": "frontiers-cs",
+  "sourceName": "Frontiers in Computer Science",
+  "tier": "T2",
+  "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1883472",
+  "title": "Technology Acceptance Model in video-sharing platforms: comparisons between TikTok and YouTube",
+  "titleZh": "视频分享平台中的技术接受模型（TAM）：TikTok 与 YouTube 对比",
+  "summaryZh": "一项针对 351 名大学年龄段 TikTok 与 YouTube 用户的在线问卷调查及结构方程模型分析显示，技术接受模型（TAM）对 TikTok 实际使用的预测效度显著高于 YouTube。感知易用性和感知有用性直接预测两平台使用，平台态度是关键结构前因。t 检验还显示，TikTok 的感知易用性与实际使用得分更高，YouTube 的感知有用性与整体态度得分更高。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "学术 HCI",
+    "问卷/定量"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-02T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

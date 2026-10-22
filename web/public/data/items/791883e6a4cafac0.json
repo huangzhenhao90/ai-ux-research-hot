@@ -1,0 +1,25 @@
+{
+  "id": "791883e6a4cafac0",
+  "sourceId": "producttalk",
+  "sourceName": "Product Talk（Teresa Torres）",
+  "tier": "T2",
+  "url": "https://www.producttalk.org/ai-evals-test-harness/",
+  "title": "Get My Eval Test Harness and Run Your First Experiment",
+  "titleZh": "Product Talk 发布 AI 评估测试框架，附可运行的合成访谈示例",
+  "summaryZh": "Product Talk 作者将自用的 AI 评估测试框架整理进代码仓库，并附一个完整示例，读者可以先跑通示例，再替换成自己的输入、提示词和 eval。示例用 15 份合成访谈记录检验「访谈转故事并判断参与者状态」的流程，更换提示词后编造引语从 12.5% 降到 1.7%，无依据论断从 8.4% 降到 3.2%，状态标签错误降为零。框架分三步：先看输出错误，再按错误类型各配一个可独立添加的 eval 模块，最后跑基线版与变体版对比，工具面向 Supporting Members 和 CDH Members 开放。",
+  "reason": "作者把自用的 AI 评估测试框架整理成仓库并附完整示例，研究者可据此搭建自己的提示词对比实验。",
+  "category": "methods",
+  "tags": [
+    "工具发布",
+    "定性分析",
+    "文本分析/VOC"
+  ],
+  "entities": [],
+  "itemType": "tool_launch",
+  "publishedAt": "2026-09-02T13:05:45+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

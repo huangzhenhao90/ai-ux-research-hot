@@ -1,0 +1,27 @@
+{
+  "id": "89c56ba372b9678d",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/dovetail-connector-figma-make/",
+  "title": "Prototype with real customer data using the Dovetail connector for Figma Make",
+  "titleZh": "Dovetail 发布 Figma Make 连接器，可用真实客户数据做原型",
+  "summaryZh": "Dovetail 发布面向 Figma Make 的连接器，用户在做原型时可以直接调用客户洞察数据。官方称使用该连接器无需切换上下文，就能在原型环节利用这些客户情报。",
+  "reason": "官方宣布 Dovetail 与 Figma Make 打通，研究员在原型阶段就能调用客户洞察，省去在不同工具间来回切换。",
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "洞察库/ResearchOps",
+    "Dovetail"
+  ],
+  "entities": [
+    "dovetail"
+  ],
+  "itemType": "tool_launch",
+  "publishedAt": "2026-02-16T13:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

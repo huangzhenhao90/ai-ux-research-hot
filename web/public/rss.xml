@@ -5,9 +5,27 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 22 Oct 2026 02:48:12 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 05:52:40 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
+    <item>
+      <title>研究提出 Serendiptionnaire 问卷，测量用户体验到的偶遇感</title>
+      <link>https://arxiv.org/abs/2610.29487</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.29487</guid>
+      <pubDate>Thu, 22 Oct 2026 04:00:00 GMT</pubDate>
+      <description>研究团队提出 Serendiptionnaire 问卷，用模块化量表测量用户在与内容不期而遇时既新鲜又有收获的体验。该问卷经过三轮共 27 次认知访谈迭代，受访者在年龄、教育程度、出生国和英语水平上各不相同，期间浏览 Instagram、TikTok、YouTube 和 Spotify 上的推荐内容。作者称该量表可为验证以系统为中心的偶遇指标和基于 LLM 的评估提供 ground truth。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>研究以 17 名医学生评分者分层评估四款 LLM 虚拟标准化病人</title>
+      <link>https://arxiv.org/abs/2610.29312</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.29312</guid>
+      <pubDate>Thu, 22 Oct 2026 04:00:00 GMT</pubDate>
+      <description>一项 arXiv 论文用双盲全交叉设计，让 17 名高年级医学生对 GPT-4o、Claude 3.5 Sonnet、Llama-3.1 70B 和 HyperCLOVA X 四款 LLM 虚拟标准化病人在三个韩国 OSCE 病例中的每句话打分，基于 3 个句子级和 6 个会面级 Likert 指标共得到 7,480 个数据点。在会面层面，四款模型中有三款在可理解性、一致性和无幻觉三项上比人类专家参考低 0.08 到 0.47 个 Likert 点，Llama-3.1 70B 则在全部六项指标上显著低于参考。作者同时介绍了一个网页版 OSCE 平台，支持多种临床病例的虚拟练习，并在研究知情与隐私同意下持续收集学生与虚拟标准化病人的对话。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
     <item>
       <title>对话风格如何影响儿童自我报告：基于 LLM 语音日记的实地研究</title>
       <link>https://doi.org/10.1016/j.ijhcs.2026.103906</link>
@@ -18,22 +36,49 @@
       <category>research</category>
     </item>
     <item>
-      <title>ValiAssist：通过演示扩展 LLM 生成编程反馈的验证</title>
-      <link>https://arxiv.org/abs/2610.27248</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.27248</guid>
+      <title>Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么</title>
+      <link>https://listenlabs.com/articles/voice-of-customer-software-features/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/voice-of-customer-software-features/</guid>
+      <pubDate>Wed, 21 Oct 2026 05:03:33 GMT</pubDate>
+      <description>Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>arXiv 论文提出可检查的 LLM 模拟参与者，用于定性访谈演练</title>
+      <link>https://arxiv.org/abs/2610.27333</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.27333</guid>
       <pubDate>Wed, 21 Oct 2026 04:00:00 GMT</pubDate>
-      <description>ValiAssist 以“演示验证”方式从教师对 AI 生成反馈的修改中推断可复用的验证逻辑，并让教师查看和调整该逻辑在其他学生作业上的应用。在 16 名教师的对比研究中，其反馈与教学目标的一致率为 91%（对照组 57%），纠正问题准则的准确率超过 77% 对 32% 的一倍以上。</description>
+      <description>一篇 arXiv cs.HC 论文提出用于定性访谈演练的可检查 LLM 模拟参与者，标题强调模拟参与者可被检查。</description>
       <category>arXiv cs.HC</category>
       <category>research</category>
     </item>
     <item>
-      <title>Listen Labs 媒体市场研究统计 2026 版：全球媒体规模、广告支出与流媒体数据</title>
-      <link>https://listenlabs.com/articles/media-market-research-statistics/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/media-market-research-statistics/</guid>
-      <pubDate>Tue, 20 Oct 2026 05:15:31 GMT</pubDate>
-      <description>Listen Labs 发布 2026 版媒体市场研究统计，指出全球媒体市场规模 $1.73T、全球广告收入约 $1.30T、数字媒体市场 $1.039T 属不同口径，不可相加。数据含流媒体占美国电视观看时间 47.0%、美国社交媒体广告 $117.7B 居数字广告首位，以及传统电视收入 2025 年下滑 2.7% 至 $360.5B。</description>
-      <category>Listen Labs</category>
-      <category>industry</category>
+      <title>AI 弃答对建议接受度的差异化影响</title>
+      <link>https://arxiv.org/abs/2610.27258</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.27258</guid>
+      <pubDate>Wed, 21 Oct 2026 04:00:00 GMT</pubDate>
+      <description>论文《The Differential Effects of AI Abstention on Advice Acceptance》考察 AI 弃答如何差异化影响人们对建议的接受度。当前可见信息仅到标题层面，未包含样本、实验设计或结论。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>AI 暴露度不看职位看任务：用 Claude 测算的五步法</title>
+      <link>https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4</link>
+      <guid isPermaLink="true">https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4</guid>
+      <pubDate>Tue, 20 Oct 2026 21:29:28 GMT</pubDate>
+      <description>作者提出按任务而非职位评估 AI 暴露度，用能否两句话描述最终结果、能否更快核验两问给一周任务打分，再按工时加权，并给出可直接粘贴到 Claude 的五步提示词。文中引用 2023 年 GPTs are GPTs 的估计，80% 美国劳动者至少一成任务会受影响，约 19% 至少一半，而 Anthropic 用 2026 年 3 月使用数据发现 Claude 覆盖约 33% 的计算机与数学任务。作者还引用 Stanford Digital Economy Lab 2026 年 8 月的分析，22 至 25 岁在暴露职业中的就业水平比与低暴露同行同步时应有的水平低 19%。</description>
+      <category>UX Collective</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Cint 谈为何消费者洞察的未来依赖 AI 主持的混合研究</title>
+      <link>https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/</link>
+      <guid isPermaLink="true">https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/</guid>
+      <pubDate>Tue, 20 Oct 2026 20:46:56 GMT</pubDate>
+      <description>Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。</description>
+      <category>Cint</category>
+      <category>opinion</category>
     </item>
     <item>
       <title>tvbeat 与 合作，为 TVNZ 和 Sky 推进新西兰 Total TV 受众测量</title>
@@ -52,6 +97,319 @@
       <description>复用此前关于 UX 术语的调研问题，让 604 名技术与设计从业者作答，又向 120 名合成受访者提出同一问题并比较两组数据。两组数据得出相同总体结论，但合成回答的多样性远低于真人回答。合成回答于 2026 年 2 月通过生成式 AI 平台 Synthetic Users 生成</description>
       <category>Nielsen Norman Group</category>
       <category>research</category>
+    </item>
+    <item>
+      <title>Maze 宣布更多市场研究可在平台内完成</title>
+      <link>https://maze.co/blog/ai-for-market-research/</link>
+      <guid isPermaLink="true">https://maze.co/blog/ai-for-market-research/</guid>
+      <pubDate>Thu, 08 Oct 2026 05:28:33 GMT</pubDate>
+      <description>Maze 发布博文称，更多市场研究现在可以在 Maze 内完成，指向平台对市场研究场景的进一步覆盖。</description>
+      <category>Maze Blog</category>
+    </item>
+    <item>
+      <title>合成用户与数字孪生：定义、风险与真实用例</title>
+      <link>https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases</link>
+      <guid isPermaLink="true">https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases</guid>
+      <pubDate>Tue, 06 Oct 2026 16:00:00 GMT</pubDate>
+      <description>dscout 的 People Nerds 梳理了合成用户与数字孪生的定义差异，并逐一说明两者的风险与真实使用场景。文章把这两个常被混用的概念分开，供研究团队判断各自适用的环节与边界。</description>
+      <category>dscout People Nerds</category>
+      <category>opinion</category>
+    </item>
+    <item>
+      <title>研究中的多数「数字孪生」其实就是换了名字的合成用户</title>
+      <link>https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins</link>
+      <guid isPermaLink="true">https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins</guid>
+      <pubDate>Thu, 01 Oct 2026 16:00:00 GMT</pubDate>
+      <description>文章指出研究中的多数「数字孪生」实际上就是换了名字的合成用户，并围绕这两个概念的区别展开讨论。这一区分关系到团队如何界定合成受访者方案的能力边界。</description>
+      <category>Great Question Blog</category>
+    </item>
+    <item>
+      <title>解析 AI 智能体的 3 类上下文</title>
+      <link>https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
+      <guid isPermaLink="true">https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
+      <pubDate>Fri, 18 Sep 2026 17:00:00 GMT</pubDate>
+      <description>文章基于对 Claude 重度用户的近期研究，将 AI 智能体的上下文分为全局、局部和环境三类。参与者都建立了由文件、数据库和实时连接组成的上下文库，供 Claude 在提示词之外调用。文章认为，整理合适的上下文比写好提示词更重要</description>
+      <category>Nielsen Norman Group</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>Vistaly 为 1 个客户反馈做了 4 个新 eval 与 16 个实验变体</title>
+      <link>https://www.producttalk.org/4-new-evals-and-16-experiment-variants/</link>
+      <guid isPermaLink="true">https://www.producttalk.org/4-new-evals-and-16-experiment-variants/</guid>
+      <pubDate>Wed, 16 Sep 2026 13:00:36 GMT</pubDate>
+      <description>Teresa Torres 与 Vistaly 为修复一条客户反馈投入 4 个新 eval 与 16 个实验变体，该反馈指 AI 生成的机会解决方案树在一个分支上缺少层级。她先用代码断言的 tree-shape eval 统计父节点的子节点分布，再用 LLM-as-a-Judge 判断是否存在漏掉的子分组。在人工标注的校准集上，judge 的 recall 为 100%，specificity 只有 43.75%，会把没有漏分组的节点判成有。</description>
+      <category>Product Talk（Teresa Torres）</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>用 AI 原型制作更早测试复杂交互</title>
+      <link>https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
+      <guid isPermaLink="true">https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
+      <pubDate>Fri, 11 Sep 2026 17:00:00 GMT</pubDate>
+      <description>AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实产品的可运行原型，从而更早、更频繁测试并据研究迭代。</description>
+      <category>Nielsen Norman Group</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Cint 发文分析 MCP 与 AI 智能体如何重塑市场洞察</title>
+      <link>https://www.cint.com/blog/mcps-market-research-esomar/</link>
+      <guid isPermaLink="true">https://www.cint.com/blog/mcps-market-research-esomar/</guid>
+      <pubDate>Thu, 10 Sep 2026 21:29:14 GMT</pubDate>
+      <description>Cint 发布文章，讨论 MCP 与 AI 智能体正在如何重塑市场洞察的工作方式。文章以行业分析视角展开，未在标题层面给出具体案例或数据。</description>
+      <category>Cint</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>定性研究中的可确认性：含义与建立方法</title>
+      <link>https://delvetool.com/blog/confirmability-in-qualitative-research/</link>
+      <guid isPermaLink="true">https://delvetool.com/blog/confirmability-in-qualitative-research/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Delve 发文讲解定性研究中的可确认性，即如何证明研究发现来自数据本身。文章建议在编码过程中同步建立审计轨迹，由 Delve 集中保存记录。</description>
+      <category>Delve</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>用 AI 做 UX 工作：学习指南</title>
+      <link>https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
+      <guid isPermaLink="true">https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
+      <pubDate>Fri, 04 Sep 2026 17:00:00 GMT</pubDate>
+      <description>发布《用 AI 做 UX 工作：学习指南》，汇总其文章和视频，帮助团队找到将 AI 融入 UX 工作流的具体方式。指南指出，AI 目前还不能完全接管 UX 工作，但可用于辅助既有流程；从业者应把 AI 当作增强能力的“手套”，而非替代判断</description>
+      <category>Nielsen Norman Group</category>
+      <category>opinion</category>
+    </item>
+    <item>
+      <title>Product Talk 发布 AI 评估测试框架，附可运行的合成访谈示例</title>
+      <link>https://www.producttalk.org/ai-evals-test-harness/</link>
+      <guid isPermaLink="true">https://www.producttalk.org/ai-evals-test-harness/</guid>
+      <pubDate>Wed, 02 Sep 2026 13:05:45 GMT</pubDate>
+      <description>Product Talk 作者将自用的 AI 评估测试框架整理进代码仓库，并附一个完整示例，读者可以先跑通示例，再替换成自己的输入、提示词和 eval。示例用 15 份合成访谈记录检验「访谈转故事并判断参与者状态」的流程，更换提示词后编造引语从 12.5% 降到 1.7%，无依据论断从 8.4% 降到 3.2%，状态标签错误降为零。框架分三步：先看输出错误，再按错误类型各配一个可独立添加的 eval 模块，最后跑基线版与变体版对比，工具面向 Supporting Members 和 CDH Members 开放。</description>
+      <category>Product Talk（Teresa Torres）</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>UX 的“看护时代”：为 AI 生成的设计善后</title>
+      <link>https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
+      <guid isPermaLink="true">https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
+      <pubDate>Fri, 28 Aug 2026 17:00:00 GMT</pubDate>
+      <description>AI 让团队生成内容、原型和可运行功能的速度快过 UX 评估，UX 正进入“看护时代”。UX 的工作从空白页设计转向判断 AI 产出中哪些保留、哪些修改，并为已存在的原型和功能善后。应对方式是建立共享判断、加速评估，并引导 AI 生成的设计。</description>
+      <category>Nielsen Norman Group</category>
+      <category>opinion</category>
+    </item>
+    <item>
+      <title>AI 无法在同理心地图中替代真实研究</title>
+      <link>https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
+      <guid isPermaLink="true">https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
+      <pubDate>Fri, 28 Aug 2026 17:00:00 GMT</pubDate>
+      <description>AI 无法替代真实研究来制作同理心地图，只能帮助整理已经收集到的研究材料。同理心地图用 Says、Thinks、Does、Feels 四个象限呈现团队对某类用户的已知信息，通常在工作坊中由来自真实研究的便利贴协作搭建。原文指出，AI 工具虽能在几秒内生成整页便利贴，但便利贴由什么材料生成比生成速度更重要。</description>
+      <category>Nielsen Norman Group</category>
+      <category>opinion</category>
+    </item>
+    <item>
+      <title>今天就能构建的 9 个 Dovetail Digital Twins，以及它们各自能为团队做什么</title>
+      <link>https://dovetail.com/blog/9-digital-twins-you-can-build-today/</link>
+      <guid isPermaLink="true">https://dovetail.com/blog/9-digital-twins-you-can-build-today/</guid>
+      <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
+      <description>Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。</description>
+      <category>Dovetail Blog</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>MeasuringU 总结主持访谈时建立融洽关系的五种方法</title>
+      <link>https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=five-ways-to-use-rapport-when-moderating</link>
+      <guid isPermaLink="true">https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=five-ways-to-use-rapport-when-moderating</guid>
+      <pubDate>Tue, 25 Aug 2026 21:18:05 GMT</pubDate>
+      <description>MeasuringU 撰文总结主持访谈时建立融洽关系的五种方法，涵盖会前准备、刻意破冰、语言与非语言技巧、警惕双向讨好，以及把融洽关系当作最后的甄别步骤。文中建议用中立的小谈降低参与者压力，用有意的停顿留出思考时间，并提醒过度友善会让参与者表演而非真实反应。文章还提到，一些团队（包括作者所在团队）正在低风险、高样本量的口头问卷中试验 AI 主持，但当参与者难以招募时，人类主持人的技巧仍决定访谈收获。</description>
+      <category>MeasuringU（Jeff Sauro）</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>NN/g AI 术语表：从 token、上下文窗口到智能体、evals 与提示词注入</title>
+      <link>https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
+      <guid isPermaLink="true">https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
+      <pubDate>Fri, 21 Aug 2026 17:00:00 GMT</pubDate>
+      <description>NN/g 整理了一份面向产品与设计工作的 AI 术语表，解释 token、上下文窗口、智能体、evals 和提示词注入等术语。词条按字母排列，可查表、用浏览器查找或顺序阅读，并链接到 NN/g 的深入文章。定义遵循 AI 产品与 UX 工作中的用法，厂商和研究者的用法可能不同。</description>
+      <category>Nielsen Norman Group</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>MeasuringU 从 34 条候选题中精简 AI 用户体验问卷</title>
+      <link>https://measuringu.com/streamlined-measurement-of-the-ux-of-ai/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=streamlined-measurement-of-the-ux-of-ai</link>
+      <guid isPermaLink="true">https://measuringu.com/streamlined-measurement-of-the-ux-of-ai/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=streamlined-measurement-of-the-ux-of-ai</guid>
+      <pubDate>Tue, 18 Aug 2026 22:21:12 GMT</pubDate>
+      <description>MeasuringU 基于 2026 年 5 月对 ChatGPT、Claude、Gemini、Grok 共 420 名美国样本库受访者的回溯调查，完成 34 条 AI 用户体验候选题的筛选。因子分析显示，除一条同时落在 Trust 与 Productivity 上的题目外，其余 33 条均落在预期构念之上。AI Productivity、AI Trust、AI Dependency、AI Anxiety 等构念各有二至三条题目入选，目标是让每个构念的 coefficient alpha 不低于 0.70。</description>
+      <category>MeasuringU（Jeff Sauro）</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>解释性序列设计：用访谈解释问卷结果的 Delve 实用指南</title>
+      <link>https://delvetool.com/blog/explanatory-sequential-research-design-delvetool/</link>
+      <guid isPermaLink="true">https://delvetool.com/blog/explanatory-sequential-research-design-delvetool/</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Delve 的《解释性序列设计：实用指南》讲解如何用访谈解释问卷结果。指南还给出真实研究案例，并演示如何在 Delve 中编码后续访谈。</description>
+      <category>Delve</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>探索性序列设计实用指南：将访谈转化为问卷并在 Delve 中编码</title>
+      <link>https://delvetool.com/blog/exploratory-sequential-research-design-delvetool/</link>
+      <guid isPermaLink="true">https://delvetool.com/blog/exploratory-sequential-research-design-delvetool/</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Delve 的《探索性序列设计实用指南》讲解如何把访谈转化为问卷，并说明定性阶段的编码方法。文中包含一个真实研究示例，并演示如何在 Delve 中完成定性阶段编码。</description>
+      <category>Delve</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>更新团队编码协作，新增 Transcript Dashboard、就地编辑与部分计分的编码者一致性</title>
+      <link>https://delvetool.com/blog/collaboration-in-delve/</link>
+      <guid isPermaLink="true">https://delvetool.com/blog/collaboration-in-delve/</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <description>更新团队定性编码协作，新增 Transcript Dashboard 用于分配和跟踪团队工作，编码对比页面支持就地编辑，多编码片段可采用部分计分的编码者一致性计算。三项更新分别对应分工跟踪、编码对齐与一致性核对，面向多人协作处理同一批材料的场景</description>
+      <category>Delve</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>Dovetail 夏季发布推出 Digital Twins、agents、Channels 2.0 与企业级功能</title>
+      <link>https://dovetail.com/blog/suns-out-2026-launch/</link>
+      <guid isPermaLink="true">https://dovetail.com/blog/suns-out-2026-launch/</guid>
+      <pubDate>Tue, 14 Jul 2026 16:00:00 GMT</pubDate>
+      <description>Dovetail 在 Sun's Out 夏季发布中推出 Digital Twins、agents、Channels 2.0 以及新的企业级功能。此次发布还包含 MCP connectors 和企业级治理能力。官方称，这些更新意在缩短客户上下文与业务决策之间的距离。</description>
+      <category>Dovetail Blog</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>Dovetail 发布 AI 平台扩展，推出 Agents 与 Digital Twins</title>
+      <link>https://dovetail.com/blog/suns-out-summer-launch-26/</link>
+      <guid isPermaLink="true">https://dovetail.com/blog/suns-out-summer-launch-26/</guid>
+      <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
+      <description>Dovetail 宣布 Sun’s Out Summer Launch ’26，涉及 AI Agents、Digital Twins、Channels 2.0、MCP 连接器和 ISO 42001 认证。官方称这次平台扩展的目标是缩小客户信号与业务结果之间的差距。Digital Twins 被描述为具有品类定义意义的数字孪生能力。</description>
+      <category>Dovetail Blog</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>重建数据接入：一次抓取，处处可用</title>
+      <link>https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/</link>
+      <guid isPermaLink="true">https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/</guid>
+      <pubDate>Sun, 14 Jun 2026 23:00:00 GMT</pubDate>
+      <description>正在重建数据接入方式：不再让每个 Channel 各自抓取一份数据，而是改为工作区中的一份共享数据源。这份共享源可在需要的位置直接使用，对应“一次抓取，处处可用”</description>
+      <category>Dovetail Blog</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>Claude 连接 Dovetail 后能做什么？</title>
+      <link>https://dovetail.com/blog/whats-possible-with-claude-x-dovetail/</link>
+      <guid isPermaLink="true">https://dovetail.com/blog/whats-possible-with-claude-x-dovetail/</guid>
+      <pubDate>Tue, 19 May 2026 23:00:00 GMT</pubDate>
+      <description>将 Claude 连接到 Dovetail 后，用户可把客户证据带入草稿、决策和简报，同时不打断工作流。Dovetail 以此说明 Claude 与 Dovetail 连接后的使用场景。</description>
+      <category>Dovetail Blog</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>发布迄今最强的聊天功能更新</title>
+      <link>https://dovetail.com/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/</link>
+      <guid isPermaLink="true">https://dovetail.com/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/</guid>
+      <pubDate>Mon, 11 May 2026 14:00:00 GMT</pubDate>
+      <description>发布聊天功能上线以来规模最大的一次更新，支持在对话中内嵌富媒体、多上下文提问与网页搜索。此次更新还包括重新设计的交互体验和更广的数据覆盖范围</description>
+      <category>Dovetail Blog</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>研究对比四款 AI 主题分析工具，MAXQDA AI Assist 命中 6 个人工主题中的 3 个</title>
+      <link>https://www.maxqda.com/blogpost/maxqda-ai-assist-for-thematic-analysis</link>
+      <guid isPermaLink="true">https://www.maxqda.com/blogpost/maxqda-ai-assist-for-thematic-analysis</guid>
+      <pubDate>Mon, 13 Apr 2026 09:11:15 GMT</pubDate>
+      <description>一项同行评审研究将 ChatGPT-4o、QInsights、ATLAS.ti AI 与 MAXQDA AI Assist 四款工具用于同一批 25 名教师的访谈数据，并以已完成的人工主题分析作为对照。若以 6 个人工主题为基准，MAXQDA AI Assist 有 3 个完全匹配（50%），其余三款各只有 1 个（16.7%）；四款工具都只做到部分吻合，都没有达到人工分析的阐释深度，而人工分析耗时超过 150 小时。研究还根据编码逻辑区分了偏重词频的取向和偏重研究者互动的取向，并说明人工参照是此前完成的既有分析，而非真值基准。</description>
+      <category>MAXQDA</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>推出 Explore：可视化搜索客户知识的新体验</title>
+      <link>https://dovetail.com/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/</link>
+      <guid isPermaLink="true">https://dovetail.com/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/</guid>
+      <pubDate>Fri, 27 Mar 2026 01:00:00 GMT</pubDate>
+      <description>推出 Explore，一种新的可视化搜索体验，帮助团队在工作区中浏览高亮、项目、对话和客户时刻。该功能定位为跨工作区串联客户知识的入口</description>
+      <category>Dovetail Blog</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>数据监测指南：如何及早发现坏数据的领先指标</title>
+      <link>https://www.surveycto.com/data-collection-quality/data-monitoring-guide/</link>
+      <guid isPermaLink="true">https://www.surveycto.com/data-collection-quality/data-monitoring-guide/</guid>
+      <pubDate>Thu, 26 Mar 2026 15:34:41 GMT</pubDate>
+      <description>发布数据监测指南，讲解如何用自动化和智能检查识别坏数据的早期指标。指南以分步方式说明及早发现数据质量问题的方法</description>
+      <category>SurveyCTO</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>如何用 AI 构建并应用主题分析编码本</title>
+      <link>https://delvetool.com/blog/how-to-create-apply-thematic-analysis-codebook-using-ai/</link>
+      <guid isPermaLink="true">https://delvetool.com/blog/how-to-create-apply-thematic-analysis-codebook-using-ai/</guid>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+      <description>的指南演示如何用 AI 从首个编码到最终主题构建并应用主题分析编码本。指南具体说明在哪些环节、何时以及为何应信任 AI 工具，而不是依赖人工判断</description>
+      <category>Delve</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>MAXQDA 发布 26.2 更新，新增片段级 AI 编码与 AI Reports</title>
+      <link>https://www.maxqda.com/blogpost/maxqda-26-2</link>
+      <guid isPermaLink="true">https://www.maxqda.com/blogpost/maxqda-26-2</guid>
+      <pubDate>Thu, 05 Mar 2026 13:21:19 GMT</pubDate>
+      <description>MAXQDA 发布 26.2（2026 年 3 月）更新，新增片段级 AI 编码与 Beta 版 AI Reports，并改版 Memos 布局。片段级 AI 编码会对选中的文本片段给出编码建议并附理由，需人工批准后应用，AI Assist 免费版一次最多分析 5 个编码，Premium 最多 20 个。AI Reports 按自定问题生成可回溯到原文的报告，免费版最多纳入 2 份文档，Premium 最多 50 份。</description>
+      <category>MAXQDA</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>Dovetail 发布 Figma Make 连接器，可用真实客户数据做原型</title>
+      <link>https://dovetail.com/blog/dovetail-connector-figma-make/</link>
+      <guid isPermaLink="true">https://dovetail.com/blog/dovetail-connector-figma-make/</guid>
+      <pubDate>Mon, 16 Feb 2026 13:00:00 GMT</pubDate>
+      <description>Dovetail 发布面向 Figma Make 的连接器，用户在做原型时可以直接调用客户洞察数据。官方称使用该连接器无需切换上下文，就能在原型环节利用这些客户情报。</description>
+      <category>Dovetail Blog</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>如何用 AI 进行主题分析：分步指南</title>
+      <link>https://delvetool.com/blog/how-to-use-ai-for-thematic-analysis-step-by-step-guide/</link>
+      <guid isPermaLink="true">https://delvetool.com/blog/how-to-use-ai-for-thematic-analysis-step-by-step-guide/</guid>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
+      <description>分步指南围绕 Braun 和 Clarke 的六步法，拆解 AI 如何辅助主题分析，并指出哪些环节需要研究者保持主导。它逐阶段说明 AI 的支持方式与操作步骤，强调 AI 用于辅助流程，而非替研究者做关键判断。</description>
+      <category>Delve</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>SurveyCTO 将 AI 表单工具引入平台，帮助用户构建更好的表单</title>
+      <link>https://www.surveycto.com/press-releases/ai-form-tools-improve-survey-design/</link>
+      <guid isPermaLink="true">https://www.surveycto.com/press-releases/ai-form-tools-improve-survey-design/</guid>
+      <pubDate>Mon, 12 Jan 2026 01:23:34 GMT</pubDate>
+      <description>SurveyCTO 将 AI 表单工具引入平台，支持用 AI 编写表达式、审查调查问题并获取更好的数据。该工具面向问卷设计，目标是简化建表体验。</description>
+      <category>SurveyCTO</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>Dovetail 发布 2025 秋季版本，推出 AI Agents、Dashboards、Docs 与集成等 10 项能力</title>
+      <link>https://dovetail.com/blog/2025-fall-launch/</link>
+      <guid isPermaLink="true">https://dovetail.com/blog/2025-fall-launch/</guid>
+      <pubDate>Wed, 08 Oct 2025 15:00:00 GMT</pubDate>
+      <description>Dovetail 发布 2025 秋季版本，上线 10 项新能力，覆盖 AI Agents、Dashboards、Docs 与集成。官方称这些能力将客户反馈放在产品构建流程的核心，并改变传统线性的 SDLC 工作流。</description>
+      <category>Dovetail Blog</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>我的定性分析编码是不是太多了？Quirkos 列出警示信号与精简方法</title>
+      <link>https://www.quirkos.com/blog/post/do-i-have-too-many-codes-in-my-qualitative-analysis/</link>
+      <guid isPermaLink="true">https://www.quirkos.com/blog/post/do-i-have-too-many-codes-in-my-qualitative-analysis/</guid>
+      <pubDate>Fri, 09 May 2025 09:46:24 GMT</pubDate>
+      <description>Quirkos 列出定性分析中编码过多的几个警示信号：无法区分不同编码、多数编码为开放式且互不连接、检索结果碎片化到无意义、画布显得太小。建议用编码描述建立编码手册、合并近义编码、设置主题性上位编码来精简。Quirkos 中可悬停查看描述、右键合并，报告功能可查看全部描述。</description>
+      <category>Quirkos</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Quirkos 3 发布：不含 AI 功能的完全离线定性分析软件</title>
+      <link>https://www.quirkos.com/blog/post/quirkos-3-is-released-best-qualitative-software/</link>
+      <guid isPermaLink="true">https://www.quirkos.com/blog/post/quirkos-3-is-released-best-qualitative-software/</guid>
+      <pubDate>Thu, 23 Jan 2025 10:27:25 GMT</pubDate>
+      <description>Quirkos 发布完全离线的桌面定性分析软件 Quirkos 3，支持 Windows、Mac 和 Linux，不含任何 AI 功能，数据不与外部共享。新版沿用 Quirkos Web 界面，新增各来源主题使用频次表、编码间相关性等报告与图表，并支持导入 REFI-QDA 标准项目。Quirkos 2 继续获得支持且与新版双向兼容；过去 3 个月购买者可免费升级，其他用户升级费为新许可的 50%，并提供 14 天免费试用。</description>
+      <category>Quirkos</category>
+      <category>tools</category>
     </item>
   </channel>
 </rss>

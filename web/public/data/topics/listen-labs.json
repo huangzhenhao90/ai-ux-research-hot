@@ -3,8 +3,263 @@
   "name": "Listen Labs",
   "group": "company",
   "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-  "count": 1,
+  "count": 10,
   "items": [
+    {
+      "id": "1afcb1a1360dc91a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/voice-of-customer-software-features/",
+      "title": "Voice of Customer Software Features: What Each One Does",
+      "titleZh": "Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么",
+      "summaryZh": "Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "文本分析/VOC",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:33+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "66bedcdc83b6e13d",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-methodology/",
+      "title": "Kantar Brand Tracking Methodology: MDS & Metrics Explained",
+      "titleZh": "Kantar 品牌追踪方法论：MDS 框架与指标解析",
+      "summaryZh": "Kantar 用 MDS 框架与 Three Signals 整合四类数据做品牌追踪，衡量品牌健康。MDS 含七项指标，BrandZ 数据显示 Meaningful 与 Different 合计解释 94% 的 Pricing Power。Listen Labs 的对话式追踪实时解释 KPI 变动。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "行为数据",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T05:15:36+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "246a6f44e479e79a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/concept-testing-retail-products/",
+      "title": "Retail Concept Testing: Methods, Steps & Questions",
+      "titleZh": "零售概念测试：方法、步骤与问题",
+      "summaryZh": "Listen Labs 的零售概念测试覆盖产品概念、包装与货架吸引力、价格感知和自有品牌竞争四类，并给出 5 步流程。其 AI 主持访谈依托 50M+ 受访者网络，覆盖 45+ 国家和 120+ 语言，称 24 小时内交付分析结果，成本约为传统研究的三分之一。示例用 200 名已验证零食品类买家，对比 $2.99 与 $3.79 两个价格点。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T05:15:18+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6ddbda8fa559856b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/what-is-ai-interviewer/",
+      "title": "What Is an AI Interviewer? A Plain-Language Guide",
+      "titleZh": "什么是 AI Interviewer？一份通俗指南",
+      "summaryZh": "Listen Labs 的指南解释 AI Interviewer 是能通过语音、视频或文本自动访谈、动态追问并分析回答的软件，覆盖招聘与客户研究。面向客户研究，Listen Labs 结合 50M+ 验证参与者网络、AI 主持动态追问和自动分析，称可在不到 24 小时交付结果。招聘侧，Fabric 分析 19,000 场访谈显示 AI 筛选与人类评分一致率 60–90%，电话式对话筛选完成率可超 95%，视频格式为 40–60%。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "非用研/通用"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T05:15:06+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e02e35c49c208ae3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-market-research-methods-startups/",
+      "title": "Customer Research Methods For Startups: A How-To Playbook",
+      "titleZh": "Listen Labs：初创公司客户研究方法操作手册",
+      "summaryZh": "Listen Labs 梳理初创公司客户研究方法，按创意、预发布、发布后三阶段给出组合建议。创意阶段建议 5–10 次客户发现访谈，预发布阶段用 20–30 次 AI 主持访谈加落地页测试。其平台称拥有 50M+ 验证样本库，可单日访谈最多 1,000 名客户并在 24 小时内交付分析，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:39+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f2094553e5f9ba08",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-scalability-guide/",
+      "title": "Customer Insights Platform Scalability: Practitioner’s Guide",
+      "titleZh": "Listen Labs 客户洞察平台可扩展性实践指南",
+      "summaryZh": "Listen Labs 在《客户洞察平台可扩展性实践指南》中提出六维框架，称其平台可将研究周期压缩到不到 24 小时，并覆盖 50M+ 验证受访者。六个维度包括数据量、受访者覆盖、周期时间、质量控制、单研究成本和跨研究知识，Listen Atlas 覆盖 45+ 国家和 120+ 语言。Quality Guard 实时监控访谈，平台成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:02:59+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ae8db14e0640ada2",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-market-research-software-comparison/",
+      "title": "Market Research Software Comparison: How To Choose in 2026",
+      "titleZh": "Listen Labs 市场研究软件对比指南：2026 年如何选择六类工具",
+      "summaryZh": "Listen Labs 的市场研究软件对比指南把工具分为六类，并给出按研究目标选型的五步框架。其平台自述覆盖 AI 主持访谈全流程，依托 50M+ 验证受访者、45+ 国家与 120+ 语言，24 小时内交付结果。Microsoft 将研究等待时间从数周缩短到数小时，Anthropic 用原先 5-6 项研究的时间完成 100 项。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:05+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "263b215d53519328",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-enterprise-ai-research-platforms/",
+      "title": "Best Enterprise AI Research Platforms Compared 2026",
+      "titleZh": "2026 年最佳企业级 AI 研究平台对比",
+      "summaryZh": "Listen Labs 在 2026 年企业级 AI 研究平台对比中将平台分为五类，并称其平台在客户与消费者研究类别领先。其平台覆盖 50M+ 验证受访者、45+ 国家、120+ 语言，可在 24 小时内产出交付物，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "市场研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "dovetail",
+        "qualtrics",
+        "surveymonkey",
+        "user-interviews"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:24+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fd40c9f209173903",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-user-experience-testing-software/",
+      "title": "The Best User Experience Testing Software in 2026",
+      "titleZh": "Listen Labs 盘点 2026 年最佳用户体验测试软件",
+      "summaryZh": "Listen Labs 2026 年用户体验测试软件指南推荐 AI 主持访谈，对比 Maze 与 UserTesting。AI 主持访谈可并行数百人，依托 50M+ 验证样本、45+ 国家、120+ 语言，24 小时内出结果。MeasuringU 的 838 人非主持研究显示，自报完成率 93%、核实完成率 33%。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "可用性测试",
+        "AI 访谈",
+        "招募/样本",
+        "UserTesting",
+        "Maze"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T05:15:12+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "0dad8a14e94f399a",
       "sourceId": "listen-labs",
@@ -26,7 +281,7 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:31+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     }

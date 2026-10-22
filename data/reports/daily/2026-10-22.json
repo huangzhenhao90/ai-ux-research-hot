@@ -2,14 +2,14 @@
   "kind": "daily",
   "date": "2026-10-22",
   "siteName": "UXHOT",
-  "generatedAt": "2026-10-22T01:59:58.575665+00:00",
+  "generatedAt": "2026-10-22T05:52:39.644183+00:00",
   "window": {
     "start": "2026-10-21T00:00:00+00:00",
     "end": "2026-10-22T00:00:00+00:00"
   },
   "empty": false,
   "stats": {
-    "selectedCount": 2,
+    "selectedCount": 4,
     "newTools": 0,
     "briefCount": 0
   },
@@ -36,22 +36,65 @@
   },
   "highlights": [
     {
-      "id": "1190a1bb12c738b9",
-      "titleZh": "ValiAssist：通过演示扩展 LLM 生成编程反馈的验证",
-      "summaryZh": "ValiAssist 以“演示验证”方式从教师对 AI 生成反馈的修改中推断可复用的验证逻辑，并让教师查看和调整该逻辑在其他学生作业上的应用。在 16 名教师的对比研究中，其反馈与教学目标的一致率为 91%（对照组 57%），纠正问题准则的准确率超过 77% 对 32% 的一倍以上。",
-      "reason": "",
+      "id": "a648e6bd28db420f",
+      "titleZh": "arXiv 论文提出可检查的 LLM 模拟参与者，用于定性访谈演练",
+      "summaryZh": "一篇 arXiv cs.HC 论文提出用于定性访谈演练的可检查 LLM 模拟参与者，标题强调模拟参与者可被检查。",
+      "reason": "标题指向把 LLM 模拟参与者用于定性访谈演练，并强调模拟参与者可检查，为访谈训练提供一种可审查的模拟思路。",
       "category": "research",
       "categoryLabel": "论文",
       "sourceId": "arxiv-cs-hc",
       "sourceName": "arXiv cs.HC",
       "tier": "T2",
-      "url": "https://arxiv.org/abs/2610.27248",
+      "url": "https://arxiv.org/abs/2610.27333",
       "publishedAt": "2026-10-21T04:00:00+00:00",
-      "avgScore": 41.5,
-      "importance": 41.5,
+      "avgScore": 58.5,
+      "importance": 58.5,
       "tags": [
         "论文/研究",
-        "学术 HCI",
+        "合成用户",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "708c179adb3d9ebf",
+      "titleZh": "AI 弃答对建议接受度的差异化影响",
+      "summaryZh": "论文《The Differential Effects of AI Abstention on Advice Acceptance》考察 AI 弃答如何差异化影响人们对建议的接受度。当前可见信息仅到标题层面，未包含样本、实验设计或结论。",
+      "reason": "论文考察 AI 弃答对建议接受度的差异化影响，可帮助研究者把握人机建议互动中的一个具体问题切口。",
+      "category": "research",
+      "categoryLabel": "论文",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.27258",
+      "publishedAt": "2026-10-21T04:00:00+00:00",
+      "avgScore": 56.0,
+      "importance": 56.0,
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "1afcb1a1360dc91a",
+      "titleZh": "Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么",
+      "summaryZh": "Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。",
+      "reason": "",
+      "category": "methods",
+      "categoryLabel": "方法",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/voice-of-customer-software-features/",
+      "publishedAt": "2026-10-21T05:03:33+00:00",
+      "avgScore": 43.0,
+      "importance": 43.0,
+      "tags": [
+        "方法/实践",
+        "文本分析/VOC",
+        "AI 访谈",
         "定性分析"
       ],
       "relatedIds": []

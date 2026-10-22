@@ -1,0 +1,23 @@
+{
+  "id": "41c2192cb6d17de1",
+  "sourceId": "hci-journal",
+  "sourceName": "Human-Computer Interaction",
+  "tier": "T2",
+  "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2717534?af=R",
+  "title": "Dialogue patterns in human-AI co-creation: how interaction structure shapes output and process",
+  "titleZh": "人机共创中的对话模式：交互结构如何塑造产出与过程",
+  "summaryZh": "研究考察人机共创中的对话模式，分析交互结构如何影响创作产出与协作过程。标题指向以对话模式为分析切口，讨论不同交互结构对产出与过程的作用。",
+  "reason": null,
+  "category": null,
+  "tags": [
+    "其他"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-09-22T06:44:26+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

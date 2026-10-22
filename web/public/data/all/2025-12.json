@@ -1,7 +1,160 @@
 {
   "month": "2025-12",
-  "count": 2,
+  "count": 8,
   "items": [
+    {
+      "id": "78cc1108413d28d6",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/ultimate-guide-comparing-qualitative-coding-software/",
+      "title": "The Ultimate Guide to Qualitative Coding Software",
+      "titleZh": "Delve、NVivo、MAXQDA、ATLAS.ti 等定性编码软件对比指南",
+      "summaryZh": "一份定性编码软件指南对比了 Delve、NVivo、MAXQDA、ATLAS.ti、Quirkos、Dedoose 和 Taguette。比较维度包括学习曲线、AI 辅助编码与协作功能。",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve",
+        "maxqda",
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-16T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "41065320cd5e6a93",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/comparing-best-software-for-thematic-analysis/",
+      "title": "Comparing the Best Software for Thematic Analysis",
+      "titleZh": "最佳主题分析软件对比：NVivo、ATLAS.ti、MAXQDA、Quirkos、Taguette、Dedoose 与 Delve 的编码、主题构建和工作流",
+      "summaryZh": "NVivo、ATLAS.ti、MAXQDA、Quirkos、Taguette、Dedoose 与 Delve 七款主题分析软件被集中对比，考察编码、主题构建和工作流。对比聚焦各工具在这些环节的具体处理方式。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "maxqda",
+        "quirkos",
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-09T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "08e58d19623b331e",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/compare-best-software-teach-qualitative-analysis/",
+      "title": "The Best QDA Software for Teaching Qualitative Research",
+      "titleZh": "定性研究教学的最佳 QDA 软件指南",
+      "summaryZh": "面向定性研究教学，这份 QDA 软件指南以学生第一周即可上手为筛选重点。它比较各工具的设置时间、访问方式、工作流和真实课堂体验。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-09T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a8de32d096765588",
+      "sourceId": "hci-journal",
+      "sourceName": "Human-Computer Interaction",
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2596752?af=R",
+      "title": "Q is for qualitative and how (not) to draw too small a boundary around qualitative research in HCI",
+      "titleZh": "Q 代表定性：HCI 中如何（不）把定性研究的边界画得太小",
+      "summaryZh": "HCI 中的定性研究不应被过窄的边界限制，标题以“Q 代表定性”点明这一议题，并讨论如何避免把定性研究的范围画得过小。",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-12-11T07:43:15+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8781e582898c4259",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/how-top-brands-collect-customer-intelligence/",
+      "title": "How do top brands collect and apply customer intelligence?",
+      "titleZh": "Itaú、Atlassian 等品牌如何用 Dovetail 收集并应用客户智能？",
+      "summaryZh": "Itaú Unibanco、Atlassian、Petal Health、Breville 和 Canva 使用 Dovetail 客户智能平台处理非结构化数据。它们据此制定产品路线图和策略。",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-18T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "68fb886213131534",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/generating-customer-intelligence-at-scale/",
+      "title": "What’s the best way to generate customer intelligence at scale?",
+      "titleZh": "大规模生成客户情报的最佳方式是什么？Dovetail 分步指南",
+      "summaryZh": "Dovetail 在博文中给出分步指南，讲解如何大规模获取客户情报、预判客户需求，并将情报整合进决策与产品原型。指南以 Dovetail 这类平台为例，说明生成和利用客户情报的流程。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-18T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "dccc8fb99acae67e",
       "sourceId": "quirkos",

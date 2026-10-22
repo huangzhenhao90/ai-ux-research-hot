@@ -1,0 +1,26 @@
+{
+  "id": "73643e8efa6ca8ca",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.28772",
+  "title": "Scaling Therapy Supervision: Assessing Psychotherapy Fidelity Using Large Language Models",
+  "titleZh": "大语言模型评估心理治疗保真度，扩展治疗督导",
+  "summaryZh": "研究者用大语言模型（LLMs）自动评估心理治疗保真度，并从真实长程临床转录生成可操作的督导反馈。研究评估了三个开放权重模型在多种任务分解配置和推理策略下的表现，发现证据优先推理能提升保真度估计。该框架在独立随机对照试验（RCT）中可区分 CBT 与非 CBT 会谈，专家用户研究认为其反馈具有可操作性。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "文本分析/VOC",
+    "转写/编码",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-22T04:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

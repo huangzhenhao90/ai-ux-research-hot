@@ -1,0 +1,27 @@
+{
+  "id": "cde5eb2df8b572a4",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/suns-out-summer-launch-26/",
+  "title": "Dovetail launches major AI-powered platform expansion including Agents and category-defining Digital Twins, to close the gap between customer signal and business outcomes",
+  "titleZh": "Dovetail 发布 AI 平台扩展，推出 Agents 与 Digital Twins",
+  "summaryZh": "Dovetail 宣布 Sun’s Out Summer Launch ’26，涉及 AI Agents、Digital Twins、Channels 2.0、MCP 连接器和 ISO 42001 认证。官方称这次平台扩展的目标是缩小客户信号与业务结果之间的差距。Digital Twins 被描述为具有品类定义意义的数字孪生能力。",
+  "reason": "Dovetail 一次性公布 Agents、Digital Twins、Channels 2.0 与 MCP 连接器，研究员可据此判断洞察平台正往哪些环节延伸。",
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "洞察库/ResearchOps",
+    "Agent"
+  ],
+  "entities": [
+    "dovetail"
+  ],
+  "itemType": "tool_launch",
+  "publishedAt": "2026-07-14T12:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "08e58d19623b331e",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/compare-best-software-teach-qualitative-analysis/",
+  "title": "The Best QDA Software for Teaching Qualitative Research",
+  "titleZh": "定性研究教学的最佳 QDA 软件指南",
+  "summaryZh": "面向定性研究教学，这份 QDA 软件指南以学生第一周即可上手为筛选重点。它比较各工具的设置时间、访问方式、工作流和真实课堂体验。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-12-09T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

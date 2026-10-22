@@ -1,0 +1,28 @@
+{
+  "id": "c79ea5e8b5c6c363",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/qualitative-survey-analysis-guide/",
+  "title": "Qualitative Survey Analysis: A Practical Guide",
+  "titleZh": "定性问卷分析实用指南：Delve 如何简化定性编码流程",
+  "summaryZh": "Delve 的《定性问卷分析实用指南》梳理现代问卷分析方法，并说明其问卷分析软件如何让定性编码流程更易管理。该指南面向定性问卷分析实践，介绍软件辅助的编码管理思路。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "问卷/定量",
+    "转写/编码"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-09-10T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

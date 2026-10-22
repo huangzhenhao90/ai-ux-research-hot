@@ -1,0 +1,28 @@
+{
+  "id": "dedfd59baa47acfd",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/",
+  "title": "Introducing Dovetail’s most powerful chat yet",
+  "titleZh": "发布迄今最强的聊天功能更新",
+  "summaryZh": "发布聊天功能上线以来规模最大的一次更新，支持在对话中内嵌富媒体、多上下文提问与网页搜索。此次更新还包括重新设计的交互体验和更广的数据覆盖范围",
+  "reason": "官方列出聊天功能的多项变化，包括富媒体内嵌、多上下文提问与网页搜索，可据此判断访谈与洞察整理的调整空间。",
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "定性分析",
+    "洞察库/ResearchOps",
+    "Dovetail"
+  ],
+  "entities": [
+    "dovetail"
+  ],
+  "itemType": "tool_launch",
+  "publishedAt": "2026-05-11T14:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

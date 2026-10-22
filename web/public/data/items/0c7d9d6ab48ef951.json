@@ -1,0 +1,27 @@
+{
+  "id": "0c7d9d6ab48ef951",
+  "sourceId": "quirkos",
+  "sourceName": "Quirkos",
+  "tier": "T1",
+  "url": "https://www.quirkos.com/blog/post/quirkos-3-is-released-best-qualitative-software/",
+  "title": "Quirkos 3 is released: our best offline qualitative analysis software",
+  "titleZh": "Quirkos 3 发布：不含 AI 功能的完全离线定性分析软件",
+  "summaryZh": "Quirkos 发布完全离线的桌面定性分析软件 Quirkos 3，支持 Windows、Mac 和 Linux，不含任何 AI 功能，数据不与外部共享。新版沿用 Quirkos Web 界面，新增各来源主题使用频次表、编码间相关性等报告与图表，并支持导入 REFI-QDA 标准项目。Quirkos 2 继续获得支持且与新版双向兼容；过去 3 个月购买者可免费升级，其他用户升级费为新许可的 50%，并提供 14 天免费试用。",
+  "reason": null,
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "quirkos"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-01-23T10:27:25+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

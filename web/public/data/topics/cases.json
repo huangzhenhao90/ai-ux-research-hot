@@ -3,7 +3,7 @@
   "name": "案例",
   "group": "genre",
   "definition": "有具体规模、成本或质量数据的落地案例。",
-  "count": 1,
+  "count": 3,
   "items": [
     {
       "id": "74a3cc21f1da0ec3",
@@ -26,6 +26,57 @@
       "itemType": null,
       "publishedAt": "2026-10-21T16:21:55+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9aa1edfed8e08f1c",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/how-a-multi-billion-dollar-brand-stays-hands-on-with-advanced-method-research",
+      "title": "How a Multi-Billion Dollar Brand Stays Hands-On With Advanced Method Research",
+      "titleZh": "LIXIL 如何借助 quantilope 自主开展高级方法研究",
+      "summaryZh": "quantilope 案例显示，LIXIL 洞察团队在其研究顾问指导下自主编程复杂调研，转向 DIY 洞察模式。该团队最常用 MaxDiff，并借 Sequential A/B Test 为网站房间设计项目定名 Roomcreate，该名称已上线 American Standard 站点。凭平台速度与效率，团队成为内部与外部供应商的快速答疑资源。",
+      "reason": null,
+      "category": "cases",
+      "tags": [
+        "案例",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-10T19:47:15+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "778147fbc191898d",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/case-study-lsu/",
+      "title": "How a National Science Foundation-funded researcher used Delve to study AI and STEM identity",
+      "titleZh": "获美国国家科学基金会资助的研究者如何用 Delve 研究 AI 与 STEM 身份认同",
+      "summaryZh": "Garcia Ramos 博士用 Delve 简化了定性分析工作流，并发表了美国国家科学基金会（NSF）资助的 AI 与 STEM 身份认同研究。该案例展示她如何借助 Delve 完成这项 NSF 资助研究。",
+      "reason": null,
+      "category": "cases",
+      "tags": [
+        "案例",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-11-13T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

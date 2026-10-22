@@ -1,0 +1,29 @@
+{
+  "id": "ae8db14e0640ada2",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-market-research-software-comparison/",
+  "title": "Market Research Software Comparison: How To Choose in 2026",
+  "titleZh": "Listen Labs 市场研究软件对比指南：2026 年如何选择六类工具",
+  "summaryZh": "Listen Labs 的市场研究软件对比指南把工具分为六类，并给出按研究目标选型的五步框架。其平台自述覆盖 AI 主持访谈全流程，依托 50M+ 验证受访者、45+ 国家与 120+ 语言，24 小时内交付结果。Microsoft 将研究等待时间从数周缩短到数小时，Anthropic 用原先 5-6 项研究的时间完成 100 项。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "市场研究",
+    "AI 访谈",
+    "Qualtrics"
+  ],
+  "entities": [
+    "listen-labs",
+    "qualtrics"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-21T05:03:05+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

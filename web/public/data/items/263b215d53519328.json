@@ -1,0 +1,33 @@
+{
+  "id": "263b215d53519328",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-enterprise-ai-research-platforms/",
+  "title": "Best Enterprise AI Research Platforms Compared 2026",
+  "titleZh": "2026 年最佳企业级 AI 研究平台对比",
+  "summaryZh": "Listen Labs 在 2026 年企业级 AI 研究平台对比中将平台分为五类，并称其平台在客户与消费者研究类别领先。其平台覆盖 50M+ 验证受访者、45+ 国家、120+ 语言，可在 24 小时内产出交付物，成本约为传统研究的三分之一。",
+  "reason": null,
+  "category": "industry",
+  "tags": [
+    "行业报告",
+    "市场研究",
+    "AI 访谈",
+    "定性分析"
+  ],
+  "entities": [
+    "listen-labs",
+    "usertesting",
+    "dovetail",
+    "qualtrics",
+    "surveymonkey",
+    "user-interviews"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-21T05:03:24+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

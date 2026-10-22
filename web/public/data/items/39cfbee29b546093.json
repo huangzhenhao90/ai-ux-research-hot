@@ -1,0 +1,25 @@
+{
+  "id": "39cfbee29b546093",
+  "sourceId": "testingtime",
+  "sourceName": "TestingTime",
+  "tier": "T1",
+  "url": "https://www.testingtime.com/blog/wordpress-fuer-barrierefreies-design/",
+  "title": "Das Engagement von WordPress für barrierefreies Design",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "可用性测试",
+    "招募/样本"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2023-10-10T09:59:17+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

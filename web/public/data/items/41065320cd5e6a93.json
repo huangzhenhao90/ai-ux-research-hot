@@ -1,0 +1,29 @@
+{
+  "id": "41065320cd5e6a93",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/comparing-best-software-for-thematic-analysis/",
+  "title": "Comparing the Best Software for Thematic Analysis",
+  "titleZh": "最佳主题分析软件对比：NVivo、ATLAS.ti、MAXQDA、Quirkos、Taguette、Dedoose 与 Delve 的编码、主题构建和工作流",
+  "summaryZh": "NVivo、ATLAS.ti、MAXQDA、Quirkos、Taguette、Dedoose 与 Delve 七款主题分析软件被集中对比，考察编码、主题构建和工作流。对比聚焦各工具在这些环节的具体处理方式。",
+  "reason": null,
+  "category": "tools",
+  "tags": [
+    "其他",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "maxqda",
+    "quirkos",
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-12-09T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

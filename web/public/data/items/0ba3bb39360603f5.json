@@ -1,0 +1,27 @@
+{
+  "id": "0ba3bb39360603f5",
+  "sourceId": "medallia",
+  "sourceName": "Medallia",
+  "tier": "T1",
+  "url": "https://www.medallia.com/blog/design-principles-behind-enterprise-ai/",
+  "title": "The Architectural Design Principles Behind Enterprise AI That Delivers Value",
+  "titleZh": "Medallia 阐述企业 AI 交付价值的四项架构原则",
+  "summaryZh": "Medallia 阐述企业 AI 交付价值的四项架构原则：可信数据、平台级治理、持续演进和共享业务上下文。其平台已处理超过 41 亿条反馈信号，并将上下文理解提升五倍。Medallia 持有 ISO/IEC 42001 认证，Insights Assistant 的每次响应都可回溯至来源材料。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "Agent",
+    "Medallia"
+  ],
+  "entities": [
+    "medallia"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-08-04T13:50:40+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

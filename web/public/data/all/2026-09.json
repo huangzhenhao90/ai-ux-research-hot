@@ -1,7 +1,107 @@
 {
   "month": "2026-09",
-  "count": 64,
+  "count": 82,
   "items": [
+    {
+      "id": "a16bc157b306b9dd",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "tier": "T2",
+      "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
+      "title": "4 New Evals and 16 Experiment Variants to Fix 1 Customer Complaint",
+      "titleZh": "Vistaly 为 1 个客户反馈做了 4 个新 eval 与 16 个实验变体",
+      "summaryZh": "Teresa Torres 与 Vistaly 为修复一条客户反馈投入 4 个新 eval 与 16 个实验变体，该反馈指 AI 生成的机会解决方案树在一个分支上缺少层级。她先用代码断言的 tree-shape eval 统计父节点的子节点分布，再用 LLM-as-a-Judge 判断是否存在漏掉的子分组。在人工标注的校准集上，judge 的 recall 为 100%，specificity 只有 43.75%，会把没有漏分组的节点判成有。",
+      "reason": "作者用 4 个 eval 与 16 个实验变体追查一个客户反馈，展示了给 AI 输出做质检的可迁移做法。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-09-16T13:00:36+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "791883e6a4cafac0",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "tier": "T2",
+      "url": "https://www.producttalk.org/ai-evals-test-harness/",
+      "title": "Get My Eval Test Harness and Run Your First Experiment",
+      "titleZh": "Product Talk 发布 AI 评估测试框架，附可运行的合成访谈示例",
+      "summaryZh": "Product Talk 作者将自用的 AI 评估测试框架整理进代码仓库，并附一个完整示例，读者可以先跑通示例，再替换成自己的输入、提示词和 eval。示例用 15 份合成访谈记录检验「访谈转故事并判断参与者状态」的流程，更换提示词后编造引语从 12.5% 降到 1.7%，无依据论断从 8.4% 降到 3.2%，状态标签错误降为零。框架分三步：先看输出错误，再按错误类型各配一个可独立添加的 eval 模块，最后跑基线版与变体版对比，工具面向 Supporting Members 和 CDH Members 开放。",
+      "reason": "作者把自用的 AI 评估测试框架整理成仓库并附完整示例，研究者可据此搭建自己的提示词对比实验。",
+      "category": "methods",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-09-02T13:05:45+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fc857a633c94e9de",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "The 3 Roles of Context for AI Agents",
+      "titleZh": "解析 AI 智能体的 3 类上下文",
+      "summaryZh": "文章基于对 Claude 重度用户的近期研究，将 AI 智能体的上下文分为全局、局部和环境三类。参与者都建立了由文件、数据库和实时连接组成的上下文库，供 Claude 在提示词之外调用。文章认为，整理合适的上下文比写好提示词更重要",
+      "reason": "NN/g 把 AI 智能体的上下文分成全局、任务与环境三类，并记录重度用户自建上下文库的做法，可供设计智能体工作流时参考。",
+      "category": "research",
+      "tags": [
+        "方法/实践",
+        "Agent",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-09-18T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a3087d5fd45ca8bc",
+      "sourceId": "cint",
+      "sourceName": "Cint",
+      "tier": "T1",
+      "url": "https://www.cint.com/blog/mcps-market-research-esomar/",
+      "title": "Research has entered the chat: how MCPs and AI agents are reshaping market insights",
+      "titleZh": "Cint 发文分析 MCP 与 AI 智能体如何重塑市场洞察",
+      "summaryZh": "Cint 发布文章，讨论 MCP 与 AI 智能体正在如何重塑市场洞察的工作方式。文章以行业分析视角展开，未在标题层面给出具体案例或数据。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "观点/讨论",
+        "Agent",
+        "市场研究"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-09-10T21:29:14+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "14d8ce91b045fd29",
       "sourceId": "delve",
@@ -24,6 +124,347 @@
       "itemType": null,
       "publishedAt": "2026-09-08T00:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2a35eed0a8746362",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Test Complex Interactions Earlier with AI Prototyping",
+      "titleZh": "用 AI 原型制作更早测试复杂交互",
+      "summaryZh": "AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实产品的可运行原型，从而更早、更频繁测试并据研究迭代。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-09-11T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3ee3a9c9fb1d9093",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "tier": "T2",
+      "url": "https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "title": "Delivery Isn’t Free - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "titleZh": "All Things Product 播客：Teresa Torres 与 Petra Wille 谈 AI 并未让交付免费",
+      "summaryZh": "All Things Product 播客中，Teresa Torres 与 Petra Wille 反驳“AI 让交付免费”。AI 只让单个功能开发更便宜，但把编码智能体当“免费”会造成重复代码、数据模型混乱，最后 30% 产品化仍需数月到数年。节目还讨论 AI 产品评测与 Vistaly 机会解决方案树的质量问题。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "非用研/通用"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-09-15T13:00:58+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f9c6fab30e34f392",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Using AI for UX Work: Study Guide",
+      "titleZh": "用 AI 做 UX 工作：学习指南",
+      "summaryZh": "发布《用 AI 做 UX 工作：学习指南》，汇总其文章和视频，帮助团队找到将 AI 融入 UX 工作流的具体方式。指南指出，AI 目前还不能完全接管 UX 工作，但可用于辅助既有流程；从业者应把 AI 当作增强能力的“手套”，而非替代判断",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-04T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "845279803dea965c",
+      "sourceId": "surveymonkey",
+      "sourceName": "SurveyMonkey",
+      "tier": "T1",
+      "url": "https://www.surveymonkey.com/curiosity/ask-the-market-mental-health-ai/?ut_source=rss",
+      "title": "Ask the Market: People are already using AI for mental health. Here’s what they actually trust it to do.",
+      "titleZh": "Ask the Market: People are already using AI for mental health. Here’s what they actually trust it to do.",
+      "summaryZh": "",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "行业报告",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-25T09:17:54+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0f26d800f5d1c33a",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/designing-ai-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Designing AI Products and Features: Study Guide",
+      "titleZh": "（）：设计 AI 产品与功能学习指南",
+      "summaryZh": "（）汇总了设计 AI 产品与功能的学习指南，围绕是否值得引入 AI 以及如何设计 AI 功能给出研究建议。指南强调，给网站加 AI 聊天机器人并不必然创造价值，需用审慎的方法先判断 AI 能否带来实际差异。它同时提醒既不要盲目乐观，也要在 AI 未产生价值时明确指出",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-18T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e900a178e8c5b0f1",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/press-release/monetization/adgatemedia/",
+      "title": "AdGate Media is Now Part of Prodege",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "融资/并购",
+        "市场研究"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-08T19:02:13+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "bae2f8c5de41e75f",
+      "sourceId": "ijmr",
+      "sourceName": "International Journal of Market Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/14707853261487479?ai=2b4&mi=ehikzz&af=R",
+      "title": "Toward a Conceptualization and Measurement of Responsible Co-Creation in NPD",
+      "titleZh": "International Journal of Market Research：新产品开发中负责任共创的概念化与测量",
+      "summaryZh": "一项发表于 International Journal of Market Research 的研究对新产品开发（NPD）中的“负责任共创”完成了概念化并做了实证验证。研究背景是企业日益重视伦理与社会责任创新，正重新审视通过协作创造价值的方式；该文以在线先发（Ahead of Print）形式刊出。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-09-23T04:56:40+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "93c88061e60a139e",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/credibility-in-qualitative-research/",
+      "title": "Credibility in qualitative research: What it means and how to establish it with readers",
+      "titleZh": "Delve：定性研究中的可信度是什么，以及如何向读者建立可信度",
+      "summaryZh": "Delve 对定性研究中的可信度作出解释：研究结论是否与参与者的现实相符，并列出六种向读者建立可信度的方法。文章还进一步说明 Delve 如何让证据与数据保留在一起。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-08T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a9875bdb3d08142c",
+      "sourceId": "mopinion",
+      "sourceName": "Mopinion",
+      "tier": "T1",
+      "url": "https://mopinion.com/introducing-the-mopinion-survey-marketplace/",
+      "title": "Introducing the Mopinion Survey Marketplace",
+      "titleZh": "Mopinion 推出 Survey Marketplace",
+      "summaryZh": "Mopinion 推出 Survey Marketplace，提供 8 个调查模板类别和近 30 个模板示例。每个调查附有收益列表，帮助用户了解创建和使用在线调查所需的要素。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "问卷/定量"
+      ],
+      "entities": [
+        "mopinion"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-17T07:18:50+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "bc1ebf8aeab3bf85",
+      "sourceId": "cint",
+      "sourceName": "Cint",
+      "tier": "T1",
+      "url": "https://www.cint.com/blog/the-role-of-research-in-an-age-of-ai-and-political-polarization/",
+      "title": "The role of research in an age of AI and political polarization",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-18T18:24:11+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ce1704e792e52d8b",
+      "sourceId": "mopinion",
+      "sourceName": "Mopinion",
+      "tier": "T1",
+      "url": "https://mopinion.com/ai-follow-up-questions/",
+      "title": "AI follow-up questions: Get clearer feedback without longer forms",
+      "titleZh": "Mopinion：用 AI 追问获取更清晰反馈，不拉长表单",
+      "summaryZh": "Mopinion 提出用 AI 追问澄清“页面令人困惑”“结账不可用”等模糊回答，帮助团队判断发生了什么、下一步修什么。目标是在不增加表单长度的情况下获得更清晰的反馈。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "问卷/定量"
+      ],
+      "entities": [
+        "mopinion"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-14T09:37:31+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "69b9caaa02c589f0",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/blog/insights/gen-z-21st-birthday-trends-data/",
+      "title": "How Gen Z Celebrates 21st Birthdays: New Data Beyond the Bar Crawl",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "行业报告",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-09T20:53:08+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "06fb58fa9d8ccb92",
+      "sourceId": "surveymonkey",
+      "sourceName": "SurveyMonkey",
+      "tier": "T1",
+      "url": "https://www.surveymonkey.com/curiosity/hubspot-unbound-market-research-engine/?ut_source=rss",
+      "title": "On the ground at HubSpot UNBOUND: The new rules of market research in an AI world",
+      "titleZh": "On the ground at HubSpot UNBOUND: The new rules of market research in an AI world",
+      "summaryZh": "",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-09-22T15:59:08+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "41c2192cb6d17de1",
+      "sourceId": "hci-journal",
+      "sourceName": "Human-Computer Interaction",
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2717534?af=R",
+      "title": "Dialogue patterns in human-AI co-creation: how interaction structure shapes output and process",
+      "titleZh": "人机共创中的对话模式：交互结构如何塑造产出与过程",
+      "summaryZh": "研究考察人机共创中的对话模式，分析交互结构如何影响创作产出与协作过程。标题指向以对话模式为分析切口，讨论不同交互结构对产出与过程的作用。",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-09-22T06:44:26+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

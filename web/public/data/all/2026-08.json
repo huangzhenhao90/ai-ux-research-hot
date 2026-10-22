@@ -1,7 +1,208 @@
 {
   "month": "2026-08",
-  "count": 33,
+  "count": 47,
   "items": [
+    {
+      "id": "efc712223f56320e",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "tier": "T2",
+      "url": "https://measuringu.com/streamlined-measurement-of-the-ux-of-ai/?utm_source=rss&utm_medium=rss&utm_campaign=streamlined-measurement-of-the-ux-of-ai",
+      "title": "Streamlined Measurement of the UX of AI",
+      "titleZh": "MeasuringU 从 34 条候选题中精简 AI 用户体验问卷",
+      "summaryZh": "MeasuringU 基于 2026 年 5 月对 ChatGPT、Claude、Gemini、Grok 共 420 名美国样本库受访者的回溯调查，完成 34 条 AI 用户体验候选题的筛选。因子分析显示，除一条同时落在 Trust 与 Productivity 上的题目外，其余 33 条均落在预期构念之上。AI Productivity、AI Trust、AI Dependency、AI Anxiety 等构念各有二至三条题目入选，目标是让每个构念的 coefficient alpha 不低于 0.70。",
+      "reason": "原文公开了 34 条候选题在 420 名用户中的因子载荷与回归权重，可作为自建 AI 体验问卷时的选题参考。",
+      "category": "research",
+      "tags": [
+        "方法/实践",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-08-18T22:21:12+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "dcc918dafe31f3ef",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "tier": "T2",
+      "url": "https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&utm_medium=rss&utm_campaign=five-ways-to-use-rapport-when-moderating",
+      "title": "Five Ways to Use Rapport When Moderating",
+      "titleZh": "MeasuringU 总结主持访谈时建立融洽关系的五种方法",
+      "summaryZh": "MeasuringU 撰文总结主持访谈时建立融洽关系的五种方法，涵盖会前准备、刻意破冰、语言与非语言技巧、警惕双向讨好，以及把融洽关系当作最后的甄别步骤。文中建议用中立的小谈降低参与者压力，用有意的停顿留出思考时间，并提醒过度友善会让参与者表演而非真实反应。文章还提到，一些团队（包括作者所在团队）正在低风险、高样本量的口头问卷中试验 AI 主持，但当参与者难以招募时，人类主持人的技巧仍决定访谈收获。",
+      "reason": "文中把建立融洽关系拆成准备、破冰、中立回应等可操作步骤，并点出双向讨好会让访谈失去真实反馈。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "可用性测试"
+      ],
+      "entities": [],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-08-25T21:18:05+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9cf2210cbf70c129",
+      "sourceId": "ijmr",
+      "sourceName": "International Journal of Market Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/14707853261483760?ai=2b4&mi=ehikzz&af=R",
+      "title": "Width is the Limit – Response Behavior and Data Quality in a Mobile-First Survey",
+      "titleZh": "宽度即极限：移动优先问卷的作答行为与数据质量",
+      "summaryZh": "International Journal of Market Research 的一篇预出版研究评估了移动优先问卷布局相较传统布局对作答行为与数据质量的影响。研究缘于智能手机网页问卷普及，要求布局适配以保证跨设备、跨调查模式的数据采集一致且高质量。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-08-29T12:22:47+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "821d7c7df70ddb3f",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "titleZh": "UX 的“看护时代”：为 AI 生成的设计善后",
+      "summaryZh": "AI 让团队生成内容、原型和可运行功能的速度快过 UX 评估，UX 正进入“看护时代”。UX 的工作从空白页设计转向判断 AI 产出中哪些保留、哪些修改，并为已存在的原型和功能善后。应对方式是建立共享判断、加速评估，并引导 AI 生成的设计。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "岗位/职业",
+        "方法/实践"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-28T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "797430abdaa2cdf8",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/explanatory-sequential-research-design-delvetool/",
+      "title": "Explanatory sequential design: A practical guide",
+      "titleZh": "解释性序列设计：用访谈解释问卷结果的 Delve 实用指南",
+      "summaryZh": "Delve 的《解释性序列设计：实用指南》讲解如何用访谈解释问卷结果。指南还给出真实研究案例，并演示如何在 Delve 中编码后续访谈。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-04T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "afef6f29d225306e",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "AI Can't Replace Real Research in Empathy Mapping",
+      "titleZh": "AI 无法在同理心地图中替代真实研究",
+      "summaryZh": "AI 无法替代真实研究来制作同理心地图，只能帮助整理已经收集到的研究材料。同理心地图用 Says、Thinks、Does、Feels 四个象限呈现团队对某类用户的已知信息，通常在工作坊中由来自真实研究的便利贴协作搭建。原文指出，AI 工具虽能在几秒内生成整页便利贴，但便利贴由什么材料生成比生成速度更重要。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "定性分析"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-28T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3515d44b343a6e73",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Artificial Intelligence: Glossary",
+      "titleZh": "NN/g AI 术语表：从 token、上下文窗口到智能体、evals 与提示词注入",
+      "summaryZh": "NN/g 整理了一份面向产品与设计工作的 AI 术语表，解释 token、上下文窗口、智能体、evals 和提示词注入等术语。词条按字母排列，可查表、用浏览器查找或顺序阅读，并链接到 NN/g 的深入文章。定义遵循 AI 产品与 UX 工作中的用法，厂商和研究者的用法可能不同。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "非用研/通用"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-21T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a025d1c02bcc90be",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/exploratory-sequential-research-design-delvetool/",
+      "title": "Exploratory sequential design: A practical guide",
+      "titleZh": "探索性序列设计实用指南：将访谈转化为问卷并在 Delve 中编码",
+      "summaryZh": "Delve 的《探索性序列设计实用指南》讲解如何把访谈转化为问卷，并说明定性阶段的编码方法。文中包含一个真实研究示例，并演示如何在 Delve 中完成定性阶段编码。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "问卷/定量",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-04T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "15710eb0367bf6e8",
       "sourceId": "dovetail-blog",
@@ -25,6 +226,54 @@
       "itemType": null,
       "publishedAt": "2026-08-26T12:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "d0312334ee3ab04f",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/what-is-dependability-in-qualitative-research/",
+      "title": "What is dependability in qualitative research?",
+      "titleZh": "定性研究中的可靠性（dependability）是什么：Delve 如何保留审计轨迹",
+      "summaryZh": "Delve 的指南指出，定性研究中的可靠性（dependability）指研究过程一致且可追溯，并可通过审计轨迹证明。指南还讲解如何建立可靠性，以及在 Delve 中保留审计轨迹。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-18T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "cd41d3ac932c1608",
+      "sourceId": "ijmr",
+      "sourceName": "International Journal of Market Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/14707853261483762?ai=2b4&mi=ehikzz&af=R",
+      "title": "Making Robots Relatable: The Role of Self-Efficacy in AI Adoption",
+      "titleZh": "让 AI 服务机器人更具亲和力：自我效能感在 AI 采用中的作用",
+      "summaryZh": "一项基于 380 名美国样本的研究考察 AI 服务机器人的拟人化感知如何影响消费者采用选择，并检验技术依恋的中介作用与机器人使用自我效能感的调节作用。研究发表于 International Journal of Market Research，目前为 Ahead of Print。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-08-24T07:29:35+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -52,6 +301,110 @@
       "itemType": null,
       "publishedAt": "2026-08-27T13:47:47+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "260854bd75cc158d",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/how-to-confidently-bring-advanced-research-in-house",
+      "title": "How To Confidently Bring Advanced Research In-House",
+      "titleZh": "quantilope：如何把高级研究自信地引入企业内部",
+      "summaryZh": "quantilope 的 Consumer Intelligence Platform 把从研究设计、高级方法分析到可分享产出的流程自动化，帮助企业将高级研究引入内部。平台覆盖 MaxDiff、Choice-based Conjoint、TURF analysis、Segmentation 与隐式联想测试等自动化高级方法。配套的 AI Research Partner quinn 可代建问卷并检索历史洞察，全部洞察可用一个实时链接在组织内共享。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-20T19:53:22+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4e863eccc2fccb69",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/transferability-in-qualitative-research/",
+      "title": "Transferability in qualitative research: What it is and how to write about it",
+      "titleZh": "定性研究中的可迁移性（transferability）：是什么以及如何撰写",
+      "summaryZh": "Delve 发文解释定性分析中的可迁移性（transferability）要求什么、如何满足，以及如何撰写相关说明。Delve 定性软件能在撰写结果时整理相关笔记。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-11T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9aa1edfed8e08f1c",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/how-a-multi-billion-dollar-brand-stays-hands-on-with-advanced-method-research",
+      "title": "How a Multi-Billion Dollar Brand Stays Hands-On With Advanced Method Research",
+      "titleZh": "LIXIL 如何借助 quantilope 自主开展高级方法研究",
+      "summaryZh": "quantilope 案例显示，LIXIL 洞察团队在其研究顾问指导下自主编程复杂调研，转向 DIY 洞察模式。该团队最常用 MaxDiff，并借 Sequential A/B Test 为网站房间设计项目定名 Roomcreate，该名称已上线 American Standard 站点。凭平台速度与效率，团队成为内部与外部供应商的快速答疑资源。",
+      "reason": null,
+      "category": "cases",
+      "tags": [
+        "案例",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-10T19:47:15+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0ba3bb39360603f5",
+      "sourceId": "medallia",
+      "sourceName": "Medallia",
+      "tier": "T1",
+      "url": "https://www.medallia.com/blog/design-principles-behind-enterprise-ai/",
+      "title": "The Architectural Design Principles Behind Enterprise AI That Delivers Value",
+      "titleZh": "Medallia 阐述企业 AI 交付价值的四项架构原则",
+      "summaryZh": "Medallia 阐述企业 AI 交付价值的四项架构原则：可信数据、平台级治理、持续演进和共享业务上下文。其平台已处理超过 41 亿条反馈信号，并将上下文理解提升五倍。Medallia 持有 ISO/IEC 42001 认证，Insights Assistant 的每次响应都可回溯至来源材料。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "Agent",
+        "Medallia"
+      ],
+      "entities": [
+        "medallia"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-04T13:50:40+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

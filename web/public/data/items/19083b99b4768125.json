@@ -1,0 +1,27 @@
+{
+  "id": "19083b99b4768125",
+  "sourceId": "quirkos",
+  "sourceName": "Quirkos",
+  "tier": "T1",
+  "url": "https://www.quirkos.com/blog/post/do-i-have-too-many-codes-in-my-qualitative-analysis/",
+  "title": "Do I have too many codes in my qualitative analysis?",
+  "titleZh": "我的定性分析编码是不是太多了？Quirkos 列出警示信号与精简方法",
+  "summaryZh": "Quirkos 列出定性分析中编码过多的几个警示信号：无法区分不同编码、多数编码为开放式且互不连接、检索结果碎片化到无意义、画布显得太小。建议用编码描述建立编码手册、合并近义编码、设置主题性上位编码来精简。Quirkos 中可悬停查看描述、右键合并，报告功能可查看全部描述。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "quirkos"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-05-09T09:46:24+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

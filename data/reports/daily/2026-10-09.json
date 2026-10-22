@@ -1,0 +1,40 @@
+{
+  "kind": "daily",
+  "date": "2026-10-09",
+  "siteName": "UXHOT",
+  "generatedAt": "2026-10-22T05:52:39.644183+00:00",
+  "window": {
+    "start": "2026-10-08T00:00:00+00:00",
+    "end": "2026-10-09T00:00:00+00:00"
+  },
+  "empty": false,
+  "stats": {
+    "selectedCount": 1,
+    "newTools": 0,
+    "briefCount": 0
+  },
+  "headline": {
+    "id": "04536d291010d65c",
+    "titleZh": "Maze 宣布更多市场研究可在平台内完成",
+    "summaryZh": "Maze 发布博文称，更多市场研究现在可以在 Maze 内完成，指向平台对市场研究场景的进一步覆盖。",
+    "reason": "",
+    "category": null,
+    "categoryLabel": "",
+    "sourceId": "maze-blog",
+    "sourceName": "Maze Blog",
+    "tier": "T1",
+    "url": "https://maze.co/blog/ai-for-market-research/",
+    "publishedAt": "2026-10-08T05:28:33.498000+00:00",
+    "avgScore": 48.0,
+    "importance": 48.0,
+    "tags": [
+      "工具发布",
+      "市场研究",
+      "Maze"
+    ],
+    "relatedIds": []
+  },
+  "highlights": [],
+  "sections": [],
+  "briefs": []
+}

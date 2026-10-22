@@ -1,0 +1,28 @@
+{
+  "id": "260854bd75cc158d",
+  "sourceId": "quantilope",
+  "sourceName": "quantilope",
+  "tier": "T1",
+  "url": "https://www.quantilope.com/resources/how-to-confidently-bring-advanced-research-in-house",
+  "title": "How To Confidently Bring Advanced Research In-House",
+  "titleZh": "quantilope：如何把高级研究自信地引入企业内部",
+  "summaryZh": "quantilope 的 Consumer Intelligence Platform 把从研究设计、高级方法分析到可分享产出的流程自动化，帮助企业将高级研究引入内部。平台覆盖 MaxDiff、Choice-based Conjoint、TURF analysis、Segmentation 与隐式联想测试等自动化高级方法。配套的 AI Research Partner quinn 可代建问卷并检索历史洞察，全部洞察可用一个实时链接在组织内共享。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "洞察库/ResearchOps",
+    "问卷/定量",
+    "市场研究"
+  ],
+  "entities": [
+    "quantilope"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-08-20T19:53:22+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

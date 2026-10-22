@@ -1,0 +1,26 @@
+{
+  "id": "a648e6bd28db420f",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.27333",
+  "title": "Inspectable LLM-Simulated Participants for Qualitative Interview Rehearsal",
+  "titleZh": "arXiv 论文提出可检查的 LLM 模拟参与者，用于定性访谈演练",
+  "summaryZh": "一篇 arXiv cs.HC 论文提出用于定性访谈演练的可检查 LLM 模拟参与者，标题强调模拟参与者可被检查。",
+  "reason": "标题指向把 LLM 模拟参与者用于定性访谈演练，并强调模拟参与者可检查，为访谈训练提供一种可审查的模拟思路。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "定性分析",
+    "AI 访谈"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-21T04:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

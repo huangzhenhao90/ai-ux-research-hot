@@ -3,6 +3,33 @@
   "name": "提示词与模板",
   "group": "genre",
   "definition": "可直接复用的研究用提示词与模板。",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "id": "36d3f8bbcb45babc",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/ai-prompts-for-qualitative-research/",
+      "title": "AI Prompts for Qualitative Research: How to Get More from Delve's AI Features",
+      "titleZh": "Delve AI 功能提示词指南：如何写好定性研究提示词",
+      "summaryZh": "Delve 的定性研究 AI 提示词指南说明如何用好其 AI 功能，覆盖编码头脑风暴、总结和优化分析。内容提供针对这些环节的实用提示词写法。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "提示词/模板",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-06-30T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

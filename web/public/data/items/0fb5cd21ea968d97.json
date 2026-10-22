@@ -1,0 +1,27 @@
+{
+  "id": "0fb5cd21ea968d97",
+  "sourceId": "quirkos",
+  "sourceName": "Quirkos",
+  "tier": "T1",
+  "url": "https://www.quirkos.com/blog/post/updates-to-quirkos-web-and-transcribe-september-2025/",
+  "title": "Updates to Quirkos Web and Transcribe - September 2025",
+  "titleZh": "Quirkos Web 与 Transcribe 9 月更新：编码性能优化、转写新增说话人识别",
+  "summaryZh": "Quirkos Web 与 Transcribe 9 月更新：编码数超 100 个 Quirks 时的概览加载与高亮卡顿大幅改善。可选加购的转写服务（50 小时/月、US$12/月）新增说话人识别，1 小时访谈约 5 分钟返回，自动语言识别被移除。PDF 导入新增 OCR，转写提供 100 分钟免费试用；官方仍不打算加入 AI 编码或分析工具。",
+  "reason": null,
+  "category": "tools",
+  "tags": [
+    "功能更新",
+    "转写/编码",
+    "定性分析"
+  ],
+  "entities": [
+    "quirkos"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-09-03T14:53:53+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

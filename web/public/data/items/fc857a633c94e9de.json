@@ -1,0 +1,27 @@
+{
+  "id": "fc857a633c94e9de",
+  "sourceId": "nngroup",
+  "sourceName": "Nielsen Norman Group",
+  "tier": "T1",
+  "url": "https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+  "title": "The 3 Roles of Context for AI Agents",
+  "titleZh": "解析 AI 智能体的 3 类上下文",
+  "summaryZh": "文章基于对 Claude 重度用户的近期研究，将 AI 智能体的上下文分为全局、局部和环境三类。参与者都建立了由文件、数据库和实时连接组成的上下文库，供 Claude 在提示词之外调用。文章认为，整理合适的上下文比写好提示词更重要",
+  "reason": "NN/g 把 AI 智能体的上下文分成全局、任务与环境三类，并记录重度用户自建上下文库的做法，可供设计智能体工作流时参考。",
+  "category": "research",
+  "tags": [
+    "方法/实践",
+    "Agent",
+    "NN/g"
+  ],
+  "entities": [
+    "nngroup"
+  ],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-09-18T17:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

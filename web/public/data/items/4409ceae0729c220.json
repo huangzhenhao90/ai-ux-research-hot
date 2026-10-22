@@ -1,0 +1,26 @@
+{
+  "id": "4409ceae0729c220",
+  "sourceId": "ipsos",
+  "sourceName": "Ipsos",
+  "tier": "T1",
+  "url": "https://www.ipsos.com/en/rethinking-wellness-product-category-cultural-belief-system",
+  "title": "Rethinking wellness:  From product category to cultural belief system",
+  "titleZh": "重新思考 wellness：从产品品类到文化信仰体系",
+  "summaryZh": "Colin Strong 与 Lucy Neiland 在 Ipsos Voices 文章中探讨如何将 wellness 从产品品类重新理解为文化信仰体系。文章分析 wellness 如何日益塑造人们对健康、专业权威、信任和个人责任的态度。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "市场研究"
+  ],
+  "entities": [
+    "ipsos"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-09T09:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

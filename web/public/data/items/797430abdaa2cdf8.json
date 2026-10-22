@@ -1,0 +1,28 @@
+{
+  "id": "797430abdaa2cdf8",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/explanatory-sequential-research-design-delvetool/",
+  "title": "Explanatory sequential design: A practical guide",
+  "titleZh": "解释性序列设计：用访谈解释问卷结果的 Delve 实用指南",
+  "summaryZh": "Delve 的《解释性序列设计：实用指南》讲解如何用访谈解释问卷结果。指南还给出真实研究案例，并演示如何在 Delve 中编码后续访谈。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "问卷/定量",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-08-04T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

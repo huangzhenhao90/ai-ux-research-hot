@@ -3,8 +3,83 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 8,
+  "count": 54,
   "items": [
+    {
+      "id": "a16bc157b306b9dd",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "tier": "T2",
+      "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
+      "title": "4 New Evals and 16 Experiment Variants to Fix 1 Customer Complaint",
+      "titleZh": "Vistaly 为 1 个客户反馈做了 4 个新 eval 与 16 个实验变体",
+      "summaryZh": "Teresa Torres 与 Vistaly 为修复一条客户反馈投入 4 个新 eval 与 16 个实验变体，该反馈指 AI 生成的机会解决方案树在一个分支上缺少层级。她先用代码断言的 tree-shape eval 统计父节点的子节点分布，再用 LLM-as-a-Judge 判断是否存在漏掉的子分组。在人工标注的校准集上，judge 的 recall 为 100%，specificity 只有 43.75%，会把没有漏分组的节点判成有。",
+      "reason": "作者用 4 个 eval 与 16 个实验变体追查一个客户反馈，展示了给 AI 输出做质检的可迁移做法。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-09-16T13:00:36+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "791883e6a4cafac0",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "tier": "T2",
+      "url": "https://www.producttalk.org/ai-evals-test-harness/",
+      "title": "Get My Eval Test Harness and Run Your First Experiment",
+      "titleZh": "Product Talk 发布 AI 评估测试框架，附可运行的合成访谈示例",
+      "summaryZh": "Product Talk 作者将自用的 AI 评估测试框架整理进代码仓库，并附一个完整示例，读者可以先跑通示例，再替换成自己的输入、提示词和 eval。示例用 15 份合成访谈记录检验「访谈转故事并判断参与者状态」的流程，更换提示词后编造引语从 12.5% 降到 1.7%，无依据论断从 8.4% 降到 3.2%，状态标签错误降为零。框架分三步：先看输出错误，再按错误类型各配一个可独立添加的 eval 模块，最后跑基线版与变体版对比，工具面向 Supporting Members 和 CDH Members 开放。",
+      "reason": "作者把自用的 AI 评估测试框架整理成仓库并附完整示例，研究者可据此搭建自己的提示词对比实验。",
+      "category": "methods",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-09-02T13:05:45+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f00c9ca6c426bf88",
+      "sourceId": "maxqda",
+      "sourceName": "MAXQDA",
+      "tier": "T1",
+      "url": "https://www.maxqda.com/blogpost/maxqda-26-2",
+      "title": "MAXQDA Update 26.2: Smarter Memos, AI Coding, and AI Reports",
+      "titleZh": "MAXQDA 发布 26.2 更新，新增片段级 AI 编码与 AI Reports",
+      "summaryZh": "MAXQDA 发布 26.2（2026 年 3 月）更新，新增片段级 AI 编码与 Beta 版 AI Reports，并改版 Memos 布局。片段级 AI 编码会对选中的文本片段给出编码建议并附理由，需人工批准后应用，AI Assist 免费版一次最多分析 5 个编码，Premium 最多 20 个。AI Reports 按自定问题生成可回溯到原文的报告，免费版最多纳入 2 份文档，Premium 最多 50 份。",
+      "reason": "新版把 AI 编码从文档级细化到片段级并加入 AI Reports，研究者可据此判断哪些编码与汇总环节能交给模型提速。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "转写/编码",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-03-05T13:21:19+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "0f6df2ffe2a6818a",
       "sourceId": "nngroup",
@@ -28,6 +103,31 @@
       "itemType": "research_paper",
       "publishedAt": "2026-10-16T17:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "d6a125124ffe7c29",
+      "sourceId": "maxqda",
+      "sourceName": "MAXQDA",
+      "tier": "T1",
+      "url": "https://www.maxqda.com/blogpost/maxqda-ai-assist-for-thematic-analysis",
+      "title": "MAXQDA AI Assist Emerges as a Strong Performer in a Comparative Study of AI Tools for Thematic Analysis",
+      "titleZh": "研究对比四款 AI 主题分析工具，MAXQDA AI Assist 命中 6 个人工主题中的 3 个",
+      "summaryZh": "一项同行评审研究将 ChatGPT-4o、QInsights、ATLAS.ti AI 与 MAXQDA AI Assist 四款工具用于同一批 25 名教师的访谈数据，并以已完成的人工主题分析作为对照。若以 6 个人工主题为基准，MAXQDA AI Assist 有 3 个完全匹配（50%），其余三款各只有 1 个（16.7%）；四款工具都只做到部分吻合，都没有达到人工分析的阐释深度，而人工分析耗时超过 150 小时。研究还根据编码逻辑区分了偏重词频的取向和偏重研究者互动的取向，并说明人工参照是此前完成的既有分析，而非真值基准。",
+      "reason": "研究用同一批访谈数据对比四个 AI 工具与人工主题分析，其中各工具编码逻辑的差异可作为研究者选择工具时的参考。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "定性分析"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-04-13T09:11:15+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": null
@@ -57,6 +157,58 @@
       "relation": null
     },
     {
+      "id": "dedfd59baa47acfd",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/",
+      "title": "Introducing Dovetail’s most powerful chat yet",
+      "titleZh": "发布迄今最强的聊天功能更新",
+      "summaryZh": "发布聊天功能上线以来规模最大的一次更新，支持在对话中内嵌富媒体、多上下文提问与网页搜索。此次更新还包括重新设计的交互体验和更广的数据覆盖范围",
+      "reason": "官方列出聊天功能的多项变化，包括富媒体内嵌、多上下文提问与网页搜索，可据此判断访谈与洞察整理的调整空间。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-05-11T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a648e6bd28db420f",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.27333",
+      "title": "Inspectable LLM-Simulated Participants for Qualitative Interview Rehearsal",
+      "titleZh": "arXiv 论文提出可检查的 LLM 模拟参与者，用于定性访谈演练",
+      "summaryZh": "一篇 arXiv cs.HC 论文提出用于定性访谈演练的可检查 LLM 模拟参与者，标题强调模拟参与者可被检查。",
+      "reason": "标题指向把 LLM 模拟参与者用于定性访谈演练，并强调模拟参与者可检查，为访谈训练提供一种可审查的模拟思路。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-21T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "05374bec817f75e3",
       "sourceId": "dscout-people-nerds",
       "sourceName": "dscout People Nerds",
@@ -79,7 +231,158 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-06T16:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1b9962ed79acf9f4",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/collaboration-in-delve/",
+      "title": "Collaboration in Delve: Assign, Code, and Align as a Team",
+      "titleZh": "更新团队编码协作，新增 Transcript Dashboard、就地编辑与部分计分的编码者一致性",
+      "summaryZh": "更新团队定性编码协作，新增 Transcript Dashboard 用于分配和跟踪团队工作，编码对比页面支持就地编辑，多编码片段可采用部分计分的编码者一致性计算。三项更新分别对应分工跟踪、编码对齐与一致性核对，面向多人协作处理同一批材料的场景",
+      "reason": "更新把任务分配、编码对比与编码者一致性放进同一协作流程，团队做定性编码时可据此调整分工与质检方式。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-07-24T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "dcc918dafe31f3ef",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "tier": "T2",
+      "url": "https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&utm_medium=rss&utm_campaign=five-ways-to-use-rapport-when-moderating",
+      "title": "Five Ways to Use Rapport When Moderating",
+      "titleZh": "MeasuringU 总结主持访谈时建立融洽关系的五种方法",
+      "summaryZh": "MeasuringU 撰文总结主持访谈时建立融洽关系的五种方法，涵盖会前准备、刻意破冰、语言与非语言技巧、警惕双向讨好，以及把融洽关系当作最后的甄别步骤。文中建议用中立的小谈降低参与者压力，用有意的停顿留出思考时间，并提醒过度友善会让参与者表演而非真实反应。文章还提到，一些团队（包括作者所在团队）正在低风险、高样本量的口头问卷中试验 AI 主持，但当参与者难以招募时，人类主持人的技巧仍决定访谈收获。",
+      "reason": "文中把建立融洽关系拆成准备、破冰、中立回应等可操作步骤，并点出双向讨好会让访谈失去真实反馈。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "可用性测试"
+      ],
+      "entities": [],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-08-25T21:18:05+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "73643e8efa6ca8ca",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.28772",
+      "title": "Scaling Therapy Supervision: Assessing Psychotherapy Fidelity Using Large Language Models",
+      "titleZh": "大语言模型评估心理治疗保真度，扩展治疗督导",
+      "summaryZh": "研究者用大语言模型（LLMs）自动评估心理治疗保真度，并从真实长程临床转录生成可操作的督导反馈。研究评估了三个开放权重模型在多种任务分解配置和推理策略下的表现，发现证据优先推理能提升保真度估计。该框架在独立随机对照试验（RCT）中可区分 CBT 与非 CBT 会谈，专家用户研究认为其反馈具有可操作性。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "文本分析/VOC",
+        "转写/编码",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
       "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "64c8d6b14fcc84d0",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/how-to-use-ai-for-thematic-analysis-step-by-step-guide/",
+      "title": "How to Use AI for Thematic Analysis: A Step-by-Step Guide",
+      "titleZh": "如何用 AI 进行主题分析：分步指南",
+      "summaryZh": "分步指南围绕 Braun 和 Clarke 的六步法，拆解 AI 如何辅助主题分析，并指出哪些环节需要研究者保持主导。它逐阶段说明 AI 的支持方式与操作步骤，强调 AI 用于辅助流程，而非替研究者做关键判断。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-02-10T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "797430abdaa2cdf8",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/explanatory-sequential-research-design-delvetool/",
+      "title": "Explanatory sequential design: A practical guide",
+      "titleZh": "解释性序列设计：用访谈解释问卷结果的 Delve 实用指南",
+      "summaryZh": "Delve 的《解释性序列设计：实用指南》讲解如何用访谈解释问卷结果。指南还给出真实研究案例，并演示如何在 Delve 中编码后续访谈。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-04T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0c7d9d6ab48ef951",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/quirkos-3-is-released-best-qualitative-software/",
+      "title": "Quirkos 3 is released: our best offline qualitative analysis software",
+      "titleZh": "Quirkos 3 发布：不含 AI 功能的完全离线定性分析软件",
+      "summaryZh": "Quirkos 发布完全离线的桌面定性分析软件 Quirkos 3，支持 Windows、Mac 和 Linux，不含任何 AI 功能，数据不与外部共享。新版沿用 Quirkos Web 界面，新增各来源主题使用频次表、编码间相关性等报告与图表，并支持导入 REFI-QDA 标准项目。Quirkos 2 继续获得支持且与新版双向兼容；过去 3 个月购买者可免费升级，其他用户升级费为新许可的 50%，并提供 14 天免费试用。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-01-23T10:27:25+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -105,7 +408,7 @@
       "itemType": null,
       "publishedAt": "2026-03-26T15:34:41+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -131,7 +434,139 @@
       "itemType": null,
       "publishedAt": "2026-09-08T00:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1afcb1a1360dc91a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/voice-of-customer-software-features/",
+      "title": "Voice of Customer Software Features: What Each One Does",
+      "titleZh": "Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么",
+      "summaryZh": "Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "文本分析/VOC",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:33+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "afef6f29d225306e",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "AI Can't Replace Real Research in Empathy Mapping",
+      "titleZh": "AI 无法在同理心地图中替代真实研究",
+      "summaryZh": "AI 无法替代真实研究来制作同理心地图，只能帮助整理已经收集到的研究材料。同理心地图用 Says、Thinks、Does、Feels 四个象限呈现团队对某类用户的已知信息，通常在工作坊中由来自真实研究的便利贴协作搭建。原文指出，AI 工具虽能在几秒内生成整页便利贴，但便利贴由什么材料生成比生成速度更重要。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "定性分析"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-28T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9c9a177035c76800",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/how-to-create-apply-thematic-analysis-codebook-using-ai/",
+      "title": "How to Build and Apply a Thematic Analysis Codebook Using AI",
+      "titleZh": "如何用 AI 构建并应用主题分析编码本",
+      "summaryZh": "的指南演示如何用 AI 从首个编码到最终主题构建并应用主题分析编码本。指南具体说明在哪些环节、何时以及为何应信任 AI 工具，而不是依赖人工判断",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-17T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "19083b99b4768125",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/do-i-have-too-many-codes-in-my-qualitative-analysis/",
+      "title": "Do I have too many codes in my qualitative analysis?",
+      "titleZh": "我的定性分析编码是不是太多了？Quirkos 列出警示信号与精简方法",
+      "summaryZh": "Quirkos 列出定性分析中编码过多的几个警示信号：无法区分不同编码、多数编码为开放式且互不连接、检索结果碎片化到无意义、画布显得太小。建议用编码描述建立编码手册、合并近义编码、设置主题性上位编码来精简。Quirkos 中可悬停查看描述、右键合并，报告功能可查看全部描述。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-05-09T09:46:24+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a025d1c02bcc90be",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/exploratory-sequential-research-design-delvetool/",
+      "title": "Exploratory sequential design: A practical guide",
+      "titleZh": "探索性序列设计实用指南：将访谈转化为问卷并在 Delve 中编码",
+      "summaryZh": "Delve 的《探索性序列设计实用指南》讲解如何把访谈转化为问卷，并说明定性阶段的编码方法。文中包含一个真实研究示例，并演示如何在 Delve 中完成定性阶段编码。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "问卷/定量",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-04T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -155,7 +590,59 @@
       "itemType": null,
       "publishedAt": "2026-10-21T04:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "selected",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0fb5cd21ea968d97",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/updates-to-quirkos-web-and-transcribe-september-2025/",
+      "title": "Updates to Quirkos Web and Transcribe - September 2025",
+      "titleZh": "Quirkos Web 与 Transcribe 9 月更新：编码性能优化、转写新增说话人识别",
+      "summaryZh": "Quirkos Web 与 Transcribe 9 月更新：编码数超 100 个 Quirks 时的概览加载与高亮卡顿大幅改善。可选加购的转写服务（50 小时/月、US$12/月）新增说话人识别，1 小时访谈约 5 分钟返回，自动语言识别被移除。PDF 导入新增 OCR，转写提供 100 分钟免费试用；官方仍不打算加入 AI 编码或分析工具。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-09-03T14:53:53+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "04f60951feacbffd",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/chatgpt-for-thematic-analysis-alternatives/",
+      "title": "Can You Use ChatGPT for Thematic Analysis?",
+      "titleZh": "ChatGPT 能用于主题分析吗？",
+      "summaryZh": "ChatGPT 在主题分析中的“dump and done”式用法存在局限，但 ChatGPT 和 Delve 的 AI 助手仍能帮助节省时间。内容围绕二者在质性分析与主题分析中的实际提效方式展开，并说明这些用法边界。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-02-10T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -186,6 +673,549 @@
       "relation": null
     },
     {
+      "id": "9c0dcc371b7c9a38",
+      "sourceId": "testingtime",
+      "sourceName": "TestingTime",
+      "tier": "T1",
+      "url": "https://www.testingtime.com/blog/5-typische-herausforderungen-bei-der-uxr-analyse-und-wie-man-sie-bewaeltigt/",
+      "title": "5 typische Herausforderungen bei der UXR-Analyse und wie man sie bewältigt",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "洞察库/ResearchOps",
+        "研究伦理"
+      ],
+      "entities": [
+        "testingtime"
+      ],
+      "itemType": null,
+      "publishedAt": "2023-10-03T11:00:54+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "16241e12403d1bc3",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/ai-features-in-qda-software/",
+      "title": "AI Features in QDA Software (2026): NVivo, Delve, MAXQDA, ATLAS.ti, Dedoose, Quirkos & Taguette Compared",
+      "titleZh": "QDA 软件 AI 功能对比（2026）：NVivo、、、ATLAS.ti、Dedoose、 与 Taguette",
+      "summaryZh": "一项对比测试考察了 NVivo、、、ATLAS.ti、Dedoose、 与 Taguette 的 AI 功能，并按研究者最关心的维度评估这些 QDA 平台。测试覆盖多款 AI 辅助 QDA 平台，重点比较现有 AI 能力的表现",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "文本分析/VOC",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve",
+        "maxqda",
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-09-09T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "93c88061e60a139e",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/credibility-in-qualitative-research/",
+      "title": "Credibility in qualitative research: What it means and how to establish it with readers",
+      "titleZh": "Delve：定性研究中的可信度是什么，以及如何向读者建立可信度",
+      "summaryZh": "Delve 对定性研究中的可信度作出解释：研究结论是否与参与者的现实相符，并列出六种向读者建立可信度的方法。文章还进一步说明 Delve 如何让证据与数据保留在一起。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-08T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "d0312334ee3ab04f",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/what-is-dependability-in-qualitative-research/",
+      "title": "What is dependability in qualitative research?",
+      "titleZh": "定性研究中的可靠性（dependability）是什么：Delve 如何保留审计轨迹",
+      "summaryZh": "Delve 的指南指出，定性研究中的可靠性（dependability）指研究过程一致且可追溯，并可通过审计轨迹证明。指南还讲解如何建立可靠性，以及在 Delve 中保留审计轨迹。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-18T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "78cc1108413d28d6",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/ultimate-guide-comparing-qualitative-coding-software/",
+      "title": "The Ultimate Guide to Qualitative Coding Software",
+      "titleZh": "Delve、NVivo、MAXQDA、ATLAS.ti 等定性编码软件对比指南",
+      "summaryZh": "一份定性编码软件指南对比了 Delve、NVivo、MAXQDA、ATLAS.ti、Quirkos、Dedoose 和 Taguette。比较维度包括学习曲线、AI 辅助编码与协作功能。",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve",
+        "maxqda",
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-16T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "13025dcd769ddcfa",
+      "sourceId": "jmmr",
+      "sourceName": "Journal of Mixed Methods Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261423078?ai=2b4&mi=ehikzz&af=R",
+      "title": "Qualitatively Driven Mixed Methods Research in the Caribbean Context: Beyond Western Paradigms",
+      "titleZh": "加勒比语境下定性驱动的混合方法研究：超越西方范式",
+      "summaryZh": "加勒比语境下的定性驱动混合方法研究需要超越西方范式，以当地多元文化、身份与实践理解“认知”和“存在”的情境性。这种多样性植根于共同殖民历史。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-02-12T09:40:49+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "57734a6f9347ee4d",
+      "sourceId": "rosenfeldmedia",
+      "sourceName": "Rosenfeld Media",
+      "tier": "T2",
+      "url": "https://rosenfeldmedia.com/want-to-understand-users-better-start-by-reading-body-talk/",
+      "title": "Want to understand users better? Start by reading Body Talk",
+      "titleZh": "新书《Body Talk》：读懂手势、姿态与注视，更深入理解用户",
+      "summaryZh": "Dane DeSutter 与 Stephanie Scopelitis 合著的《Body Talk》提出，手势、身体姿态和注视能揭示用户没说出口的另一半信息。书中给出 Three Bodies 框架，教研究者观察、分析并应用手势，覆盖基础研究、协同构思、设计验证到技术沟通的产品全流程。作者称这些做法无需新工具或预算，且是 AI 无法替代的研究技能。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T16:36:47+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e02e35c49c208ae3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-market-research-methods-startups/",
+      "title": "Customer Research Methods For Startups: A How-To Playbook",
+      "titleZh": "Listen Labs：初创公司客户研究方法操作手册",
+      "summaryZh": "Listen Labs 梳理初创公司客户研究方法，按创意、预发布、发布后三阶段给出组合建议。创意阶段建议 5–10 次客户发现访谈，预发布阶段用 20–30 次 AI 主持访谈加落地页测试。其平台称拥有 50M+ 验证样本库，可单日访谈最多 1,000 名客户并在 24 小时内交付分析，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:39+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "36d3f8bbcb45babc",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/ai-prompts-for-qualitative-research/",
+      "title": "AI Prompts for Qualitative Research: How to Get More from Delve's AI Features",
+      "titleZh": "Delve AI 功能提示词指南：如何写好定性研究提示词",
+      "summaryZh": "Delve 的定性研究 AI 提示词指南说明如何用好其 AI 功能，覆盖编码头脑风暴、总结和优化分析。内容提供针对这些环节的实用提示词写法。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "提示词/模板",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-06-30T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3330395388f74152",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/qualitative-codes-themes-names-uncertainty/",
+      "title": "When codes are themes, and themes are codes: uncertainty in qualitative analysis",
+      "titleZh": "Quirkos：编码何时成为主题，主题又如何成为编码？定性分析中的不确定性",
+      "summaryZh": "Quirkos 发文讨论定性分析中编码与主题的界限为何不确定，并借真实编码数据说明主题需经反复阅读与反思形成。文章以 Qualitative Researcher Journeys 项目为例，称 Vulnerabilities 从访谈摘要概览中出现后被视为贯穿性主题。文中还演示用 Quirkos Groups 给主题加标签、用 Properties 将来源分集。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-02-25T11:29:07+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "41065320cd5e6a93",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/comparing-best-software-for-thematic-analysis/",
+      "title": "Comparing the Best Software for Thematic Analysis",
+      "titleZh": "最佳主题分析软件对比：NVivo、ATLAS.ti、MAXQDA、Quirkos、Taguette、Dedoose 与 Delve 的编码、主题构建和工作流",
+      "summaryZh": "NVivo、ATLAS.ti、MAXQDA、Quirkos、Taguette、Dedoose 与 Delve 七款主题分析软件被集中对比，考察编码、主题构建和工作流。对比聚焦各工具在这些环节的具体处理方式。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "maxqda",
+        "quirkos",
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-09T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ccabb469bfb5e1dd",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/best-qda-software-support-qualitative-research/",
+      "title": "Which QDA Software Support Actually Helps When You Need It?",
+      "titleZh": "七款 QDA 软件的客户与软件支持对比：哪款在需要时真正有帮助？",
+      "summaryZh": "七款顶级 QDA（定性数据分析）软件的对比，重点看哪款在需要时能提供最有帮助的客户与软件支持。对比目标是判断这些支持是否真正有用。",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-08-28T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "08e58d19623b331e",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/compare-best-software-teach-qualitative-analysis/",
+      "title": "The Best QDA Software for Teaching Qualitative Research",
+      "titleZh": "定性研究教学的最佳 QDA 软件指南",
+      "summaryZh": "面向定性研究教学，这份 QDA 软件指南以学生第一周即可上手为筛选重点。它比较各工具的设置时间、访问方式、工作流和真实课堂体验。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-09T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2422378ea48b1eec",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/queer-theory-and-qualitative-methods-an-unlikely-marriage/",
+      "title": "Queer theory and qualitative methods: an unlikely marriage?",
+      "titleZh": "酷儿理论与定性研究：一场不太可能的结合？",
+      "summaryZh": "Quirkos 最新博文由酷儿理论研究者撰写，讨论酷儿理论如何应用于定性研究，并区分酷儿理论与 LGBTQ+ 研究。文章梳理酷儿立场与反身性、抽样与数据收集、创意研究方法、参与式研究、酷儿自我民族志及研究伦理等路径，并讨论相关批评。作者强调不存在唯一正确的应用方式，而是呈现其主观视角下可用的研究路径。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-07-16T16:36:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f2094553e5f9ba08",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-scalability-guide/",
+      "title": "Customer Insights Platform Scalability: Practitioner’s Guide",
+      "titleZh": "Listen Labs 客户洞察平台可扩展性实践指南",
+      "summaryZh": "Listen Labs 在《客户洞察平台可扩展性实践指南》中提出六维框架，称其平台可将研究周期压缩到不到 24 小时，并覆盖 50M+ 验证受访者。六个维度包括数据量、受访者覆盖、周期时间、质量控制、单研究成本和跨研究知识，Listen Atlas 覆盖 45+ 国家和 120+ 语言。Quality Guard 实时监控访谈，平台成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:02:59+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fee9b56b425faf8e",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/trustworthiness-in-qualitative-research/",
+      "title": "Trustworthiness in qualitative research: What it means and how to show it",
+      "titleZh": "定性研究中的可信度：含义、展示方式与 Delve 的编码决策记录",
+      "summaryZh": "Delve 会在编码过程中持续记录编码决策，使定性研究的可信度有据可查。内容同时说明定性研究中可信度的含义与展示方式。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-07-14T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "c79ea5e8b5c6c363",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/qualitative-survey-analysis-guide/",
+      "title": "Qualitative Survey Analysis: A Practical Guide",
+      "titleZh": "定性问卷分析实用指南：Delve 如何简化定性编码流程",
+      "summaryZh": "Delve 的《定性问卷分析实用指南》梳理现代问卷分析方法，并说明其问卷分析软件如何让定性编码流程更易管理。该指南面向定性问卷分析实践，介绍软件辅助的编码管理思路。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "问卷/定量",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-09-10T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6803e0d57cc35267",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/manual-coding-vs-qualitative-coding-software/",
+      "title": "Manual Coding vs. Qualitative Coding Software: When to Make the Switch",
+      "titleZh": "手动编码 vs. 定性编码软件：何时切换到 Delve",
+      "summaryZh": "Delve 梳理定性研究从手动方法到定性编码软件的常见做法，并讨论何时应从手动编码切换到这类软件。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-31T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8033e996f94b47f5",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/compare-best-software-grounded-theory-delvetool/",
+      "title": "Best Software for Grounded Theory: NVivo, ATLAS.ti, MAXQDA, Delve Compared",
+      "titleZh": "扎根理论最佳软件对比：NVivo、ATLAS.ti、 与",
+      "summaryZh": "对 NVivo、ATLAS.ti、 与 进行扎根理论软件对比测试，逐款检验哪款工具最能处理扎根理论来回往复的分析工作。测试对象为定性数据分析软件，重点比较各工具在这一往复过程中的表现",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve",
+        "maxqda"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-05-19T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a41c6313b03a53b0",
+      "sourceId": "jmmr",
+      "sourceName": "Journal of Mixed Methods Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898251396763?ai=2b4&mi=ehikzz&af=R",
+      "title": "Power, Benefits, and Visibility in Qualitatively Driven Mixed Methods Research",
+      "titleZh": "定性驱动的混合方法研究中的权力、收益与可见性",
+      "summaryZh": "《Journal of Mixed Methods Research》刊文指出，权力、收益与可见性对理解定性驱动的混合方法研究的过去、现在与未来至关重要。文章从权力维度展开，考察定量与定性方法过去所扮演的角色。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-11-06T10:39:34+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e1a9b2b0aa0c3d9c",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/reliability-validity-in-qualitative-research/",
+      "title": "Reliability and validity in qualitative research: What they mean and their qualitative equivalents",
+      "titleZh": "Delve 解释定性研究中的信度、效度及其定性对应概念",
+      "summaryZh": "Delve 发文解释定性研究中的信度与效度分别指什么，以及它们在定性研究中的对应概念。文章围绕这两个概念展开说明，并指出 Delve 这类定性工具可帮助研究者把研究记录过程做得更透明、有条理、可追溯。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-07-28T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "082981791e28e212",
       "sourceId": "quirkos",
       "sourceName": "Quirkos",
@@ -207,6 +1237,163 @@
       "itemType": null,
       "publishedAt": "2026-04-22T11:00:59+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "263b215d53519328",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-enterprise-ai-research-platforms/",
+      "title": "Best Enterprise AI Research Platforms Compared 2026",
+      "titleZh": "2026 年最佳企业级 AI 研究平台对比",
+      "summaryZh": "Listen Labs 在 2026 年企业级 AI 研究平台对比中将平台分为五类，并称其平台在客户与消费者研究类别领先。其平台覆盖 50M+ 验证受访者、45+ 国家、120+ 语言，可在 24 小时内产出交付物，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "市场研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "dovetail",
+        "qualtrics",
+        "surveymonkey",
+        "user-interviews"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:24+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2f7fc8af678e63e7",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/should-i-use-nvivo-dissertation/",
+      "title": "Should I use NVivo for my dissertation?",
+      "titleZh": "学位论文定性编码该用 NVivo 吗？",
+      "summaryZh": "学位论文写作者是否该用 NVivo 做定性编码，要看具体使用场景；Delve 被列为更易获取的替代工具。文章围绕 NVivo 擅长什么、何时值得使用，以及何时应改用 Delve 这类工具展开。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-04-28T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4e863eccc2fccb69",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/transferability-in-qualitative-research/",
+      "title": "Transferability in qualitative research: What it is and how to write about it",
+      "titleZh": "定性研究中的可迁移性（transferability）：是什么以及如何撰写",
+      "summaryZh": "Delve 发文解释定性分析中的可迁移性（transferability）要求什么、如何满足，以及如何撰写相关说明。Delve 定性软件能在撰写结果时整理相关笔记。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-11T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a86008423a4747f1",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/how-get-more-accurate-results-ai-qualitative-research/",
+      "title": "How to Get More Accurate Results from AI in Qualitative Research",
+      "titleZh": "Delve 指南：如何让 AI 在定性研究中给出更准确结果",
+      "summaryZh": "Delve 的指南讲解如何让 AI 在定性研究中给出更准确结果，聚焦 AI 辅助定性研究的结果准确性。文章未展开具体方法、样本量、效果指标或工具版本。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-05-19T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "497b2818397b5444",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/top-alternatives-to-nvivo-for-dissertation-students-delvetool/",
+      "title": "Top Alternatives to NVivo for Dissertation Students",
+      "titleZh": "论文学生的 NVivo 替代方案：Delve 更易用",
+      "summaryZh": "面向论文学生的 NVivo 替代方案文章将 Delve 列为更易用选择，并指出 NVivo 的学习曲线和价格对新用户及首次研究者构成障碍。文章称 Delve 受到全球论文学生青睐，定位为 NVivo 的替代工具。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-04-14T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "778147fbc191898d",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/case-study-lsu/",
+      "title": "How a National Science Foundation-funded researcher used Delve to study AI and STEM identity",
+      "titleZh": "获美国国家科学基金会资助的研究者如何用 Delve 研究 AI 与 STEM 身份认同",
+      "summaryZh": "Garcia Ramos 博士用 Delve 简化了定性分析工作流，并发表了美国国家科学基金会（NSF）资助的 AI 与 STEM 身份认同研究。该案例展示她如何借助 Delve 完成这项 NSF 资助研究。",
+      "reason": null,
+      "category": "cases",
+      "tags": [
+        "案例",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-11-13T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

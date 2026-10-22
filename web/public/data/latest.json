@@ -1,11 +1,64 @@
 {
-  "generatedAt": "2026-10-22T02:48:12.603494+00:00",
+  "generatedAt": "2026-10-22T05:52:40.049533+00:00",
   "windowDays": 3,
   "editionHour": 8,
   "days": [
     {
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "count": 2,
+      "items": [
+        {
+          "id": "125f70d843cae2dc",
+          "sourceId": "arxiv-cs-hc",
+          "sourceName": "arXiv cs.HC",
+          "tier": "T2",
+          "url": "https://arxiv.org/abs/2610.29487",
+          "title": "The Serendiptionnaire: a Questionnaire for Measuring Experienced Serendipity",
+          "titleZh": "研究提出 Serendiptionnaire 问卷，测量用户体验到的偶遇感",
+          "summaryZh": "研究团队提出 Serendiptionnaire 问卷，用模块化量表测量用户在与内容不期而遇时既新鲜又有收获的体验。该问卷经过三轮共 27 次认知访谈迭代，受访者在年龄、教育程度、出生国和英语水平上各不相同，期间浏览 Instagram、TikTok、YouTube 和 Spotify 上的推荐内容。作者称该量表可为验证以系统为中心的偶遇指标和基于 LLM 的评估提供 ground truth。",
+          "reason": "27 次认知访谈三轮迭代打磨出的模块化量表，让研究者能按需组合并比较不同平台上的偶遇体验测量结果。",
+          "category": "research",
+          "tags": [
+            "论文/研究",
+            "问卷/定量",
+            "学术 HCI"
+          ],
+          "entities": [],
+          "itemType": "research_paper",
+          "publishedAt": "2026-10-22T04:00:00+00:00",
+          "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": null
+        },
+        {
+          "id": "cbd1da1c5b8a4833",
+          "sourceId": "arxiv-cs-hc",
+          "sourceName": "arXiv cs.HC",
+          "tier": "T2",
+          "url": "https://arxiv.org/abs/2610.29312",
+          "title": "A Stratified Multi-Rater Evaluation of LLM-Based Virtual Standardized Patients with a Deployed Data-Generation Platform",
+          "titleZh": "研究以 17 名医学生评分者分层评估四款 LLM 虚拟标准化病人",
+          "summaryZh": "一项 arXiv 论文用双盲全交叉设计，让 17 名高年级医学生对 GPT-4o、Claude 3.5 Sonnet、Llama-3.1 70B 和 HyperCLOVA X 四款 LLM 虚拟标准化病人在三个韩国 OSCE 病例中的每句话打分，基于 3 个句子级和 6 个会面级 Likert 指标共得到 7,480 个数据点。在会面层面，四款模型中有三款在可理解性、一致性和无幻觉三项上比人类专家参考低 0.08 到 0.47 个 Likert 点，Llama-3.1 70B 则在全部六项指标上显著低于参考。作者同时介绍了一个网页版 OSCE 平台，支持多种临床病例的虚拟练习，并在研究知情与隐私同意下持续收集学生与虚拟标准化病人的对话。",
+          "reason": "17 名评分者对四款模型逐句打分，让不同 LLM 虚拟标准化病人的具体短板有了可比参照。",
+          "category": "research",
+          "tags": [
+            "论文/研究",
+            "学术 HCI"
+          ],
+          "entities": [],
+          "itemType": "research_paper",
+          "publishedAt": "2026-10-22T04:00:00+00:00",
+          "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": null
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "count": 4,
       "items": [
         {
           "id": "0b86c760fb29c3f7",
@@ -32,25 +85,76 @@
           "relation": null
         },
         {
-          "id": "1190a1bb12c738b9",
+          "id": "a648e6bd28db420f",
           "sourceId": "arxiv-cs-hc",
           "sourceName": "arXiv cs.HC",
           "tier": "T2",
-          "url": "https://arxiv.org/abs/2610.27248",
-          "title": "ValiAssist: Scaling LLM-generated Programming Feedback Validation by Demonstration",
-          "titleZh": "ValiAssist：通过演示扩展 LLM 生成编程反馈的验证",
-          "summaryZh": "ValiAssist 以“演示验证”方式从教师对 AI 生成反馈的修改中推断可复用的验证逻辑，并让教师查看和调整该逻辑在其他学生作业上的应用。在 16 名教师的对比研究中，其反馈与教学目标的一致率为 91%（对照组 57%），纠正问题准则的准确率超过 77% 对 32% 的一倍以上。",
-          "reason": null,
+          "url": "https://arxiv.org/abs/2610.27333",
+          "title": "Inspectable LLM-Simulated Participants for Qualitative Interview Rehearsal",
+          "titleZh": "arXiv 论文提出可检查的 LLM 模拟参与者，用于定性访谈演练",
+          "summaryZh": "一篇 arXiv cs.HC 论文提出用于定性访谈演练的可检查 LLM 模拟参与者，标题强调模拟参与者可被检查。",
+          "reason": "标题指向把 LLM 模拟参与者用于定性访谈演练，并强调模拟参与者可检查，为访谈训练提供一种可审查的模拟思路。",
           "category": "research",
           "tags": [
             "论文/研究",
-            "学术 HCI",
-            "定性分析"
+            "合成用户",
+            "定性分析",
+            "AI 访谈"
           ],
           "entities": [],
-          "itemType": null,
+          "itemType": "research_paper",
           "publishedAt": "2026-10-21T04:00:00+00:00",
-          "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+          "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": null
+        },
+        {
+          "id": "708c179adb3d9ebf",
+          "sourceId": "arxiv-cs-hc",
+          "sourceName": "arXiv cs.HC",
+          "tier": "T2",
+          "url": "https://arxiv.org/abs/2610.27258",
+          "title": "The Differential Effects of AI Abstention on Advice Acceptance",
+          "titleZh": "AI 弃答对建议接受度的差异化影响",
+          "summaryZh": "论文《The Differential Effects of AI Abstention on Advice Acceptance》考察 AI 弃答如何差异化影响人们对建议的接受度。当前可见信息仅到标题层面，未包含样本、实验设计或结论。",
+          "reason": "论文考察 AI 弃答对建议接受度的差异化影响，可帮助研究者把握人机建议互动中的一个具体问题切口。",
+          "category": "research",
+          "tags": [
+            "论文/研究",
+            "学术 HCI"
+          ],
+          "entities": [],
+          "itemType": "research_paper",
+          "publishedAt": "2026-10-21T04:00:00+00:00",
+          "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": null
+        },
+        {
+          "id": "1afcb1a1360dc91a",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/voice-of-customer-software-features/",
+          "title": "Voice of Customer Software Features: What Each One Does",
+          "titleZh": "Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么",
+          "summaryZh": "Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。",
+          "reason": null,
+          "category": "methods",
+          "tags": [
+            "方法/实践",
+            "文本分析/VOC",
+            "AI 访谈",
+            "定性分析"
+          ],
+          "entities": [
+            "listen-labs"
+          ],
+          "itemType": null,
+          "publishedAt": "2026-10-21T05:03:33+00:00",
+          "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
           "status": "selected",
           "dupOf": null,
           "relation": null
@@ -59,29 +163,52 @@
     },
     {
       "date": "2026-10-21",
-      "count": 1,
+      "count": 2,
       "items": [
         {
-          "id": "0dad8a14e94f399a",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/media-market-research-statistics/",
-          "title": "Media Market Research Statistics: 2026 Edition",
-          "titleZh": "Listen Labs 媒体市场研究统计 2026 版：全球媒体规模、广告支出与流媒体数据",
-          "summaryZh": "Listen Labs 发布 2026 版媒体市场研究统计，指出全球媒体市场规模 $1.73T、全球广告收入约 $1.30T、数字媒体市场 $1.039T 属不同口径，不可相加。数据含流媒体占美国电视观看时间 47.0%、美国社交媒体广告 $117.7B 居数字广告首位，以及传统电视收入 2025 年下滑 2.7% 至 $360.5B。",
-          "reason": null,
-          "category": "industry",
+          "id": "501b170386db1504",
+          "sourceId": "uxdesign-cc",
+          "sourceName": "UX Collective",
+          "tier": "T2",
+          "url": "https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4",
+          "title": "AI doesn’t care about your job title",
+          "titleZh": "AI 暴露度不看职位看任务：用 Claude 测算的五步法",
+          "summaryZh": "作者提出按任务而非职位评估 AI 暴露度，用能否两句话描述最终结果、能否更快核验两问给一周任务打分，再按工时加权，并给出可直接粘贴到 Claude 的五步提示词。文中引用 2023 年 GPTs are GPTs 的估计，80% 美国劳动者至少一成任务会受影响，约 19% 至少一半，而 Anthropic 用 2026 年 3 月使用数据发现 Claude 覆盖约 33% 的计算机与数学任务。作者还引用 Stanford Digital Economy Lab 2026 年 8 月的分析，22 至 25 岁在暴露职业中的就业水平比与低暴露同行同步时应有的水平低 19%。",
+          "reason": "文中把暴露度拆成可描述与可核验两问并给出配套提示词，研究者可据此按任务清点自己一周的时间去向。",
+          "category": "methods",
           "tags": [
-            "行业报告",
+            "方法/实践"
+          ],
+          "entities": [],
+          "itemType": "method_or_template",
+          "publishedAt": "2026-10-20T21:29:28+00:00",
+          "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": null
+        },
+        {
+          "id": "f4eda7046ba6885e",
+          "sourceId": "cint",
+          "sourceName": "Cint",
+          "tier": "T1",
+          "url": "https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/",
+          "title": "Why the future of consumer insights relies on AI-moderated hybrid research",
+          "titleZh": "Cint 谈为何消费者洞察的未来依赖 AI 主持的混合研究",
+          "summaryZh": "Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。",
+          "reason": null,
+          "category": "opinion",
+          "tags": [
+            "观点/讨论",
+            "AI 访谈",
             "市场研究"
           ],
           "entities": [
-            "listen-labs"
+            "cint"
           ],
-          "itemType": null,
-          "publishedAt": "2026-10-20T05:15:31+00:00",
-          "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+          "itemType": "opinion_analysis",
+          "publishedAt": "2026-10-20T20:46:56+00:00",
+          "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
           "status": "selected",
           "dupOf": null,
           "relation": null

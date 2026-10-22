@@ -1,0 +1,28 @@
+{
+  "id": "8033e996f94b47f5",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/compare-best-software-grounded-theory-delvetool/",
+  "title": "Best Software for Grounded Theory: NVivo, ATLAS.ti, MAXQDA, Delve Compared",
+  "titleZh": "扎根理论最佳软件对比：NVivo、ATLAS.ti、 与",
+  "summaryZh": "对 NVivo、ATLAS.ti、 与 进行扎根理论软件对比测试，逐款检验哪款工具最能处理扎根理论来回往复的分析工作。测试对象为定性数据分析软件，重点比较各工具在这一往复过程中的表现",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "delve",
+    "maxqda"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-05-19T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

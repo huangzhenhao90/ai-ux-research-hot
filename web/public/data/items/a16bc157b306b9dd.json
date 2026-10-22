@@ -1,0 +1,25 @@
+{
+  "id": "a16bc157b306b9dd",
+  "sourceId": "producttalk",
+  "sourceName": "Product Talk（Teresa Torres）",
+  "tier": "T2",
+  "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
+  "title": "4 New Evals and 16 Experiment Variants to Fix 1 Customer Complaint",
+  "titleZh": "Vistaly 为 1 个客户反馈做了 4 个新 eval 与 16 个实验变体",
+  "summaryZh": "Teresa Torres 与 Vistaly 为修复一条客户反馈投入 4 个新 eval 与 16 个实验变体，该反馈指 AI 生成的机会解决方案树在一个分支上缺少层级。她先用代码断言的 tree-shape eval 统计父节点的子节点分布，再用 LLM-as-a-Judge 判断是否存在漏掉的子分组。在人工标注的校准集上，judge 的 recall 为 100%，specificity 只有 43.75%，会把没有漏分组的节点判成有。",
+  "reason": "作者用 4 个 eval 与 16 个实验变体追查一个客户反馈，展示了给 AI 输出做质检的可迁移做法。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "Agent"
+  ],
+  "entities": [],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-09-16T13:00:36+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

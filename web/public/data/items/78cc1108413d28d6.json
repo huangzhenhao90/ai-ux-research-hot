@@ -1,0 +1,29 @@
+{
+  "id": "78cc1108413d28d6",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/ultimate-guide-comparing-qualitative-coding-software/",
+  "title": "The Ultimate Guide to Qualitative Coding Software",
+  "titleZh": "Delve、NVivo、MAXQDA、ATLAS.ti 等定性编码软件对比指南",
+  "summaryZh": "一份定性编码软件指南对比了 Delve、NVivo、MAXQDA、ATLAS.ti、Quirkos、Dedoose 和 Taguette。比较维度包括学习曲线、AI 辅助编码与协作功能。",
+  "reason": null,
+  "category": null,
+  "tags": [
+    "其他",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "delve",
+    "maxqda",
+    "quirkos"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-12-16T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

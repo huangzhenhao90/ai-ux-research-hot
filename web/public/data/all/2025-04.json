@@ -1,7 +1,29 @@
 {
   "month": "2025-04",
-  "count": 1,
+  "count": 2,
   "items": [
+    {
+      "id": "4db27387afcbd039",
+      "sourceId": "bit",
+      "sourceName": "Behaviour & Information Technology",
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2025.2490672?af=R",
+      "title": "Factors affecting customer adoption of AI digital agents in service operations: an assessment of relative importance",
+      "titleZh": "服务运营中客户采用 AI 数字智能体的影响因素：相对重要性评估",
+      "summaryZh": "一项研究评估服务运营中客户采用 AI 数字智能体的影响因素及各因素的相对重要性；现有材料仅给出研究主题，未披露样本量、具体因素或结果数据。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-04-09T03:32:18+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "e46c7b38934bf268",
       "sourceId": "uxpa",

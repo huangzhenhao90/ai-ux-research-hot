@@ -1,0 +1,28 @@
+{
+  "id": "246a6f44e479e79a",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/concept-testing-retail-products/",
+  "title": "Retail Concept Testing: Methods, Steps & Questions",
+  "titleZh": "零售概念测试：方法、步骤与问题",
+  "summaryZh": "Listen Labs 的零售概念测试覆盖产品概念、包装与货架吸引力、价格感知和自有品牌竞争四类，并给出 5 步流程。其 AI 主持访谈依托 50M+ 受访者网络，覆盖 45+ 国家和 120+ 语言，称 24 小时内交付分析结果，成本约为传统研究的三分之一。示例用 200 名已验证零食品类买家，对比 $2.99 与 $3.79 两个价格点。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "问卷/定量",
+    "AI 访谈",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-20T05:15:18+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

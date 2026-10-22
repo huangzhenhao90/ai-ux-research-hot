@@ -1,7 +1,99 @@
 {
   "month": "2025-11",
-  "count": 6,
+  "count": 10,
   "items": [
+    {
+      "id": "5b330bc56de8bdcb",
+      "sourceId": "jmmr",
+      "sourceName": "Journal of Mixed Methods Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898251398262?ai=2b4&mi=ehikzz&af=R",
+      "title": "Reimagining Inquiry: A Transformative Integration of Mixed Methods Action Research and Qualitatively Driven Designs in Disability Research Contexts",
+      "titleZh": "重构探究：Mertens 变革范式下残障研究情境中混合方法行动研究与质性驱动设计的变革性整合",
+      "summaryZh": "一篇理论文章在 Mertens 变革范式下，将质性驱动的混合方法研究与混合方法行动研究整合到残障研究情境，以推进参与式和面向正义的混合方法研究。该整合聚焦残障研究情境，强调参与式与正义导向的探究设计。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-11-26T05:49:55+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a41c6313b03a53b0",
+      "sourceId": "jmmr",
+      "sourceName": "Journal of Mixed Methods Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898251396763?ai=2b4&mi=ehikzz&af=R",
+      "title": "Power, Benefits, and Visibility in Qualitatively Driven Mixed Methods Research",
+      "titleZh": "定性驱动的混合方法研究中的权力、收益与可见性",
+      "summaryZh": "《Journal of Mixed Methods Research》刊文指出，权力、收益与可见性对理解定性驱动的混合方法研究的过去、现在与未来至关重要。文章从权力维度展开，考察定量与定性方法过去所扮演的角色。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-11-06T10:39:34+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "778147fbc191898d",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/case-study-lsu/",
+      "title": "How a National Science Foundation-funded researcher used Delve to study AI and STEM identity",
+      "titleZh": "获美国国家科学基金会资助的研究者如何用 Delve 研究 AI 与 STEM 身份认同",
+      "summaryZh": "Garcia Ramos 博士用 Delve 简化了定性分析工作流，并发表了美国国家科学基金会（NSF）资助的 AI 与 STEM 身份认同研究。该案例展示她如何借助 Delve 完成这项 NSF 资助研究。",
+      "reason": null,
+      "category": "cases",
+      "tags": [
+        "案例",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-11-13T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f04cf5bc961aae38",
+      "sourceId": "hci-journal",
+      "sourceName": "Human-Computer Interaction",
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
+      "title": "Commentary: The common-sense grounds of positivist reviewing",
+      "titleZh": "评论：实证主义审稿的常识基础",
+      "summaryZh": "评论文章《实证主义审稿的常识基础》聚焦实证主义取向下的同行评审，讨论其赖以成立的常识性预设。原文未提供更多具体案例与细节。",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-11-24T12:14:05+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "c27114e889bb82d1",
       "sourceId": "hnrss-user-research",

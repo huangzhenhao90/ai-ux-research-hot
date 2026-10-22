@@ -1,0 +1,26 @@
+{
+  "id": "a9875bdb3d08142c",
+  "sourceId": "mopinion",
+  "sourceName": "Mopinion",
+  "tier": "T1",
+  "url": "https://mopinion.com/introducing-the-mopinion-survey-marketplace/",
+  "title": "Introducing the Mopinion Survey Marketplace",
+  "titleZh": "Mopinion 推出 Survey Marketplace",
+  "summaryZh": "Mopinion 推出 Survey Marketplace，提供 8 个调查模板类别和近 30 个模板示例。每个调查附有收益列表，帮助用户了解创建和使用在线调查所需的要素。",
+  "reason": null,
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "问卷/定量"
+  ],
+  "entities": [
+    "mopinion"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-09-17T07:18:50+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

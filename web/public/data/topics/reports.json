@@ -3,7 +3,7 @@
   "name": "行业报告",
   "group": "genre",
   "definition": "调研公司报告、行业协会规范与市场结构变化。",
-  "count": 2,
+  "count": 15,
   "items": [
     {
       "id": "17782bd98c014cbd",
@@ -31,6 +31,338 @@
       "relation": null
     },
     {
+      "id": "845279803dea965c",
+      "sourceId": "surveymonkey",
+      "sourceName": "SurveyMonkey",
+      "tier": "T1",
+      "url": "https://www.surveymonkey.com/curiosity/ask-the-market-mental-health-ai/?ut_source=rss",
+      "title": "Ask the Market: People are already using AI for mental health. Here’s what they actually trust it to do.",
+      "titleZh": "Ask the Market: People are already using AI for mental health. Here’s what they actually trust it to do.",
+      "summaryZh": "",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "行业报告",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-25T09:17:54+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "89486753fbea2738",
+      "sourceId": "maxqda",
+      "sourceName": "MAXQDA",
+      "tier": "T1",
+      "url": "https://www.maxqda.com/blogpost/maxqdas-usability-wins-award",
+      "title": "MAXQDA’s usability awarded for “Excellent Communications Design – Interactive User Experience”",
+      "titleZh": "MAXQDA 获 German Design Award“Excellent Communications Design – Interactive User Experience”奖",
+      "summaryZh": "MAXQDA 获 German Design Award 的交互用户体验类别奖，评审称其界面将清晰、深度和灵活性结合，并整合 AI 功能。团队自 2023 年起重设计界面，目标是在不削弱功能的前提下降低复杂度，改善层级、图标和视觉语言。设计由设计专家与 MAXQDA 领域专家共同推进，并在引入 AI Assist 时转向按研究工作流设计。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-02-18T09:07:58+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6a904c74c3ee127f",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ignite-growth-collective-innovation",
+      "title": "Ignite Growth with Collective Innovation",
+      "titleZh": "Ipsos 推出 Collective Innovation，帮助企业加速创新并提升成功率",
+      "summaryZh": "Ipsos 宣布推出端到端创新服务 Collective Innovation，旨在帮助企业加速创新开发并提高成功率。该服务以更高成功率为目标，覆盖企业创新开发流程，助力创新增长。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-09T08:55:06+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f07a3ce3428031ae",
+      "sourceId": "aapor",
+      "sourceName": "AAPOR（美国民意研究协会）",
+      "tier": "T1",
+      "url": "https://aapor.org/newsletters/aapor-2026-conference-blog-thursday/",
+      "title": "AAPOR 2026 Conference Blog: Thursday",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "问卷/定量"
+      ],
+      "entities": [
+        "aapor"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-05-15T13:12:47+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "009e65b81334a246",
+      "sourceId": "aapor",
+      "sourceName": "AAPOR（美国民意研究协会）",
+      "tier": "T1",
+      "url": "https://aapor.org/newsletters/aapor-2026-conference-blog-wednesday/",
+      "title": "AAPOR 2026 Conference Blog: Wednesday",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "aapor"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-05-14T13:28:18+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f97ec532514eb8de",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/news/insights/sports-brings-people-together/",
+      "title": "We Surveyed 50,674 Americans. This Is What Brings Them Together.",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T15:03:39+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "69b9caaa02c589f0",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/blog/insights/gen-z-21st-birthday-trends-data/",
+      "title": "How Gen Z Celebrates 21st Birthdays: New Data Beyond the Bar Crawl",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "行业报告",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-09T20:53:08+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "26ef0bcc2be574c8",
+      "sourceId": "surveycto",
+      "sourceName": "SurveyCTO",
+      "tier": "T1",
+      "url": "https://www.surveycto.com/press-releases/2025-primary-data-collection-research-grant-winners/",
+      "title": "Come meet the 2025 SurveyCTO Primary Data Collection Research Grant winners",
+      "titleZh": "认识 2025 年 一手数据收集研究资助获得者",
+      "summaryZh": "邀请读者认识 2025 年一手数据收集研究资助获得者，并了解当下塑造研究的创新与方法论",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-02-12T17:09:16+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "263b215d53519328",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-enterprise-ai-research-platforms/",
+      "title": "Best Enterprise AI Research Platforms Compared 2026",
+      "titleZh": "2026 年最佳企业级 AI 研究平台对比",
+      "summaryZh": "Listen Labs 在 2026 年企业级 AI 研究平台对比中将平台分为五类，并称其平台在客户与消费者研究类别领先。其平台覆盖 50M+ 验证受访者、45+ 国家、120+ 语言，可在 24 小时内产出交付物，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "市场研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "dovetail",
+        "qualtrics",
+        "surveymonkey",
+        "user-interviews"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:24+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "06fb58fa9d8ccb92",
+      "sourceId": "surveymonkey",
+      "sourceName": "SurveyMonkey",
+      "tier": "T1",
+      "url": "https://www.surveymonkey.com/curiosity/hubspot-unbound-market-research-engine/?ut_source=rss",
+      "title": "On the ground at HubSpot UNBOUND: The new rules of market research in an AI world",
+      "titleZh": "On the ground at HubSpot UNBOUND: The new rules of market research in an AI world",
+      "summaryZh": "",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-09-22T15:59:08+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5d47dcece1f01c20",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ipsos-health-service-report-2026",
+      "title": "Ipsos Health Service Report 2026",
+      "titleZh": "Ipsos 健康服务报告 2026",
+      "summaryZh": "Ipsos 自 2018 年起持续追踪公众对医疗体系质量的评价、最受关注的健康议题以及最突出的公共卫生问题。2026 年健康服务报告即围绕这三类议题展开。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "行业报告",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-08T09:52:41+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "d69a0193cd65c7be",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/linkedin-live-cx-global-insights-2026",
+      "title": "[LINKEDIN LIVE] CX Global Insights 2026",
+      "titleZh": "LinkedIn Live：CX Global Insights 2026 揭示 CX 趋势与机会",
+      "summaryZh": "的 LinkedIn Live 活动 CX Global Insights 2026 将揭示提升客户体验的趋势与机会，由专家参与分享",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-07T10:26:20+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "922ce100198fa404",
+      "sourceId": "jmmr",
+      "sourceName": "Journal of Mixed Methods Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1558689817748110?ai=2b4&mi=ehikzz&af=R",
+      "title": "WITHDRAWAL–Administrative Duplicate Publication: After Triangulation, What Next?",
+      "titleZh": "《Journal of Mixed Methods Research》撤稿：行政性重复发表《三角互证之后，下一步是什么？》",
+      "summaryZh": "《Journal of Mixed Methods Research》发布撤稿通知，涉及《三角互证之后，下一步是什么？》的行政性重复发表。该条目以 Ahead of Print 形式发布，撤稿性质标注为行政性重复发表。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2022-04-07T06:05:32+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "0dad8a14e94f399a",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -51,7 +383,7 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:31+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     }

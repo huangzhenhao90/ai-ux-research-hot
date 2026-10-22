@@ -1,0 +1,27 @@
+{
+  "id": "821d7c7df70ddb3f",
+  "sourceId": "nngroup",
+  "sourceName": "Nielsen Norman Group",
+  "tier": "T1",
+  "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+  "title": "The Custodial Era of UX: Cleaning Up After AI",
+  "titleZh": "UX 的“看护时代”：为 AI 生成的设计善后",
+  "summaryZh": "AI 让团队生成内容、原型和可运行功能的速度快过 UX 评估，UX 正进入“看护时代”。UX 的工作从空白页设计转向判断 AI 产出中哪些保留、哪些修改，并为已存在的原型和功能善后。应对方式是建立共享判断、加速评估，并引导 AI 生成的设计。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "岗位/职业",
+    "方法/实践"
+  ],
+  "entities": [
+    "nngroup"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-08-28T17:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

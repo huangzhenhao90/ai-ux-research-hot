@@ -1,0 +1,27 @@
+{
+  "id": "009e65b81334a246",
+  "sourceId": "aapor",
+  "sourceName": "AAPOR（美国民意研究协会）",
+  "tier": "T1",
+  "url": "https://aapor.org/newsletters/aapor-2026-conference-blog-wednesday/",
+  "title": "AAPOR 2026 Conference Blog: Wednesday",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": "industry",
+  "tags": [
+    "行业动态",
+    "市场研究",
+    "招募/样本"
+  ],
+  "entities": [
+    "aapor"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-05-14T13:28:18+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

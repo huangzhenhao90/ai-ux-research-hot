@@ -1,0 +1,25 @@
+{
+  "id": "f9c6fab30e34f392",
+  "sourceId": "nngroup",
+  "sourceName": "Nielsen Norman Group",
+  "tier": "T1",
+  "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+  "title": "Using AI for UX Work: Study Guide",
+  "titleZh": "用 AI 做 UX 工作：学习指南",
+  "summaryZh": "发布《用 AI 做 UX 工作：学习指南》，汇总其文章和视频，帮助团队找到将 AI 融入 UX 工作流的具体方式。指南指出，AI 目前还不能完全接管 UX 工作，但可用于辅助既有流程；从业者应把 AI 当作增强能力的“手套”，而非替代判断",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论"
+  ],
+  "entities": [
+    "nngroup"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-09-04T17:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

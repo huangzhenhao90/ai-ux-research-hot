@@ -1,0 +1,27 @@
+{
+  "id": "f4eda7046ba6885e",
+  "sourceId": "cint",
+  "sourceName": "Cint",
+  "tier": "T1",
+  "url": "https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/",
+  "title": "Why the future of consumer insights relies on AI-moderated hybrid research",
+  "titleZh": "Cint 谈为何消费者洞察的未来依赖 AI 主持的混合研究",
+  "summaryZh": "Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "AI 访谈",
+    "市场研究"
+  ],
+  "entities": [
+    "cint"
+  ],
+  "itemType": "opinion_analysis",
+  "publishedAt": "2026-10-20T20:46:56+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a025d1c02bcc90be",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/exploratory-sequential-research-design-delvetool/",
+  "title": "Exploratory sequential design: A practical guide",
+  "titleZh": "探索性序列设计实用指南：将访谈转化为问卷并在 Delve 中编码",
+  "summaryZh": "Delve 的《探索性序列设计实用指南》讲解如何把访谈转化为问卷，并说明定性阶段的编码方法。文中包含一个真实研究示例，并演示如何在 Delve 中完成定性阶段编码。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "问卷/定量",
+    "转写/编码"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-08-04T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

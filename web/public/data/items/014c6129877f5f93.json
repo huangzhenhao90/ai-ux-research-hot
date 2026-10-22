@@ -1,0 +1,23 @@
+{
+  "id": "014c6129877f5f93",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/engineers-youre-not-the-first-to-panic-about-democratization/",
+  "title": "Engineers, you're not the first to panic about democratization",
+  "titleZh": "Dovetail：面对 AI 让研究民主化，工程师不是第一批恐慌的人，UX 研究者早已历过",
+  "summaryZh": "Dovetail 博客把工程师对 AI 让研究民主化产生的恐慌，类比为 UX 研究者数年前经历过的同类危机，认为后者的经验可让工程师少走弯路。它面向工程师回顾 UX 研究者当时学到的教训，提醒他们不必重复同样的恐慌。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-06-14T23:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f2094553e5f9ba08",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/customer-insights-platform-scalability-guide/",
+  "title": "Customer Insights Platform Scalability: Practitioner’s Guide",
+  "titleZh": "Listen Labs 客户洞察平台可扩展性实践指南",
+  "summaryZh": "Listen Labs 在《客户洞察平台可扩展性实践指南》中提出六维框架，称其平台可将研究周期压缩到不到 24 小时，并覆盖 50M+ 验证受访者。六个维度包括数据量、受访者覆盖、周期时间、质量控制、单研究成本和跨研究知识，Listen Atlas 覆盖 45+ 国家和 120+ 语言。Quality Guard 实时监控访谈，平台成本约为传统研究的三分之一。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "招募/样本",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-21T05:02:59+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

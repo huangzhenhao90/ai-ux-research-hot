@@ -1,0 +1,25 @@
+{
+  "id": "95c79eb3ccd1b3a8",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.29929",
+  "title": "Privacy Preference Controls for Agentic Systems",
+  "titleZh": "面向智能体系统的隐私偏好控制",
+  "summaryZh": "研究者提出面向智能体系统的可执行隐私偏好分类法，并审计了30个领先AI助手与智能体平台。研究还开发8个开源原型，展示分类法的主要部分可结构化接入 Model Control Protocol 与 Agent2Agent 等智能体协议。研究目标是为保障终端用户隐私与自主权在智能体世界中不丢失提供基础。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "伦理/隐私",
+    "Agent"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-22T04:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

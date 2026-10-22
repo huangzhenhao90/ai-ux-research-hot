@@ -1,0 +1,30 @@
+{
+  "month": "2025-07",
+  "count": 1,
+  "items": [
+    {
+      "id": "2422378ea48b1eec",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/queer-theory-and-qualitative-methods-an-unlikely-marriage/",
+      "title": "Queer theory and qualitative methods: an unlikely marriage?",
+      "titleZh": "酷儿理论与定性研究：一场不太可能的结合？",
+      "summaryZh": "Quirkos 最新博文由酷儿理论研究者撰写，讨论酷儿理论如何应用于定性研究，并区分酷儿理论与 LGBTQ+ 研究。文章梳理酷儿立场与反身性、抽样与数据收集、创意研究方法、参与式研究、酷儿自我民族志及研究伦理等路径，并讨论相关批评。作者强调不存在唯一正确的应用方式，而是呈现其主观视角下可用的研究路径。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-07-16T16:36:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
+}

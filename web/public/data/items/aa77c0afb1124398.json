@@ -1,0 +1,21 @@
+{
+  "id": "aa77c0afb1124398",
+  "sourceId": "hci-journal",
+  "sourceName": "Human-Computer Interaction",
+  "tier": "T2",
+  "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2744236?af=R",
+  "title": "The Reflection Penalty: when managers accept leadership coaching from a human but not an AI agent",
+  "titleZh": "反思惩罚：管理者接受人类领导力教练，却不接受 AI 智能体",
+  "summaryZh": "《The Reflection Penalty》聚焦管理者接受人类领导力教练、却不接受 AI 智能体的现象。原文未给出样本量、研究工具或效应量，暂无法判断该现象的强度与适用边界。",
+  "reason": null,
+  "category": null,
+  "tags": [],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-15T07:13:22+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

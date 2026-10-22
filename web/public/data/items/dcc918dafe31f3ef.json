@@ -1,0 +1,25 @@
+{
+  "id": "dcc918dafe31f3ef",
+  "sourceId": "measuringu",
+  "sourceName": "MeasuringU（Jeff Sauro）",
+  "tier": "T2",
+  "url": "https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&utm_medium=rss&utm_campaign=five-ways-to-use-rapport-when-moderating",
+  "title": "Five Ways to Use Rapport When Moderating",
+  "titleZh": "MeasuringU 总结主持访谈时建立融洽关系的五种方法",
+  "summaryZh": "MeasuringU 撰文总结主持访谈时建立融洽关系的五种方法，涵盖会前准备、刻意破冰、语言与非语言技巧、警惕双向讨好，以及把融洽关系当作最后的甄别步骤。文中建议用中立的小谈降低参与者压力，用有意的停顿留出思考时间，并提醒过度友善会让参与者表演而非真实反应。文章还提到，一些团队（包括作者所在团队）正在低风险、高样本量的口头问卷中试验 AI 主持，但当参与者难以招募时，人类主持人的技巧仍决定访谈收获。",
+  "reason": "文中把建立融洽关系拆成准备、破冰、中立回应等可操作步骤，并点出双向讨好会让访谈失去真实反馈。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "可用性测试"
+  ],
+  "entities": [],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-08-25T21:18:05+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -332,27 +332,33 @@ def test_threshold_boundary(cfg, scores, threshold, expected) -> None:
     item.avgScore = sum(scores) / len(scores)
     item.tier = "T1"
     ctx = make_ctx(cfg)
+    # 还原成改之前的值，而不是写死某个数字——否则门槛一改，这里会把配置留成脏的
+    original = ctx.cfg.selection.thresholds["T1"]
     ctx.cfg.selection.thresholds["T1"] = threshold
     try:
         assert score.passes_threshold(item, ctx) is expected
     finally:
-        ctx.cfg.selection.thresholds["T1"] = 60
+        ctx.cfg.selection.thresholds["T1"] = original
 
 
 def test_exactly_double_threshold_passes(cfg) -> None:
-    item = _item("t", "https://x.com/1")
-    item.scores = [76, 76]
-    item.tier = "T2"
+    """和正好等于 2×门槛 → 通过。门槛从配置读，不写死数字。"""
     ctx = make_ctx(cfg)
-    assert sum(item.scores) == 2 * 76
+    limit = ctx.cfg.selection.thresholds["T2"]
+    item = _item("t", "https://x.com/1")
+    item.scores = [limit, limit]
+    item.tier = "T2"
+    assert sum(item.scores) == 2 * limit
     assert score.passes_threshold(item, ctx)
 
 
 def test_one_below_double_threshold_fails(cfg) -> None:
-    item = _item("t", "https://x.com/1")
-    item.scores = [76, 75]
-    item.tier = "T2"
+    """和比 2×门槛少 1 分 → 不通过。"""
     ctx = make_ctx(cfg)
+    limit = ctx.cfg.selection.thresholds["T2"]
+    item = _item("t", "https://x.com/1")
+    item.scores = [limit, limit - 1]
+    item.tier = "T2"
     assert not score.passes_threshold(item, ctx)
 
 

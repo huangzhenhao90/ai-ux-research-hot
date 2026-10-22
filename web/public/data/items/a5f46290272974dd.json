@@ -1,0 +1,28 @@
+{
+  "id": "a5f46290272974dd",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/suns-out-2026-launch/",
+  "title": "Our Sun’s Out launch: Introducing Digital Twins, agents, Channels 2.0, and new enterprise-grade features",
+  "titleZh": "Dovetail 夏季发布推出 Digital Twins、agents、Channels 2.0 与企业级功能",
+  "summaryZh": "Dovetail 在 Sun's Out 夏季发布中推出 Digital Twins、agents、Channels 2.0 以及新的企业级功能。此次发布还包含 MCP connectors 和企业级治理能力。官方称，这些更新意在缩短客户上下文与业务决策之间的距离。",
+  "reason": "Dovetail 在同一次夏季发布里推出 Digital Twins、agents 与 MCP 连接器，可用来观察洞察库与智能体结合的形态。",
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "Agent",
+    "洞察库/ResearchOps",
+    "Dovetail"
+  ],
+  "entities": [
+    "dovetail"
+  ],
+  "itemType": "tool_launch",
+  "publishedAt": "2026-07-14T16:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

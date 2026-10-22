@@ -1,7 +1,160 @@
 {
   "month": "2026-05",
-  "count": 6,
+  "count": 12,
   "items": [
+    {
+      "id": "dedfd59baa47acfd",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/",
+      "title": "Introducing Dovetail’s most powerful chat yet",
+      "titleZh": "发布迄今最强的聊天功能更新",
+      "summaryZh": "发布聊天功能上线以来规模最大的一次更新，支持在对话中内嵌富媒体、多上下文提问与网页搜索。此次更新还包括重新设计的交互体验和更广的数据覆盖范围",
+      "reason": "官方列出聊天功能的多项变化，包括富媒体内嵌、多上下文提问与网页搜索，可据此判断访谈与洞察整理的调整空间。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-05-11T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "c6c0cb60a6027a70",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/whats-possible-with-claude-x-dovetail/",
+      "title": "What’s possible when Claude’s connected to Dovetail",
+      "titleZh": "Claude 连接 Dovetail 后能做什么？",
+      "summaryZh": "将 Claude 连接到 Dovetail 后，用户可把客户证据带入草稿、决策和简报，同时不打断工作流。Dovetail 以此说明 Claude 与 Dovetail 连接后的使用场景。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-05-19T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f07a3ce3428031ae",
+      "sourceId": "aapor",
+      "sourceName": "AAPOR（美国民意研究协会）",
+      "tier": "T1",
+      "url": "https://aapor.org/newsletters/aapor-2026-conference-blog-thursday/",
+      "title": "AAPOR 2026 Conference Blog: Thursday",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "问卷/定量"
+      ],
+      "entities": [
+        "aapor"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-05-15T13:12:47+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "009e65b81334a246",
+      "sourceId": "aapor",
+      "sourceName": "AAPOR（美国民意研究协会）",
+      "tier": "T1",
+      "url": "https://aapor.org/newsletters/aapor-2026-conference-blog-wednesday/",
+      "title": "AAPOR 2026 Conference Blog: Wednesday",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "aapor"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-05-14T13:28:18+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8033e996f94b47f5",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/compare-best-software-grounded-theory-delvetool/",
+      "title": "Best Software for Grounded Theory: NVivo, ATLAS.ti, MAXQDA, Delve Compared",
+      "titleZh": "扎根理论最佳软件对比：NVivo、ATLAS.ti、 与",
+      "summaryZh": "对 NVivo、ATLAS.ti、 与 进行扎根理论软件对比测试，逐款检验哪款工具最能处理扎根理论来回往复的分析工作。测试对象为定性数据分析软件，重点比较各工具在这一往复过程中的表现",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve",
+        "maxqda"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-05-19T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a86008423a4747f1",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/how-get-more-accurate-results-ai-qualitative-research/",
+      "title": "How to Get More Accurate Results from AI in Qualitative Research",
+      "titleZh": "Delve 指南：如何让 AI 在定性研究中给出更准确结果",
+      "summaryZh": "Delve 的指南讲解如何让 AI 在定性研究中给出更准确结果，聚焦 AI 辅助定性研究的结果准确性。文章未展开具体方法、样本量、效果指标或工具版本。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-05-19T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "dcac9d0a85406429",
       "sourceId": "maxqda",

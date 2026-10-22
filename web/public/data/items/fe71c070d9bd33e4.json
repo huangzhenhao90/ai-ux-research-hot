@@ -1,0 +1,26 @@
+{
+  "id": "fe71c070d9bd33e4",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
+  "title": "Fetch once, use everywhere: rebuilding how Dovetail ingests your data",
+  "titleZh": "重建数据接入：一次抓取，处处可用",
+  "summaryZh": "正在重建数据接入方式：不再让每个 Channel 各自抓取一份数据，而是改为工作区中的一份共享数据源。这份共享源可在需要的位置直接使用，对应“一次抓取，处处可用”",
+  "reason": null,
+  "category": "tools",
+  "tags": [
+    "功能更新",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "dovetail"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-06-14T23:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

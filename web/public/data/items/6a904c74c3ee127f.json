@@ -1,0 +1,27 @@
+{
+  "id": "6a904c74c3ee127f",
+  "sourceId": "ipsos",
+  "sourceName": "Ipsos",
+  "tier": "T1",
+  "url": "https://www.ipsos.com/en/ignite-growth-collective-innovation",
+  "title": "Ignite Growth with Collective Innovation",
+  "titleZh": "Ipsos 推出 Collective Innovation，帮助企业加速创新并提升成功率",
+  "summaryZh": "Ipsos 宣布推出端到端创新服务 Collective Innovation，旨在帮助企业加速创新开发并提高成功率。该服务以更高成功率为目标，覆盖企业创新开发流程，助力创新增长。",
+  "reason": null,
+  "category": "industry",
+  "tags": [
+    "行业动态",
+    "市场研究",
+    "Ipsos"
+  ],
+  "entities": [
+    "ipsos"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-09T08:55:06+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

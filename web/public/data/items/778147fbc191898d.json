@@ -1,0 +1,26 @@
+{
+  "id": "778147fbc191898d",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/case-study-lsu/",
+  "title": "How a National Science Foundation-funded researcher used Delve to study AI and STEM identity",
+  "titleZh": "获美国国家科学基金会资助的研究者如何用 Delve 研究 AI 与 STEM 身份认同",
+  "summaryZh": "Garcia Ramos 博士用 Delve 简化了定性分析工作流，并发表了美国国家科学基金会（NSF）资助的 AI 与 STEM 身份认同研究。该案例展示她如何借助 Delve 完成这项 NSF 资助研究。",
+  "reason": null,
+  "category": "cases",
+  "tags": [
+    "案例",
+    "定性分析"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-11-13T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

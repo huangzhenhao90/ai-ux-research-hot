@@ -1,0 +1,27 @@
+{
+  "id": "f97ec532514eb8de",
+  "sourceId": "prodege",
+  "sourceName": "Prodege",
+  "tier": "T1",
+  "url": "https://www.prodege.com/resources/news/insights/sports-brings-people-together/",
+  "title": "We Surveyed 50,674 Americans. This Is What Brings Them Together.",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": "industry",
+  "tags": [
+    "行业动态",
+    "市场研究",
+    "问卷/定量"
+  ],
+  "entities": [
+    "prodege"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-21T15:03:39+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

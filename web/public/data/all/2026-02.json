@@ -1,7 +1,266 @@
 {
   "month": "2026-02",
-  "count": 7,
+  "count": 18,
   "items": [
+    {
+      "id": "89c56ba372b9678d",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/dovetail-connector-figma-make/",
+      "title": "Prototype with real customer data using the Dovetail connector for Figma Make",
+      "titleZh": "Dovetail 发布 Figma Make 连接器，可用真实客户数据做原型",
+      "summaryZh": "Dovetail 发布面向 Figma Make 的连接器，用户在做原型时可以直接调用客户洞察数据。官方称使用该连接器无需切换上下文，就能在原型环节利用这些客户情报。",
+      "reason": "官方宣布 Dovetail 与 Figma Make 打通，研究员在原型阶段就能调用客户洞察，省去在不同工具间来回切换。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-02-16T13:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "64c8d6b14fcc84d0",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/how-to-use-ai-for-thematic-analysis-step-by-step-guide/",
+      "title": "How to Use AI for Thematic Analysis: A Step-by-Step Guide",
+      "titleZh": "如何用 AI 进行主题分析：分步指南",
+      "summaryZh": "分步指南围绕 Braun 和 Clarke 的六步法，拆解 AI 如何辅助主题分析，并指出哪些环节需要研究者保持主导。它逐阶段说明 AI 的支持方式与操作步骤，强调 AI 用于辅助流程，而非替研究者做关键判断。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-02-10T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "89486753fbea2738",
+      "sourceId": "maxqda",
+      "sourceName": "MAXQDA",
+      "tier": "T1",
+      "url": "https://www.maxqda.com/blogpost/maxqdas-usability-wins-award",
+      "title": "MAXQDA’s usability awarded for “Excellent Communications Design – Interactive User Experience”",
+      "titleZh": "MAXQDA 获 German Design Award“Excellent Communications Design – Interactive User Experience”奖",
+      "summaryZh": "MAXQDA 获 German Design Award 的交互用户体验类别奖，评审称其界面将清晰、深度和灵活性结合，并整合 AI 功能。团队自 2023 年起重设计界面，目标是在不削弱功能的前提下降低复杂度，改善层级、图标和视觉语言。设计由设计专家与 MAXQDA 领域专家共同推进，并在引入 AI Assist 时转向按研究工作流设计。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-02-18T09:07:58+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "04f60951feacbffd",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/chatgpt-for-thematic-analysis-alternatives/",
+      "title": "Can You Use ChatGPT for Thematic Analysis?",
+      "titleZh": "ChatGPT 能用于主题分析吗？",
+      "summaryZh": "ChatGPT 在主题分析中的“dump and done”式用法存在局限，但 ChatGPT 和 Delve 的 AI 助手仍能帮助节省时间。内容围绕二者在质性分析与主题分析中的实际提效方式展开，并说明这些用法边界。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-02-10T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "130350f8feb0fa44",
+      "sourceId": "jmmr",
+      "sourceName": "Journal of Mixed Methods Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261422330?ai=2b4&mi=ehikzz&af=R",
+      "title": "Transformative Mixed Methods Design-Based Research: Toward Developing Disciplinary Literacy Intervention for Students With Learning Differences",
+      "titleZh": "变革性混合方法设计本位研究：为学习差异学生开发学科素养干预",
+      "summaryZh": "一项变革性混合方法设计本位研究论证，DBR 干预研究本质上采用混合方法收集、分析和解释数据，目标是开发学习差异学生的学科素养干预。该文发表于 Journal of Mixed Methods Research 的 Ahead of Print。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "非用研/通用",
+        "方法/实践"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-02-14T10:43:31+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "34be804820688e3b",
+      "sourceId": "bit",
+      "sourceName": "Behaviour & Information Technology",
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2630372?af=R",
+      "title": "Designing value-based roles and behavioural elements for digital humans in human-centred responsible interaction: focusing on Schwartz's theory of human values",
+      "titleZh": "面向以人为中心的负责任交互：数字人价值型角色与行为要素设计——基于 Schwartz 人类价值观理论",
+      "summaryZh": "论文以 Schwartz 人类价值观理论为框架，设计数字人在以人为中心的负责任交互中的价值型角色与行为要素。文章刊于 Volume 45, Issue 17，页 4105-4141。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-02-17T07:50:21+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "13025dcd769ddcfa",
+      "sourceId": "jmmr",
+      "sourceName": "Journal of Mixed Methods Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261423078?ai=2b4&mi=ehikzz&af=R",
+      "title": "Qualitatively Driven Mixed Methods Research in the Caribbean Context: Beyond Western Paradigms",
+      "titleZh": "加勒比语境下定性驱动的混合方法研究：超越西方范式",
+      "summaryZh": "加勒比语境下的定性驱动混合方法研究需要超越西方范式，以当地多元文化、身份与实践理解“认知”和“存在”的情境性。这种多样性植根于共同殖民历史。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-02-12T09:40:49+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "c6b82ae064a0537a",
+      "sourceId": "jmmr",
+      "sourceName": "Journal of Mixed Methods Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261427560?ai=2b4&mi=ehikzz&af=R",
+      "title": "Using a Delphi Consensus Technique to Refine Meta-Inference in Mixed Methods Research",
+      "titleZh": "用 Delphi 共识技术完善混合方法研究中的元推断",
+      "summaryZh": "《Journal of Mixed Methods Research》的一篇提前在线文章讨论如何用 Delphi 共识技术完善混合方法研究中的元推断。混合方法研究可整合多元视角与数据来源以应对复杂棘手问题，但整合多方利益相关者的视角仍困难。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-02-17T03:22:27+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "dbcf9f2c41984680",
+      "sourceId": "bit",
+      "sourceName": "Behaviour & Information Technology",
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2633768?af=R",
+      "title": "Evaluating chatbots’ adherence to the integrated model of advice giving: presence and sequential structuring of supportive acts in human-AI interactions",
+      "titleZh": "评估聊天机器人对建议提供整合模型的遵循程度：人机互动中支持性行为的存在与顺序结构",
+      "summaryZh": "研究评估聊天机器人对建议提供整合模型的遵循程度，考察人机互动中支持性行为的存在与顺序结构。研究聚焦聊天机器人在建议提供中如何组织支持性行为。论文刊于 2026 年 10 月第 45 卷第 17 期，页码 4142-4160。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-02-21T10:38:12+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5e1ecbf5379ef926",
+      "sourceId": "bit",
+      "sourceName": "Behaviour & Information Technology",
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2623945?af=R",
+      "title": "Classification, measurement, and antecedents of users’ cyber-incivility on social media",
+      "titleZh": "社交媒体用户网络不文明行为的分类、测量与前因",
+      "summaryZh": "《社交媒体用户网络不文明行为的分类、测量与前因》一文梳理了社交媒体用户网络不文明行为的类型划分、测量方式与前因，刊于期刊 Volume 45 第 17 期（2026 年 10 月），页码 3993-4011。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-02-03T12:24:32+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "26ef0bcc2be574c8",
+      "sourceId": "surveycto",
+      "sourceName": "SurveyCTO",
+      "tier": "T1",
+      "url": "https://www.surveycto.com/press-releases/2025-primary-data-collection-research-grant-winners/",
+      "title": "Come meet the 2025 SurveyCTO Primary Data Collection Research Grant winners",
+      "titleZh": "认识 2025 年 一手数据收集研究资助获得者",
+      "summaryZh": "邀请读者认识 2025 年一手数据收集研究资助获得者，并了解当下塑造研究的创新与方法论",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-02-12T17:09:16+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "de6ed60868510fd1",
       "sourceId": "bit",

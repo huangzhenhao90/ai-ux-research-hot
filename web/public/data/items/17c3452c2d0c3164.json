@@ -1,0 +1,25 @@
+{
+  "id": "17c3452c2d0c3164",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/voc-program-fragmentation-problem/",
+  "title": "What a fragmented VoC program can cost you",
+  "titleZh": "碎片化的 VoC 项目会带来什么代价",
+  "summaryZh": "碎片化的 VoC 项目让支持工单、访谈和问卷分散在 Zendesk、Notion 和电子表格中，各团队只掌握一部分。没人掌握完整图景，这正是这类分散项目要付出的代价。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "洞察库/ResearchOps",
+    "文本分析/VOC"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-06-22T23:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

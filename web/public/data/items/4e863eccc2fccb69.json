@@ -1,0 +1,26 @@
+{
+  "id": "4e863eccc2fccb69",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/transferability-in-qualitative-research/",
+  "title": "Transferability in qualitative research: What it is and how to write about it",
+  "titleZh": "定性研究中的可迁移性（transferability）：是什么以及如何撰写",
+  "summaryZh": "Delve 发文解释定性分析中的可迁移性（transferability）要求什么、如何满足，以及如何撰写相关说明。Delve 定性软件能在撰写结果时整理相关笔记。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-08-11T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

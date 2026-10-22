@@ -1,0 +1,30 @@
+{
+  "id": "16241e12403d1bc3",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/ai-features-in-qda-software/",
+  "title": "AI Features in QDA Software (2026): NVivo, Delve, MAXQDA, ATLAS.ti, Dedoose, Quirkos & Taguette Compared",
+  "titleZh": "QDA 软件 AI 功能对比（2026）：NVivo、、、ATLAS.ti、Dedoose、 与 Taguette",
+  "summaryZh": "一项对比测试考察了 NVivo、、、ATLAS.ti、Dedoose、 与 Taguette 的 AI 功能，并按研究者最关心的维度评估这些 QDA 平台。测试覆盖多款 AI 辅助 QDA 平台，重点比较现有 AI 能力的表现",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "定性分析",
+    "文本分析/VOC",
+    "转写/编码"
+  ],
+  "entities": [
+    "delve",
+    "maxqda",
+    "quirkos"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-09-09T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

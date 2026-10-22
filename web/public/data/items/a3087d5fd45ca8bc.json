@@ -1,0 +1,27 @@
+{
+  "id": "a3087d5fd45ca8bc",
+  "sourceId": "cint",
+  "sourceName": "Cint",
+  "tier": "T1",
+  "url": "https://www.cint.com/blog/mcps-market-research-esomar/",
+  "title": "Research has entered the chat: how MCPs and AI agents are reshaping market insights",
+  "titleZh": "Cint 发文分析 MCP 与 AI 智能体如何重塑市场洞察",
+  "summaryZh": "Cint 发布文章，讨论 MCP 与 AI 智能体正在如何重塑市场洞察的工作方式。文章以行业分析视角展开，未在标题层面给出具体案例或数据。",
+  "reason": null,
+  "category": "tools",
+  "tags": [
+    "观点/讨论",
+    "Agent",
+    "市场研究"
+  ],
+  "entities": [
+    "cint"
+  ],
+  "itemType": "opinion_analysis",
+  "publishedAt": "2026-09-10T21:29:14+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

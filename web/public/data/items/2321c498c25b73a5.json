@@ -1,0 +1,23 @@
+{
+  "id": "2321c498c25b73a5",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/your-research-is-good-so-why-isnt-it-changing-anything/",
+  "title": "Your research is good. So why isn't it changing anything?",
+  "titleZh": "Dovetail：研究做得不错，为何没能改变决策？",
+  "summaryZh": "Dovetail 发文分析优秀研究为何无法推动决策：研究质量好不会自动带来决策改变。文章梳理洞察被忽视的原因，并给出研究者可采取的应对方向。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-06-09T23:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

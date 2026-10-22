@@ -3,8 +3,190 @@
   "name": "Dovetail",
   "group": "company",
   "definition": "Dovetail 的洞察库与研究分析产品更新，以及其对研究流程自动化的做法。",
-  "count": 1,
+  "count": 17,
   "items": [
+    {
+      "id": "a5f46290272974dd",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/suns-out-2026-launch/",
+      "title": "Our Sun’s Out launch: Introducing Digital Twins, agents, Channels 2.0, and new enterprise-grade features",
+      "titleZh": "Dovetail 夏季发布推出 Digital Twins、agents、Channels 2.0 与企业级功能",
+      "summaryZh": "Dovetail 在 Sun's Out 夏季发布中推出 Digital Twins、agents、Channels 2.0 以及新的企业级功能。此次发布还包含 MCP connectors 和企业级治理能力。官方称，这些更新意在缩短客户上下文与业务决策之间的距离。",
+      "reason": "Dovetail 在同一次夏季发布里推出 Digital Twins、agents 与 MCP 连接器，可用来观察洞察库与智能体结合的形态。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "Agent",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-07-14T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "46fe5ae344a21995",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/2025-fall-launch/",
+      "title": "Introducing Dovetail’s Fall 2025 Launch: AI Agents, Dashboards, Docs, integrations, and more",
+      "titleZh": "Dovetail 发布 2025 秋季版本，推出 AI Agents、Dashboards、Docs 与集成等 10 项能力",
+      "summaryZh": "Dovetail 发布 2025 秋季版本，上线 10 项新能力，覆盖 AI Agents、Dashboards、Docs 与集成。官方称这些能力将客户反馈放在产品构建流程的核心，并改变传统线性的 SDLC 工作流。",
+      "reason": "Dovetail 一次上线 10 项能力，覆盖 AI Agents、Dashboards、Docs 与集成，研究员可据此判断反馈分析流程会如何变化。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "Agent",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2025-10-08T15:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "dedfd59baa47acfd",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/",
+      "title": "Introducing Dovetail’s most powerful chat yet",
+      "titleZh": "发布迄今最强的聊天功能更新",
+      "summaryZh": "发布聊天功能上线以来规模最大的一次更新，支持在对话中内嵌富媒体、多上下文提问与网页搜索。此次更新还包括重新设计的交互体验和更广的数据覆盖范围",
+      "reason": "官方列出聊天功能的多项变化，包括富媒体内嵌、多上下文提问与网页搜索，可据此判断访谈与洞察整理的调整空间。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-05-11T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "89c56ba372b9678d",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/dovetail-connector-figma-make/",
+      "title": "Prototype with real customer data using the Dovetail connector for Figma Make",
+      "titleZh": "Dovetail 发布 Figma Make 连接器，可用真实客户数据做原型",
+      "summaryZh": "Dovetail 发布面向 Figma Make 的连接器，用户在做原型时可以直接调用客户洞察数据。官方称使用该连接器无需切换上下文，就能在原型环节利用这些客户情报。",
+      "reason": "官方宣布 Dovetail 与 Figma Make 打通，研究员在原型阶段就能调用客户洞察，省去在不同工具间来回切换。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-02-16T13:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "cde5eb2df8b572a4",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/suns-out-summer-launch-26/",
+      "title": "Dovetail launches major AI-powered platform expansion including Agents and category-defining Digital Twins, to close the gap between customer signal and business outcomes",
+      "titleZh": "Dovetail 发布 AI 平台扩展，推出 Agents 与 Digital Twins",
+      "summaryZh": "Dovetail 宣布 Sun’s Out Summer Launch ’26，涉及 AI Agents、Digital Twins、Channels 2.0、MCP 连接器和 ISO 42001 认证。官方称这次平台扩展的目标是缩小客户信号与业务结果之间的差距。Digital Twins 被描述为具有品类定义意义的数字孪生能力。",
+      "reason": "Dovetail 一次性公布 Agents、Digital Twins、Channels 2.0 与 MCP 连接器，研究员可据此判断洞察平台正往哪些环节延伸。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Agent"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-07-14T12:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a6138ac6efa9ae84",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/",
+      "title": "Introducing Explore: a new way to dive into customer knowledge",
+      "titleZh": "推出 Explore：可视化搜索客户知识的新体验",
+      "summaryZh": "推出 Explore，一种新的可视化搜索体验，帮助团队在工作区中浏览高亮、项目、对话和客户时刻。该功能定位为跨工作区串联客户知识的入口",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-27T01:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "c6c0cb60a6027a70",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/whats-possible-with-claude-x-dovetail/",
+      "title": "What’s possible when Claude’s connected to Dovetail",
+      "titleZh": "Claude 连接 Dovetail 后能做什么？",
+      "summaryZh": "将 Claude 连接到 Dovetail 后，用户可把客户证据带入草稿、决策和简报，同时不打断工作流。Dovetail 以此说明 Claude 与 Dovetail 连接后的使用场景。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-05-19T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "15710eb0367bf6e8",
       "sourceId": "dovetail-blog",
@@ -28,6 +210,238 @@
       "itemType": null,
       "publishedAt": "2026-08-26T12:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fe71c070d9bd33e4",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
+      "title": "Fetch once, use everywhere: rebuilding how Dovetail ingests your data",
+      "titleZh": "重建数据接入：一次抓取，处处可用",
+      "summaryZh": "正在重建数据接入方式：不再让每个 Channel 各自抓取一份数据，而是改为工作区中的一份共享数据源。这份共享源可在需要的位置直接使用，对应“一次抓取，处处可用”",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-06-14T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ba7cb117e7c61fa6",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/new-dovetail-experience/",
+      "title": "Introducing the new Dovetail experience—a simpler way to get around",
+      "titleZh": "推出全新个性化首页体验，并更新侧边栏、文件夹导航与搜索",
+      "summaryZh": "正在推出全新的个性化首页体验，并同步更新侧边栏、文件夹导航和搜索。此次更新聚焦更简单的导航方式",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-31T01:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "002442d71426528e",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/pixel-fing-the-new-chat-library/",
+      "title": "Pixel-f**ing the new chat library",
+      "titleZh": "Dovetail 如何重建新版 Chat：打磨引用、思考状态与视频播放器",
+      "summaryZh": "Dovetail 设计师重建 Chat，重点打磨引用、思考状态和视频播放器等细节。这是一份幕后记录，强调设计师对每个细节的反复打磨。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-06-14T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "38ce9fc155bbeb26",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/power-product-strategy-with-customer-intelligence-pms-guide/",
+      "title": "How to power your product strategy with customer intelligence—a PM’s guide",
+      "titleZh": "Dovetail 客户智能平台如何驱动产品策略：PM 指南",
+      "summaryZh": "Dovetail 发布首个同类客户智能平台，并展示其如何帮助产品经理更快更好地开展工作。PM 指南说明如何用客户智能驱动产品策略。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-10-08T13:04:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "263b215d53519328",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-enterprise-ai-research-platforms/",
+      "title": "Best Enterprise AI Research Platforms Compared 2026",
+      "titleZh": "2026 年最佳企业级 AI 研究平台对比",
+      "summaryZh": "Listen Labs 在 2026 年企业级 AI 研究平台对比中将平台分为五类，并称其平台在客户与消费者研究类别领先。其平台覆盖 50M+ 验证受访者、45+ 国家、120+ 语言，可在 24 小时内产出交付物，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "市场研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "dovetail",
+        "qualtrics",
+        "surveymonkey",
+        "user-interviews"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:24+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e888cf8ac76196e2",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/no-your-team-cant-just-use-chatgpt-for-this/",
+      "title": "No, your team can't just use ChatGPT for this",
+      "titleZh": "不，团队不能只用 ChatGPT：Dovetail 解释客户数据与 AI 技术栈连接",
+      "summaryZh": "Dovetail 解释团队不能只靠 ChatGPT、Claude 和 Cursor：缺少客户数据时，这些工具只是在猜。文章称这正是 Dovetail 要连接团队 AI 技术栈的原因。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-04-23T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0d013b6ec295e9e5",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/how-we-measure-ai-quality-at-dovetail/",
+      "title": "How we measure AI quality at Dovetail",
+      "titleZh": "Dovetail 如何衡量 AI 质量",
+      "summaryZh": "Dovetail 采用与真实用户结果挂钩的清晰指标评估 AI 系统，而非依赖关于准确率或智能的模糊说法。其原则是让 AI 质量可衡量、透明并持续改进。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-20T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8781e582898c4259",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/how-top-brands-collect-customer-intelligence/",
+      "title": "How do top brands collect and apply customer intelligence?",
+      "titleZh": "Itaú、Atlassian 等品牌如何用 Dovetail 收集并应用客户智能？",
+      "summaryZh": "Itaú Unibanco、Atlassian、Petal Health、Breville 和 Canva 使用 Dovetail 客户智能平台处理非结构化数据。它们据此制定产品路线图和策略。",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-18T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "68fb886213131534",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/generating-customer-intelligence-at-scale/",
+      "title": "What’s the best way to generate customer intelligence at scale?",
+      "titleZh": "大规模生成客户情报的最佳方式是什么？Dovetail 分步指南",
+      "summaryZh": "Dovetail 在博文中给出分步指南，讲解如何大规模获取客户情报、预判客户需求，并将情报整合进决策与产品原型。指南以 Dovetail 这类平台为例，说明生成和利用客户情报的流程。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-18T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

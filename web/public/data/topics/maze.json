@@ -3,6 +3,62 @@
   "name": "Maze",
   "group": "company",
   "definition": "Maze 的快速研究平台、AI 功能与研究方法内容。",
-  "count": 0,
-  "items": []
+  "count": 2,
+  "items": [
+    {
+      "id": "04536d291010d65c",
+      "sourceId": "maze-blog",
+      "sourceName": "Maze Blog",
+      "tier": "T1",
+      "url": "https://maze.co/blog/ai-for-market-research/",
+      "title": "More of your market research, now in Maze",
+      "titleZh": "Maze 宣布更多市场研究可在平台内完成",
+      "summaryZh": "Maze 发布博文称，更多市场研究现在可以在 Maze 内完成，指向平台对市场研究场景的进一步覆盖。",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "工具发布",
+        "市场研究",
+        "Maze"
+      ],
+      "entities": [],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-10-08T05:28:33.498000+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fd40c9f209173903",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-user-experience-testing-software/",
+      "title": "The Best User Experience Testing Software in 2026",
+      "titleZh": "Listen Labs 盘点 2026 年最佳用户体验测试软件",
+      "summaryZh": "Listen Labs 2026 年用户体验测试软件指南推荐 AI 主持访谈，对比 Maze 与 UserTesting。AI 主持访谈可并行数百人，依托 50M+ 验证样本、45+ 国家、120+ 语言，24 小时内出结果。MeasuringU 的 838 人非主持研究显示，自报完成率 93%、核实完成率 33%。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "可用性测试",
+        "AI 访谈",
+        "招募/样本",
+        "UserTesting",
+        "Maze"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T05:15:12+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

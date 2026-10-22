@@ -1,7 +1,32 @@
 {
   "month": "2026-04",
-  "count": 5,
+  "count": 9,
   "items": [
+    {
+      "id": "d6a125124ffe7c29",
+      "sourceId": "maxqda",
+      "sourceName": "MAXQDA",
+      "tier": "T1",
+      "url": "https://www.maxqda.com/blogpost/maxqda-ai-assist-for-thematic-analysis",
+      "title": "MAXQDA AI Assist Emerges as a Strong Performer in a Comparative Study of AI Tools for Thematic Analysis",
+      "titleZh": "研究对比四款 AI 主题分析工具，MAXQDA AI Assist 命中 6 个人工主题中的 3 个",
+      "summaryZh": "一项同行评审研究将 ChatGPT-4o、QInsights、ATLAS.ti AI 与 MAXQDA AI Assist 四款工具用于同一批 25 名教师的访谈数据，并以已完成的人工主题分析作为对照。若以 6 个人工主题为基准，MAXQDA AI Assist 有 3 个完全匹配（50%），其余三款各只有 1 个（16.7%）；四款工具都只做到部分吻合，都没有达到人工分析的阐释深度，而人工分析耗时超过 150 小时。研究还根据编码逻辑区分了偏重词频的取向和偏重研究者互动的取向，并说明人工参照是此前完成的既有分析，而非真值基准。",
+      "reason": "研究用同一批访谈数据对比四个 AI 工具与人工主题分析，其中各工具编码逻辑的差异可作为研究者选择工具时的参考。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "定性分析"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-04-13T09:11:15+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "082981791e28e212",
       "sourceId": "quirkos",
@@ -24,6 +49,84 @@
       "itemType": null,
       "publishedAt": "2026-04-22T11:00:59+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2f7fc8af678e63e7",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/should-i-use-nvivo-dissertation/",
+      "title": "Should I use NVivo for my dissertation?",
+      "titleZh": "学位论文定性编码该用 NVivo 吗？",
+      "summaryZh": "学位论文写作者是否该用 NVivo 做定性编码，要看具体使用场景；Delve 被列为更易获取的替代工具。文章围绕 NVivo 擅长什么、何时值得使用，以及何时应改用 Delve 这类工具展开。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-04-28T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e888cf8ac76196e2",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/no-your-team-cant-just-use-chatgpt-for-this/",
+      "title": "No, your team can't just use ChatGPT for this",
+      "titleZh": "不，团队不能只用 ChatGPT：Dovetail 解释客户数据与 AI 技术栈连接",
+      "summaryZh": "Dovetail 解释团队不能只靠 ChatGPT、Claude 和 Cursor：缺少客户数据时，这些工具只是在猜。文章称这正是 Dovetail 要连接团队 AI 技术栈的原因。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-04-23T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "497b2818397b5444",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/top-alternatives-to-nvivo-for-dissertation-students-delvetool/",
+      "title": "Top Alternatives to NVivo for Dissertation Students",
+      "titleZh": "论文学生的 NVivo 替代方案：Delve 更易用",
+      "summaryZh": "面向论文学生的 NVivo 替代方案文章将 Delve 列为更易用选择，并指出 NVivo 的学习曲线和价格对新用户及首次研究者构成障碍。文章称 Delve 受到全球论文学生青睐，定位为 NVivo 的替代工具。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-04-14T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

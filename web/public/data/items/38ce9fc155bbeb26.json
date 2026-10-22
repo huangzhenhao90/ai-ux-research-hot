@@ -1,0 +1,27 @@
+{
+  "id": "38ce9fc155bbeb26",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/power-product-strategy-with-customer-intelligence-pms-guide/",
+  "title": "How to power your product strategy with customer intelligence—a PM’s guide",
+  "titleZh": "Dovetail 客户智能平台如何驱动产品策略：PM 指南",
+  "summaryZh": "Dovetail 发布首个同类客户智能平台，并展示其如何帮助产品经理更快更好地开展工作。PM 指南说明如何用客户智能驱动产品策略。",
+  "reason": null,
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "洞察库/ResearchOps",
+    "Dovetail"
+  ],
+  "entities": [
+    "dovetail"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-10-08T13:04:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

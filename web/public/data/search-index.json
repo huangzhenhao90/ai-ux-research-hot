@@ -1,6 +1,91 @@
 {
-  "count": 322,
+  "count": 468,
   "items": [
+    {
+      "id": "efc712223f56320e",
+      "title": "Streamlined Measurement of the UX of AI",
+      "titleZh": "MeasuringU 从 34 条候选题中精简 AI 用户体验问卷",
+      "summaryZh": "MeasuringU 基于 2026 年 5 月对 ChatGPT、Claude、Gemini、Grok 共 420 名美国样本库受访者的回溯调查，完成 34 条 AI 用户体验候选题的筛选。因子分析显示，除一条同时落在 Trust 与 Productivity 上的题目外，其余 33 条均落在预期构念之上。AI Productivity、AI Trust、AI Dependency、AI Anxiety 等构念各有二至三条题目入选，目标是让每个构念的 coefficient alpha 不低于 0.70。",
+      "tags": [
+        "方法/实践",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "url": "https://measuringu.com/streamlined-measurement-of-the-ux-of-ai/?utm_source=rss&utm_medium=rss&utm_campaign=streamlined-measurement-of-the-ux-of-ai",
+      "publishedAt": "2026-08-18T22:21:12+00:00"
+    },
+    {
+      "id": "a5f46290272974dd",
+      "title": "Our Sun’s Out launch: Introducing Digital Twins, agents, Channels 2.0, and new enterprise-grade features",
+      "titleZh": "Dovetail 夏季发布推出 Digital Twins、agents、Channels 2.0 与企业级功能",
+      "summaryZh": "Dovetail 在 Sun's Out 夏季发布中推出 Digital Twins、agents、Channels 2.0 以及新的企业级功能。此次发布还包含 MCP connectors 和企业级治理能力。官方称，这些更新意在缩短客户上下文与业务决策之间的距离。",
+      "tags": [
+        "工具发布",
+        "Agent",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/suns-out-2026-launch/",
+      "publishedAt": "2026-07-14T16:00:00+00:00"
+    },
+    {
+      "id": "a16bc157b306b9dd",
+      "title": "4 New Evals and 16 Experiment Variants to Fix 1 Customer Complaint",
+      "titleZh": "Vistaly 为 1 个客户反馈做了 4 个新 eval 与 16 个实验变体",
+      "summaryZh": "Teresa Torres 与 Vistaly 为修复一条客户反馈投入 4 个新 eval 与 16 个实验变体，该反馈指 AI 生成的机会解决方案树在一个分支上缺少层级。她先用代码断言的 tree-shape eval 统计父节点的子节点分布，再用 LLM-as-a-Judge 判断是否存在漏掉的子分组。在人工标注的校准集上，judge 的 recall 为 100%，specificity 只有 43.75%，会把没有漏分组的节点判成有。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "Agent"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
+      "publishedAt": "2026-09-16T13:00:36+00:00"
+    },
+    {
+      "id": "791883e6a4cafac0",
+      "title": "Get My Eval Test Harness and Run Your First Experiment",
+      "titleZh": "Product Talk 发布 AI 评估测试框架，附可运行的合成访谈示例",
+      "summaryZh": "Product Talk 作者将自用的 AI 评估测试框架整理进代码仓库，并附一个完整示例，读者可以先跑通示例，再替换成自己的输入、提示词和 eval。示例用 15 份合成访谈记录检验「访谈转故事并判断参与者状态」的流程，更换提示词后编造引语从 12.5% 降到 1.7%，无依据论断从 8.4% 降到 3.2%，状态标签错误降为零。框架分三步：先看输出错误，再按错误类型各配一个可独立添加的 eval 模块，最后跑基线版与变体版对比，工具面向 Supporting Members 和 CDH Members 开放。",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "url": "https://www.producttalk.org/ai-evals-test-harness/",
+      "publishedAt": "2026-09-02T13:05:45+00:00"
+    },
+    {
+      "id": "f00c9ca6c426bf88",
+      "title": "MAXQDA Update 26.2: Smarter Memos, AI Coding, and AI Reports",
+      "titleZh": "MAXQDA 发布 26.2 更新，新增片段级 AI 编码与 AI Reports",
+      "summaryZh": "MAXQDA 发布 26.2（2026 年 3 月）更新，新增片段级 AI 编码与 Beta 版 AI Reports，并改版 Memos 布局。片段级 AI 编码会对选中的文本片段给出编码建议并附理由，需人工批准后应用，AI Assist 免费版一次最多分析 5 个编码，Premium 最多 20 个。AI Reports 按自定问题生成可回溯到原文的报告，免费版最多纳入 2 份文档，Premium 最多 50 份。",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "转写/编码",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "category": "tools",
+      "sourceName": "MAXQDA",
+      "url": "https://www.maxqda.com/blogpost/maxqda-26-2",
+      "publishedAt": "2026-03-05T13:21:19+00:00"
+    },
     {
       "id": "0f6df2ffe2a6818a",
       "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
@@ -21,6 +106,23 @@
       "publishedAt": "2026-10-16T17:00:00+00:00"
     },
     {
+      "id": "d6a125124ffe7c29",
+      "title": "MAXQDA AI Assist Emerges as a Strong Performer in a Comparative Study of AI Tools for Thematic Analysis",
+      "titleZh": "研究对比四款 AI 主题分析工具，MAXQDA AI Assist 命中 6 个人工主题中的 3 个",
+      "summaryZh": "一项同行评审研究将 ChatGPT-4o、QInsights、ATLAS.ti AI 与 MAXQDA AI Assist 四款工具用于同一批 25 名教师的访谈数据，并以已完成的人工主题分析作为对照。若以 6 个人工主题为基准，MAXQDA AI Assist 有 3 个完全匹配（50%），其余三款各只有 1 个（16.7%）；四款工具都只做到部分吻合，都没有达到人工分析的阐释深度，而人工分析耗时超过 150 小时。研究还根据编码逻辑区分了偏重词频的取向和偏重研究者互动的取向，并说明人工参照是此前完成的既有分析，而非真值基准。",
+      "tags": [
+        "论文/研究",
+        "定性分析"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "category": "research",
+      "sourceName": "MAXQDA",
+      "url": "https://www.maxqda.com/blogpost/maxqda-ai-assist-for-thematic-analysis",
+      "publishedAt": "2026-04-13T09:11:15+00:00"
+    },
+    {
       "id": "501b170386db1504",
       "title": "AI doesn’t care about your job title",
       "titleZh": "AI 暴露度不看职位看任务：用 Claude 测算的五步法",
@@ -33,6 +135,24 @@
       "sourceName": "UX Collective",
       "url": "https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4",
       "publishedAt": "2026-10-20T21:29:28+00:00"
+    },
+    {
+      "id": "46fe5ae344a21995",
+      "title": "Introducing Dovetail’s Fall 2025 Launch: AI Agents, Dashboards, Docs, integrations, and more",
+      "titleZh": "Dovetail 发布 2025 秋季版本，推出 AI Agents、Dashboards、Docs 与集成等 10 项能力",
+      "summaryZh": "Dovetail 发布 2025 秋季版本，上线 10 项新能力，覆盖 AI Agents、Dashboards、Docs 与集成。官方称这些能力将客户反馈放在产品构建流程的核心，并改变传统线性的 SDLC 工作流。",
+      "tags": [
+        "工具发布",
+        "Agent",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/2025-fall-launch/",
+      "publishedAt": "2025-10-08T15:00:00+00:00"
     },
     {
       "id": "0b86c760fb29c3f7",
@@ -49,6 +169,42 @@
       "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
       "url": "https://doi.org/10.1016/j.ijhcs.2026.103906",
       "publishedAt": null
+    },
+    {
+      "id": "dedfd59baa47acfd",
+      "title": "Introducing Dovetail’s most powerful chat yet",
+      "titleZh": "发布迄今最强的聊天功能更新",
+      "summaryZh": "发布聊天功能上线以来规模最大的一次更新，支持在对话中内嵌富媒体、多上下文提问与网页搜索。此次更新还包括重新设计的交互体验和更广的数据覆盖范围",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/",
+      "publishedAt": "2026-05-11T14:00:00+00:00"
+    },
+    {
+      "id": "a648e6bd28db420f",
+      "title": "Inspectable LLM-Simulated Participants for Qualitative Interview Rehearsal",
+      "titleZh": "arXiv 论文提出可检查的 LLM 模拟参与者，用于定性访谈演练",
+      "summaryZh": "一篇 arXiv cs.HC 论文提出用于定性访谈演练的可检查 LLM 模拟参与者，标题强调模拟参与者可被检查。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.27333",
+      "publishedAt": "2026-10-21T04:00:00+00:00"
     },
     {
       "id": "05374bec817f75e3",
@@ -70,6 +226,158 @@
       "publishedAt": "2026-10-06T16:00:00+00:00"
     },
     {
+      "id": "1b9962ed79acf9f4",
+      "title": "Collaboration in Delve: Assign, Code, and Align as a Team",
+      "titleZh": "更新团队编码协作，新增 Transcript Dashboard、就地编辑与部分计分的编码者一致性",
+      "summaryZh": "更新团队定性编码协作，新增 Transcript Dashboard 用于分配和跟踪团队工作，编码对比页面支持就地编辑，多编码片段可采用部分计分的编码者一致性计算。三项更新分别对应分工跟踪、编码对齐与一致性核对，面向多人协作处理同一批材料的场景",
+      "tags": [
+        "工具发布",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "tools",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/collaboration-in-delve/",
+      "publishedAt": "2026-07-24T00:00:00+00:00"
+    },
+    {
+      "id": "dcc918dafe31f3ef",
+      "title": "Five Ways to Use Rapport When Moderating",
+      "titleZh": "MeasuringU 总结主持访谈时建立融洽关系的五种方法",
+      "summaryZh": "MeasuringU 撰文总结主持访谈时建立融洽关系的五种方法，涵盖会前准备、刻意破冰、语言与非语言技巧、警惕双向讨好，以及把融洽关系当作最后的甄别步骤。文中建议用中立的小谈降低参与者压力，用有意的停顿留出思考时间，并提醒过度友善会让参与者表演而非真实反应。文章还提到，一些团队（包括作者所在团队）正在低风险、高样本量的口头问卷中试验 AI 主持，但当参与者难以招募时，人类主持人的技巧仍决定访谈收获。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "可用性测试"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "url": "https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&utm_medium=rss&utm_campaign=five-ways-to-use-rapport-when-moderating",
+      "publishedAt": "2026-08-25T21:18:05+00:00"
+    },
+    {
+      "id": "708c179adb3d9ebf",
+      "title": "The Differential Effects of AI Abstention on Advice Acceptance",
+      "titleZh": "AI 弃答对建议接受度的差异化影响",
+      "summaryZh": "论文《The Differential Effects of AI Abstention on Advice Acceptance》考察 AI 弃答如何差异化影响人们对建议的接受度。当前可见信息仅到标题层面，未包含样本、实验设计或结论。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.27258",
+      "publishedAt": "2026-10-21T04:00:00+00:00"
+    },
+    {
+      "id": "125f70d843cae2dc",
+      "title": "The Serendiptionnaire: a Questionnaire for Measuring Experienced Serendipity",
+      "titleZh": "研究提出 Serendiptionnaire 问卷，测量用户体验到的偶遇感",
+      "summaryZh": "研究团队提出 Serendiptionnaire 问卷，用模块化量表测量用户在与内容不期而遇时既新鲜又有收获的体验。该问卷经过三轮共 27 次认知访谈迭代，受访者在年龄、教育程度、出生国和英语水平上各不相同，期间浏览 Instagram、TikTok、YouTube 和 Spotify 上的推荐内容。作者称该量表可为验证以系统为中心的偶遇指标和基于 LLM 的评估提供 ground truth。",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.29487",
+      "publishedAt": "2026-10-22T04:00:00+00:00"
+    },
+    {
+      "id": "fc857a633c94e9de",
+      "title": "The 3 Roles of Context for AI Agents",
+      "titleZh": "解析 AI 智能体的 3 类上下文",
+      "summaryZh": "文章基于对 Claude 重度用户的近期研究，将 AI 智能体的上下文分为全局、局部和环境三类。参与者都建立了由文件、数据库和实时连接组成的上下文库，供 Claude 在提示词之外调用。文章认为，整理合适的上下文比写好提示词更重要",
+      "tags": [
+        "方法/实践",
+        "Agent",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "category": "research",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-09-18T17:00:00+00:00"
+    },
+    {
+      "id": "89c56ba372b9678d",
+      "title": "Prototype with real customer data using the Dovetail connector for Figma Make",
+      "titleZh": "Dovetail 发布 Figma Make 连接器，可用真实客户数据做原型",
+      "summaryZh": "Dovetail 发布面向 Figma Make 的连接器，用户在做原型时可以直接调用客户洞察数据。官方称使用该连接器无需切换上下文，就能在原型环节利用这些客户情报。",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/dovetail-connector-figma-make/",
+      "publishedAt": "2026-02-16T13:00:00+00:00"
+    },
+    {
+      "id": "a3087d5fd45ca8bc",
+      "title": "Research has entered the chat: how MCPs and AI agents are reshaping market insights",
+      "titleZh": "Cint 发文分析 MCP 与 AI 智能体如何重塑市场洞察",
+      "summaryZh": "Cint 发布文章，讨论 MCP 与 AI 智能体正在如何重塑市场洞察的工作方式。文章以行业分析视角展开，未在标题层面给出具体案例或数据。",
+      "tags": [
+        "观点/讨论",
+        "Agent",
+        "市场研究"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "category": "tools",
+      "sourceName": "Cint",
+      "url": "https://www.cint.com/blog/mcps-market-research-esomar/",
+      "publishedAt": "2026-09-10T21:29:14+00:00"
+    },
+    {
+      "id": "cde5eb2df8b572a4",
+      "title": "Dovetail launches major AI-powered platform expansion including Agents and category-defining Digital Twins, to close the gap between customer signal and business outcomes",
+      "titleZh": "Dovetail 发布 AI 平台扩展，推出 Agents 与 Digital Twins",
+      "summaryZh": "Dovetail 宣布 Sun’s Out Summer Launch ’26，涉及 AI Agents、Digital Twins、Channels 2.0、MCP 连接器和 ISO 42001 认证。官方称这次平台扩展的目标是缩小客户信号与业务结果之间的差距。Digital Twins 被描述为具有品类定义意义的数字孪生能力。",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Agent"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/suns-out-summer-launch-26/",
+      "publishedAt": "2026-07-14T12:00:00+00:00"
+    },
+    {
+      "id": "cbd1da1c5b8a4833",
+      "title": "A Stratified Multi-Rater Evaluation of LLM-Based Virtual Standardized Patients with a Deployed Data-Generation Platform",
+      "titleZh": "研究以 17 名医学生评分者分层评估四款 LLM 虚拟标准化病人",
+      "summaryZh": "一项 arXiv 论文用双盲全交叉设计，让 17 名高年级医学生对 GPT-4o、Claude 3.5 Sonnet、Llama-3.1 70B 和 HyperCLOVA X 四款 LLM 虚拟标准化病人在三个韩国 OSCE 病例中的每句话打分，基于 3 个句子级和 6 个会面级 Likert 指标共得到 7,480 个数据点。在会面层面，四款模型中有三款在可理解性、一致性和无幻觉三项上比人类专家参考低 0.08 到 0.47 个 Likert 点，Llama-3.1 70B 则在全部六项指标上显著低于参考。作者同时介绍了一个网页版 OSCE 平台，支持多种临床病例的虚拟练习，并在研究知情与隐私同意下持续收集学生与虚拟标准化病人的对话。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.29312",
+      "publishedAt": "2026-10-22T04:00:00+00:00"
+    },
+    {
       "id": "02f24ca2aa4a8368",
       "title": "Most “digital twins” in research are synthetic users with a better name",
       "titleZh": "研究中的多数「数字孪生」其实就是换了名字的合成用户",
@@ -87,16 +395,220 @@
       "publishedAt": "2026-10-01T16:00:00+00:00"
     },
     {
+      "id": "73643e8efa6ca8ca",
+      "title": "Scaling Therapy Supervision: Assessing Psychotherapy Fidelity Using Large Language Models",
+      "titleZh": "大语言模型评估心理治疗保真度，扩展治疗督导",
+      "summaryZh": "研究者用大语言模型（LLMs）自动评估心理治疗保真度，并从真实长程临床转录生成可操作的督导反馈。研究评估了三个开放权重模型在多种任务分解配置和推理策略下的表现，发现证据优先推理能提升保真度估计。该框架在独立随机对照试验（RCT）中可区分 CBT 与非 CBT 会谈，专家用户研究认为其反馈具有可操作性。",
+      "tags": [
+        "论文/研究",
+        "文本分析/VOC",
+        "转写/编码",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.28772",
+      "publishedAt": "2026-10-22T04:00:00+00:00"
+    },
+    {
+      "id": "95c79eb3ccd1b3a8",
+      "title": "Privacy Preference Controls for Agentic Systems",
+      "titleZh": "面向智能体系统的隐私偏好控制",
+      "summaryZh": "研究者提出面向智能体系统的可执行隐私偏好分类法，并审计了30个领先AI助手与智能体平台。研究还开发8个开源原型，展示分类法的主要部分可结构化接入 Model Control Protocol 与 Agent2Agent 等智能体协议。研究目标是为保障终端用户隐私与自主权在智能体世界中不丢失提供基础。",
+      "tags": [
+        "论文/研究",
+        "伦理/隐私",
+        "Agent"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.29929",
+      "publishedAt": "2026-10-22T04:00:00+00:00"
+    },
+    {
+      "id": "64c8d6b14fcc84d0",
+      "title": "How to Use AI for Thematic Analysis: A Step-by-Step Guide",
+      "titleZh": "如何用 AI 进行主题分析：分步指南",
+      "summaryZh": "分步指南围绕 Braun 和 Clarke 的六步法，拆解 AI 如何辅助主题分析，并指出哪些环节需要研究者保持主导。它逐阶段说明 AI 的支持方式与操作步骤，强调 AI 用于辅助流程，而非替研究者做关键判断。",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/how-to-use-ai-for-thematic-analysis-step-by-step-guide/",
+      "publishedAt": "2026-02-10T00:00:00+00:00"
+    },
+    {
+      "id": "93522d31daf7320e",
+      "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
+      "titleZh": "Scriptorium：多人、多 AI 协作数字图书馆搜索平台的设计与实现",
+      "summaryZh": "Scriptorium 技术报告记录了多人、多 AI 协作数字图书馆搜索平台的设计与实现，采用跨用户全透明搜索和 Manager-Worker 架构的 7 个角色分工生成式 AI 智能体。报告披露完整系统架构、数据模型、AI 编排机制、逐字智能体提示词与确定性护栏，以及语言模型和检索配置、运行步骤。报告还讨论当前局限，并计划用用户研究检验协作透明加受范围约束的多智能体辅助能否促进研究线索间的意外交叉。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "Agent"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.28929",
+      "publishedAt": "2026-10-22T04:00:00+00:00"
+    },
+    {
       "id": "04536d291010d65c",
       "title": "More of your market research, now in Maze",
-      "titleZh": "More of your market research, now in Maze",
-      "summaryZh": "",
-      "tags": [],
+      "titleZh": "Maze 宣布更多市场研究可在平台内完成",
+      "summaryZh": "Maze 发布博文称，更多市场研究现在可以在 Maze 内完成，指向平台对市场研究场景的进一步覆盖。",
+      "tags": [
+        "工具发布",
+        "市场研究",
+        "Maze"
+      ],
       "entities": [],
       "category": null,
       "sourceName": "Maze Blog",
       "url": "https://maze.co/blog/ai-for-market-research/",
       "publishedAt": "2026-10-08T05:28:33.498000+00:00"
+    },
+    {
+      "id": "9cf2210cbf70c129",
+      "title": "Width is the Limit – Response Behavior and Data Quality in a Mobile-First Survey",
+      "titleZh": "宽度即极限：移动优先问卷的作答行为与数据质量",
+      "summaryZh": "International Journal of Market Research 的一篇预出版研究评估了移动优先问卷布局相较传统布局对作答行为与数据质量的影响。研究缘于智能手机网页问卷普及，要求布局适配以保证跨设备、跨调查模式的数据采集一致且高质量。",
+      "tags": [
+        "论文/研究",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "International Journal of Market Research",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/14707853261483760?ai=2b4&mi=ehikzz&af=R",
+      "publishedAt": "2026-08-29T12:22:47+00:00"
+    },
+    {
+      "id": "821d7c7df70ddb3f",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "titleZh": "UX 的“看护时代”：为 AI 生成的设计善后",
+      "summaryZh": "AI 让团队生成内容、原型和可运行功能的速度快过 UX 评估，UX 正进入“看护时代”。UX 的工作从空白页设计转向判断 AI 产出中哪些保留、哪些修改，并为已存在的原型和功能善后。应对方式是建立共享判断、加速评估，并引导 AI 生成的设计。",
+      "tags": [
+        "观点/讨论",
+        "岗位/职业",
+        "方法/实践"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "category": "opinion",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-08-28T17:00:00+00:00"
+    },
+    {
+      "id": "a6138ac6efa9ae84",
+      "title": "Introducing Explore: a new way to dive into customer knowledge",
+      "titleZh": "推出 Explore：可视化搜索客户知识的新体验",
+      "summaryZh": "推出 Explore，一种新的可视化搜索体验，帮助团队在工作区中浏览高亮、项目、对话和客户时刻。该功能定位为跨工作区串联客户知识的入口",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/",
+      "publishedAt": "2026-03-27T01:00:00+00:00"
+    },
+    {
+      "id": "8026d06a005a2105",
+      "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.27148",
+      "publishedAt": "2026-10-21T04:00:00+00:00"
+    },
+    {
+      "id": "95a56e6510dfb364",
+      "title": "Preference Is Not Permission: Personalizing the Auto-Purchase Line in Agentic Commerce",
+      "titleZh": "偏好不是许可：智能体商务中的自动购买边界个性化",
+      "summaryZh": "论文提出把个体“自动购买边界”作为学习任务：智能体应输出不买、先确认或自动购买，而非只判断商品是否适合。对 16 个指令微调模型的测试显示，自主承诺与 15 名标注者的人类授权参考不一致，模型在适配度低或证据标记显示授权缺失时仍会购买。仅用个人 30–40 个标签，浅层学习器对留出自动购买边界的预测中位数为 0.79，且该边界不跨领域迁移。",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.29216",
+      "publishedAt": "2026-10-22T04:00:00+00:00"
+    },
+    {
+      "id": "797430abdaa2cdf8",
+      "title": "Explanatory sequential design: A practical guide",
+      "titleZh": "解释性序列设计：用访谈解释问卷结果的 Delve 实用指南",
+      "summaryZh": "Delve 的《解释性序列设计：实用指南》讲解如何用访谈解释问卷结果。指南还给出真实研究案例，并演示如何在 Delve 中编码后续访谈。",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/explanatory-sequential-research-design-delvetool/",
+      "publishedAt": "2026-08-04T00:00:00+00:00"
+    },
+    {
+      "id": "77abf1d30d076038",
+      "title": "NEW: SurveyCTO brings AI-powered features into the platform to help users build better forms",
+      "titleZh": "SurveyCTO 将 AI 表单工具引入平台，帮助用户构建更好的表单",
+      "summaryZh": "SurveyCTO 将 AI 表单工具引入平台，支持用 AI 编写表达式、审查调查问题并获取更好的数据。该工具面向问卷设计，目标是简化建表体验。",
+      "tags": [
+        "工具发布",
+        "问卷/定量"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "category": "tools",
+      "sourceName": "SurveyCTO",
+      "url": "https://www.surveycto.com/press-releases/ai-form-tools-improve-survey-design/",
+      "publishedAt": "2026-01-12T01:23:34+00:00"
+    },
+    {
+      "id": "0c7d9d6ab48ef951",
+      "title": "Quirkos 3 is released: our best offline qualitative analysis software",
+      "titleZh": "Quirkos 3 发布：不含 AI 功能的完全离线定性分析软件",
+      "summaryZh": "Quirkos 发布完全离线的桌面定性分析软件 Quirkos 3，支持 Windows、Mac 和 Linux，不含任何 AI 功能，数据不与外部共享。新版沿用 Quirkos Web 界面，新增各来源主题使用频次表、编码间相关性等报告与图表，并支持导入 REFI-QDA 标准项目。Quirkos 2 继续获得支持且与新版双向兼容；过去 3 个月购买者可免费升级，其他用户升级费为新许可的 50%，并提供 14 天免费试用。",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "category": "tools",
+      "sourceName": "Quirkos",
+      "url": "https://www.quirkos.com/blog/post/quirkos-3-is-released-best-qualitative-software/",
+      "publishedAt": "2025-01-23T10:27:25+00:00"
     },
     {
       "id": "194a20915ff0389b",
@@ -117,6 +629,40 @@
       "publishedAt": "2026-03-26T15:34:41+00:00"
     },
     {
+      "id": "f4eda7046ba6885e",
+      "title": "Why the future of consumer insights relies on AI-moderated hybrid research",
+      "titleZh": "Cint 谈为何消费者洞察的未来依赖 AI 主持的混合研究",
+      "summaryZh": "Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "category": "opinion",
+      "sourceName": "Cint",
+      "url": "https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/",
+      "publishedAt": "2026-10-20T20:46:56+00:00"
+    },
+    {
+      "id": "5034cd71ab0c9cb2",
+      "title": "Beyond Small Talk: Modeling Disclosure Trajectories in Human-AI Conversation",
+      "titleZh": "超越寒暄：TraDE 为人机对话中的自我披露轨迹建模",
+      "summaryZh": "研究提出基于社会渗透理论的 TraDE，用预设披露轨迹考察先前披露历史如何影响模型对同等深度披露的回应。多个模型与关系行为基准显示，回应随先前轨迹而变，尤其在接受还是质疑用户框架上；差异跟随深度披露的累计暴露，而非单次脆弱或披露顺序，并在转浅后持续数轮。ESConv 中模型与人类支持者最一致的分歧出现在用户收回披露时，而非敞开时。",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.29413",
+      "publishedAt": "2026-10-22T04:00:00+00:00"
+    },
+    {
       "id": "14d8ce91b045fd29",
       "title": "Confirmability in qualitative research: What it means and how to establish it in your research",
       "titleZh": "定性研究中的可确认性：含义与建立方法",
@@ -133,6 +679,178 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/confirmability-in-qualitative-research/",
       "publishedAt": "2026-09-08T00:00:00+00:00"
+    },
+    {
+      "id": "4625077d30fe37ca",
+      "title": "Too Long to Watch, Too Short to Leave: Designing for Agent Micro-Waits",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.27170",
+      "publishedAt": "2026-10-21T04:00:00+00:00"
+    },
+    {
+      "id": "2a35eed0a8746362",
+      "title": "Test Complex Interactions Earlier with AI Prototyping",
+      "titleZh": "用 AI 原型制作更早测试复杂交互",
+      "summaryZh": "AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实产品的可运行原型，从而更早、更频繁测试并据研究迭代。",
+      "tags": [
+        "方法/实践",
+        "可用性测试"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-09-11T17:00:00+00:00"
+    },
+    {
+      "id": "1afcb1a1360dc91a",
+      "title": "Voice of Customer Software Features: What Each One Does",
+      "titleZh": "Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么",
+      "summaryZh": "Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。",
+      "tags": [
+        "方法/实践",
+        "文本分析/VOC",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/voice-of-customer-software-features/",
+      "publishedAt": "2026-10-21T05:03:33+00:00"
+    },
+    {
+      "id": "afef6f29d225306e",
+      "title": "AI Can't Replace Real Research in Empathy Mapping",
+      "titleZh": "AI 无法在同理心地图中替代真实研究",
+      "summaryZh": "AI 无法替代真实研究来制作同理心地图，只能帮助整理已经收集到的研究材料。同理心地图用 Says、Thinks、Does、Feels 四个象限呈现团队对某类用户的已知信息，通常在工作坊中由来自真实研究的便利贴协作搭建。原文指出，AI 工具虽能在几秒内生成整页便利贴，但便利贴由什么材料生成比生成速度更重要。",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "定性分析"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "category": "opinion",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-08-28T17:00:00+00:00"
+    },
+    {
+      "id": "3515d44b343a6e73",
+      "title": "Artificial Intelligence: Glossary",
+      "titleZh": "NN/g AI 术语表：从 token、上下文窗口到智能体、evals 与提示词注入",
+      "summaryZh": "NN/g 整理了一份面向产品与设计工作的 AI 术语表，解释 token、上下文窗口、智能体、evals 和提示词注入等术语。词条按字母排列，可查表、用浏览器查找或顺序阅读，并链接到 NN/g 的深入文章。定义遵循 AI 产品与 UX 工作中的用法，厂商和研究者的用法可能不同。",
+      "tags": [
+        "方法/实践",
+        "非用研/通用"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "category": "methods",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-08-21T17:00:00+00:00"
+    },
+    {
+      "id": "c6c0cb60a6027a70",
+      "title": "What’s possible when Claude’s connected to Dovetail",
+      "titleZh": "Claude 连接 Dovetail 后能做什么？",
+      "summaryZh": "将 Claude 连接到 Dovetail 后，用户可把客户证据带入草稿、决策和简报，同时不打断工作流。Dovetail 以此说明 Claude 与 Dovetail 连接后的使用场景。",
+      "tags": [
+        "其他",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/whats-possible-with-claude-x-dovetail/",
+      "publishedAt": "2026-05-19T23:00:00+00:00"
+    },
+    {
+      "id": "9c9a177035c76800",
+      "title": "How to Build and Apply a Thematic Analysis Codebook Using AI",
+      "titleZh": "如何用 AI 构建并应用主题分析编码本",
+      "summaryZh": "的指南演示如何用 AI 从首个编码到最终主题构建并应用主题分析编码本。指南具体说明在哪些环节、何时以及为何应信任 AI 工具，而不是依赖人工判断",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/how-to-create-apply-thematic-analysis-codebook-using-ai/",
+      "publishedAt": "2026-03-17T00:00:00+00:00"
+    },
+    {
+      "id": "19083b99b4768125",
+      "title": "Do I have too many codes in my qualitative analysis?",
+      "titleZh": "我的定性分析编码是不是太多了？Quirkos 列出警示信号与精简方法",
+      "summaryZh": "Quirkos 列出定性分析中编码过多的几个警示信号：无法区分不同编码、多数编码为开放式且互不连接、检索结果碎片化到无意义、画布显得太小。建议用编码描述建立编码手册、合并近义编码、设置主题性上位编码来精简。Quirkos 中可悬停查看描述、右键合并，报告功能可查看全部描述。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "category": "methods",
+      "sourceName": "Quirkos",
+      "url": "https://www.quirkos.com/blog/post/do-i-have-too-many-codes-in-my-qualitative-analysis/",
+      "publishedAt": "2025-05-09T09:46:24+00:00"
+    },
+    {
+      "id": "a025d1c02bcc90be",
+      "title": "Exploratory sequential design: A practical guide",
+      "titleZh": "探索性序列设计实用指南：将访谈转化为问卷并在 Delve 中编码",
+      "summaryZh": "Delve 的《探索性序列设计实用指南》讲解如何把访谈转化为问卷，并说明定性阶段的编码方法。文中包含一个真实研究示例，并演示如何在 Delve 中完成定性阶段编码。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "问卷/定量",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/exploratory-sequential-research-design-delvetool/",
+      "publishedAt": "2026-08-04T00:00:00+00:00"
+    },
+    {
+      "id": "1661c41b0b8b8638",
+      "title": "HumanCentric-Scenes-AI: A Human-Curated Multimodal Dataset of AI-Generated Human-Centric Scenes Across Surveillance, Occupational Portraits, AI-Edited Images, and Short-Form Video",
+      "titleZh": "HumanCentric-Scenes-AI：涵盖监控、职业肖像、AI 编辑图像与短视频的人工策展 AI 生成人物场景多模态数据集",
+      "summaryZh": "研究团队发布 HumanCentric-Scenes-AI，一个人工策展的 296 个 AI 生成刺激材料数据集，覆盖监控、职业肖像、AI 编辑图像与短视频四类场景。其中监控子集含 85 张 AI 生成 CCTV 风格图像，职业子集含 128 张职业肖像、覆盖 64 种职业且每种职业各有一男一女版本，AI 编辑子集含 27 张局部被生成模型改写或替换的真实照片，视频子集含 56 段 AI 生成短视频。每个刺激材料均附文件、记录在案的生成提示词与逐条元数据，数据集主要用于人类感知研究，也可用于校准 AI 检测分类器与生成模型偏见分析。",
+      "tags": [
+        "论文/研究",
+        "多模态"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.29045",
+      "publishedAt": "2026-10-22T04:00:00+00:00"
     },
     {
       "id": "1190a1bb12c738b9",
@@ -163,6 +881,21 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2720237?af=R",
       "publishedAt": "2026-10-01T05:24:35+00:00"
+    },
+    {
+      "id": "3ee3a9c9fb1d9093",
+      "title": "Delivery Isn’t Free - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "titleZh": "All Things Product 播客：Teresa Torres 与 Petra Wille 谈 AI 并未让交付免费",
+      "summaryZh": "All Things Product 播客中，Teresa Torres 与 Petra Wille 反驳“AI 让交付免费”。AI 只让单个功能开发更便宜，但把编码智能体当“免费”会造成重复代码、数据模型混乱，最后 30% 产品化仍需数月到数年。节目还讨论 AI 产品评测与 Vistaly 机会解决方案树的质量问题。",
+      "tags": [
+        "观点/讨论",
+        "非用研/通用"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "url": "https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "publishedAt": "2026-09-15T13:00:58+00:00"
     },
     {
       "id": "15710eb0367bf6e8",
@@ -201,6 +934,106 @@
       "publishedAt": "2026-10-19T10:12:34+00:00"
     },
     {
+      "id": "f9c6fab30e34f392",
+      "title": "Using AI for UX Work: Study Guide",
+      "titleZh": "用 AI 做 UX 工作：学习指南",
+      "summaryZh": "发布《用 AI 做 UX 工作：学习指南》，汇总其文章和视频，帮助团队找到将 AI 融入 UX 工作流的具体方式。指南指出，AI 目前还不能完全接管 UX 工作，但可用于辅助既有流程；从业者应把 AI 当作增强能力的“手套”，而非替代判断",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "category": "opinion",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-09-04T17:00:00+00:00"
+    },
+    {
+      "id": "fe71c070d9bd33e4",
+      "title": "Fetch once, use everywhere: rebuilding how Dovetail ingests your data",
+      "titleZh": "重建数据接入：一次抓取，处处可用",
+      "summaryZh": "正在重建数据接入方式：不再让每个 Channel 各自抓取一份数据，而是改为工作区中的一份共享数据源。这份共享源可在需要的位置直接使用，对应“一次抓取，处处可用”",
+      "tags": [
+        "功能更新",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
+      "publishedAt": "2026-06-14T23:00:00+00:00"
+    },
+    {
+      "id": "f71af6c2ea04522e",
+      "title": "From AI-Free Gates to AI-First Work: How Engineering Students in India Navigate University Education and Campus Placements Without AI Guidelines",
+      "titleZh": "从禁用 AI 的关卡到 AI 优先的工作：印度工程学生如何在缺乏 AI 指南下应对大学教育与校园招聘",
+      "summaryZh": "一项研究访谈23名印度工程与计算机专业学生及应届毕业生，用反思性主题分析归纳出五个主题，考察他们在无AI指南下从禁用AI的考试和招聘筛选走向AI优先职场的经历。主题涉及AI优先职场、禁用AI的招聘筛选、课程作业中的AI使用、教师权威与执行，以及对就业准备度的担忧；研究基于信号理论讨论AI辅助下成绩和筛选分数能证明什么。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.29140",
+      "publishedAt": "2026-10-22T04:00:00+00:00"
+    },
+    {
+      "id": "845279803dea965c",
+      "title": "Ask the Market: People are already using AI for mental health. Here’s what they actually trust it to do.",
+      "titleZh": "Ask the Market: People are already using AI for mental health. Here’s what they actually trust it to do.",
+      "summaryZh": "",
+      "tags": [
+        "行业报告",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "category": "research",
+      "sourceName": "SurveyMonkey",
+      "url": "https://www.surveymonkey.com/curiosity/ask-the-market-mental-health-ai/?ut_source=rss",
+      "publishedAt": "2026-09-25T09:17:54+00:00"
+    },
+    {
+      "id": "89486753fbea2738",
+      "title": "MAXQDA’s usability awarded for “Excellent Communications Design – Interactive User Experience”",
+      "titleZh": "MAXQDA 获 German Design Award“Excellent Communications Design – Interactive User Experience”奖",
+      "summaryZh": "MAXQDA 获 German Design Award 的交互用户体验类别奖，评审称其界面将清晰、深度和灵活性结合，并整合 AI 功能。团队自 2023 年起重设计界面，目标是在不削弱功能的前提下降低复杂度，改善层级、图标和视觉语言。设计由设计专家与 MAXQDA 领域专家共同推进，并在引入 AI Assist 时转向按研究工作流设计。",
+      "tags": [
+        "行业动态"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "category": "industry",
+      "sourceName": "MAXQDA",
+      "url": "https://www.maxqda.com/blogpost/maxqdas-usability-wins-award",
+      "publishedAt": "2026-02-18T09:07:58+00:00"
+    },
+    {
+      "id": "0fb5cd21ea968d97",
+      "title": "Updates to Quirkos Web and Transcribe - September 2025",
+      "titleZh": "Quirkos Web 与 Transcribe 9 月更新：编码性能优化、转写新增说话人识别",
+      "summaryZh": "Quirkos Web 与 Transcribe 9 月更新：编码数超 100 个 Quirks 时的概览加载与高亮卡顿大幅改善。可选加购的转写服务（50 小时/月、US$12/月）新增说话人识别，1 小时访谈约 5 分钟返回，自动语言识别被移除。PDF 导入新增 OCR，转写提供 100 分钟免费试用；官方仍不打算加入 AI 编码或分析工具。",
+      "tags": [
+        "功能更新",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "category": "tools",
+      "sourceName": "Quirkos",
+      "url": "https://www.quirkos.com/blog/post/updates-to-quirkos-web-and-transcribe-september-2025/",
+      "publishedAt": "2025-09-03T14:53:53+00:00"
+    },
+    {
       "id": "74a3cc21f1da0ec3",
       "title": "How Deichmann Found the Right Fit for Brand Health Tracking",
       "titleZh": "Deichmann 如何用 quantilope 重构品牌健康追踪",
@@ -216,6 +1049,22 @@
       "sourceName": "quantilope",
       "url": "https://www.quantilope.com/resources/how-deichmann-found-the-right-fit-for-brand-health-tracking",
       "publishedAt": "2026-10-21T16:21:55+00:00"
+    },
+    {
+      "id": "76f2e62fdfcda0b7",
+      "title": "CanvasObs: Structured Spatial Observation for Agent Editing on 2D Infinite Canvases",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.27176",
+      "publishedAt": "2026-10-21T04:00:00+00:00"
     },
     {
       "id": "06bbc6c9902e25bb",
@@ -236,6 +1085,117 @@
       "publishedAt": "2026-10-20T21:30:52+00:00"
     },
     {
+      "id": "66bedcdc83b6e13d",
+      "title": "Kantar Brand Tracking Methodology: MDS & Metrics Explained",
+      "titleZh": "Kantar 品牌追踪方法论：MDS 框架与指标解析",
+      "summaryZh": "Kantar 用 MDS 框架与 Three Signals 整合四类数据做品牌追踪，衡量品牌健康。MDS 含七项指标，BrandZ 数据显示 Meaningful 与 Different 合计解释 94% 的 Pricing Power。Listen Labs 的对话式追踪实时解释 KPI 变动。",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "行为数据",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-methodology/",
+      "publishedAt": "2026-10-20T05:15:36+00:00"
+    },
+    {
+      "id": "246a6f44e479e79a",
+      "title": "Retail Concept Testing: Methods, Steps & Questions",
+      "titleZh": "零售概念测试：方法、步骤与问题",
+      "summaryZh": "Listen Labs 的零售概念测试覆盖产品概念、包装与货架吸引力、价格感知和自有品牌竞争四类，并给出 5 步流程。其 AI 主持访谈依托 50M+ 受访者网络，覆盖 45+ 国家和 120+ 语言，称 24 小时内交付分析结果，成本约为传统研究的三分之一。示例用 200 名已验证零食品类买家，对比 $2.99 与 $3.79 两个价格点。",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/concept-testing-retail-products/",
+      "publishedAt": "2026-10-20T05:15:18+00:00"
+    },
+    {
+      "id": "78722a787bd09eb1",
+      "title": "AXA Future Risks Report 2025",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "research",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/axa-future-risks-report-2025",
+      "publishedAt": "2026-10-14T09:10:05+00:00"
+    },
+    {
+      "id": "0f26d800f5d1c33a",
+      "title": "Designing AI Products and Features: Study Guide",
+      "titleZh": "（）：设计 AI 产品与功能学习指南",
+      "summaryZh": "（）汇总了设计 AI 产品与功能的学习指南，围绕是否值得引入 AI 以及如何设计 AI 功能给出研究建议。指南强调，给网站加 AI 聊天机器人并不必然创造价值，需用审慎的方法先判断 AI 能否带来实际差异。它同时提醒既不要盲目乐观，也要在 AI 未产生价值时明确指出",
+      "tags": [
+        "方法/实践",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "category": "methods",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/designing-ai-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-09-18T17:00:00+00:00"
+    },
+    {
+      "id": "e900a178e8c5b0f1",
+      "title": "AdGate Media is Now Part of Prodege",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "融资/并购",
+        "市场研究"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "category": "industry",
+      "sourceName": "Prodege",
+      "url": "https://www.prodege.com/resources/press-release/monetization/adgatemedia/",
+      "publishedAt": "2026-09-08T19:02:13+00:00"
+    },
+    {
+      "id": "04f60951feacbffd",
+      "title": "Can You Use ChatGPT for Thematic Analysis?",
+      "titleZh": "ChatGPT 能用于主题分析吗？",
+      "summaryZh": "ChatGPT 在主题分析中的“dump and done”式用法存在局限，但 ChatGPT 和 Delve 的 AI 助手仍能帮助节省时间。内容围绕二者在质性分析与主题分析中的实际提效方式展开，并说明这些用法边界。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/chatgpt-for-thematic-analysis-alternatives/",
+      "publishedAt": "2026-02-10T00:00:00+00:00"
+    },
+    {
       "id": "13c2b225a0577e37",
       "title": "MAXQDA 24.6 update",
       "titleZh": "MAXQDA 24.6 更新：新增 Light 2 主题与 AI Assist「Summarize Paraphrases」功能",
@@ -254,6 +1214,597 @@
       "publishedAt": "2024-10-22T14:00:58+00:00"
     },
     {
+      "id": "9c0dcc371b7c9a38",
+      "title": "5 typische Herausforderungen bei der UXR-Analyse und wie man sie bewältigt",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "洞察库/ResearchOps",
+        "研究伦理"
+      ],
+      "entities": [
+        "testingtime"
+      ],
+      "category": "methods",
+      "sourceName": "TestingTime",
+      "url": "https://www.testingtime.com/blog/5-typische-herausforderungen-bei-der-uxr-analyse-und-wie-man-sie-bewaeltigt/",
+      "publishedAt": "2023-10-03T11:00:54+00:00"
+    },
+    {
+      "id": "130350f8feb0fa44",
+      "title": "Transformative Mixed Methods Design-Based Research: Toward Developing Disciplinary Literacy Intervention for Students With Learning Differences",
+      "titleZh": "变革性混合方法设计本位研究：为学习差异学生开发学科素养干预",
+      "summaryZh": "一项变革性混合方法设计本位研究论证，DBR 干预研究本质上采用混合方法收集、分析和解释数据，目标是开发学习差异学生的学科素养干预。该文发表于 Journal of Mixed Methods Research 的 Ahead of Print。",
+      "tags": [
+        "论文/研究",
+        "非用研/通用",
+        "方法/实践"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Journal of Mixed Methods Research",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261422330?ai=2b4&mi=ehikzz&af=R",
+      "publishedAt": "2026-02-14T10:43:31+00:00"
+    },
+    {
+      "id": "5b330bc56de8bdcb",
+      "title": "Reimagining Inquiry: A Transformative Integration of Mixed Methods Action Research and Qualitatively Driven Designs in Disability Research Contexts",
+      "titleZh": "重构探究：Mertens 变革范式下残障研究情境中混合方法行动研究与质性驱动设计的变革性整合",
+      "summaryZh": "一篇理论文章在 Mertens 变革范式下，将质性驱动的混合方法研究与混合方法行动研究整合到残障研究情境，以推进参与式和面向正义的混合方法研究。该整合聚焦残障研究情境，强调参与式与正义导向的探究设计。",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Journal of Mixed Methods Research",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898251398262?ai=2b4&mi=ehikzz&af=R",
+      "publishedAt": "2025-11-26T05:49:55+00:00"
+    },
+    {
+      "id": "30dc752a132f8d67",
+      "title": "\"It Wouldn't Have Been So Apparent to Me\": Evaluating How Thought-Level Progress Tracking Supports Psychosocial Goals",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.27238",
+      "publishedAt": "2026-10-21T04:00:00+00:00"
+    },
+    {
+      "id": "8719f3a37f50c586",
+      "title": "Medical professionals, protect your data with HIPAA-compliant SurveyCTO",
+      "titleZh": "SurveyCTO 数据收集平台正式符合 HIPAA 合规要求",
+      "summaryZh": "SurveyCTO 的数据收集平台现已正式符合 HIPAA 合规要求，医疗专业人员可借助这一合规平台保护自身数据。",
+      "tags": [
+        "功能更新",
+        "研究伦理"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "category": "tools",
+      "sourceName": "SurveyCTO",
+      "url": "https://www.surveycto.com/press-releases/hipaa-compliance/",
+      "publishedAt": "2026-03-03T20:43:47+00:00"
+    },
+    {
+      "id": "993dab508828e82d",
+      "title": "Ipsos launches its new creative assessment solution – Creative|Spark on Ipsos.Digital Platform in more countries",
+      "titleZh": "Ipsos 在 Ipsos.Digital 平台面向更多国家推出 Creative|Spark 视频创意评估方案",
+      "summaryZh": "Ipsos 在 Ipsos.Digital 平台面向更多国家推出 Creative|Spark，用于在线评估视频创意。该方案目前已在 16 个国家上线。",
+      "tags": [
+        "工具发布",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "tools",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-launches-its-new-creative-assessment-solution-creativespark-ipsosdigital-platform",
+      "publishedAt": "2026-10-08T13:12:29+00:00"
+    },
+    {
+      "id": "bae2f8c5de41e75f",
+      "title": "Toward a Conceptualization and Measurement of Responsible Co-Creation in NPD",
+      "titleZh": "International Journal of Market Research：新产品开发中负责任共创的概念化与测量",
+      "summaryZh": "一项发表于 International Journal of Market Research 的研究对新产品开发（NPD）中的“负责任共创”完成了概念化并做了实证验证。研究背景是企业日益重视伦理与社会责任创新，正重新审视通过协作创造价值的方式；该文以在线先发（Ahead of Print）形式刊出。",
+      "tags": [
+        "论文/研究",
+        "市场研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "International Journal of Market Research",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/14707853261487479?ai=2b4&mi=ehikzz&af=R",
+      "publishedAt": "2026-09-23T04:56:40+00:00"
+    },
+    {
+      "id": "34be804820688e3b",
+      "title": "Designing value-based roles and behavioural elements for digital humans in human-centred responsible interaction: focusing on Schwartz's theory of human values",
+      "titleZh": "面向以人为中心的负责任交互：数字人价值型角色与行为要素设计——基于 Schwartz 人类价值观理论",
+      "summaryZh": "论文以 Schwartz 人类价值观理论为框架，设计数字人在以人为中心的负责任交互中的价值型角色与行为要素。文章刊于 Volume 45, Issue 17，页 4105-4141。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Behaviour & Information Technology",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2630372?af=R",
+      "publishedAt": "2026-02-17T07:50:21+00:00"
+    },
+    {
+      "id": "16241e12403d1bc3",
+      "title": "AI Features in QDA Software (2026): NVivo, Delve, MAXQDA, ATLAS.ti, Dedoose, Quirkos & Taguette Compared",
+      "titleZh": "QDA 软件 AI 功能对比（2026）：NVivo、、、ATLAS.ti、Dedoose、 与 Taguette",
+      "summaryZh": "一项对比测试考察了 NVivo、、、ATLAS.ti、Dedoose、 与 Taguette 的 AI 功能，并按研究者最关心的维度评估这些 QDA 平台。测试覆盖多款 AI 辅助 QDA 平台，重点比较现有 AI 能力的表现",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "文本分析/VOC",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve",
+        "maxqda",
+        "quirkos"
+      ],
+      "category": "opinion",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/ai-features-in-qda-software/",
+      "publishedAt": "2025-09-09T00:00:00+00:00"
+    },
+    {
+      "id": "93c88061e60a139e",
+      "title": "Credibility in qualitative research: What it means and how to establish it with readers",
+      "titleZh": "Delve：定性研究中的可信度是什么，以及如何向读者建立可信度",
+      "summaryZh": "Delve 对定性研究中的可信度作出解释：研究结论是否与参与者的现实相符，并列出六种向读者建立可信度的方法。文章还进一步说明 Delve 如何让证据与数据保留在一起。",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/credibility-in-qualitative-research/",
+      "publishedAt": "2026-09-08T00:00:00+00:00"
+    },
+    {
+      "id": "d0312334ee3ab04f",
+      "title": "What is dependability in qualitative research?",
+      "titleZh": "定性研究中的可靠性（dependability）是什么：Delve 如何保留审计轨迹",
+      "summaryZh": "Delve 的指南指出，定性研究中的可靠性（dependability）指研究过程一致且可追溯，并可通过审计轨迹证明。指南还讲解如何建立可靠性，以及在 Delve 中保留审计轨迹。",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/what-is-dependability-in-qualitative-research/",
+      "publishedAt": "2026-08-18T00:00:00+00:00"
+    },
+    {
+      "id": "78cc1108413d28d6",
+      "title": "The Ultimate Guide to Qualitative Coding Software",
+      "titleZh": "Delve、NVivo、MAXQDA、ATLAS.ti 等定性编码软件对比指南",
+      "summaryZh": "一份定性编码软件指南对比了 Delve、NVivo、MAXQDA、ATLAS.ti、Quirkos、Dedoose 和 Taguette。比较维度包括学习曲线、AI 辅助编码与协作功能。",
+      "tags": [
+        "其他",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve",
+        "maxqda",
+        "quirkos"
+      ],
+      "category": null,
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/ultimate-guide-comparing-qualitative-coding-software/",
+      "publishedAt": "2025-12-16T00:00:00+00:00"
+    },
+    {
+      "id": "ba7cb117e7c61fa6",
+      "title": "Introducing the new Dovetail experience—a simpler way to get around",
+      "titleZh": "推出全新个性化首页体验，并更新侧边栏、文件夹导航与搜索",
+      "summaryZh": "正在推出全新的个性化首页体验，并同步更新侧边栏、文件夹导航和搜索。此次更新聚焦更简单的导航方式",
+      "tags": [
+        "功能更新",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/new-dovetail-experience/",
+      "publishedAt": "2026-03-31T01:00:00+00:00"
+    },
+    {
+      "id": "6ddbda8fa559856b",
+      "title": "What Is an AI Interviewer? A Plain-Language Guide",
+      "titleZh": "什么是 AI Interviewer？一份通俗指南",
+      "summaryZh": "Listen Labs 的指南解释 AI Interviewer 是能通过语音、视频或文本自动访谈、动态追问并分析回答的软件，覆盖招聘与客户研究。面向客户研究，Listen Labs 结合 50M+ 验证参与者网络、AI 主持动态追问和自动分析，称可在不到 24 小时交付结果。招聘侧，Fabric 分析 19,000 场访谈显示 AI 筛选与人类评分一致率 60–90%，电话式对话筛选完成率可超 95%，视频格式为 40–60%。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "非用研/通用"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/what-is-ai-interviewer/",
+      "publishedAt": "2026-10-20T05:15:06+00:00"
+    },
+    {
+      "id": "f1b4d765faec550a",
+      "title": "How to Write Survey Questions That Reduce Bias and Improve Accuracy",
+      "titleZh": "如何撰写减少偏差、提高准确性的调查问题",
+      "summaryZh": "讲解如何通过问题措辞与结构设计减少调查偏差、提高数据准确性。调查偏差指数据收集中的系统性误差，会导致结果不准确或偏斜。当问题的撰写、结构或呈现方式影响受访者理解时，就可能引入偏差",
+      "tags": [
+        "方法/实践",
+        "问卷/定量"
+      ],
+      "entities": [
+        "dynata"
+      ],
+      "category": "methods",
+      "sourceName": "Dynata",
+      "url": "https://www.dynata.com/why-dynata/resources/blog/how-to-write-survey-questions/",
+      "publishedAt": "2026-07-09T16:21:19+00:00"
+    },
+    {
+      "id": "6a904c74c3ee127f",
+      "title": "Ignite Growth with Collective Innovation",
+      "titleZh": "Ipsos 推出 Collective Innovation，帮助企业加速创新并提升成功率",
+      "summaryZh": "Ipsos 宣布推出端到端创新服务 Collective Innovation，旨在帮助企业加速创新开发并提高成功率。该服务以更高成功率为目标，覆盖企业创新开发流程，助力创新增长。",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ignite-growth-collective-innovation",
+      "publishedAt": "2026-10-09T08:55:06+00:00"
+    },
+    {
+      "id": "cd41d3ac932c1608",
+      "title": "Making Robots Relatable: The Role of Self-Efficacy in AI Adoption",
+      "titleZh": "让 AI 服务机器人更具亲和力：自我效能感在 AI 采用中的作用",
+      "summaryZh": "一项基于 380 名美国样本的研究考察 AI 服务机器人的拟人化感知如何影响消费者采用选择，并检验技术依恋的中介作用与机器人使用自我效能感的调节作用。研究发表于 International Journal of Market Research，目前为 Ahead of Print。",
+      "tags": [
+        "论文/研究",
+        "市场研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "International Journal of Market Research",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/14707853261483762?ai=2b4&mi=ehikzz&af=R",
+      "publishedAt": "2026-08-24T07:29:35+00:00"
+    },
+    {
+      "id": "f07a3ce3428031ae",
+      "title": "AAPOR 2026 Conference Blog: Thursday",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "行业动态",
+        "问卷/定量"
+      ],
+      "entities": [
+        "aapor"
+      ],
+      "category": "industry",
+      "sourceName": "AAPOR（美国民意研究协会）",
+      "url": "https://aapor.org/newsletters/aapor-2026-conference-blog-thursday/",
+      "publishedAt": "2026-05-15T13:12:47+00:00"
+    },
+    {
+      "id": "fbd16ac748e78412",
+      "title": "Using Signal Configurations for Market Research Forecasting in Film Industry",
+      "titleZh": "利用信号配置进行电影行业市场研究预测",
+      "summaryZh": "International Journal of Market Research 的在线先发研究聚焦电影行业市场研究预测，运用复杂性和信号理论分析影响票房表现的因素。研究将演员、导演等明星因素归为内部信号，将评分、推荐等口碑及营销归为外部信号。",
+      "tags": [
+        "论文/研究",
+        "市场研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "International Journal of Market Research",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/14707853261496024?ai=2b4&mi=ehikzz&af=R",
+      "publishedAt": "2026-10-12T01:46:33+00:00"
+    },
+    {
+      "id": "a9875bdb3d08142c",
+      "title": "Introducing the Mopinion Survey Marketplace",
+      "titleZh": "Mopinion 推出 Survey Marketplace",
+      "summaryZh": "Mopinion 推出 Survey Marketplace，提供 8 个调查模板类别和近 30 个模板示例。每个调查附有收益列表，帮助用户了解创建和使用在线调查所需的要素。",
+      "tags": [
+        "工具发布",
+        "问卷/定量"
+      ],
+      "entities": [
+        "mopinion"
+      ],
+      "category": "tools",
+      "sourceName": "Mopinion",
+      "url": "https://mopinion.com/introducing-the-mopinion-survey-marketplace/",
+      "publishedAt": "2026-09-17T07:18:50+00:00"
+    },
+    {
+      "id": "13025dcd769ddcfa",
+      "title": "Qualitatively Driven Mixed Methods Research in the Caribbean Context: Beyond Western Paradigms",
+      "titleZh": "加勒比语境下定性驱动的混合方法研究：超越西方范式",
+      "summaryZh": "加勒比语境下的定性驱动混合方法研究需要超越西方范式，以当地多元文化、身份与实践理解“认知”和“存在”的情境性。这种多样性植根于共同殖民历史。",
+      "tags": [
+        "论文/研究",
+        "定性分析"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Journal of Mixed Methods Research",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261423078?ai=2b4&mi=ehikzz&af=R",
+      "publishedAt": "2026-02-12T09:40:49+00:00"
+    },
+    {
+      "id": "57734a6f9347ee4d",
+      "title": "Want to understand users better? Start by reading Body Talk",
+      "titleZh": "新书《Body Talk》：读懂手势、姿态与注视，更深入理解用户",
+      "summaryZh": "Dane DeSutter 与 Stephanie Scopelitis 合著的《Body Talk》提出，手势、身体姿态和注视能揭示用户没说出口的另一半信息。书中给出 Three Bodies 框架，教研究者观察、分析并应用手势，覆盖基础研究、协同构思、设计验证到技术沟通的产品全流程。作者称这些做法无需新工具或预算，且是 AI 无法替代的研究技能。",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Rosenfeld Media",
+      "url": "https://rosenfeldmedia.com/want-to-understand-users-better-start-by-reading-body-talk/",
+      "publishedAt": "2026-10-21T16:36:47+00:00"
+    },
+    {
+      "id": "e02e35c49c208ae3",
+      "title": "Customer Research Methods For Startups: A How-To Playbook",
+      "titleZh": "Listen Labs：初创公司客户研究方法操作手册",
+      "summaryZh": "Listen Labs 梳理初创公司客户研究方法，按创意、预发布、发布后三阶段给出组合建议。创意阶段建议 5–10 次客户发现访谈，预发布阶段用 20–30 次 AI 主持访谈加落地页测试。其平台称拥有 50M+ 验证样本库，可单日访谈最多 1,000 名客户并在 24 小时内交付分析，成本约为传统研究的三分之一。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-market-research-methods-startups/",
+      "publishedAt": "2026-10-21T05:03:39+00:00"
+    },
+    {
+      "id": "002442d71426528e",
+      "title": "Pixel-f**ing the new chat library",
+      "titleZh": "Dovetail 如何重建新版 Chat：打磨引用、思考状态与视频播放器",
+      "summaryZh": "Dovetail 设计师重建 Chat，重点打磨引用、思考状态和视频播放器等细节。这是一份幕后记录，强调设计师对每个细节的反复打磨。",
+      "tags": [
+        "功能更新",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/pixel-fing-the-new-chat-library/",
+      "publishedAt": "2026-06-14T23:00:00+00:00"
+    },
+    {
+      "id": "1a56160c7ca864c4",
+      "title": "ARAM: a threshold model for understanding occupant acceptance of architectural robot adaptations",
+      "titleZh": "ARAM：理解居住者对建筑机器人适应性改造接受度的阈值模型",
+      "summaryZh": "跨学科专家团队基于三项机器人隔断研究的质性再分析，提出建筑机器人接受度模型 ARAM。模型沿感知压力严重程度连续体设三个定性阈值，划分四种接受反应，并能估计居住者在个人需求、改造能力与社会正当性不同评估状态下的回应。研究还发现，当居住者认为机器人能以社会可辩护的方式满足个人需求时，更可能接受调整。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Frontiers in Computer Science",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1896307",
+      "publishedAt": "2026-10-02T00:00:00+00:00"
+    },
+    {
+      "id": "36d3f8bbcb45babc",
+      "title": "AI Prompts for Qualitative Research: How to Get More from Delve's AI Features",
+      "titleZh": "Delve AI 功能提示词指南：如何写好定性研究提示词",
+      "summaryZh": "Delve 的定性研究 AI 提示词指南说明如何用好其 AI 功能，覆盖编码头脑风暴、总结和优化分析。内容提供针对这些环节的实用提示词写法。",
+      "tags": [
+        "提示词/模板",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/ai-prompts-for-qualitative-research/",
+      "publishedAt": "2026-06-30T00:00:00+00:00"
+    },
+    {
+      "id": "3330395388f74152",
+      "title": "When codes are themes, and themes are codes: uncertainty in qualitative analysis",
+      "titleZh": "Quirkos：编码何时成为主题，主题又如何成为编码？定性分析中的不确定性",
+      "summaryZh": "Quirkos 发文讨论定性分析中编码与主题的界限为何不确定，并借真实编码数据说明主题需经反复阅读与反思形成。文章以 Qualitative Researcher Journeys 项目为例，称 Vulnerabilities 从访谈摘要概览中出现后被视为贯穿性主题。文中还演示用 Quirkos Groups 给主题加标签、用 Properties 将来源分集。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "category": "methods",
+      "sourceName": "Quirkos",
+      "url": "https://www.quirkos.com/blog/post/qualitative-codes-themes-names-uncertainty/",
+      "publishedAt": "2025-02-25T11:29:07+00:00"
+    },
+    {
+      "id": "41065320cd5e6a93",
+      "title": "Comparing the Best Software for Thematic Analysis",
+      "titleZh": "最佳主题分析软件对比：NVivo、ATLAS.ti、MAXQDA、Quirkos、Taguette、Dedoose 与 Delve 的编码、主题构建和工作流",
+      "summaryZh": "NVivo、ATLAS.ti、MAXQDA、Quirkos、Taguette、Dedoose 与 Delve 七款主题分析软件被集中对比，考察编码、主题构建和工作流。对比聚焦各工具在这些环节的具体处理方式。",
+      "tags": [
+        "其他",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "maxqda",
+        "quirkos",
+        "delve"
+      ],
+      "category": "tools",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/comparing-best-software-for-thematic-analysis/",
+      "publishedAt": "2025-12-09T00:00:00+00:00"
+    },
+    {
+      "id": "bc1ebf8aeab3bf85",
+      "title": "The role of research in an age of AI and political polarization",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "category": "opinion",
+      "sourceName": "Cint",
+      "url": "https://www.cint.com/blog/the-role-of-research-in-an-age-of-ai-and-political-polarization/",
+      "publishedAt": "2026-09-18T18:24:11+00:00"
+    },
+    {
+      "id": "2321c498c25b73a5",
+      "title": "Your research is good. So why isn't it changing anything?",
+      "titleZh": "Dovetail：研究做得不错，为何没能改变决策？",
+      "summaryZh": "Dovetail 发文分析优秀研究为何无法推动决策：研究质量好不会自动带来决策改变。文章梳理洞察被忽视的原因，并给出研究者可采取的应对方向。",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/your-research-is-good-so-why-isnt-it-changing-anything/",
+      "publishedAt": "2026-06-09T23:00:00+00:00"
+    },
+    {
+      "id": "009e65b81334a246",
+      "title": "AAPOR 2026 Conference Blog: Wednesday",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "aapor"
+      ],
+      "category": "industry",
+      "sourceName": "AAPOR（美国民意研究协会）",
+      "url": "https://aapor.org/newsletters/aapor-2026-conference-blog-wednesday/",
+      "publishedAt": "2026-05-14T13:28:18+00:00"
+    },
+    {
+      "id": "38ce9fc155bbeb26",
+      "title": "How to power your product strategy with customer intelligence—a PM’s guide",
+      "titleZh": "Dovetail 客户智能平台如何驱动产品策略：PM 指南",
+      "summaryZh": "Dovetail 发布首个同类客户智能平台，并展示其如何帮助产品经理更快更好地开展工作。PM 指南说明如何用客户智能驱动产品策略。",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/power-product-strategy-with-customer-intelligence-pms-guide/",
+      "publishedAt": "2025-10-08T13:04:00+00:00"
+    },
+    {
+      "id": "f2d5dd7747b11cfe",
+      "title": "From Acceptance and Avoidance to Affective Viscosity: Designing Social Agents Intermediating in Human Relationships",
+      "titleZh": "从接受到回避再到情感黏性：设计介入人际关系的社交智能体",
+      "summaryZh": "arXiv 论文 2610.29674v1 将社交智能体研究中的接受与回避同情感黏性模型相连，认为回避标示人机边界，而非交互失败。情感黏性刻画负面情绪如何随时间累积、持续、被抑制与表达，可用于设计按关系与互动历史维持或表达负面状态的智能体。文中讨论三方嫉妒、不适抑制、耐心时机与时空黏性等案例，主张介入应可追溯、有限、可质疑、可修复。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "Agent"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.29674",
+      "publishedAt": "2026-10-22T04:00:00+00:00"
+    },
+    {
+      "id": "0279db60e064c843",
+      "title": "What if AI sets us free?",
+      "titleZh": "如果 AI 让我们自由？",
+      "summaryZh": "AI 向善不是偶然，而是设计者决定产品服务谁、奖励什么、拒绝做什么，并把人类留在决策环中的结果。MASAI 试验中约 106,000 名女性参与，AI 辅助组多检出 29% 癌症；Be My AI 则能为盲人描述菜单和药品标签。作者认为 AI 的伤害潜力与向善潜力同样巨大，选择权仍在人手里。",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/what-if-ai-sets-us-free-084f4310709b?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-10-19T11:12:29+00:00"
+    },
+    {
+      "id": "4409ceae0729c220",
+      "title": "Rethinking wellness:  From product category to cultural belief system",
+      "titleZh": "重新思考 wellness：从产品品类到文化信仰体系",
+      "summaryZh": "Colin Strong 与 Lucy Neiland 在 Ipsos Voices 文章中探讨如何将 wellness 从产品品类重新理解为文化信仰体系。文章分析 wellness 如何日益塑造人们对健康、专业权威、信任和个人责任的态度。",
+      "tags": [
+        "观点/讨论",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "opinion",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/rethinking-wellness-product-category-cultural-belief-system",
+      "publishedAt": "2026-10-09T09:00:00+00:00"
+    },
+    {
       "id": "14723a45c3a19dbb",
       "title": "A First Look at Sprig’s Analyze Agent",
       "titleZh": "A First Look at Sprig’s Analyze Agent",
@@ -264,6 +1815,256 @@
       "sourceName": "Sprig Blog",
       "url": "https://sprig.com/blog/analyze-agent-first-look",
       "publishedAt": "2026-10-07T16:00:00+00:00"
+    },
+    {
+      "id": "c6b82ae064a0537a",
+      "title": "Using a Delphi Consensus Technique to Refine Meta-Inference in Mixed Methods Research",
+      "titleZh": "用 Delphi 共识技术完善混合方法研究中的元推断",
+      "summaryZh": "《Journal of Mixed Methods Research》的一篇提前在线文章讨论如何用 Delphi 共识技术完善混合方法研究中的元推断。混合方法研究可整合多元视角与数据来源以应对复杂棘手问题，但整合多方利益相关者的视角仍困难。",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Journal of Mixed Methods Research",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261427560?ai=2b4&mi=ehikzz&af=R",
+      "publishedAt": "2026-02-17T03:22:27+00:00"
+    },
+    {
+      "id": "ccabb469bfb5e1dd",
+      "title": "Which QDA Software Support Actually Helps When You Need It?",
+      "titleZh": "七款 QDA 软件的客户与软件支持对比：哪款在需要时真正有帮助？",
+      "summaryZh": "七款顶级 QDA（定性数据分析）软件的对比，重点看哪款在需要时能提供最有帮助的客户与软件支持。对比目标是判断这些支持是否真正有用。",
+      "tags": [
+        "其他",
+        "定性分析"
+      ],
+      "entities": [],
+      "category": null,
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/best-qda-software-support-qualitative-research/",
+      "publishedAt": "2025-08-28T00:00:00+00:00"
+    },
+    {
+      "id": "08e58d19623b331e",
+      "title": "The Best QDA Software for Teaching Qualitative Research",
+      "titleZh": "定性研究教学的最佳 QDA 软件指南",
+      "summaryZh": "面向定性研究教学，这份 QDA 软件指南以学生第一周即可上手为筛选重点。它比较各工具的设置时间、访问方式、工作流和真实课堂体验。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/compare-best-software-teach-qualitative-analysis/",
+      "publishedAt": "2025-12-09T00:00:00+00:00"
+    },
+    {
+      "id": "2422378ea48b1eec",
+      "title": "Queer theory and qualitative methods: an unlikely marriage?",
+      "titleZh": "酷儿理论与定性研究：一场不太可能的结合？",
+      "summaryZh": "Quirkos 最新博文由酷儿理论研究者撰写，讨论酷儿理论如何应用于定性研究，并区分酷儿理论与 LGBTQ+ 研究。文章梳理酷儿立场与反身性、抽样与数据收集、创意研究方法、参与式研究、酷儿自我民族志及研究伦理等路径，并讨论相关批评。作者强调不存在唯一正确的应用方式，而是呈现其主观视角下可用的研究路径。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "研究伦理"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Quirkos",
+      "url": "https://www.quirkos.com/blog/post/queer-theory-and-qualitative-methods-an-unlikely-marriage/",
+      "publishedAt": "2025-07-16T16:36:00+00:00"
+    },
+    {
+      "id": "f2094553e5f9ba08",
+      "title": "Customer Insights Platform Scalability: Practitioner’s Guide",
+      "titleZh": "Listen Labs 客户洞察平台可扩展性实践指南",
+      "summaryZh": "Listen Labs 在《客户洞察平台可扩展性实践指南》中提出六维框架，称其平台可将研究周期压缩到不到 24 小时，并覆盖 50M+ 验证受访者。六个维度包括数据量、受访者覆盖、周期时间、质量控制、单研究成本和跨研究知识，Listen Atlas 覆盖 45+ 国家和 120+ 语言。Quality Guard 实时监控访谈，平台成本约为传统研究的三分之一。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-scalability-guide/",
+      "publishedAt": "2026-10-21T05:02:59+00:00"
+    },
+    {
+      "id": "fee9b56b425faf8e",
+      "title": "Trustworthiness in qualitative research: What it means and how to show it",
+      "titleZh": "定性研究中的可信度：含义、展示方式与 Delve 的编码决策记录",
+      "summaryZh": "Delve 会在编码过程中持续记录编码决策，使定性研究的可信度有据可查。内容同时说明定性研究中可信度的含义与展示方式。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/trustworthiness-in-qualitative-research/",
+      "publishedAt": "2026-07-14T00:00:00+00:00"
+    },
+    {
+      "id": "dbcf9f2c41984680",
+      "title": "Evaluating chatbots’ adherence to the integrated model of advice giving: presence and sequential structuring of supportive acts in human-AI interactions",
+      "titleZh": "评估聊天机器人对建议提供整合模型的遵循程度：人机互动中支持性行为的存在与顺序结构",
+      "summaryZh": "研究评估聊天机器人对建议提供整合模型的遵循程度，考察人机互动中支持性行为的存在与顺序结构。研究聚焦聊天机器人在建议提供中如何组织支持性行为。论文刊于 2026 年 10 月第 45 卷第 17 期，页码 4142-4160。",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Behaviour & Information Technology",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2633768?af=R",
+      "publishedAt": "2026-02-21T10:38:12+00:00"
+    },
+    {
+      "id": "5e1ecbf5379ef926",
+      "title": "Classification, measurement, and antecedents of users’ cyber-incivility on social media",
+      "titleZh": "社交媒体用户网络不文明行为的分类、测量与前因",
+      "summaryZh": "《社交媒体用户网络不文明行为的分类、测量与前因》一文梳理了社交媒体用户网络不文明行为的类型划分、测量方式与前因，刊于期刊 Volume 45 第 17 期（2026 年 10 月），页码 3993-4011。",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Behaviour & Information Technology",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2623945?af=R",
+      "publishedAt": "2026-02-03T12:24:32+00:00"
+    },
+    {
+      "id": "c79ea5e8b5c6c363",
+      "title": "Qualitative Survey Analysis: A Practical Guide",
+      "titleZh": "定性问卷分析实用指南：Delve 如何简化定性编码流程",
+      "summaryZh": "Delve 的《定性问卷分析实用指南》梳理现代问卷分析方法，并说明其问卷分析软件如何让定性编码流程更易管理。该指南面向定性问卷分析实践，介绍软件辅助的编码管理思路。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "问卷/定量",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/qualitative-survey-analysis-guide/",
+      "publishedAt": "2025-09-10T00:00:00+00:00"
+    },
+    {
+      "id": "8d7070845f234ba8",
+      "title": "How to cite Quirkos materials",
+      "titleZh": "如何引用 Quirkos 材料：软件、课程、播客与数据集的 APA 格式指南",
+      "summaryZh": "Quirkos 给出材料引用指南，覆盖软件、网页与博客、在线课程、YouTube、网络研讨会、播客及示例数据集。软件按 APA 写作 Quirkos 2.5.3（2023）；课程 Doing Qualitative Research、数据集 'qual' 等也列出引用写法。文中提醒同一文档内引用格式需保持一致。",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "category": "methods",
+      "sourceName": "Quirkos",
+      "url": "https://www.quirkos.com/blog/post/how-to-cite-quirkos-materials/",
+      "publishedAt": "2025-01-07T13:37:33+00:00"
+    },
+    {
+      "id": "ce322cd5b0fcbef8",
+      "title": "Technology Acceptance Model in video-sharing platforms: comparisons between TikTok and YouTube",
+      "titleZh": "视频分享平台中的技术接受模型（TAM）：TikTok 与 YouTube 对比",
+      "summaryZh": "一项针对 351 名大学年龄段 TikTok 与 YouTube 用户的在线问卷调查及结构方程模型分析显示，技术接受模型（TAM）对 TikTok 实际使用的预测效度显著高于 YouTube。感知易用性和感知有用性直接预测两平台使用，平台态度是关键结构前因。t 检验还显示，TikTok 的感知易用性与实际使用得分更高，YouTube 的感知有用性与整体态度得分更高。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Frontiers in Computer Science",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1883472",
+      "publishedAt": "2026-10-02T00:00:00+00:00"
+    },
+    {
+      "id": "ce1704e792e52d8b",
+      "title": "AI follow-up questions: Get clearer feedback without longer forms",
+      "titleZh": "Mopinion：用 AI 追问获取更清晰反馈，不拉长表单",
+      "summaryZh": "Mopinion 提出用 AI 追问澄清“页面令人困惑”“结账不可用”等模糊回答，帮助团队判断发生了什么、下一步修什么。目标是在不增加表单长度的情况下获得更清晰的反馈。",
+      "tags": [
+        "工具发布",
+        "问卷/定量"
+      ],
+      "entities": [
+        "mopinion"
+      ],
+      "category": "tools",
+      "sourceName": "Mopinion",
+      "url": "https://mopinion.com/ai-follow-up-questions/",
+      "publishedAt": "2026-09-14T09:37:31+00:00"
+    },
+    {
+      "id": "6803e0d57cc35267",
+      "title": "Manual Coding vs. Qualitative Coding Software: When to Make the Switch",
+      "titleZh": "手动编码 vs. 定性编码软件：何时切换到 Delve",
+      "summaryZh": "Delve 梳理定性研究从手动方法到定性编码软件的常见做法，并讨论何时应从手动编码切换到这类软件。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/manual-coding-vs-qualitative-coding-software/",
+      "publishedAt": "2026-03-31T00:00:00+00:00"
+    },
+    {
+      "id": "f97ec532514eb8de",
+      "title": "We Surveyed 50,674 Americans. This Is What Brings Them Together.",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "category": "industry",
+      "sourceName": "Prodege",
+      "url": "https://www.prodege.com/resources/news/insights/sports-brings-people-together/",
+      "publishedAt": "2026-10-21T15:03:39+00:00"
+    },
+    {
+      "id": "69b9caaa02c589f0",
+      "title": "How Gen Z Celebrates 21st Birthdays: New Data Beyond the Bar Crawl",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "行业报告",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "category": "research",
+      "sourceName": "Prodege",
+      "url": "https://www.prodege.com/resources/blog/insights/gen-z-21st-birthday-trends-data/",
+      "publishedAt": "2026-09-09T20:53:08+00:00"
     },
     {
       "id": "221137465a08966c",
@@ -281,6 +2082,76 @@
       "sourceName": "UserTesting Blog",
       "url": "https://www.usertesting.com/blog/why-research-teams-need-influence-more-budget",
       "publishedAt": "2026-06-16T18:17:28+00:00"
+    },
+    {
+      "id": "8033e996f94b47f5",
+      "title": "Best Software for Grounded Theory: NVivo, ATLAS.ti, MAXQDA, Delve Compared",
+      "titleZh": "扎根理论最佳软件对比：NVivo、ATLAS.ti、 与",
+      "summaryZh": "对 NVivo、ATLAS.ti、 与 进行扎根理论软件对比测试，逐款检验哪款工具最能处理扎根理论来回往复的分析工作。测试对象为定性数据分析软件，重点比较各工具在这一往复过程中的表现",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve",
+        "maxqda"
+      ],
+      "category": "opinion",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/compare-best-software-grounded-theory-delvetool/",
+      "publishedAt": "2026-05-19T00:00:00+00:00"
+    },
+    {
+      "id": "26ef0bcc2be574c8",
+      "title": "Come meet the 2025 SurveyCTO Primary Data Collection Research Grant winners",
+      "titleZh": "认识 2025 年 一手数据收集研究资助获得者",
+      "summaryZh": "邀请读者认识 2025 年一手数据收集研究资助获得者，并了解当下塑造研究的创新与方法论",
+      "tags": [
+        "行业动态"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "category": "industry",
+      "sourceName": "SurveyCTO",
+      "url": "https://www.surveycto.com/press-releases/2025-primary-data-collection-research-grant-winners/",
+      "publishedAt": "2026-02-12T17:09:16+00:00"
+    },
+    {
+      "id": "a41c6313b03a53b0",
+      "title": "Power, Benefits, and Visibility in Qualitatively Driven Mixed Methods Research",
+      "titleZh": "定性驱动的混合方法研究中的权力、收益与可见性",
+      "summaryZh": "《Journal of Mixed Methods Research》刊文指出，权力、收益与可见性对理解定性驱动的混合方法研究的过去、现在与未来至关重要。文章从权力维度展开，考察定量与定性方法过去所扮演的角色。",
+      "tags": [
+        "论文/研究",
+        "定性分析"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Journal of Mixed Methods Research",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898251396763?ai=2b4&mi=ehikzz&af=R",
+      "publishedAt": "2025-11-06T10:39:34+00:00"
+    },
+    {
+      "id": "ae8db14e0640ada2",
+      "title": "Market Research Software Comparison: How To Choose in 2026",
+      "titleZh": "Listen Labs 市场研究软件对比指南：2026 年如何选择六类工具",
+      "summaryZh": "Listen Labs 的市场研究软件对比指南把工具分为六类，并给出按研究目标选型的五步框架。其平台自述覆盖 AI 主持访谈全流程，依托 50M+ 验证受访者、45+ 国家与 120+ 语言，24 小时内交付结果。Microsoft 将研究等待时间从数周缩短到数小时，Anthropic 用原先 5-6 项研究的时间完成 100 项。",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-market-research-software-comparison/",
+      "publishedAt": "2026-10-21T05:03:05+00:00"
     },
     {
       "id": "02019ad8dc034702",
@@ -302,6 +2173,38 @@
       "publishedAt": "2026-08-27T13:47:47+00:00"
     },
     {
+      "id": "e1a9b2b0aa0c3d9c",
+      "title": "Reliability and validity in qualitative research: What they mean and their qualitative equivalents",
+      "titleZh": "Delve 解释定性研究中的信度、效度及其定性对应概念",
+      "summaryZh": "Delve 发文解释定性研究中的信度与效度分别指什么，以及它们在定性研究中的对应概念。文章围绕这两个概念展开说明，并指出 Delve 这类定性工具可帮助研究者把研究记录过程做得更透明、有条理、可追溯。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/reliability-validity-in-qualitative-research/",
+      "publishedAt": "2026-07-28T00:00:00+00:00"
+    },
+    {
+      "id": "014c6129877f5f93",
+      "title": "Engineers, you're not the first to panic about democratization",
+      "titleZh": "Dovetail：面对 AI 让研究民主化，工程师不是第一批恐慌的人，UX 研究者早已历过",
+      "summaryZh": "Dovetail 博客把工程师对 AI 让研究民主化产生的恐慌，类比为 UX 研究者数年前经历过的同类危机，认为后者的经验可让工程师少走弯路。它面向工程师回顾 UX 研究者当时学到的教训，提醒他们不必重复同样的恐慌。",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/engineers-youre-not-the-first-to-panic-about-democratization/",
+      "publishedAt": "2026-06-14T23:00:00+00:00"
+    },
+    {
       "id": "082981791e28e212",
       "title": "Now published: our new textbook on qualitative analysis and research",
       "titleZh": "Quirkos 出版定性研究新教材《Making Qualitative Research Happen》",
@@ -320,6 +2223,374 @@
       "publishedAt": "2026-04-22T11:00:59+00:00"
     },
     {
+      "id": "39cfbee29b546093",
+      "title": "Das Engagement von WordPress für barrierefreies Design",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "TestingTime",
+      "url": "https://www.testingtime.com/blog/wordpress-fuer-barrierefreies-design/",
+      "publishedAt": "2023-10-10T09:59:17+00:00"
+    },
+    {
+      "id": "f144b3e6b840f08d",
+      "title": "Communicating and combating algorithmic bias: effects of data diversity, labeler diversity, performance bias, and user feedback on AI trust",
+      "titleZh": "传达与对抗算法偏见：数据多样性、标注者多样性、性能偏见与用户反馈对 AI 信任的影响",
+      "summaryZh": "一项研究考察数据多样性、标注者多样性、性能偏见与用户反馈如何影响用户对 AI 的信任，并讨论算法偏见的传达与对抗。原文未提供样本量、效应量或实验设计等具体结果。",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Human-Computer Interaction",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2024.2392494?af=R",
+      "publishedAt": "2024-10-04T05:36:52+00:00"
+    },
+    {
+      "id": "263b215d53519328",
+      "title": "Best Enterprise AI Research Platforms Compared 2026",
+      "titleZh": "2026 年最佳企业级 AI 研究平台对比",
+      "summaryZh": "Listen Labs 在 2026 年企业级 AI 研究平台对比中将平台分为五类，并称其平台在客户与消费者研究类别领先。其平台覆盖 50M+ 验证受访者、45+ 国家、120+ 语言，可在 24 小时内产出交付物，成本约为传统研究的三分之一。",
+      "tags": [
+        "行业报告",
+        "市场研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "dovetail",
+        "qualtrics",
+        "surveymonkey",
+        "user-interviews"
+      ],
+      "category": "industry",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-enterprise-ai-research-platforms/",
+      "publishedAt": "2026-10-21T05:03:24+00:00"
+    },
+    {
+      "id": "06fb58fa9d8ccb92",
+      "title": "On the ground at HubSpot UNBOUND: The new rules of market research in an AI world",
+      "titleZh": "On the ground at HubSpot UNBOUND: The new rules of market research in an AI world",
+      "summaryZh": "",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [],
+      "category": "industry",
+      "sourceName": "SurveyMonkey",
+      "url": "https://www.surveymonkey.com/curiosity/hubspot-unbound-market-research-engine/?ut_source=rss",
+      "publishedAt": "2026-09-22T15:59:08+00:00"
+    },
+    {
+      "id": "260854bd75cc158d",
+      "title": "How To Confidently Bring Advanced Research In-House",
+      "titleZh": "quantilope：如何把高级研究自信地引入企业内部",
+      "summaryZh": "quantilope 的 Consumer Intelligence Platform 把从研究设计、高级方法分析到可分享产出的流程自动化，帮助企业将高级研究引入内部。平台覆盖 MaxDiff、Choice-based Conjoint、TURF analysis、Segmentation 与隐式联想测试等自动化高级方法。配套的 AI Research Partner quinn 可代建问卷并检索历史洞察，全部洞察可用一个实时链接在组织内共享。",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "category": "methods",
+      "sourceName": "quantilope",
+      "url": "https://www.quantilope.com/resources/how-to-confidently-bring-advanced-research-in-house",
+      "publishedAt": "2026-08-20T19:53:22+00:00"
+    },
+    {
+      "id": "2f7fc8af678e63e7",
+      "title": "Should I use NVivo for my dissertation?",
+      "titleZh": "学位论文定性编码该用 NVivo 吗？",
+      "summaryZh": "学位论文写作者是否该用 NVivo 做定性编码，要看具体使用场景；Delve 被列为更易获取的替代工具。文章围绕 NVivo 擅长什么、何时值得使用，以及何时应改用 Delve 这类工具展开。",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "opinion",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/should-i-use-nvivo-dissertation/",
+      "publishedAt": "2026-04-28T00:00:00+00:00"
+    },
+    {
+      "id": "fd40c9f209173903",
+      "title": "The Best User Experience Testing Software in 2026",
+      "titleZh": "Listen Labs 盘点 2026 年最佳用户体验测试软件",
+      "summaryZh": "Listen Labs 2026 年用户体验测试软件指南推荐 AI 主持访谈，对比 Maze 与 UserTesting。AI 主持访谈可并行数百人，依托 50M+ 验证样本、45+ 国家、120+ 语言，24 小时内出结果。MeasuringU 的 838 人非主持研究显示，自报完成率 93%、核实完成率 33%。",
+      "tags": [
+        "观点/讨论",
+        "可用性测试",
+        "AI 访谈",
+        "招募/样本",
+        "UserTesting",
+        "Maze"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-user-experience-testing-software/",
+      "publishedAt": "2026-10-20T05:15:12+00:00"
+    },
+    {
+      "id": "4e863eccc2fccb69",
+      "title": "Transferability in qualitative research: What it is and how to write about it",
+      "titleZh": "定性研究中的可迁移性（transferability）：是什么以及如何撰写",
+      "summaryZh": "Delve 发文解释定性分析中的可迁移性（transferability）要求什么、如何满足，以及如何撰写相关说明。Delve 定性软件能在撰写结果时整理相关笔记。",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/transferability-in-qualitative-research/",
+      "publishedAt": "2026-08-11T00:00:00+00:00"
+    },
+    {
+      "id": "17c3452c2d0c3164",
+      "title": "What a fragmented VoC program can cost you",
+      "titleZh": "碎片化的 VoC 项目会带来什么代价",
+      "summaryZh": "碎片化的 VoC 项目让支持工单、访谈和问卷分散在 Zendesk、Notion 和电子表格中，各团队只掌握一部分。没人掌握完整图景，这正是这类分散项目要付出的代价。",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/voc-program-fragmentation-problem/",
+      "publishedAt": "2026-06-22T23:00:00+00:00"
+    },
+    {
+      "id": "5d47dcece1f01c20",
+      "title": "Ipsos Health Service Report 2026",
+      "titleZh": "Ipsos 健康服务报告 2026",
+      "summaryZh": "Ipsos 自 2018 年起持续追踪公众对医疗体系质量的评价、最受关注的健康议题以及最突出的公共卫生问题。2026 年健康服务报告即围绕这三类议题展开。",
+      "tags": [
+        "行业报告",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "research",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-health-service-report-2026",
+      "publishedAt": "2026-10-08T09:52:41+00:00"
+    },
+    {
+      "id": "9aa1edfed8e08f1c",
+      "title": "How a Multi-Billion Dollar Brand Stays Hands-On With Advanced Method Research",
+      "titleZh": "LIXIL 如何借助 quantilope 自主开展高级方法研究",
+      "summaryZh": "quantilope 案例显示，LIXIL 洞察团队在其研究顾问指导下自主编程复杂调研，转向 DIY 洞察模式。该团队最常用 MaxDiff，并借 Sequential A/B Test 为网站房间设计项目定名 Roomcreate，该名称已上线 American Standard 站点。凭平台速度与效率，团队成为内部与外部供应商的快速答疑资源。",
+      "tags": [
+        "案例",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "category": "cases",
+      "sourceName": "quantilope",
+      "url": "https://www.quantilope.com/resources/how-a-multi-billion-dollar-brand-stays-hands-on-with-advanced-method-research",
+      "publishedAt": "2026-08-10T19:47:15+00:00"
+    },
+    {
+      "id": "af8a0dd787108be4",
+      "title": "Net Promoter Score (NPS): What It Measures, What It Misses, and Why It Still Matters",
+      "titleZh": "Net Promoter Score（NPS）：衡量什么、遗漏什么，以及为何仍然重要",
+      "summaryZh": "NPS 以单一问题和简单公式衡量客户忠诚度，并给出组织各部门都能追踪的分数。自 2000 年代初推出以来，它已成为跨行业的标准指标。早期创业公司与全球企业都在使用，吸引力正来自这一个问题和可追踪的分数。",
+      "tags": [
+        "观点/讨论",
+        "问卷/定量"
+      ],
+      "entities": [
+        "dynata"
+      ],
+      "category": "opinion",
+      "sourceName": "Dynata",
+      "url": "https://www.dynata.com/why-dynata/resources/blog/net-promoter-score/",
+      "publishedAt": "2026-07-09T16:51:21+00:00"
+    },
+    {
+      "id": "e888cf8ac76196e2",
+      "title": "No, your team can't just use ChatGPT for this",
+      "titleZh": "不，团队不能只用 ChatGPT：Dovetail 解释客户数据与 AI 技术栈连接",
+      "summaryZh": "Dovetail 解释团队不能只靠 ChatGPT、Claude 和 Cursor：缺少客户数据时，这些工具只是在猜。文章称这正是 Dovetail 要连接团队 AI 技术栈的原因。",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "opinion",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/no-your-team-cant-just-use-chatgpt-for-this/",
+      "publishedAt": "2026-04-23T14:00:00+00:00"
+    },
+    {
+      "id": "0d013b6ec295e9e5",
+      "title": "How we measure AI quality at Dovetail",
+      "titleZh": "Dovetail 如何衡量 AI 质量",
+      "summaryZh": "Dovetail 采用与真实用户结果挂钩的清晰指标评估 AI 系统，而非依赖关于准确率或智能的模糊说法。其原则是让 AI 质量可衡量、透明并持续改进。",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "methods",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/how-we-measure-ai-quality-at-dovetail/",
+      "publishedAt": "2026-03-20T00:00:00+00:00"
+    },
+    {
+      "id": "a8de32d096765588",
+      "title": "Q is for qualitative and how (not) to draw too small a boundary around qualitative research in HCI",
+      "titleZh": "Q 代表定性：HCI 中如何（不）把定性研究的边界画得太小",
+      "summaryZh": "HCI 中的定性研究不应被过窄的边界限制，标题以“Q 代表定性”点明这一议题，并讨论如何避免把定性研究的范围画得过小。",
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "category": null,
+      "sourceName": "Human-Computer Interaction",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2596752?af=R",
+      "publishedAt": "2025-12-11T07:43:15+00:00"
+    },
+    {
+      "id": "a7e6f824dc1eb06d",
+      "title": "Marxism, critical theory and working class studies: economics and power in qualitative research",
+      "titleZh": "马克思主义、批判理论与工人阶级研究：定性研究中的经济与权力",
+      "summaryZh": "Quirkos 的定性研究方法文章梳理马克思主义理论中的阶级、资本主义剥削与异化概念，并回顾马克思在《资本论》未完成卷中对劳动者、资本家与财产所有者三类人的划分。文章还讨论阶级边界与阶级文化的主观性，以及收入低、就业灵活且保障有限的“precariat”等当代阶级议题。",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Quirkos",
+      "url": "https://www.quirkos.com/blog/post/marxism-and-critical-theory-in-qualitative-research/",
+      "publishedAt": "2025-06-10T17:33:58+00:00"
+    },
+    {
+      "id": "4db27387afcbd039",
+      "title": "Factors affecting customer adoption of AI digital agents in service operations: an assessment of relative importance",
+      "titleZh": "服务运营中客户采用 AI 数字智能体的影响因素：相对重要性评估",
+      "summaryZh": "一项研究评估服务运营中客户采用 AI 数字智能体的影响因素及各因素的相对重要性；现有材料仅给出研究主题，未披露样本量、具体因素或结果数据。",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Behaviour & Information Technology",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2025.2490672?af=R",
+      "publishedAt": "2025-04-09T03:32:18+00:00"
+    },
+    {
+      "id": "0eeb3603c75c20e8",
+      "title": "Interdependence and trust analysis (ITA): a framework for human–machine team design",
+      "titleZh": "ITA（Interdependence and trust analysis）：人机团队设计框架",
+      "summaryZh": "Interdependence and trust analysis（ITA）框架用于人机团队设计，核心是分析人机团队中的相互依赖与信任。正文未提供方法细节或数据指标。",
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "category": null,
+      "sourceName": "Behaviour & Information Technology",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2024.2431631?af=R",
+      "publishedAt": "2024-11-26T07:20:20+00:00"
+    },
+    {
+      "id": "0ba3bb39360603f5",
+      "title": "The Architectural Design Principles Behind Enterprise AI That Delivers Value",
+      "titleZh": "Medallia 阐述企业 AI 交付价值的四项架构原则",
+      "summaryZh": "Medallia 阐述企业 AI 交付价值的四项架构原则：可信数据、平台级治理、持续演进和共享业务上下文。其平台已处理超过 41 亿条反馈信号，并将上下文理解提升五倍。Medallia 持有 ISO/IEC 42001 认证，Insights Assistant 的每次响应都可回溯至来源材料。",
+      "tags": [
+        "观点/讨论",
+        "Agent",
+        "Medallia"
+      ],
+      "entities": [
+        "medallia"
+      ],
+      "category": "opinion",
+      "sourceName": "Medallia",
+      "url": "https://www.medallia.com/blog/design-principles-behind-enterprise-ai/",
+      "publishedAt": "2026-08-04T13:50:40+00:00"
+    },
+    {
+      "id": "8781e582898c4259",
+      "title": "How do top brands collect and apply customer intelligence?",
+      "titleZh": "Itaú、Atlassian 等品牌如何用 Dovetail 收集并应用客户智能？",
+      "summaryZh": "Itaú Unibanco、Atlassian、Petal Health、Breville 和 Canva 使用 Dovetail 客户智能平台处理非结构化数据。它们据此制定产品路线图和策略。",
+      "tags": [
+        "其他"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/how-top-brands-collect-customer-intelligence/",
+      "publishedAt": "2025-12-18T14:00:00+00:00"
+    },
+    {
+      "id": "aa77c0afb1124398",
+      "title": "The Reflection Penalty: when managers accept leadership coaching from a human but not an AI agent",
+      "titleZh": "反思惩罚：管理者接受人类领导力教练，却不接受 AI 智能体",
+      "summaryZh": "《The Reflection Penalty》聚焦管理者接受人类领导力教练、却不接受 AI 智能体的现象。原文未给出样本量、研究工具或效应量，暂无法判断该现象的强度与适用边界。",
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Human-Computer Interaction",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2744236?af=R",
+      "publishedAt": "2026-10-15T07:13:22+00:00"
+    },
+    {
+      "id": "d69a0193cd65c7be",
+      "title": "[LINKEDIN LIVE] CX Global Insights 2026",
+      "titleZh": "LinkedIn Live：CX Global Insights 2026 揭示 CX 趋势与机会",
+      "summaryZh": "的 LinkedIn Live 活动 CX Global Insights 2026 将揭示提升客户体验的趋势与机会，由专家参与分享",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/linkedin-live-cx-global-insights-2026",
+      "publishedAt": "2026-10-07T10:26:20+00:00"
+    },
+    {
       "id": "1c4309d5feb918a1",
       "title": "Special Issue of International Journal of Market Research: ‘Market Research & Insight: Past, Present and Future’",
       "titleZh": "International Journal of Market Research 专刊征稿：市场研究与洞察的过去、现在与未来",
@@ -332,6 +2603,142 @@
       "sourceName": "International Journal of Market Research",
       "url": "https://journals.sagepub.com/doi/abs/10.1177/1470785320941417?ai=2b4&mi=ehikzz&af=R",
       "publishedAt": "2020-07-02T10:29:38+00:00"
+    },
+    {
+      "id": "8a2f08b20c89290b",
+      "title": "It was(n’t) me: vignette experiments on managers’ responsibility attribution in AI-advised decision-making",
+      "titleZh": "是我（不是我）：管理者在 AI 建议决策中的责任归因情境实验",
+      "summaryZh": "论文《It was(n’t) me》以 vignette 实验考察管理者在 AI 建议决策中的责任归因。原文未提供样本量、效应量或实验结论。",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Behaviour & Information Technology",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2024.2431050?af=R",
+      "publishedAt": "2024-11-26T01:29:00+00:00"
+    },
+    {
+      "id": "726d72e23234b3f2",
+      "title": "Feeling the pressure: Understanding consumers during inflationary times",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/inflation/feeling-pressure-understanding-consumers-during-inflationary-times",
+      "publishedAt": "2026-10-21T15:19:13+00:00"
+    },
+    {
+      "id": "9a745ac3c6a3873d",
+      "title": "A commentary on Crabtree’s “H is for human and how (not) to evaluate qualitative research in HCI”",
+      "titleZh": "对 Crabtree《H is for human and how (not) to evaluate qualitative research in HCI》的评论",
+      "summaryZh": "这篇评论针对 Crabtree 的《H is for human and how (not) to evaluate qualitative research in HCI》，讨论 HCI 领域定性研究应当如何评估、以及哪些做法不宜用于评估。原文正文未提供更多细节，没有可引用的样本量、指标或实证数据。",
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Human-Computer Interaction",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2612474?af=R",
+      "publishedAt": "2026-01-24T11:40:22+00:00"
+    },
+    {
+      "id": "89b9064d774c99dd",
+      "title": "How to improve surveyor management with supervisor scorecards",
+      "titleZh": "：如何用督导记分卡改进调查员管理",
+      "summaryZh": "在指南中说明，督导记分卡可改进调查员管理、追踪 KPI，并加强现场监督以提升数据质量",
+      "tags": [
+        "方法/实践",
+        "问卷/定量"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "category": "methods",
+      "sourceName": "SurveyCTO",
+      "url": "https://www.surveycto.com/data-collection-quality/surveyor-management-supervisor-scorecards/",
+      "publishedAt": "2026-01-15T00:12:09+00:00"
+    },
+    {
+      "id": "922ce100198fa404",
+      "title": "WITHDRAWAL–Administrative Duplicate Publication: After Triangulation, What Next?",
+      "titleZh": "《Journal of Mixed Methods Research》撤稿：行政性重复发表《三角互证之后，下一步是什么？》",
+      "summaryZh": "《Journal of Mixed Methods Research》发布撤稿通知，涉及《三角互证之后，下一步是什么？》的行政性重复发表。该条目以 Ahead of Print 形式发布，撤稿性质标注为行政性重复发表。",
+      "tags": [
+        "行业动态",
+        "研究伦理"
+      ],
+      "entities": [],
+      "category": "industry",
+      "sourceName": "Journal of Mixed Methods Research",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1558689817748110?ai=2b4&mi=ehikzz&af=R",
+      "publishedAt": "2022-04-07T06:05:32+00:00"
+    },
+    {
+      "id": "41c2192cb6d17de1",
+      "title": "Dialogue patterns in human-AI co-creation: how interaction structure shapes output and process",
+      "titleZh": "人机共创中的对话模式：交互结构如何塑造产出与过程",
+      "summaryZh": "研究考察人机共创中的对话模式，分析交互结构如何影响创作产出与协作过程。标题指向以对话模式为分析切口，讨论不同交互结构对产出与过程的作用。",
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "category": null,
+      "sourceName": "Human-Computer Interaction",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2717534?af=R",
+      "publishedAt": "2026-09-22T06:44:26+00:00"
+    },
+    {
+      "id": "a86008423a4747f1",
+      "title": "How to Get More Accurate Results from AI in Qualitative Research",
+      "titleZh": "Delve 指南：如何让 AI 在定性研究中给出更准确结果",
+      "summaryZh": "Delve 的指南讲解如何让 AI 在定性研究中给出更准确结果，聚焦 AI 辅助定性研究的结果准确性。文章未展开具体方法、样本量、效果指标或工具版本。",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/how-get-more-accurate-results-ai-qualitative-research/",
+      "publishedAt": "2026-05-19T00:00:00+00:00"
+    },
+    {
+      "id": "497b2818397b5444",
+      "title": "Top Alternatives to NVivo for Dissertation Students",
+      "titleZh": "论文学生的 NVivo 替代方案：Delve 更易用",
+      "summaryZh": "面向论文学生的 NVivo 替代方案文章将 Delve 列为更易用选择，并指出 NVivo 的学习曲线和价格对新用户及首次研究者构成障碍。文章称 Delve 受到全球论文学生青睐，定位为 NVivo 的替代工具。",
+      "tags": [
+        "其他",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "tools",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/top-alternatives-to-nvivo-for-dissertation-students-delvetool/",
+      "publishedAt": "2026-04-14T00:00:00+00:00"
+    },
+    {
+      "id": "68fb886213131534",
+      "title": "What’s the best way to generate customer intelligence at scale?",
+      "titleZh": "大规模生成客户情报的最佳方式是什么？Dovetail 分步指南",
+      "summaryZh": "Dovetail 在博文中给出分步指南，讲解如何大规模获取客户情报、预判客户需求，并将情报整合进决策与产品原型。指南以 Dovetail 这类平台为例，说明生成和利用客户情报的流程。",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "methods",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/generating-customer-intelligence-at-scale/",
+      "publishedAt": "2025-12-18T14:00:00+00:00"
     },
     {
       "id": "0dad8a14e94f399a",
@@ -387,6 +2794,37 @@
       "publishedAt": "2026-07-17T14:45:10+00:00"
     },
     {
+      "id": "778147fbc191898d",
+      "title": "How a National Science Foundation-funded researcher used Delve to study AI and STEM identity",
+      "titleZh": "获美国国家科学基金会资助的研究者如何用 Delve 研究 AI 与 STEM 身份认同",
+      "summaryZh": "Garcia Ramos 博士用 Delve 简化了定性分析工作流，并发表了美国国家科学基金会（NSF）资助的 AI 与 STEM 身份认同研究。该案例展示她如何借助 Delve 完成这项 NSF 资助研究。",
+      "tags": [
+        "案例",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "cases",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/case-study-lsu/",
+      "publishedAt": "2025-11-13T00:00:00+00:00"
+    },
+    {
+      "id": "c05977f0cba456e6",
+      "title": "Perceived risk and acceptance of automated vehicles users to unexpected hazard situations in real driving conditions",
+      "titleZh": "真实驾驶条件下自动驾驶车辆用户对突发危险场景的感知风险与接受度",
+      "summaryZh": "研究考察真实驾驶条件下自动驾驶车辆用户对突发危险场景的感知风险与接受度。现有信息未给出样本量、测量指标或具体研究结果。",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Behaviour & Information Technology",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2025.2449982?af=R",
+      "publishedAt": "2025-01-13T02:59:45+00:00"
+    },
+    {
       "id": "11ac7872b45a9902",
       "title": "CNBC and SurveyMonkey Quarterly Money Survey (October 2026)",
       "titleZh": "CNBC and SurveyMonkey Quarterly Money Survey (October 2026)",
@@ -401,6 +2839,20 @@
       "sourceName": "SurveyMonkey",
       "url": "https://www.surveymonkey.com/curiosity/cnbc-money-survey-affordability-october-2026/?ut_source=rss",
       "publishedAt": "2026-10-05T23:35:00+00:00"
+    },
+    {
+      "id": "f04cf5bc961aae38",
+      "title": "Commentary: The common-sense grounds of positivist reviewing",
+      "titleZh": "评论：实证主义审稿的常识基础",
+      "summaryZh": "评论文章《实证主义审稿的常识基础》聚焦实证主义取向下的同行评审，讨论其赖以成立的常识性预设。原文未提供更多具体案例与细节。",
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "category": null,
+      "sourceName": "Human-Computer Interaction",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
+      "publishedAt": "2025-11-24T12:14:05+00:00"
     },
     {
       "id": "928568f1af308673",

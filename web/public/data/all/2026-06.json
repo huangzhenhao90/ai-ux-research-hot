@@ -1,7 +1,105 @@
 {
   "month": "2026-06",
-  "count": 22,
+  "count": 28,
   "items": [
+    {
+      "id": "fe71c070d9bd33e4",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
+      "title": "Fetch once, use everywhere: rebuilding how Dovetail ingests your data",
+      "titleZh": "重建数据接入：一次抓取，处处可用",
+      "summaryZh": "正在重建数据接入方式：不再让每个 Channel 各自抓取一份数据，而是改为工作区中的一份共享数据源。这份共享源可在需要的位置直接使用，对应“一次抓取，处处可用”",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-06-14T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "002442d71426528e",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/pixel-fing-the-new-chat-library/",
+      "title": "Pixel-f**ing the new chat library",
+      "titleZh": "Dovetail 如何重建新版 Chat：打磨引用、思考状态与视频播放器",
+      "summaryZh": "Dovetail 设计师重建 Chat，重点打磨引用、思考状态和视频播放器等细节。这是一份幕后记录，强调设计师对每个细节的反复打磨。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-06-14T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "36d3f8bbcb45babc",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/ai-prompts-for-qualitative-research/",
+      "title": "AI Prompts for Qualitative Research: How to Get More from Delve's AI Features",
+      "titleZh": "Delve AI 功能提示词指南：如何写好定性研究提示词",
+      "summaryZh": "Delve 的定性研究 AI 提示词指南说明如何用好其 AI 功能，覆盖编码头脑风暴、总结和优化分析。内容提供针对这些环节的实用提示词写法。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "提示词/模板",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-06-30T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2321c498c25b73a5",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/your-research-is-good-so-why-isnt-it-changing-anything/",
+      "title": "Your research is good. So why isn't it changing anything?",
+      "titleZh": "Dovetail：研究做得不错，为何没能改变决策？",
+      "summaryZh": "Dovetail 发文分析优秀研究为何无法推动决策：研究质量好不会自动带来决策改变。文章梳理洞察被忽视的原因，并给出研究者可采取的应对方向。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-06-09T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "221137465a08966c",
       "sourceId": "usertesting-blog",
@@ -23,6 +121,52 @@
       "itemType": null,
       "publishedAt": "2026-06-16T18:17:28+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "014c6129877f5f93",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/engineers-youre-not-the-first-to-panic-about-democratization/",
+      "title": "Engineers, you're not the first to panic about democratization",
+      "titleZh": "Dovetail：面对 AI 让研究民主化，工程师不是第一批恐慌的人，UX 研究者早已历过",
+      "summaryZh": "Dovetail 博客把工程师对 AI 让研究民主化产生的恐慌，类比为 UX 研究者数年前经历过的同类危机，认为后者的经验可让工程师少走弯路。它面向工程师回顾 UX 研究者当时学到的教训，提醒他们不必重复同样的恐慌。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-06-14T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "17c3452c2d0c3164",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/voc-program-fragmentation-problem/",
+      "title": "What a fragmented VoC program can cost you",
+      "titleZh": "碎片化的 VoC 项目会带来什么代价",
+      "summaryZh": "碎片化的 VoC 项目让支持工单、访谈和问卷分散在 Zendesk、Notion 和电子表格中，各团队只掌握一部分。没人掌握完整图景，这正是这类分散项目要付出的代价。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-06-22T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

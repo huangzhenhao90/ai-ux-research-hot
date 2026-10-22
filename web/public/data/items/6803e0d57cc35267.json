@@ -1,0 +1,27 @@
+{
+  "id": "6803e0d57cc35267",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/manual-coding-vs-qualitative-coding-software/",
+  "title": "Manual Coding vs. Qualitative Coding Software: When to Make the Switch",
+  "titleZh": "手动编码 vs. 定性编码软件：何时切换到 Delve",
+  "summaryZh": "Delve 梳理定性研究从手动方法到定性编码软件的常见做法，并讨论何时应从手动编码切换到这类软件。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-03-31T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

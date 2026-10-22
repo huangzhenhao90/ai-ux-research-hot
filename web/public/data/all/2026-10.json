@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "count": 129,
+  "count": 169,
   "items": [
     {
       "id": "0f6df2ffe2a6818a",
@@ -47,7 +47,7 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-10-20T21:29:28+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -76,6 +76,31 @@
       "relation": null
     },
     {
+      "id": "a648e6bd28db420f",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.27333",
+      "title": "Inspectable LLM-Simulated Participants for Qualitative Interview Rehearsal",
+      "titleZh": "arXiv 论文提出可检查的 LLM 模拟参与者，用于定性访谈演练",
+      "summaryZh": "一篇 arXiv cs.HC 论文提出用于定性访谈演练的可检查 LLM 模拟参与者，标题强调模拟参与者可被检查。",
+      "reason": "标题指向把 LLM 模拟参与者用于定性访谈演练，并强调模拟参与者可检查，为访谈训练提供一种可审查的模拟思路。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-21T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "05374bec817f75e3",
       "sourceId": "dscout-people-nerds",
       "sourceName": "dscout People Nerds",
@@ -98,7 +123,77 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-06T16:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "708c179adb3d9ebf",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.27258",
+      "title": "The Differential Effects of AI Abstention on Advice Acceptance",
+      "titleZh": "AI 弃答对建议接受度的差异化影响",
+      "summaryZh": "论文《The Differential Effects of AI Abstention on Advice Acceptance》考察 AI 弃答如何差异化影响人们对建议的接受度。当前可见信息仅到标题层面，未包含样本、实验设计或结论。",
+      "reason": "论文考察 AI 弃答对建议接受度的差异化影响，可帮助研究者把握人机建议互动中的一个具体问题切口。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-21T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "125f70d843cae2dc",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29487",
+      "title": "The Serendiptionnaire: a Questionnaire for Measuring Experienced Serendipity",
+      "titleZh": "研究提出 Serendiptionnaire 问卷，测量用户体验到的偶遇感",
+      "summaryZh": "研究团队提出 Serendiptionnaire 问卷，用模块化量表测量用户在与内容不期而遇时既新鲜又有收获的体验。该问卷经过三轮共 27 次认知访谈迭代，受访者在年龄、教育程度、出生国和英语水平上各不相同，期间浏览 Instagram、TikTok、YouTube 和 Spotify 上的推荐内容。作者称该量表可为验证以系统为中心的偶遇指标和基于 LLM 的评估提供 ground truth。",
+      "reason": "27 次认知访谈三轮迭代打磨出的模块化量表，让研究者能按需组合并比较不同平台上的偶遇体验测量结果。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "cbd1da1c5b8a4833",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29312",
+      "title": "A Stratified Multi-Rater Evaluation of LLM-Based Virtual Standardized Patients with a Deployed Data-Generation Platform",
+      "titleZh": "研究以 17 名医学生评分者分层评估四款 LLM 虚拟标准化病人",
+      "summaryZh": "一项 arXiv 论文用双盲全交叉设计，让 17 名高年级医学生对 GPT-4o、Claude 3.5 Sonnet、Llama-3.1 70B 和 HyperCLOVA X 四款 LLM 虚拟标准化病人在三个韩国 OSCE 病例中的每句话打分，基于 3 个句子级和 6 个会面级 Likert 指标共得到 7,480 个数据点。在会面层面，四款模型中有三款在可理解性、一致性和无幻觉三项上比人类专家参考低 0.08 到 0.47 个 Likert 点，Llama-3.1 70B 则在全部六项指标上显著低于参考。作者同时介绍了一个网页版 OSCE 平台，支持多种临床病例的虚拟练习，并在研究知情与隐私同意下持续收集学生与虚拟标准化病人的对话。",
+      "reason": "17 名评分者对四款模型逐句打分，让不同 LLM 虚拟标准化病人的具体短板有了可比参照。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -123,6 +218,79 @@
       "itemType": "opinion_analysis",
       "publishedAt": "2026-10-01T16:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "73643e8efa6ca8ca",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.28772",
+      "title": "Scaling Therapy Supervision: Assessing Psychotherapy Fidelity Using Large Language Models",
+      "titleZh": "大语言模型评估心理治疗保真度，扩展治疗督导",
+      "summaryZh": "研究者用大语言模型（LLMs）自动评估心理治疗保真度，并从真实长程临床转录生成可操作的督导反馈。研究评估了三个开放权重模型在多种任务分解配置和推理策略下的表现，发现证据优先推理能提升保真度估计。该框架在独立随机对照试验（RCT）中可区分 CBT 与非 CBT 会谈，专家用户研究认为其反馈具有可操作性。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "文本分析/VOC",
+        "转写/编码",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "95c79eb3ccd1b3a8",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29929",
+      "title": "Privacy Preference Controls for Agentic Systems",
+      "titleZh": "面向智能体系统的隐私偏好控制",
+      "summaryZh": "研究者提出面向智能体系统的可执行隐私偏好分类法，并审计了30个领先AI助手与智能体平台。研究还开发8个开源原型，展示分类法的主要部分可结构化接入 Model Control Protocol 与 Agent2Agent 等智能体协议。研究目标是为保障终端用户隐私与自主权在智能体世界中不丢失提供基础。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "伦理/隐私",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "93522d31daf7320e",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.28929",
+      "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
+      "titleZh": "Scriptorium：多人、多 AI 协作数字图书馆搜索平台的设计与实现",
+      "summaryZh": "Scriptorium 技术报告记录了多人、多 AI 协作数字图书馆搜索平台的设计与实现，采用跨用户全透明搜索和 Manager-Worker 架构的 7 个角色分工生成式 AI 智能体。报告披露完整系统架构、数据模型、AI 编排机制、逐字智能体提示词与确定性护栏，以及语言模型和检索配置、运行步骤。报告还讨论当前局限，并计划用用户研究检验协作透明加受范围约束的多智能体辅助能否促进研究线索间的意外交叉。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -134,15 +302,191 @@
       "tier": "T1",
       "url": "https://maze.co/blog/ai-for-market-research/",
       "title": "More of your market research, now in Maze",
-      "titleZh": "More of your market research, now in Maze",
-      "summaryZh": "",
+      "titleZh": "Maze 宣布更多市场研究可在平台内完成",
+      "summaryZh": "Maze 发布博文称，更多市场研究现在可以在 Maze 内完成，指向平台对市场研究场景的进一步覆盖。",
       "reason": null,
       "category": null,
-      "tags": [],
+      "tags": [
+        "工具发布",
+        "市场研究",
+        "Maze"
+      ],
       "entities": [],
-      "itemType": null,
+      "itemType": "tool_launch",
       "publishedAt": "2026-10-08T05:28:33.498000+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8026d06a005a2105",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.27148",
+      "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "95a56e6510dfb364",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29216",
+      "title": "Preference Is Not Permission: Personalizing the Auto-Purchase Line in Agentic Commerce",
+      "titleZh": "偏好不是许可：智能体商务中的自动购买边界个性化",
+      "summaryZh": "论文提出把个体“自动购买边界”作为学习任务：智能体应输出不买、先确认或自动购买，而非只判断商品是否适合。对 16 个指令微调模型的测试显示，自主承诺与 15 名标注者的人类授权参考不一致，模型在适配度低或证据标记显示授权缺失时仍会购买。仅用个人 30–40 个标签，浅层学习器对留出自动购买边界的预测中位数为 0.79，且该边界不跨领域迁移。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f4eda7046ba6885e",
+      "sourceId": "cint",
+      "sourceName": "Cint",
+      "tier": "T1",
+      "url": "https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/",
+      "title": "Why the future of consumer insights relies on AI-moderated hybrid research",
+      "titleZh": "Cint 谈为何消费者洞察的未来依赖 AI 主持的混合研究",
+      "summaryZh": "Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-10-20T20:46:56+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5034cd71ab0c9cb2",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29413",
+      "title": "Beyond Small Talk: Modeling Disclosure Trajectories in Human-AI Conversation",
+      "titleZh": "超越寒暄：TraDE 为人机对话中的自我披露轨迹建模",
+      "summaryZh": "研究提出基于社会渗透理论的 TraDE，用预设披露轨迹考察先前披露历史如何影响模型对同等深度披露的回应。多个模型与关系行为基准显示，回应随先前轨迹而变，尤其在接受还是质疑用户框架上；差异跟随深度披露的累计暴露，而非单次脆弱或披露顺序，并在转浅后持续数轮。ESConv 中模型与人类支持者最一致的分歧出现在用户收回披露时，而非敞开时。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4625077d30fe37ca",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.27170",
+      "title": "Too Long to Watch, Too Short to Leave: Designing for Agent Micro-Waits",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1afcb1a1360dc91a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/voice-of-customer-software-features/",
+      "title": "Voice of Customer Software Features: What Each One Does",
+      "titleZh": "Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么",
+      "summaryZh": "Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "文本分析/VOC",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:33+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1661c41b0b8b8638",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29045",
+      "title": "HumanCentric-Scenes-AI: A Human-Curated Multimodal Dataset of AI-Generated Human-Centric Scenes Across Surveillance, Occupational Portraits, AI-Edited Images, and Short-Form Video",
+      "titleZh": "HumanCentric-Scenes-AI：涵盖监控、职业肖像、AI 编辑图像与短视频的人工策展 AI 生成人物场景多模态数据集",
+      "summaryZh": "研究团队发布 HumanCentric-Scenes-AI，一个人工策展的 296 个 AI 生成刺激材料数据集，覆盖监控、职业肖像、AI 编辑图像与短视频四类场景。其中监控子集含 85 张 AI 生成 CCTV 风格图像，职业子集含 128 张职业肖像、覆盖 64 种职业且每种职业各有一男一女版本，AI 编辑子集含 27 张局部被生成模型改写或替换的真实照片，视频子集含 56 段 AI 生成短视频。每个刺激材料均附文件、记录在案的生成提示词与逐条元数据，数据集主要用于人类感知研究，也可用于校准 AI 检测分类器与生成模型偏见分析。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "多模态"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -167,7 +511,7 @@
       "itemType": null,
       "publishedAt": "2026-10-21T04:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -219,6 +563,29 @@
       "relation": null
     },
     {
+      "id": "f71af6c2ea04522e",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29140",
+      "title": "From AI-Free Gates to AI-First Work: How Engineering Students in India Navigate University Education and Campus Placements Without AI Guidelines",
+      "titleZh": "从禁用 AI 的关卡到 AI 优先的工作：印度工程学生如何在缺乏 AI 指南下应对大学教育与校园招聘",
+      "summaryZh": "一项研究访谈23名印度工程与计算机专业学生及应届毕业生，用反思性主题分析归纳出五个主题，考察他们在无AI指南下从禁用AI的考试和招聘筛选走向AI优先职场的经历。主题涉及AI优先职场、禁用AI的招聘筛选、课程作业中的AI使用、教师权威与执行，以及对就业准备度的担忧；研究基于信号理论讨论AI辅助下成绩和筛选分数能证明什么。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "74a3cc21f1da0ec3",
       "sourceId": "quantilope",
       "sourceName": "quantilope",
@@ -239,6 +606,30 @@
       "itemType": null,
       "publishedAt": "2026-10-21T16:21:55+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "76f2e62fdfcda0b7",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.27176",
+      "title": "CanvasObs: Structured Spatial Observation for Agent Editing on 2D Infinite Canvases",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -270,6 +661,358 @@
       "relation": null
     },
     {
+      "id": "66bedcdc83b6e13d",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-methodology/",
+      "title": "Kantar Brand Tracking Methodology: MDS & Metrics Explained",
+      "titleZh": "Kantar 品牌追踪方法论：MDS 框架与指标解析",
+      "summaryZh": "Kantar 用 MDS 框架与 Three Signals 整合四类数据做品牌追踪，衡量品牌健康。MDS 含七项指标，BrandZ 数据显示 Meaningful 与 Different 合计解释 94% 的 Pricing Power。Listen Labs 的对话式追踪实时解释 KPI 变动。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "行为数据",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T05:15:36+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "246a6f44e479e79a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/concept-testing-retail-products/",
+      "title": "Retail Concept Testing: Methods, Steps & Questions",
+      "titleZh": "零售概念测试：方法、步骤与问题",
+      "summaryZh": "Listen Labs 的零售概念测试覆盖产品概念、包装与货架吸引力、价格感知和自有品牌竞争四类，并给出 5 步流程。其 AI 主持访谈依托 50M+ 受访者网络，覆盖 45+ 国家和 120+ 语言，称 24 小时内交付分析结果，成本约为传统研究的三分之一。示例用 200 名已验证零食品类买家，对比 $2.99 与 $3.79 两个价格点。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T05:15:18+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "78722a787bd09eb1",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/axa-future-risks-report-2025",
+      "title": "AXA Future Risks Report 2025",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-14T09:10:05+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "30dc752a132f8d67",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.27238",
+      "title": "\"It Wouldn't Have Been So Apparent to Me\": Evaluating How Thought-Level Progress Tracking Supports Psychosocial Goals",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "993dab508828e82d",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ipsos-launches-its-new-creative-assessment-solution-creativespark-ipsosdigital-platform",
+      "title": "Ipsos launches its new creative assessment solution – Creative|Spark on Ipsos.Digital Platform in more countries",
+      "titleZh": "Ipsos 在 Ipsos.Digital 平台面向更多国家推出 Creative|Spark 视频创意评估方案",
+      "summaryZh": "Ipsos 在 Ipsos.Digital 平台面向更多国家推出 Creative|Spark，用于在线评估视频创意。该方案目前已在 16 个国家上线。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-08T13:12:29+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6ddbda8fa559856b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/what-is-ai-interviewer/",
+      "title": "What Is an AI Interviewer? A Plain-Language Guide",
+      "titleZh": "什么是 AI Interviewer？一份通俗指南",
+      "summaryZh": "Listen Labs 的指南解释 AI Interviewer 是能通过语音、视频或文本自动访谈、动态追问并分析回答的软件，覆盖招聘与客户研究。面向客户研究，Listen Labs 结合 50M+ 验证参与者网络、AI 主持动态追问和自动分析，称可在不到 24 小时交付结果。招聘侧，Fabric 分析 19,000 场访谈显示 AI 筛选与人类评分一致率 60–90%，电话式对话筛选完成率可超 95%，视频格式为 40–60%。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "非用研/通用"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T05:15:06+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6a904c74c3ee127f",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ignite-growth-collective-innovation",
+      "title": "Ignite Growth with Collective Innovation",
+      "titleZh": "Ipsos 推出 Collective Innovation，帮助企业加速创新并提升成功率",
+      "summaryZh": "Ipsos 宣布推出端到端创新服务 Collective Innovation，旨在帮助企业加速创新开发并提高成功率。该服务以更高成功率为目标，覆盖企业创新开发流程，助力创新增长。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-09T08:55:06+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fbd16ac748e78412",
+      "sourceId": "ijmr",
+      "sourceName": "International Journal of Market Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/14707853261496024?ai=2b4&mi=ehikzz&af=R",
+      "title": "Using Signal Configurations for Market Research Forecasting in Film Industry",
+      "titleZh": "利用信号配置进行电影行业市场研究预测",
+      "summaryZh": "International Journal of Market Research 的在线先发研究聚焦电影行业市场研究预测，运用复杂性和信号理论分析影响票房表现的因素。研究将演员、导演等明星因素归为内部信号，将评分、推荐等口碑及营销归为外部信号。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-12T01:46:33+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "57734a6f9347ee4d",
+      "sourceId": "rosenfeldmedia",
+      "sourceName": "Rosenfeld Media",
+      "tier": "T2",
+      "url": "https://rosenfeldmedia.com/want-to-understand-users-better-start-by-reading-body-talk/",
+      "title": "Want to understand users better? Start by reading Body Talk",
+      "titleZh": "新书《Body Talk》：读懂手势、姿态与注视，更深入理解用户",
+      "summaryZh": "Dane DeSutter 与 Stephanie Scopelitis 合著的《Body Talk》提出，手势、身体姿态和注视能揭示用户没说出口的另一半信息。书中给出 Three Bodies 框架，教研究者观察、分析并应用手势，覆盖基础研究、协同构思、设计验证到技术沟通的产品全流程。作者称这些做法无需新工具或预算，且是 AI 无法替代的研究技能。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T16:36:47+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e02e35c49c208ae3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-market-research-methods-startups/",
+      "title": "Customer Research Methods For Startups: A How-To Playbook",
+      "titleZh": "Listen Labs：初创公司客户研究方法操作手册",
+      "summaryZh": "Listen Labs 梳理初创公司客户研究方法，按创意、预发布、发布后三阶段给出组合建议。创意阶段建议 5–10 次客户发现访谈，预发布阶段用 20–30 次 AI 主持访谈加落地页测试。其平台称拥有 50M+ 验证样本库，可单日访谈最多 1,000 名客户并在 24 小时内交付分析，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:39+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1a56160c7ca864c4",
+      "sourceId": "frontiers-cs",
+      "sourceName": "Frontiers in Computer Science",
+      "tier": "T2",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1896307",
+      "title": "ARAM: a threshold model for understanding occupant acceptance of architectural robot adaptations",
+      "titleZh": "ARAM：理解居住者对建筑机器人适应性改造接受度的阈值模型",
+      "summaryZh": "跨学科专家团队基于三项机器人隔断研究的质性再分析，提出建筑机器人接受度模型 ARAM。模型沿感知压力严重程度连续体设三个定性阈值，划分四种接受反应，并能估计居住者在个人需求、改造能力与社会正当性不同评估状态下的回应。研究还发现，当居住者认为机器人能以社会可辩护的方式满足个人需求时，更可能接受调整。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-02T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f2d5dd7747b11cfe",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29674",
+      "title": "From Acceptance and Avoidance to Affective Viscosity: Designing Social Agents Intermediating in Human Relationships",
+      "titleZh": "从接受到回避再到情感黏性：设计介入人际关系的社交智能体",
+      "summaryZh": "arXiv 论文 2610.29674v1 将社交智能体研究中的接受与回避同情感黏性模型相连，认为回避标示人机边界，而非交互失败。情感黏性刻画负面情绪如何随时间累积、持续、被抑制与表达，可用于设计按关系与互动历史维持或表达负面状态的智能体。文中讨论三方嫉妒、不适抑制、耐心时机与时空黏性等案例，主张介入应可追溯、有限、可质疑、可修复。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0279db60e064c843",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "tier": "T2",
+      "url": "https://uxdesign.cc/what-if-ai-sets-us-free-084f4310709b?source=rss----138adf9c44c---4",
+      "title": "What if AI sets us free?",
+      "titleZh": "如果 AI 让我们自由？",
+      "summaryZh": "AI 向善不是偶然，而是设计者决定产品服务谁、奖励什么、拒绝做什么，并把人类留在决策环中的结果。MASAI 试验中约 106,000 名女性参与，AI 辅助组多检出 29% 癌症；Be My AI 则能为盲人描述菜单和药品标签。作者认为 AI 的伤害潜力与向善潜力同样巨大，选择权仍在人手里。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-19T11:12:29+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4409ceae0729c220",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/rethinking-wellness-product-category-cultural-belief-system",
+      "title": "Rethinking wellness:  From product category to cultural belief system",
+      "titleZh": "重新思考 wellness：从产品品类到文化信仰体系",
+      "summaryZh": "Colin Strong 与 Lucy Neiland 在 Ipsos Voices 文章中探讨如何将 wellness 从产品品类重新理解为文化信仰体系。文章分析 wellness 如何日益塑造人们对健康、专业权威、信任和个人责任的态度。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-09T09:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "14723a45c3a19dbb",
       "sourceId": "sprig-blog",
       "sourceName": "Sprig Blog",
@@ -285,6 +1028,267 @@
       "itemType": null,
       "publishedAt": "2026-10-07T16:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f2094553e5f9ba08",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-scalability-guide/",
+      "title": "Customer Insights Platform Scalability: Practitioner’s Guide",
+      "titleZh": "Listen Labs 客户洞察平台可扩展性实践指南",
+      "summaryZh": "Listen Labs 在《客户洞察平台可扩展性实践指南》中提出六维框架，称其平台可将研究周期压缩到不到 24 小时，并覆盖 50M+ 验证受访者。六个维度包括数据量、受访者覆盖、周期时间、质量控制、单研究成本和跨研究知识，Listen Atlas 覆盖 45+ 国家和 120+ 语言。Quality Guard 实时监控访谈，平台成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:02:59+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ce322cd5b0fcbef8",
+      "sourceId": "frontiers-cs",
+      "sourceName": "Frontiers in Computer Science",
+      "tier": "T2",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1883472",
+      "title": "Technology Acceptance Model in video-sharing platforms: comparisons between TikTok and YouTube",
+      "titleZh": "视频分享平台中的技术接受模型（TAM）：TikTok 与 YouTube 对比",
+      "summaryZh": "一项针对 351 名大学年龄段 TikTok 与 YouTube 用户的在线问卷调查及结构方程模型分析显示，技术接受模型（TAM）对 TikTok 实际使用的预测效度显著高于 YouTube。感知易用性和感知有用性直接预测两平台使用，平台态度是关键结构前因。t 检验还显示，TikTok 的感知易用性与实际使用得分更高，YouTube 的感知有用性与整体态度得分更高。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-02T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f97ec532514eb8de",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/news/insights/sports-brings-people-together/",
+      "title": "We Surveyed 50,674 Americans. This Is What Brings Them Together.",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T15:03:39+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ae8db14e0640ada2",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-market-research-software-comparison/",
+      "title": "Market Research Software Comparison: How To Choose in 2026",
+      "titleZh": "Listen Labs 市场研究软件对比指南：2026 年如何选择六类工具",
+      "summaryZh": "Listen Labs 的市场研究软件对比指南把工具分为六类，并给出按研究目标选型的五步框架。其平台自述覆盖 AI 主持访谈全流程，依托 50M+ 验证受访者、45+ 国家与 120+ 语言，24 小时内交付结果。Microsoft 将研究等待时间从数周缩短到数小时，Anthropic 用原先 5-6 项研究的时间完成 100 项。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:05+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "263b215d53519328",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-enterprise-ai-research-platforms/",
+      "title": "Best Enterprise AI Research Platforms Compared 2026",
+      "titleZh": "2026 年最佳企业级 AI 研究平台对比",
+      "summaryZh": "Listen Labs 在 2026 年企业级 AI 研究平台对比中将平台分为五类，并称其平台在客户与消费者研究类别领先。其平台覆盖 50M+ 验证受访者、45+ 国家、120+ 语言，可在 24 小时内产出交付物，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "市场研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "dovetail",
+        "qualtrics",
+        "surveymonkey",
+        "user-interviews"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:24+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fd40c9f209173903",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-user-experience-testing-software/",
+      "title": "The Best User Experience Testing Software in 2026",
+      "titleZh": "Listen Labs 盘点 2026 年最佳用户体验测试软件",
+      "summaryZh": "Listen Labs 2026 年用户体验测试软件指南推荐 AI 主持访谈，对比 Maze 与 UserTesting。AI 主持访谈可并行数百人，依托 50M+ 验证样本、45+ 国家、120+ 语言，24 小时内出结果。MeasuringU 的 838 人非主持研究显示，自报完成率 93%、核实完成率 33%。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "可用性测试",
+        "AI 访谈",
+        "招募/样本",
+        "UserTesting",
+        "Maze"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T05:15:12+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5d47dcece1f01c20",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ipsos-health-service-report-2026",
+      "title": "Ipsos Health Service Report 2026",
+      "titleZh": "Ipsos 健康服务报告 2026",
+      "summaryZh": "Ipsos 自 2018 年起持续追踪公众对医疗体系质量的评价、最受关注的健康议题以及最突出的公共卫生问题。2026 年健康服务报告即围绕这三类议题展开。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "行业报告",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-08T09:52:41+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "aa77c0afb1124398",
+      "sourceId": "hci-journal",
+      "sourceName": "Human-Computer Interaction",
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2744236?af=R",
+      "title": "The Reflection Penalty: when managers accept leadership coaching from a human but not an AI agent",
+      "titleZh": "反思惩罚：管理者接受人类领导力教练，却不接受 AI 智能体",
+      "summaryZh": "《The Reflection Penalty》聚焦管理者接受人类领导力教练、却不接受 AI 智能体的现象。原文未给出样本量、研究工具或效应量，暂无法判断该现象的强度与适用边界。",
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-15T07:13:22+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "d69a0193cd65c7be",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/linkedin-live-cx-global-insights-2026",
+      "title": "[LINKEDIN LIVE] CX Global Insights 2026",
+      "titleZh": "LinkedIn Live：CX Global Insights 2026 揭示 CX 趋势与机会",
+      "summaryZh": "的 LinkedIn Live 活动 CX Global Insights 2026 将揭示提升客户体验的趋势与机会，由专家参与分享",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-07T10:26:20+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "726d72e23234b3f2",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/inflation/feeling-pressure-understanding-consumers-during-inflationary-times",
+      "title": "Feeling the pressure: Understanding consumers during inflationary times",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T15:19:13+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -310,7 +1314,7 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:31+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },

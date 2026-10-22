@@ -3,8 +3,111 @@
   "name": "文本分析 / VOC",
   "group": "field",
   "definition": "用 AI 分析用户反馈、评论、开放题与客服文本。",
-  "count": 1,
+  "count": 7,
   "items": [
+    {
+      "id": "791883e6a4cafac0",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "tier": "T2",
+      "url": "https://www.producttalk.org/ai-evals-test-harness/",
+      "title": "Get My Eval Test Harness and Run Your First Experiment",
+      "titleZh": "Product Talk 发布 AI 评估测试框架，附可运行的合成访谈示例",
+      "summaryZh": "Product Talk 作者将自用的 AI 评估测试框架整理进代码仓库，并附一个完整示例，读者可以先跑通示例，再替换成自己的输入、提示词和 eval。示例用 15 份合成访谈记录检验「访谈转故事并判断参与者状态」的流程，更换提示词后编造引语从 12.5% 降到 1.7%，无依据论断从 8.4% 降到 3.2%，状态标签错误降为零。框架分三步：先看输出错误，再按错误类型各配一个可独立添加的 eval 模块，最后跑基线版与变体版对比，工具面向 Supporting Members 和 CDH Members 开放。",
+      "reason": "作者把自用的 AI 评估测试框架整理成仓库并附完整示例，研究者可据此搭建自己的提示词对比实验。",
+      "category": "methods",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-09-02T13:05:45+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f00c9ca6c426bf88",
+      "sourceId": "maxqda",
+      "sourceName": "MAXQDA",
+      "tier": "T1",
+      "url": "https://www.maxqda.com/blogpost/maxqda-26-2",
+      "title": "MAXQDA Update 26.2: Smarter Memos, AI Coding, and AI Reports",
+      "titleZh": "MAXQDA 发布 26.2 更新，新增片段级 AI 编码与 AI Reports",
+      "summaryZh": "MAXQDA 发布 26.2（2026 年 3 月）更新，新增片段级 AI 编码与 Beta 版 AI Reports，并改版 Memos 布局。片段级 AI 编码会对选中的文本片段给出编码建议并附理由，需人工批准后应用，AI Assist 免费版一次最多分析 5 个编码，Premium 最多 20 个。AI Reports 按自定问题生成可回溯到原文的报告，免费版最多纳入 2 份文档，Premium 最多 50 份。",
+      "reason": "新版把 AI 编码从文档级细化到片段级并加入 AI Reports，研究者可据此判断哪些编码与汇总环节能交给模型提速。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "转写/编码",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-03-05T13:21:19+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "73643e8efa6ca8ca",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.28772",
+      "title": "Scaling Therapy Supervision: Assessing Psychotherapy Fidelity Using Large Language Models",
+      "titleZh": "大语言模型评估心理治疗保真度，扩展治疗督导",
+      "summaryZh": "研究者用大语言模型（LLMs）自动评估心理治疗保真度，并从真实长程临床转录生成可操作的督导反馈。研究评估了三个开放权重模型在多种任务分解配置和推理策略下的表现，发现证据优先推理能提升保真度估计。该框架在独立随机对照试验（RCT）中可区分 CBT 与非 CBT 会谈，专家用户研究认为其反馈具有可操作性。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "文本分析/VOC",
+        "转写/编码",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1afcb1a1360dc91a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/voice-of-customer-software-features/",
+      "title": "Voice of Customer Software Features: What Each One Does",
+      "titleZh": "Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么",
+      "summaryZh": "Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "文本分析/VOC",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:33+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "13c2b225a0577e37",
       "sourceId": "maxqda",
@@ -27,6 +130,59 @@
       "itemType": null,
       "publishedAt": "2024-10-22T14:00:58+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "16241e12403d1bc3",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/ai-features-in-qda-software/",
+      "title": "AI Features in QDA Software (2026): NVivo, Delve, MAXQDA, ATLAS.ti, Dedoose, Quirkos & Taguette Compared",
+      "titleZh": "QDA 软件 AI 功能对比（2026）：NVivo、、、ATLAS.ti、Dedoose、 与 Taguette",
+      "summaryZh": "一项对比测试考察了 NVivo、、、ATLAS.ti、Dedoose、 与 Taguette 的 AI 功能，并按研究者最关心的维度评估这些 QDA 平台。测试覆盖多款 AI 辅助 QDA 平台，重点比较现有 AI 能力的表现",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "文本分析/VOC",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve",
+        "maxqda",
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-09-09T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "17c3452c2d0c3164",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/voc-program-fragmentation-problem/",
+      "title": "What a fragmented VoC program can cost you",
+      "titleZh": "碎片化的 VoC 项目会带来什么代价",
+      "summaryZh": "碎片化的 VoC 项目让支持工单、访谈和问卷分散在 Zendesk、Notion 和电子表格中，各团队只掌握一部分。没人掌握完整图景，这正是这类分散项目要付出的代价。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-06-22T23:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

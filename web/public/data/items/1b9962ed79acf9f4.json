@@ -1,0 +1,27 @@
+{
+  "id": "1b9962ed79acf9f4",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/collaboration-in-delve/",
+  "title": "Collaboration in Delve: Assign, Code, and Align as a Team",
+  "titleZh": "更新团队编码协作，新增 Transcript Dashboard、就地编辑与部分计分的编码者一致性",
+  "summaryZh": "更新团队定性编码协作，新增 Transcript Dashboard 用于分配和跟踪团队工作，编码对比页面支持就地编辑，多编码片段可采用部分计分的编码者一致性计算。三项更新分别对应分工跟踪、编码对齐与一致性核对，面向多人协作处理同一批材料的场景",
+  "reason": "更新把任务分配、编码对比与编码者一致性放进同一协作流程，团队做定性编码时可据此调整分工与质检方式。",
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "转写/编码",
+    "定性分析"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": "tool_launch",
+  "publishedAt": "2026-07-24T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

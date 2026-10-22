@@ -1,0 +1,30 @@
+{
+  "id": "66bedcdc83b6e13d",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/kantar-brand-tracking-methodology/",
+  "title": "Kantar Brand Tracking Methodology: MDS & Metrics Explained",
+  "titleZh": "Kantar 品牌追踪方法论：MDS 框架与指标解析",
+  "summaryZh": "Kantar 用 MDS 框架与 Three Signals 整合四类数据做品牌追踪，衡量品牌健康。MDS 含七项指标，BrandZ 数据显示 Meaningful 与 Different 合计解释 94% 的 Pricing Power。Listen Labs 的对话式追踪实时解释 KPI 变动。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "问卷/定量",
+    "行为数据",
+    "市场研究",
+    "Kantar"
+  ],
+  "entities": [
+    "kantar",
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-20T05:15:36+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

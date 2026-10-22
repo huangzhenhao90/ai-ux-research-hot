@@ -1,0 +1,25 @@
+{
+  "id": "8d7070845f234ba8",
+  "sourceId": "quirkos",
+  "sourceName": "Quirkos",
+  "tier": "T1",
+  "url": "https://www.quirkos.com/blog/post/how-to-cite-quirkos-materials/",
+  "title": "How to cite Quirkos materials",
+  "titleZh": "如何引用 Quirkos 材料：软件、课程、播客与数据集的 APA 格式指南",
+  "summaryZh": "Quirkos 给出材料引用指南，覆盖软件、网页与博客、在线课程、YouTube、网络研讨会、播客及示例数据集。软件按 APA 写作 Quirkos 2.5.3（2023）；课程 Doing Qualitative Research、数据集 'qual' 等也列出引用写法。文中提醒同一文档内引用格式需保持一致。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践"
+  ],
+  "entities": [
+    "quirkos"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-01-07T13:37:33+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

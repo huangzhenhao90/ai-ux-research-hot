@@ -1,0 +1,26 @@
+{
+  "id": "93c88061e60a139e",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/credibility-in-qualitative-research/",
+  "title": "Credibility in qualitative research: What it means and how to establish it with readers",
+  "titleZh": "Delve：定性研究中的可信度是什么，以及如何向读者建立可信度",
+  "summaryZh": "Delve 对定性研究中的可信度作出解释：研究结论是否与参与者的现实相符，并列出六种向读者建立可信度的方法。文章还进一步说明 Delve 如何让证据与数据保留在一起。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-09-08T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

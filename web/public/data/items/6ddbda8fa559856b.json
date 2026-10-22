@@ -1,0 +1,27 @@
+{
+  "id": "6ddbda8fa559856b",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/what-is-ai-interviewer/",
+  "title": "What Is an AI Interviewer? A Plain-Language Guide",
+  "titleZh": "什么是 AI Interviewer？一份通俗指南",
+  "summaryZh": "Listen Labs 的指南解释 AI Interviewer 是能通过语音、视频或文本自动访谈、动态追问并分析回答的软件，覆盖招聘与客户研究。面向客户研究，Listen Labs 结合 50M+ 验证参与者网络、AI 主持动态追问和自动分析，称可在不到 24 小时交付结果。招聘侧，Fabric 分析 19,000 场访谈显示 AI 筛选与人类评分一致率 60–90%，电话式对话筛选完成率可超 95%，视频格式为 40–60%。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "AI 访谈",
+    "非用研/通用"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-20T05:15:06+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

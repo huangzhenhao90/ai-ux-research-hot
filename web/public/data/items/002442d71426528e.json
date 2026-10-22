@@ -1,0 +1,26 @@
+{
+  "id": "002442d71426528e",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/pixel-fing-the-new-chat-library/",
+  "title": "Pixel-f**ing the new chat library",
+  "titleZh": "Dovetail 如何重建新版 Chat：打磨引用、思考状态与视频播放器",
+  "summaryZh": "Dovetail 设计师重建 Chat，重点打磨引用、思考状态和视频播放器等细节。这是一份幕后记录，强调设计师对每个细节的反复打磨。",
+  "reason": null,
+  "category": "tools",
+  "tags": [
+    "功能更新",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "dovetail"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-06-14T23:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

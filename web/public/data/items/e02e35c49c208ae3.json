@@ -1,0 +1,29 @@
+{
+  "id": "e02e35c49c208ae3",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-market-research-methods-startups/",
+  "title": "Customer Research Methods For Startups: A How-To Playbook",
+  "titleZh": "Listen Labs：初创公司客户研究方法操作手册",
+  "summaryZh": "Listen Labs 梳理初创公司客户研究方法，按创意、预发布、发布后三阶段给出组合建议。创意阶段建议 5–10 次客户发现访谈，预发布阶段用 20–30 次 AI 主持访谈加落地页测试。其平台称拥有 50M+ 验证样本库，可单日访谈最多 1,000 名客户并在 24 小时内交付分析，成本约为传统研究的三分之一。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "定性分析",
+    "招募/样本",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-21T05:03:39+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

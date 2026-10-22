@@ -1,7 +1,59 @@
 {
   "month": "2026-03",
-  "count": 7,
+  "count": 14,
   "items": [
+    {
+      "id": "f00c9ca6c426bf88",
+      "sourceId": "maxqda",
+      "sourceName": "MAXQDA",
+      "tier": "T1",
+      "url": "https://www.maxqda.com/blogpost/maxqda-26-2",
+      "title": "MAXQDA Update 26.2: Smarter Memos, AI Coding, and AI Reports",
+      "titleZh": "MAXQDA 发布 26.2 更新，新增片段级 AI 编码与 AI Reports",
+      "summaryZh": "MAXQDA 发布 26.2（2026 年 3 月）更新，新增片段级 AI 编码与 Beta 版 AI Reports，并改版 Memos 布局。片段级 AI 编码会对选中的文本片段给出编码建议并附理由，需人工批准后应用，AI Assist 免费版一次最多分析 5 个编码，Premium 最多 20 个。AI Reports 按自定问题生成可回溯到原文的报告，免费版最多纳入 2 份文档，Premium 最多 50 份。",
+      "reason": "新版把 AI 编码从文档级细化到片段级并加入 AI Reports，研究者可据此判断哪些编码与汇总环节能交给模型提速。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "转写/编码",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-03-05T13:21:19+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a6138ac6efa9ae84",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/",
+      "title": "Introducing Explore: a new way to dive into customer knowledge",
+      "titleZh": "推出 Explore：可视化搜索客户知识的新体验",
+      "summaryZh": "推出 Explore，一种新的可视化搜索体验，帮助团队在工作区中浏览高亮、项目、对话和客户时刻。该功能定位为跨工作区串联客户知识的入口",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-27T01:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "194a20915ff0389b",
       "sourceId": "surveycto",
@@ -24,6 +76,132 @@
       "itemType": null,
       "publishedAt": "2026-03-26T15:34:41+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9c9a177035c76800",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/how-to-create-apply-thematic-analysis-codebook-using-ai/",
+      "title": "How to Build and Apply a Thematic Analysis Codebook Using AI",
+      "titleZh": "如何用 AI 构建并应用主题分析编码本",
+      "summaryZh": "的指南演示如何用 AI 从首个编码到最终主题构建并应用主题分析编码本。指南具体说明在哪些环节、何时以及为何应信任 AI 工具，而不是依赖人工判断",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-17T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8719f3a37f50c586",
+      "sourceId": "surveycto",
+      "sourceName": "SurveyCTO",
+      "tier": "T1",
+      "url": "https://www.surveycto.com/press-releases/hipaa-compliance/",
+      "title": "Medical professionals, protect your data with HIPAA-compliant SurveyCTO",
+      "titleZh": "SurveyCTO 数据收集平台正式符合 HIPAA 合规要求",
+      "summaryZh": "SurveyCTO 的数据收集平台现已正式符合 HIPAA 合规要求，医疗专业人员可借助这一合规平台保护自身数据。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "研究伦理"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-03T20:43:47+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ba7cb117e7c61fa6",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/new-dovetail-experience/",
+      "title": "Introducing the new Dovetail experience—a simpler way to get around",
+      "titleZh": "推出全新个性化首页体验，并更新侧边栏、文件夹导航与搜索",
+      "summaryZh": "正在推出全新的个性化首页体验，并同步更新侧边栏、文件夹导航和搜索。此次更新聚焦更简单的导航方式",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-31T01:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6803e0d57cc35267",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/manual-coding-vs-qualitative-coding-software/",
+      "title": "Manual Coding vs. Qualitative Coding Software: When to Make the Switch",
+      "titleZh": "手动编码 vs. 定性编码软件：何时切换到 Delve",
+      "summaryZh": "Delve 梳理定性研究从手动方法到定性编码软件的常见做法，并讨论何时应从手动编码切换到这类软件。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-31T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0d013b6ec295e9e5",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/how-we-measure-ai-quality-at-dovetail/",
+      "title": "How we measure AI quality at Dovetail",
+      "titleZh": "Dovetail 如何衡量 AI 质量",
+      "summaryZh": "Dovetail 采用与真实用户结果挂钩的清晰指标评估 AI 系统，而非依赖关于准确率或智能的模糊说法。其原则是让 AI 质量可衡量、透明并持续改进。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-20T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

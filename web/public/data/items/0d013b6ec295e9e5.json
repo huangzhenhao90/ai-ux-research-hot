@@ -1,0 +1,25 @@
+{
+  "id": "0d013b6ec295e9e5",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/how-we-measure-ai-quality-at-dovetail/",
+  "title": "How we measure AI quality at Dovetail",
+  "titleZh": "Dovetail 如何衡量 AI 质量",
+  "summaryZh": "Dovetail 采用与真实用户结果挂钩的清晰指标评估 AI 系统，而非依赖关于准确率或智能的模糊说法。其原则是让 AI 质量可衡量、透明并持续改进。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践"
+  ],
+  "entities": [
+    "dovetail"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-03-20T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

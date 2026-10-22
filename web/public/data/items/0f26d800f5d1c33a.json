@@ -1,0 +1,26 @@
+{
+  "id": "0f26d800f5d1c33a",
+  "sourceId": "nngroup",
+  "sourceName": "Nielsen Norman Group",
+  "tier": "T1",
+  "url": "https://www.nngroup.com/articles/designing-ai-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+  "title": "Designing AI Products and Features: Study Guide",
+  "titleZh": "（）：设计 AI 产品与功能学习指南",
+  "summaryZh": "（）汇总了设计 AI 产品与功能的学习指南，围绕是否值得引入 AI 以及如何设计 AI 功能给出研究建议。指南强调，给网站加 AI 聊天机器人并不必然创造价值，需用审慎的方法先判断 AI 能否带来实际差异。它同时提醒既不要盲目乐观，也要在 AI 未产生价值时明确指出",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "NN/g"
+  ],
+  "entities": [
+    "nngroup"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-09-18T17:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

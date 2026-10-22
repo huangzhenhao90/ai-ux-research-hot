@@ -1,0 +1,26 @@
+{
+  "id": "d0312334ee3ab04f",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/what-is-dependability-in-qualitative-research/",
+  "title": "What is dependability in qualitative research?",
+  "titleZh": "定性研究中的可靠性（dependability）是什么：Delve 如何保留审计轨迹",
+  "summaryZh": "Delve 的指南指出，定性研究中的可靠性（dependability）指研究过程一致且可追溯，并可通过审计轨迹证明。指南还讲解如何建立可靠性，以及在 Delve 中保留审计轨迹。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-08-18T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -3,6 +3,109 @@
   "name": "可用性测试",
   "group": "field",
   "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-  "count": 0,
-  "items": []
+  "count": 4,
+  "items": [
+    {
+      "id": "dcc918dafe31f3ef",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "tier": "T2",
+      "url": "https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&utm_medium=rss&utm_campaign=five-ways-to-use-rapport-when-moderating",
+      "title": "Five Ways to Use Rapport When Moderating",
+      "titleZh": "MeasuringU 总结主持访谈时建立融洽关系的五种方法",
+      "summaryZh": "MeasuringU 撰文总结主持访谈时建立融洽关系的五种方法，涵盖会前准备、刻意破冰、语言与非语言技巧、警惕双向讨好，以及把融洽关系当作最后的甄别步骤。文中建议用中立的小谈降低参与者压力，用有意的停顿留出思考时间，并提醒过度友善会让参与者表演而非真实反应。文章还提到，一些团队（包括作者所在团队）正在低风险、高样本量的口头问卷中试验 AI 主持，但当参与者难以招募时，人类主持人的技巧仍决定访谈收获。",
+      "reason": "文中把建立融洽关系拆成准备、破冰、中立回应等可操作步骤，并点出双向讨好会让访谈失去真实反馈。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "可用性测试"
+      ],
+      "entities": [],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-08-25T21:18:05+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2a35eed0a8746362",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Test Complex Interactions Earlier with AI Prototyping",
+      "titleZh": "用 AI 原型制作更早测试复杂交互",
+      "summaryZh": "AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实产品的可运行原型，从而更早、更频繁测试并据研究迭代。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-09-11T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "39cfbee29b546093",
+      "sourceId": "testingtime",
+      "sourceName": "TestingTime",
+      "tier": "T1",
+      "url": "https://www.testingtime.com/blog/wordpress-fuer-barrierefreies-design/",
+      "title": "Das Engagement von WordPress für barrierefreies Design",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2023-10-10T09:59:17+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fd40c9f209173903",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-user-experience-testing-software/",
+      "title": "The Best User Experience Testing Software in 2026",
+      "titleZh": "Listen Labs 盘点 2026 年最佳用户体验测试软件",
+      "summaryZh": "Listen Labs 2026 年用户体验测试软件指南推荐 AI 主持访谈，对比 Maze 与 UserTesting。AI 主持访谈可并行数百人，依托 50M+ 验证样本、45+ 国家、120+ 语言，24 小时内出结果。MeasuringU 的 838 人非主持研究显示，自报完成率 93%、核实完成率 33%。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "可用性测试",
+        "AI 访谈",
+        "招募/样本",
+        "UserTesting",
+        "Maze"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T05:15:12+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

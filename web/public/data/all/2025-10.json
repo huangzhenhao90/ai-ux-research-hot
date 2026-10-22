@@ -1,7 +1,59 @@
 {
   "month": "2025-10",
-  "count": 2,
+  "count": 4,
   "items": [
+    {
+      "id": "46fe5ae344a21995",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/2025-fall-launch/",
+      "title": "Introducing Dovetail’s Fall 2025 Launch: AI Agents, Dashboards, Docs, integrations, and more",
+      "titleZh": "Dovetail 发布 2025 秋季版本，推出 AI Agents、Dashboards、Docs 与集成等 10 项能力",
+      "summaryZh": "Dovetail 发布 2025 秋季版本，上线 10 项新能力，覆盖 AI Agents、Dashboards、Docs 与集成。官方称这些能力将客户反馈放在产品构建流程的核心，并改变传统线性的 SDLC 工作流。",
+      "reason": "Dovetail 一次上线 10 项能力，覆盖 AI Agents、Dashboards、Docs 与集成，研究员可据此判断反馈分析流程会如何变化。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "Agent",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2025-10-08T15:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "38ce9fc155bbeb26",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/power-product-strategy-with-customer-intelligence-pms-guide/",
+      "title": "How to power your product strategy with customer intelligence—a PM’s guide",
+      "titleZh": "Dovetail 客户智能平台如何驱动产品策略：PM 指南",
+      "summaryZh": "Dovetail 发布首个同类客户智能平台，并展示其如何帮助产品经理更快更好地开展工作。PM 指南说明如何用客户智能驱动产品策略。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-10-08T13:04:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "2ef2979f8659b62a",
       "sourceId": "optimalworkshop-blog",

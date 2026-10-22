@@ -1,0 +1,24 @@
+{
+  "id": "2a35eed0a8746362",
+  "sourceId": "nngroup",
+  "sourceName": "Nielsen Norman Group",
+  "tier": "T1",
+  "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+  "title": "Test Complex Interactions Earlier with AI Prototyping",
+  "titleZh": "用 AI 原型制作更早测试复杂交互",
+  "summaryZh": "AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实产品的可运行原型，从而更早、更频繁测试并据研究迭代。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "可用性测试"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-09-11T17:00:00+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

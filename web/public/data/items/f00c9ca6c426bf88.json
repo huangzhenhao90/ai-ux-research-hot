@@ -1,0 +1,28 @@
+{
+  "id": "f00c9ca6c426bf88",
+  "sourceId": "maxqda",
+  "sourceName": "MAXQDA",
+  "tier": "T1",
+  "url": "https://www.maxqda.com/blogpost/maxqda-26-2",
+  "title": "MAXQDA Update 26.2: Smarter Memos, AI Coding, and AI Reports",
+  "titleZh": "MAXQDA 发布 26.2 更新，新增片段级 AI 编码与 AI Reports",
+  "summaryZh": "MAXQDA 发布 26.2（2026 年 3 月）更新，新增片段级 AI 编码与 Beta 版 AI Reports，并改版 Memos 布局。片段级 AI 编码会对选中的文本片段给出编码建议并附理由，需人工批准后应用，AI Assist 免费版一次最多分析 5 个编码，Premium 最多 20 个。AI Reports 按自定问题生成可回溯到原文的报告，免费版最多纳入 2 份文档，Premium 最多 50 份。",
+  "reason": "新版把 AI 编码从文档级细化到片段级并加入 AI Reports，研究者可据此判断哪些编码与汇总环节能交给模型提速。",
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "定性分析",
+    "转写/编码",
+    "文本分析/VOC"
+  ],
+  "entities": [
+    "maxqda"
+  ],
+  "itemType": "tool_launch",
+  "publishedAt": "2026-03-05T13:21:19+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,6 +1,6 @@
 {
   "month": "2024-10",
-  "count": 1,
+  "count": 2,
   "items": [
     {
       "id": "13c2b225a0577e37",
@@ -24,6 +24,28 @@
       "itemType": null,
       "publishedAt": "2024-10-22T14:00:58+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f144b3e6b840f08d",
+      "sourceId": "hci-journal",
+      "sourceName": "Human-Computer Interaction",
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2024.2392494?af=R",
+      "title": "Communicating and combating algorithmic bias: effects of data diversity, labeler diversity, performance bias, and user feedback on AI trust",
+      "titleZh": "传达与对抗算法偏见：数据多样性、标注者多样性、性能偏见与用户反馈对 AI 信任的影响",
+      "summaryZh": "一项研究考察数据多样性、标注者多样性、性能偏见与用户反馈如何影响用户对 AI 的信任，并讨论算法偏见的传达与对抗。原文未提供样本量、效应量或实验设计等具体结果。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2024-10-04T05:36:52+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

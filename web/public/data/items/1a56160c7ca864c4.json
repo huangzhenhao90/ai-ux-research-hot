@@ -1,0 +1,24 @@
+{
+  "id": "1a56160c7ca864c4",
+  "sourceId": "frontiers-cs",
+  "sourceName": "Frontiers in Computer Science",
+  "tier": "T2",
+  "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1896307",
+  "title": "ARAM: a threshold model for understanding occupant acceptance of architectural robot adaptations",
+  "titleZh": "ARAM：理解居住者对建筑机器人适应性改造接受度的阈值模型",
+  "summaryZh": "跨学科专家团队基于三项机器人隔断研究的质性再分析，提出建筑机器人接受度模型 ARAM。模型沿感知压力严重程度连续体设三个定性阈值，划分四种接受反应，并能估计居住者在个人需求、改造能力与社会正当性不同评估状态下的回应。研究还发现，当居住者认为机器人能以社会可辩护的方式满足个人需求时，更可能接受调整。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-02T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

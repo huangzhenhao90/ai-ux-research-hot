@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 6,
+  "count": 8,
   "items": [
     {
       "id": "0f6df2ffe2a6818a",
@@ -33,6 +33,31 @@
       "relation": null
     },
     {
+      "id": "a648e6bd28db420f",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.27333",
+      "title": "Inspectable LLM-Simulated Participants for Qualitative Interview Rehearsal",
+      "titleZh": "arXiv 论文提出可检查的 LLM 模拟参与者，用于定性访谈演练",
+      "summaryZh": "一篇 arXiv cs.HC 论文提出用于定性访谈演练的可检查 LLM 模拟参与者，标题强调模拟参与者可被检查。",
+      "reason": "标题指向把 LLM 模拟参与者用于定性访谈演练，并强调模拟参与者可检查，为访谈训练提供一种可审查的模拟思路。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-21T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "05374bec817f75e3",
       "sourceId": "dscout-people-nerds",
       "sourceName": "dscout People Nerds",
@@ -55,7 +80,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-06T16:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -80,7 +105,33 @@
       "itemType": "opinion_analysis",
       "publishedAt": "2026-10-01T16:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "afef6f29d225306e",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "AI Can't Replace Real Research in Empathy Mapping",
+      "titleZh": "AI 无法在同理心地图中替代真实研究",
+      "summaryZh": "AI 无法替代真实研究来制作同理心地图，只能帮助整理已经收集到的研究材料。同理心地图用 Says、Thinks、Does、Feels 四个象限呈现团队对某类用户的已知信息，通常在工作坊中由来自真实研究的便利贴协作搭建。原文指出，AI 工具虽能在几秒内生成整页便利贴，但便利贴由什么材料生成比生成速度更重要。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "定性分析"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-28T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -107,7 +158,7 @@
       "itemType": null,
       "publishedAt": "2026-08-26T12:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },

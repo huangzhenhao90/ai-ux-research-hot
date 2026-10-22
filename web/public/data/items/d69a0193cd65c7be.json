@@ -1,0 +1,27 @@
+{
+  "id": "d69a0193cd65c7be",
+  "sourceId": "ipsos",
+  "sourceName": "Ipsos",
+  "tier": "T1",
+  "url": "https://www.ipsos.com/en/linkedin-live-cx-global-insights-2026",
+  "title": "[LINKEDIN LIVE] CX Global Insights 2026",
+  "titleZh": "LinkedIn Live：CX Global Insights 2026 揭示 CX 趋势与机会",
+  "summaryZh": "的 LinkedIn Live 活动 CX Global Insights 2026 将揭示提升客户体验的趋势与机会，由专家参与分享",
+  "reason": null,
+  "category": "industry",
+  "tags": [
+    "行业动态",
+    "市场研究",
+    "Ipsos"
+  ],
+  "entities": [
+    "ipsos"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-07T10:26:20+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

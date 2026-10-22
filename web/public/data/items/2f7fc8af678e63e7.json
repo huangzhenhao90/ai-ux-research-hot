@@ -1,0 +1,27 @@
+{
+  "id": "2f7fc8af678e63e7",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/should-i-use-nvivo-dissertation/",
+  "title": "Should I use NVivo for my dissertation?",
+  "titleZh": "学位论文定性编码该用 NVivo 吗？",
+  "summaryZh": "学位论文写作者是否该用 NVivo 做定性编码，要看具体使用场景；Delve 被列为更易获取的替代工具。文章围绕 NVivo 擅长什么、何时值得使用，以及何时应改用 Delve 这类工具展开。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-04-28T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -3,7 +3,7 @@
   "name": "Nielsen Norman Group",
   "group": "company",
   "definition": "NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。",
-  "count": 2,
+  "count": 8,
   "items": [
     {
       "id": "0f6df2ffe2a6818a",
@@ -33,6 +33,133 @@
       "relation": null
     },
     {
+      "id": "fc857a633c94e9de",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "The 3 Roles of Context for AI Agents",
+      "titleZh": "解析 AI 智能体的 3 类上下文",
+      "summaryZh": "文章基于对 Claude 重度用户的近期研究，将 AI 智能体的上下文分为全局、局部和环境三类。参与者都建立了由文件、数据库和实时连接组成的上下文库，供 Claude 在提示词之外调用。文章认为，整理合适的上下文比写好提示词更重要",
+      "reason": "NN/g 把 AI 智能体的上下文分成全局、任务与环境三类，并记录重度用户自建上下文库的做法，可供设计智能体工作流时参考。",
+      "category": "research",
+      "tags": [
+        "方法/实践",
+        "Agent",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-09-18T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "821d7c7df70ddb3f",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "titleZh": "UX 的“看护时代”：为 AI 生成的设计善后",
+      "summaryZh": "AI 让团队生成内容、原型和可运行功能的速度快过 UX 评估，UX 正进入“看护时代”。UX 的工作从空白页设计转向判断 AI 产出中哪些保留、哪些修改，并为已存在的原型和功能善后。应对方式是建立共享判断、加速评估，并引导 AI 生成的设计。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "岗位/职业",
+        "方法/实践"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-28T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "afef6f29d225306e",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "AI Can't Replace Real Research in Empathy Mapping",
+      "titleZh": "AI 无法在同理心地图中替代真实研究",
+      "summaryZh": "AI 无法替代真实研究来制作同理心地图，只能帮助整理已经收集到的研究材料。同理心地图用 Says、Thinks、Does、Feels 四个象限呈现团队对某类用户的已知信息，通常在工作坊中由来自真实研究的便利贴协作搭建。原文指出，AI 工具虽能在几秒内生成整页便利贴，但便利贴由什么材料生成比生成速度更重要。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "定性分析"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-28T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3515d44b343a6e73",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Artificial Intelligence: Glossary",
+      "titleZh": "NN/g AI 术语表：从 token、上下文窗口到智能体、evals 与提示词注入",
+      "summaryZh": "NN/g 整理了一份面向产品与设计工作的 AI 术语表，解释 token、上下文窗口、智能体、evals 和提示词注入等术语。词条按字母排列，可查表、用浏览器查找或顺序阅读，并链接到 NN/g 的深入文章。定义遵循 AI 产品与 UX 工作中的用法，厂商和研究者的用法可能不同。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "非用研/通用"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-21T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f9c6fab30e34f392",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Using AI for UX Work: Study Guide",
+      "titleZh": "用 AI 做 UX 工作：学习指南",
+      "summaryZh": "发布《用 AI 做 UX 工作：学习指南》，汇总其文章和视频，帮助团队找到将 AI 融入 UX 工作流的具体方式。指南指出，AI 目前还不能完全接管 UX 工作，但可用于辅助既有流程；从业者应把 AI 当作增强能力的“手套”，而非替代判断",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-04T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "06bbc6c9902e25bb",
       "sourceId": "uxdesign-cc",
       "sourceName": "UX Collective",
@@ -54,6 +181,31 @@
       "itemType": null,
       "publishedAt": "2026-10-20T21:30:52+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0f26d800f5d1c33a",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/designing-ai-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Designing AI Products and Features: Study Guide",
+      "titleZh": "（）：设计 AI 产品与功能学习指南",
+      "summaryZh": "（）汇总了设计 AI 产品与功能的学习指南，围绕是否值得引入 AI 以及如何设计 AI 功能给出研究建议。指南强调，给网站加 AI 聊天机器人并不必然创造价值，需用审慎的方法先判断 AI 能否带来实际差异。它同时提醒既不要盲目乐观，也要在 AI 未产生价值时明确指出",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-18T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

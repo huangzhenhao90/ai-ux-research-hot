@@ -1,0 +1,26 @@
+{
+  "id": "89b9064d774c99dd",
+  "sourceId": "surveycto",
+  "sourceName": "SurveyCTO",
+  "tier": "T1",
+  "url": "https://www.surveycto.com/data-collection-quality/surveyor-management-supervisor-scorecards/",
+  "title": "How to improve surveyor management with supervisor scorecards",
+  "titleZh": "：如何用督导记分卡改进调查员管理",
+  "summaryZh": "在指南中说明，督导记分卡可改进调查员管理、追踪 KPI，并加强现场监督以提升数据质量",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "问卷/定量"
+  ],
+  "entities": [
+    "surveycto"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-01-15T00:12:09+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

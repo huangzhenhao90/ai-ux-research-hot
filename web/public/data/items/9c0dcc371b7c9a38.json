@@ -1,0 +1,28 @@
+{
+  "id": "9c0dcc371b7c9a38",
+  "sourceId": "testingtime",
+  "sourceName": "TestingTime",
+  "tier": "T1",
+  "url": "https://www.testingtime.com/blog/5-typische-herausforderungen-bei-der-uxr-analyse-und-wie-man-sie-bewaeltigt/",
+  "title": "5 typische Herausforderungen bei der UXR-Analyse und wie man sie bewältigt",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "洞察库/ResearchOps",
+    "研究伦理"
+  ],
+  "entities": [
+    "testingtime"
+  ],
+  "itemType": null,
+  "publishedAt": "2023-10-03T11:00:54+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

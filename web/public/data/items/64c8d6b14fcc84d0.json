@@ -1,0 +1,24 @@
+{
+  "id": "64c8d6b14fcc84d0",
+  "sourceId": "delve",
+  "sourceName": "Delve",
+  "tier": "T1",
+  "url": "https://delvetool.com/blog/how-to-use-ai-for-thematic-analysis-step-by-step-guide/",
+  "title": "How to Use AI for Thematic Analysis: A Step-by-Step Guide",
+  "titleZh": "如何用 AI 进行主题分析：分步指南",
+  "summaryZh": "分步指南围绕 Braun 和 Clarke 的六步法，拆解 AI 如何辅助主题分析，并指出哪些环节需要研究者保持主导。它逐阶段说明 AI 的支持方式与操作步骤，强调 AI 用于辅助流程，而非替研究者做关键判断。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-02-10T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -3,8 +3,56 @@
   "label": "方法",
   "section": "方法与实践",
   "commentary": true,
-  "count": 4,
+  "count": 44,
   "items": [
+    {
+      "id": "a16bc157b306b9dd",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "tier": "T2",
+      "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants/",
+      "title": "4 New Evals and 16 Experiment Variants to Fix 1 Customer Complaint",
+      "titleZh": "Vistaly 为 1 个客户反馈做了 4 个新 eval 与 16 个实验变体",
+      "summaryZh": "Teresa Torres 与 Vistaly 为修复一条客户反馈投入 4 个新 eval 与 16 个实验变体，该反馈指 AI 生成的机会解决方案树在一个分支上缺少层级。她先用代码断言的 tree-shape eval 统计父节点的子节点分布，再用 LLM-as-a-Judge 判断是否存在漏掉的子分组。在人工标注的校准集上，judge 的 recall 为 100%，specificity 只有 43.75%，会把没有漏分组的节点判成有。",
+      "reason": "作者用 4 个 eval 与 16 个实验变体追查一个客户反馈，展示了给 AI 输出做质检的可迁移做法。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-09-16T13:00:36+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "791883e6a4cafac0",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "tier": "T2",
+      "url": "https://www.producttalk.org/ai-evals-test-harness/",
+      "title": "Get My Eval Test Harness and Run Your First Experiment",
+      "titleZh": "Product Talk 发布 AI 评估测试框架，附可运行的合成访谈示例",
+      "summaryZh": "Product Talk 作者将自用的 AI 评估测试框架整理进代码仓库，并附一个完整示例，读者可以先跑通示例，再替换成自己的输入、提示词和 eval。示例用 15 份合成访谈记录检验「访谈转故事并判断参与者状态」的流程，更换提示词后编造引语从 12.5% 降到 1.7%，无依据论断从 8.4% 降到 3.2%，状态标签错误降为零。框架分三步：先看输出错误，再按错误类型各配一个可独立添加的 eval 模块，最后跑基线版与变体版对比，工具面向 Supporting Members 和 CDH Members 开放。",
+      "reason": "作者把自用的 AI 评估测试框架整理成仓库并附完整示例，研究者可据此搭建自己的提示词对比实验。",
+      "category": "methods",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-09-02T13:05:45+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "501b170386db1504",
       "sourceId": "uxdesign-cc",
@@ -23,7 +71,81 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-10-20T21:29:28+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
-      "status": "listed",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "dcc918dafe31f3ef",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "tier": "T2",
+      "url": "https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&utm_medium=rss&utm_campaign=five-ways-to-use-rapport-when-moderating",
+      "title": "Five Ways to Use Rapport When Moderating",
+      "titleZh": "MeasuringU 总结主持访谈时建立融洽关系的五种方法",
+      "summaryZh": "MeasuringU 撰文总结主持访谈时建立融洽关系的五种方法，涵盖会前准备、刻意破冰、语言与非语言技巧、警惕双向讨好，以及把融洽关系当作最后的甄别步骤。文中建议用中立的小谈降低参与者压力，用有意的停顿留出思考时间，并提醒过度友善会让参与者表演而非真实反应。文章还提到，一些团队（包括作者所在团队）正在低风险、高样本量的口头问卷中试验 AI 主持，但当参与者难以招募时，人类主持人的技巧仍决定访谈收获。",
+      "reason": "文中把建立融洽关系拆成准备、破冰、中立回应等可操作步骤，并点出双向讨好会让访谈失去真实反馈。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "可用性测试"
+      ],
+      "entities": [],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-08-25T21:18:05+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "64c8d6b14fcc84d0",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/how-to-use-ai-for-thematic-analysis-step-by-step-guide/",
+      "title": "How to Use AI for Thematic Analysis: A Step-by-Step Guide",
+      "titleZh": "如何用 AI 进行主题分析：分步指南",
+      "summaryZh": "分步指南围绕 Braun 和 Clarke 的六步法，拆解 AI 如何辅助主题分析，并指出哪些环节需要研究者保持主导。它逐阶段说明 AI 的支持方式与操作步骤，强调 AI 用于辅助流程，而非替研究者做关键判断。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-02-10T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "797430abdaa2cdf8",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/explanatory-sequential-research-design-delvetool/",
+      "title": "Explanatory sequential design: A practical guide",
+      "titleZh": "解释性序列设计：用访谈解释问卷结果的 Delve 实用指南",
+      "summaryZh": "Delve 的《解释性序列设计：实用指南》讲解如何用访谈解释问卷结果。指南还给出真实研究案例，并演示如何在 Delve 中编码后续访谈。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-04T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -49,7 +171,7 @@
       "itemType": null,
       "publishedAt": "2026-03-26T15:34:41+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -75,6 +197,901 @@
       "itemType": null,
       "publishedAt": "2026-09-08T00:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2a35eed0a8746362",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Test Complex Interactions Earlier with AI Prototyping",
+      "titleZh": "用 AI 原型制作更早测试复杂交互",
+      "summaryZh": "AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实产品的可运行原型，从而更早、更频繁测试并据研究迭代。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-09-11T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1afcb1a1360dc91a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/voice-of-customer-software-features/",
+      "title": "Voice of Customer Software Features: What Each One Does",
+      "titleZh": "Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么",
+      "summaryZh": "Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "文本分析/VOC",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:33+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3515d44b343a6e73",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Artificial Intelligence: Glossary",
+      "titleZh": "NN/g AI 术语表：从 token、上下文窗口到智能体、evals 与提示词注入",
+      "summaryZh": "NN/g 整理了一份面向产品与设计工作的 AI 术语表，解释 token、上下文窗口、智能体、evals 和提示词注入等术语。词条按字母排列，可查表、用浏览器查找或顺序阅读，并链接到 NN/g 的深入文章。定义遵循 AI 产品与 UX 工作中的用法，厂商和研究者的用法可能不同。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "非用研/通用"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-21T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9c9a177035c76800",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/how-to-create-apply-thematic-analysis-codebook-using-ai/",
+      "title": "How to Build and Apply a Thematic Analysis Codebook Using AI",
+      "titleZh": "如何用 AI 构建并应用主题分析编码本",
+      "summaryZh": "的指南演示如何用 AI 从首个编码到最终主题构建并应用主题分析编码本。指南具体说明在哪些环节、何时以及为何应信任 AI 工具，而不是依赖人工判断",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-17T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "19083b99b4768125",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/do-i-have-too-many-codes-in-my-qualitative-analysis/",
+      "title": "Do I have too many codes in my qualitative analysis?",
+      "titleZh": "我的定性分析编码是不是太多了？Quirkos 列出警示信号与精简方法",
+      "summaryZh": "Quirkos 列出定性分析中编码过多的几个警示信号：无法区分不同编码、多数编码为开放式且互不连接、检索结果碎片化到无意义、画布显得太小。建议用编码描述建立编码手册、合并近义编码、设置主题性上位编码来精简。Quirkos 中可悬停查看描述、右键合并，报告功能可查看全部描述。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-05-09T09:46:24+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a025d1c02bcc90be",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/exploratory-sequential-research-design-delvetool/",
+      "title": "Exploratory sequential design: A practical guide",
+      "titleZh": "探索性序列设计实用指南：将访谈转化为问卷并在 Delve 中编码",
+      "summaryZh": "Delve 的《探索性序列设计实用指南》讲解如何把访谈转化为问卷，并说明定性阶段的编码方法。文中包含一个真实研究示例，并演示如何在 Delve 中完成定性阶段编码。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "问卷/定量",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-04T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "66bedcdc83b6e13d",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-methodology/",
+      "title": "Kantar Brand Tracking Methodology: MDS & Metrics Explained",
+      "titleZh": "Kantar 品牌追踪方法论：MDS 框架与指标解析",
+      "summaryZh": "Kantar 用 MDS 框架与 Three Signals 整合四类数据做品牌追踪，衡量品牌健康。MDS 含七项指标，BrandZ 数据显示 Meaningful 与 Different 合计解释 94% 的 Pricing Power。Listen Labs 的对话式追踪实时解释 KPI 变动。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "行为数据",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T05:15:36+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "246a6f44e479e79a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/concept-testing-retail-products/",
+      "title": "Retail Concept Testing: Methods, Steps & Questions",
+      "titleZh": "零售概念测试：方法、步骤与问题",
+      "summaryZh": "Listen Labs 的零售概念测试覆盖产品概念、包装与货架吸引力、价格感知和自有品牌竞争四类，并给出 5 步流程。其 AI 主持访谈依托 50M+ 受访者网络，覆盖 45+ 国家和 120+ 语言，称 24 小时内交付分析结果，成本约为传统研究的三分之一。示例用 200 名已验证零食品类买家，对比 $2.99 与 $3.79 两个价格点。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T05:15:18+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0f26d800f5d1c33a",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/designing-ai-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Designing AI Products and Features: Study Guide",
+      "titleZh": "（）：设计 AI 产品与功能学习指南",
+      "summaryZh": "（）汇总了设计 AI 产品与功能的学习指南，围绕是否值得引入 AI 以及如何设计 AI 功能给出研究建议。指南强调，给网站加 AI 聊天机器人并不必然创造价值，需用审慎的方法先判断 AI 能否带来实际差异。它同时提醒既不要盲目乐观，也要在 AI 未产生价值时明确指出",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-18T17:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "04f60951feacbffd",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/chatgpt-for-thematic-analysis-alternatives/",
+      "title": "Can You Use ChatGPT for Thematic Analysis?",
+      "titleZh": "ChatGPT 能用于主题分析吗？",
+      "summaryZh": "ChatGPT 在主题分析中的“dump and done”式用法存在局限，但 ChatGPT 和 Delve 的 AI 助手仍能帮助节省时间。内容围绕二者在质性分析与主题分析中的实际提效方式展开，并说明这些用法边界。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-02-10T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9c0dcc371b7c9a38",
+      "sourceId": "testingtime",
+      "sourceName": "TestingTime",
+      "tier": "T1",
+      "url": "https://www.testingtime.com/blog/5-typische-herausforderungen-bei-der-uxr-analyse-und-wie-man-sie-bewaeltigt/",
+      "title": "5 typische Herausforderungen bei der UXR-Analyse und wie man sie bewältigt",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "洞察库/ResearchOps",
+        "研究伦理"
+      ],
+      "entities": [
+        "testingtime"
+      ],
+      "itemType": null,
+      "publishedAt": "2023-10-03T11:00:54+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "93c88061e60a139e",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/credibility-in-qualitative-research/",
+      "title": "Credibility in qualitative research: What it means and how to establish it with readers",
+      "titleZh": "Delve：定性研究中的可信度是什么，以及如何向读者建立可信度",
+      "summaryZh": "Delve 对定性研究中的可信度作出解释：研究结论是否与参与者的现实相符，并列出六种向读者建立可信度的方法。文章还进一步说明 Delve 如何让证据与数据保留在一起。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-08T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "d0312334ee3ab04f",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/what-is-dependability-in-qualitative-research/",
+      "title": "What is dependability in qualitative research?",
+      "titleZh": "定性研究中的可靠性（dependability）是什么：Delve 如何保留审计轨迹",
+      "summaryZh": "Delve 的指南指出，定性研究中的可靠性（dependability）指研究过程一致且可追溯，并可通过审计轨迹证明。指南还讲解如何建立可靠性，以及在 Delve 中保留审计轨迹。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-18T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f1b4d765faec550a",
+      "sourceId": "dynata",
+      "sourceName": "Dynata",
+      "tier": "T1",
+      "url": "https://www.dynata.com/why-dynata/resources/blog/how-to-write-survey-questions/",
+      "title": "How to Write Survey Questions That Reduce Bias and Improve Accuracy",
+      "titleZh": "如何撰写减少偏差、提高准确性的调查问题",
+      "summaryZh": "讲解如何通过问题措辞与结构设计减少调查偏差、提高数据准确性。调查偏差指数据收集中的系统性误差，会导致结果不准确或偏斜。当问题的撰写、结构或呈现方式影响受访者理解时，就可能引入偏差",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量"
+      ],
+      "entities": [
+        "dynata"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-07-09T16:21:19+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "57734a6f9347ee4d",
+      "sourceId": "rosenfeldmedia",
+      "sourceName": "Rosenfeld Media",
+      "tier": "T2",
+      "url": "https://rosenfeldmedia.com/want-to-understand-users-better-start-by-reading-body-talk/",
+      "title": "Want to understand users better? Start by reading Body Talk",
+      "titleZh": "新书《Body Talk》：读懂手势、姿态与注视，更深入理解用户",
+      "summaryZh": "Dane DeSutter 与 Stephanie Scopelitis 合著的《Body Talk》提出，手势、身体姿态和注视能揭示用户没说出口的另一半信息。书中给出 Three Bodies 框架，教研究者观察、分析并应用手势，覆盖基础研究、协同构思、设计验证到技术沟通的产品全流程。作者称这些做法无需新工具或预算，且是 AI 无法替代的研究技能。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T16:36:47+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e02e35c49c208ae3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-market-research-methods-startups/",
+      "title": "Customer Research Methods For Startups: A How-To Playbook",
+      "titleZh": "Listen Labs：初创公司客户研究方法操作手册",
+      "summaryZh": "Listen Labs 梳理初创公司客户研究方法，按创意、预发布、发布后三阶段给出组合建议。创意阶段建议 5–10 次客户发现访谈，预发布阶段用 20–30 次 AI 主持访谈加落地页测试。其平台称拥有 50M+ 验证样本库，可单日访谈最多 1,000 名客户并在 24 小时内交付分析，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:39+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "36d3f8bbcb45babc",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/ai-prompts-for-qualitative-research/",
+      "title": "AI Prompts for Qualitative Research: How to Get More from Delve's AI Features",
+      "titleZh": "Delve AI 功能提示词指南：如何写好定性研究提示词",
+      "summaryZh": "Delve 的定性研究 AI 提示词指南说明如何用好其 AI 功能，覆盖编码头脑风暴、总结和优化分析。内容提供针对这些环节的实用提示词写法。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "提示词/模板",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-06-30T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3330395388f74152",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/qualitative-codes-themes-names-uncertainty/",
+      "title": "When codes are themes, and themes are codes: uncertainty in qualitative analysis",
+      "titleZh": "Quirkos：编码何时成为主题，主题又如何成为编码？定性分析中的不确定性",
+      "summaryZh": "Quirkos 发文讨论定性分析中编码与主题的界限为何不确定，并借真实编码数据说明主题需经反复阅读与反思形成。文章以 Qualitative Researcher Journeys 项目为例，称 Vulnerabilities 从访谈摘要概览中出现后被视为贯穿性主题。文中还演示用 Quirkos Groups 给主题加标签、用 Properties 将来源分集。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-02-25T11:29:07+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "08e58d19623b331e",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/compare-best-software-teach-qualitative-analysis/",
+      "title": "The Best QDA Software for Teaching Qualitative Research",
+      "titleZh": "定性研究教学的最佳 QDA 软件指南",
+      "summaryZh": "面向定性研究教学，这份 QDA 软件指南以学生第一周即可上手为筛选重点。它比较各工具的设置时间、访问方式、工作流和真实课堂体验。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-09T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2422378ea48b1eec",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/queer-theory-and-qualitative-methods-an-unlikely-marriage/",
+      "title": "Queer theory and qualitative methods: an unlikely marriage?",
+      "titleZh": "酷儿理论与定性研究：一场不太可能的结合？",
+      "summaryZh": "Quirkos 最新博文由酷儿理论研究者撰写，讨论酷儿理论如何应用于定性研究，并区分酷儿理论与 LGBTQ+ 研究。文章梳理酷儿立场与反身性、抽样与数据收集、创意研究方法、参与式研究、酷儿自我民族志及研究伦理等路径，并讨论相关批评。作者强调不存在唯一正确的应用方式，而是呈现其主观视角下可用的研究路径。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-07-16T16:36:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f2094553e5f9ba08",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-scalability-guide/",
+      "title": "Customer Insights Platform Scalability: Practitioner’s Guide",
+      "titleZh": "Listen Labs 客户洞察平台可扩展性实践指南",
+      "summaryZh": "Listen Labs 在《客户洞察平台可扩展性实践指南》中提出六维框架，称其平台可将研究周期压缩到不到 24 小时，并覆盖 50M+ 验证受访者。六个维度包括数据量、受访者覆盖、周期时间、质量控制、单研究成本和跨研究知识，Listen Atlas 覆盖 45+ 国家和 120+ 语言。Quality Guard 实时监控访谈，平台成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:02:59+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fee9b56b425faf8e",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/trustworthiness-in-qualitative-research/",
+      "title": "Trustworthiness in qualitative research: What it means and how to show it",
+      "titleZh": "定性研究中的可信度：含义、展示方式与 Delve 的编码决策记录",
+      "summaryZh": "Delve 会在编码过程中持续记录编码决策，使定性研究的可信度有据可查。内容同时说明定性研究中可信度的含义与展示方式。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-07-14T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "c79ea5e8b5c6c363",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/qualitative-survey-analysis-guide/",
+      "title": "Qualitative Survey Analysis: A Practical Guide",
+      "titleZh": "定性问卷分析实用指南：Delve 如何简化定性编码流程",
+      "summaryZh": "Delve 的《定性问卷分析实用指南》梳理现代问卷分析方法，并说明其问卷分析软件如何让定性编码流程更易管理。该指南面向定性问卷分析实践，介绍软件辅助的编码管理思路。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "问卷/定量",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-09-10T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8d7070845f234ba8",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/how-to-cite-quirkos-materials/",
+      "title": "How to cite Quirkos materials",
+      "titleZh": "如何引用 Quirkos 材料：软件、课程、播客与数据集的 APA 格式指南",
+      "summaryZh": "Quirkos 给出材料引用指南，覆盖软件、网页与博客、在线课程、YouTube、网络研讨会、播客及示例数据集。软件按 APA 写作 Quirkos 2.5.3（2023）；课程 Doing Qualitative Research、数据集 'qual' 等也列出引用写法。文中提醒同一文档内引用格式需保持一致。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-01-07T13:37:33+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6803e0d57cc35267",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/manual-coding-vs-qualitative-coding-software/",
+      "title": "Manual Coding vs. Qualitative Coding Software: When to Make the Switch",
+      "titleZh": "手动编码 vs. 定性编码软件：何时切换到 Delve",
+      "summaryZh": "Delve 梳理定性研究从手动方法到定性编码软件的常见做法，并讨论何时应从手动编码切换到这类软件。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-31T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ae8db14e0640ada2",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-market-research-software-comparison/",
+      "title": "Market Research Software Comparison: How To Choose in 2026",
+      "titleZh": "Listen Labs 市场研究软件对比指南：2026 年如何选择六类工具",
+      "summaryZh": "Listen Labs 的市场研究软件对比指南把工具分为六类，并给出按研究目标选型的五步框架。其平台自述覆盖 AI 主持访谈全流程，依托 50M+ 验证受访者、45+ 国家与 120+ 语言，24 小时内交付结果。Microsoft 将研究等待时间从数周缩短到数小时，Anthropic 用原先 5-6 项研究的时间完成 100 项。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T05:03:05+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e1a9b2b0aa0c3d9c",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/reliability-validity-in-qualitative-research/",
+      "title": "Reliability and validity in qualitative research: What they mean and their qualitative equivalents",
+      "titleZh": "Delve 解释定性研究中的信度、效度及其定性对应概念",
+      "summaryZh": "Delve 发文解释定性研究中的信度与效度分别指什么，以及它们在定性研究中的对应概念。文章围绕这两个概念展开说明，并指出 Delve 这类定性工具可帮助研究者把研究记录过程做得更透明、有条理、可追溯。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-07-28T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "39cfbee29b546093",
+      "sourceId": "testingtime",
+      "sourceName": "TestingTime",
+      "tier": "T1",
+      "url": "https://www.testingtime.com/blog/wordpress-fuer-barrierefreies-design/",
+      "title": "Das Engagement von WordPress für barrierefreies Design",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2023-10-10T09:59:17+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "260854bd75cc158d",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/how-to-confidently-bring-advanced-research-in-house",
+      "title": "How To Confidently Bring Advanced Research In-House",
+      "titleZh": "quantilope：如何把高级研究自信地引入企业内部",
+      "summaryZh": "quantilope 的 Consumer Intelligence Platform 把从研究设计、高级方法分析到可分享产出的流程自动化，帮助企业将高级研究引入内部。平台覆盖 MaxDiff、Choice-based Conjoint、TURF analysis、Segmentation 与隐式联想测试等自动化高级方法。配套的 AI Research Partner quinn 可代建问卷并检索历史洞察，全部洞察可用一个实时链接在组织内共享。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-20T19:53:22+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4e863eccc2fccb69",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/transferability-in-qualitative-research/",
+      "title": "Transferability in qualitative research: What it is and how to write about it",
+      "titleZh": "定性研究中的可迁移性（transferability）：是什么以及如何撰写",
+      "summaryZh": "Delve 发文解释定性分析中的可迁移性（transferability）要求什么、如何满足，以及如何撰写相关说明。Delve 定性软件能在撰写结果时整理相关笔记。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-11T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0d013b6ec295e9e5",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/how-we-measure-ai-quality-at-dovetail/",
+      "title": "How we measure AI quality at Dovetail",
+      "titleZh": "Dovetail 如何衡量 AI 质量",
+      "summaryZh": "Dovetail 采用与真实用户结果挂钩的清晰指标评估 AI 系统，而非依赖关于准确率或智能的模糊说法。其原则是让 AI 质量可衡量、透明并持续改进。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-20T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a7e6f824dc1eb06d",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/marxism-and-critical-theory-in-qualitative-research/",
+      "title": "Marxism, critical theory and working class studies: economics and power in qualitative research",
+      "titleZh": "马克思主义、批判理论与工人阶级研究：定性研究中的经济与权力",
+      "summaryZh": "Quirkos 的定性研究方法文章梳理马克思主义理论中的阶级、资本主义剥削与异化概念，并回顾马克思在《资本论》未完成卷中对劳动者、资本家与财产所有者三类人的划分。文章还讨论阶级边界与阶级文化的主观性，以及收入低、就业灵活且保障有限的“precariat”等当代阶级议题。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-06-10T17:33:58+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "89b9064d774c99dd",
+      "sourceId": "surveycto",
+      "sourceName": "SurveyCTO",
+      "tier": "T1",
+      "url": "https://www.surveycto.com/data-collection-quality/surveyor-management-supervisor-scorecards/",
+      "title": "How to improve surveyor management with supervisor scorecards",
+      "titleZh": "：如何用督导记分卡改进调查员管理",
+      "summaryZh": "在指南中说明，督导记分卡可改进调查员管理、追踪 KPI，并加强现场监督以提升数据质量",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-01-15T00:12:09+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a86008423a4747f1",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/how-get-more-accurate-results-ai-qualitative-research/",
+      "title": "How to Get More Accurate Results from AI in Qualitative Research",
+      "titleZh": "Delve 指南：如何让 AI 在定性研究中给出更准确结果",
+      "summaryZh": "Delve 的指南讲解如何让 AI 在定性研究中给出更准确结果，聚焦 AI 辅助定性研究的结果准确性。文章未展开具体方法、样本量、效果指标或工具版本。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-05-19T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "68fb886213131534",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/generating-customer-intelligence-at-scale/",
+      "title": "What’s the best way to generate customer intelligence at scale?",
+      "titleZh": "大规模生成客户情报的最佳方式是什么？Dovetail 分步指南",
+      "summaryZh": "Dovetail 在博文中给出分步指南，讲解如何大规模获取客户情报、预判客户需求，并将情报整合进决策与产品原型。指南以 Dovetail 这类平台为例，说明生成和利用客户情报的流程。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2025-12-18T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

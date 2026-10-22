@@ -1,0 +1,50 @@
+{
+  "month": "2024-11",
+  "count": 2,
+  "items": [
+    {
+      "id": "0eeb3603c75c20e8",
+      "sourceId": "bit",
+      "sourceName": "Behaviour & Information Technology",
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2024.2431631?af=R",
+      "title": "Interdependence and trust analysis (ITA): a framework for human–machine team design",
+      "titleZh": "ITA（Interdependence and trust analysis）：人机团队设计框架",
+      "summaryZh": "Interdependence and trust analysis（ITA）框架用于人机团队设计，核心是分析人机团队中的相互依赖与信任。正文未提供方法细节或数据指标。",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2024-11-26T07:20:20+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8a2f08b20c89290b",
+      "sourceId": "bit",
+      "sourceName": "Behaviour & Information Technology",
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2024.2431050?af=R",
+      "title": "It was(n’t) me: vignette experiments on managers’ responsibility attribution in AI-advised decision-making",
+      "titleZh": "是我（不是我）：管理者在 AI 建议决策中的责任归因情境实验",
+      "summaryZh": "论文《It was(n’t) me》以 vignette 实验考察管理者在 AI 建议决策中的责任归因。原文未提供样本量、效应量或实验结论。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2024-11-26T01:29:00+00:00",
+      "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
+}

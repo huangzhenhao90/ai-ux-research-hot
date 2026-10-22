@@ -1,7 +1,188 @@
 {
   "month": "2026-07",
-  "count": 18,
+  "count": 25,
   "items": [
+    {
+      "id": "a5f46290272974dd",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/suns-out-2026-launch/",
+      "title": "Our Sun’s Out launch: Introducing Digital Twins, agents, Channels 2.0, and new enterprise-grade features",
+      "titleZh": "Dovetail 夏季发布推出 Digital Twins、agents、Channels 2.0 与企业级功能",
+      "summaryZh": "Dovetail 在 Sun's Out 夏季发布中推出 Digital Twins、agents、Channels 2.0 以及新的企业级功能。此次发布还包含 MCP connectors 和企业级治理能力。官方称，这些更新意在缩短客户上下文与业务决策之间的距离。",
+      "reason": "Dovetail 在同一次夏季发布里推出 Digital Twins、agents 与 MCP 连接器，可用来观察洞察库与智能体结合的形态。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "Agent",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-07-14T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1b9962ed79acf9f4",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/collaboration-in-delve/",
+      "title": "Collaboration in Delve: Assign, Code, and Align as a Team",
+      "titleZh": "更新团队编码协作，新增 Transcript Dashboard、就地编辑与部分计分的编码者一致性",
+      "summaryZh": "更新团队定性编码协作，新增 Transcript Dashboard 用于分配和跟踪团队工作，编码对比页面支持就地编辑，多编码片段可采用部分计分的编码者一致性计算。三项更新分别对应分工跟踪、编码对齐与一致性核对，面向多人协作处理同一批材料的场景",
+      "reason": "更新把任务分配、编码对比与编码者一致性放进同一协作流程，团队做定性编码时可据此调整分工与质检方式。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-07-24T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "cde5eb2df8b572a4",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/suns-out-summer-launch-26/",
+      "title": "Dovetail launches major AI-powered platform expansion including Agents and category-defining Digital Twins, to close the gap between customer signal and business outcomes",
+      "titleZh": "Dovetail 发布 AI 平台扩展，推出 Agents 与 Digital Twins",
+      "summaryZh": "Dovetail 宣布 Sun’s Out Summer Launch ’26，涉及 AI Agents、Digital Twins、Channels 2.0、MCP 连接器和 ISO 42001 认证。官方称这次平台扩展的目标是缩小客户信号与业务结果之间的差距。Digital Twins 被描述为具有品类定义意义的数字孪生能力。",
+      "reason": "Dovetail 一次性公布 Agents、Digital Twins、Channels 2.0 与 MCP 连接器，研究员可据此判断洞察平台正往哪些环节延伸。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Agent"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-07-14T12:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f1b4d765faec550a",
+      "sourceId": "dynata",
+      "sourceName": "Dynata",
+      "tier": "T1",
+      "url": "https://www.dynata.com/why-dynata/resources/blog/how-to-write-survey-questions/",
+      "title": "How to Write Survey Questions That Reduce Bias and Improve Accuracy",
+      "titleZh": "如何撰写减少偏差、提高准确性的调查问题",
+      "summaryZh": "讲解如何通过问题措辞与结构设计减少调查偏差、提高数据准确性。调查偏差指数据收集中的系统性误差，会导致结果不准确或偏斜。当问题的撰写、结构或呈现方式影响受访者理解时，就可能引入偏差",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量"
+      ],
+      "entities": [
+        "dynata"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-07-09T16:21:19+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fee9b56b425faf8e",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/trustworthiness-in-qualitative-research/",
+      "title": "Trustworthiness in qualitative research: What it means and how to show it",
+      "titleZh": "定性研究中的可信度：含义、展示方式与 Delve 的编码决策记录",
+      "summaryZh": "Delve 会在编码过程中持续记录编码决策，使定性研究的可信度有据可查。内容同时说明定性研究中可信度的含义与展示方式。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-07-14T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e1a9b2b0aa0c3d9c",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/reliability-validity-in-qualitative-research/",
+      "title": "Reliability and validity in qualitative research: What they mean and their qualitative equivalents",
+      "titleZh": "Delve 解释定性研究中的信度、效度及其定性对应概念",
+      "summaryZh": "Delve 发文解释定性研究中的信度与效度分别指什么，以及它们在定性研究中的对应概念。文章围绕这两个概念展开说明，并指出 Delve 这类定性工具可帮助研究者把研究记录过程做得更透明、有条理、可追溯。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-07-28T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "af8a0dd787108be4",
+      "sourceId": "dynata",
+      "sourceName": "Dynata",
+      "tier": "T1",
+      "url": "https://www.dynata.com/why-dynata/resources/blog/net-promoter-score/",
+      "title": "Net Promoter Score (NPS): What It Measures, What It Misses, and Why It Still Matters",
+      "titleZh": "Net Promoter Score（NPS）：衡量什么、遗漏什么，以及为何仍然重要",
+      "summaryZh": "NPS 以单一问题和简单公式衡量客户忠诚度，并给出组织各部门都能追踪的分数。自 2000 年代初推出以来，它已成为跨行业的标准指标。早期创业公司与全球企业都在使用，吸引力正来自这一个问题和可追踪的分数。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "问卷/定量"
+      ],
+      "entities": [
+        "dynata"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-07-09T16:51:21+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "0901b5297530d528",
       "sourceId": "dynata",

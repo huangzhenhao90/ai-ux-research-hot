@@ -1,0 +1,27 @@
+{
+  "id": "3330395388f74152",
+  "sourceId": "quirkos",
+  "sourceName": "Quirkos",
+  "tier": "T1",
+  "url": "https://www.quirkos.com/blog/post/qualitative-codes-themes-names-uncertainty/",
+  "title": "When codes are themes, and themes are codes: uncertainty in qualitative analysis",
+  "titleZh": "Quirkos：编码何时成为主题，主题又如何成为编码？定性分析中的不确定性",
+  "summaryZh": "Quirkos 发文讨论定性分析中编码与主题的界限为何不确定，并借真实编码数据说明主题需经反复阅读与反思形成。文章以 Qualitative Researcher Journeys 项目为例，称 Vulnerabilities 从访谈摘要概览中出现后被视为贯穿性主题。文中还演示用 Quirkos Groups 给主题加标签、用 Properties 将来源分集。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "quirkos"
+  ],
+  "itemType": null,
+  "publishedAt": "2025-02-25T11:29:07+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

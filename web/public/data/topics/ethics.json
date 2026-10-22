@@ -3,6 +3,106 @@
   "name": "研究伦理",
   "group": "field",
   "definition": "合成用户与 AI 研究的知情同意、隐私、偏见与合规争议。",
-  "count": 0,
-  "items": []
+  "count": 4,
+  "items": [
+    {
+      "id": "9c0dcc371b7c9a38",
+      "sourceId": "testingtime",
+      "sourceName": "TestingTime",
+      "tier": "T1",
+      "url": "https://www.testingtime.com/blog/5-typische-herausforderungen-bei-der-uxr-analyse-und-wie-man-sie-bewaeltigt/",
+      "title": "5 typische Herausforderungen bei der UXR-Analyse und wie man sie bewältigt",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "洞察库/ResearchOps",
+        "研究伦理"
+      ],
+      "entities": [
+        "testingtime"
+      ],
+      "itemType": null,
+      "publishedAt": "2023-10-03T11:00:54+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8719f3a37f50c586",
+      "sourceId": "surveycto",
+      "sourceName": "SurveyCTO",
+      "tier": "T1",
+      "url": "https://www.surveycto.com/press-releases/hipaa-compliance/",
+      "title": "Medical professionals, protect your data with HIPAA-compliant SurveyCTO",
+      "titleZh": "SurveyCTO 数据收集平台正式符合 HIPAA 合规要求",
+      "summaryZh": "SurveyCTO 的数据收集平台现已正式符合 HIPAA 合规要求，医疗专业人员可借助这一合规平台保护自身数据。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "研究伦理"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-03T20:43:47+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2422378ea48b1eec",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/queer-theory-and-qualitative-methods-an-unlikely-marriage/",
+      "title": "Queer theory and qualitative methods: an unlikely marriage?",
+      "titleZh": "酷儿理论与定性研究：一场不太可能的结合？",
+      "summaryZh": "Quirkos 最新博文由酷儿理论研究者撰写，讨论酷儿理论如何应用于定性研究，并区分酷儿理论与 LGBTQ+ 研究。文章梳理酷儿立场与反身性、抽样与数据收集、创意研究方法、参与式研究、酷儿自我民族志及研究伦理等路径，并讨论相关批评。作者强调不存在唯一正确的应用方式，而是呈现其主观视角下可用的研究路径。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2025-07-16T16:36:00+00:00",
+      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "922ce100198fa404",
+      "sourceId": "jmmr",
+      "sourceName": "Journal of Mixed Methods Research",
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1558689817748110?ai=2b4&mi=ehikzz&af=R",
+      "title": "WITHDRAWAL–Administrative Duplicate Publication: After Triangulation, What Next?",
+      "titleZh": "《Journal of Mixed Methods Research》撤稿：行政性重复发表《三角互证之后，下一步是什么？》",
+      "summaryZh": "《Journal of Mixed Methods Research》发布撤稿通知，涉及《三角互证之后，下一步是什么？》的行政性重复发表。该条目以 Ahead of Print 形式发布，撤稿性质标注为行政性重复发表。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2022-04-07T06:05:32+00:00",
+      "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

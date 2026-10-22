@@ -1,0 +1,26 @@
+{
+  "id": "8719f3a37f50c586",
+  "sourceId": "surveycto",
+  "sourceName": "SurveyCTO",
+  "tier": "T1",
+  "url": "https://www.surveycto.com/press-releases/hipaa-compliance/",
+  "title": "Medical professionals, protect your data with HIPAA-compliant SurveyCTO",
+  "titleZh": "SurveyCTO 数据收集平台正式符合 HIPAA 合规要求",
+  "summaryZh": "SurveyCTO 的数据收集平台现已正式符合 HIPAA 合规要求，医疗专业人员可借助这一合规平台保护自身数据。",
+  "reason": null,
+  "category": "tools",
+  "tags": [
+    "功能更新",
+    "研究伦理"
+  ],
+  "entities": [
+    "surveycto"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-03-03T20:43:47+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

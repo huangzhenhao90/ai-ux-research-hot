@@ -1,0 +1,27 @@
+{
+  "id": "bc1ebf8aeab3bf85",
+  "sourceId": "cint",
+  "sourceName": "Cint",
+  "tier": "T1",
+  "url": "https://www.cint.com/blog/the-role-of-research-in-an-age-of-ai-and-political-polarization/",
+  "title": "The role of research in an age of AI and political polarization",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "市场研究",
+    "问卷/定量"
+  ],
+  "entities": [
+    "cint"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-09-18T18:24:11+00:00",
+  "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

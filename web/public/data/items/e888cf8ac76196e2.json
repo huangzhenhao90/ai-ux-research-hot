@@ -1,0 +1,27 @@
+{
+  "id": "e888cf8ac76196e2",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/no-your-team-cant-just-use-chatgpt-for-this/",
+  "title": "No, your team can't just use ChatGPT for this",
+  "titleZh": "不，团队不能只用 ChatGPT：Dovetail 解释客户数据与 AI 技术栈连接",
+  "summaryZh": "Dovetail 解释团队不能只靠 ChatGPT、Claude 和 Cursor：缺少客户数据时，这些工具只是在猜。文章称这正是 Dovetail 要连接团队 AI 技术栈的原因。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "洞察库/ResearchOps",
+    "Dovetail"
+  ],
+  "entities": [
+    "dovetail"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-04-23T14:00:00+00:00",
+  "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
