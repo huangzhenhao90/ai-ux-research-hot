@@ -1,5 +1,5 @@
 {
-  "count": 487,
+  "count": 490,
   "items": [
     {
       "id": "8e0980b9f42d4533",
@@ -3286,6 +3286,42 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
       "publishedAt": "2025-11-24T12:14:05+00:00"
+    },
+    {
+      "id": "986a5d81b1723ee4",
+      "title": "Entrevista UX Designer",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Reddit r/UXResearch",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xcg9u9/entrevista_ux_designer/",
+      "publishedAt": "2026-10-22T11:43:37+00:00"
+    },
+    {
+      "id": "037b8bc70fcf23e8",
+      "title": "What makes a good user experience for my mobile app?",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Mopinion",
+      "url": "https://mopinion.com/what-makes-a-good-user-experience-for-my-mobile-app/",
+      "publishedAt": "2026-10-22T09:00:05+00:00"
+    },
+    {
+      "id": "2d8277645afd9b12",
+      "title": "Ipsos Cost of Living Monitor 2026",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-cost-living-monitor-2026",
+      "publishedAt": "2026-10-22T08:00:00+00:00"
     },
     {
       "id": "c8c8c5eb60054bdf",
