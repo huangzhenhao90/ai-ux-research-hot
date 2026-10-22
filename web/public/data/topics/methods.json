@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 47,
+  "count": 50,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -150,6 +150,33 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "766b4f8ed1745f9a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/prototype-testing-with-users-playbook/",
+      "title": "How To Do Prototype Testing With Users: 6-Step Playbook",
+      "titleZh": "Listen Labs 的 6 步用户原型测试操作指南",
+      "summaryZh": "Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–4 人，量化指标则需 NN/g 建议的 20+ 用户。作者还称 AI 主持访谈可在 50–100+ 场次上同时观察屏幕行为并实时追问矛盾。",
+      "reason": "文中把原型保真度与要验证的决策一一对应，并说明 5 用户规则在哪些条件下失效，可供团队设计测试方案时参照。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-10-22T05:00:54+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "64c8d6b14fcc84d0",
@@ -744,6 +771,29 @@
       "relation": null
     },
     {
+      "id": "b66647aea1813d83",
+      "sourceId": "mopinion",
+      "sourceName": "Mopinion",
+      "tier": "T1",
+      "url": "https://mopinion.com/build-the-best-online-feedback-forms/",
+      "title": "How to build the best online feedback forms",
+      "titleZh": "Mopinion：如何构建最佳在线反馈表单",
+      "summaryZh": "Mopinion 的指南讲解如何构建最佳在线反馈表单，核心是先明确一个目标。表单应选择相关问题、采用可访问设计，并在客户旅程的合适时机展示，以了解访客需求、遇到的问题和网站或 App 体验。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T07:14:53+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "08e58d19623b331e",
       "sourceId": "delve",
       "sourceName": "Delve",
@@ -1095,6 +1145,34 @@
       "itemType": null,
       "publishedAt": "2025-06-10T17:33:58+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "443e6c9089eaf32a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-retail-market-research-practices/",
+      "title": "Retail Consumer Insights Best Practices for 2026",
+      "titleZh": "Listen Labs：2026 零售消费者洞察最佳实践，8 项决策优先准则",
+      "summaryZh": "Listen Labs 发布 2026 零售消费者洞察最佳实践，提出以业务决策为锚的 8 项准则。平台称可招募 50M+ 验证受访者、覆盖 45+ 国家，支持 120+ 语言的 AI 主持访谈，并在 24 小时内交付以往需 4–6 周的分析。文章还称平台已完成超 100 万场 AI 主持访谈。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T05:04:01+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

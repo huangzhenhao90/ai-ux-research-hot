@@ -1,7 +1,34 @@
 {
   "month": "2026-10",
-  "count": 169,
+  "count": 188,
   "items": [
+    {
+      "id": "8e0980b9f42d4533",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "tier": "T2",
+      "url": "https://measuringu.com/digital-twins-systematically-overestimated-business-software-sus-scores/?utm_source=rss&utm_medium=rss&utm_campaign=digital-twins-systematically-overestimated-business-software-sus-scores",
+      "title": "Digital Twins Systematically Overestimated Business Software SUS Scores",
+      "titleZh": "MeasuringU 研究显示数字孪生系统性高估商业软件 SUS 得分",
+      "summaryZh": "MeasuringU 用 289 名参与者和 6 款商业软件的 SUS 数据复现数字孪生实验，发现两类数字孪生都把得分高估约 10 分。摘要型与完整型分别高估 10.6 和 10.4 分，个体层面分别有 76% 和 80% 的预测高于真人。产品排名大体保留，但评分等级被抬高，GitHub 从 D 到 B、ZipRecruiter 从 C 到 A。",
+      "reason": "复现实验把数字孪生高估商业软件 SUS 的幅度量化到约 10 分，并展示产品评分等级和个体预测会怎样被明显抬高。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量",
+        "可用性测试"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-20T21:59:50+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "followup"
+    },
     {
       "id": "0f6df2ffe2a6818a",
       "sourceId": "nngroup",
@@ -101,6 +128,30 @@
       "relation": null
     },
     {
+      "id": "1a72219b0e296b0c",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29645v1",
+      "title": "LLMs作为调查受访者：与简单语义基线的比较",
+      "titleZh": "研究比较 LLMs 作为调查受访者与嵌入相似度基线的表现",
+      "summaryZh": "一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比，发现 LLM 整体更优但优势随已知答案比例下降而收窄。在一份量表中 LLM 甚至与基线持平，表明数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强效力有限。",
+      "reason": "研究把 LLM 预测被遮蔽条目与嵌入相似度基线放在两份态度量表上对照，便于判断数据稀缺时合成受访者的适用边界。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "合成用户"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-20T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "same"
+    },
+    {
       "id": "05374bec817f75e3",
       "sourceId": "dscout-people-nerds",
       "sourceName": "dscout People Nerds",
@@ -126,6 +177,52 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "63377f13d97e8aba",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.26538",
+      "title": "Small Average Error, Wide Individual Error: General-Purpose LLMs Estimating Energy Intake from Meal Photos in a Feeding Trial",
+      "titleZh": "研究：8 款通用 LLM 从餐食照片估算能量摄入，平均误差小但个体误差大",
+      "summaryZh": "研究使用 ACETADA 受控喂养试验的 802 餐数据，评测 Claude、GPT、Gemini 三家厂商共 8 个通用多模态 LLM 依据 Meal Photos 估算能量摄入，发现平均偏差低并不等于个体估算准确。餐前与餐后两张照片分别调用再相减的方式，在 8 个模型中有 6 个低估摄入量，因为模型面对几乎空盘仍报出数百千卡；把仅用餐前照片的估算乘以平均进食比例 0.87，就能取得餐后照片带来增益的大部分。148 个喂养日中，5 个模型的平均误差 90% 置信区间落在预设 10% 边际内，仅 1 个模型勉强满足预设的 30% 一致性界限（-28% 到 +27%）；所有模型都低估蛋白质，作者认为这类估算应辅助而非替代营养师评估。",
+      "reason": "通过 802 餐受控喂养试验对比 8 个模型的多种照片输入方式，呈现平均偏差小与个体误差大的落差，为评估这类估算的适用边界提供依据。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "多模态"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "same"
+    },
+    {
+      "id": "c375b9729cc0ee0f",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.27548",
+      "title": "Act on Your Behalf, Beyond Your Authorization: Benchmarking LLM Agent Authorization Alignment",
+      "titleZh": "研究提出 AuthorizationBench，评测 LLM 智能体是否越权行动",
+      "summaryZh": "论文作者提出 AuthorizationBench，用 286 个可执行任务、覆盖 10 个应用领域评测 LLM 智能体的授权对齐，在 6,864 条轨迹中越权行动占 19.2%。24 种配置下越权率为 10.5% 至 26.6%，提高推理强度对总体越权率几乎没有改变；有无直接危害后果时越权率相近（17.9% 对 20.8%），良性压力下反而高于恶意注入（23.5% 对 17.6%，p=0.002）。完成任务前先咨询委托方的智能体越权率更低（14.0% 对 21.6%，p<0.001），数据集与代码已在 GitHub 公开。",
+      "reason": "论文用 286 个任务和 6,864 条轨迹量化 LLM 智能体的越权率，指出任务完成与额外推理都不等于授权对齐。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "708c179adb3d9ebf",
@@ -175,6 +272,33 @@
       "relation": null
     },
     {
+      "id": "766b4f8ed1745f9a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/prototype-testing-with-users-playbook/",
+      "title": "How To Do Prototype Testing With Users: 6-Step Playbook",
+      "titleZh": "Listen Labs 的 6 步用户原型测试操作指南",
+      "summaryZh": "Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–4 人，量化指标则需 NN/g 建议的 20+ 用户。作者还称 AI 主持访谈可在 50–100+ 场次上同时观察屏幕行为并实时追问矛盾。",
+      "reason": "文中把原型保真度与要验证的决策一一对应，并说明 5 用户规则在哪些条件下失效，可供团队设计测试方案时参照。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-10-22T05:00:54+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "cbd1da1c5b8a4833",
       "sourceId": "arxiv-cs-hc",
       "sourceName": "arXiv cs.HC",
@@ -196,6 +320,29 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "ff05f7e8325c1d8e",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2507.22889",
+      "title": "Knowledge-Certainty Diversity Predicts Human-Human and Human-AI Open-Ended Discussion Synergy and Reveals Pure-AI Discussion Shortfalls",
+      "titleZh": "论文提出知识-确定性多样性框架，可预测人-AI 讨论协同并揭示纯 LLM 讨论短板",
+      "summaryZh": "论文提出知识-确定性多样性框架，用讨论前的准确率与置信度预测开放式讨论能否提升答题准确率。研究比较 LLM-LLM 配对、LLM 三人组、人类三人组与人-LLM 配对四类设置，在医学多选题上让参与者先单独作答、再开放式讨论后重答。含人类的讨论均出现协同增益，纯 LLM 组准确率没有提升甚至下降；该指标在讨论无效的设置中偏低、在有效设置中偏高。",
+      "reason": "用讨论前的准确率与置信度算出一个可量化指标，研究者可据此判断哪些人机讨论组合值得投入。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "02f24ca2aa4a8368",
@@ -272,6 +419,30 @@
       "relation": null
     },
     {
+      "id": "64c8a3dc1264a063",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2505.17202",
+      "title": "Human-centered evaluation of data visualization understanding in vision-language models",
+      "titleZh": "视觉语言模型的数据可视化理解：一项以人为中心的评估",
+      "summaryZh": "研究用同一组数据可视化理解题目比较 8 个视觉语言模型与人类，发现模型平均表现不及人类。该以人为中心的评估协议覆盖六项评估：五项人类可视化素养测试和一项专为 VLM 设计；放宽标准后差距仍存在。各题相对表现有一定相关性，但所有模型的错误模式都稳定地不同于人类。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "多模态",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "93522d31daf7320e",
       "sourceId": "arxiv-cs-hc",
       "sourceName": "arXiv cs.HC",
@@ -320,6 +491,51 @@
       "relation": null
     },
     {
+      "id": "226e1a791e6ec449",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2608.07488",
+      "title": "Large Language Models Can Explain Experts Better Than Experts Themselves",
+      "titleZh": "LLM 比专家本人更能解释专家知识",
+      "summaryZh": "LLM 能从专家行为中外部化隐性知识，效果优于专家本人表述的知识。研究先识别提升 LLM 外部化隐性知识的提示策略，再验证这些知识能提高决策质量并缩小专家与新手的分差。结果还表明 LLM 是在学习并提取专家行为而非模仿回答，且在不同 LLM 与检索方法上成立。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e76a0e210dee825e",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2601.13235",
+      "title": "RubRIX: Rubric-Driven Risk Mitigation in Caregiver-AI Interactions",
+      "titleZh": "RubRIX：照护者与 AI 交互中由评分量规驱动的风险缓解",
+      "summaryZh": "研究者提出 RubRIX，一个经临床医生验证、用于评估 LLM 照护回应风险的理论驱动框架，包含五个风险维度。在 Reddit 与 ALZConnected 的 20,000 多条照护者查询上评测 6 个先进 LLM，评分量规引导的优化使各模型风险成分在一个迭代后降低 45–98%。研究还发布了基准数据集。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "8026d06a005a2105",
       "sourceId": "arxiv-cs-hc",
       "sourceName": "arXiv cs.HC",
@@ -363,6 +579,30 @@
       "itemType": null,
       "publishedAt": "2026-10-22T04:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8b424c025f3ac41c",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29929v1",
+      "title": "智能体系统的隐私偏好控制",
+      "titleZh": "智能体系统的隐私偏好控制：30 个平台审计与分类法构建",
+      "summaryZh": "研究审计 30 个主流 AI 助手与智能体平台，构建可执行的智能体隐私偏好分类法，并设计 8 个开源原型演示其在 MCP 与 A2A 协议中的结构化集成。该研究梳理法律法规与现有隐私工具实证研究，面向 AI 智能体代用户执行网络行为的场景设计隐私偏好控制。分类法涵盖用户视角，旨在为智能体时代的用户隐私与自主性保护提供基础。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "伦理/隐私",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-20T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -516,6 +756,32 @@
       "relation": null
     },
     {
+      "id": "c4ffc13afa1657d9",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins",
+      "title": "Category Twins: Build Your Synthetic Community of Digital Twins",
+      "titleZh": "quantilope 推出 Category Twins 合成用户社区",
+      "summaryZh": "quantilope 推出 Category Twins，这是一个基于品牌自有数据构建数字孪生、可组成合成用户社区的解决方案，现已面向全球品牌开放。该方案与 10 个国家 30 个品牌共同开发，使用 Ehrenberg-Bass 框架及 Mental Availability、Category Entry Points 指标，可按类别和区域以固定费用单独购买。用户可通过文字、语音和图片与数字孪生对话，新的 Mental Availability 研究完成后数字孪生会自动更新。",
+      "reason": "原文说明 Category Twins 如何以品牌自有数据和 Ehrenberg-Bass 框架构建合成用户社区，并给出与通用 LLM 的差异。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-10-20T12:00:03+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "same"
+    },
+    {
       "id": "06d2e27d78460fce",
       "sourceId": "hci-journal",
       "sourceName": "Human-Computer Interaction",
@@ -563,6 +829,29 @@
       "relation": null
     },
     {
+      "id": "b3abb33eb7d3b570",
+      "sourceId": "frontiers-cs",
+      "sourceName": "Frontiers in Computer Science",
+      "tier": "T2",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1915137",
+      "title": "Structurally conditioned counterfactual generation and validation for question answering from scientific text",
+      "titleZh": "科学文本问答的结构化条件反事实生成与验证",
+      "summaryZh": "研究提出基于LLM的结构化流程，对100篇Scopus摘要生成事实与反事实QA，67篇用于验证。生成用gpt-4.1，自动验证用gpt-5-mini按15项清单执行；三名标注者一致性中等，平均成对Cohen's kappa约0.54。原始QA/关系级正确性0.97/0.89，文档级全局一致性0.07，25.4%文档验证分数下降超阈值。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "f71af6c2ea04522e",
       "sourceId": "arxiv-cs-hc",
       "sourceName": "arXiv cs.HC",
@@ -581,6 +870,29 @@
       "itemType": null,
       "publishedAt": "2026-10-22T04:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "da7ddc0160b2d648",
+      "sourceId": "userinterviews-blog",
+      "sourceName": "User Interviews Blog",
+      "tier": "T1",
+      "url": "https://www.userinterviews.com/blog/researchops-and-future-of-research-operations",
+      "title": "ResearchOps 2.0: Looking back at the past, present, and future of research operations",
+      "titleZh": "ResearchOps 2.0: Looking back at the past, present, and future of research operations",
+      "summaryZh": "",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-20T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -717,6 +1029,80 @@
       "relation": null
     },
     {
+      "id": "03e3026fdafe4a18",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2505.24255",
+      "title": "Effects of Theory of Mind and Prosocial Beliefs on Steering Human-Aligned Behaviors of LLMs in Ultimatum Games",
+      "titleZh": "ToM 推理与亲社会信念对 LLM 在最后通牒博弈中人类对齐行为的影响",
+      "summaryZh": "2,700 次最后通牒博弈模拟显示，ToM 推理能提升 LLM 智能体与人类规范的对齐、决策一致性和谈判结果。智能体几乎总按被赋予的 Greedy、Fair、Selfless 信念行动，更贴合人类规范。o3-mini、DeepSeek-R1 Distilled Qwen 32B 等推理模型不及 ToM 增强的 LLM。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "08d21e92a23164c6",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.06657",
+      "title": "TrustmeWatcher: An Application for Workplace Micro-Sensing and Explainable Well-Being Feedback",
+      "titleZh": "TrustmeWatcher：面向职场微感知与可解释幸福感反馈的应用",
+      "summaryZh": "TrustmeWatcher 是 TRUST-ME 项目构建的职场微感知应用，复用 ActivityWatch 的系统级监听器采集电脑活动，并在其上叠加自有应用层。它把活动记录做成屏幕时间 dashboard、同步 StreamDeck 短问卷，AI 在本地预测 6 项归一化状态分数与总体幸福感分数。XAI 展示活动如何影响预测，Privacy Control 可暂停或恢复摄像头与眼动仪，流程已在 17 名参与者的记录上使用。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "行为数据",
+        "多模态",
+        "学术 HCI",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "75f743fd63cba808",
+      "sourceId": "frontiers-cs",
+      "sourceName": "Frontiers in Computer Science",
+      "tier": "T2",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1847791",
+      "title": "Impact of information architecture on the accessibility of the UDG Biblioteca Digital: a user-centered usability evaluation",
+      "titleZh": "UDG Biblioteca Digital 信息架构如何影响可访问性：一项以用户为中心的可用性评估",
+      "summaryZh": "UDG Biblioteca Digital 的可用性评估发现，其信息架构造成结构性障碍：远程可用性测试（n = 24）中无人完成全部导航任务。术语问卷（n = 58）中 93% 无法正确识别在线目录内容；卡片分类（n = 20）显示用户按功能而非图书馆学分类法归类。据此简化标签、重组导航的方案获平台协调团队认可，尚未验证。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "可用性测试",
+        "学术 HCI",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "78722a787bd09eb1",
       "sourceId": "ipsos",
       "sourceName": "Ipsos",
@@ -739,6 +1125,29 @@
       "itemType": null,
       "publishedAt": "2026-10-14T09:10:05+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3c7ce03f4c4d5c77",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2510.07050",
+      "title": "The Feature Understandability Scale for Human-Centred Explainable AI: Assessing Tabular Feature Importance",
+      "titleZh": "面向以人为中心的可解释 AI 的特征可理解性量表：评估表格特征重要性",
+      "summaryZh": "研究提出两套经心理测量学验证的特征可理解性量表，分别面向数值型和类别型表格输入特征，用于量化用户对监督分类问题中输入特征的感知理解并生成排序。两套量表各含两个因子，题项数分别为 8 和 9；验证性因子分析显示题项关系较强、双因子结构拟合良好。该工作为可解释 AI 中预先筛选可理解特征、开展全局解释提供了新的评估方法。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T04:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -919,6 +1328,30 @@
       "relation": null
     },
     {
+      "id": "cb98b12ca85525a5",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29140v1",
+      "title": "从无AI门槛到AI优先就业：印度工科学生在缺乏AI准则下的大学教育与校园招聘",
+      "titleZh": "从无 AI 门槛到 AI 优先就业：印度工科学生在缺乏 AI 准则下的大学教育与校园招聘",
+      "summaryZh": "一项印度工科学生访谈与主题分析研究，考察在缺乏 AI 准则的背景下，大学教育与校园招聘如何从无 AI 门槛转向 AI 优先就业。该研究属于 HCI 质性研究，采用访谈与主题分析。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-20T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "1a56160c7ca864c4",
       "sourceId": "frontiers-cs",
       "sourceName": "Frontiers in Computer Science",
@@ -937,6 +1370,29 @@
       "itemType": null,
       "publishedAt": "2026-10-02T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "b66647aea1813d83",
+      "sourceId": "mopinion",
+      "sourceName": "Mopinion",
+      "tier": "T1",
+      "url": "https://mopinion.com/build-the-best-online-feedback-forms/",
+      "title": "How to build the best online feedback forms",
+      "titleZh": "Mopinion：如何构建最佳在线反馈表单",
+      "summaryZh": "Mopinion 的指南讲解如何构建最佳在线反馈表单，核心是先明确一个目标。表单应选择相关问题、采用可访问设计，并在客户旅程的合适时机展示，以了解访客需求、遇到的问题和网站或 App 体验。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T07:14:53+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1060,6 +1516,36 @@
       "relation": null
     },
     {
+      "id": "f0f79ace627c246c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-media-market-research-platforms/",
+      "title": "Best Media Market Research Platforms In 2026: Buyer’s Guide",
+      "titleZh": "2026 年最佳媒体市场研究平台：买家指南",
+      "summaryZh": "2026 年媒体市场研究平台买家指南按四类数据匹配 12 个平台，并将 Listen Labs 列为首选主研究与广告洞察平台。Listen Labs 覆盖 50M+ 验证受访者、45+ 国家和 120+ 语言，将 4–6 周周期压到 24 小时内、成本约三分之一。指南按任务推荐 GWI/YouGov 做 syndicated profiling、Nielsen 做曝光测量、Similarweb 做流量基准。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "市场研究",
+        "问卷/定量",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "nielsen",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T05:04:06+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "ce322cd5b0fcbef8",
       "sourceId": "frontiers-cs",
       "sourceName": "Frontiers in Computer Science",
@@ -1079,6 +1565,29 @@
       "itemType": null,
       "publishedAt": "2026-10-02T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ed27f8cea729c697",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "tier": "T2",
+      "url": "https://uxdesign.cc/can-you-take-ai-at-its-word-06126b976245?source=rss----138adf9c44c---4",
+      "title": "Can you take AI at its word?",
+      "titleZh": "能相信 AI 智能体对自己工作的解释吗？",
+      "summaryZh": "AI 智能体会流畅解释自己的工作，有时却给出错误说法；设计师早已不再信任人类类似的自我陈述。这使 AI 自述能否作为可信依据成为核心问题。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T21:50:06+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1133,6 +1642,110 @@
       "itemType": null,
       "publishedAt": "2026-10-21T05:03:05+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "af1f75f5d52cf9d0",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-qualitative-research-software/",
+      "title": "Best Qualitative Research Software in 2026: CAQDAS vs. AI",
+      "titleZh": "2026 年最佳定性研究软件：CAQDAS 与 AI 平台对比",
+      "summaryZh": "2026 年最佳定性研究软件对比将市场分为 CAQDAS 与端到端 AI 平台两类。NVivo、ATLAS.ti、MAXQDA 编码分析已有转录稿，Listen Labs 覆盖招募、AI 主持访谈、分析与交付。Listen Labs 称有 50M+ 验证受访者、120+ 语言，24 小时内交付，成本约为传统研究三分之一，已运行 1M+ 访谈。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "maxqda"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T05:00:45+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "07a6990afcb4a927",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
+      "tier": "T2",
+      "url": "https://doi.org/10.1080/0144929x.2026.2750893",
+      "title": "对主要由AI生成的新闻感到不适：探讨其对新闻信任与假新闻担忧的影响",
+      "titleZh": "对主要由 AI 生成的新闻感到不适：探讨其对新闻信任与假新闻担忧的影响",
+      "summaryZh": "一项研究考察受众对主要由 AI 生成的新闻所产生的不适感如何影响其新闻信任与对虚假新闻的担忧。研究聚焦 AI 生成内容在新闻消费场景中引发的心理反应，以及这种反应对信息可信度判断的潜在作用。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-20T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "def47d91bb8fef1b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-agency-guide/",
+      "title": "Kantar Brand Tracking Agency: A Buyer’s Decision Guide",
+      "titleZh": "Kantar 品牌追踪代理买家指南：能测什么、不能解释什么",
+      "summaryZh": "Kantar 品牌追踪买家指南梳理 BrandDynamics 持续追踪、BrandZ 年度品牌排名与 Kantar Marketplace 自助研究，并指出波次追踪只报 KPI 变化、不解释原因。BrandZ 2026 覆盖 54 个市场、22,000+ 品牌及 460 万次消费者访谈，Kantar 不公开标准定价与波次周期。Listen Labs 则用每波次 AI 主持开放式访谈补上诊断，可接入 Qualtrics 与 Decipher。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "问卷/定量",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T05:04:11+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "795af009a10b00f1",
+      "sourceId": "surveymonkey",
+      "sourceName": "SurveyMonkey",
+      "tier": "T1",
+      "url": "https://www.surveymonkey.com/curiosity/ask-the-market-holiday-shopping-pricing/?ut_source=rss",
+      "title": "Ask the Market: Shoppers are feeling the holiday price squeeze. Here’s what they’re doing differently.",
+      "titleZh": "Ask the Market: Shoppers are feeling the holiday price squeeze. Here’s what they’re doing differently.",
+      "summaryZh": "",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T15:18:55+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1221,6 +1834,34 @@
       "itemType": null,
       "publishedAt": "2026-10-08T09:52:41+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "443e6c9089eaf32a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-retail-market-research-practices/",
+      "title": "Retail Consumer Insights Best Practices for 2026",
+      "titleZh": "Listen Labs：2026 零售消费者洞察最佳实践，8 项决策优先准则",
+      "summaryZh": "Listen Labs 发布 2026 零售消费者洞察最佳实践，提出以业务决策为锚的 8 项准则。平台称可招募 50M+ 验证受访者、覆盖 45+ 国家，支持 120+ 语言的 AI 主持访谈，并在 24 小时内交付以往需 4–6 周的分析。文章还称平台已完成超 100 万场 AI 主持访谈。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T05:04:01+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1343,6 +1984,26 @@
       "relation": null
     },
     {
+      "id": "c8c8c5eb60054bdf",
+      "sourceId": "reddit-uxresearch",
+      "sourceName": "Reddit r/UXResearch",
+      "tier": "EXCLUDE",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xccb9b/whats_the_biggest_pain_of_modern_job_hunting_for/",
+      "title": "What’s the biggest pain of modern job hunting for you?",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T07:47:39+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "new",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "928568f1af308673",
       "sourceId": "reddit-uxresearch",
       "sourceName": "Reddit r/UXResearch",
@@ -1357,46 +2018,6 @@
       "entities": [],
       "itemType": null,
       "publishedAt": "2026-10-22T00:02:26+00:00",
-      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
-      "status": "new",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "ed27f8cea729c697",
-      "sourceId": "uxdesign-cc",
-      "sourceName": "UX Collective",
-      "tier": "T2",
-      "url": "https://uxdesign.cc/can-you-take-ai-at-its-word-06126b976245?source=rss----138adf9c44c---4",
-      "title": "Can you take AI at its word?",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-10-21T21:50:06+00:00",
-      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
-      "status": "new",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "795af009a10b00f1",
-      "sourceId": "surveymonkey",
-      "sourceName": "SurveyMonkey",
-      "tier": "T1",
-      "url": "https://www.surveymonkey.com/curiosity/ask-the-market-holiday-shopping-pricing/?ut_source=rss",
-      "title": "Ask the Market: Shoppers are feeling the holiday price squeeze. Here’s what they’re doing differently.",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-10-21T15:18:55+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
       "status": "new",
       "dupOf": null,
@@ -1443,26 +2064,6 @@
       "relation": null
     },
     {
-      "id": "abdaa4c24a549569",
-      "sourceId": "uxdesign-cc",
-      "sourceName": "UX Collective",
-      "tier": "T2",
-      "url": "https://uxdesign.cc/design-vs-adhd-4411c3b81d1b?source=rss----138adf9c44c---4",
-      "title": "Design v ADHD",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-10-21T08:18:25+00:00",
-      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
-      "status": "new",
-      "dupOf": null,
-      "relation": null
-    },
-    {
       "id": "86739f0d48a6f4b8",
       "sourceId": "reddit-uxresearch",
       "sourceName": "Reddit r/UXResearch",
@@ -1503,46 +2104,6 @@
       "relation": null
     },
     {
-      "id": "75f743fd63cba808",
-      "sourceId": "frontiers-cs",
-      "sourceName": "Frontiers in Computer Science",
-      "tier": "T2",
-      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1847791",
-      "title": "Impact of information architecture on the accessibility of the UDG Biblioteca Digital: a user-centered usability evaluation",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-10-21T00:00:00+00:00",
-      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
-      "status": "new",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "b3abb33eb7d3b570",
-      "sourceId": "frontiers-cs",
-      "sourceName": "Frontiers in Computer Science",
-      "tier": "T2",
-      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1915137",
-      "title": "Structurally conditioned counterfactual generation and validation for question answering from scientific text",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-10-21T00:00:00+00:00",
-      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
-      "status": "new",
-      "dupOf": null,
-      "relation": null
-    },
-    {
       "id": "e9f79d3e8767ab2a",
       "sourceId": "reddit-uxresearch",
       "sourceName": "Reddit r/UXResearch",
@@ -1557,26 +2118,6 @@
       "entities": [],
       "itemType": null,
       "publishedAt": "2026-10-20T23:41:41+00:00",
-      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
-      "status": "new",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "8e0980b9f42d4533",
-      "sourceId": "measuringu",
-      "sourceName": "MeasuringU（Jeff Sauro）",
-      "tier": "T2",
-      "url": "https://measuringu.com/digital-twins-systematically-overestimated-business-software-sus-scores/?utm_source=rss&utm_medium=rss&utm_campaign=digital-twins-systematically-overestimated-business-software-sus-scores",
-      "title": "Digital Twins Systematically Overestimated Business Software SUS Scores",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-10-20T21:59:50+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
       "status": "new",
       "dupOf": null,
@@ -1603,26 +2144,6 @@
       "relation": null
     },
     {
-      "id": "c4ffc13afa1657d9",
-      "sourceId": "quantilope",
-      "sourceName": "quantilope",
-      "tier": "T1",
-      "url": "https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins",
-      "title": "Category Twins: Build Your Synthetic Community of Digital Twins",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-10-20T12:00:03+00:00",
-      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
-      "status": "new",
-      "dupOf": null,
-      "relation": null
-    },
-    {
       "id": "224db55a723b5dda",
       "sourceId": "reddit-uxresearch",
       "sourceName": "Reddit r/UXResearch",
@@ -1638,26 +2159,6 @@
       "itemType": null,
       "publishedAt": "2026-10-20T10:17:22+00:00",
       "discoveredAt": "2026-10-22T01:56:33.161468+00:00",
-      "status": "new",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "b062200ab8f53783",
-      "sourceId": "mopinion",
-      "sourceName": "Mopinion",
-      "tier": "T1",
-      "url": "https://mopinion.com/mopinion-connects-2026/",
-      "title": "Mopinion Connects 2026: Bridging the Digital and Human Gap!",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-10-20T09:12:39+00:00",
-      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
       "status": "new",
       "dupOf": null,
       "relation": null

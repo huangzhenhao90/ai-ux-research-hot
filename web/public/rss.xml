@@ -5,9 +5,36 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 22 Oct 2026 05:57:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 08:59:56 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 的 6 步用户原型测试操作指南</title>
+      <link>https://listenlabs.com/articles/prototype-testing-with-users-playbook/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/prototype-testing-with-users-playbook/</guid>
+      <pubDate>Thu, 22 Oct 2026 05:00:54 GMT</pubDate>
+      <description>Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–4 人，量化指标则需 NN/g 建议的 20+ 用户。作者还称 AI 主持访谈可在 50–100+ 场次上同时观察屏幕行为并实时追问矛盾。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>研究：8 款通用 LLM 从餐食照片估算能量摄入，平均误差小但个体误差大</title>
+      <link>https://arxiv.org/abs/2610.26538</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.26538</guid>
+      <pubDate>Thu, 22 Oct 2026 04:00:00 GMT</pubDate>
+      <description>研究使用 ACETADA 受控喂养试验的 802 餐数据，评测 Claude、GPT、Gemini 三家厂商共 8 个通用多模态 LLM 依据 Meal Photos 估算能量摄入，发现平均偏差低并不等于个体估算准确。餐前与餐后两张照片分别调用再相减的方式，在 8 个模型中有 6 个低估摄入量，因为模型面对几乎空盘仍报出数百千卡；把仅用餐前照片的估算乘以平均进食比例 0.87，就能取得餐后照片带来增益的大部分。148 个喂养日中，5 个模型的平均误差 90% 置信区间落在预设 10% 边际内，仅 1 个模型勉强满足预设的 30% 一致性界限（-28% 到 +27%）；所有模型都低估蛋白质，作者认为这类估算应辅助而非替代营养师评估。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>研究提出 AuthorizationBench，评测 LLM 智能体是否越权行动</title>
+      <link>https://arxiv.org/abs/2610.27548</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.27548</guid>
+      <pubDate>Thu, 22 Oct 2026 04:00:00 GMT</pubDate>
+      <description>论文作者提出 AuthorizationBench，用 286 个可执行任务、覆盖 10 个应用领域评测 LLM 智能体的授权对齐，在 6,864 条轨迹中越权行动占 19.2%。24 种配置下越权率为 10.5% 至 26.6%，提高推理强度对总体越权率几乎没有改变；有无直接危害后果时越权率相近（17.9% 对 20.8%），良性压力下反而高于恶意注入（23.5% 对 17.6%，p=0.002）。完成任务前先咨询委托方的智能体越权率更低（14.0% 对 21.6%，p&lt;0.001），数据集与代码已在 GitHub 公开。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
     <item>
       <title>研究提出 Serendiptionnaire 问卷，测量用户体验到的偶遇感</title>
       <link>https://arxiv.org/abs/2610.29487</link>
@@ -23,6 +50,15 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2610.29312</guid>
       <pubDate>Thu, 22 Oct 2026 04:00:00 GMT</pubDate>
       <description>一项 arXiv 论文用双盲全交叉设计，让 17 名高年级医学生对 GPT-4o、Claude 3.5 Sonnet、Llama-3.1 70B 和 HyperCLOVA X 四款 LLM 虚拟标准化病人在三个韩国 OSCE 病例中的每句话打分，基于 3 个句子级和 6 个会面级 Likert 指标共得到 7,480 个数据点。在会面层面，四款模型中有三款在可理解性、一致性和无幻觉三项上比人类专家参考低 0.08 到 0.47 个 Likert 点，Llama-3.1 70B 则在全部六项指标上显著低于参考。作者同时介绍了一个网页版 OSCE 平台，支持多种临床病例的虚拟练习，并在研究知情与隐私同意下持续收集学生与虚拟标准化病人的对话。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>论文提出知识-确定性多样性框架，可预测人-AI 讨论协同并揭示纯 LLM 讨论短板</title>
+      <link>https://arxiv.org/abs/2507.22889</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2507.22889</guid>
+      <pubDate>Thu, 22 Oct 2026 04:00:00 GMT</pubDate>
+      <description>论文提出知识-确定性多样性框架，用讨论前的准确率与置信度预测开放式讨论能否提升答题准确率。研究比较 LLM-LLM 配对、LLM 三人组、人类三人组与人-LLM 配对四类设置，在医学多选题上让参与者先单独作答、再开放式讨论后重答。含人类的讨论均出现协同增益，纯 LLM 组准确率没有提升甚至下降；该指标在讨论无效的设置中偏低、在有效设置中偏高。</description>
       <category>arXiv cs.HC</category>
       <category>research</category>
     </item>
@@ -63,6 +99,15 @@
       <category>research</category>
     </item>
     <item>
+      <title>MeasuringU 研究显示数字孪生系统性高估商业软件 SUS 得分</title>
+      <link>https://measuringu.com/digital-twins-systematically-overestimated-business-software-sus-scores/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=digital-twins-systematically-overestimated-business-software-sus-scores</link>
+      <guid isPermaLink="true">https://measuringu.com/digital-twins-systematically-overestimated-business-software-sus-scores/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=digital-twins-systematically-overestimated-business-software-sus-scores</guid>
+      <pubDate>Tue, 20 Oct 2026 21:59:50 GMT</pubDate>
+      <description>MeasuringU 用 289 名参与者和 6 款商业软件的 SUS 数据复现数字孪生实验，发现两类数字孪生都把得分高估约 10 分。摘要型与完整型分别高估 10.6 和 10.4 分，个体层面分别有 76% 和 80% 的预测高于真人。产品排名大体保留，但评分等级被抬高，GitHub 从 D 到 B、ZipRecruiter 从 C 到 A。</description>
+      <category>MeasuringU（Jeff Sauro）</category>
+      <category>research</category>
+    </item>
+    <item>
       <title>AI 暴露度不看职位看任务：用 Claude 测算的五步法</title>
       <link>https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4</link>
       <guid isPermaLink="true">https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4</guid>
@@ -79,6 +124,24 @@
       <description>Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。</description>
       <category>Cint</category>
       <category>opinion</category>
+    </item>
+    <item>
+      <title>研究比较 LLMs 作为调查受访者与嵌入相似度基线的表现</title>
+      <link>https://arxiv.org/abs/2610.29645v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.29645v1</guid>
+      <pubDate>Tue, 20 Oct 2026 16:00:00 GMT</pubDate>
+      <description>一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比，发现 LLM 整体更优但优势随已知答案比例下降而收窄。在一份量表中 LLM 甚至与基线持平，表明数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强效力有限。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>quantilope 推出 Category Twins 合成用户社区</title>
+      <link>https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins</link>
+      <guid isPermaLink="true">https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:03 GMT</pubDate>
+      <description>quantilope 推出 Category Twins，这是一个基于品牌自有数据构建数字孪生、可组成合成用户社区的解决方案，现已面向全球品牌开放。该方案与 10 个国家 30 个品牌共同开发，使用 Ehrenberg-Bass 框架及 Mental Availability、Category Entry Points 指标，可按类别和区域以固定费用单独购买。用户可通过文字、语音和图片与数字孪生对话，新的 Mental Availability 研究完成后数字孪生会自动更新。</description>
+      <category>quantilope</category>
+      <category>tools</category>
     </item>
     <item>
       <title>tvbeat 与 合作，为 TVNZ 和 Sky 推进新西兰 Total TV 受众测量</title>
@@ -391,24 +454,6 @@
       <pubDate>Wed, 08 Oct 2025 15:00:00 GMT</pubDate>
       <description>Dovetail 发布 2025 秋季版本，上线 10 项新能力，覆盖 AI Agents、Dashboards、Docs 与集成。官方称这些能力将客户反馈放在产品构建流程的核心，并改变传统线性的 SDLC 工作流。</description>
       <category>Dovetail Blog</category>
-      <category>tools</category>
-    </item>
-    <item>
-      <title>我的定性分析编码是不是太多了？Quirkos 列出警示信号与精简方法</title>
-      <link>https://www.quirkos.com/blog/post/do-i-have-too-many-codes-in-my-qualitative-analysis/</link>
-      <guid isPermaLink="true">https://www.quirkos.com/blog/post/do-i-have-too-many-codes-in-my-qualitative-analysis/</guid>
-      <pubDate>Fri, 09 May 2025 09:46:24 GMT</pubDate>
-      <description>Quirkos 列出定性分析中编码过多的几个警示信号：无法区分不同编码、多数编码为开放式且互不连接、检索结果碎片化到无意义、画布显得太小。建议用编码描述建立编码手册、合并近义编码、设置主题性上位编码来精简。Quirkos 中可悬停查看描述、右键合并，报告功能可查看全部描述。</description>
-      <category>Quirkos</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>Quirkos 3 发布：不含 AI 功能的完全离线定性分析软件</title>
-      <link>https://www.quirkos.com/blog/post/quirkos-3-is-released-best-qualitative-software/</link>
-      <guid isPermaLink="true">https://www.quirkos.com/blog/post/quirkos-3-is-released-best-qualitative-software/</guid>
-      <pubDate>Thu, 23 Jan 2025 10:27:25 GMT</pubDate>
-      <description>Quirkos 发布完全离线的桌面定性分析软件 Quirkos 3，支持 Windows、Mac 和 Linux，不含任何 AI 功能，数据不与外部共享。新版沿用 Quirkos Web 界面，新增各来源主题使用频次表、编码间相关性等报告与图表，并支持导入 REFI-QDA 标准项目。Quirkos 2 继续获得支持且与新版双向兼容；过去 3 个月购买者可免费升级，其他用户升级费为新许可的 50%，并提供 14 天免费试用。</description>
-      <category>Quirkos</category>
       <category>tools</category>
     </item>
   </channel>

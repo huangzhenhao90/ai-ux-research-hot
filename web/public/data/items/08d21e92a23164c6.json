@@ -1,0 +1,27 @@
+{
+  "id": "08d21e92a23164c6",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.06657",
+  "title": "TrustmeWatcher: An Application for Workplace Micro-Sensing and Explainable Well-Being Feedback",
+  "titleZh": "TrustmeWatcher：面向职场微感知与可解释幸福感反馈的应用",
+  "summaryZh": "TrustmeWatcher 是 TRUST-ME 项目构建的职场微感知应用，复用 ActivityWatch 的系统级监听器采集电脑活动，并在其上叠加自有应用层。它把活动记录做成屏幕时间 dashboard、同步 StreamDeck 短问卷，AI 在本地预测 6 项归一化状态分数与总体幸福感分数。XAI 展示活动如何影响预测，Privacy Control 可暂停或恢复摄像头与眼动仪，流程已在 17 名参与者的记录上使用。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "行为数据",
+    "多模态",
+    "学术 HCI",
+    "研究伦理"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-22T04:00:00+00:00",
+  "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

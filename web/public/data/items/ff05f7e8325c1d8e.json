@@ -1,0 +1,24 @@
+{
+  "id": "ff05f7e8325c1d8e",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2507.22889",
+  "title": "Knowledge-Certainty Diversity Predicts Human-Human and Human-AI Open-Ended Discussion Synergy and Reveals Pure-AI Discussion Shortfalls",
+  "titleZh": "论文提出知识-确定性多样性框架，可预测人-AI 讨论协同并揭示纯 LLM 讨论短板",
+  "summaryZh": "论文提出知识-确定性多样性框架，用讨论前的准确率与置信度预测开放式讨论能否提升答题准确率。研究比较 LLM-LLM 配对、LLM 三人组、人类三人组与人-LLM 配对四类设置，在医学多选题上让参与者先单独作答、再开放式讨论后重答。含人类的讨论均出现协同增益，纯 LLM 组准确率没有提升甚至下降；该指标在讨论无效的设置中偏低、在有效设置中偏高。",
+  "reason": "用讨论前的准确率与置信度算出一个可量化指标，研究者可据此判断哪些人机讨论组合值得投入。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "Agent"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-22T04:00:00+00:00",
+  "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

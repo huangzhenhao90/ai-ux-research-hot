@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 23,
+  "count": 28,
   "items": [
     {
       "id": "05374bec817f75e3",
@@ -154,6 +154,29 @@
       "publishedAt": "2026-09-04T17:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "da7ddc0160b2d648",
+      "sourceId": "userinterviews-blog",
+      "sourceName": "User Interviews Blog",
+      "tier": "T1",
+      "url": "https://www.userinterviews.com/blog/researchops-and-future-of-research-operations",
+      "title": "ResearchOps 2.0: Looking back at the past, present, and future of research operations",
+      "titleZh": "ResearchOps 2.0: Looking back at the past, present, and future of research operations",
+      "summaryZh": "",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-20T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -334,6 +357,59 @@
       "relation": null
     },
     {
+      "id": "f0f79ace627c246c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-media-market-research-platforms/",
+      "title": "Best Media Market Research Platforms In 2026: Buyer’s Guide",
+      "titleZh": "2026 年最佳媒体市场研究平台：买家指南",
+      "summaryZh": "2026 年媒体市场研究平台买家指南按四类数据匹配 12 个平台，并将 Listen Labs 列为首选主研究与广告洞察平台。Listen Labs 覆盖 50M+ 验证受访者、45+ 国家和 120+ 语言，将 4–6 周周期压到 24 小时内、成本约三分之一。指南按任务推荐 GWI/YouGov 做 syndicated profiling、Nielsen 做曝光测量、Similarweb 做流量基准。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "市场研究",
+        "问卷/定量",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "nielsen",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T05:04:06+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ed27f8cea729c697",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "tier": "T2",
+      "url": "https://uxdesign.cc/can-you-take-ai-at-its-word-06126b976245?source=rss----138adf9c44c---4",
+      "title": "Can you take AI at its word?",
+      "titleZh": "能相信 AI 智能体对自己工作的解释吗？",
+      "summaryZh": "AI 智能体会流畅解释自己的工作，有时却给出错误说法；设计师早已不再信任人类类似的自我陈述。这使 AI 自述能否作为可信依据成为核心问题。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T21:50:06+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "221137465a08966c",
       "sourceId": "usertesting-blog",
       "sourceName": "UserTesting Blog",
@@ -403,6 +479,61 @@
       "itemType": null,
       "publishedAt": "2026-06-14T23:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "af1f75f5d52cf9d0",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-qualitative-research-software/",
+      "title": "Best Qualitative Research Software in 2026: CAQDAS vs. AI",
+      "titleZh": "2026 年最佳定性研究软件：CAQDAS 与 AI 平台对比",
+      "summaryZh": "2026 年最佳定性研究软件对比将市场分为 CAQDAS 与端到端 AI 平台两类。NVivo、ATLAS.ti、MAXQDA 编码分析已有转录稿，Listen Labs 覆盖招募、AI 主持访谈、分析与交付。Listen Labs 称有 50M+ 验证受访者、120+ 语言，24 小时内交付，成本约为传统研究三分之一，已运行 1M+ 访谈。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "maxqda"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T05:00:45+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "def47d91bb8fef1b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-agency-guide/",
+      "title": "Kantar Brand Tracking Agency: A Buyer’s Decision Guide",
+      "titleZh": "Kantar 品牌追踪代理买家指南：能测什么、不能解释什么",
+      "summaryZh": "Kantar 品牌追踪买家指南梳理 BrandDynamics 持续追踪、BrandZ 年度品牌排名与 Kantar Marketplace 自助研究，并指出波次追踪只报 KPI 变化、不解释原因。BrandZ 2026 覆盖 54 个市场、22,000+ 品牌及 460 万次消费者访谈，Kantar 不公开标准定价与波次周期。Listen Labs 则用每波次 AI 主持开放式访谈补上诊断，可接入 Qualtrics 与 Decipher。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "问卷/定量",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T05:04:11+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

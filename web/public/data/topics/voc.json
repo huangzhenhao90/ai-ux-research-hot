@@ -3,7 +3,7 @@
   "name": "文本分析 / VOC",
   "group": "field",
   "definition": "用 AI 分析用户反馈、评论、开放题与客服文本。",
-  "count": 7,
+  "count": 8,
   "items": [
     {
       "id": "791883e6a4cafac0",
@@ -105,6 +105,29 @@
       "publishedAt": "2026-10-21T05:03:33+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "b3abb33eb7d3b570",
+      "sourceId": "frontiers-cs",
+      "sourceName": "Frontiers in Computer Science",
+      "tier": "T2",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1915137",
+      "title": "Structurally conditioned counterfactual generation and validation for question answering from scientific text",
+      "titleZh": "科学文本问答的结构化条件反事实生成与验证",
+      "summaryZh": "研究提出基于LLM的结构化流程，对100篇Scopus摘要生成事实与反事实QA，67篇用于验证。生成用gpt-4.1，自动验证用gpt-5-mini按15项清单执行；三名标注者一致性中等，平均成对Cohen's kappa约0.54。原始QA/关系级正确性0.97/0.89，文档级全局一致性0.07，25.4%文档验证分数下降超阈值。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },

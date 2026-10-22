@@ -1,0 +1,28 @@
+{
+  "id": "af1f75f5d52cf9d0",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-qualitative-research-software/",
+  "title": "Best Qualitative Research Software in 2026: CAQDAS vs. AI",
+  "titleZh": "2026 年最佳定性研究软件：CAQDAS 与 AI 平台对比",
+  "summaryZh": "2026 年最佳定性研究软件对比将市场分为 CAQDAS 与端到端 AI 平台两类。NVivo、ATLAS.ti、MAXQDA 编码分析已有转录稿，Listen Labs 覆盖招募、AI 主持访谈、分析与交付。Listen Labs 称有 50M+ 验证受访者、120+ 语言，24 小时内交付，成本约为传统研究三分之一，已运行 1M+ 访谈。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "定性分析",
+    "AI 访谈"
+  ],
+  "entities": [
+    "listen-labs",
+    "maxqda"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-22T05:00:45+00:00",
+  "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

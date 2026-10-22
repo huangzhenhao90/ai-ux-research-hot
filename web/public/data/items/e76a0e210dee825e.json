@@ -1,0 +1,24 @@
+{
+  "id": "e76a0e210dee825e",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2601.13235",
+  "title": "RubRIX: Rubric-Driven Risk Mitigation in Caregiver-AI Interactions",
+  "titleZh": "RubRIX：照护者与 AI 交互中由评分量规驱动的风险缓解",
+  "summaryZh": "研究者提出 RubRIX，一个经临床医生验证、用于评估 LLM 照护回应风险的理论驱动框架，包含五个风险维度。在 Reddit 与 ALZConnected 的 20,000 多条照护者查询上评测 6 个先进 LLM，评分量规引导的优化使各模型风险成分在一个迭代后降低 45–98%。研究还发布了基准数据集。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "研究伦理"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-22T04:00:00+00:00",
+  "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "1a72219b0e296b0c",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.29645v1",
+  "title": "LLMs作为调查受访者：与简单语义基线的比较",
+  "titleZh": "研究比较 LLMs 作为调查受访者与嵌入相似度基线的表现",
+  "summaryZh": "一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比，发现 LLM 整体更优但优势随已知答案比例下降而收窄。在一份量表中 LLM 甚至与基线持平，表明数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强效力有限。",
+  "reason": "研究把 LLM 预测被遮蔽条目与嵌入相似度基线放在两份态度量表上对照，便于判断数据稀缺时合成受访者的适用边界。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "问卷/定量",
+    "合成用户"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-20T16:00:00+00:00",
+  "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "same",
+  "related": []
+}

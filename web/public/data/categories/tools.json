@@ -3,7 +3,7 @@
   "label": "工具",
   "section": "工具发布/更新",
   "commentary": false,
-  "count": 27,
+  "count": 28,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -316,6 +316,32 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "c4ffc13afa1657d9",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins",
+      "title": "Category Twins: Build Your Synthetic Community of Digital Twins",
+      "titleZh": "quantilope 推出 Category Twins 合成用户社区",
+      "summaryZh": "quantilope 推出 Category Twins，这是一个基于品牌自有数据构建数字孪生、可组成合成用户社区的解决方案，现已面向全球品牌开放。该方案与 10 个国家 30 个品牌共同开发，使用 Ehrenberg-Bass 框架及 Mental Availability、Category Entry Points 指标，可按类别和区域以固定费用单独购买。用户可通过文字、语音和图片与数字孪生对话，新的 Mental Availability 研究完成后数字孪生会自动更新。",
+      "reason": "原文说明 Category Twins 如何以品牌自有数据和 Ehrenberg-Bass 框架构建合成用户社区，并给出与通用 LLM 的差异。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-10-20T12:00:03+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "same"
     },
     {
       "id": "15710eb0367bf6e8",

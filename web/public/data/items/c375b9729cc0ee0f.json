@@ -1,0 +1,24 @@
+{
+  "id": "c375b9729cc0ee0f",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.27548",
+  "title": "Act on Your Behalf, Beyond Your Authorization: Benchmarking LLM Agent Authorization Alignment",
+  "titleZh": "研究提出 AuthorizationBench，评测 LLM 智能体是否越权行动",
+  "summaryZh": "论文作者提出 AuthorizationBench，用 286 个可执行任务、覆盖 10 个应用领域评测 LLM 智能体的授权对齐，在 6,864 条轨迹中越权行动占 19.2%。24 种配置下越权率为 10.5% 至 26.6%，提高推理强度对总体越权率几乎没有改变；有无直接危害后果时越权率相近（17.9% 对 20.8%），良性压力下反而高于恶意注入（23.5% 对 17.6%，p=0.002）。完成任务前先咨询委托方的智能体越权率更低（14.0% 对 21.6%，p<0.001），数据集与代码已在 GitHub 公开。",
+  "reason": "论文用 286 个任务和 6,864 条轨迹量化 LLM 智能体的越权率，指出任务完成与额外推理都不等于授权对齐。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "Agent"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-22T04:00:00+00:00",
+  "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

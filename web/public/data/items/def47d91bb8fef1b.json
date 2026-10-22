@@ -1,0 +1,29 @@
+{
+  "id": "def47d91bb8fef1b",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/kantar-brand-tracking-agency-guide/",
+  "title": "Kantar Brand Tracking Agency: A Buyer’s Decision Guide",
+  "titleZh": "Kantar 品牌追踪代理买家指南：能测什么、不能解释什么",
+  "summaryZh": "Kantar 品牌追踪买家指南梳理 BrandDynamics 持续追踪、BrandZ 年度品牌排名与 Kantar Marketplace 自助研究，并指出波次追踪只报 KPI 变化、不解释原因。BrandZ 2026 覆盖 54 个市场、22,000+ 品牌及 460 万次消费者访谈，Kantar 不公开标准定价与波次周期。Listen Labs 则用每波次 AI 主持开放式访谈补上诊断，可接入 Qualtrics 与 Decipher。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "市场研究",
+    "问卷/定量",
+    "Kantar"
+  ],
+  "entities": [
+    "kantar",
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-22T05:04:11+00:00",
+  "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

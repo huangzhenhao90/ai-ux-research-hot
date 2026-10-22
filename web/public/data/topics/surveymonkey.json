@@ -3,8 +3,35 @@
   "name": "SurveyMonkey",
   "group": "company",
   "definition": "SurveyMonkey 的问卷产品 AI 能力与自助研究工具更新。",
-  "count": 3,
+  "count": 5,
   "items": [
+    {
+      "id": "8e0980b9f42d4533",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "tier": "T2",
+      "url": "https://measuringu.com/digital-twins-systematically-overestimated-business-software-sus-scores/?utm_source=rss&utm_medium=rss&utm_campaign=digital-twins-systematically-overestimated-business-software-sus-scores",
+      "title": "Digital Twins Systematically Overestimated Business Software SUS Scores",
+      "titleZh": "MeasuringU 研究显示数字孪生系统性高估商业软件 SUS 得分",
+      "summaryZh": "MeasuringU 用 289 名参与者和 6 款商业软件的 SUS 数据复现数字孪生实验，发现两类数字孪生都把得分高估约 10 分。摘要型与完整型分别高估 10.6 和 10.4 分，个体层面分别有 76% 和 80% 的预测高于真人。产品排名大体保留，但评分等级被抬高，GitHub 从 D 到 B、ZipRecruiter 从 C 到 A。",
+      "reason": "复现实验把数字孪生高估商业软件 SUS 的幅度量化到约 10 分，并展示产品评分等级和个体预测会怎样被明显抬高。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量",
+        "可用性测试"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-20T21:59:50+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "followup"
+    },
     {
       "id": "845279803dea965c",
       "sourceId": "surveymonkey",
@@ -27,6 +54,33 @@
       "itemType": null,
       "publishedAt": "2026-09-25T09:17:54+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "795af009a10b00f1",
+      "sourceId": "surveymonkey",
+      "sourceName": "SurveyMonkey",
+      "tier": "T1",
+      "url": "https://www.surveymonkey.com/curiosity/ask-the-market-holiday-shopping-pricing/?ut_source=rss",
+      "title": "Ask the Market: Shoppers are feeling the holiday price squeeze. Here’s what they’re doing differently.",
+      "titleZh": "Ask the Market: Shoppers are feeling the holiday price squeeze. Here’s what they’re doing differently.",
+      "summaryZh": "",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T15:18:55+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-22T05:57:38.915246+00:00",
+  "generatedAt": "2026-10-22T08:59:56.976067+00:00",
   "categories": [
     {
       "key": "tools",
       "label": "工具",
       "section": "工具发布/更新",
       "commentary": false,
-      "count": 27
+      "count": 28
     },
     {
       "key": "methods",
       "label": "方法",
       "section": "方法与实践",
       "commentary": true,
-      "count": 44
+      "count": 47
     },
     {
       "key": "research",
       "label": "论文",
       "section": "研究与证据",
       "commentary": false,
-      "count": 44
+      "count": 61
     },
     {
       "key": "industry",
@@ -41,7 +41,7 @@
       "label": "观点",
       "section": "观点与讨论",
       "commentary": true,
-      "count": 23
+      "count": 28
     }
   ]
 }

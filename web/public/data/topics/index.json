@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T05:57:38.915246+00:00",
+  "generatedAt": "2026-10-22T08:59:56.976067+00:00",
   "groups": [
     {
       "key": "company",
@@ -65,7 +65,7 @@
       "name": "SurveyMonkey",
       "group": "company",
       "definition": "SurveyMonkey 的问卷产品 AI 能力与自助研究工具更新。",
-      "count": 3
+      "count": 5
     },
     {
       "slug": "medallia",
@@ -79,7 +79,7 @@
       "name": "Listen Labs",
       "group": "company",
       "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-      "count": 10
+      "count": 15
     },
     {
       "slug": "dscout",
@@ -93,56 +93,56 @@
       "name": "AI 访谈",
       "group": "field",
       "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-      "count": 11
+      "count": 15
     },
     {
       "slug": "synthetic-users",
       "name": "合成用户",
       "group": "field",
       "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-      "count": 8
+      "count": 11
     },
     {
       "slug": "survey",
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 27
+      "count": 34
     },
     {
       "slug": "qual-analysis",
       "name": "定性分析",
       "group": "field",
       "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-      "count": 54
+      "count": 58
     },
     {
       "slug": "voc",
       "name": "文本分析 / VOC",
       "group": "field",
       "definition": "用 AI 分析用户反馈、评论、开放题与客服文本。",
-      "count": 7
+      "count": 8
     },
     {
       "slug": "usability",
       "name": "可用性测试",
       "group": "field",
       "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-      "count": 4
+      "count": 7
     },
     {
       "slug": "research-ops",
       "name": "洞察库与 ResearchOps",
       "group": "field",
       "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-      "count": 24
+      "count": 26
     },
     {
       "slug": "ethics",
       "name": "研究伦理",
       "group": "field",
       "definition": "合成用户与 AI 研究的知情同意、隐私、偏见与合规争议。",
-      "count": 4
+      "count": 6
     },
     {
       "slug": "careers",
@@ -156,14 +156,14 @@
       "name": "论文",
       "group": "genre",
       "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-      "count": 39
+      "count": 56
     },
     {
       "slug": "methods",
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 47
+      "count": 50
     },
     {
       "slug": "prompts",
@@ -184,7 +184,7 @@
       "name": "行业报告",
       "group": "genre",
       "definition": "调研公司报告、行业协会规范与市场结构变化。",
-      "count": 15
+      "count": 16
     }
   ]
 }

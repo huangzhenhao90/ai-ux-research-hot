@@ -1,0 +1,24 @@
+{
+  "id": "63377f13d97e8aba",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.26538",
+  "title": "Small Average Error, Wide Individual Error: General-Purpose LLMs Estimating Energy Intake from Meal Photos in a Feeding Trial",
+  "titleZh": "研究：8 款通用 LLM 从餐食照片估算能量摄入，平均误差小但个体误差大",
+  "summaryZh": "研究使用 ACETADA 受控喂养试验的 802 餐数据，评测 Claude、GPT、Gemini 三家厂商共 8 个通用多模态 LLM 依据 Meal Photos 估算能量摄入，发现平均偏差低并不等于个体估算准确。餐前与餐后两张照片分别调用再相减的方式，在 8 个模型中有 6 个低估摄入量，因为模型面对几乎空盘仍报出数百千卡；把仅用餐前照片的估算乘以平均进食比例 0.87，就能取得餐后照片带来增益的大部分。148 个喂养日中，5 个模型的平均误差 90% 置信区间落在预设 10% 边际内，仅 1 个模型勉强满足预设的 30% 一致性界限（-28% 到 +27%）；所有模型都低估蛋白质，作者认为这类估算应辅助而非替代营养师评估。",
+  "reason": "通过 802 餐受控喂养试验对比 8 个模型的多种照片输入方式，呈现平均偏差小与个体误差大的落差，为评估这类估算的适用边界提供依据。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "多模态"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-22T04:00:00+00:00",
+  "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "same",
+  "related": []
+}

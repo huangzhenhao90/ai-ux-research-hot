@@ -1,0 +1,25 @@
+{
+  "id": "64c8a3dc1264a063",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2505.17202",
+  "title": "Human-centered evaluation of data visualization understanding in vision-language models",
+  "titleZh": "视觉语言模型的数据可视化理解：一项以人为中心的评估",
+  "summaryZh": "研究用同一组数据可视化理解题目比较 8 个视觉语言模型与人类，发现模型平均表现不及人类。该以人为中心的评估协议覆盖六项评估：五项人类可视化素养测试和一项专为 VLM 设计；放宽标准后差距仍存在。各题相对表现有一定相关性，但所有模型的错误模式都稳定地不同于人类。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "多模态",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-22T04:00:00+00:00",
+  "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

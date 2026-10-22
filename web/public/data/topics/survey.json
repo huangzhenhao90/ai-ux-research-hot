@@ -3,8 +3,35 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 27,
+  "count": 34,
   "items": [
+    {
+      "id": "8e0980b9f42d4533",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "tier": "T2",
+      "url": "https://measuringu.com/digital-twins-systematically-overestimated-business-software-sus-scores/?utm_source=rss&utm_medium=rss&utm_campaign=digital-twins-systematically-overestimated-business-software-sus-scores",
+      "title": "Digital Twins Systematically Overestimated Business Software SUS Scores",
+      "titleZh": "MeasuringU 研究显示数字孪生系统性高估商业软件 SUS 得分",
+      "summaryZh": "MeasuringU 用 289 名参与者和 6 款商业软件的 SUS 数据复现数字孪生实验，发现两类数字孪生都把得分高估约 10 分。摘要型与完整型分别高估 10.6 和 10.4 分，个体层面分别有 76% 和 80% 的预测高于真人。产品排名大体保留，但评分等级被抬高，GitHub 从 D 到 B、ZipRecruiter 从 C 到 A。",
+      "reason": "复现实验把数字孪生高估商业软件 SUS 的幅度量化到约 10 分，并展示产品评分等级和个体预测会怎样被明显抬高。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量",
+        "可用性测试"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-20T21:59:50+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "followup"
+    },
     {
       "id": "efc712223f56320e",
       "sourceId": "measuringu",
@@ -54,6 +81,30 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "1a72219b0e296b0c",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29645v1",
+      "title": "LLMs作为调查受访者：与简单语义基线的比较",
+      "titleZh": "研究比较 LLMs 作为调查受访者与嵌入相似度基线的表现",
+      "summaryZh": "一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比，发现 LLM 整体更优但优势随已知答案比例下降而收窄。在一份量表中 LLM 甚至与基线持平，表明数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强效力有限。",
+      "reason": "研究把 LLM 预测被遮蔽条目与嵌入相似度基线放在两份态度量表上对照，便于判断数据稀缺时合成受访者的适用边界。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "合成用户"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-20T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "same"
     },
     {
       "id": "125f70d843cae2dc",
@@ -392,6 +443,29 @@
       "relation": null
     },
     {
+      "id": "b66647aea1813d83",
+      "sourceId": "mopinion",
+      "sourceName": "Mopinion",
+      "tier": "T1",
+      "url": "https://mopinion.com/build-the-best-online-feedback-forms/",
+      "title": "How to build the best online feedback forms",
+      "titleZh": "Mopinion：如何构建最佳在线反馈表单",
+      "summaryZh": "Mopinion 的指南讲解如何构建最佳在线反馈表单，核心是先明确一个目标。表单应选择相关问题、采用可访问设计，并在客户旅程的合适时机展示，以了解访客需求、遇到的问题和网站或 App 体验。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T07:14:53+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "bc1ebf8aeab3bf85",
       "sourceId": "cint",
       "sourceName": "Cint",
@@ -413,6 +487,36 @@
       "itemType": null,
       "publishedAt": "2026-09-18T18:24:11+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f0f79ace627c246c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-media-market-research-platforms/",
+      "title": "Best Media Market Research Platforms In 2026: Buyer’s Guide",
+      "titleZh": "2026 年最佳媒体市场研究平台：买家指南",
+      "summaryZh": "2026 年媒体市场研究平台买家指南按四类数据匹配 12 个平台，并将 Listen Labs 列为首选主研究与广告洞察平台。Listen Labs 覆盖 50M+ 验证受访者、45+ 国家和 120+ 语言，将 4–6 周周期压到 24 小时内、成本约三分之一。指南按任务推荐 GWI/YouGov 做 syndicated profiling、Nielsen 做曝光测量、Similarweb 做流量基准。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "市场研究",
+        "问卷/定量",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "nielsen",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T05:04:06+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -546,6 +650,61 @@
       "relation": null
     },
     {
+      "id": "def47d91bb8fef1b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-agency-guide/",
+      "title": "Kantar Brand Tracking Agency: A Buyer’s Decision Guide",
+      "titleZh": "Kantar 品牌追踪代理买家指南：能测什么、不能解释什么",
+      "summaryZh": "Kantar 品牌追踪买家指南梳理 BrandDynamics 持续追踪、BrandZ 年度品牌排名与 Kantar Marketplace 自助研究，并指出波次追踪只报 KPI 变化、不解释原因。BrandZ 2026 覆盖 54 个市场、22,000+ 品牌及 460 万次消费者访谈，Kantar 不公开标准定价与波次周期。Listen Labs 则用每波次 AI 主持开放式访谈补上诊断，可接入 Qualtrics 与 Decipher。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "问卷/定量",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T05:04:11+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "795af009a10b00f1",
+      "sourceId": "surveymonkey",
+      "sourceName": "SurveyMonkey",
+      "tier": "T1",
+      "url": "https://www.surveymonkey.com/curiosity/ask-the-market-holiday-shopping-pricing/?ut_source=rss",
+      "title": "Ask the Market: Shoppers are feeling the holiday price squeeze. Here’s what they’re doing differently.",
+      "titleZh": "Ask the Market: Shoppers are feeling the holiday price squeeze. Here’s what they’re doing differently.",
+      "summaryZh": "",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T15:18:55+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "260854bd75cc158d",
       "sourceId": "quantilope",
       "sourceName": "quantilope",
@@ -619,6 +778,34 @@
       "itemType": null,
       "publishedAt": "2026-07-09T16:51:21+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "443e6c9089eaf32a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-retail-market-research-practices/",
+      "title": "Retail Consumer Insights Best Practices for 2026",
+      "titleZh": "Listen Labs：2026 零售消费者洞察最佳实践，8 项决策优先准则",
+      "summaryZh": "Listen Labs 发布 2026 零售消费者洞察最佳实践，提出以业务决策为锚的 8 项准则。平台称可招募 50M+ 验证受访者、覆盖 45+ 国家，支持 120+ 语言的 AI 主持访谈，并在 24 小时内交付以往需 4–6 周的分析。文章还称平台已完成超 100 万场 AI 主持访谈。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T05:04:01+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

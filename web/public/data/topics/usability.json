@@ -3,8 +3,35 @@
   "name": "可用性测试",
   "group": "field",
   "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-  "count": 4,
+  "count": 7,
   "items": [
+    {
+      "id": "8e0980b9f42d4533",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "tier": "T2",
+      "url": "https://measuringu.com/digital-twins-systematically-overestimated-business-software-sus-scores/?utm_source=rss&utm_medium=rss&utm_campaign=digital-twins-systematically-overestimated-business-software-sus-scores",
+      "title": "Digital Twins Systematically Overestimated Business Software SUS Scores",
+      "titleZh": "MeasuringU 研究显示数字孪生系统性高估商业软件 SUS 得分",
+      "summaryZh": "MeasuringU 用 289 名参与者和 6 款商业软件的 SUS 数据复现数字孪生实验，发现两类数字孪生都把得分高估约 10 分。摘要型与完整型分别高估 10.6 和 10.4 分，个体层面分别有 76% 和 80% 的预测高于真人。产品排名大体保留，但评分等级被抬高，GitHub 从 D 到 B、ZipRecruiter 从 C 到 A。",
+      "reason": "复现实验把数字孪生高估商业软件 SUS 的幅度量化到约 10 分，并展示产品评分等级和个体预测会怎样被明显抬高。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量",
+        "可用性测试"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-20T21:59:50+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "followup"
+    },
     {
       "id": "dcc918dafe31f3ef",
       "sourceId": "measuringu",
@@ -30,6 +57,33 @@
       "relation": null
     },
     {
+      "id": "766b4f8ed1745f9a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/prototype-testing-with-users-playbook/",
+      "title": "How To Do Prototype Testing With Users: 6-Step Playbook",
+      "titleZh": "Listen Labs 的 6 步用户原型测试操作指南",
+      "summaryZh": "Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–4 人，量化指标则需 NN/g 建议的 20+ 用户。作者还称 AI 主持访谈可在 50–100+ 场次上同时观察屏幕行为并实时追问矛盾。",
+      "reason": "文中把原型保真度与要验证的决策一一对应，并说明 5 用户规则在哪些条件下失效，可供团队设计测试方案时参照。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-10-22T05:00:54+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "2a35eed0a8746362",
       "sourceId": "nngroup",
       "sourceName": "Nielsen Norman Group",
@@ -49,6 +103,31 @@
       "publishedAt": "2026-09-11T17:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "75f743fd63cba808",
+      "sourceId": "frontiers-cs",
+      "sourceName": "Frontiers in Computer Science",
+      "tier": "T2",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1847791",
+      "title": "Impact of information architecture on the accessibility of the UDG Biblioteca Digital: a user-centered usability evaluation",
+      "titleZh": "UDG Biblioteca Digital 信息架构如何影响可访问性：一项以用户为中心的可用性评估",
+      "summaryZh": "UDG Biblioteca Digital 的可用性评估发现，其信息架构造成结构性障碍：远程可用性测试（n = 24）中无人完成全部导航任务。术语问卷（n = 58）中 93% 无法正确识别在线目录内容；卡片分类（n = 20）显示用户按功能而非图书馆学分类法归类。据此简化标签、重组导航的方案获平台协调团队认可，尚未验证。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "可用性测试",
+        "学术 HCI",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T00:00:00+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },

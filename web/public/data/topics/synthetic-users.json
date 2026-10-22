@@ -3,8 +3,35 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 8,
+  "count": 11,
   "items": [
+    {
+      "id": "8e0980b9f42d4533",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "tier": "T2",
+      "url": "https://measuringu.com/digital-twins-systematically-overestimated-business-software-sus-scores/?utm_source=rss&utm_medium=rss&utm_campaign=digital-twins-systematically-overestimated-business-software-sus-scores",
+      "title": "Digital Twins Systematically Overestimated Business Software SUS Scores",
+      "titleZh": "MeasuringU 研究显示数字孪生系统性高估商业软件 SUS 得分",
+      "summaryZh": "MeasuringU 用 289 名参与者和 6 款商业软件的 SUS 数据复现数字孪生实验，发现两类数字孪生都把得分高估约 10 分。摘要型与完整型分别高估 10.6 和 10.4 分，个体层面分别有 76% 和 80% 的预测高于真人。产品排名大体保留，但评分等级被抬高，GitHub 从 D 到 B、ZipRecruiter 从 C 到 A。",
+      "reason": "复现实验把数字孪生高估商业软件 SUS 的幅度量化到约 10 分，并展示产品评分等级和个体预测会怎样被明显抬高。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量",
+        "可用性测试"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-20T21:59:50+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "followup"
+    },
     {
       "id": "0f6df2ffe2a6818a",
       "sourceId": "nngroup",
@@ -56,6 +83,30 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "1a72219b0e296b0c",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29645v1",
+      "title": "LLMs作为调查受访者：与简单语义基线的比较",
+      "titleZh": "研究比较 LLMs 作为调查受访者与嵌入相似度基线的表现",
+      "summaryZh": "一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比，发现 LLM 整体更优但优势随已知答案比例下降而收窄。在一份量表中 LLM 甚至与基线持平，表明数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强效力有限。",
+      "reason": "研究把 LLM 预测被遮蔽条目与嵌入相似度基线放在两份态度量表上对照，便于判断数据稀缺时合成受访者的适用边界。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "合成用户"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-20T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "same"
     },
     {
       "id": "05374bec817f75e3",
@@ -134,6 +185,32 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "c4ffc13afa1657d9",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins",
+      "title": "Category Twins: Build Your Synthetic Community of Digital Twins",
+      "titleZh": "quantilope 推出 Category Twins 合成用户社区",
+      "summaryZh": "quantilope 推出 Category Twins，这是一个基于品牌自有数据构建数字孪生、可组成合成用户社区的解决方案，现已面向全球品牌开放。该方案与 10 个国家 30 个品牌共同开发，使用 Ehrenberg-Bass 框架及 Mental Availability、Category Entry Points 指标，可按类别和区域以固定费用单独购买。用户可通过文字、语音和图片与数字孪生对话，新的 Mental Availability 研究完成后数字孪生会自动更新。",
+      "reason": "原文说明 Category Twins 如何以品牌自有数据和 Ehrenberg-Bass 框架构建合成用户社区，并给出与通用 LLM 的差异。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-10-20T12:00:03+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "same"
     },
     {
       "id": "15710eb0367bf6e8",

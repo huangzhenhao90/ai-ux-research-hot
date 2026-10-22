@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 24,
+  "count": 26,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -84,6 +84,33 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "766b4f8ed1745f9a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/prototype-testing-with-users-playbook/",
+      "title": "How To Do Prototype Testing With Users: 6-Step Playbook",
+      "titleZh": "Listen Labs 的 6 步用户原型测试操作指南",
+      "summaryZh": "Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–4 人，量化指标则需 NN/g 建议的 20+ 用户。作者还称 AI 主持访谈可在 50–100+ 场次上同时观察屏幕行为并实时追问矛盾。",
+      "reason": "文中把原型保真度与要验证的决策一一对应，并说明 5 用户规则在哪些条件下失效，可供团队设计测试方案时参照。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-10-22T05:00:54+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "cde5eb2df8b572a4",
@@ -210,6 +237,29 @@
       "publishedAt": "2026-06-14T23:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "da7ddc0160b2d648",
+      "sourceId": "userinterviews-blog",
+      "sourceName": "User Interviews Blog",
+      "tier": "T1",
+      "url": "https://www.userinterviews.com/blog/researchops-and-future-of-research-operations",
+      "title": "ResearchOps 2.0: Looking back at the past, present, and future of research operations",
+      "titleZh": "ResearchOps 2.0: Looking back at the past, present, and future of research operations",
+      "summaryZh": "",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-20T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },

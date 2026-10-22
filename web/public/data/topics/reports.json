@@ -3,7 +3,7 @@
   "name": "行业报告",
   "group": "genre",
   "definition": "调研公司报告、行业协会规范与市场结构变化。",
-  "count": 15,
+  "count": 16,
   "items": [
     {
       "id": "17782bd98c014cbd",
@@ -229,6 +229,33 @@
       "itemType": null,
       "publishedAt": "2026-02-12T17:09:16+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "795af009a10b00f1",
+      "sourceId": "surveymonkey",
+      "sourceName": "SurveyMonkey",
+      "tier": "T1",
+      "url": "https://www.surveymonkey.com/curiosity/ask-the-market-holiday-shopping-pricing/?ut_source=rss",
+      "title": "Ask the Market: Shoppers are feeling the holiday price squeeze. Here’s what they’re doing differently.",
+      "titleZh": "Ask the Market: Shoppers are feeling the holiday price squeeze. Here’s what they’re doing differently.",
+      "summaryZh": "",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-21T15:18:55+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
