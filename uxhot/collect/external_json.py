@@ -102,6 +102,7 @@ def build_items(
     initial_backfill_limit: int = 8,
     first_import: bool = False,
     known_ids: set[str] | None = None,
+    since: datetime | None = None,
     now: datetime | None = None,
 ) -> list[Item]:
     """转成 `Item`。
@@ -124,6 +125,9 @@ def build_items(
 
     for entry in candidates:
         if not entry.url:
+            continue
+        # 非首次导入时只收 since 之后的条目（含义见 rss.build_items）
+        if since is not None and entry.published is not None and entry.published < since:
             continue
         if entry.ai_score is not None and entry.ai_score < min_ai_score:
             continue

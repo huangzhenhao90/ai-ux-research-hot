@@ -111,6 +111,7 @@ def build_items(
     fresh_hours: int = 48,
     first_import: bool = False,
     known_ids: set[str] | None = None,
+    since: datetime | None = None,
     now: datetime | None = None,
 ) -> list[Item]:
     """把 feed 条目转成 `Item`，并按「旧文不刷屏」定初始状态。
@@ -118,6 +119,12 @@ def build_items(
     Args:
         first_import: 该信源是否首次导入。首次导入只取前 N 条并全部归档。
         known_ids: 已存在的条目 id，用于跳过重复（省掉后续处理）。
+        since: 只收**发布时间不早于**这一刻的条目。
+
+            ⚠️ 这个参数不是可有可无的。`initial_backfill_limit` 只约束**首次导入**；
+            之后的运行若不加时间下界，就会把整个 feed 重新灌一遍——实测某个
+            「最新 8 条」的信源在第二次运行后变成 98 条，把 2017 年的旧文
+            也拉进了「全部动态」。
     """
     reference = now or now_utc()
     known = known_ids or set()
@@ -127,6 +134,10 @@ def build_items(
     candidates = entries[:initial_backfill_limit] if first_import else entries
 
     for entry in candidates:
+        # 非首次导入时只收 since 之后的条目
+        if since is not None and entry.published is not None and entry.published < since:
+            continue
+
         canonical = canonicalize_url(entry.link)
         if not canonical:
             continue

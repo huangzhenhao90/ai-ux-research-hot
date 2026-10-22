@@ -1005,3 +1005,94 @@ def test_target_dates_includes_past_edition_with_items(cfg) -> None:
     assert "2026-10-21" in dates, "10-20 10:00 入选属于 10-21 期，且已到点，要补出"
     assert "2026-10-22" in dates
     assert "2026-10-23" not in dates
+
+
+# ══ 回填时间下界：非首次导入不能重灌整个 feed ═════════════════════════
+#
+# 背景：`initial_backfill_limit` 只约束**首次导入**。之后的运行若不给时间下界，
+# 就会把整个 feed 重新灌一遍 —— 实测某个「最新 8 条」的信源在第二次运行后
+# 变成 98 条，把 2017 年的旧文也拉进了「全部动态」。
+
+
+def test_second_run_without_since_reingests_whole_feed() -> None:
+    """复现 bug：不给 since 时，第二次运行会把整个 feed 都收进来。"""
+    entries = rss.parse_feed((FIXTURES / "feed_t1_recent.xml").read_bytes(), "+00:00", now=NOW)
+    assert len(entries) == 3
+
+    # 第二次运行（first_import=False）且不给 since → 3 条全收，包括两周前那条
+    items = rss.build_items(
+        entries, source_id="t1", source_name="T1", tier="T1",
+        initial_backfill_limit=2, fresh_hours=48, first_import=False,
+        known_ids=set(), since=None, now=NOW,
+    )
+    assert len(items) == 3, "这正是 bug 的表现：超出 backfill 上限的旧文也被收了"
+    assert any(i.title == "Old post from two weeks ago" for i in items)
+
+
+def test_second_run_with_since_skips_old_entries() -> None:
+    """给了 since 之后，早于它的旧文不该再被收进来。"""
+    entries = rss.parse_feed((FIXTURES / "feed_t1_recent.xml").read_bytes(), "+00:00", now=NOW)
+
+    # 首次导入时间设为 10-21 10:00，减 48h 得到下界
+    since = datetime(2026, 10, 19, 10, 0, tzinfo=timezone.utc)
+    items = rss.build_items(
+        entries, source_id="t1", source_name="T1", tier="T1",
+        initial_backfill_limit=2, fresh_hours=48, first_import=False,
+        known_ids=set(), since=since, now=NOW,
+    )
+
+    titles = [i.title for i in items]
+    assert "Old post from two weeks ago" not in titles, "两周前的旧文应被 since 挡住"
+    assert len(items) == 2
+
+
+def test_known_ids_skips_already_stored_items() -> None:
+    """已存在的条目 id 要跳过，避免重复进后续步骤。"""
+    entries = rss.parse_feed((FIXTURES / "feed_t1_recent.xml").read_bytes(), "+00:00", now=NOW)
+    first = rss.build_items(
+        entries, source_id="t1", source_name="T1", tier="T1",
+        initial_backfill_limit=8, fresh_hours=48, first_import=False, now=NOW,
+    )
+    known = {i.id for i in first}
+
+    again = rss.build_items(
+        entries, source_id="t1", source_name="T1", tier="T1",
+        initial_backfill_limit=8, fresh_hours=48, first_import=False,
+        known_ids=known, now=NOW,
+    )
+    assert again == [], "全都认识，不该再产出条目"
+
+
+def test_web_list_respects_since() -> None:
+    """网页列表采集同样要受 since 约束。"""
+    from uxhot.collect import web_list
+
+    entries = [
+        web_list.WebListEntry("新", "https://x.com/new", None, NOW - timedelta(hours=2)),
+        web_list.WebListEntry("旧", "https://x.com/old", None, NOW - timedelta(days=30)),
+    ]
+    items = web_list.build_items(
+        entries, source_id="wl", source_name="WL", tier="T1",
+        first_import=False, since=NOW - timedelta(days=7), now=NOW,
+    )
+    titles = [i.title for i in items]
+    assert "新" in titles
+    assert "旧" not in titles
+
+
+def test_external_json_respects_since() -> None:
+    """外部 JSON 采集同样要受 since 约束。"""
+    payload = [
+        {"id": 1, "title": "新", "date": "2026-10-20", "url": "https://doi.org/10.1/new",
+         "ai_score": 5.0, "tldr": "x", "ai_reason": "y"},
+        {"id": 2, "title": "旧", "date": "2026-08-01", "url": "https://doi.org/10.1/old",
+         "ai_score": 5.0, "tldr": "x", "ai_reason": "y"},
+    ]
+    entries = external_json.parse_papers(payload)
+    items = external_json.build_items(
+        entries, source_id="ur", tier="T2", max_age_days=365,
+        first_import=False, since=datetime(2026, 10, 1, tzinfo=timezone.utc), now=NOW,
+    )
+    titles = [i.title for i in items]
+    assert "新" in titles
+    assert "旧" not in titles

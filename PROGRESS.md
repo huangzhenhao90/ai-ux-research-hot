@@ -659,3 +659,81 @@ T1 60 / T2 76 是 AIHOT 在 AI 领域用的值，用研行业的分数整体低�
 
 **建议**：阶段 8（金标门槛校准）完成前不要真正对外公开——当前真实门槛下日报会是空刊，
 站点上是开发种子数据。
+
+### 已执行：建仓 + 首次 push（用户同意后）
+
+按用户选择「先建 private + push，暂不开 Pages」执行：
+
+```bash
+gh repo create huangzhenhao90/ai-ux-research-hot --private --source=. --remote=origin
+git push -u origin main
+```
+
+- 仓库：**PRIVATE**（`https://github.com/huangzhenhao90/ai-ux-research-hot`），符合 D7 命名。
+- **Pages 未开启**，定时任务按用户要求**已开启**。
+- 推送前再次确认无 key 泄漏。
+
+**为适配 private 仓库改的两处**
+
+1. **缺密钥自动降级**：没配 `LLM_API_KEY` 时自动按 dry-run 跑并给出醒目告警，
+   而不是整趟 job 失败。这样密钥就位前仓库也能正常运转。
+2. **Pages 开关**：上传产物与部署用 Variable `PAGES_ENABLED` 控制。
+   private 仓库开不了 Pages（除非 GitHub Pro），转 public 后再置 `true`。
+
+**CI 与 Actions 实测**
+
+| 运行 | 结果 |
+|---|---|
+| CI（push 触发） | **通过**（后端 pytest + 前端 typecheck/build/产物检查/AIHOT 门禁） |
+| Update（手动 dry-run） | **通过**：跑流水线 → 出刊 → 测试 → 构建 → 提交数据；Pages 两步按预期跳过 |
+| 机器人提交 | 已落库，身份 `github-actions[bot]`，只改 `data/` 与 `web/public/` |
+| action 版本 | 升到 checkout@v7 / setup-python@v7 / setup-node@v7 / upload-pages-artifact@v5 / deploy-pages@v5，**Node 20 弃用告警消失** |
+
+### ⚠️ 又抓到一个真 bug：非首次导入会重灌整个 feed
+
+**现象**：`dovetail-blog` 的 `initialBackfillLimit` 是 8，实际却有 **98 条**，
+最早到 **2017-11**；「全部动态」一度出现 55 个月份文件、608 条，含大量数年前的旧文。
+
+**原因**：`initial_backfill_limit` **只约束首次导入**。之后的运行走
+`candidates = entries`（整个 feed），而 `runner.py` **从未把 `known_ids` 传下去**
+（`build_items` 的签名里有这个参数，但调用处没传），于是每次运行都把整个 feed
+重新灌一遍。重复的靠 id 合并去掉了，但**此前没见过的老条目会被当新条目加进来**。
+
+**修法**：给三个采集器的 `build_items` 加 `since` 时间下界，由
+`firstImportAt − freshHours` 推出；`runner` 同时传 `known_ids` 与 `since`。
+首次导入的 `initialBackfillLimit` 行为不变。
+
+**验证**
+
+| | 修复前 | 修复后 |
+|---|---|---|
+| 条目总数 | 624 | 347 |
+| 全部动态月份文件 | 55 | **28** |
+| 全部动态条目 | 608 | **340** |
+| 单源超过 12 条的 | 有（dovetail 98） | **无** |
+| 第二次运行新增 | 数百条（重灌） | **10 条（真正的新文）** |
+
+残留的 4 条 2024 年以前条目来自 `ijmr` / `uxmag` / `testingtime` —— 这三个源本来就更新慢
+（最新 8 条自然横跨数年），属正常回填，不是污染。
+
+加了 **5 条回归测试**（含「不给 since 时会重灌整个 feed」这个复现用例）。
+
+### 一处操作失误与补救（如实记录）
+
+清空重采时，我把 `data/items` 整个删了，**连带删掉了此前评分过的 21 条**——
+它们是开发种子数据与阶段 8 抽金标的来源。
+
+补救：从 git 历史（`ce581a4`）取回**「已处理」条目**（有评分或已写作），
+用 `_merge` 合并进干净的 347 条里，**只救处理结果、不带回污染数据**。
+结果：21 条评分/中文标题全部找回，总条目仍是干净的 347 条。
+
+教训：清污染应该**按规则过滤**，而不是整目录删除。
+
+### 当前状态
+
+- `pytest` → **236 passed**；前端构建 **385 个静态页**。
+- `web/public/` 是**开发种子数据**（5 条精选 + 4 期日报 + 2 期周报），
+  真实门槛下只选得出 1 条，所以首页需要种子数据才有内容。
+- **待用户操作**：Settings → Secrets and variables → Actions 添加 `LLM_API_KEY`。
+  加完之后定时任务（每 4 小时）就会真实运行并累积数据，供阶段 8 抽金标样本。
+- **阶段 8 之后再转 public 并设 `PAGES_ENABLED=true`**，届时 Pages 才能部署。

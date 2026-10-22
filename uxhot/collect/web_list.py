@@ -141,9 +141,14 @@ def build_items(
     fresh_hours: int = 48,
     first_import: bool = False,
     known_ids: set[str] | None = None,
+    since: datetime | None = None,
     now: datetime | None = None,
 ) -> list[Item]:
-    """把列表页条目转成 `Item`。状态规则与 RSS 采集一致。"""
+    """把列表页条目转成 `Item`。状态规则与 RSS 采集一致。
+
+    `since` 的含义见 `rss.build_items`：非首次导入时只收不早于它的条目，
+    否则每次运行都会把整个列表页重新灌一遍。
+    """
     from uxhot.collect.dates import is_stale, now_utc
 
     reference = now or now_utc()
@@ -154,6 +159,9 @@ def build_items(
     candidates = entries[:initial_backfill_limit] if first_import else entries
 
     for entry in candidates:
+        if since is not None and entry.published is not None and entry.published < since:
+            continue
+
         canonical = canonicalize_url(entry.url)
         if not canonical:
             continue

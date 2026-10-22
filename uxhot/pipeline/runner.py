@@ -107,10 +107,24 @@ def collect_source(
     *,
     now: datetime,
     limit: int | None = None,
+    known_ids: set[str] | None = None,
 ) -> tuple[list[Item], SourceOutcome]:
-    """抓一个信源并转成 Item。失败不抛异常，只记结果。"""
+    """抓一个信源并转成 Item。失败不抛异常，只记结果。
+
+    `known_ids` 是仓库里已存在的条目 id；`since` 由首次导入时间推出，
+    用来挡住「非首次导入却把整个 feed 重灌一遍」——不加这道闸，
+    一个只有 8 条新文的源会把数年前的旧文一起拉进「全部动态」。
+    """
     outcome = SourceOutcome(source_id=source.id, ok=False)
     first_import = state.firstImportAt is None
+
+    since: datetime | None = None
+    if not first_import and state.firstImportAt:
+        try:
+            first_at = datetime.fromisoformat(state.firstImportAt)
+            since = first_at - timedelta(hours=cfg.selection.freshHours)
+        except ValueError:
+            since = None
 
     try:
         if source.kind == "rss":
@@ -134,6 +148,8 @@ def collect_source(
                 initial_backfill_limit=source.initialBackfillLimit,
                 fresh_hours=cfg.selection.freshHours,
                 first_import=first_import,
+                known_ids=known_ids,
+                since=since,
                 now=now,
             )
 
@@ -171,6 +187,8 @@ def collect_source(
                 initial_backfill_limit=source.initialBackfillLimit,
                 fresh_hours=cfg.selection.freshHours,
                 first_import=first_import,
+                known_ids=known_ids,
+                since=since,
                 now=now,
             )
 
@@ -194,6 +212,8 @@ def collect_source(
                 mode=source.mode,
                 initial_backfill_limit=source.initialBackfillLimit,
                 first_import=first_import,
+                known_ids=known_ids,
+                since=since,
                 now=now,
             )
 
@@ -250,12 +270,19 @@ def run_pipeline(
     ]
 
     # ── 1. 采集 ────────────────────────────────────────────────────────
+    # 先把已存在的条目 id 按信源分组，采集时用来跳过老条目
+    existing = _load_all_items(DATA_DIR / "items")
+    known_by_source: dict[str, set[str]] = {}
+    for item in existing:
+        known_by_source.setdefault(item.sourceId, set()).add(item.id)
+
     collected: list[Item] = []
     with build_client() as client:
         for source in sources:
             st = state.setdefault(source.id, SourceState())
             items, outcome = collect_source(
-                source, cfg, client, st, now=reference, limit=limit
+                source, cfg, client, st, now=reference, limit=limit,
+                known_ids=known_by_source.get(source.id, set()),
             )
             result.sources.append(outcome)
             collected.extend(items)
