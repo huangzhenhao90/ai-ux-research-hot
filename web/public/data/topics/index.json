@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T12:48:36.686810+00:00",
+  "generatedAt": "2026-10-22T16:13:16.040886+00:00",
   "groups": [
     {
       "key": "company",
@@ -156,7 +156,7 @@
       "name": "论文",
       "group": "genre",
       "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-      "count": 56
+      "count": 57
     },
     {
       "slug": "methods",

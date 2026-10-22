@@ -1,0 +1,24 @@
+{
+  "id": "498ab6cb5fbf6716",
+  "sourceId": "bit",
+  "sourceName": "Behaviour & Information Technology",
+  "tier": "T2",
+  "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2745606?af=R",
+  "title": "Investigating the effects of gender stereotyping on user experience in the context of fintech services",
+  "titleZh": "探究性别刻板印象对金融科技服务用户体验的影响",
+  "summaryZh": "一项研究探究性别刻板印象对金融科技服务用户体验的影响。研究聚焦金融科技服务场景下的用户体验，考察性别刻板印象与用户体验之间的关系。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-21T07:16:38+00:00",
+  "discoveredAt": "2026-10-22T16:13:16.040886+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
