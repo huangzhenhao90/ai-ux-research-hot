@@ -891,16 +891,50 @@ def test_strip_bodies_clears_processed_items_only() -> None:
     pending.set_body("need this body")
     scored = _item("scored", "https://x.com/5", status=Status.SCORED)
     scored.set_body("need this too")
+    fresh = _item("fresh", "https://x.com/6", status=Status.NEW)
+    fresh.set_body("need this as well")
 
-    items = [done, listed, blocked, pending, scored]
+    items = [done, listed, blocked, pending, scored, fresh]
     stripped = strip_bodies(items)
 
     assert stripped == 3
     for item in (done, listed, blocked):
         assert item.body == ""
         assert item.bodyChars > 0, "长度要留着做审计"
-    for item in (pending, scored):
+    for item in (pending, scored, fresh):
         assert item.body, f"{item.status} 的正文不能被清掉"
+
+
+def test_strip_bodies_clears_unknown_and_never_processed() -> None:
+    """UNKNOWN 与 hot_signal / EXCLUDE 永远不会进模型步骤，正文该清掉。
+
+    不清的话，public 仓库里会留着一批永远读不到的第三方正文
+    （实测过一次：30 条共 6,483 字，其中 9 条是 hot_signal 的 Reddit 帖子）。
+    """
+    from uxhot.models import strip_bodies
+
+    unknown = _item("u", "https://x.com/u", status=Status.UNKNOWN)
+    unknown.set_body("永远读不到的正文")
+
+    hot = _item("h", "https://x.com/h", status=Status.NEW)
+    hot.mode = "hot_signal"
+    hot.set_body("热度信号，不展示")
+
+    excluded = _item("e", "https://x.com/e", status=Status.NEW, tier="EXCLUDE")
+    excluded.set_body("不参与精选")
+
+    assert strip_bodies([unknown, hot, excluded]) == 3
+    assert unknown.body == "" and hot.body == "" and excluded.body == ""
+
+
+def test_strip_bodies_keeps_editorial_new_body() -> None:
+    """但 editorial 的 NEW 必须保留 —— 它下一步就要被评分。"""
+    from uxhot.models import strip_bodies
+
+    item = _item("n", "https://x.com/n", status=Status.NEW)
+    item.set_body("马上要送去评分")
+    assert strip_bodies([item]) == 0
+    assert item.body == "马上要送去评分"
 
 
 def test_strip_bodies_keeps_body_chars_for_audit() -> None:

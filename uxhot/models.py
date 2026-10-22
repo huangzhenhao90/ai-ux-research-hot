@@ -156,26 +156,46 @@ BODY_FREE_STATUSES = frozenset(
         Status.DUPLICATE,  # 判为重复，不再处理
         Status.BLOCKED,    # 预筛拦下，不公开
         Status.ARCHIVED,   # 旧文，本来就不进模型步骤
+        # ⚠️ UNKNOWN 也是终态：`prefilter.should_prefilter()` 只收 `NEW`，
+        # 所以 UNKNOWN 永远不会进模型步骤，正文永远读不到。
+        # 把它算进来，public 仓库里就不会留下一批永远用不上的第三方正文。
+        Status.UNKNOWN,
     }
 )
 
-# 这些状态还需要正文：NEW 等预筛、PREFILTERED 等评分、SCORED 等写作、
-# UNKNOWN 等补材料后重试。清掉它们会让下一步没法做。
+# 这些状态还需要正文：NEW 等预筛、PREFILTERED 等评分、SCORED 等写作。
+# 清掉它们会让下一步没法做。
 BODY_REQUIRED_STATUSES = frozenset(
-    {Status.NEW, Status.PREFILTERED, Status.SCORED, Status.UNKNOWN}
+    {Status.NEW, Status.PREFILTERED, Status.SCORED}
 )
 
 
+def _never_processed(item: Item) -> bool:
+    """这条会不会进模型步骤。
+
+    非 `editorial` 模式（如 hot_signal）与 `EXCLUDE` 分级都不参与精选，
+    正文永远用不上。
+    """
+    return item.mode != "editorial" or item.tier == "EXCLUDE"
+
+
 def strip_bodies(items: list[Item]) -> int:
-    """清掉已处理完成条目的正文，返回清掉的条数。
+    """清掉「不会再被读到」的条目的正文，返回清掉的条数。
 
     这样 `data/items` 可以安全提交进 public 仓库（D6），又不影响流水线：
     计划明确「改了提示词只影响之后的新资料，已判过的不重算」，
     所以已处理条目的正文不会再被读到。
+
+    两类会被清：
+    1. 已处理完成的状态（见 `BODY_FREE_STATUSES`）；
+    2. **永远不会进模型步骤**的条目 —— `hot_signal` / `EXCLUDE` 的源、
+       以及没有可信日期而停在 `UNKNOWN` 的条目。
     """
     stripped = 0
     for item in items:
-        if item.status in BODY_FREE_STATUSES and item.body:
+        if not item.body:
+            continue
+        if item.status in BODY_FREE_STATUSES or _never_processed(item):
             item.body = ""
             item.bodyTruncated = False
             stripped += 1
