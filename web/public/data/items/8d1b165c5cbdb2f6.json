@@ -1,0 +1,21 @@
+{
+  "id": "8d1b165c5cbdb2f6",
+  "sourceId": "ipsos",
+  "sourceName": "Ipsos",
+  "tier": "T1",
+  "url": "https://www.ipsos.com/en/does-your-team-have-enough-empathy-take-ipsos-quiz-find-out",
+  "title": "Does your team have enough empathy? Take Ipsos' quiz to find out!",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": null,
+  "tags": [],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-08T15:02:52+00:00",
+  "discoveredAt": "2026-10-22T00:12:31.995222+00:00",
+  "status": "archived",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

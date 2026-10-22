@@ -3,6 +3,112 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 0,
-  "items": []
+  "count": 4,
+  "items": [
+    {
+      "id": "15710eb0367bf6e8",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/9-digital-twins-you-can-build-today/",
+      "title": "9 Digital Twins you can build today (and exactly what they’ll do for you)",
+      "titleZh": "今天就能构建的 9 个 Dovetail Digital Twins，以及它们各自能为团队做什么",
+      "summaryZh": "Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "合成用户",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-26T12:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "221137465a08966c",
+      "sourceId": "usertesting-blog",
+      "sourceName": "UserTesting Blog",
+      "tier": "T1",
+      "url": "https://www.usertesting.com/blog/why-research-teams-need-influence-more-budget",
+      "title": "Why research teams need influence more than budget",
+      "titleZh": "Why research teams need influence more than budget",
+      "summaryZh": "",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "usertesting"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-06-16T18:17:28+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "02019ad8dc034702",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/quantilopes-latest-platform-innovations-fueling-brand-growth",
+      "title": "quantilope's Latest Platform Innovations Fueling Brand Growth",
+      "titleZh": "quantilope 平台新功能：AI 研究伙伴 quinn、CEP Generator 与合成 Category Twins",
+      "summaryZh": "quantilope 在平台中上线多项 AI 创新：AI 研究伙伴 quinn 已原生进入 Survey Editor，可从提示词秒级生成完整的高级方法研究草稿，并新增 quinn Search 将项目库整合为可检索的品牌记忆。CEP Generator 用 AI 一分钟生成 35 个初始 Category Entry Point，供团队筛选至约 20 个用于最终线上研究；Category Twins 则用品牌追踪数据以合成受访者预测试概念与信息。团队还将推出覆盖 1,000+ 品牌、150+ 品类的 Mental Availability Norms。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "合成用户",
+        "市场研究",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-27T13:47:47+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0a3ed47f158cf555",
+      "sourceId": "mopinion",
+      "sourceName": "Mopinion",
+      "tier": "T1",
+      "url": "https://mopinion.com/website-feedback-analytics/",
+      "title": "Website feedback analytics: Turn website feedback into action",
+      "titleZh": "Mopinion：网站反馈分析如何把反馈转化为行动",
+      "summaryZh": "Mopinion 发文介绍网站反馈分析如何把评分、评论和上下文数据转化为团队可理解、可执行的模式。文章指出行为分析能显示访客在哪里点击、犹豫或离开网站，而网站反馈则解释原因，两者结合可指导改进。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "mopinion"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-24T07:24:08+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

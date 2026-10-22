@@ -3,6 +3,31 @@
   "name": "SurveyMonkey",
   "group": "company",
   "definition": "SurveyMonkey 的问卷产品 AI 能力与自助研究工具更新。",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "id": "11ac7872b45a9902",
+      "sourceId": "surveymonkey",
+      "sourceName": "SurveyMonkey",
+      "tier": "T1",
+      "url": "https://www.surveymonkey.com/curiosity/cnbc-money-survey-affordability-october-2026/?ut_source=rss",
+      "title": "CNBC and SurveyMonkey Quarterly Money Survey (October 2026)",
+      "titleZh": "CNBC and SurveyMonkey Quarterly Money Survey (October 2026)",
+      "summaryZh": "",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-05T23:35:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

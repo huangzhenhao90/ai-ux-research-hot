@@ -3,6 +3,140 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 0,
-  "items": []
+  "count": 5,
+  "items": [
+    {
+      "id": "0f6df2ffe2a6818a",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
+      "titleZh": "对比合成用户与真人受访者：结论一致但答案差异更小",
+      "summaryZh": "复用此前关于 UX 术语的调研问题，让 604 名技术与设计从业者作答，又向 120 名合成受访者提出同一问题并比较两组数据。两组数据得出相同总体结论，但合成回答的多样性远低于真人回答。合成回答于 2026 年 2 月通过生成式 AI 平台 Synthetic Users 生成",
+      "reason": "NN/g 用人均同一道开放题对比 604 名真人与 120 名合成受访者，结论一致但合成答案多样性明显更低。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-16T17:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "05374bec817f75e3",
+      "sourceId": "dscout-people-nerds",
+      "sourceName": "dscout People Nerds",
+      "tier": "T1",
+      "url": "https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases",
+      "title": "Synthetic Users vs. Digital Twins: Definitions, Risks, and Real Use Cases",
+      "titleZh": "合成用户与数字孪生：定义、风险与真实用例",
+      "summaryZh": "dscout 的 People Nerds 梳理了合成用户与数字孪生的定义差异，并逐一说明两者的风险与真实使用场景。文章把这两个常被混用的概念分开，供研究团队判断各自适用的环节与边界。",
+      "reason": "原文区分了合成用户与数字孪生两类概念的定义、风险和适用场景，帮助研究团队判断该在什么环节采用哪一种。",
+      "category": "opinion",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "dscout"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-06T16:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "02f24ca2aa4a8368",
+      "sourceId": "greatquestion-blog",
+      "sourceName": "Great Question Blog",
+      "tier": "T1",
+      "url": "https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins",
+      "title": "Most “digital twins” in research are synthetic users with a better name",
+      "titleZh": "研究中的多数「数字孪生」其实就是换了名字的合成用户",
+      "summaryZh": "文章指出研究中的多数「数字孪生」实际上就是换了名字的合成用户，并围绕这两个概念的区别展开讨论。这一区分关系到团队如何界定合成受访者方案的能力边界。",
+      "reason": "文章区分了研究中的数字孪生与合成用户两个常被混用的概念，有助于团队在采购或设计合成受访者方案时厘清术语边界。",
+      "category": null,
+      "tags": [
+        "观点/讨论",
+        "合成用户"
+      ],
+      "entities": [
+        "great-question"
+      ],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-10-01T16:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "15710eb0367bf6e8",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/9-digital-twins-you-can-build-today/",
+      "title": "9 Digital Twins you can build today (and exactly what they’ll do for you)",
+      "titleZh": "今天就能构建的 9 个 Dovetail Digital Twins，以及它们各自能为团队做什么",
+      "summaryZh": "Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "合成用户",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-26T12:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "02019ad8dc034702",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/quantilopes-latest-platform-innovations-fueling-brand-growth",
+      "title": "quantilope's Latest Platform Innovations Fueling Brand Growth",
+      "titleZh": "quantilope 平台新功能：AI 研究伙伴 quinn、CEP Generator 与合成 Category Twins",
+      "summaryZh": "quantilope 在平台中上线多项 AI 创新：AI 研究伙伴 quinn 已原生进入 Survey Editor，可从提示词秒级生成完整的高级方法研究草稿，并新增 quinn Search 将项目库整合为可检索的品牌记忆。CEP Generator 用 AI 一分钟生成 35 个初始 Category Entry Point，供团队筛选至约 20 个用于最终线上研究；Category Twins 则用品牌追踪数据以合成受访者预测试概念与信息。团队还将推出覆盖 1,000+ 品牌、150+ 品类的 Mental Availability Norms。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "合成用户",
+        "市场研究",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-27T13:47:47+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

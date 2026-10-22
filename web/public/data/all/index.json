@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-10-21T14:44:20.522731+00:00",
-  "total": 321,
+  "generatedAt": "2026-10-22T00:12:31.995222+00:00",
+  "total": 369,
   "months": [
     {
       "month": "2026-10",
-      "count": 139,
+      "count": 147,
       "path": "data/all/2026-10.json"
     },
     {
       "month": "2026-09",
-      "count": 60,
+      "count": 63,
       "path": "data/all/2026-09.json"
     },
     {
       "month": "2026-08",
-      "count": 33,
+      "count": 35,
       "path": "data/all/2026-08.json"
     },
     {
       "month": "2026-07",
-      "count": 17,
+      "count": 20,
       "path": "data/all/2026-07.json"
     },
     {
       "month": "2026-06",
-      "count": 21,
+      "count": 29,
       "path": "data/all/2026-06.json"
     },
     {
       "month": "2026-05",
-      "count": 6,
+      "count": 11,
       "path": "data/all/2026-05.json"
     },
     {
       "month": "2026-04",
-      "count": 4,
+      "count": 6,
       "path": "data/all/2026-04.json"
     },
     {
       "month": "2026-03",
-      "count": 6,
+      "count": 8,
       "path": "data/all/2026-03.json"
     },
     {
       "month": "2026-02",
-      "count": 6,
+      "count": 7,
       "path": "data/all/2026-02.json"
     },
     {
       "month": "2026-01",
-      "count": 2,
+      "count": 5,
       "path": "data/all/2026-01.json"
     },
     {
       "month": "2025-12",
-      "count": 2,
+      "count": 9,
       "path": "data/all/2025-12.json"
     },
     {
       "month": "2025-11",
-      "count": 5,
+      "count": 10,
       "path": "data/all/2025-11.json"
     },
     {
@@ -121,11 +121,6 @@
       "month": "2024-02",
       "count": 1,
       "path": "data/all/2024-02.json"
-    },
-    {
-      "month": "2023-11",
-      "count": 1,
-      "path": "data/all/2023-11.json"
     },
     {
       "month": "2023-10",

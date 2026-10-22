@@ -1,0 +1,21 @@
+{
+  "id": "fe71c070d9bd33e4",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
+  "title": "Fetch once, use everywhere: rebuilding how Dovetail ingests your data",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": null,
+  "tags": [],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-06-14T23:00:00+00:00",
+  "discoveredAt": "2026-10-22T00:12:31.995222+00:00",
+  "status": "archived",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

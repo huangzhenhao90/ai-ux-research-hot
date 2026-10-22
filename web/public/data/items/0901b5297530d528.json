@@ -5,16 +5,22 @@
   "tier": "T1",
   "url": "https://www.dynata.com/why-dynata/resources/blog/short-form-world-long-form-surveys-its-time-for-research-to-catch-up/",
   "title": "Short-Form World, Long-Form Surveys: It’s Time for Research to Catch Up",
-  "titleZh": null,
-  "summaryZh": null,
+  "titleZh": "短视频时代的长问卷： 呼吁研究行业跟上节奏",
+  "summaryZh": "发文指出，人们已习惯短视频与即时反馈，但问卷仍要求受访者长时间专注作答，行业需要跟上这一变化。文中提到，网红发布的 10 分钟晚餐食谱视频都难以被看完，而问卷却常要求受访者花 30 分钟作答",
   "reason": null,
-  "category": null,
-  "tags": [],
-  "entities": [],
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "问卷/定量",
+    "市场研究"
+  ],
+  "entities": [
+    "dynata"
+  ],
   "itemType": null,
   "publishedAt": "2026-07-17T14:45:10+00:00",
   "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-  "status": "archived",
+  "status": "listed",
   "dupOf": null,
   "relation": null,
   "related": []

@@ -5,16 +5,23 @@
   "tier": "T1",
   "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
   "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
-  "titleZh": null,
-  "summaryZh": null,
-  "reason": null,
-  "category": null,
-  "tags": [],
-  "entities": [],
-  "itemType": null,
+  "titleZh": "对比合成用户与真人受访者：结论一致但答案差异更小",
+  "summaryZh": "复用此前关于 UX 术语的调研问题，让 604 名技术与设计从业者作答，又向 120 名合成受访者提出同一问题并比较两组数据。两组数据得出相同总体结论，但合成回答的多样性远低于真人回答。合成回答于 2026 年 2 月通过生成式 AI 平台 Synthetic Users 生成",
+  "reason": "NN/g 用人均同一道开放题对比 604 名真人与 120 名合成受访者，结论一致但合成答案多样性明显更低。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "问卷/定量",
+    "定性分析"
+  ],
+  "entities": [
+    "nngroup"
+  ],
+  "itemType": "research_paper",
   "publishedAt": "2026-10-16T17:00:00+00:00",
   "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-  "status": "archived",
+  "status": "selected",
   "dupOf": null,
   "relation": null,
   "related": []

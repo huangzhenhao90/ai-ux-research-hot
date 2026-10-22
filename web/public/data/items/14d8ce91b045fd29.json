@@ -5,16 +5,22 @@
   "tier": "T1",
   "url": "https://delvetool.com/blog/confirmability-in-qualitative-research/",
   "title": "Confirmability in qualitative research: What it means and how to establish it in your research",
-  "titleZh": null,
-  "summaryZh": null,
+  "titleZh": "定性研究中的可确认性：含义与建立方法",
+  "summaryZh": "Delve 发文讲解定性研究中的可确认性，即如何证明研究发现来自数据本身。文章建议在编码过程中同步建立审计轨迹，由 Delve 集中保存记录。",
   "reason": null,
-  "category": null,
-  "tags": [],
-  "entities": [],
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "转写/编码",
+    "定性分析"
+  ],
+  "entities": [
+    "delve"
+  ],
   "itemType": null,
   "publishedAt": "2026-09-08T00:00:00+00:00",
   "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-  "status": "archived",
+  "status": "listed",
   "dupOf": null,
   "relation": null,
   "related": []

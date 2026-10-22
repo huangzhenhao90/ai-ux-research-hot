@@ -3,6 +3,32 @@
   "name": "Ipsos",
   "group": "company",
   "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "id": "17782bd98c014cbd",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand",
+      "title": "tvbeat and Ipsos partner to advance Total TV audience measurement for TVNZ and Sky in New Zealand",
+      "titleZh": "tvbeat 与 合作，为 TVNZ 和 Sky 推进新西兰 Total TV 受众测量",
+      "summaryZh": "tvbeat 与 达成合作，将为 TVNZ 和 Sky 在新西兰推进 Total TV 受众测量。新的受众测量系统（Audience Measurement System）会把 TVNZ 和 Sky 的大规模一方观看数据与独立受众研究结合，为 Total TV 建立可信基础",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-19T10:12:34+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

@@ -3,6 +3,112 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 0,
-  "items": []
+  "count": 4,
+  "items": [
+    {
+      "id": "05374bec817f75e3",
+      "sourceId": "dscout-people-nerds",
+      "sourceName": "dscout People Nerds",
+      "tier": "T1",
+      "url": "https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases",
+      "title": "Synthetic Users vs. Digital Twins: Definitions, Risks, and Real Use Cases",
+      "titleZh": "合成用户与数字孪生：定义、风险与真实用例",
+      "summaryZh": "dscout 的 People Nerds 梳理了合成用户与数字孪生的定义差异，并逐一说明两者的风险与真实使用场景。文章把这两个常被混用的概念分开，供研究团队判断各自适用的环节与边界。",
+      "reason": "原文区分了合成用户与数字孪生两类概念的定义、风险和适用场景，帮助研究团队判断该在什么环节采用哪一种。",
+      "category": "opinion",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "dscout"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-06T16:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "194a20915ff0389b",
+      "sourceId": "surveycto",
+      "sourceName": "SurveyCTO",
+      "tier": "T1",
+      "url": "https://www.surveycto.com/data-collection-quality/data-monitoring-guide/",
+      "title": "Data monitoring guide: How to catch leading indicators of bad data early",
+      "titleZh": "数据监测指南：如何及早发现坏数据的领先指标",
+      "summaryZh": "发布数据监测指南，讲解如何用自动化和智能检查识别坏数据的早期指标。指南以分步方式说明及早发现数据质量问题的方法",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "转写/编码"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-26T15:34:41+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "14d8ce91b045fd29",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/confirmability-in-qualitative-research/",
+      "title": "Confirmability in qualitative research: What it means and how to establish it in your research",
+      "titleZh": "定性研究中的可确认性：含义与建立方法",
+      "summaryZh": "Delve 发文讲解定性研究中的可确认性，即如何证明研究发现来自数据本身。文章建议在编码过程中同步建立审计轨迹，由 Delve 集中保存记录。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-08T00:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0a3ed47f158cf555",
+      "sourceId": "mopinion",
+      "sourceName": "Mopinion",
+      "tier": "T1",
+      "url": "https://mopinion.com/website-feedback-analytics/",
+      "title": "Website feedback analytics: Turn website feedback into action",
+      "titleZh": "Mopinion：网站反馈分析如何把反馈转化为行动",
+      "summaryZh": "Mopinion 发文介绍网站反馈分析如何把评分、评论和上下文数据转化为团队可理解、可执行的模式。文章指出行为分析能显示访客在哪里点击、犹豫或离开网站，而网站反馈则解释原因，两者结合可指导改进。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "mopinion"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-24T07:24:08+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

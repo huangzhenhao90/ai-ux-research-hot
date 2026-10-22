@@ -37,8 +37,8 @@ screenshots/**/*.png
 eval/samples-direction.json
 eval/samples-*.json
 
-# data/items 存的是第三方文章正文（实测 329 条 ≈ 80 万字）。
-# D6 仓库要 public，提交等于再分发他人内容 —— 策略待用户决定，见 PROGRESS.md。
-# 注意：不提交它会让 GitHub Actions 每次从零开始（首次导入全部归档，永远不出新条目），
-# 所以阶段 7 之前必须定下来。
-data/items/*.jsonl
+# data/items 会被提交：流水线靠它保持状态（不提交则 Actions 每次从零开始，
+# 首次导入全部归档、永远不出新条目）。
+# 安全性由 strip_bodies() 保证：处理完成的条目正文会被清空，只留 bodyChars 长度，
+# 因此这里不含第三方文章全文（用户 2026-10-21 确认的策略）。
+# 仍需处理的条目（new/prefiltered/scored/unknown）会短暂保留正文，属必要输入。

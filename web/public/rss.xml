@@ -5,8 +5,17 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 21 Oct 2026 14:44:20 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:12:31 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
+    <item>
+      <title>对比合成用户与真人受访者：结论一致但答案差异更小</title>
+      <link>https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
+      <guid isPermaLink="true">https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
+      <pubDate>Fri, 16 Oct 2026 17:00:00 GMT</pubDate>
+      <description>复用此前关于 UX 术语的调研问题，让 604 名技术与设计从业者作答，又向 120 名合成受访者提出同一问题并比较两组数据。两组数据得出相同总体结论，但合成回答的多样性远低于真人回答。合成回答于 2026 年 2 月通过生成式 AI 平台 Synthetic Users 生成</description>
+      <category>Nielsen Norman Group</category>
+      <category>research</category>
+    </item>
   </channel>
 </rss>

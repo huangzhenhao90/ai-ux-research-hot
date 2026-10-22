@@ -1,0 +1,21 @@
+{
+  "id": "19f642bd29af6290",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/you-cant-build-trustworthy-ai-on-untrustworthy-data/",
+  "title": "You can’t build trustworthy AI on top of untrustworthy data",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": null,
+  "tags": [],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-07-01T12:00:00+00:00",
+  "discoveredAt": "2026-10-22T00:12:31.995222+00:00",
+  "status": "archived",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

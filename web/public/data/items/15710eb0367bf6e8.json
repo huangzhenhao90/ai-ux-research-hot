@@ -5,16 +5,23 @@
   "tier": "T1",
   "url": "https://dovetail.com/blog/9-digital-twins-you-can-build-today/",
   "title": "9 Digital Twins you can build today (and exactly what they’ll do for you)",
-  "titleZh": null,
-  "summaryZh": null,
+  "titleZh": "今天就能构建的 9 个 Dovetail Digital Twins，以及它们各自能为团队做什么",
+  "summaryZh": "Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。",
   "reason": null,
-  "category": null,
-  "tags": [],
-  "entities": [],
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "合成用户",
+    "洞察库/ResearchOps",
+    "Dovetail"
+  ],
+  "entities": [
+    "dovetail"
+  ],
   "itemType": null,
   "publishedAt": "2026-08-26T12:00:00+00:00",
   "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-  "status": "archived",
+  "status": "listed",
   "dupOf": null,
   "relation": null,
   "related": []

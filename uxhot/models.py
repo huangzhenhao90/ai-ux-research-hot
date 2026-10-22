@@ -60,6 +60,9 @@ class Item(BaseModel):
     # ── 正文 ────────────────────────────────────────────────────────
     body: str = ""
     bodyTruncated: bool = False
+    # 正文原始长度。处理完成后正文本身会被清掉（见 strip_bodies），
+    # 只留长度用于审计与排查，这样 data/items 里不含第三方文章全文。
+    bodyChars: int = 0
 
     # ── 处理状态 ────────────────────────────────────────────────────
     status: Status = Status.NEW
@@ -135,12 +138,48 @@ class Item(BaseModel):
 
     def set_body(self, text: str) -> None:
         """正文截断到 8000 字（计划 §5.1）。"""
+        self.bodyChars = len(text)
         if len(text) > BODY_LIMIT:
             self.body = text[:BODY_LIMIT]
             self.bodyTruncated = True
         else:
             self.body = text
             self.bodyTruncated = False
+
+
+# 处理完成后不再需要正文的状态：这些条目不会再进任何模型步骤，
+# 正文留着只会在 data/items 里堆积第三方文章全文。
+BODY_FREE_STATUSES = frozenset(
+    {
+        Status.SELECTED,   # 已进精选，标题摘要已写好
+        Status.LISTED,     # 只进全部动态，短写法已完成
+        Status.DUPLICATE,  # 判为重复，不再处理
+        Status.BLOCKED,    # 预筛拦下，不公开
+        Status.ARCHIVED,   # 旧文，本来就不进模型步骤
+    }
+)
+
+# 这些状态还需要正文：NEW 等预筛、PREFILTERED 等评分、SCORED 等写作、
+# UNKNOWN 等补材料后重试。清掉它们会让下一步没法做。
+BODY_REQUIRED_STATUSES = frozenset(
+    {Status.NEW, Status.PREFILTERED, Status.SCORED, Status.UNKNOWN}
+)
+
+
+def strip_bodies(items: list[Item]) -> int:
+    """清掉已处理完成条目的正文，返回清掉的条数。
+
+    这样 `data/items` 可以安全提交进 public 仓库（D6），又不影响流水线：
+    计划明确「改了提示词只影响之后的新资料，已判过的不重算」，
+    所以已处理条目的正文不会再被读到。
+    """
+    stripped = 0
+    for item in items:
+        if item.status in BODY_FREE_STATUSES and item.body:
+            item.body = ""
+            item.bodyTruncated = False
+            stripped += 1
+    return stripped
 
 
 def make_id(canonical_url: str) -> str:

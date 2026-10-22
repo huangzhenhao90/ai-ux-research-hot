@@ -3,6 +3,58 @@
   "name": "AI 访谈",
   "group": "field",
   "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-  "count": 0,
-  "items": []
+  "count": 2,
+  "items": [
+    {
+      "id": "0b86c760fb29c3f7",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
+      "tier": "T2",
+      "url": "https://doi.org/10.1016/j.ijhcs.2026.103906",
+      "title": "对话风格对儿童自我报告的影响：基于 LLM 语音日记的实地研究",
+      "titleZh": "对话风格如何影响儿童自我报告：基于 LLM 语音日记的实地研究",
+      "summaryZh": "一项实地研究让 32 名 7-13 岁儿童参与七次 LLM 语音日记实验，对比押韵与散文两种对话风格。押韵风格带来更高完成率、更少缺勤和更高回答质量，享受度起中介作用；低龄儿童强烈偏好押韵，高龄儿童偏好更多样且随时间衰减。研究据此提出兼顾语义支架与音韵增强的对话风格设计框架。",
+      "reason": "研究用 32 名儿童的七次实地实验，比较押韵与散文两种对话风格对自我报告日记完成率和回答质量的影响。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": null,
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "05374bec817f75e3",
+      "sourceId": "dscout-people-nerds",
+      "sourceName": "dscout People Nerds",
+      "tier": "T1",
+      "url": "https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases",
+      "title": "Synthetic Users vs. Digital Twins: Definitions, Risks, and Real Use Cases",
+      "titleZh": "合成用户与数字孪生：定义、风险与真实用例",
+      "summaryZh": "dscout 的 People Nerds 梳理了合成用户与数字孪生的定义差异，并逐一说明两者的风险与真实使用场景。文章把这两个常被混用的概念分开，供研究团队判断各自适用的环节与边界。",
+      "reason": "原文区分了合成用户与数字孪生两类概念的定义、风险和适用场景，帮助研究团队判断该在什么环节采用哪一种。",
+      "category": "opinion",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "dscout"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-06T16:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

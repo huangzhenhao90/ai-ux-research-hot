@@ -18,7 +18,14 @@ from uxhot.collect.dates import now_utc
 from uxhot.collect.fetch import SourceState, build_client, fetch
 from uxhot.config import ConfigBundle
 from uxhot.llm import LLMClient
-from uxhot.models import Item, Status, items_path, load_items, upsert_items
+from uxhot.models import (
+    Item,
+    Status,
+    items_path,
+    load_items,
+    strip_bodies,
+    upsert_items,
+)
 from uxhot.pipeline import dedupe, prefilter, score, select, structure, write
 from uxhot.pipeline.common import StepContext
 
@@ -306,6 +313,11 @@ def run_pipeline(
     result.steps["select"] = select.summary(pending)
 
     # ── 5. 回写 ────────────────────────────────────────────────────────
+    # 先清掉已处理完成条目的正文：data/items 要提交进 public 仓库，
+    # 不能含第三方文章全文（用户 2026-10-21 确认的策略）。
+    stripped = strip_bodies(all_items)
+    result.steps["stripBodies"] = {"stripped": stripped}
+
     for path in sorted({items_path(DATA_DIR / "items", i.discoveredAt) for i in all_items}):
         batch = [i for i in all_items if items_path(DATA_DIR / "items", i.discoveredAt) == path]
         from uxhot.models import write_items

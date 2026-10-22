@@ -865,3 +865,53 @@ def test_daily_script_and_publish_layer_agree_on_edition_date() -> None:
         assert module.edition_date_for(dt, 8) == str(edition_day(dt, tz, 8)), (
             f"{hour}:00 两层给出的出刊日不一致"
         )
+
+
+# ══ 正文剥离（data/items 要能提交进 public 仓库）═══════════════════════
+
+
+def test_strip_bodies_clears_processed_items_only() -> None:
+    """已处理完的条目丢正文；还需处理的保留正文，否则下一步做不了。"""
+    from uxhot.models import strip_bodies
+
+    done = _item("done", "https://x.com/1", status=Status.SELECTED)
+    done.set_body("x" * 5000)
+    listed = _item("listed", "https://x.com/2", status=Status.LISTED)
+    listed.set_body("y" * 3000)
+    blocked = _item("blocked", "https://x.com/3", status=Status.BLOCKED)
+    blocked.set_body("z" * 1000)
+
+    pending = _item("pending", "https://x.com/4", status=Status.PREFILTERED)
+    pending.set_body("need this body")
+    scored = _item("scored", "https://x.com/5", status=Status.SCORED)
+    scored.set_body("need this too")
+
+    items = [done, listed, blocked, pending, scored]
+    stripped = strip_bodies(items)
+
+    assert stripped == 3
+    for item in (done, listed, blocked):
+        assert item.body == ""
+        assert item.bodyChars > 0, "长度要留着做审计"
+    for item in (pending, scored):
+        assert item.body, f"{item.status} 的正文不能被清掉"
+
+
+def test_strip_bodies_keeps_body_chars_for_audit() -> None:
+    from uxhot.models import strip_bodies
+
+    item = _item("t", "https://x.com/1", status=Status.SELECTED)
+    item.set_body("a" * 1234)
+    strip_bodies([item])
+    assert item.body == ""
+    assert item.bodyChars == 1234
+
+
+def test_archived_items_are_stripped() -> None:
+    """归档条目永远不进模型步骤，正文留着没有意义。"""
+    from uxhot.models import strip_bodies
+
+    item = _item("t", "https://x.com/1", status=Status.ARCHIVED)
+    item.set_body("old content")
+    assert strip_bodies([item]) == 1
+    assert item.body == ""

@@ -5,16 +5,21 @@
   "tier": "T1",
   "url": "https://listenlabs.com/articles/media-market-research-statistics/",
   "title": "Media Market Research Statistics: 2026 Edition",
-  "titleZh": null,
-  "summaryZh": null,
+  "titleZh": "Listen Labs 媒体市场研究统计 2026 版：全球媒体规模、广告支出与流媒体数据",
+  "summaryZh": "Listen Labs 发布 2026 版媒体市场研究统计，指出全球媒体市场规模 $1.73T、全球广告收入约 $1.30T、数字媒体市场 $1.039T 属不同口径，不可相加。数据含流媒体占美国电视观看时间 47.0%、美国社交媒体广告 $117.7B 居数字广告首位，以及传统电视收入 2025 年下滑 2.7% 至 $360.5B。",
   "reason": null,
-  "category": null,
-  "tags": [],
-  "entities": [],
+  "category": "industry",
+  "tags": [
+    "行业报告",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
   "itemType": null,
   "publishedAt": "2026-10-20T05:15:31+00:00",
   "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-  "status": "archived",
+  "status": "listed",
   "dupOf": null,
   "relation": null,
   "related": []

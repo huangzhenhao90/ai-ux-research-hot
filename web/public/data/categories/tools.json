@@ -3,6 +3,113 @@
   "label": "工具",
   "section": "工具发布/更新",
   "commentary": false,
-  "count": 0,
-  "items": []
+  "count": 4,
+  "items": [
+    {
+      "id": "15710eb0367bf6e8",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/9-digital-twins-you-can-build-today/",
+      "title": "9 Digital Twins you can build today (and exactly what they’ll do for you)",
+      "titleZh": "今天就能构建的 9 个 Dovetail Digital Twins，以及它们各自能为团队做什么",
+      "summaryZh": "Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "合成用户",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-26T12:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "13c2b225a0577e37",
+      "sourceId": "maxqda",
+      "sourceName": "MAXQDA",
+      "tier": "T1",
+      "url": "https://www.maxqda.com/blogpost/maxqda-24-6-update",
+      "title": "MAXQDA 24.6 update",
+      "titleZh": "MAXQDA 24.6 更新：新增 Light 2 主题与 AI Assist「Summarize Paraphrases」功能",
+      "summaryZh": "MAXQDA 发布 24.6 更新，新增第三套界面主题 Light 2，并为主菜单上的 AI Assist 增加「Summarize Paraphrases」功能，可将单份文档内所有释义整合为一段摘要。释义输出长度可选 short、medium、long，AI Assist 偏好设置中新增「Additional Instructions」字段以自定义输出。AI Assist 为可选付费插件，更新免费，购买后可获得免费或高级版本。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "itemType": null,
+      "publishedAt": "2024-10-22T14:00:58+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "02019ad8dc034702",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/quantilopes-latest-platform-innovations-fueling-brand-growth",
+      "title": "quantilope's Latest Platform Innovations Fueling Brand Growth",
+      "titleZh": "quantilope 平台新功能：AI 研究伙伴 quinn、CEP Generator 与合成 Category Twins",
+      "summaryZh": "quantilope 在平台中上线多项 AI 创新：AI 研究伙伴 quinn 已原生进入 Survey Editor，可从提示词秒级生成完整的高级方法研究草稿，并新增 quinn Search 将项目库整合为可检索的品牌记忆。CEP Generator 用 AI 一分钟生成 35 个初始 Category Entry Point，供团队筛选至约 20 个用于最终线上研究；Category Twins 则用品牌追踪数据以合成受访者预测试概念与信息。团队还将推出覆盖 1,000+ 品牌、150+ 品类的 Mental Availability Norms。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "合成用户",
+        "市场研究",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-27T13:47:47+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "082981791e28e212",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/now-published-our-new-textbook-on-qualitative-analysis-and-research/",
+      "title": "Now published: our new textbook on qualitative analysis and research",
+      "titleZh": "Quirkos 出版定性研究新教材《Making Qualitative Research Happen》",
+      "summaryZh": "Quirkos 正式开售其定性研究教材《Making Qualitative Research Happen》，该书整合了其最受欢迎的资源，覆盖从研究构思到论文写作的完整定性研究流程。书中包含 Mónica Sánchez-Hernández、Helen Kara、Christina Silver 和 Anuja Cabraal 的专章，涉及去殖民化定性研究、创意研究方法、AI 与机器学习工具的使用以及用 emoji 分析定性数据。Quirkos 团队另撰写了定性学术论文写作、叙事分析以及在 Quirkos 中协作分析数据等新章节，读者可在官网购买或联系其用于课堂教学。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-04-22T11:00:59+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

@@ -3,6 +3,82 @@
   "name": "论文",
   "group": "genre",
   "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-  "count": 0,
-  "items": []
+  "count": 3,
+  "items": [
+    {
+      "id": "0f6df2ffe2a6818a",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
+      "titleZh": "对比合成用户与真人受访者：结论一致但答案差异更小",
+      "summaryZh": "复用此前关于 UX 术语的调研问题，让 604 名技术与设计从业者作答，又向 120 名合成受访者提出同一问题并比较两组数据。两组数据得出相同总体结论，但合成回答的多样性远低于真人回答。合成回答于 2026 年 2 月通过生成式 AI 平台 Synthetic Users 生成",
+      "reason": "NN/g 用人均同一道开放题对比 604 名真人与 120 名合成受访者，结论一致但合成答案多样性明显更低。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-16T17:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0b86c760fb29c3f7",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
+      "tier": "T2",
+      "url": "https://doi.org/10.1016/j.ijhcs.2026.103906",
+      "title": "对话风格对儿童自我报告的影响：基于 LLM 语音日记的实地研究",
+      "titleZh": "对话风格如何影响儿童自我报告：基于 LLM 语音日记的实地研究",
+      "summaryZh": "一项实地研究让 32 名 7-13 岁儿童参与七次 LLM 语音日记实验，对比押韵与散文两种对话风格。押韵风格带来更高完成率、更少缺勤和更高回答质量，享受度起中介作用；低龄儿童强烈偏好押韵，高龄儿童偏好更多样且随时间衰减。研究据此提出兼顾语义支架与音韵增强的对话风格设计框架。",
+      "reason": "研究用 32 名儿童的七次实地实验，比较押韵与散文两种对话风格对自我报告日记完成率和回答质量的影响。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": null,
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1190a1bb12c738b9",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.27248",
+      "title": "ValiAssist: Scaling LLM-generated Programming Feedback Validation by Demonstration",
+      "titleZh": "ValiAssist：通过演示扩展 LLM 生成编程反馈的验证",
+      "summaryZh": "ValiAssist 以“演示验证”方式从教师对 AI 生成反馈的修改中推断可复用的验证逻辑，并让教师查看和调整该逻辑在其他学生作业上的应用。在 16 名教师的对比研究中，其反馈与教学目标的一致率为 91%（对照组 57%），纠正问题准则的准确率超过 77% 对 32% 的一倍以上。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T04:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

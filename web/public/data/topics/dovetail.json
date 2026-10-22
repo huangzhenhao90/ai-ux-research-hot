@@ -3,6 +3,34 @@
   "name": "Dovetail",
   "group": "company",
   "definition": "Dovetail 的洞察库与研究分析产品更新，以及其对研究流程自动化的做法。",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "id": "15710eb0367bf6e8",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/9-digital-twins-you-can-build-today/",
+      "title": "9 Digital Twins you can build today (and exactly what they’ll do for you)",
+      "titleZh": "今天就能构建的 9 个 Dovetail Digital Twins，以及它们各自能为团队做什么",
+      "summaryZh": "Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "合成用户",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-08-26T12:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

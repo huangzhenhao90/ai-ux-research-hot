@@ -1,7 +1,33 @@
 {
   "month": "2026-04",
-  "count": 4,
+  "count": 6,
   "items": [
+    {
+      "id": "082981791e28e212",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/now-published-our-new-textbook-on-qualitative-analysis-and-research/",
+      "title": "Now published: our new textbook on qualitative analysis and research",
+      "titleZh": "Quirkos 出版定性研究新教材《Making Qualitative Research Happen》",
+      "summaryZh": "Quirkos 正式开售其定性研究教材《Making Qualitative Research Happen》，该书整合了其最受欢迎的资源，覆盖从研究构思到论文写作的完整定性研究流程。书中包含 Mónica Sánchez-Hernández、Helen Kara、Christina Silver 和 Anuja Cabraal 的专章，涉及去殖民化定性研究、创意研究方法、AI 与机器学习工具的使用以及用 emoji 分析定性数据。Quirkos 团队另撰写了定性学术论文写作、叙事分析以及在 Quirkos 中协作分析数据等新章节，读者可在官网购买或联系其用于课堂教学。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-04-22T11:00:59+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "daed00dd84fc3c98",
       "sourceId": "ijmr",
@@ -23,12 +49,12 @@
       "relation": null
     },
     {
-      "id": "082981791e28e212",
-      "sourceId": "quirkos",
-      "sourceName": "Quirkos",
+      "id": "e888cf8ac76196e2",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
       "tier": "T1",
-      "url": "https://www.quirkos.com/blog/post/now-published-our-new-textbook-on-qualitative-analysis-and-research/",
-      "title": "Now published: our new textbook on qualitative analysis and research",
+      "url": "https://dovetail.com/blog/no-your-team-cant-just-use-chatgpt-for-this/",
+      "title": "No, your team can't just use ChatGPT for this",
       "titleZh": null,
       "summaryZh": null,
       "reason": null,
@@ -36,8 +62,28 @@
       "tags": [],
       "entities": [],
       "itemType": null,
-      "publishedAt": "2026-04-22T11:00:59+00:00",
-      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "publishedAt": "2026-04-23T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T00:12:31.995222+00:00",
+      "status": "archived",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6dc7fdc7e505d688",
+      "sourceId": "userinterviews-blog",
+      "sourceName": "User Interviews Blog",
+      "tier": "T1",
+      "url": "https://www.userinterviews.com/blog/what-is-the-ai-research-risk-cascade",
+      "title": "What is the New AI in Research Risk Cascade? Experts Explain",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-04-09T16:00:00+00:00",
+      "discoveredAt": "2026-10-22T00:12:31.995222+00:00",
       "status": "archived",
       "dupOf": null,
       "relation": null

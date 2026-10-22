@@ -5,16 +5,22 @@
   "tier": "T1",
   "url": "https://www.quirkos.com/blog/post/now-published-our-new-textbook-on-qualitative-analysis-and-research/",
   "title": "Now published: our new textbook on qualitative analysis and research",
-  "titleZh": null,
-  "summaryZh": null,
+  "titleZh": "Quirkos 出版定性研究新教材《Making Qualitative Research Happen》",
+  "summaryZh": "Quirkos 正式开售其定性研究教材《Making Qualitative Research Happen》，该书整合了其最受欢迎的资源，覆盖从研究构思到论文写作的完整定性研究流程。书中包含 Mónica Sánchez-Hernández、Helen Kara、Christina Silver 和 Anuja Cabraal 的专章，涉及去殖民化定性研究、创意研究方法、AI 与机器学习工具的使用以及用 emoji 分析定性数据。Quirkos 团队另撰写了定性学术论文写作、叙事分析以及在 Quirkos 中协作分析数据等新章节，读者可在官网购买或联系其用于课堂教学。",
   "reason": null,
-  "category": null,
-  "tags": [],
-  "entities": [],
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "quirkos"
+  ],
   "itemType": null,
   "publishedAt": "2026-04-22T11:00:59+00:00",
   "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-  "status": "archived",
+  "status": "listed",
   "dupOf": null,
   "relation": null,
   "related": []

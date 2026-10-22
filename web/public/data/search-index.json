@@ -1,6 +1,370 @@
 {
-  "count": 321,
+  "count": 369,
   "items": [
+    {
+      "id": "0f6df2ffe2a6818a",
+      "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
+      "titleZh": "对比合成用户与真人受访者：结论一致但答案差异更小",
+      "summaryZh": "复用此前关于 UX 术语的调研问题，让 604 名技术与设计从业者作答，又向 120 名合成受访者提出同一问题并比较两组数据。两组数据得出相同总体结论，但合成回答的多样性远低于真人回答。合成回答于 2026 年 2 月通过生成式 AI 平台 Synthetic Users 生成",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "category": "research",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-10-16T17:00:00+00:00"
+    },
+    {
+      "id": "0b86c760fb29c3f7",
+      "title": "对话风格对儿童自我报告的影响：基于 LLM 语音日记的实地研究",
+      "titleZh": "对话风格如何影响儿童自我报告：基于 LLM 语音日记的实地研究",
+      "summaryZh": "一项实地研究让 32 名 7-13 岁儿童参与七次 LLM 语音日记实验，对比押韵与散文两种对话风格。押韵风格带来更高完成率、更少缺勤和更高回答质量，享受度起中介作用；低龄儿童强烈偏好押韵，高龄儿童偏好更多样且随时间衰减。研究据此提出兼顾语义支架与音韵增强的对话风格设计框架。",
+      "tags": [
+        "论文/研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
+      "url": "https://doi.org/10.1016/j.ijhcs.2026.103906",
+      "publishedAt": null
+    },
+    {
+      "id": "05374bec817f75e3",
+      "title": "Synthetic Users vs. Digital Twins: Definitions, Risks, and Real Use Cases",
+      "titleZh": "合成用户与数字孪生：定义、风险与真实用例",
+      "summaryZh": "dscout 的 People Nerds 梳理了合成用户与数字孪生的定义差异，并逐一说明两者的风险与真实使用场景。文章把这两个常被混用的概念分开，供研究团队判断各自适用的环节与边界。",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "dscout"
+      ],
+      "category": "opinion",
+      "sourceName": "dscout People Nerds",
+      "url": "https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases",
+      "publishedAt": "2026-10-06T16:00:00+00:00"
+    },
+    {
+      "id": "02f24ca2aa4a8368",
+      "title": "Most “digital twins” in research are synthetic users with a better name",
+      "titleZh": "研究中的多数「数字孪生」其实就是换了名字的合成用户",
+      "summaryZh": "文章指出研究中的多数「数字孪生」实际上就是换了名字的合成用户，并围绕这两个概念的区别展开讨论。这一区分关系到团队如何界定合成受访者方案的能力边界。",
+      "tags": [
+        "观点/讨论",
+        "合成用户"
+      ],
+      "entities": [
+        "great-question"
+      ],
+      "category": null,
+      "sourceName": "Great Question Blog",
+      "url": "https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins",
+      "publishedAt": "2026-10-01T16:00:00+00:00"
+    },
+    {
+      "id": "04536d291010d65c",
+      "title": "More of your market research, now in Maze",
+      "titleZh": "More of your market research, now in Maze",
+      "summaryZh": "",
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Maze Blog",
+      "url": "https://maze.co/blog/ai-for-market-research/",
+      "publishedAt": "2026-10-08T05:28:33.498000+00:00"
+    },
+    {
+      "id": "194a20915ff0389b",
+      "title": "Data monitoring guide: How to catch leading indicators of bad data early",
+      "titleZh": "数据监测指南：如何及早发现坏数据的领先指标",
+      "summaryZh": "发布数据监测指南，讲解如何用自动化和智能检查识别坏数据的早期指标。指南以分步方式说明及早发现数据质量问题的方法",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "转写/编码"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "category": "methods",
+      "sourceName": "SurveyCTO",
+      "url": "https://www.surveycto.com/data-collection-quality/data-monitoring-guide/",
+      "publishedAt": "2026-03-26T15:34:41+00:00"
+    },
+    {
+      "id": "14d8ce91b045fd29",
+      "title": "Confirmability in qualitative research: What it means and how to establish it in your research",
+      "titleZh": "定性研究中的可确认性：含义与建立方法",
+      "summaryZh": "Delve 发文讲解定性研究中的可确认性，即如何证明研究发现来自数据本身。文章建议在编码过程中同步建立审计轨迹，由 Delve 集中保存记录。",
+      "tags": [
+        "方法/实践",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Delve",
+      "url": "https://delvetool.com/blog/confirmability-in-qualitative-research/",
+      "publishedAt": "2026-09-08T00:00:00+00:00"
+    },
+    {
+      "id": "1190a1bb12c738b9",
+      "title": "ValiAssist: Scaling LLM-generated Programming Feedback Validation by Demonstration",
+      "titleZh": "ValiAssist：通过演示扩展 LLM 生成编程反馈的验证",
+      "summaryZh": "ValiAssist 以“演示验证”方式从教师对 AI 生成反馈的修改中推断可复用的验证逻辑，并让教师查看和调整该逻辑在其他学生作业上的应用。在 16 名教师的对比研究中，其反馈与教学目标的一致率为 91%（对照组 57%），纠正问题准则的准确率超过 77% 对 32% 的一倍以上。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "定性分析"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.27248",
+      "publishedAt": "2026-10-21T04:00:00+00:00"
+    },
+    {
+      "id": "06d2e27d78460fce",
+      "title": "How do we measure creativity? A systematic review and taxonomy of evaluative methods in human-AI co-creativity",
+      "titleZh": "人机共创中的创造力如何测量？评估方法的系统综述与分类体系",
+      "summaryZh": "一项系统综述梳理了人机共创研究中评估创造力的方法，并构建了相应的分类体系。综述聚焦人类与 AI 协作创作场景下创造力评估手段的类型划分。",
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "category": null,
+      "sourceName": "Human-Computer Interaction",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2720237?af=R",
+      "publishedAt": "2026-10-01T05:24:35+00:00"
+    },
+    {
+      "id": "15710eb0367bf6e8",
+      "title": "9 Digital Twins you can build today (and exactly what they’ll do for you)",
+      "titleZh": "今天就能构建的 9 个 Dovetail Digital Twins，以及它们各自能为团队做什么",
+      "summaryZh": "Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。",
+      "tags": [
+        "工具发布",
+        "合成用户",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/9-digital-twins-you-can-build-today/",
+      "publishedAt": "2026-08-26T12:00:00+00:00"
+    },
+    {
+      "id": "17782bd98c014cbd",
+      "title": "tvbeat and Ipsos partner to advance Total TV audience measurement for TVNZ and Sky in New Zealand",
+      "titleZh": "tvbeat 与 合作，为 TVNZ 和 Sky 推进新西兰 Total TV 受众测量",
+      "summaryZh": "tvbeat 与 达成合作，将为 TVNZ 和 Sky 在新西兰推进 Total TV 受众测量。新的受众测量系统（Audience Measurement System）会把 TVNZ 和 Sky 的大规模一方观看数据与独立受众研究结合，为 Total TV 建立可信基础",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand",
+      "publishedAt": "2026-10-19T10:12:34+00:00"
+    },
+    {
+      "id": "13c2b225a0577e37",
+      "title": "MAXQDA 24.6 update",
+      "titleZh": "MAXQDA 24.6 更新：新增 Light 2 主题与 AI Assist「Summarize Paraphrases」功能",
+      "summaryZh": "MAXQDA 发布 24.6 更新，新增第三套界面主题 Light 2，并为主菜单上的 AI Assist 增加「Summarize Paraphrases」功能，可将单份文档内所有释义整合为一段摘要。释义输出长度可选 short、medium、long，AI Assist 偏好设置中新增「Additional Instructions」字段以自定义输出。AI Assist 为可选付费插件，更新免费，购买后可获得免费或高级版本。",
+      "tags": [
+        "功能更新",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "category": "tools",
+      "sourceName": "MAXQDA",
+      "url": "https://www.maxqda.com/blogpost/maxqda-24-6-update",
+      "publishedAt": "2024-10-22T14:00:58+00:00"
+    },
+    {
+      "id": "14723a45c3a19dbb",
+      "title": "A First Look at Sprig’s Analyze Agent",
+      "titleZh": "A First Look at Sprig’s Analyze Agent",
+      "summaryZh": "",
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Sprig Blog",
+      "url": "https://sprig.com/blog/analyze-agent-first-look",
+      "publishedAt": "2026-10-07T16:00:00+00:00"
+    },
+    {
+      "id": "221137465a08966c",
+      "title": "Why research teams need influence more than budget",
+      "titleZh": "Why research teams need influence more than budget",
+      "summaryZh": "",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "usertesting"
+      ],
+      "category": "opinion",
+      "sourceName": "UserTesting Blog",
+      "url": "https://www.usertesting.com/blog/why-research-teams-need-influence-more-budget",
+      "publishedAt": "2026-06-16T18:17:28+00:00"
+    },
+    {
+      "id": "02019ad8dc034702",
+      "title": "quantilope's Latest Platform Innovations Fueling Brand Growth",
+      "titleZh": "quantilope 平台新功能：AI 研究伙伴 quinn、CEP Generator 与合成 Category Twins",
+      "summaryZh": "quantilope 在平台中上线多项 AI 创新：AI 研究伙伴 quinn 已原生进入 Survey Editor，可从提示词秒级生成完整的高级方法研究草稿，并新增 quinn Search 将项目库整合为可检索的品牌记忆。CEP Generator 用 AI 一分钟生成 35 个初始 Category Entry Point，供团队筛选至约 20 个用于最终线上研究；Category Twins 则用品牌追踪数据以合成受访者预测试概念与信息。团队还将推出覆盖 1,000+ 品牌、150+ 品类的 Mental Availability Norms。",
+      "tags": [
+        "工具发布",
+        "合成用户",
+        "市场研究",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "category": "tools",
+      "sourceName": "quantilope",
+      "url": "https://www.quantilope.com/resources/quantilopes-latest-platform-innovations-fueling-brand-growth",
+      "publishedAt": "2026-08-27T13:47:47+00:00"
+    },
+    {
+      "id": "082981791e28e212",
+      "title": "Now published: our new textbook on qualitative analysis and research",
+      "titleZh": "Quirkos 出版定性研究新教材《Making Qualitative Research Happen》",
+      "summaryZh": "Quirkos 正式开售其定性研究教材《Making Qualitative Research Happen》，该书整合了其最受欢迎的资源，覆盖从研究构思到论文写作的完整定性研究流程。书中包含 Mónica Sánchez-Hernández、Helen Kara、Christina Silver 和 Anuja Cabraal 的专章，涉及去殖民化定性研究、创意研究方法、AI 与机器学习工具的使用以及用 emoji 分析定性数据。Quirkos 团队另撰写了定性学术论文写作、叙事分析以及在 Quirkos 中协作分析数据等新章节，读者可在官网购买或联系其用于课堂教学。",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "category": "tools",
+      "sourceName": "Quirkos",
+      "url": "https://www.quirkos.com/blog/post/now-published-our-new-textbook-on-qualitative-analysis-and-research/",
+      "publishedAt": "2026-04-22T11:00:59+00:00"
+    },
+    {
+      "id": "1c4309d5feb918a1",
+      "title": "Special Issue of International Journal of Market Research: ‘Market Research & Insight: Past, Present and Future’",
+      "titleZh": "International Journal of Market Research 专刊征稿：市场研究与洞察的过去、现在与未来",
+      "summaryZh": "International Journal of Market Research 发布专刊征稿，主题为\"市场研究与洞察：过去、现在与未来\"，目前处于 Ahead of Print 阶段。",
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "category": null,
+      "sourceName": "International Journal of Market Research",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1470785320941417?ai=2b4&mi=ehikzz&af=R",
+      "publishedAt": "2020-07-02T10:29:38+00:00"
+    },
+    {
+      "id": "0dad8a14e94f399a",
+      "title": "Media Market Research Statistics: 2026 Edition",
+      "titleZh": "Listen Labs 媒体市场研究统计 2026 版：全球媒体规模、广告支出与流媒体数据",
+      "summaryZh": "Listen Labs 发布 2026 版媒体市场研究统计，指出全球媒体市场规模 $1.73T、全球广告收入约 $1.30T、数字媒体市场 $1.039T 属不同口径，不可相加。数据含流媒体占美国电视观看时间 47.0%、美国社交媒体广告 $117.7B 居数字广告首位，以及传统电视收入 2025 年下滑 2.7% 至 $360.5B。",
+      "tags": [
+        "行业报告",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "industry",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/media-market-research-statistics/",
+      "publishedAt": "2026-10-20T05:15:31+00:00"
+    },
+    {
+      "id": "0a3ed47f158cf555",
+      "title": "Website feedback analytics: Turn website feedback into action",
+      "titleZh": "Mopinion：网站反馈分析如何把反馈转化为行动",
+      "summaryZh": "Mopinion 发文介绍网站反馈分析如何把评分、评论和上下文数据转化为团队可理解、可执行的模式。文章指出行为分析能显示访客在哪里点击、犹豫或离开网站，而网站反馈则解释原因，两者结合可指导改进。",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "mopinion"
+      ],
+      "category": "methods",
+      "sourceName": "Mopinion",
+      "url": "https://mopinion.com/website-feedback-analytics/",
+      "publishedAt": "2026-09-24T07:24:08+00:00"
+    },
+    {
+      "id": "0901b5297530d528",
+      "title": "Short-Form World, Long-Form Surveys: It’s Time for Research to Catch Up",
+      "titleZh": "短视频时代的长问卷： 呼吁研究行业跟上节奏",
+      "summaryZh": "发文指出，人们已习惯短视频与即时反馈，但问卷仍要求受访者长时间专注作答，行业需要跟上这一变化。文中提到，网红发布的 10 分钟晚餐食谱视频都难以被看完，而问卷却常要求受访者花 30 分钟作答",
+      "tags": [
+        "观点/讨论",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "dynata"
+      ],
+      "category": "opinion",
+      "sourceName": "Dynata",
+      "url": "https://www.dynata.com/why-dynata/resources/blog/short-form-world-long-form-surveys-its-time-for-research-to-catch-up/",
+      "publishedAt": "2026-07-17T14:45:10+00:00"
+    },
+    {
+      "id": "11ac7872b45a9902",
+      "title": "CNBC and SurveyMonkey Quarterly Money Survey (October 2026)",
+      "titleZh": "CNBC and SurveyMonkey Quarterly Money Survey (October 2026)",
+      "summaryZh": "",
+      "tags": [
+        "其他"
+      ],
+      "entities": [
+        "surveymonkey"
+      ],
+      "category": null,
+      "sourceName": "SurveyMonkey",
+      "url": "https://www.surveymonkey.com/curiosity/cnbc-money-survey-affordability-october-2026/?ut_source=rss",
+      "publishedAt": "2026-10-05T23:35:00+00:00"
+    },
+    {
+      "id": "726d72e23234b3f2",
+      "title": "Feeling the pressure: Understanding consumers during inflationary times",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/inflation/feeling-pressure-understanding-consumers-during-inflationary-times",
+      "publishedAt": "2026-10-21T15:19:13+00:00"
+    },
     {
       "id": "464a1eec03a8483e",
       "title": "I have a final UXR interview in few days - any tips welcome",
@@ -120,18 +484,6 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/customer-insights-platform-scalability-guide/",
       "publishedAt": "2026-10-21T05:02:59+00:00"
-    },
-    {
-      "id": "1190a1bb12c738b9",
-      "title": "ValiAssist: Scaling LLM-generated Programming Feedback Validation by Demonstration",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "arXiv cs.HC",
-      "url": "https://arxiv.org/abs/2610.27248",
-      "publishedAt": "2026-10-21T04:00:00+00:00"
     },
     {
       "id": "30dc752a132f8d67",
@@ -446,18 +798,6 @@
       "publishedAt": "2026-10-20T05:15:36+00:00"
     },
     {
-      "id": "0dad8a14e94f399a",
-      "title": "Media Market Research Statistics: 2026 Edition",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Listen Labs",
-      "url": "https://listenlabs.com/articles/media-market-research-statistics/",
-      "publishedAt": "2026-10-20T05:15:31+00:00"
-    },
-    {
       "id": "246a6f44e479e79a",
       "title": "Retail Concept Testing: Methods, Steps & Questions",
       "titleZh": null,
@@ -590,18 +930,6 @@
       "publishedAt": "2026-10-19T11:21:34+00:00"
     },
     {
-      "id": "0279db60e064c843",
-      "title": "What if AI sets us free?",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "UX Collective",
-      "url": "https://uxdesign.cc/what-if-ai-sets-us-free-084f4310709b?source=rss----138adf9c44c---4",
-      "publishedAt": "2026-10-19T11:12:29+00:00"
-    },
-    {
       "id": "80ceede0d016ce6d",
       "title": "UX designers are not designing interfaces, they design personalities",
       "titleZh": null,
@@ -612,18 +940,6 @@
       "sourceName": "UX Collective",
       "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
       "publishedAt": "2026-10-19T11:12:12+00:00"
-    },
-    {
-      "id": "17782bd98c014cbd",
-      "title": "tvbeat and Ipsos partner to advance Total TV audience measurement for TVNZ and Sky in New Zealand",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Ipsos",
-      "url": "https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand",
-      "publishedAt": "2026-10-19T10:12:34+00:00"
     },
     {
       "id": "886ba08ee88691b5",
@@ -660,18 +976,6 @@
       "sourceName": "Qualtrics",
       "url": "https://www.qualtrics.com/events/X4-on-demand/scaling-research-workday/",
       "publishedAt": "2026-10-19T03:10:35+00:00"
-    },
-    {
-      "id": "054d2c55609f4d83",
-      "title": "Migrated CX Webinar: Connecting the dots: Omnichannel strategies for modern Government",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Qualtrics",
-      "url": "https://www.qualtrics.com/events/modern-government-omnichannel-webinar/",
-      "publishedAt": "2026-10-19T03:00:39+00:00"
     },
     {
       "id": "244bb98e87ef883a",
@@ -732,18 +1036,6 @@
       "sourceName": "Optimal Workshop Blog",
       "url": "https://www.optimalworkshop.com/blog/optimal-mcp-figma-agent",
       "publishedAt": "2026-10-18T16:00:00+00:00"
-    },
-    {
-      "id": "0f6df2ffe2a6818a",
-      "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Nielsen Norman Group",
-      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "publishedAt": "2026-10-16T17:00:00+00:00"
     },
     {
       "id": "719285fbb8911e16",
@@ -998,16 +1290,16 @@
       "publishedAt": "2026-10-14T11:17:22+00:00"
     },
     {
-      "id": "02173458c2fc6638",
-      "title": "TraceRank: configurable review support for requirements traceability recovery",
+      "id": "78722a787bd09eb1",
+      "title": "AXA Future Risks Report 2025",
       "titleZh": null,
       "summaryZh": null,
       "tags": [],
       "entities": [],
       "category": null,
-      "sourceName": "Frontiers in Computer Science",
-      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1960635",
-      "publishedAt": "2026-10-14T00:00:00+00:00"
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/axa-future-risks-report-2025",
+      "publishedAt": "2026-10-14T09:10:05+00:00"
     },
     {
       "id": "390d04c7da30be99",
@@ -1070,6 +1362,18 @@
       "publishedAt": "2026-10-13T13:00:18+00:00"
     },
     {
+      "id": "3fafd512b0edb5d5",
+      "title": "The Reputation Council Report 2026",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/reputation-council-report-2026",
+      "publishedAt": "2026-10-13T11:31:31+00:00"
+    },
+    {
       "id": "8cd759517f3cc37e",
       "title": "If Synthetic Research Cannot Be Challenged, Can It Be Trusted?",
       "titleZh": null,
@@ -1094,6 +1398,18 @@
       "publishedAt": "2026-10-12T16:00:00+00:00"
     },
     {
+      "id": "285cdfedb4f29f50",
+      "title": "The Human Advantage Conference 2026: Highlights",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/human-advantage-conference-2026-highlights",
+      "publishedAt": "2026-10-12T12:17:45+00:00"
+    },
+    {
       "id": "524ed4b56be9eea9",
       "title": "UX Roundup: CAPTCHA | Undo | Robotaxi Safety | Better Usability for Educational AI | Scrolljacking | Floating Action Button | Long Forms | Secondary vs. Primary Features | Picture Superiority",
       "titleZh": null,
@@ -1104,6 +1420,18 @@
       "sourceName": "Jakob Nielsen on UX",
       "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20261012",
       "publishedAt": "2026-10-12T11:21:35+00:00"
+    },
+    {
+      "id": "698dfa72a8c462ab",
+      "title": "Ipsos Update – October 2026",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-update-october-2026",
+      "publishedAt": "2026-10-12T11:02:26+00:00"
     },
     {
       "id": "46bc832340dbaaea",
@@ -1190,6 +1518,30 @@
       "publishedAt": "2026-10-09T11:21:42+00:00"
     },
     {
+      "id": "4409ceae0729c220",
+      "title": "Rethinking wellness:  From product category to cultural belief system",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/rethinking-wellness-product-category-cultural-belief-system",
+      "publishedAt": "2026-10-09T09:00:00+00:00"
+    },
+    {
+      "id": "6a904c74c3ee127f",
+      "title": "Ignite Growth with Collective Innovation",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ignite-growth-collective-innovation",
+      "publishedAt": "2026-10-09T08:55:06+00:00"
+    },
+    {
       "id": "2b13368abd9d9e4e",
       "title": "Is AI Analyzing, or Just Chatting? A Review of Nguyen and Welch",
       "titleZh": null,
@@ -1200,6 +1552,30 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/ai-analyzing-or-just-chatting/",
       "publishedAt": "2026-10-09T00:00:00+00:00"
+    },
+    {
+      "id": "8d1b165c5cbdb2f6",
+      "title": "Does your team have enough empathy? Take Ipsos' quiz to find out!",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/does-your-team-have-enough-empathy-take-ipsos-quiz-find-out",
+      "publishedAt": "2026-10-08T15:02:52+00:00"
+    },
+    {
+      "id": "993dab508828e82d",
+      "title": "Ipsos launches its new creative assessment solution – Creative|Spark on Ipsos.Digital Platform in more countries",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-launches-its-new-creative-assessment-solution-creativespark-ipsosdigital-platform",
+      "publishedAt": "2026-10-08T13:12:29+00:00"
     },
     {
       "id": "8ff67271b6b1db73",
@@ -1214,6 +1590,18 @@
       "publishedAt": "2026-10-08T12:57:01+00:00"
     },
     {
+      "id": "5d47dcece1f01c20",
+      "title": "Ipsos Health Service Report 2026",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-health-service-report-2026",
+      "publishedAt": "2026-10-08T09:52:41+00:00"
+    },
+    {
       "id": "2fcd92496f397698",
       "title": "Webinar | DIY Market Research – How to get expert-level insights without an expert research team",
       "titleZh": null,
@@ -1224,18 +1612,6 @@
       "sourceName": "SurveyMonkey",
       "url": "https://www.surveymonkey.com/curiosity/diy-research-how-to-get-expert-level-human-insights/?ut_source=rss",
       "publishedAt": "2026-10-08T09:36:00+00:00"
-    },
-    {
-      "id": "04536d291010d65c",
-      "title": "More of your market research, now in Maze",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Maze Blog",
-      "url": "https://maze.co/blog/ai-for-market-research/",
-      "publishedAt": "2026-10-08T05:28:33.498000+00:00"
     },
     {
       "id": "a603b0d46a9a4eca",
@@ -1274,18 +1650,6 @@
       "publishedAt": "2026-10-08T00:00:00+00:00"
     },
     {
-      "id": "14723a45c3a19dbb",
-      "title": "A First Look at Sprig’s Analyze Agent",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Sprig Blog",
-      "url": "https://sprig.com/blog/analyze-agent-first-look",
-      "publishedAt": "2026-10-07T16:00:00+00:00"
-    },
-    {
       "id": "d85bef87a2c12738",
       "title": "A letter to our customers: serving you in the AI era.",
       "titleZh": null,
@@ -1296,6 +1660,18 @@
       "sourceName": "User Interviews Blog",
       "url": "https://www.userinterviews.com/blog/letter-our-customers-serving-you-ai-era",
       "publishedAt": "2026-10-07T16:00:00+00:00"
+    },
+    {
+      "id": "da21fffcaa254cef",
+      "title": "[Webinar] Augmented Creativity: Turn Cannes Lions inspiration into creative effectiveness",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/webinar-augmented-creativity-turn-cannes-lions-inspiration-creative-effectiveness",
+      "publishedAt": "2026-10-07T12:38:01+00:00"
     },
     {
       "id": "ad33ab1fd58988d2",
@@ -1310,6 +1686,18 @@
       "publishedAt": "2026-10-07T11:22:02+00:00"
     },
     {
+      "id": "d69a0193cd65c7be",
+      "title": "[LINKEDIN LIVE] CX Global Insights 2026",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/linkedin-live-cx-global-insights-2026",
+      "publishedAt": "2026-10-07T10:26:20+00:00"
+    },
+    {
       "id": "55468779e6f9068f",
       "title": "Using AI To Find Usability Problems: Examining Task Failure",
       "titleZh": null,
@@ -1320,18 +1708,6 @@
       "sourceName": "MeasuringU（Jeff Sauro）",
       "url": "https://measuringu.com/using-ai-to-find-usability-problems-examining-task-failure/?utm_source=rss&utm_medium=rss&utm_campaign=using-ai-to-find-usability-problems-examining-task-failure",
       "publishedAt": "2026-10-07T03:54:52+00:00"
-    },
-    {
-      "id": "05374bec817f75e3",
-      "title": "Synthetic Users vs. Digital Twins: Definitions, Risks, and Real Use Cases",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "dscout People Nerds",
-      "url": "https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases",
-      "publishedAt": "2026-10-06T16:00:00+00:00"
     },
     {
       "id": "1a0ee06bf08cff5b",
@@ -1430,18 +1806,6 @@
       "publishedAt": "2026-10-06T00:00:00+00:00"
     },
     {
-      "id": "11ac7872b45a9902",
-      "title": "CNBC and SurveyMonkey Quarterly Money Survey (October 2026)",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "SurveyMonkey",
-      "url": "https://www.surveymonkey.com/curiosity/cnbc-money-survey-affordability-october-2026/?ut_source=rss",
-      "publishedAt": "2026-10-05T23:35:00+00:00"
-    },
-    {
       "id": "b463c872d9780cb0",
       "title": "How Cint and Roblox measure full-funnel outcomes",
       "titleZh": null,
@@ -1452,18 +1816,6 @@
       "sourceName": "Cint",
       "url": "https://www.cint.com/blog/how-cint-and-roblox-measure-full-funnel-outcomes/",
       "publishedAt": "2026-10-05T21:17:03+00:00"
-    },
-    {
-      "id": "10506cd94342acec",
-      "title": "How Model Context Protocol is transforming media measurement",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Cint",
-      "url": "https://www.cint.com/blog/mcp-for-media-measurement/",
-      "publishedAt": "2026-10-05T19:41:06+00:00"
     },
     {
       "id": "98474ffe7600e3ab",
@@ -1550,18 +1902,6 @@
       "publishedAt": "2026-10-04T16:00:00+00:00"
     },
     {
-      "id": "13422641329f9957",
-      "title": "Customer Task Forces: How Experience Leaders Build Alliances to Modernize CX",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Medallia",
-      "url": "https://www.medallia.com/blog/customer-task-forces-how-experience-leaders-build-alliances-to-modernize-cx/",
-      "publishedAt": "2026-10-02T18:38:23+00:00"
-    },
-    {
       "id": "cb1c269cfa11b6cd",
       "title": "Empathy Mapping: The First Step in Design Thinking",
       "titleZh": null,
@@ -1596,18 +1936,6 @@
       "sourceName": "Mopinion",
       "url": "https://mopinion.com/customer-feedback-analysis/",
       "publishedAt": "2026-10-02T07:37:15+00:00"
-    },
-    {
-      "id": "02f24ca2aa4a8368",
-      "title": "Most “digital twins” in research are synthetic users with a better name",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Great Question Blog",
-      "url": "https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins",
-      "publishedAt": "2026-10-01T16:00:00+00:00"
     },
     {
       "id": "7c9a9fef846e4e03",
@@ -1658,18 +1986,6 @@
       "publishedAt": "2026-10-01T07:28:49+00:00"
     },
     {
-      "id": "06d2e27d78460fce",
-      "title": "How do we measure creativity? A systematic review and taxonomy of evaluative methods in human-AI co-creativity",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Human-Computer Interaction",
-      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2720237?af=R",
-      "publishedAt": "2026-10-01T05:24:35+00:00"
-    },
-    {
       "id": "2e9016b252d1bc7f",
       "title": "ChatGPT vs Humans for Coding Open-Ended Responses, Three Years Later",
       "titleZh": null,
@@ -1692,18 +2008,6 @@
       "sourceName": "MRS（英国市场研究协会）新闻",
       "url": "https://www.mrs.org.uk/blog/data-analytics/beyond-the-hype-what-we-learned-about-synthetic-data-in-practice",
       "publishedAt": "2026-09-29T16:00:00+00:00"
-    },
-    {
-      "id": "09ac6336b102be53",
-      "title": "Unpacking Innovation - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Product Talk（Teresa Torres）",
-      "url": "https://www.producttalk.org/unpacking-innovation-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "publishedAt": "2026-09-29T13:00:27+00:00"
     },
     {
       "id": "41437f6a2eaf1a43",
@@ -1896,18 +2200,6 @@
       "sourceName": "Medallia",
       "url": "https://www.medallia.com/blog/2026-h2-product-release/",
       "publishedAt": "2026-09-24T14:47:28+00:00"
-    },
-    {
-      "id": "0a3ed47f158cf555",
-      "title": "Website feedback analytics: Turn website feedback into action",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Mopinion",
-      "url": "https://mopinion.com/website-feedback-analytics/",
-      "publishedAt": "2026-09-24T07:24:08+00:00"
     },
     {
       "id": "4cecddb140215302",
@@ -2186,6 +2478,30 @@
       "publishedAt": "2026-09-15T00:00:00+00:00"
     },
     {
+      "id": "5bdd2dc09f06d301",
+      "title": "UserTesting and User Interviews named leaders in G2's Fall 2026 user research report",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "UserTesting Blog",
+      "url": "https://www.usertesting.com/blog/g2-user-research-leaders-fall-2026",
+      "publishedAt": "2026-09-14T00:00:00+00:00"
+    },
+    {
+      "id": "cf6fe07d5554538d",
+      "title": "Want designers to embrace AI? Stop focusing on the tools",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "UserTesting Blog",
+      "url": "https://www.usertesting.com/blog/ai-transformation-mindset",
+      "publishedAt": "2026-09-14T00:00:00+00:00"
+    },
+    {
       "id": "71e2029d65ce2581",
       "title": "Market Pulse for PC: Tracking NSE and MCX Data on a Windows Desktop",
       "titleZh": null,
@@ -2282,6 +2598,18 @@
       "publishedAt": "2026-09-09T20:01:41+00:00"
     },
     {
+      "id": "56bb3235a7563645",
+      "title": "How to build customer trust under the EU AI Act",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "UserTesting Blog",
+      "url": "https://www.usertesting.com/blog/eu-ai-act-compliance",
+      "publishedAt": "2026-09-09T17:33:38+00:00"
+    },
+    {
       "id": "849eed3c8d6e6ddf",
       "title": "Effectiveness of AI Moderators: A Literature Review",
       "titleZh": null,
@@ -2318,16 +2646,16 @@
       "publishedAt": "2026-09-08T02:40:17+00:00"
     },
     {
-      "id": "14d8ce91b045fd29",
-      "title": "Confirmability in qualitative research: What it means and how to establish it in your research",
+      "id": "822b7e97c5f8eda7",
+      "title": "AI made teams faster. Human insight makes the work better.",
       "titleZh": null,
       "summaryZh": null,
       "tags": [],
       "entities": [],
       "category": null,
-      "sourceName": "Delve",
-      "url": "https://delvetool.com/blog/confirmability-in-qualitative-research/",
-      "publishedAt": "2026-09-08T00:00:00+00:00"
+      "sourceName": "UserTesting Blog",
+      "url": "https://www.usertesting.com/blog/ai-resources-human-insight",
+      "publishedAt": "2026-09-07T23:52:28+00:00"
     },
     {
       "id": "b0bb1d4858a14154",
@@ -2414,18 +2742,6 @@
       "publishedAt": "2026-08-28T05:24:34+00:00"
     },
     {
-      "id": "02019ad8dc034702",
-      "title": "quantilope's Latest Platform Innovations Fueling Brand Growth",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "quantilope",
-      "url": "https://www.quantilope.com/resources/quantilopes-latest-platform-innovations-fueling-brand-growth",
-      "publishedAt": "2026-08-27T13:47:47+00:00"
-    },
-    {
       "id": "311ecd7bc12fe097",
       "title": "AI made building faster, now customer understanding is the bottleneck",
       "titleZh": null,
@@ -2450,18 +2766,6 @@
       "publishedAt": "2026-08-27T11:02:24+00:00"
     },
     {
-      "id": "15710eb0367bf6e8",
-      "title": "9 Digital Twins you can build today (and exactly what they’ll do for you)",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Dovetail Blog",
-      "url": "https://dovetail.com/blog/9-digital-twins-you-can-build-today/",
-      "publishedAt": "2026-08-26T12:00:00+00:00"
-    },
-    {
       "id": "43ab33cb36dd252a",
       "title": "Making tools while making sense: evolving malleable writing environments by reinterpreting text across drafts, prompts, and GUI on a canvas",
       "titleZh": null,
@@ -2472,6 +2776,18 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2713509?af=R",
       "publishedAt": "2026-08-26T07:03:12+00:00"
+    },
+    {
+      "id": "dcc918dafe31f3ef",
+      "title": "Five Ways to Use Rapport When Moderating",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "url": "https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&utm_medium=rss&utm_campaign=five-ways-to-use-rapport-when-moderating",
+      "publishedAt": "2026-08-25T21:18:05+00:00"
     },
     {
       "id": "f368d77918ca5265",
@@ -2580,6 +2896,18 @@
       "sourceName": "Johnny Holland",
       "url": "https://johnnyholland.org/2026/08/top-7-online-mba-nonprofit-programs-for-2026-your-expert-guide-to-the-best-in-nonprofit-leadership/",
       "publishedAt": "2026-08-19T00:15:33+00:00"
+    },
+    {
+      "id": "efc712223f56320e",
+      "title": "Streamlined Measurement of the UX of AI",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "url": "https://measuringu.com/streamlined-measurement-of-the-ux-of-ai/?utm_source=rss&utm_medium=rss&utm_campaign=streamlined-measurement-of-the-ux-of-ai",
+      "publishedAt": "2026-08-18T22:21:12+00:00"
     },
     {
       "id": "c48b469c5ccca65b",
@@ -2882,18 +3210,6 @@
       "publishedAt": "2026-07-17T19:22:14+00:00"
     },
     {
-      "id": "0901b5297530d528",
-      "title": "Short-Form World, Long-Form Surveys: It’s Time for Research to Catch Up",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Dynata",
-      "url": "https://www.dynata.com/why-dynata/resources/blog/short-form-world-long-form-surveys-its-time-for-research-to-catch-up/",
-      "publishedAt": "2026-07-17T14:45:10+00:00"
-    },
-    {
       "id": "cff7070a27a494d5",
       "title": "Meet the team you didn’t have headcount for—Digital Twins and Agents now in Dovetail",
       "titleZh": null,
@@ -2928,6 +3244,30 @@
       "sourceName": "User Interviews Blog",
       "url": "https://www.userinterviews.com/blog/delivering-continuous-discovery-programs",
       "publishedAt": "2026-07-14T16:00:00+00:00"
+    },
+    {
+      "id": "a5f46290272974dd",
+      "title": "Our Sun’s Out launch: Introducing Digital Twins, agents, Channels 2.0, and new enterprise-grade features",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/suns-out-2026-launch/",
+      "publishedAt": "2026-07-14T16:00:00+00:00"
+    },
+    {
+      "id": "cde5eb2df8b572a4",
+      "title": "Dovetail launches major AI-powered platform expansion including Agents and category-defining Digital Twins, to close the gap between customer signal and business outcomes",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/suns-out-summer-launch-26/",
+      "publishedAt": "2026-07-14T12:00:00+00:00"
     },
     {
       "id": "6ad1d12ba2a86712",
@@ -2990,6 +3330,18 @@
       "publishedAt": "2026-07-01T16:00:00+00:00"
     },
     {
+      "id": "19f642bd29af6290",
+      "title": "You can’t build trustworthy AI on top of untrustworthy data",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/you-cant-build-trustworthy-ai-on-untrustworthy-data/",
+      "publishedAt": "2026-07-01T12:00:00+00:00"
+    },
+    {
       "id": "a54d8927e2c153ed",
       "title": "The Prompt Is the New Brief",
       "titleZh": null,
@@ -3024,6 +3376,18 @@
       "sourceName": "UX Magazine",
       "url": "https://uxmag.com/articles/ai-is-your-new-intern-not-your-replacement",
       "publishedAt": "2026-06-23T05:49:26+00:00"
+    },
+    {
+      "id": "17c3452c2d0c3164",
+      "title": "What a fragmented VoC program can cost you",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/voc-program-fragmentation-problem/",
+      "publishedAt": "2026-06-22T23:00:00+00:00"
     },
     {
       "id": "781a6d8e2279b1a8",
@@ -3098,16 +3462,16 @@
       "publishedAt": "2026-06-17T09:09:23+00:00"
     },
     {
-      "id": "221137465a08966c",
-      "title": "Why research teams need influence more than budget",
+      "id": "3a2f228a27c29154",
+      "title": "Should you build or buy your next piece of software?",
       "titleZh": null,
       "summaryZh": null,
       "tags": [],
       "entities": [],
       "category": null,
-      "sourceName": "UserTesting Blog",
-      "url": "https://www.usertesting.com/blog/why-research-teams-need-influence-more-budget",
-      "publishedAt": "2026-06-16T18:17:28+00:00"
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/should-you-build-or-buy-your-next-piece-of-software/",
+      "publishedAt": "2026-06-16T12:00:00+00:00"
     },
     {
       "id": "8016453c8199bca0",
@@ -3120,6 +3484,42 @@
       "sourceName": "UX Magazine",
       "url": "https://uxmag.com/articles/gamification-2-0-beyond-points-and-badges-designing-for-players-not-metrics-conclusion",
       "publishedAt": "2026-06-16T05:02:36+00:00"
+    },
+    {
+      "id": "002442d71426528e",
+      "title": "Pixel-f**ing the new chat library",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/pixel-fing-the-new-chat-library/",
+      "publishedAt": "2026-06-14T23:00:00+00:00"
+    },
+    {
+      "id": "014c6129877f5f93",
+      "title": "Engineers, you're not the first to panic about democratization",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/engineers-youre-not-the-first-to-panic-about-democratization/",
+      "publishedAt": "2026-06-14T23:00:00+00:00"
+    },
+    {
+      "id": "fe71c070d9bd33e4",
+      "title": "Fetch once, use everywhere: rebuilding how Dovetail ingests your data",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
+      "publishedAt": "2026-06-14T23:00:00+00:00"
     },
     {
       "id": "c60c50b7363be6df",
@@ -3170,6 +3570,18 @@
       "publishedAt": "2026-06-10T13:08:16+00:00"
     },
     {
+      "id": "2321c498c25b73a5",
+      "title": "Your research is good. So why isn't it changing anything?",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/your-research-is-good-so-why-isnt-it-changing-anything/",
+      "publishedAt": "2026-06-09T23:00:00+00:00"
+    },
+    {
       "id": "4eaaace7bace6ba0",
       "title": "Service Failures Under the Influence of Ideological Polarization",
       "titleZh": null,
@@ -3192,6 +3604,30 @@
       "sourceName": "User Interviews Blog",
       "url": "https://www.userinterviews.com/blog/citations-are-missing-link-in-insight-driven-decisions",
       "publishedAt": "2026-06-04T16:00:00+00:00"
+    },
+    {
+      "id": "23210ff08d616dc1",
+      "title": "If you don't go on-call for your customer, you don't own it",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/if-you-dont-go-on-call-you-dont-own-it/",
+      "publishedAt": "2026-06-02T23:00:00+00:00"
+    },
+    {
+      "id": "c6bf11e1400b35f1",
+      "title": "Unreasonable experiences: why great products are no longer enough",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/unreasonable-experiences-why-great-products-are-no-longer-enough/",
+      "publishedAt": "2026-06-02T23:00:00+00:00"
     },
     {
       "id": "d35040f07ce9893f",
@@ -3266,6 +3702,30 @@
       "publishedAt": "2026-05-26T14:52:57+00:00"
     },
     {
+      "id": "c4ad528f3d8fe598",
+      "title": "A Blueprint for Evaluating AI Across the Research Pipeline",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/evaluating-ai-across-research-blueprint",
+      "publishedAt": "2026-05-21T16:00:00+00:00"
+    },
+    {
+      "id": "c6c0cb60a6027a70",
+      "title": "What’s possible when Claude’s connected to Dovetail",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/whats-possible-with-claude-x-dovetail/",
+      "publishedAt": "2026-05-19T23:00:00+00:00"
+    },
+    {
       "id": "f591522fcd786f68",
       "title": "AAPOR 2026 Conference Blog: Friday",
       "titleZh": null,
@@ -3288,6 +3748,18 @@
       "sourceName": "AAPOR（美国民意研究协会）",
       "url": "https://aapor.org/news-releases/aapor-announces-recipient-of-2026-award-for-exceptionally-distinguished-achievement/",
       "publishedAt": "2026-05-15T18:13:47+00:00"
+    },
+    {
+      "id": "e4b5e65c4c34ab0e",
+      "title": "Is Your NPS Telling the Full Story for Stakeholders? An Analysis",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/how-to-discuss-nps-with-stakeholders",
+      "publishedAt": "2026-05-14T16:00:00+00:00"
     },
     {
       "id": "50a3102d25d65cc6",
@@ -3314,6 +3786,30 @@
       "publishedAt": "2026-05-11T16:00:00+00:00"
     },
     {
+      "id": "dedfd59baa47acfd",
+      "title": "Introducing Dovetail’s most powerful chat yet",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/",
+      "publishedAt": "2026-05-11T14:00:00+00:00"
+    },
+    {
+      "id": "a23e367f7324f1ab",
+      "title": "Calibration Matters More Than Automation: What AI’s History Suggests About Building Agentic Research Systems",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/building-agentic-research-systems",
+      "publishedAt": "2026-05-03T16:00:00+00:00"
+    },
+    {
       "id": "daed00dd84fc3c98",
       "title": "When Skeptics Believe: How Proactive Sustainability Signals Build Brand Loyalty",
       "titleZh": null,
@@ -3326,16 +3822,28 @@
       "publishedAt": "2026-04-30T09:50:11+00:00"
     },
     {
-      "id": "082981791e28e212",
-      "title": "Now published: our new textbook on qualitative analysis and research",
+      "id": "e888cf8ac76196e2",
+      "title": "No, your team can't just use ChatGPT for this",
       "titleZh": null,
       "summaryZh": null,
       "tags": [],
       "entities": [],
       "category": null,
-      "sourceName": "Quirkos",
-      "url": "https://www.quirkos.com/blog/post/now-published-our-new-textbook-on-qualitative-analysis-and-research/",
-      "publishedAt": "2026-04-22T11:00:59+00:00"
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/no-your-team-cant-just-use-chatgpt-for-this/",
+      "publishedAt": "2026-04-23T14:00:00+00:00"
+    },
+    {
+      "id": "6dc7fdc7e505d688",
+      "title": "What is the New AI in Research Risk Cascade? Experts Explain",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/what-is-the-ai-research-risk-cascade",
+      "publishedAt": "2026-04-09T16:00:00+00:00"
     },
     {
       "id": "34a5a3c6535d33d3",
@@ -3362,16 +3870,40 @@
       "publishedAt": "2026-04-02T18:05:04+00:00"
     },
     {
-      "id": "194a20915ff0389b",
-      "title": "Data monitoring guide: How to catch leading indicators of bad data early",
+      "id": "ba7cb117e7c61fa6",
+      "title": "Introducing the new Dovetail experience—a simpler way to get around",
       "titleZh": null,
       "summaryZh": null,
       "tags": [],
       "entities": [],
       "category": null,
-      "sourceName": "SurveyCTO",
-      "url": "https://www.surveycto.com/data-collection-quality/data-monitoring-guide/",
-      "publishedAt": "2026-03-26T15:34:41+00:00"
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/new-dovetail-experience/",
+      "publishedAt": "2026-03-31T01:00:00+00:00"
+    },
+    {
+      "id": "a6138ac6efa9ae84",
+      "title": "Introducing Explore: a new way to dive into customer knowledge",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/",
+      "publishedAt": "2026-03-27T01:00:00+00:00"
+    },
+    {
+      "id": "0d013b6ec295e9e5",
+      "title": "How we measure AI quality at Dovetail",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/how-we-measure-ai-quality-at-dovetail/",
+      "publishedAt": "2026-03-20T00:00:00+00:00"
     },
     {
       "id": "53c63d6d940367b1",
@@ -3422,18 +3954,6 @@
       "publishedAt": "2026-03-09T05:30:24+00:00"
     },
     {
-      "id": "10c96920fa9f6984",
-      "title": "Threat appraisal and coping strategies: how users navigate toxicity in online technical communities",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Behaviour & Information Technology",
-      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2633774?af=R",
-      "publishedAt": "2026-03-03T05:37:17+00:00"
-    },
-    {
       "id": "de6ed60868510fd1",
       "title": "Human–AI collaboration: the dual role of explanation on human closeness and threat",
       "titleZh": null,
@@ -3456,6 +3976,18 @@
       "sourceName": "Behaviour & Information Technology",
       "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2628765?af=R",
       "publishedAt": "2026-02-18T07:23:19+00:00"
+    },
+    {
+      "id": "89c56ba372b9678d",
+      "title": "Prototype with real customer data using the Dovetail connector for Figma Make",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/dovetail-connector-figma-make/",
+      "publishedAt": "2026-02-16T13:00:00+00:00"
     },
     {
       "id": "47f2b1d1747db20f",
@@ -3506,6 +4038,18 @@
       "publishedAt": "2026-02-02T09:45:50+00:00"
     },
     {
+      "id": "3cdee6847ab3aa21",
+      "title": "30+ AI Tools for Every Phase of UX Research You Can Use Right Now",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/ai-ux-research-tools",
+      "publishedAt": "2026-01-22T16:00:00+00:00"
+    },
+    {
       "id": "83b09f52e092cc80",
       "title": "Detecting and Mitigating Fraudulent Participation: Lessons Learned from a Mixed Methods Study",
       "titleZh": null,
@@ -3516,6 +4060,30 @@
       "sourceName": "Journal of Mixed Methods Research",
       "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261416725?ai=2b4&mi=ehikzz&af=R",
       "publishedAt": "2026-01-20T08:51:28+00:00"
+    },
+    {
+      "id": "59b41cd01577fb9b",
+      "title": "How to Build a Hands-On Customer Empathy Program (Even Without a Budget)",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/how-to-build-a-customer-empathy-program",
+      "publishedAt": "2026-01-08T16:00:00+00:00"
+    },
+    {
+      "id": "d514a69abcde65d1",
+      "title": "UserTesting Acquires User Interviews",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/usertesting-acquires-user-interviews",
+      "publishedAt": "2026-01-06T16:00:00+00:00"
     },
     {
       "id": "e2398bc89ceb2a66",
@@ -3530,6 +4098,78 @@
       "publishedAt": "2026-01-02T05:02:58+00:00"
     },
     {
+      "id": "b9c7c371738003ca",
+      "title": "The 24 Best UX and User Research Blogs Worth Bookmarking",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/best-ux-research-blogs",
+      "publishedAt": "2025-12-21T16:00:00+00:00"
+    },
+    {
+      "id": "68fb886213131534",
+      "title": "What’s the best way to generate customer intelligence at scale?",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/generating-customer-intelligence-at-scale/",
+      "publishedAt": "2025-12-18T14:00:00+00:00"
+    },
+    {
+      "id": "6f124bce0650a788",
+      "title": "Trading my desk for a classroom and why Dovetail supports it",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/trading-my-desk-for-a-classroom/",
+      "publishedAt": "2025-12-18T14:00:00+00:00"
+    },
+    {
+      "id": "8781e582898c4259",
+      "title": "How do top brands collect and apply customer intelligence?",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/how-top-brands-collect-customer-intelligence/",
+      "publishedAt": "2025-12-18T14:00:00+00:00"
+    },
+    {
+      "id": "266db3943a4c4365",
+      "title": "Common UX Research Job Interview Questions & How to Answer Them",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/common-ux-research-job-interview-questions-how-to-answer-them",
+      "publishedAt": "2025-12-10T16:00:00+00:00"
+    },
+    {
+      "id": "d62864ac6c46d821",
+      "title": "2025 User Interviews Wrapped",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/2025-ui-wrapped",
+      "publishedAt": "2025-12-09T16:00:00+00:00"
+    },
+    {
       "id": "dccc8fb99acae67e",
       "title": "Quirkos Unwrapped 2025: 11 fantastic articles by Quirkos users, published this year",
       "titleZh": null,
@@ -3542,16 +4182,28 @@
       "publishedAt": "2025-12-09T15:01:38+00:00"
     },
     {
-      "id": "176440f865618962",
-      "title": "Volunteer Spotlight: EJ Makela",
+      "id": "a78ae3f954c1e353",
+      "title": "The Ultimate Guide to Research Strategy (2026 Edition)",
       "titleZh": null,
       "summaryZh": null,
       "tags": [],
       "entities": [],
       "category": null,
-      "sourceName": "UXPA（用户体验专业协会）",
-      "url": "https://uxpa.org/volunteer-spotlight-ej-makela/",
-      "publishedAt": "2025-12-08T20:55:26+00:00"
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/the-ultimate-guide-to-ux-research-strategy",
+      "publishedAt": "2025-12-06T16:00:00+00:00"
+    },
+    {
+      "id": "b46ce429913b6b30",
+      "title": "What’s Included in a Research Operations Job Description? A ReOps Hiring Guide (+Template!)",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/research-operations-job-description-examples-template",
+      "publishedAt": "2025-12-03T16:00:00+00:00"
     },
     {
       "id": "7a6a58e603fc6d94",
@@ -3564,6 +4216,30 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2586818?af=R",
       "publishedAt": "2025-11-25T04:54:18+00:00"
+    },
+    {
+      "id": "6b287ab08b10cf0a",
+      "title": "The 3 Biggest Mistakes I Made as a Researcher",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/research-mistakes",
+      "publishedAt": "2025-11-24T16:00:00+00:00"
+    },
+    {
+      "id": "9577dc48fc940c7b",
+      "title": "The Ultimate List of UX, Product, and Design Conferences in 2026",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/ux-research-ops-conferences-events",
+      "publishedAt": "2025-11-20T16:00:00+00:00"
     },
     {
       "id": "7c74d47dfaf0c5aa",
@@ -3590,6 +4266,30 @@
       "publishedAt": "2025-11-17T08:31:15+00:00"
     },
     {
+      "id": "a9f98ef20af56336",
+      "title": "How to Build a Real Research Operations Career (Not Just a Job)",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/research-operations-career-ladder",
+      "publishedAt": "2025-11-16T16:00:00+00:00"
+    },
+    {
+      "id": "e12a2a0db159b453",
+      "title": "When Is the Right Time to Do UX Research?",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "User Interviews Blog",
+      "url": "https://www.userinterviews.com/blog/when-to-do-ux-research",
+      "publishedAt": "2025-11-13T16:00:00+00:00"
+    },
+    {
       "id": "9465eec8dd3d515d",
       "title": "Expanding the Role of Abduction in Mixed Methods Research: Insights From Q Methodology",
       "titleZh": null,
@@ -3612,6 +4312,18 @@
       "sourceName": "UserTesting Blog",
       "url": "https://www.usertesting.com/blog/feedback-drives-design-iteration",
       "publishedAt": "2025-11-04T01:30:59+00:00"
+    },
+    {
+      "id": "1348579780c5e192",
+      "title": "The team and vision behind Dovetail’s brand evolution",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/team-behind-dovetails-brand/",
+      "publishedAt": "2025-11-02T14:00:00+00:00"
     },
     {
       "id": "f44362151cb7937f",
@@ -3746,18 +4458,6 @@
       "publishedAt": "2025-03-19T06:00:18+00:00"
     },
     {
-      "id": "13c2b225a0577e37",
-      "title": "MAXQDA 24.6 update",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "MAXQDA",
-      "url": "https://www.maxqda.com/blogpost/maxqda-24-6-update",
-      "publishedAt": "2024-10-22T14:00:58+00:00"
-    },
-    {
       "id": "219bb0df408f8f5c",
       "title": "Common Research Mistakes (and How to Fix Them)",
       "titleZh": null,
@@ -3806,18 +4506,6 @@
       "publishedAt": "2024-02-01T10:42:09+00:00"
     },
     {
-      "id": "1a03c6b73d8d7a84",
-      "title": "Mit UX Writing zielgruppengerecht kommunizieren",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "TestingTime",
-      "url": "https://www.testingtime.com/blog/ux-writing/",
-      "publishedAt": "2023-11-26T23:05:30+00:00"
-    },
-    {
       "id": "38b24b865cbe2ee1",
       "title": "Usability auf dem Prüfstand: Ein Blick hinter die Kulissen von UX-Evaluationsmethoden",
       "titleZh": null,
@@ -3840,18 +4528,6 @@
       "sourceName": "UX Magazine",
       "url": "https://uxmag.com/articles/the-ukrainian-ux-magazine-community-is-asking-for-your-help",
       "publishedAt": "2022-02-26T15:43:28+00:00"
-    },
-    {
-      "id": "1c4309d5feb918a1",
-      "title": "Special Issue of International Journal of Market Research: ‘Market Research & Insight: Past, Present and Future’",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "International Journal of Market Research",
-      "url": "https://journals.sagepub.com/doi/abs/10.1177/1470785320941417?ai=2b4&mi=ehikzz&af=R",
-      "publishedAt": "2020-07-02T10:29:38+00:00"
     }
   ]
 }

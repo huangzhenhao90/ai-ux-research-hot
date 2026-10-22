@@ -1,0 +1,21 @@
+{
+  "id": "68fb886213131534",
+  "sourceId": "dovetail-blog",
+  "sourceName": "Dovetail Blog",
+  "tier": "T1",
+  "url": "https://dovetail.com/blog/generating-customer-intelligence-at-scale/",
+  "title": "What’s the best way to generate customer intelligence at scale?",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": null,
+  "tags": [],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2025-12-18T14:00:00+00:00",
+  "discoveredAt": "2026-10-22T00:12:31.995222+00:00",
+  "status": "archived",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

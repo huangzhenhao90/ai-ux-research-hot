@@ -407,3 +407,89 @@ Maze、UserTesting、User Interviews、Optimal Workshop、Great Question、Sprig
 3. `rosenfeldmedia` 返回 522 说明其源站不稳；若持续失败，阶段 8 前应考虑移出。
 4. 周报 `sections[].lead` 恒为空（计划 §5.5「模型只写总述」）；二期若要栏目导读需扩提示词。
 5. `web/public/` 目前是 dry-run 产物（`selected: 0`），阶段 6 接前端后由真实运行覆盖。
+
+---
+
+## 阶段 5 补充：真实运行与成本（2026-10-22）
+
+用户确认后执行。为让模型步骤真的有活干，先把 30 条（覆盖 30 个信源、T1 22 / T2 8）重置为 `NEW`
+来模拟「有新内容了」。
+
+**命令**
+
+```bash
+MODEL_CALLS_ENABLED=true python scripts/run_pipeline.py --execute --limit 30 \
+  --source nngroup --source dovetail-blog --source measuringu --source qualtrics \
+  --source maze-blog --source userinterviews-blog --source arxiv-cs-hc \
+  --source ur-ai-papers --source usertesting-blog --source ipsos
+```
+
+**结果**
+
+| 步骤 | 结果 |
+|---|---|
+| collect | 10 个信源，0 失败 |
+| prefilter | PASS 21 · BLOCK 7 · UNKNOWN 2 |
+| score | 21 条，全部拿到两次独立评分 |
+| structure | 15 条有分类，15 条有实体 |
+| write | 21 条写成，其中 4 条走精选深写（有推荐理由） |
+| dedupe | 0 重复 |
+| select | **1 条进精选**，20 条进全部动态 |
+| stripBodies | 清掉 275 条正文 |
+| publish | 369 个公开条目，校验通过 |
+
+**用量与成本**
+
+- **114 次调用，0 失败**；输入 278,101 + 输出 4,476 = **282,577 token**。
+- 单次均值：输入 2,439、输出 39 token。按步骤：prefilter 30 / score 42 / structure 21 / write 21。
+- 官方价（`deepseek-flash`，每 1M token；低谷价为峰值一半，低谷＝除工作日 01:00–04:00、06:00–10:00 UTC 之外）：
+
+| 场景 | 本次 114 次 | 按 30 条/日 | 熔断上限（1000 次/日） |
+|---|---|---|---|
+| 峰值 · 全 cache miss | ¥0.63 | ¥0.63/日 ≈ **¥19/月** | ¥5.53/日 ≈ ¥166/月 |
+| 低谷 · 全 cache miss | ¥0.32 | ¥0.32/日 ≈ ¥9.5/月 | — |
+| 低谷 · 命中缓存 | ¥0.03 | — | — |
+
+→ **即使按最坏情况（峰值、零缓存命中、跑满熔断上限）也只有约 ¥5.5/日**，成本不是问题。
+提示词前缀在各次调用间完全相同，DeepSeek 的上下文缓存应能显著压低实际成本（缓存命中的输入价是未命中的 1/50）。
+
+**⚠️ 关键发现：门槛对这个行业偏严，精选会很少**
+
+21 条评分的平均分分布：
+
+- T1（17 条）：`65.5, 58, 50, 48, 45, 44, 41.5, 40, 36, 29, 26, 25, 25, 15, 15, 15, 13`
+- T2（4 条）：`60, 41.5, 41.5, 19`
+
+在现行门槛（T1 60 / T2 76）下只有 **1 条**入选。若 T1 门槛改为 55 → 2 条；50 → 3 条；45 → 5 条；40 → 8 条。
+
+唯一入选的正是计划最想要的那类：NN/g《Synthetic Users vs. Human Respondents》——**有对照实验的效度证据**，65.5 分。
+说明评分标准的方向是对的（噪声被压到 13–29 分，效度证据得高分），**偏严的是门槛数字本身**：
+T1 60 / T2 76 是 AIHOT 在 AI 领域用的值，用研行业的分数整体低一档。
+
+**按计划 §2.6，门槛只在阶段 8 按用户标注的金标评测结果改，所以本轮不动门槛。**
+但这个现象必须在阶段 8 优先处理：若照现状上线，日报会经常是空刊。
+
+**模型名修正**
+
+`deepseek-chat` 不在 DeepSeek 官方模型列表里（只有 `deepseek-flash` 与 `deepseek-v4-pro`），
+它是未文档化的旧别名。已把 `LLM_MODEL` 改为 **`deepseek-flash`** 并用一次极短调用验证通过。
+
+**正文剥离（用户确认的策略）**
+
+`models.strip_bodies()` 在处理完成后清掉正文，只留 `bodyChars` 长度：
+
+| | 剥离前 | 剥离后 |
+|---|---|---|
+| 正文总量 | 797,967 字 | **3,259 字** |
+| `data/items` 体积 | 1.1 MB | **368 KB** |
+
+保留正文的只剩 10 条（9 条 `unknown` + 1 条 `new`），都是**还需要处理**的条目——属必要输入。
+`data/items` 因此可以安全提交进 public 仓库（D6），且流水线状态得以保持。
+清空规则有测试守住：已处理完成的状态（`selected`/`listed`/`duplicate`/`blocked`/`archived`）才清，
+`new`/`prefiltered`/`scored`/`unknown` 必须保留正文。
+
+**遗留问题（更新）**
+
+1. ~~`--execute` 真实运行尚未做~~ → **已完成**（见上）。
+2. **门槛偏严**（T1 60 / T2 76 下 21 条只选 1 条）→ 阶段 8 用金标数据重定，是本项目上线前的头号风险。
+3. 3 个瞬时失败信源（xm-institute / rosenfeldmedia / hnrss）需要重试机制。

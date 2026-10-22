@@ -3,6 +3,85 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 0,
-  "items": []
+  "count": 3,
+  "items": [
+    {
+      "id": "05374bec817f75e3",
+      "sourceId": "dscout-people-nerds",
+      "sourceName": "dscout People Nerds",
+      "tier": "T1",
+      "url": "https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases",
+      "title": "Synthetic Users vs. Digital Twins: Definitions, Risks, and Real Use Cases",
+      "titleZh": "合成用户与数字孪生：定义、风险与真实用例",
+      "summaryZh": "dscout 的 People Nerds 梳理了合成用户与数字孪生的定义差异，并逐一说明两者的风险与真实使用场景。文章把这两个常被混用的概念分开，供研究团队判断各自适用的环节与边界。",
+      "reason": "原文区分了合成用户与数字孪生两类概念的定义、风险和适用场景，帮助研究团队判断该在什么环节采用哪一种。",
+      "category": "opinion",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "dscout"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-06T16:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "221137465a08966c",
+      "sourceId": "usertesting-blog",
+      "sourceName": "UserTesting Blog",
+      "tier": "T1",
+      "url": "https://www.usertesting.com/blog/why-research-teams-need-influence-more-budget",
+      "title": "Why research teams need influence more than budget",
+      "titleZh": "Why research teams need influence more than budget",
+      "summaryZh": "",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "usertesting"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-06-16T18:17:28+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0901b5297530d528",
+      "sourceId": "dynata",
+      "sourceName": "Dynata",
+      "tier": "T1",
+      "url": "https://www.dynata.com/why-dynata/resources/blog/short-form-world-long-form-surveys-its-time-for-research-to-catch-up/",
+      "title": "Short-Form World, Long-Form Surveys: It’s Time for Research to Catch Up",
+      "titleZh": "短视频时代的长问卷： 呼吁研究行业跟上节奏",
+      "summaryZh": "发文指出，人们已习惯短视频与即时反馈，但问卷仍要求受访者长时间专注作答，行业需要跟上这一变化。文中提到，网红发布的 10 分钟晚餐食谱视频都难以被看完，而问卷却常要求受访者花 30 分钟作答",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "dynata"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-07-17T14:45:10+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

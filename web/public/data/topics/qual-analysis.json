@@ -3,6 +3,213 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 0,
-  "items": []
+  "count": 8,
+  "items": [
+    {
+      "id": "0f6df2ffe2a6818a",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
+      "titleZh": "对比合成用户与真人受访者：结论一致但答案差异更小",
+      "summaryZh": "复用此前关于 UX 术语的调研问题，让 604 名技术与设计从业者作答，又向 120 名合成受访者提出同一问题并比较两组数据。两组数据得出相同总体结论，但合成回答的多样性远低于真人回答。合成回答于 2026 年 2 月通过生成式 AI 平台 Synthetic Users 生成",
+      "reason": "NN/g 用人均同一道开放题对比 604 名真人与 120 名合成受访者，结论一致但合成答案多样性明显更低。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-16T17:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0b86c760fb29c3f7",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
+      "tier": "T2",
+      "url": "https://doi.org/10.1016/j.ijhcs.2026.103906",
+      "title": "对话风格对儿童自我报告的影响：基于 LLM 语音日记的实地研究",
+      "titleZh": "对话风格如何影响儿童自我报告：基于 LLM 语音日记的实地研究",
+      "summaryZh": "一项实地研究让 32 名 7-13 岁儿童参与七次 LLM 语音日记实验，对比押韵与散文两种对话风格。押韵风格带来更高完成率、更少缺勤和更高回答质量，享受度起中介作用；低龄儿童强烈偏好押韵，高龄儿童偏好更多样且随时间衰减。研究据此提出兼顾语义支架与音韵增强的对话风格设计框架。",
+      "reason": "研究用 32 名儿童的七次实地实验，比较押韵与散文两种对话风格对自我报告日记完成率和回答质量的影响。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": null,
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "05374bec817f75e3",
+      "sourceId": "dscout-people-nerds",
+      "sourceName": "dscout People Nerds",
+      "tier": "T1",
+      "url": "https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases",
+      "title": "Synthetic Users vs. Digital Twins: Definitions, Risks, and Real Use Cases",
+      "titleZh": "合成用户与数字孪生：定义、风险与真实用例",
+      "summaryZh": "dscout 的 People Nerds 梳理了合成用户与数字孪生的定义差异，并逐一说明两者的风险与真实使用场景。文章把这两个常被混用的概念分开，供研究团队判断各自适用的环节与边界。",
+      "reason": "原文区分了合成用户与数字孪生两类概念的定义、风险和适用场景，帮助研究团队判断该在什么环节采用哪一种。",
+      "category": "opinion",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "dscout"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-06T16:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "194a20915ff0389b",
+      "sourceId": "surveycto",
+      "sourceName": "SurveyCTO",
+      "tier": "T1",
+      "url": "https://www.surveycto.com/data-collection-quality/data-monitoring-guide/",
+      "title": "Data monitoring guide: How to catch leading indicators of bad data early",
+      "titleZh": "数据监测指南：如何及早发现坏数据的领先指标",
+      "summaryZh": "发布数据监测指南，讲解如何用自动化和智能检查识别坏数据的早期指标。指南以分步方式说明及早发现数据质量问题的方法",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "转写/编码"
+      ],
+      "entities": [
+        "surveycto"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-03-26T15:34:41+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "14d8ce91b045fd29",
+      "sourceId": "delve",
+      "sourceName": "Delve",
+      "tier": "T1",
+      "url": "https://delvetool.com/blog/confirmability-in-qualitative-research/",
+      "title": "Confirmability in qualitative research: What it means and how to establish it in your research",
+      "titleZh": "定性研究中的可确认性：含义与建立方法",
+      "summaryZh": "Delve 发文讲解定性研究中的可确认性，即如何证明研究发现来自数据本身。文章建议在编码过程中同步建立审计轨迹，由 Delve 集中保存记录。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "转写/编码",
+        "定性分析"
+      ],
+      "entities": [
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-09-08T00:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1190a1bb12c738b9",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.27248",
+      "title": "ValiAssist: Scaling LLM-generated Programming Feedback Validation by Demonstration",
+      "titleZh": "ValiAssist：通过演示扩展 LLM 生成编程反馈的验证",
+      "summaryZh": "ValiAssist 以“演示验证”方式从教师对 AI 生成反馈的修改中推断可复用的验证逻辑，并让教师查看和调整该逻辑在其他学生作业上的应用。在 16 名教师的对比研究中，其反馈与教学目标的一致率为 91%（对照组 57%），纠正问题准则的准确率超过 77% 对 32% 的一倍以上。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T04:00:00+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "13c2b225a0577e37",
+      "sourceId": "maxqda",
+      "sourceName": "MAXQDA",
+      "tier": "T1",
+      "url": "https://www.maxqda.com/blogpost/maxqda-24-6-update",
+      "title": "MAXQDA 24.6 update",
+      "titleZh": "MAXQDA 24.6 更新：新增 Light 2 主题与 AI Assist「Summarize Paraphrases」功能",
+      "summaryZh": "MAXQDA 发布 24.6 更新，新增第三套界面主题 Light 2，并为主菜单上的 AI Assist 增加「Summarize Paraphrases」功能，可将单份文档内所有释义整合为一段摘要。释义输出长度可选 short、medium、long，AI Assist 偏好设置中新增「Additional Instructions」字段以自定义输出。AI Assist 为可选付费插件，更新免费，购买后可获得免费或高级版本。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "itemType": null,
+      "publishedAt": "2024-10-22T14:00:58+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "082981791e28e212",
+      "sourceId": "quirkos",
+      "sourceName": "Quirkos",
+      "tier": "T1",
+      "url": "https://www.quirkos.com/blog/post/now-published-our-new-textbook-on-qualitative-analysis-and-research/",
+      "title": "Now published: our new textbook on qualitative analysis and research",
+      "titleZh": "Quirkos 出版定性研究新教材《Making Qualitative Research Happen》",
+      "summaryZh": "Quirkos 正式开售其定性研究教材《Making Qualitative Research Happen》，该书整合了其最受欢迎的资源，覆盖从研究构思到论文写作的完整定性研究流程。书中包含 Mónica Sánchez-Hernández、Helen Kara、Christina Silver 和 Anuja Cabraal 的专章，涉及去殖民化定性研究、创意研究方法、AI 与机器学习工具的使用以及用 emoji 分析定性数据。Quirkos 团队另撰写了定性学术论文写作、叙事分析以及在 Quirkos 中协作分析数据等新章节，读者可在官网购买或联系其用于课堂教学。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-04-22T11:00:59+00:00",
+      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
 }

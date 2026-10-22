@@ -9,16 +9,22 @@
       "tier": "T1",
       "url": "https://www.maxqda.com/blogpost/maxqda-24-6-update",
       "title": "MAXQDA 24.6 update",
-      "titleZh": null,
-      "summaryZh": null,
+      "titleZh": "MAXQDA 24.6 更新：新增 Light 2 主题与 AI Assist「Summarize Paraphrases」功能",
+      "summaryZh": "MAXQDA 发布 24.6 更新，新增第三套界面主题 Light 2，并为主菜单上的 AI Assist 增加「Summarize Paraphrases」功能，可将单份文档内所有释义整合为一段摘要。释义输出长度可选 short、medium、long，AI Assist 偏好设置中新增「Additional Instructions」字段以自定义输出。AI Assist 为可选付费插件，更新免费，购买后可获得免费或高级版本。",
       "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "maxqda"
+      ],
       "itemType": null,
       "publishedAt": "2024-10-22T14:00:58+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "archived",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     }

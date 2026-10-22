@@ -71,7 +71,7 @@ def _env(name: str, file_values: dict[str, str], default: str = "") -> str:
 class LLMConfig:
     base_url: str = "https://api.deepseek.com"
     api_key: str = ""
-    model: str = "deepseek-chat"
+    model: str = "deepseek-flash"
     calls_enabled: bool = False
     model_by_step: dict[str, str] = field(default_factory=dict)
 
@@ -101,7 +101,7 @@ def load_llm_config(env_file: Path | None = None) -> LLMConfig:
     return LLMConfig(
         base_url=_env("LLM_BASE_URL", file_values, "https://api.deepseek.com"),
         api_key=_env("LLM_API_KEY", file_values),
-        model=_env("LLM_MODEL", file_values, "deepseek-chat"),
+        model=_env("LLM_MODEL", file_values, "deepseek-flash"),
         calls_enabled=_env("MODEL_CALLS_ENABLED", file_values, "false").lower() == "true",
         model_by_step=model_by_step,
     )

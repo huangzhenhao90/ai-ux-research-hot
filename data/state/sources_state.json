@@ -3,7 +3,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
-    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-22T00:12:31.995222+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -27,10 +27,10 @@
     "extra": {}
   },
   "qualtrics": {
-    "etag": "\"1792591072\"",
-    "lastModified": "Wed, 21 Oct 2026 13:57:52 GMT",
+    "etag": "\"1792619546\"",
+    "lastModified": "Wed, 21 Oct 2026 21:52:26 GMT",
     "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
-    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-22T00:12:31.995222+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -144,10 +144,10 @@
     "extra": {}
   },
   "ipsos": {
-    "etag": "W/\"1792590296\"",
-    "lastModified": "Wed, 21 Oct 2026 13:44:56 GMT",
+    "etag": "W/\"1792621352\"",
+    "lastModified": "Wed, 21 Oct 2026 22:22:32 GMT",
     "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
-    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-22T00:12:31.995222+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -234,10 +234,10 @@
     "extra": {}
   },
   "measuringu": {
-    "etag": "W/\"d93d32c80cff01651c97daf9e52bbdc3\"",
-    "lastModified": "Tue, 20 Oct 2026 21:59:50 GMT",
+    "etag": "W/\"1c6b7d53f392de054be9aa8d5026ba05\"",
+    "lastModified": "Wed, 21 Oct 2026 22:37:41 GMT",
     "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
-    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-22T00:12:31.995222+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -315,10 +315,10 @@
     "extra": {}
   },
   "usertesting-blog": {
-    "etag": "\"1792575324-gzip\"",
-    "lastModified": "Wed, 21 Oct 2026 09:35:24 GMT",
+    "etag": "\"1792612299-gzip\"",
+    "lastModified": "Wed, 21 Oct 2026 19:51:39 GMT",
     "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
-    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-22T00:12:31.995222+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -327,7 +327,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
-    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-22T00:12:31.995222+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -369,10 +369,10 @@
     "extra": {}
   },
   "maze-blog": {
-    "etag": "\"3e89199f25eab994244e513afe30cdda-ssl-df\"",
+    "etag": "\"83c8320fb85af9c8cf5674aecddee966-ssl-df\"",
     "lastModified": null,
     "firstImportAt": "2026-10-21T14:44:20.522731+00:00",
-    "lastFetchAt": "2026-10-21T14:44:20.522731+00:00",
+    "lastFetchAt": "2026-10-22T00:12:31.995222+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}

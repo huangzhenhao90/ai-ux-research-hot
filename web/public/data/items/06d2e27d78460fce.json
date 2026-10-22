@@ -5,16 +5,18 @@
   "tier": "T2",
   "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2720237?af=R",
   "title": "How do we measure creativity? A systematic review and taxonomy of evaluative methods in human-AI co-creativity",
-  "titleZh": null,
-  "summaryZh": null,
+  "titleZh": "人机共创中的创造力如何测量？评估方法的系统综述与分类体系",
+  "summaryZh": "一项系统综述梳理了人机共创研究中评估创造力的方法，并构建了相应的分类体系。综述聚焦人类与 AI 协作创作场景下创造力评估手段的类型划分。",
   "reason": null,
   "category": null,
-  "tags": [],
+  "tags": [
+    "其他"
+  ],
   "entities": [],
   "itemType": null,
   "publishedAt": "2026-10-01T05:24:35+00:00",
   "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-  "status": "archived",
+  "status": "listed",
   "dupOf": null,
   "relation": null,
   "related": []

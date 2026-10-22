@@ -5,16 +5,22 @@
   "tier": "T1",
   "url": "https://mopinion.com/website-feedback-analytics/",
   "title": "Website feedback analytics: Turn website feedback into action",
-  "titleZh": null,
-  "summaryZh": null,
+  "titleZh": "Mopinion：网站反馈分析如何把反馈转化为行动",
+  "summaryZh": "Mopinion 发文介绍网站反馈分析如何把评分、评论和上下文数据转化为团队可理解、可执行的模式。文章指出行为分析能显示访客在哪里点击、犹豫或离开网站，而网站反馈则解释原因，两者结合可指导改进。",
   "reason": null,
-  "category": null,
-  "tags": [],
-  "entities": [],
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "问卷/定量",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "mopinion"
+  ],
   "itemType": null,
   "publishedAt": "2026-09-24T07:24:08+00:00",
   "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-  "status": "archived",
+  "status": "listed",
   "dupOf": null,
   "relation": null,
   "related": []

@@ -5,16 +5,21 @@
   "tier": "T1",
   "url": "https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins",
   "title": "Most “digital twins” in research are synthetic users with a better name",
-  "titleZh": null,
-  "summaryZh": null,
-  "reason": null,
+  "titleZh": "研究中的多数「数字孪生」其实就是换了名字的合成用户",
+  "summaryZh": "文章指出研究中的多数「数字孪生」实际上就是换了名字的合成用户，并围绕这两个概念的区别展开讨论。这一区分关系到团队如何界定合成受访者方案的能力边界。",
+  "reason": "文章区分了研究中的数字孪生与合成用户两个常被混用的概念，有助于团队在采购或设计合成受访者方案时厘清术语边界。",
   "category": null,
-  "tags": [],
-  "entities": [],
-  "itemType": null,
+  "tags": [
+    "观点/讨论",
+    "合成用户"
+  ],
+  "entities": [
+    "great-question"
+  ],
+  "itemType": "opinion_analysis",
   "publishedAt": "2026-10-01T16:00:00+00:00",
   "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-  "status": "archived",
+  "status": "listed",
   "dupOf": null,
   "relation": null,
   "related": []

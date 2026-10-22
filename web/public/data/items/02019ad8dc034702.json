@@ -5,16 +5,23 @@
   "tier": "T1",
   "url": "https://www.quantilope.com/resources/quantilopes-latest-platform-innovations-fueling-brand-growth",
   "title": "quantilope's Latest Platform Innovations Fueling Brand Growth",
-  "titleZh": null,
-  "summaryZh": null,
+  "titleZh": "quantilope 平台新功能：AI 研究伙伴 quinn、CEP Generator 与合成 Category Twins",
+  "summaryZh": "quantilope 在平台中上线多项 AI 创新：AI 研究伙伴 quinn 已原生进入 Survey Editor，可从提示词秒级生成完整的高级方法研究草稿，并新增 quinn Search 将项目库整合为可检索的品牌记忆。CEP Generator 用 AI 一分钟生成 35 个初始 Category Entry Point，供团队筛选至约 20 个用于最终线上研究；Category Twins 则用品牌追踪数据以合成受访者预测试概念与信息。团队还将推出覆盖 1,000+ 品牌、150+ 品类的 Mental Availability Norms。",
   "reason": null,
-  "category": null,
-  "tags": [],
-  "entities": [],
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "合成用户",
+    "市场研究",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "quantilope"
+  ],
   "itemType": null,
   "publishedAt": "2026-08-27T13:47:47+00:00",
   "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-  "status": "archived",
+  "status": "listed",
   "dupOf": null,
   "relation": null,
   "related": []
