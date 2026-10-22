@@ -642,17 +642,34 @@ def test_rss_parses_and_has_one_entry_per_selected(published: Path) -> None:
     assert feed.feed.link == SITE_URL
 
 
-def test_rss_daily_has_one_entry_per_edition_day(published: Path) -> None:
+def test_rss_daily_only_links_to_reports_that_exist(published: Path) -> None:
+    """日报 feed 里每个链接都必须有对应页面 —— 不能指向没出过的期。
+
+    曾经的实现是「从 Item 推」，于是有入选条目但没出过日报的日子也会发出去。
+    实测过一次：37 条 item 里 32 条指向不存在的 `/daily/<date>/`，
+    RSS 阅读器点进去全是死链。现在只发真的写进产物里的那几期。
+    """
     feed = feedparser.parse((published / "rss-daily.xml").read_text(encoding="utf-8"))
     assert not feed.bozo, getattr(feed, "bozo_exception", None)
-    assert len(feed.entries) == 3
-    assert [entry.link for entry in feed.entries] == [
-        f"{SITE_URL}/daily/2026-10-22/",
-        f"{SITE_URL}/daily/2026-10-21/",
-        f"{SITE_URL}/daily/2026-10-20/",
-    ]
-    assert "中文标题 1" in feed.entries[0].summary
-    assert feed.entries[0].title == "UXHOT 日报 2026-10-22｜1 条精选"
+
+    # 夹具里只写了 10-21 与 10-20 两期日报
+    report_dates = {
+        path.stem
+        for path in (published / "data" / "reports" / "daily").glob("*.json")
+        if path.name != "index.json"
+    }
+    assert report_dates == {"2026-10-20", "2026-10-21"}
+
+    linked = {entry.link.rstrip("/").split("/")[-1] for entry in feed.entries}
+    assert linked == report_dates, "feed 里只能有真的出过的那几期"
+    assert "2026-10-22" not in linked, "10-22 有入选条目但没出日报，不该出现在 feed 里"
+
+    # 每条链接都要能对上产物里的日报文件
+    for entry in feed.entries:
+        date = entry.link.rstrip("/").split("/")[-1]
+        assert (published / "data" / "reports" / "daily" / f"{date}.json").is_file(), (
+            f"{entry.link} 指向的日报不存在"
+        )
 
 
 def test_rss_is_well_formed_and_escaped(cfg, public_dir: Path, empty_reports: Path) -> None:

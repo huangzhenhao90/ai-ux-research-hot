@@ -168,12 +168,17 @@ def build_rss_daily(
     *,
     now: datetime | None = None,
     limit: int = DEFAULT_DAY_LIMIT,
+    report_dates: set[str] | None = None,
 ) -> str:
     """日报 feed：每期一个 item，按出刊日分组，新的在前。
 
-    为什么从 Item 推而不是读 report 模块的日报 JSON：这个 feed 的形状只需要
-    「哪天出了哪几条」，而报告 schema 归 `report/` 模块所有；从 Item 推可以
-    在日报还没生成时也给出可用 feed，且分日口径与 `latest.json` 完全一致。
+    ⚠️ `report_dates` 必须传「**实际存在的日报期号**」。
+    只从 Item 推是不够的：有入选条目的日子未必都出过日报（`build_daily.py`
+    只补到点的期），于是 feed 会指向一批根本不存在的 `/daily/<date>/` 页面。
+    实测过一次：37 条 item 里 32 条指向 404 —— RSS 阅读器点进去全是死链。
+
+    传 `None` 表示不过滤（只有单测会这么用）；传集合（哪怕是空集）就严格
+    只发这个集合里的日期，保证 feed 里每个链接都有对应页面。
     """
     site = config.site
     names = source_name_map(config)
@@ -189,6 +194,10 @@ def build_rss_daily(
         day = edition_day(item_time(item), tz, hour)
         if day <= today:
             by_day.setdefault(day.isoformat(), []).append(item)
+
+    # 只发真的出过日报的那几期，避免 feed 里出现死链
+    if report_dates is not None:
+        by_day = {day: rows for day, rows in by_day.items() if day in report_dates}
 
     item_lines: list[str] = []
     for day in sorted(by_day, reverse=True)[:limit]:
@@ -229,6 +238,7 @@ def write_rss_files(
     out_dir: Path,
     *,
     now: datetime | None = None,
+    report_dates: set[str] | None = None,
 ) -> dict[str, Path]:
     """把两个 feed 写进发布根目录（`web/public/`）。"""
     root = Path(out_dir)
@@ -236,7 +246,7 @@ def write_rss_files(
     rows = list(items)
     files = {
         RSS_FILE: build_rss(config, rows, now=now),
-        RSS_DAILY_FILE: build_rss_daily(config, rows, now=now),
+        RSS_DAILY_FILE: build_rss_daily(config, rows, now=now, report_dates=report_dates),
     }
     paths: dict[str, Path] = {}
     for name, content in files.items():

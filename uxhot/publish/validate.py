@@ -650,6 +650,17 @@ def publish_atomic(
     return PublishResult(out_dir=out, counts=dict(counts), replaced=replaced)
 
 
+def _published_report_dates(dir_path: Path) -> set[str]:
+    """暂存目录里实际存在的日报期号（读不到就给空集，宁可 feed 空也不发死链）。"""
+    if not dir_path.is_dir():
+        return set()
+    return {
+        path.stem
+        for path in dir_path.glob("*.json")
+        if path.name != "index.json"
+    }
+
+
 def build_and_validate(
     items: Iterable[Item],
     config: ConfigBundle,
@@ -668,7 +679,11 @@ def build_and_validate(
 
     def build(stage: Path) -> dict[str, int]:
         counts = build_site_data(rows, config, stage, reports_dir=reports, now=now)
-        write_rss_files(config, rows, stage, now=now)
+        # 日报 feed 只发**真的写进了暂存目录**的那几期，否则会指向不存在的页面
+        write_rss_files(
+            config, rows, stage, now=now,
+            report_dates=_published_report_dates(stage / "data" / "reports" / "daily"),
+        )
         write_llms_txt(config, rows, stage, now=now)
         return counts
 

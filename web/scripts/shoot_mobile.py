@@ -11,14 +11,15 @@
 
 from __future__ import annotations
 
+import os
 import sys
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
-BASE = "http://127.0.0.1:4179/ai-ux-research-hot"
-# 脚本在 web/scripts/ 下：parents[0]=scripts, [1]=web, [2]=仓库根
-OUT = Path(__file__).resolve().parents[2] / "screenshots"
+BASE = os.environ.get("UXHOT_BASE", "http://127.0.0.1:4180/ai-ux-research-hot")
+# 输出目录可用第一个参数覆盖（阶段 9 用 screenshots/final）
+OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parents[2] / "screenshots"
 
 # (文件名, 路径, 视口宽, 视口高, 是否移动端)
 PAGES = [
