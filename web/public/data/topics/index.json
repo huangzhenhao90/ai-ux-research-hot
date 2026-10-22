@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T16:13:16.040886+00:00",
+  "generatedAt": "2026-10-22T22:50:45.114950+00:00",
   "groups": [
     {
       "key": "company",
@@ -107,7 +107,7 @@
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 34
+      "count": 35
     },
     {
       "slug": "qual-analysis",
@@ -135,7 +135,7 @@
       "name": "洞察库与 ResearchOps",
       "group": "field",
       "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-      "count": 26
+      "count": 27
     },
     {
       "slug": "ethics",
@@ -156,7 +156,7 @@
       "name": "论文",
       "group": "genre",
       "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-      "count": 57
+      "count": 58
     },
     {
       "slug": "methods",

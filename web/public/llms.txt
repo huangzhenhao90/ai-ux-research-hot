@@ -18,6 +18,7 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [MeasuringU 公布 2024 UXPA UX 薪资调查结果与薪资计算器](https://measuringu.com/user-experience-salaries-calculator-2026/?utm_source=rss&utm_medium=rss&utm_campaign=user-experience-salaries-calculator-2026)：MeasuringU 公布与 UXPA 合作的 2024 年 UX 薪资调查结果，样本为 37 个国家的 444 份回答，薪资中位数为 $120K。扣除 2022 年 1 月至 2024 年 8 月 12% 的通胀后，有效薪资中位数比 2…（MeasuringU（Jeff Sauro），2026-10-22）
 - [Listen Labs 的 6 步用户原型测试操作指南](https://listenlabs.com/articles/prototype-testing-with-users-playbook/)：Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–…（Listen Labs，2026-10-22）
 - [研究：8 款通用 LLM 从餐食照片估算能量摄入，平均误差小但个体误差大](https://arxiv.org/abs/2610.26538)：研究使用 ACETADA 受控喂养试验的 802 餐数据，评测 Claude、GPT、Gemini 三家厂商共 8 个通用多模态 LLM 依据 Meal Photos 估算能量摄入，发现平均偏差低并不等于个体估算准确。餐前与餐后两张照片分…（arXiv cs.HC，2026-10-22）
 - [研究提出 AuthorizationBench，评测 LLM 智能体是否越权行动](https://arxiv.org/abs/2610.27548)：论文作者提出 AuthorizationBench，用 286 个可执行任务、覆盖 10 个应用领域评测 LLM 智能体的授权对齐，在 6,864 条轨迹中越权行动占 19.2%。24 种配置下越权率为 10.5% 至 26.6%，提高推…（arXiv cs.HC，2026-10-22）
@@ -47,6 +48,5 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [Product Talk 发布 AI 评估测试框架，附可运行的合成访谈示例](https://www.producttalk.org/ai-evals-test-harness/)：Product Talk 作者将自用的 AI 评估测试框架整理进代码仓库，并附一个完整示例，读者可以先跑通示例，再替换成自己的输入、提示词和 eval。示例用 15 份合成访谈记录检验「访谈转故事并判断参与者状态」的流程，更换提示词后编造…（Product Talk（Teresa Torres），2026-09-02）
 - [UX 的“看护时代”：为 AI 生成的设计善后](https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：AI 让团队生成内容、原型和可运行功能的速度快过 UX 评估，UX 正进入“看护时代”。UX 的工作从空白页设计转向判断 AI 产出中哪些保留、哪些修改，并为已存在的原型和功能善后。应对方式是建立共享判断、加速评估，并引导 AI 生成的设…（Nielsen Norman Group，2026-08-28）
 - [AI 无法在同理心地图中替代真实研究](https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：AI 无法替代真实研究来制作同理心地图，只能帮助整理已经收集到的研究材料。同理心地图用 Says、Thinks、Does、Feels 四个象限呈现团队对某类用户的已知信息，通常在工作坊中由来自真实研究的便利贴协作搭建。原文指出，AI 工具…（Nielsen Norman Group，2026-08-28）
-- [今天就能构建的 9 个 Dovetail Digital Twins，以及它们各自能为团队做什么](https://dovetail.com/blog/9-digital-twins-you-can-build-today/)：Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。（Dovetail Blog，2026-08-26）
 
-（更多 22 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 23 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

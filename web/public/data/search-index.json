@@ -1,5 +1,5 @@
 {
-  "count": 490,
+  "count": 493,
   "items": [
     {
       "id": "8e0980b9f42d4533",
@@ -338,6 +338,25 @@
       "sourceName": "arXiv cs.HC",
       "url": "https://arxiv.org/abs/2610.27258",
       "publishedAt": "2026-10-21T04:00:00+00:00"
+    },
+    {
+      "id": "8bedb525d881c60a",
+      "title": "User Experience Salaries & Calculator (2026)",
+      "titleZh": "MeasuringU 公布 2024 UXPA UX 薪资调查结果与薪资计算器",
+      "summaryZh": "MeasuringU 公布与 UXPA 合作的 2024 年 UX 薪资调查结果，样本为 37 个国家的 444 份回答，薪资中位数为 $120K。扣除 2022 年 1 月至 2024 年 8 月 12% 的通胀后，有效薪资中位数比 2022 年低 2%；回归模型显示所在地解释 50% 的薪资差异，职级解释 11%。薪资计算器合并了 User Interviews 的 2024 年调查数据，样本增至 1,063 份，因该调查未收集教育信息而移除了这一变量。",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "招募/样本"
+      ],
+      "entities": [
+        "uxpa",
+        "user-interviews"
+      ],
+      "category": "research",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "url": "https://measuringu.com/user-experience-salaries-calculator-2026/?utm_source=rss&utm_medium=rss&utm_campaign=user-experience-salaries-calculator-2026",
+      "publishedAt": "2026-10-22T18:42:59+00:00"
     },
     {
       "id": "125f70d843cae2dc",
@@ -3301,6 +3320,30 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
       "publishedAt": "2025-11-24T12:14:05+00:00"
+    },
+    {
+      "id": "83269b5779c63271",
+      "title": "Average Senior User Researcher Salary (UK)",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Reddit r/UXResearch",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xcwhwh/average_senior_user_researcher_salary_uk/",
+      "publishedAt": "2026-10-22T22:14:27+00:00"
+    },
+    {
+      "id": "8177cb3e4cbab4a5",
+      "title": "please help me choose an app or website for my uxr case studies",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Reddit r/UXResearch",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xcs8sk/please_help_me_choose_an_app_or_website_for_my/",
+      "publishedAt": "2026-10-22T19:28:23+00:00"
     },
     {
       "id": "128cdbc401f70206",

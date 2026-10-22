@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 26,
+  "count": 27,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -58,6 +58,33 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "8bedb525d881c60a",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "tier": "T2",
+      "url": "https://measuringu.com/user-experience-salaries-calculator-2026/?utm_source=rss&utm_medium=rss&utm_campaign=user-experience-salaries-calculator-2026",
+      "title": "User Experience Salaries & Calculator (2026)",
+      "titleZh": "MeasuringU 公布 2024 UXPA UX 薪资调查结果与薪资计算器",
+      "summaryZh": "MeasuringU 公布与 UXPA 合作的 2024 年 UX 薪资调查结果，样本为 37 个国家的 444 份回答，薪资中位数为 $120K。扣除 2022 年 1 月至 2024 年 8 月 12% 的通胀后，有效薪资中位数比 2022 年低 2%；回归模型显示所在地解释 50% 的薪资差异，职级解释 11%。薪资计算器合并了 User Interviews 的 2024 年调查数据，样本增至 1,063 份，因该调查未收集教育信息而移除了这一变量。",
+      "reason": "文章把 UXPA 与 User Interviews 两份薪资调查合并到 1,063 份样本，给出对照地区与职级薪资差异的参照。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "招募/样本"
+      ],
+      "entities": [
+        "uxpa",
+        "user-interviews"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-22T18:42:59+00:00",
+      "discoveredAt": "2026-10-22T22:50:45.114950+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "89c56ba372b9678d",
