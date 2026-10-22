@@ -48,7 +48,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: 确定运行模式
         id: mode
@@ -73,7 +73,7 @@ jobs:
           fi
 
       - name: 安装 Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.11"
           cache: pip
@@ -113,7 +113,7 @@ jobs:
         run: python -m pytest -q
 
       - name: 安装 Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: "22"
           cache: npm
@@ -147,7 +147,7 @@ jobs:
       - name: 上传 Pages 产物
         # private 仓库开不了 Pages，用 Variable 控制；转 public 后设为 true
         if: vars.PAGES_ENABLED == 'true'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: web/out
 
@@ -161,4 +161,4 @@ jobs:
     steps:
       - name: 部署到 GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
