@@ -1,0 +1,46 @@
+{
+  "month": "2024-04",
+  "count": 2,
+  "items": [
+    {
+      "id": "4eafc5921268401b",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/channels/",
+      "title": "Introducing Channels",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2024-04-28T14:00:00+00:00",
+      "discoveredAt": "2026-10-22T01:49:34.084986+00:00",
+      "status": "archived",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0b45b2c3095bba9c",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/just-like-magic-dovetails-newest-features-are-here/",
+      "title": "Just like magic: Dovetail’s newest features are here",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2024-04-10T16:30:00+00:00",
+      "discoveredAt": "2026-10-22T01:49:34.084986+00:00",
+      "status": "archived",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
+}

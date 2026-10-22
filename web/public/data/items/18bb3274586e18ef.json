@@ -1,0 +1,21 @@
+{
+  "id": "18bb3274586e18ef",
+  "sourceId": "sprig-blog",
+  "sourceName": "Sprig Blog",
+  "tier": "T1",
+  "url": "https://sprig.com/blog/mcp-data-security",
+  "title": "Sprig MCP: Answering All Your Questions about Data Security",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": null,
+  "tags": [],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-07-22T16:00:00+00:00",
+  "discoveredAt": "2026-10-22T01:49:34.084986+00:00",
+  "status": "archived",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

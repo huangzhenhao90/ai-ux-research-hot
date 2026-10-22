@@ -1,0 +1,46 @@
+{
+  "month": "2022-08",
+  "count": 2,
+  "items": [
+    {
+      "id": "b6cb737b3a2f10d8",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/how-we-make-it-a-peek-inside-dovetails-product/",
+      "title": "How we make it: A peek inside Dovetail’s product",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2022-08-23T07:00:00+00:00",
+      "discoveredAt": "2026-10-22T01:49:34.084986+00:00",
+      "status": "archived",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8317605ac72fb74f",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/the-secrets-out-were-officially-in-the-top-ten-of-australias-best-workplaces/",
+      "title": "The secret’s out: We’re officially in the top ten of Australia’s Best Workplaces™️!",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2022-08-19T07:00:00+00:00",
+      "discoveredAt": "2026-10-22T01:49:34.084986+00:00",
+      "status": "archived",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
+}

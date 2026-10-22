@@ -1,0 +1,21 @@
+{
+  "id": "de70f20c7c3e3690",
+  "sourceId": "frontiers-cs",
+  "sourceName": "Frontiers in Computer Science",
+  "tier": "T2",
+  "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1928487",
+  "title": "A same-condition decision-risk audit for CPU-only machine-learning efficiency measurement",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": null,
+  "tags": [],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-06T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T01:49:34.084986+00:00",
+  "status": "archived",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

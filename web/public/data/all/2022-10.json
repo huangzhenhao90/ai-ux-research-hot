@@ -1,0 +1,26 @@
+{
+  "month": "2022-10",
+  "count": 1,
+  "items": [
+    {
+      "id": "1eb1de3ac75f1a59",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/our-new-company-purpose-improve-the-quality-of-every-thing/",
+      "title": "Our new company purpose: Improve the quality of every thing",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2022-10-07T07:00:00+00:00",
+      "discoveredAt": "2026-10-22T01:49:34.084986+00:00",
+      "status": "archived",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
+}

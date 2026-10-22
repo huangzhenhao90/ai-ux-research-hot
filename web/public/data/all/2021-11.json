@@ -1,0 +1,26 @@
+{
+  "month": "2021-11",
+  "count": 1,
+  "items": [
+    {
+      "id": "31a8b49bd12e7b8a",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/great-place-to-work/",
+      "title": "It’s official—we’re a great place to work!",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2021-11-16T07:00:00+00:00",
+      "discoveredAt": "2026-10-22T01:49:34.084986+00:00",
+      "status": "archived",
+      "dupOf": null,
+      "relation": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "c0417efad08dc6db",
+  "sourceId": "frontiers-cs",
+  "sourceName": "Frontiers in Computer Science",
+  "tier": "T2",
+  "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1889642",
+  "title": "A hybrid deep Kronecker and BN-eLU-AlexNet framework for early prediction of learner outcomes in e-learning platforms",
+  "titleZh": null,
+  "summaryZh": null,
+  "reason": null,
+  "category": null,
+  "tags": [],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-12T00:00:00+00:00",
+  "discoveredAt": "2026-10-22T01:49:34.084986+00:00",
+  "status": "archived",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
