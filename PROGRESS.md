@@ -589,3 +589,73 @@ T1 60 / T2 76 是 AIHOT 在 AI 领域用的值，用研行业的分数整体低�
    否则信源表会退化成空态说明文字。
 4. `/daily/__none__/`、`/weekly/__none__/` 是空数据时的占位页（noindex，无入口链接）。
 5. 收藏功能（计划 §阶段 6 列为「可选」）未做。
+
+---
+
+## 阶段 7：GitHub Actions + Pages — 🔄 进行中（2026-10-22）
+
+### 已完成：两个工作流 + 本地全量验证
+
+**`.github/workflows/update.yml`**（采集 → 评分 → 出刊 → 构建 → 部署）
+
+| 配置 | 值 |
+|---|---|
+| `schedule` | `0 */4 * * *`（每 4 小时采集评分）+ `5 0 * * *`（UTC 00:05 = 北京 08:05 出日报） |
+| `workflow_dispatch` | 输入 `mode: dry-run\|execute` 与 `limit` |
+| `concurrency` | `group: uxhot-update`，`cancel-in-progress: false` |
+| `permissions` | `contents: write`、`pages: write`、`id-token: write` |
+| 步骤 | checkout → setup-python 3.11（pip 缓存）→ 跑流水线 → 出日报/周报 → pytest → setup-node 22（npm 缓存）→ `npm ci` → typecheck → build → 提交 `data/` 与 `web/public` → upload-pages-artifact → deploy-pages |
+
+关键设计：
+- **定时触发默认 `execute`**，手动触发按输入（默认 `dry-run`），所以手动跑不会误花钱。
+- **`MODEL_CALLS_ENABLED` 只在 execute 时打开**，与脚本内的安全阀双重把关。
+- **`LLM_API_KEY` 来自 Secrets，执行模型不接触明文**；`LLM_BASE_URL` / `LLM_MODEL` 来自 Variables（有默认值）。
+- **出日报/周报每趟都跑**：两个脚本都会跳过已存在的期，所以顺带补出漏掉的。
+- **发布校验失败时流水线不改动 `web/public`**，提交步骤于是提交上一版，等于「保留上一版」。
+
+**`.github/workflows/ci.yml`**（PR / push，**不调模型、不花钱**）
+
+- 后端：`pytest -q` + 配置自检（断言参与精选的信源 ≥30、T1 ≥10）
+- 前端：`npm ci` → typecheck → build → **产物齐全检查** + **断言 AIHOT 只出现在关于页**（把许可要求变成 CI 门禁）
+
+**本地验证**
+
+| 检查 | 结果 |
+|---|---|
+| `actionlint`（v1.7.7）两个工作流 | **0 错误** |
+| YAML 解析 | 通过 |
+| CI 各步骤逐条本地照跑 | 全通过（测试 / 配置自检 / 产物齐全 / AIHOT 门禁） |
+| `update.yml` 的三条命令 | 全部可用（dry-run 路径零模型调用） |
+
+### ⚠️ 本轮又抓到一个真 bug（出刊时点算错，后果严重）
+
+`build_daily.py` 用 `edition_date_for(now)` 决定「出哪一期」，但那个函数回答的是
+**「哪一期的窗口包含这一刻」**——对**条目**是对的，用在**出刊**上会提前一天。
+
+实测：在 10-22 09:10 跑，它出了 **10-23** 的期。
+
+后果不只是多一个空刊：**该期号一旦存在就不会重写**，而 10-22 08:00–10-23 08:00
+之间入选的条目归属期正是 10-23 → **这批条目永远不会进日报**。
+
+已修：新增 `due_edition_date(now, hour)` 专门回答「此刻已到出刊时刻的最近一期」，
+`target_dates()` 只生成 `<= due` 的期；还没到点的期即使已有条目归属也等它到点再出。
+删掉了误建的 `2026-10-23.json`，并加 **4 条回归测试**（含「刚过 08:00 时不能提前出明天的期」）。
+
+两个函数的区别已写进 docstring：
+- `edition_date_for(dt)`：**条目**属于哪一期（窗口包含）
+- `due_edition_date(now)`：此刻该**出刊**的最近一期
+
+### 待办：需要用户明确同意的三步
+
+按计划 §2.7 与 §阶段 7，以下动作**动手前必须征得同意**，故暂停在此：
+
+1. **创建 GitHub 仓库** `huangzhenhao90/ai-ux-research-hot`（D7）
+2. **首次 push**（本地已有 6 个提交）
+3. **把仓库设为 public**（D6 选了 GitHub Pages，public 仓库才能免费用 Pages）
+
+另外需要用户本人操作（执行模型不接触明文）：
+- 仓库 Settings → Pages → Source 选 **GitHub Actions**
+- Secrets 加 `LLM_API_KEY`（可选：Variables 加 `LLM_BASE_URL` / `LLM_MODEL`）
+
+**建议**：阶段 8（金标门槛校准）完成前不要真正对外公开——当前真实门槛下日报会是空刊，
+站点上是开发种子数据。

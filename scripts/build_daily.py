@@ -64,24 +64,44 @@ def edition_date_for(dt: datetime, hour: int) -> str:
     return shifted.strftime("%Y-%m-%d")
 
 
-def target_dates(items: list[Item], cfg, now: datetime) -> list[str]:
-    """该出哪些期：有入选资料的出刊日 + 今天到点的期，按时间正序。"""
-    hour = edition_hour(cfg)
-    dates: set[str] = set()
+def due_edition_date(now: datetime, hour: int) -> str:
+    """此刻**已经到出刊时刻**的最近一期。
 
+    出刊日 D 在 D 当天 `hour:00` 发布，覆盖 `[D-1 hour:00, D hour:00)`。
+    所以 `now` 时刻最近已发布的一期是：
+    - `now` 的北京日期，若已过当天 `hour:00`；
+    - 否则是前一天。
+
+    ⚠️ 不能用 `edition_date_for(now, hour)` 来代替：那个函数回答的是
+    「哪一期的**窗口**包含这一刻」（对**条目**是对的），用在**出刊**上会提前一天。
+    提前出空刊的后果很严重：那个期号一旦存在就不会重写，而窗口内的条目归属正是它，
+    于是这些条目永远不会进日报。
+    """
+    local = now.astimezone(parse_tz("Asia/Shanghai"))
+    day = local.date() if local.hour >= hour else local.date() - timedelta(days=1)
+    return day.strftime("%Y-%m-%d")
+
+
+def target_dates(items: list[Item], cfg, now: datetime) -> list[str]:
+    """该出哪些期：有入选资料的出刊日 + 已到点的最近一期，按时间正序。
+
+    只生成**已经到出刊时刻**的期。还没到点的期即使已有条目归属，也要等它到点再出，
+    否则会出空刊并永久吞掉那批条目。
+    """
+    hour = edition_hour(cfg)
+    due = due_edition_date(now, hour)
+
+    dates: set[str] = set()
     for item in items:
         if item.status is not Status.SELECTED:
             continue
         stamp = item.selectedAt or item.publishedAt or item.discoveredAt
-        dates.add(edition_date_for(stamp, hour))
+        edition = edition_date_for(stamp, hour)
+        if edition <= due:
+            dates.add(edition)
 
-    # 今天到点的期（即使空刊也要出，计划 §5.4）
-    today_edition = edition_date_for(now, hour)
-    if now.astimezone(parse_tz("Asia/Shanghai")).hour >= hour:
-        dates.add(today_edition)
-    else:
-        # 还没到今天的出刊点，最近一期是昨天
-        dates.add((datetime.strptime(today_edition, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d"))
+    # 最近一期即使没有条目也要出（空刊），这样读者知道「今天没有重要更新」
+    dates.add(due)
 
     cutoff = (now - timedelta(days=MAX_BACKFILL_DAYS)).strftime("%Y-%m-%d")
     return sorted(d for d in dates if d >= cutoff)

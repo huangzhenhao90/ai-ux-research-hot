@@ -1,0 +1,96 @@
+name: CI
+
+# PR 与 push 上跑测试与构建，**不调模型、不花钱**。
+# 与 update.yml 的区别：这里没有 LLM_API_KEY，也不提交任何东西。
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: uxhot-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  backend:
+    name: 后端（pytest）
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 跑测试
+        # 测试全部用本地 fixtures + 假 LLM，不访问网络、不调模型
+        run: python -m pytest -q
+
+      - name: 配置自检
+        # 单独跑一遍，配置写错时能一眼看出是配置问题而不是测试问题
+        run: |
+          python -c "
+          from uxhot.config import load_config
+          cfg = load_config()
+          editorial = [s for s in cfg.sources.sources if s.mode == 'editorial']
+          t1 = [s for s in editorial if s.tier == 'T1']
+          print(f'信源 {len(cfg.sources.sources)} 个（参与精选 {len(editorial)}，T1 {len(t1)}）')
+          print(f'门槛 {cfg.selection.thresholds}')
+          assert len(editorial) >= 30, '信源不足 30 个'
+          assert len(t1) >= 10, 'T1 信源不足 10 个'
+          "
+
+  frontend:
+    name: 前端（typecheck + build）
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出
+        uses: actions/checkout@v4
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: 安装依赖
+        working-directory: web
+        run: npm ci
+
+      - name: 类型检查
+        working-directory: web
+        run: npm run typecheck
+
+      - name: 构建静态站
+        # 构建期读 public/data/*.json，不访问网络、不调模型
+        working-directory: web
+        run: npm run build
+
+      - name: 确认产物齐全
+        working-directory: web
+        run: |
+          set -e
+          for f in out/index.html out/all/index.html out/about/index.html \
+                   out/rss.xml out/llms.txt out/data/site.json; do
+            test -f "$f" || { echo "缺少产物：$f"; exit 1; }
+          done
+          echo "关键产物齐全"
+          # 许可要求：AIHOT 的名字只允许出现在关于页
+          hits=$(grep -rl "AIHOT" out --include='*.html' | grep -v '^out/about/' || true)
+          if [ -n "$hits" ]; then
+            echo "AIHOT 出现在关于页以外的页面："
+            echo "$hits"
+            exit 1
+          fi
+          echo "AIHOT 仅出现在关于页 ✅"

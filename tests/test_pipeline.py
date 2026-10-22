@@ -915,3 +915,93 @@ def test_archived_items_are_stripped() -> None:
     item.set_body("old content")
     assert strip_bodies([item]) == 1
     assert item.body == ""
+
+
+# ══ 出刊时点：不能提前出还没到点的期 ═══════════════════════════════════
+#
+# 背景：`build_daily.py` 曾用 `edition_date_for(now)` 决定出哪一期，
+# 而那个函数回答的是「哪一期的窗口包含这一刻」。在 10-22 09:10 跑，
+# 它会出 **10-23** 的期（提前一天）。后果不只是多一个空刊：
+# 该期号一旦存在就不会重写，而 10-22 08:00–10-23 08:00 之间入选的条目
+# 归属期正是 10-23，于是这批条目永远不会进日报。
+
+
+def _build_daily_module():
+    import importlib.util
+
+    spec = importlib.util.spec_from_file_location(
+        "build_daily_script", Path(__file__).resolve().parents[1] / "scripts" / "build_daily.py"
+    )
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+@pytest.mark.parametrize(
+    "local_time,expected_due",
+    [
+        ("2026-10-22 07:00", "2026-10-21"),  # 还没到 8 点，最近一期是昨天
+        ("2026-10-22 08:00", "2026-10-22"),  # 正好到点
+        ("2026-10-22 09:10", "2026-10-22"),
+        ("2026-10-22 23:59", "2026-10-22"),  # 还没到明天 8 点
+    ],
+)
+def test_due_edition_date(local_time: str, expected_due: str) -> None:
+    from uxhot.collect.dates import parse_tz
+
+    module = _build_daily_module()
+    tz = parse_tz("Asia/Shanghai")
+    now = datetime.strptime(local_time, "%Y-%m-%d %H:%M").replace(tzinfo=tz)
+    assert module.due_edition_date(now, 8) == expected_due
+
+
+def test_due_edition_differs_from_window_edition() -> None:
+    """两个函数回答不同问题，不能互相替代。"""
+    from uxhot.collect.dates import parse_tz
+
+    module = _build_daily_module()
+    tz = parse_tz("Asia/Shanghai")
+    now = datetime(2026, 10, 22, 9, 10, tzinfo=tz)
+
+    # 这一刻入选的条目归属明天的期……
+    assert module.edition_date_for(now, 8) == "2026-10-23"
+    # ……但此刻该出刊的是今天那期
+    assert module.due_edition_date(now, 8) == "2026-10-22"
+
+
+def test_target_dates_skips_not_yet_due_edition(cfg) -> None:
+    """刚过今天 08:00 时，不能把明天的期提前出出来。"""
+    from uxhot.collect.dates import parse_tz
+
+    module = _build_daily_module()
+    tz = parse_tz("Asia/Shanghai")
+    now = datetime(2026, 10, 22, 9, 10, tzinfo=tz)
+
+    # 一条「刚过 08:00 入选」的条目 → 归属期是 10-23（还没到点）
+    item = _item("刚入选", "https://x.com/new", status=Status.SELECTED)
+    item.selectedAt = now
+    item.publishedAt = now
+
+    dates = module.target_dates([item], cfg, now)
+
+    assert "2026-10-23" not in dates, "还没到点的期不能提前出，否则空刊会吞掉这批条目"
+    assert "2026-10-22" in dates, "已到点的最近一期要出（即使空刊）"
+
+
+def test_target_dates_includes_past_edition_with_items(cfg) -> None:
+    """历史期（已到点）有入选条目时要补出来。"""
+    from uxhot.collect.dates import parse_tz
+
+    module = _build_daily_module()
+    tz = parse_tz("Asia/Shanghai")
+    now = datetime(2026, 10, 22, 9, 10, tzinfo=tz)
+
+    old = _item("早先入选", "https://x.com/old", status=Status.SELECTED)
+    old.selectedAt = datetime(2026, 10, 20, 10, 0, tzinfo=tz)
+    old.publishedAt = old.selectedAt
+
+    dates = module.target_dates([old], cfg, now)
+
+    assert "2026-10-21" in dates, "10-20 10:00 入选属于 10-21 期，且已到点，要补出"
+    assert "2026-10-22" in dates
+    assert "2026-10-23" not in dates
