@@ -5,16 +5,21 @@
   "tier": "T1",
   "url": "https://www.quantilope.com/resources/how-deichmann-found-the-right-fit-for-brand-health-tracking",
   "title": "How Deichmann Found the Right Fit for Brand Health Tracking",
-  "titleZh": null,
-  "summaryZh": null,
+  "titleZh": "Deichmann 如何用 quantilope 重构品牌健康追踪",
+  "summaryZh": "Deichmann 用 quantilope 的 CEP 与 Mental Availability 数据重构品牌健康追踪。quantilope 对 100 多个品牌的元分析显示，MMS 解释约 70% 的 SMS 方差。FILA 试点用 Mental Advantage 数据把重心从健身房转向跑步/慢跑场景。",
   "reason": null,
-  "category": null,
-  "tags": [],
-  "entities": [],
+  "category": "cases",
+  "tags": [
+    "案例",
+    "市场研究"
+  ],
+  "entities": [
+    "quantilope"
+  ],
   "itemType": null,
   "publishedAt": "2026-10-21T16:21:55+00:00",
-  "discoveredAt": "2026-10-22T01:53:51.171535+00:00",
-  "status": "archived",
+  "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+  "status": "listed",
   "dupOf": null,
   "relation": null,
   "related": []

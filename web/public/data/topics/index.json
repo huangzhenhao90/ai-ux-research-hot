@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T02:37:26.588313+00:00",
+  "generatedAt": "2026-10-22T02:48:12.603494+00:00",
   "groups": [
     {
       "key": "company",
@@ -51,7 +51,7 @@
       "name": "Nielsen Norman Group",
       "group": "company",
       "definition": "NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "ipsos",
@@ -100,7 +100,7 @@
       "name": "合成用户",
       "group": "field",
       "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "survey",
@@ -163,7 +163,7 @@
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "prompts",
@@ -177,7 +177,7 @@
       "name": "案例",
       "group": "genre",
       "definition": "有具体规模、成本或质量数据的落地案例。",
-      "count": 0
+      "count": 1
     },
     {
       "slug": "reports",

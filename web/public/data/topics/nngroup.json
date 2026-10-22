@@ -3,7 +3,7 @@
   "name": "Nielsen Norman Group",
   "group": "company",
   "definition": "NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。",
-  "count": 1,
+  "count": 2,
   "items": [
     {
       "id": "0f6df2ffe2a6818a",
@@ -29,6 +29,32 @@
       "publishedAt": "2026-10-16T17:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "06bbc6c9902e25bb",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "tier": "T2",
+      "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+      "title": "Let AI have the average user: Why User Research should focus on bad days",
+      "titleZh": "让 AI 负责普通用户：NN/g 谈为什么用户研究应聚焦“糟糕的日子”",
+      "summaryZh": "NN/g 发现合成用户研究只能捕捉常见回答，用户研究因此应聚焦用户的“糟糕日子”。AI 可以接手平均用户的常规反馈，而糟糕日子里的真实体验仍需研究者自己处理。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-20T21:30:52+00:00",
+      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     }

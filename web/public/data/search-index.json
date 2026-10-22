@@ -1,5 +1,5 @@
 {
-  "count": 348,
+  "count": 322,
   "items": [
     {
       "id": "0f6df2ffe2a6818a",
@@ -19,6 +19,20 @@
       "sourceName": "Nielsen Norman Group",
       "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "publishedAt": "2026-10-16T17:00:00+00:00"
+    },
+    {
+      "id": "501b170386db1504",
+      "title": "AI doesn’t care about your job title",
+      "titleZh": "AI 暴露度不看职位看任务：用 Claude 测算的五步法",
+      "summaryZh": "作者提出按任务而非职位评估 AI 暴露度，用能否两句话描述最终结果、能否更快核验两问给一周任务打分，再按工时加权，并给出可直接粘贴到 Claude 的五步提示词。文中引用 2023 年 GPTs are GPTs 的估计，80% 美国劳动者至少一成任务会受影响，约 19% 至少一半，而 Anthropic 用 2026 年 3 月使用数据发现 Claude 覆盖约 33% 的计算机与数学任务。作者还引用 Stanford Digital Economy Lab 2026 年 8 月的分析，22 至 25 岁在暴露职业中的就业水平比与低暴露同行同步时应有的水平低 19%。",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-10-20T21:29:28+00:00"
     },
     {
       "id": "0b86c760fb29c3f7",
@@ -185,6 +199,41 @@
       "sourceName": "Ipsos",
       "url": "https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand",
       "publishedAt": "2026-10-19T10:12:34+00:00"
+    },
+    {
+      "id": "74a3cc21f1da0ec3",
+      "title": "How Deichmann Found the Right Fit for Brand Health Tracking",
+      "titleZh": "Deichmann 如何用 quantilope 重构品牌健康追踪",
+      "summaryZh": "Deichmann 用 quantilope 的 CEP 与 Mental Availability 数据重构品牌健康追踪。quantilope 对 100 多个品牌的元分析显示，MMS 解释约 70% 的 SMS 方差。FILA 试点用 Mental Advantage 数据把重心从健身房转向跑步/慢跑场景。",
+      "tags": [
+        "案例",
+        "市场研究"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "category": "cases",
+      "sourceName": "quantilope",
+      "url": "https://www.quantilope.com/resources/how-deichmann-found-the-right-fit-for-brand-health-tracking",
+      "publishedAt": "2026-10-21T16:21:55+00:00"
+    },
+    {
+      "id": "06bbc6c9902e25bb",
+      "title": "Let AI have the average user: Why User Research should focus on bad days",
+      "titleZh": "让 AI 负责普通用户：NN/g 谈为什么用户研究应聚焦“糟糕的日子”",
+      "summaryZh": "NN/g 发现合成用户研究只能捕捉常见回答，用户研究因此应聚焦用户的“糟糕日子”。AI 可以接手平均用户的常规反馈，而糟糕日子里的真实体验仍需研究者自己处理。",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "category": "opinion",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-10-20T21:30:52+00:00"
     },
     {
       "id": "13c2b225a0577e37",
@@ -366,18 +415,6 @@
       "publishedAt": "2026-10-22T00:02:26+00:00"
     },
     {
-      "id": "71d74f648d9f6b63",
-      "title": "A founder with a tool is not a founder with a clue",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "UX Collective",
-      "url": "https://uxdesign.cc/a-founder-with-a-tool-is-not-a-founder-with-a-clue-65bccb0dc2f8?source=rss----138adf9c44c---4",
-      "publishedAt": "2026-10-21T21:50:55+00:00"
-    },
-    {
       "id": "ed27f8cea729c697",
       "title": "Can you take AI at its word?",
       "titleZh": null,
@@ -390,42 +427,6 @@
       "publishedAt": "2026-10-21T21:50:06+00:00"
     },
     {
-      "id": "57734a6f9347ee4d",
-      "title": "Want to understand users better? Start by reading Body Talk",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Rosenfeld Media",
-      "url": "https://rosenfeldmedia.com/want-to-understand-users-better-start-by-reading-body-talk/",
-      "publishedAt": "2026-10-21T16:36:47+00:00"
-    },
-    {
-      "id": "74a3cc21f1da0ec3",
-      "title": "How Deichmann Found the Right Fit for Brand Health Tracking",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "quantilope",
-      "url": "https://www.quantilope.com/resources/how-deichmann-found-the-right-fit-for-brand-health-tracking",
-      "publishedAt": "2026-10-21T16:21:55+00:00"
-    },
-    {
-      "id": "726d72e23234b3f2",
-      "title": "Feeling the pressure: Understanding consumers during inflationary times",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Ipsos",
-      "url": "https://www.ipsos.com/en/inflation/feeling-pressure-understanding-consumers-during-inflationary-times",
-      "publishedAt": "2026-10-21T15:19:13+00:00"
-    },
-    {
       "id": "795af009a10b00f1",
       "title": "Ask the Market: Shoppers are feeling the holiday price squeeze. Here’s what they’re doing differently.",
       "titleZh": null,
@@ -436,18 +437,6 @@
       "sourceName": "SurveyMonkey",
       "url": "https://www.surveymonkey.com/curiosity/ask-the-market-holiday-shopping-pricing/?ut_source=rss",
       "publishedAt": "2026-10-21T15:18:55+00:00"
-    },
-    {
-      "id": "f97ec532514eb8de",
-      "title": "We Surveyed 50,674 Americans. This Is What Brings Them Together.",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Prodege",
-      "url": "https://www.prodege.com/resources/news/insights/sports-brings-people-together/",
-      "publishedAt": "2026-10-21T15:03:39+00:00"
     },
     {
       "id": "464a1eec03a8483e",
@@ -474,18 +463,6 @@
       "publishedAt": "2026-10-21T11:26:34+00:00"
     },
     {
-      "id": "a175fc183d8736e9",
-      "title": "Flow in UX",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Jakob Nielsen on UX",
-      "url": "https://jakobnielsenphd.substack.com/p/flow",
-      "publishedAt": "2026-10-21T11:21:34+00:00"
-    },
-    {
       "id": "abdaa4c24a549569",
       "title": "Design v ADHD",
       "titleZh": null,
@@ -510,162 +487,6 @@
       "publishedAt": "2026-10-21T08:00:25+00:00"
     },
     {
-      "id": "1bba32fe71df0637",
-      "title": "The Life Well Lived is camera shy",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Ipsos",
-      "url": "https://www.ipsos.com/en/life-well-lived-camera-shy",
-      "publishedAt": "2026-10-21T08:00:00+00:00"
-    },
-    {
-      "id": "e02e35c49c208ae3",
-      "title": "Customer Research Methods For Startups: A How-To Playbook",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Listen Labs",
-      "url": "https://listenlabs.com/articles/best-market-research-methods-startups/",
-      "publishedAt": "2026-10-21T05:03:39+00:00"
-    },
-    {
-      "id": "1afcb1a1360dc91a",
-      "title": "Voice of Customer Software Features: What Each One Does",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Listen Labs",
-      "url": "https://listenlabs.com/articles/voice-of-customer-software-features/",
-      "publishedAt": "2026-10-21T05:03:33+00:00"
-    },
-    {
-      "id": "263b215d53519328",
-      "title": "Best Enterprise AI Research Platforms Compared 2026",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Listen Labs",
-      "url": "https://listenlabs.com/articles/best-enterprise-ai-research-platforms/",
-      "publishedAt": "2026-10-21T05:03:24+00:00"
-    },
-    {
-      "id": "ae8db14e0640ada2",
-      "title": "Market Research Software Comparison: How To Choose in 2026",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Listen Labs",
-      "url": "https://listenlabs.com/articles/best-market-research-software-comparison/",
-      "publishedAt": "2026-10-21T05:03:05+00:00"
-    },
-    {
-      "id": "f2094553e5f9ba08",
-      "title": "Customer Insights Platform Scalability: Practitioner’s Guide",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Listen Labs",
-      "url": "https://listenlabs.com/articles/customer-insights-platform-scalability-guide/",
-      "publishedAt": "2026-10-21T05:02:59+00:00"
-    },
-    {
-      "id": "30dc752a132f8d67",
-      "title": "\"It Wouldn't Have Been So Apparent to Me\": Evaluating How Thought-Level Progress Tracking Supports Psychosocial Goals",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "arXiv cs.HC",
-      "url": "https://arxiv.org/abs/2610.27238",
-      "publishedAt": "2026-10-21T04:00:00+00:00"
-    },
-    {
-      "id": "3d4c7812b0ec45bb",
-      "title": "Relational Complexity: Making Sense of Social Companion AI Use",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "arXiv cs.HC",
-      "url": "https://arxiv.org/abs/2610.27419",
-      "publishedAt": "2026-10-21T04:00:00+00:00"
-    },
-    {
-      "id": "4625077d30fe37ca",
-      "title": "Too Long to Watch, Too Short to Leave: Designing for Agent Micro-Waits",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "arXiv cs.HC",
-      "url": "https://arxiv.org/abs/2610.27170",
-      "publishedAt": "2026-10-21T04:00:00+00:00"
-    },
-    {
-      "id": "708c179adb3d9ebf",
-      "title": "The Differential Effects of AI Abstention on Advice Acceptance",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "arXiv cs.HC",
-      "url": "https://arxiv.org/abs/2610.27258",
-      "publishedAt": "2026-10-21T04:00:00+00:00"
-    },
-    {
-      "id": "76f2e62fdfcda0b7",
-      "title": "CanvasObs: Structured Spatial Observation for Agent Editing on 2D Infinite Canvases",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "arXiv cs.HC",
-      "url": "https://arxiv.org/abs/2610.27176",
-      "publishedAt": "2026-10-21T04:00:00+00:00"
-    },
-    {
-      "id": "8026d06a005a2105",
-      "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "arXiv cs.HC",
-      "url": "https://arxiv.org/abs/2610.27148",
-      "publishedAt": "2026-10-21T04:00:00+00:00"
-    },
-    {
-      "id": "a648e6bd28db420f",
-      "title": "Inspectable LLM-Simulated Participants for Qualitative Interview Rehearsal",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "arXiv cs.HC",
-      "url": "https://arxiv.org/abs/2610.27333",
-      "publishedAt": "2026-10-21T04:00:00+00:00"
-    },
-    {
       "id": "6191ff19d9ecfdde",
       "title": "Considering UXR as a career path as a current design undergrad",
       "titleZh": null,
@@ -676,30 +497,6 @@
       "sourceName": "Reddit r/UXResearch",
       "url": "https://www.reddit.com/r/UXResearch/comments/1xbchn1/considering_uxr_as_a_career_path_as_a_current/",
       "publishedAt": "2026-10-21T03:29:10+00:00"
-    },
-    {
-      "id": "ed8ada32cbae2fff",
-      "title": "Everyday Habits That Could Be Damaging Your Teeth",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Johnny Holland",
-      "url": "https://johnnyholland.org/2026/10/everyday-habits-that-could-be-damaging-your-teeth/",
-      "publishedAt": "2026-10-21T03:26:42+00:00"
-    },
-    {
-      "id": "32b5ab00b6508c1b",
-      "title": "The potential of bio-inspired trace alignment for side-channel analysis",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Frontiers in Computer Science",
-      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1869476",
-      "publishedAt": "2026-10-21T00:00:00+00:00"
     },
     {
       "id": "75f743fd63cba808",
@@ -762,66 +559,6 @@
       "publishedAt": "2026-10-20T21:45:22+00:00"
     },
     {
-      "id": "06bbc6c9902e25bb",
-      "title": "Let AI have the average user: Why User Research should focus on bad days",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "UX Collective",
-      "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
-      "publishedAt": "2026-10-20T21:30:52+00:00"
-    },
-    {
-      "id": "501b170386db1504",
-      "title": "AI doesn’t care about your job title",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "UX Collective",
-      "url": "https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4",
-      "publishedAt": "2026-10-20T21:29:28+00:00"
-    },
-    {
-      "id": "f4eda7046ba6885e",
-      "title": "Why the future of consumer insights relies on AI-moderated hybrid research",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Cint",
-      "url": "https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/",
-      "publishedAt": "2026-10-20T20:46:56+00:00"
-    },
-    {
-      "id": "55468fb6c00e3eae",
-      "title": "Mind-Bending Experiences - All Things Product Podcast with Teresa Torres & Petra Wille",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Product Talk（Teresa Torres）",
-      "url": "https://www.producttalk.org/mind-bending-experiences-all-things-product-podcast-with-teresa-torres-petra-wille/",
-      "publishedAt": "2026-10-20T13:00:54+00:00"
-    },
-    {
-      "id": "fa9e25816e5c635b",
-      "title": "The Workplace Reality",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Ipsos",
-      "url": "https://www.ipsos.com/en/the-workplace-reality",
-      "publishedAt": "2026-10-20T12:05:53+00:00"
-    },
-    {
       "id": "c4ffc13afa1657d9",
       "title": "Category Twins: Build Your Synthetic Community of Digital Twins",
       "titleZh": null,
@@ -832,18 +569,6 @@
       "sourceName": "quantilope",
       "url": "https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins",
       "publishedAt": "2026-10-20T12:00:03+00:00"
-    },
-    {
-      "id": "5a7fe3e1824ecbc8",
-      "title": "The Replacement Architecture: How Biopharma Companies Build Beyond the Blockbuster",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Ipsos",
-      "url": "https://www.ipsos.com/en/replacement-architecture-how-biopharma-companies-build-beyond-blockbuster",
-      "publishedAt": "2026-10-20T10:31:01+00:00"
     },
     {
       "id": "224db55a723b5dda",
@@ -880,30 +605,6 @@
       "sourceName": "Reddit r/UXResearch",
       "url": "https://www.reddit.com/r/UXResearch/comments/1xamgkm/okay_i_need_help/",
       "publishedAt": "2026-10-20T08:19:46+00:00"
-    },
-    {
-      "id": "66bedcdc83b6e13d",
-      "title": "Kantar Brand Tracking Methodology: MDS & Metrics Explained",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Listen Labs",
-      "url": "https://listenlabs.com/articles/kantar-brand-tracking-methodology/",
-      "publishedAt": "2026-10-20T05:15:36+00:00"
-    },
-    {
-      "id": "246a6f44e479e79a",
-      "title": "Retail Concept Testing: Methods, Steps & Questions",
-      "titleZh": null,
-      "summaryZh": null,
-      "tags": [],
-      "entities": [],
-      "category": null,
-      "sourceName": "Listen Labs",
-      "url": "https://listenlabs.com/articles/concept-testing-retail-products/",
-      "publishedAt": "2026-10-20T05:15:18+00:00"
     },
     {
       "id": "33ceba6838995c43",
