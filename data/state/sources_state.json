@@ -3,7 +3,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -27,21 +27,21 @@
     "extra": {}
   },
   "qualtrics": {
-    "etag": "\"1792619546\"",
-    "lastModified": "Wed, 21 Oct 2026 21:52:26 GMT",
+    "etag": "\"1792627274\"",
+    "lastModified": "Thu, 22 Oct 2026 00:01:14 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:53:51.171535+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "xm-institute": {
-    "etag": null,
-    "lastModified": null,
-    "firstImportAt": null,
-    "lastFetchAt": null,
-    "consecutiveFailures": 2,
-    "lastError": "ConnectTimeout: _ssl.c:989: The handshake operation timed out",
+    "etag": "\"e66be14f1be2c3a4266c723026c3b60f\"",
+    "lastModified": "Mon, 19 Oct 2026 11:52:32 GMT",
+    "firstImportAt": "2026-10-22T02:02:08.773020+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
     "extra": {}
   },
   "listen-labs": {
@@ -57,16 +57,16 @@
     "etag": "\"57489ba6015d49b38b39826db8646dbd-gzip\"",
     "lastModified": "Wed, 21 Oct 2026 16:48:58 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "quirkos": {
-    "etag": "W/\"50923-mm/aYiKEkAMwqcWxdbilMuTALgQ\"",
+    "etag": "W/\"50923-IhrSvYY58wIzsLU0HNLb4XciQs0\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -93,7 +93,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -103,15 +103,15 @@
     "lastModified": "Wed, 21 Oct 2026 16:29:59 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
     "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
-    "consecutiveFailures": 0,
-    "lastError": null,
+    "consecutiveFailures": 1,
+    "lastError": "RemoteProtocolError: Server disconnected without sending a response.",
     "extra": {}
   },
   "mopinion": {
     "etag": "\"d7c031109e1488ff76fc3bd0d1ccf1c6-gzip\"",
     "lastModified": "Wed, 21 Oct 2026 14:42:44 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -174,7 +174,7 @@
     "etag": "\"e621f80ce5f662373a351d57eaf734a8-gzip\"",
     "lastModified": "Mon, 19 Oct 2026 11:36:24 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -192,7 +192,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -237,7 +237,7 @@
     "etag": "W/\"1c6b7d53f392de054be9aa8d5026ba05\"",
     "lastModified": "Wed, 21 Oct 2026 22:37:41 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -255,7 +255,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -274,8 +274,8 @@
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
     "lastFetchAt": "2026-10-22T01:53:51.171535+00:00",
-    "consecutiveFailures": 0,
-    "lastError": null,
+    "consecutiveFailures": 1,
+    "lastError": "HTTP 403",
     "extra": {}
   },
   "johnnyholland": {
@@ -300,7 +300,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -327,16 +327,16 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "optimalworkshop-blog": {
     "etag": null,
-    "lastModified": "Thu, 22 Oct 2026 01:55:54 GMT",
+    "lastModified": "Thu, 22 Oct 2026 02:02:37 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:53:51.171535+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -361,9 +361,9 @@
   },
   "strella-blog": {
     "etag": null,
-    "lastModified": "Wed, 21 Oct 2026 13:34:48 GMT",
+    "lastModified": "Thu, 22 Oct 2026 00:59:26 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:53:51.171535+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -379,9 +379,9 @@
   },
   "dscout-people-nerds": {
     "etag": null,
-    "lastModified": "Thu, 22 Oct 2026 01:56:10 GMT",
+    "lastModified": "Thu, 22 Oct 2026 02:02:39 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:53:51.171535+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -390,7 +390,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:56:33.161468+00:00",
+    "lastFetchAt": "2026-10-22T02:02:08.773020+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
