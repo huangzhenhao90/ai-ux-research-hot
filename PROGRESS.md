@@ -1049,3 +1049,54 @@ AIHOT 的文档也写了「标注的人最好就是以后读这个站的人」�
 **「线上 Pages 各页面打开」没做** —— 仓库还是 private（用户选择），Pages 开不了。
 本地已按 basePath 结构起静态服务，逐页验证 200、爬检 0 失效链接，
 **等价验证已经做完**，只差真正的公网地址。上线三步见 `交付说明.md`。
+
+---
+
+## 上线（2026-10-22）
+
+用户指示「上线吧」。执行三步：
+
+```bash
+gh repo edit huangzhenhao90/ai-ux-research-hot --visibility public --accept-visibility-change-consequences
+gh variable set PAGES_ENABLED --body "true"
+gh api -X POST repos/huangzhenhao90/ai-ux-research-hot/pages -f build_type=workflow
+```
+
+**🌐 线上地址：https://huangzhenhao90.github.io/ai-ux-research-hot/**
+
+### 上线前先清掉了所有第三方正文
+
+仓库转 public 会把 `data/items` 全部公开，而当时还有条目带着第三方正文。
+分两类处理：
+
+1. **永远不会被读到的**（`strip_bodies` 扩展覆盖）：
+   - `UNKNOWN` 其实是**终态** —— `should_prefilter()` 只收 `NEW`，所以 UNKNOWN 永远进不了模型步骤；
+   - `hot_signal` / `EXCLUDE` 的源永远不参与精选。
+   实测这一类有 30 条共 6,483 字，其中 9 条是 hot_signal 的 Reddit 帖子。
+2. **马上要被处理的**：先跑流水线处理完（104 次调用），处理完自动清掉。
+
+**结果：572 条条目，正文总量 0 字。** public 仓库不含任何第三方文章正文。
+校验过不变式：没有任何「待处理的 editorial 条目」被误清（待处理数 = 0，清空是安全的）。
+加 2 条测试守住这个边界。
+
+### 一次数据冲突
+
+本地提交时和定时任务的自动提交撞车（rebase 冲突，数据文件冲突）。
+处理方式：备份代码改动 → 回到远程最新 → 恢复代码 → 用新代码重新清一遍正文 → 提交推送。
+**定时任务会持续和手工改动抢 `data/`，以后手工改数据前先停一下定时。**
+
+### 线上验证
+
+| 检查 | 结果 |
+|---|---|
+| 15 个关键路径 HTTP 状态 | 全部 **200**（含 `rss.xml` / `rss-daily.xml` / `llms.txt` / `data/site.json`） |
+| 首页内容 | 渲染正常，含真实中文标题/摘要/推荐理由 |
+| 静态资源 | CSS 200、JS 200（basePath 正确） |
+| AIHOT 出现位置 | 首页 **0** 次，关于页 **1** 次 |
+| 部署工作流 | `update` 与 `deploy` 两个 job 均 **success** |
+
+### 上线后仍存在的已知限制
+
+1. **门槛是「按分布定的」，不是「按金标验证的」**（见 `交付说明.md`）。这是目前最大的保留意见。
+2. 定时任务每 4 小时一趟，会自动采集、评分、出刊、重新部署。
+3. 三个信源偶发失败（无重试机制），下一趟自然补上。
