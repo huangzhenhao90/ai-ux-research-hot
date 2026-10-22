@@ -43,3 +43,7 @@ eval/samples-*.json
 # 安全性由 strip_bodies() 保证：处理完成的条目正文会被清空，只留 bodyChars 长度，
 # 因此这里不含第三方文章全文（用户 2026-10-21 确认的策略）。
 # 仍需处理的条目（new/prefiltered/scored/unknown）会短暂保留正文，属必要输入。
+
+# 分层旁路文件：由 sample_gold.py 生成，含模型均分推出的分层线索，
+# 刻意不放进标注表（D11 不锚定标注），也不提交
+eval/*.strata.json
