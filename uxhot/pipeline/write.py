@@ -113,7 +113,48 @@ def run(items: list[Item], ctx: StepContext) -> list[Item]:
         # 不管哪种写法，都做一次实体校验
         _verify_entities(item, ctx)
 
+        # 最后校正分类与内容类型的一致性
+        align_category_with_item_type(item)
+
     return items
+
+
+# `itemType` → 它应该落在哪个分类。
+#
+# 为什么要这一步：分类（`structure.md`）和内容类型（`content-understanding.md`）
+# 是**两次独立的模型调用**，各自判断，可能互相矛盾。
+# 实测过一次：NN/g 的《The 3 Roles of Context for AI Agents》被
+# `structure` 归成 `research`（论文），而 `content-understanding` 给的类型是
+# `tutorial_explainer` —— 一篇教程被挂上了「论文」分类，读者一眼就看出不对。
+#
+# 以 `itemType` 为准：它是对「这条内容是什么形态」的直接判断，
+# 而分类是从形态推出来的。
+ITEM_TYPE_CATEGORY: dict[str, str] = {
+    "tool_launch": "tools",
+    "method_or_template": "methods",
+    "research_paper": "research",
+    "industry_event": "industry",
+    "case_study": "cases",
+    "opinion_analysis": "opinion",
+    "tutorial_explainer": "methods",
+}
+
+
+def align_category_with_item_type(item: Item) -> bool:
+    """让分类与内容类型自洽。返回是否改过。
+
+    只处理「两者都有值且冲突」的情况；缺一个就不猜。
+    """
+    expected = ITEM_TYPE_CATEGORY.get(item.itemType or "")
+    if expected is None or item.category is None or item.category == expected:
+        return False
+
+    item.errors.append(
+        f"consistency: itemType={item.itemType} 与 category={item.category} 冲突，"
+        f"按 itemType 校正为 {expected}"
+    )
+    item.category = expected
+    return True
 
 
 def _write_deep(item: Item, ctx: StepContext) -> None:

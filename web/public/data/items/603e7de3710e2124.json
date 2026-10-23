@@ -2,6 +2,7 @@
   "id": "603e7de3710e2124",
   "sourceId": "frontiers-cs",
   "sourceName": "Frontiers in Computer Science",
+  "venue": null,
   "tier": "T2",
   "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1972880",
   "title": "An integrated AI-based software architecture for load forecasting, controlled anomaly detection, and predictive energy management",

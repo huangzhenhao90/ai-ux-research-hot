@@ -2,6 +2,7 @@
   "id": "413188a6dbfbe2d9",
   "sourceId": "dovetail-blog",
   "sourceName": "Dovetail Blog",
+  "venue": null,
   "tier": "T1",
   "url": "https://dovetail.com/blog/suns-out-enterprise/",
   "title": "Governance controls, context engineering, and standardization capabilities at enterprise scale",

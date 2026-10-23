@@ -2,6 +2,7 @@
   "id": "ea36a8c9c0bfc04e",
   "sourceId": "mrs-news",
   "sourceName": "MRS（英国市场研究协会）新闻",
+  "venue": null,
   "tier": "T1",
   "url": "https://www.mrs.org.uk/blog/data-analytics/beyond-the-hype-what-we-learned-about-synthetic-data-in-practice",
   "title": "Beyond the Hype: What We Learned About Synthetic Data in Practice",

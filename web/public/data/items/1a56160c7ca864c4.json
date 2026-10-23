@@ -2,6 +2,7 @@
   "id": "1a56160c7ca864c4",
   "sourceId": "frontiers-cs",
   "sourceName": "Frontiers in Computer Science",
+  "venue": null,
   "tier": "T2",
   "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1896307",
   "title": "ARAM: a threshold model for understanding occupant acceptance of architectural robot adaptations",

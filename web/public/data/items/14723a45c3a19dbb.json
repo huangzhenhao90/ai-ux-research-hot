@@ -2,6 +2,7 @@
   "id": "14723a45c3a19dbb",
   "sourceId": "sprig-blog",
   "sourceName": "Sprig Blog",
+  "venue": null,
   "tier": "T1",
   "url": "https://sprig.com/blog/analyze-agent-first-look",
   "title": "A First Look at Sprig’s Analyze Agent",

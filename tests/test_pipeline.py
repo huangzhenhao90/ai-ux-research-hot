@@ -1136,3 +1136,127 @@ def test_external_json_respects_since() -> None:
     titles = [i.title for i in items]
     assert "新" in titles
     assert "旧" not in titles
+
+
+# ══ 原始出处（venue）：聚合源不能顶替真出处 ═══════════════════════════
+#
+# 背景：卡片上显示的是「ur-ai-papers（用户与交互 AI 论文库）」——
+# 那是二手聚合库，不是出处。读者要看到「Computers in Human Behavior」或「arXiv」。
+
+
+def test_resolve_venue_prefers_arxiv_from_url() -> None:
+    """URL 比 journal 字段可信：arXiv 的 journal 常常是空的或不准。"""
+    assert external_json.resolve_venue(None, "https://arxiv.org/abs/2610.1", {}) == "arXiv"
+    assert external_json.resolve_venue("CHB", "https://arxiv.org/abs/2610.1", {}) == "arXiv"
+
+
+def test_resolve_venue_maps_abbreviation_to_full_name() -> None:
+    mapping = {"CHB": "Computers in Human Behavior", "IJHCS": "International Journal of Human-Computer Studies"}
+    assert external_json.resolve_venue("CHB", "https://doi.org/10.1/x", mapping) == "Computers in Human Behavior"
+    assert external_json.resolve_venue("IJHCS", "https://doi.org/10.1/y", mapping) == "International Journal of Human-Computer Studies"
+
+
+def test_resolve_venue_falls_back_to_abbreviation() -> None:
+    """映射里没有就显示缩写，**不能留空**（留空等于又退回聚合库名）。"""
+    assert external_json.resolve_venue("ZZZ", "https://doi.org/10.1/x", {}) == "ZZZ"
+
+
+def test_resolve_venue_handles_missing_journal() -> None:
+    assert external_json.resolve_venue(None, "https://doi.org/10.1/x", {}) == ""
+    assert external_json.resolve_venue("", "https://doi.org/10.1/x", {}) == ""
+
+
+def test_load_journal_names_survives_fetch_failure() -> None:
+    """映射拉不到不能中断采集 —— 退回缩写即可。"""
+    class Boom:
+        def get(self, url):
+            raise RuntimeError("网络炸了")
+
+    assert external_json.load_journal_names(Boom()) == {}
+
+    class BadStatus:
+        def get(self, url):
+            return type("R", (), {"status_code": 500, "text": ""})()
+
+    assert external_json.load_journal_names(BadStatus()) == {}
+
+
+def test_papers_get_venue_from_journal() -> None:
+    payload = [
+        {"id": 1, "title": "T", "date": "2026-10-20", "url": "https://doi.org/10.1/a",
+         "journal": "CHB", "ai_score": 5.0, "tldr": "x", "ai_reason": "y"},
+        {"id": 2, "title": "A", "date": "2026-10-20", "url": "https://arxiv.org/abs/2610.9",
+         "journal": None, "ai_score": 5.0, "tldr": "x", "ai_reason": "y"},
+    ]
+    entries = external_json.parse_papers(payload)
+    items = external_json.build_items(
+        entries, source_id="ur", tier="T2", first_import=False,
+        journal_names={"CHB": "Computers in Human Behavior"}, now=NOW,
+    )
+    by_title = {i.title: i for i in items}
+    assert by_title["T"].venue == "Computers in Human Behavior"
+    assert by_title["A"].venue == "arXiv"
+
+
+# ══ 分类与内容类型必须自洽 ═════════════════════════════════════════════
+#
+# 背景：分类（structure.md）和内容类型（content-understanding.md）是两次独立调用，
+# 可能互相矛盾。实测过一次：NN/g 的《The 3 Roles of Context for AI Agents》
+# 被归成 research（论文），而它给的类型是 tutorial_explainer —— 一篇教程挂在「论文」下。
+
+
+def test_align_fixes_tutorial_misclassified_as_research() -> None:
+    from uxhot.pipeline.write import align_category_with_item_type
+
+    item = _item("t", "https://x.com/1")
+    item.itemType = "tutorial_explainer"
+    item.category = "research"
+
+    assert align_category_with_item_type(item) is True
+    assert item.category == "methods"
+    assert any("consistency" in e for e in item.errors)
+
+
+@pytest.mark.parametrize(
+    "item_type,expected",
+    [
+        ("tool_launch", "tools"),
+        ("method_or_template", "methods"),
+        ("research_paper", "research"),
+        ("industry_event", "industry"),
+        ("case_study", "cases"),
+        ("opinion_analysis", "opinion"),
+        ("tutorial_explainer", "methods"),
+    ],
+)
+def test_align_maps_every_item_type(item_type: str, expected: str) -> None:
+    from uxhot.pipeline.write import align_category_with_item_type
+
+    item = _item("t", "https://x.com/1")
+    item.itemType = item_type
+    item.category = "industry" if expected != "industry" else "research"
+    align_category_with_item_type(item)
+    assert item.category == expected
+
+
+def test_align_leaves_consistent_item_alone() -> None:
+    from uxhot.pipeline.write import align_category_with_item_type
+
+    item = _item("t", "https://x.com/1")
+    item.itemType = "research_paper"
+    item.category = "research"
+    assert align_category_with_item_type(item) is False
+    assert item.errors == []
+
+
+def test_align_does_not_guess_when_value_missing() -> None:
+    """缺一个就不猜 —— 没有 itemType 时不能凭 category 反推。"""
+    from uxhot.pipeline.write import align_category_with_item_type
+
+    no_type = _item("a", "https://x.com/1")
+    no_type.category = "research"
+    assert align_category_with_item_type(no_type) is False
+
+    no_cat = _item("b", "https://x.com/2")
+    no_cat.itemType = "research_paper"
+    assert align_category_with_item_type(no_cat) is False

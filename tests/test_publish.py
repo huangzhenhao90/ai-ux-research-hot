@@ -756,3 +756,33 @@ def test_llms_txt_without_selected_items(cfg, public_dir: Path, empty_reports: P
     picks = text.split("## 最新精选", 1)[1]
     assert "- 暂无精选。" in picks
     assert "](http" in text  # 入口链接仍在，校验要求的链接不是空的
+
+
+def test_source_name_is_identical_across_all_output_files(published: Path) -> None:
+    """同一个 id 的 sourceName 在所有产物文件里必须一致。
+
+    踩过的坑：`public_item` / `_ref`（同事件的其他报道）/ `search-index`
+    三处各算各的来源名。我改了 `public_item` 用 `venue` 之后另外两处没跟上，
+    产物里同一条 id 的 sourceName 不一致，被发布校验拦下 —— 校验器是对的。
+    现在三处都走 `display_source()`，这条测试守住它。
+    """
+    by_id: dict[str, set[str]] = {}
+    for path in sorted((published / "data").rglob("*.json")):
+        doc = load_json(path)
+        for row in iter_dicts(doc):
+            if isinstance(row, dict) and "id" in row and "sourceName" in row:
+                by_id.setdefault(row["id"], set()).add(row["sourceName"])
+
+    inconsistent = {k: v for k, v in by_id.items() if len(v) > 1}
+    assert not inconsistent, f"这些 id 的来源名不一致：{list(inconsistent.items())[:3]}"
+
+
+def test_venue_replaces_aggregator_name_in_output(published: Path) -> None:
+    """有 venue 的条目，产物里的 sourceName 必须是 venue，不能是聚合源名。"""
+    doc = load_json(published / "data" / "search-index.json")
+    for row in doc["items"]:
+        venue = row.get("venue")
+        if venue:
+            assert row["sourceName"] == venue, (
+                f"有 venue 就该显示它，实际显示 {row['sourceName']!r}"
+            )

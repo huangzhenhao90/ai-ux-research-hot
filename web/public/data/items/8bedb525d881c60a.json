@@ -2,12 +2,13 @@
   "id": "8bedb525d881c60a",
   "sourceId": "measuringu",
   "sourceName": "MeasuringU（Jeff Sauro）",
+  "venue": null,
   "tier": "T2",
   "url": "https://measuringu.com/user-experience-salaries-calculator-2026/?utm_source=rss&utm_medium=rss&utm_campaign=user-experience-salaries-calculator-2026",
   "title": "User Experience Salaries & Calculator (2026)",
-  "titleZh": "MeasuringU 公布 2024 UXPA UX 薪资调查结果与薪资计算器",
-  "summaryZh": "MeasuringU 公布与 UXPA 合作的 2024 年 UX 薪资调查结果，样本为 37 个国家的 444 份回答，薪资中位数为 $120K。扣除 2022 年 1 月至 2024 年 8 月 12% 的通胀后，有效薪资中位数比 2022 年低 2%；回归模型显示所在地解释 50% 的薪资差异，职级解释 11%。薪资计算器合并了 User Interviews 的 2024 年调查数据，样本增至 1,063 份，因该调查未收集教育信息而移除了这一变量。",
-  "reason": "文章把 UXPA 与 User Interviews 两份薪资调查合并到 1,063 份样本，给出对照地区与职级薪资差异的参照。",
+  "titleZh": "MeasuringU 与 UXPA 公布 2024 年 UX 薪资调查结果并更新薪资计算器",
+  "summaryZh": "MeasuringU 与 UXPA 汇总 2024 年 4 月至 10 月收集的 444 份、来自 37 个国家的问卷，UX 从业者薪资中位数为 12 万美元，名义上比 2022 年的 10.9 万美元高 10%。按同期 12% 的通胀折算为不变美元后，2024 年实际中位薪资比 2022 年低 2%。薪资驱动因素的回归模型解释 72% 的差异，其中所在国家或美国地区占 50%，职位层级占 11%，美国中位薪资为 14.2 万美元；薪资计算器此次合并了 User Interviews 2024 年的数据，样本量扩大到 1,063 份。",
+  "reason": "文中给出 444 份样本的 UX 薪资中位数与回归驱动因素，并对照 2022 年数据说明通胀调整后实际收入下降 2%。",
   "category": "research",
   "tags": [
     "论文/研究",
@@ -15,12 +16,11 @@
     "招募/样本"
   ],
   "entities": [
-    "uxpa",
     "user-interviews"
   ],
   "itemType": "research_paper",
   "publishedAt": "2026-10-22T18:42:59+00:00",
-  "discoveredAt": "2026-10-22T22:50:45.114950+00:00",
+  "discoveredAt": "2026-10-23T00:49:43.921066+00:00",
   "status": "selected",
   "dupOf": null,
   "relation": "different",

@@ -205,6 +205,7 @@ def collect_source(
             if isinstance(payload, dict):
                 payload = payload.get("papers") or payload.get("items") or []
             entries = external_json.parse_papers(payload)
+            # 期刊缩写 → 全名，用来在卡片上显示**原始出处**而不是聚合库的名字
             items = external_json.build_items(
                 entries,
                 source_id=source.id,
@@ -214,6 +215,7 @@ def collect_source(
                 first_import=first_import,
                 known_ids=known_ids,
                 since=since,
+                journal_names=external_json.load_journal_names(client),
                 now=now,
             )
 

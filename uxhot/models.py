@@ -52,6 +52,13 @@ class Item(BaseModel):
     title: str = ""
     author: str | None = None
     lang: str | None = None
+    # 这条内容的**原始出处**（期刊名、arXiv、或原始站点名）。
+    #
+    # 为什么需要它：聚合源（如 ur-ai-papers）本身不是出处，卡片上显示
+    # 「ur-ai-papers（用户与交互 AI 论文库）」对读者没有意义 ——
+    # 读者要看到的是「Computers in Human Behavior」或「arXiv」。
+    # 一手信源可以不填，发布时退回信源名。
+    venue: str | None = None
 
     # ── 时间（一律 tz-aware）─────────────────────────────────────────
     publishedAt: datetime | None = None

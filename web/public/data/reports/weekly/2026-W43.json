@@ -2,18 +2,46 @@
   "kind": "weekly",
   "week": "2026-W43",
   "siteName": "UXHOT",
-  "generatedAt": "2026-10-22T05:52:39.850066+00:00",
+  "generatedAt": "2026-10-23T00:54:40.851973+00:00",
   "window": {
     "start": "2026-10-19T00:00:00+00:00",
     "end": "2026-10-26T00:00:00+00:00"
   },
-  "overview": "本期（2026-10-19 至 2026-10-25）汇编 3 期日报、共 7 件条目，覆盖方法、论文、行业、观点。",
+  "overview": "本期（2026-10-19 至 2026-10-25）汇编 4 期日报、共 8 件条目，覆盖工具、方法、论文、行业、观点。",
   "overviewSource": "template",
   "stats": {
-    "itemCount": 7,
-    "dailyCount": 3
+    "itemCount": 8,
+    "dailyCount": 4
   },
   "sections": [
+    {
+      "key": "tools",
+      "label": "工具",
+      "lead": "",
+      "items": [
+        {
+          "id": "c4ffc13afa1657d9",
+          "titleZh": "quantilope 推出 Category Twins 合成用户社区",
+          "summaryZh": "quantilope 推出 Category Twins，这是一个基于品牌自有数据构建数字孪生、可组成合成用户社区的解决方案，现已面向全球品牌开放。该方案与 10 个国家 30 个品牌共同开发，使用 Ehrenberg-Bass 框架及 Mental Availability、Category Entry Points 指标，可按类别和区域以固定费用单独购买。用户可通过文字、语音和图片与数字孪生对话，新的 Mental Availability 研究完成后数字孪生会自动更新。",
+          "reason": "原文说明 Category Twins 如何以品牌自有数据和 Ehrenberg-Bass 框架构建合成用户社区，并给出与通用 LLM 的差异。",
+          "category": "tools",
+          "categoryLabel": "工具",
+          "sourceId": "quantilope",
+          "sourceName": "quantilope",
+          "tier": "T1",
+          "url": "https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins",
+          "publishedAt": "2026-10-20T12:00:03+00:00",
+          "avgScore": 41.5,
+          "importance": 41.5,
+          "tags": [
+            "工具发布",
+            "合成用户",
+            "市场研究"
+          ],
+          "relatedIds": []
+        }
+      ]
+    },
     {
       "key": "methods",
       "label": "方法",
@@ -35,6 +63,28 @@
           "importance": 65.0,
           "tags": [
             "方法/实践"
+          ],
+          "relatedIds": []
+        },
+        {
+          "id": "766b4f8ed1745f9a",
+          "titleZh": "Listen Labs 的 6 步用户原型测试操作指南",
+          "summaryZh": "Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–4 人，量化指标则需 NN/g 建议的 20+ 用户。作者还称 AI 主持访谈可在 50–100+ 场次上同时观察屏幕行为并实时追问矛盾。",
+          "reason": "文中把原型保真度与要验证的决策一一对应，并说明 5 用户规则在哪些条件下失效，可供团队设计测试方案时参照。",
+          "category": "methods",
+          "categoryLabel": "方法",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/prototype-testing-with-users-playbook/",
+          "publishedAt": "2026-10-22T05:00:54+00:00",
+          "avgScore": 50.5,
+          "importance": 50.5,
+          "tags": [
+            "方法/实践",
+            "可用性测试",
+            "招募/样本",
+            "AI 访谈"
           ],
           "relatedIds": []
         },
@@ -68,65 +118,44 @@
       "lead": "",
       "items": [
         {
-          "id": "0b86c760fb29c3f7",
-          "titleZh": "对话风格如何影响儿童自我报告：基于 LLM 语音日记的实地研究",
-          "summaryZh": "一项实地研究让 32 名 7-13 岁儿童参与七次 LLM 语音日记实验，对比押韵与散文两种对话风格。押韵风格带来更高完成率、更少缺勤和更高回答质量，享受度起中介作用；低龄儿童强烈偏好押韵，高龄儿童偏好更多样且随时间衰减。研究据此提出兼顾语义支架与音韵增强的对话风格设计框架。",
-          "reason": "研究用 32 名儿童的七次实地实验，比较押韵与散文两种对话风格对自我报告日记完成率和回答质量的影响。",
+          "id": "8bedb525d881c60a",
+          "titleZh": "MeasuringU 与 UXPA 公布 2024 年 UX 薪资调查结果并更新薪资计算器",
+          "summaryZh": "MeasuringU 与 UXPA 汇总 2024 年 4 月至 10 月收集的 444 份、来自 37 个国家的问卷，UX 从业者薪资中位数为 12 万美元，名义上比 2022 年的 10.9 万美元高 10%。按同期 12% 的通胀折算为不变美元后，2024 年实际中位薪资比 2022 年低 2%。薪资驱动因素的回归模型解释 72% 的差异，其中所在国家或美国地区占 50%，职位层级占 11%，美国中位薪资为 14.2 万美元；薪资计算器此次合并了 User Interviews 2024 年的数据，样本量扩大到 1,063 份。",
+          "reason": "文中给出 444 份样本的 UX 薪资中位数与回归驱动因素，并对照 2022 年数据说明通胀调整后实际收入下降 2%。",
+          "category": "research",
+          "categoryLabel": "论文",
+          "sourceId": "measuringu",
+          "sourceName": "MeasuringU（Jeff Sauro）",
+          "tier": "T2",
+          "url": "https://measuringu.com/user-experience-salaries-calculator-2026/?utm_source=rss&utm_medium=rss&utm_campaign=user-experience-salaries-calculator-2026",
+          "publishedAt": "2026-10-22T18:42:59+00:00",
+          "avgScore": 63.5,
+          "importance": 63.5,
+          "tags": [
+            "论文/研究",
+            "问卷/定量",
+            "招募/样本"
+          ],
+          "relatedIds": []
+        },
+        {
+          "id": "1a72219b0e296b0c",
+          "titleZh": "LLM 作为调查受访者：与简单语义基线的比较",
+          "summaryZh": "一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比。结果显示 LLM 整体优于基线，但随已知答案比例下降而性能下滑，在一份量表中甚至与基线持平。研究据此指出，数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强的效力有限。",
+          "reason": "论文用两份态度量表对比 LLM 与嵌入相似度基线，指出数据稀缺时 LLM 的推断可能退化为表层相似。",
           "category": "research",
           "categoryLabel": "论文",
           "sourceId": "ur-ai-papers",
           "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
           "tier": "T2",
-          "url": "https://doi.org/10.1016/j.ijhcs.2026.103906",
-          "publishedAt": null,
-          "avgScore": 60.0,
-          "importance": 60.0,
+          "url": "https://arxiv.org/abs/2610.29645v1",
+          "publishedAt": "2026-10-20T16:00:00+00:00",
+          "avgScore": 56.5,
+          "importance": 56.5,
           "tags": [
             "论文/研究",
-            "AI 访谈",
-            "定性分析"
-          ],
-          "relatedIds": []
-        },
-        {
-          "id": "a648e6bd28db420f",
-          "titleZh": "arXiv 论文提出可检查的 LLM 模拟参与者，用于定性访谈演练",
-          "summaryZh": "一篇 arXiv cs.HC 论文提出用于定性访谈演练的可检查 LLM 模拟参与者，标题强调模拟参与者可被检查。",
-          "reason": "标题指向把 LLM 模拟参与者用于定性访谈演练，并强调模拟参与者可检查，为访谈训练提供一种可审查的模拟思路。",
-          "category": "research",
-          "categoryLabel": "论文",
-          "sourceId": "arxiv-cs-hc",
-          "sourceName": "arXiv cs.HC",
-          "tier": "T2",
-          "url": "https://arxiv.org/abs/2610.27333",
-          "publishedAt": "2026-10-21T04:00:00+00:00",
-          "avgScore": 58.5,
-          "importance": 58.5,
-          "tags": [
-            "论文/研究",
-            "合成用户",
-            "定性分析",
-            "AI 访谈"
-          ],
-          "relatedIds": []
-        },
-        {
-          "id": "708c179adb3d9ebf",
-          "titleZh": "AI 弃答对建议接受度的差异化影响",
-          "summaryZh": "论文《The Differential Effects of AI Abstention on Advice Acceptance》考察 AI 弃答如何差异化影响人们对建议的接受度。当前可见信息仅到标题层面，未包含样本、实验设计或结论。",
-          "reason": "论文考察 AI 弃答对建议接受度的差异化影响，可帮助研究者把握人机建议互动中的一个具体问题切口。",
-          "category": "research",
-          "categoryLabel": "论文",
-          "sourceId": "arxiv-cs-hc",
-          "sourceName": "arXiv cs.HC",
-          "tier": "T2",
-          "url": "https://arxiv.org/abs/2610.27258",
-          "publishedAt": "2026-10-21T04:00:00+00:00",
-          "avgScore": 56.0,
-          "importance": 56.0,
-          "tags": [
-            "论文/研究",
-            "学术 HCI"
+            "问卷/定量",
+            "合成用户"
           ],
           "relatedIds": []
         }

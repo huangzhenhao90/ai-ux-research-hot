@@ -9,6 +9,7 @@
       "id": "0ba3bb39360603f5",
       "sourceId": "medallia",
       "sourceName": "Medallia",
+      "venue": null,
       "tier": "T1",
       "url": "https://www.medallia.com/blog/design-principles-behind-enterprise-ai/",
       "title": "The Architectural Design Principles Behind Enterprise AI That Delivers Value",

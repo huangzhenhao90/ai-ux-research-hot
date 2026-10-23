@@ -41,6 +41,9 @@ PUBLIC_FIELDS: tuple[str, ...] = (
     "id",
     "sourceId",
     "sourceName",
+    # 原始出处（期刊全名 / arXiv）。聚合源（ur-ai-papers）的条目靠它显示真出处，
+    # 一手信源留空，前端用 sourceName 即可。
+    "venue",
     "tier",
     "url",
     "title",
@@ -157,12 +160,30 @@ def source_name_map(config: ConfigBundle) -> dict[str, str]:
     return {s.id: s.name for s in config.sources.sources}
 
 
+def display_source(item: Item, names: dict[str, str]) -> str:
+    """条目在页面上显示的来源名。
+
+    ⚠️ **所有出口都必须走这里。** 曾经有三处各算各的
+    （`public_item` / `_ref` / `search-index`），我改 `public_item` 用 venue 之后，
+    另外两处没跟上，产物里同一条 id 的 `sourceName` 不一致，被发布校验拦下 ——
+    校验器是对的：同一个 id 在所有文件里必须一致。
+    """
+    return item.venue or names.get(item.sourceId, item.sourceId)
+
+
 def public_item(item: Item, *, source_name: str, show_score: bool = False) -> dict[str, Any]:
-    """把一条 Item 压成公开字段。字段顺序 = `PUBLIC_FIELDS` 的顺序。"""
+    """把一条 Item 压成公开字段。字段顺序 = `PUBLIC_FIELDS` 的顺序。
+
+    `sourceName` 优先用条目自己的 `venue`：聚合库（ur-ai-papers）不是出处，
+    读者要看到的是「Computers in Human Behavior」或「arXiv」，
+    而不是「ur-ai-papers（用户与交互 AI 论文库）」。
+    """
+    display_source = item.venue or source_name
     data: dict[str, Any] = {
         "id": item.id,
         "sourceId": item.sourceId,
-        "sourceName": source_name,
+        "sourceName": display_source,
+        "venue": item.venue,
         "tier": item.tier,
         "url": item.url,
         "title": item.title,
@@ -184,13 +205,13 @@ def public_item(item: Item, *, source_name: str, show_score: bool = False) -> di
     return data
 
 
-def _ref(item: Item, *, source_name: str) -> dict[str, Any]:
+def _ref(item: Item, *, names: dict[str, str]) -> dict[str, Any]:
     """「同一事件的其他报道」用的小引用，只留点得进去的字段。"""
     return {
         "id": item.id,
         "title": item.title,
         "titleZh": item.titleZh,
-        "sourceName": source_name,
+        "sourceName": display_source(item, names),
         "url": item.url,
         "publishedAt": iso_utc(item.publishedAt),
     }
@@ -210,7 +231,7 @@ def related_refs(items: list[Item], names: dict[str, str]) -> dict[str, list[dic
     for item in items:
         members = groups.get(item.dupOf or item.id, [])
         out[item.id] = [
-            _ref(other, source_name=names.get(other.sourceId, other.sourceId))
+            _ref(other, names=names)
             for other in sort_items(members)
             if other.id != item.id
         ]
@@ -554,7 +575,7 @@ def build_site_data(
             "tags": list(item.tags),
             "entities": list(item.entities),
             "category": item.category,
-            "sourceName": names.get(item.sourceId, item.sourceId),
+            "sourceName": display_source(item, names),
             "url": item.url,
             "publishedAt": iso_utc(item.publishedAt),
         }

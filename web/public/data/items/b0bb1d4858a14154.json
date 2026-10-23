@@ -2,6 +2,7 @@
   "id": "b0bb1d4858a14154",
   "sourceId": "sprig-blog",
   "sourceName": "Sprig Blog",
+  "venue": null,
   "tier": "T1",
   "url": "https://sprig.com/blog/mcp-continous-feedback-monitoring",
   "title": "Using Sprig MCP to Build a Continuous Feedback Monitoring System",

@@ -2,6 +2,7 @@
   "id": "fe71c070d9bd33e4",
   "sourceId": "dovetail-blog",
   "sourceName": "Dovetail Blog",
+  "venue": null,
   "tier": "T1",
   "url": "https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
   "title": "Fetch once, use everywhere: rebuilding how Dovetail ingests your data",

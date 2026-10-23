@@ -2,6 +2,7 @@
   "id": "fc73565052f3990f",
   "sourceId": "dynata",
   "sourceName": "Dynata",
+  "venue": null,
   "tier": "T1",
   "url": "https://www.dynata.com/why-dynata/resources/blog/quality-cant-be-a-black-box-understanding-the-tradeoffs-behind-data-quality-approaches/",
   "title": "Quality can’t be a black box: Understanding the tradeoffs behind data quality approaches",

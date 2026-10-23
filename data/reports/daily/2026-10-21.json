@@ -2,15 +2,15 @@
   "kind": "daily",
   "date": "2026-10-21",
   "siteName": "UXHOT",
-  "generatedAt": "2026-10-22T05:52:39.644183+00:00",
+  "generatedAt": "2026-10-23T00:54:40.677368+00:00",
   "window": {
     "start": "2026-10-20T00:00:00+00:00",
     "end": "2026-10-21T00:00:00+00:00"
   },
   "empty": false,
   "stats": {
-    "selectedCount": 2,
-    "newTools": 0,
+    "selectedCount": 4,
+    "newTools": 1,
     "briefCount": 0
   },
   "headline": {
@@ -34,6 +34,27 @@
   },
   "highlights": [
     {
+      "id": "1a72219b0e296b0c",
+      "titleZh": "LLM 作为调查受访者：与简单语义基线的比较",
+      "summaryZh": "一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比。结果显示 LLM 整体优于基线，但随已知答案比例下降而性能下滑，在一份量表中甚至与基线持平。研究据此指出，数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强的效力有限。",
+      "reason": "论文用两份态度量表对比 LLM 与嵌入相似度基线，指出数据稀缺时 LLM 的推断可能退化为表层相似。",
+      "category": "research",
+      "categoryLabel": "论文",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.29645v1",
+      "publishedAt": "2026-10-20T16:00:00+00:00",
+      "avgScore": 56.5,
+      "importance": 56.5,
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "合成用户"
+      ],
+      "relatedIds": []
+    },
+    {
       "id": "f4eda7046ba6885e",
       "titleZh": "Cint 谈为何消费者洞察的未来依赖 AI 主持的混合研究",
       "summaryZh": "Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。",
@@ -50,6 +71,27 @@
       "tags": [
         "观点/讨论",
         "AI 访谈",
+        "市场研究"
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "c4ffc13afa1657d9",
+      "titleZh": "quantilope 推出 Category Twins 合成用户社区",
+      "summaryZh": "quantilope 推出 Category Twins，这是一个基于品牌自有数据构建数字孪生、可组成合成用户社区的解决方案，现已面向全球品牌开放。该方案与 10 个国家 30 个品牌共同开发，使用 Ehrenberg-Bass 框架及 Mental Availability、Category Entry Points 指标，可按类别和区域以固定费用单独购买。用户可通过文字、语音和图片与数字孪生对话，新的 Mental Availability 研究完成后数字孪生会自动更新。",
+      "reason": "原文说明 Category Twins 如何以品牌自有数据和 Ehrenberg-Bass 框架构建合成用户社区，并给出与通用 LLM 的差异。",
+      "category": "tools",
+      "categoryLabel": "工具",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins",
+      "publishedAt": "2026-10-20T12:00:03+00:00",
+      "avgScore": 41.5,
+      "importance": 41.5,
+      "tags": [
+        "工具发布",
+        "合成用户",
         "市场研究"
       ],
       "relatedIds": []

@@ -2,6 +2,7 @@
   "id": "b3abb33eb7d3b570",
   "sourceId": "frontiers-cs",
   "sourceName": "Frontiers in Computer Science",
+  "venue": null,
   "tier": "T2",
   "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1915137",
   "title": "Structurally conditioned counterfactual generation and validation for question answering from scientific text",

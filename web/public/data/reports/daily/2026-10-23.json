@@ -1,0 +1,63 @@
+{
+  "kind": "daily",
+  "date": "2026-10-23",
+  "siteName": "UXHOT",
+  "generatedAt": "2026-10-23T00:54:40.677368+00:00",
+  "window": {
+    "start": "2026-10-22T00:00:00+00:00",
+    "end": "2026-10-23T00:00:00+00:00"
+  },
+  "empty": false,
+  "stats": {
+    "selectedCount": 2,
+    "newTools": 0,
+    "briefCount": 0
+  },
+  "headline": {
+    "id": "8bedb525d881c60a",
+    "titleZh": "MeasuringU 与 UXPA 公布 2024 年 UX 薪资调查结果并更新薪资计算器",
+    "summaryZh": "MeasuringU 与 UXPA 汇总 2024 年 4 月至 10 月收集的 444 份、来自 37 个国家的问卷，UX 从业者薪资中位数为 12 万美元，名义上比 2022 年的 10.9 万美元高 10%。按同期 12% 的通胀折算为不变美元后，2024 年实际中位薪资比 2022 年低 2%。薪资驱动因素的回归模型解释 72% 的差异，其中所在国家或美国地区占 50%，职位层级占 11%，美国中位薪资为 14.2 万美元；薪资计算器此次合并了 User Interviews 2024 年的数据，样本量扩大到 1,063 份。",
+    "reason": "文中给出 444 份样本的 UX 薪资中位数与回归驱动因素，并对照 2022 年数据说明通胀调整后实际收入下降 2%。",
+    "category": "research",
+    "categoryLabel": "论文",
+    "sourceId": "measuringu",
+    "sourceName": "MeasuringU（Jeff Sauro）",
+    "tier": "T2",
+    "url": "https://measuringu.com/user-experience-salaries-calculator-2026/?utm_source=rss&utm_medium=rss&utm_campaign=user-experience-salaries-calculator-2026",
+    "publishedAt": "2026-10-22T18:42:59+00:00",
+    "avgScore": 63.5,
+    "importance": 63.5,
+    "tags": [
+      "论文/研究",
+      "问卷/定量",
+      "招募/样本"
+    ],
+    "relatedIds": []
+  },
+  "highlights": [
+    {
+      "id": "766b4f8ed1745f9a",
+      "titleZh": "Listen Labs 的 6 步用户原型测试操作指南",
+      "summaryZh": "Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–4 人，量化指标则需 NN/g 建议的 20+ 用户。作者还称 AI 主持访谈可在 50–100+ 场次上同时观察屏幕行为并实时追问矛盾。",
+      "reason": "文中把原型保真度与要验证的决策一一对应，并说明 5 用户规则在哪些条件下失效，可供团队设计测试方案时参照。",
+      "category": "methods",
+      "categoryLabel": "方法",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/prototype-testing-with-users-playbook/",
+      "publishedAt": "2026-10-22T05:00:54+00:00",
+      "avgScore": 50.5,
+      "importance": 50.5,
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本",
+        "AI 访谈"
+      ],
+      "relatedIds": []
+    }
+  ],
+  "sections": [],
+  "briefs": []
+}

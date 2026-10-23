@@ -2,6 +2,7 @@
   "id": "89c56ba372b9678d",
   "sourceId": "dovetail-blog",
   "sourceName": "Dovetail Blog",
+  "venue": null,
   "tier": "T1",
   "url": "https://dovetail.com/blog/dovetail-connector-figma-make/",
   "title": "Prototype with real customer data using the Dovetail connector for Figma Make",

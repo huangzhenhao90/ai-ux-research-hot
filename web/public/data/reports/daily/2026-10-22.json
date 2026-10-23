@@ -2,104 +2,40 @@
   "kind": "daily",
   "date": "2026-10-22",
   "siteName": "UXHOT",
-  "generatedAt": "2026-10-22T05:52:39.644183+00:00",
+  "generatedAt": "2026-10-23T00:54:40.677368+00:00",
   "window": {
     "start": "2026-10-21T00:00:00+00:00",
     "end": "2026-10-22T00:00:00+00:00"
   },
   "empty": false,
   "stats": {
-    "selectedCount": 4,
+    "selectedCount": 1,
     "newTools": 0,
     "briefCount": 0
   },
   "headline": {
-    "id": "0b86c760fb29c3f7",
-    "titleZh": "对话风格如何影响儿童自我报告：基于 LLM 语音日记的实地研究",
-    "summaryZh": "一项实地研究让 32 名 7-13 岁儿童参与七次 LLM 语音日记实验，对比押韵与散文两种对话风格。押韵风格带来更高完成率、更少缺勤和更高回答质量，享受度起中介作用；低龄儿童强烈偏好押韵，高龄儿童偏好更多样且随时间衰减。研究据此提出兼顾语义支架与音韵增强的对话风格设计框架。",
-    "reason": "研究用 32 名儿童的七次实地实验，比较押韵与散文两种对话风格对自我报告日记完成率和回答质量的影响。",
-    "category": "research",
-    "categoryLabel": "论文",
-    "sourceId": "ur-ai-papers",
-    "sourceName": "ur-ai-papers（用户与交互 AI 论文库）",
-    "tier": "T2",
-    "url": "https://doi.org/10.1016/j.ijhcs.2026.103906",
-    "publishedAt": null,
-    "avgScore": 60.0,
-    "importance": 60.0,
+    "id": "1afcb1a1360dc91a",
+    "titleZh": "Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么",
+    "summaryZh": "Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。",
+    "reason": "",
+    "category": "methods",
+    "categoryLabel": "方法",
+    "sourceId": "listen-labs",
+    "sourceName": "Listen Labs",
+    "tier": "T1",
+    "url": "https://listenlabs.com/articles/voice-of-customer-software-features/",
+    "publishedAt": "2026-10-21T05:03:33+00:00",
+    "avgScore": 43.0,
+    "importance": 43.0,
     "tags": [
-      "论文/研究",
+      "方法/实践",
+      "文本分析/VOC",
       "AI 访谈",
       "定性分析"
     ],
     "relatedIds": []
   },
-  "highlights": [
-    {
-      "id": "a648e6bd28db420f",
-      "titleZh": "arXiv 论文提出可检查的 LLM 模拟参与者，用于定性访谈演练",
-      "summaryZh": "一篇 arXiv cs.HC 论文提出用于定性访谈演练的可检查 LLM 模拟参与者，标题强调模拟参与者可被检查。",
-      "reason": "标题指向把 LLM 模拟参与者用于定性访谈演练，并强调模拟参与者可检查，为访谈训练提供一种可审查的模拟思路。",
-      "category": "research",
-      "categoryLabel": "论文",
-      "sourceId": "arxiv-cs-hc",
-      "sourceName": "arXiv cs.HC",
-      "tier": "T2",
-      "url": "https://arxiv.org/abs/2610.27333",
-      "publishedAt": "2026-10-21T04:00:00+00:00",
-      "avgScore": 58.5,
-      "importance": 58.5,
-      "tags": [
-        "论文/研究",
-        "合成用户",
-        "定性分析",
-        "AI 访谈"
-      ],
-      "relatedIds": []
-    },
-    {
-      "id": "708c179adb3d9ebf",
-      "titleZh": "AI 弃答对建议接受度的差异化影响",
-      "summaryZh": "论文《The Differential Effects of AI Abstention on Advice Acceptance》考察 AI 弃答如何差异化影响人们对建议的接受度。当前可见信息仅到标题层面，未包含样本、实验设计或结论。",
-      "reason": "论文考察 AI 弃答对建议接受度的差异化影响，可帮助研究者把握人机建议互动中的一个具体问题切口。",
-      "category": "research",
-      "categoryLabel": "论文",
-      "sourceId": "arxiv-cs-hc",
-      "sourceName": "arXiv cs.HC",
-      "tier": "T2",
-      "url": "https://arxiv.org/abs/2610.27258",
-      "publishedAt": "2026-10-21T04:00:00+00:00",
-      "avgScore": 56.0,
-      "importance": 56.0,
-      "tags": [
-        "论文/研究",
-        "学术 HCI"
-      ],
-      "relatedIds": []
-    },
-    {
-      "id": "1afcb1a1360dc91a",
-      "titleZh": "Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么",
-      "summaryZh": "Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。",
-      "reason": "",
-      "category": "methods",
-      "categoryLabel": "方法",
-      "sourceId": "listen-labs",
-      "sourceName": "Listen Labs",
-      "tier": "T1",
-      "url": "https://listenlabs.com/articles/voice-of-customer-software-features/",
-      "publishedAt": "2026-10-21T05:03:33+00:00",
-      "avgScore": 43.0,
-      "importance": 43.0,
-      "tags": [
-        "方法/实践",
-        "文本分析/VOC",
-        "AI 访谈",
-        "定性分析"
-      ],
-      "relatedIds": []
-    }
-  ],
+  "highlights": [],
   "sections": [],
   "briefs": []
 }

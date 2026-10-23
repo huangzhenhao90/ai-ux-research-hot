@@ -27,6 +27,13 @@ UR_PAPERS_URL = (
     "main/web/public/data/papers.json"
 )
 
+# 期刊缩写 → 全名的映射（同一个只读上游仓库）。拿到它，卡片上就能显示
+# 「Computers in Human Behavior」而不是「CHB」。
+UR_JOURNALS_URL = (
+    "https://raw.githubusercontent.com/huangzhenhao90/ur-ai-papers/"
+    "main/config/journals.yaml"
+)
+
 # 只收近 N 天内、AI 相关性够高的论文；否则一次会灌进上千条
 DEFAULT_MAX_AGE_DAYS = 30
 DEFAULT_MIN_AI_SCORE = 4.0
@@ -48,6 +55,49 @@ class PaperEntry:
     ai_reason: str
     topic_tags: list[str]
     ai_type_tags: list[str]
+
+
+def resolve_venue(journal: str | None, url: str, mapping: dict[str, str]) -> str:
+    """一条论文的**原始出处**：arXiv、期刊全名，查不到就退回缩写。
+
+    先看 URL 判断是不是预印本 —— arXiv 的 `journal` 字段常常是空的或不可靠，
+    URL 比字段可信。
+    """
+    host = (url or "").lower()
+    if "arxiv.org" in host:
+        return "arXiv"
+
+    abbr = (journal or "").strip()
+    if not abbr:
+        return ""
+    return mapping.get(abbr, mapping.get(abbr.upper(), abbr))
+
+
+def load_journal_names(client) -> dict[str, str]:
+    """拉一次 journals.yaml，建 `缩写 → 英文全名`。
+
+    拉失败**不能影响采集**：退回空映射，venue 就显示缩写。
+    只读上游，绝不写回。
+    """
+    try:
+        response = client.get(UR_JOURNALS_URL)
+        if response.status_code != 200:
+            print(f"  ⚠️ 期刊名映射拉取失败（HTTP {response.status_code}），venue 将显示缩写")
+            return {}
+        import yaml
+
+        payload = yaml.safe_load(response.text) or {}
+    except Exception as exc:  # noqa: BLE001 - 映射拿不到不该中断采集
+        print(f"  ⚠️ 期刊名映射拉取失败（{type(exc).__name__}），venue 将显示缩写")
+        return {}
+
+    mapping: dict[str, str] = {}
+    for row in payload.get("journals") or []:
+        abbr = str(row.get("abbr") or "").strip()
+        name = str(row.get("name_en") or "").strip()
+        if abbr and name:
+            mapping[abbr] = name
+    return mapping
 
 
 def parse_papers(payload: list[dict]) -> list[PaperEntry]:
@@ -103,6 +153,7 @@ def build_items(
     first_import: bool = False,
     known_ids: set[str] | None = None,
     since: datetime | None = None,
+    journal_names: dict[str, str] | None = None,
     now: datetime | None = None,
 ) -> list[Item]:
     """转成 `Item`。
@@ -154,6 +205,8 @@ def build_items(
             title=entry.title_zh or entry.title,
             author=", ".join(entry.authors[:3]) or None,
             lang="en",
+            # 卡片上显示原始出处，而不是聚合库的名字
+            venue=resolve_venue(entry.journal, entry.url, journal_names or {}) or None,
             publishedAt=entry.published,
             discoveredAt=reference,
         )

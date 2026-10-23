@@ -2,13 +2,14 @@
   "id": "efc712223f56320e",
   "sourceId": "measuringu",
   "sourceName": "MeasuringU（Jeff Sauro）",
+  "venue": null,
   "tier": "T2",
   "url": "https://measuringu.com/streamlined-measurement-of-the-ux-of-ai/?utm_source=rss&utm_medium=rss&utm_campaign=streamlined-measurement-of-the-ux-of-ai",
   "title": "Streamlined Measurement of the UX of AI",
   "titleZh": "MeasuringU 从 34 条候选题中精简 AI 用户体验问卷",
   "summaryZh": "MeasuringU 基于 2026 年 5 月对 ChatGPT、Claude、Gemini、Grok 共 420 名美国样本库受访者的回溯调查，完成 34 条 AI 用户体验候选题的筛选。因子分析显示，除一条同时落在 Trust 与 Productivity 上的题目外，其余 33 条均落在预期构念之上。AI Productivity、AI Trust、AI Dependency、AI Anxiety 等构念各有二至三条题目入选，目标是让每个构念的 coefficient alpha 不低于 0.70。",
   "reason": "原文公开了 34 条候选题在 420 名用户中的因子载荷与回归权重，可作为自建 AI 体验问卷时的选题参考。",
-  "category": "research",
+  "category": "methods",
   "tags": [
     "方法/实践",
     "问卷/定量"
