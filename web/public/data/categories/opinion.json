@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 28,
+  "count": 29,
   "items": [
     {
       "id": "a3087d5fd45ca8bc",
@@ -474,6 +474,45 @@
       "itemType": null,
       "publishedAt": "2026-05-19T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1099aea369a19497",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/market-research-platform-competitors/",
+      "title": "Market Research Platform Competitors: Who Competes With Whom",
+      "titleZh": "市场研究平台竞品格局：从 Qualtrics 到 Listen Labs，谁与谁竞争",
+      "summaryZh": "市场研究平台竞品被划为六类，Listen Labs 被定位为覆盖设计、招募、AI 主持访谈、分析与交付的端到端 AI 原生定性研究平台。其称可调用 50M+ 验证样本库、覆盖 45+ 国家和 120+ 语言，并在 24 小时内以约三分之一传统成本交付；Qualtrics 则以约 22% 全球企业调研份额和 $2B+ ARR 作为企业套件基准。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "AI 访谈",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "usertesting",
+        "dovetail",
+        "outset",
+        "dscout",
+        "quantilope",
+        "surveymonkey",
+        "user-interviews",
+        "maze",
+        "kantar",
+        "nielsen"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-23T05:01:31+00:00",
+      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

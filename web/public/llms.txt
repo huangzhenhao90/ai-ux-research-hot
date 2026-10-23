@@ -18,8 +18,12 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [Ipsos 第三季度营收 6.362 亿欧元，有机增长 2.0%](https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre)：Ipsos 公布第三季度营收 6.362 亿欧元，有机增长 2.0%，高于上半年的 0.8%。这一增长主要来自 EMEA、中国以及面向公众（citizens）业务的表现。（Ipsos，2026-10-23）
+- [初创公司如何做客户研究：Listen Labs 的 14 天操作手册](https://listenlabs.com/articles/startup-market-research-guide/)：Listen Labs 增长负责人 Anish Rao 发布一份 14 天初创客户研究手册，把流程拆成假设、免费二手数据、一手访谈、自下而上测算市场与付费意愿验证五步，并列出每步的交付物和时限。手册要求先写 3–5 条可证伪假设，到 da…（Listen Labs，2026-10-23）
+- [arXiv 论文对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上无显著优势](https://arxiv.org/abs/2610.30568)：arXiv 论文（arXiv:2610.30568）用同一实验设置对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上没有显著优势。反复迭代修订可稳定提升想法质量；AI 评审的分数接近人类，但在想法排序上与人类不一致，其中一个…（arXiv cs.HC，2026-10-23）
 - [MeasuringU 与 UXPA 公布 2024 年 UX 薪资调查结果并更新薪资计算器](https://measuringu.com/user-experience-salaries-calculator-2026/?utm_source=rss&utm_medium=rss&utm_campaign=user-experience-salaries-calculator-2026)：MeasuringU 与 UXPA 汇总 2024 年 4 月至 10 月收集的 444 份、来自 37 个国家的问卷，UX 从业者薪资中位数为 12 万美元，名义上比 2022 年的 10.9 万美元高 10%。按同期 12% 的通胀折…（MeasuringU（Jeff Sauro），2026-10-22）
 - [Listen Labs 的 6 步用户原型测试操作指南](https://listenlabs.com/articles/prototype-testing-with-users-playbook/)：Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–…（Listen Labs，2026-10-22）
+- [PRISM 数据集研究对比用户对 AI 回答的陈述偏好与实际评分](https://arxiv.org/abs/2610.30763v1)：基于 PRISM 数据集的研究（1,396 名参与者、21 个 LLM、29,347 条回答）对比了用户对 AI 回答属性的陈述偏好与实际评分行为，发现陈述优先项无法直接预测实际奖励权重。未问及的特征（长度、格式、拒答语言）对评分的影响不…（ur-ai-papers（用户与交互 AI 论文库），2026-10-22）
 - [Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么](https://listenlabs.com/articles/voice-of-customer-software-features/)：Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen…（Listen Labs，2026-10-21）
 - [AI 暴露度不看职位看任务：用 Claude 测算的五步法](https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4)：作者提出按任务而非职位评估 AI 暴露度，用能否两句话描述最终结果、能否更快核验两问给一周任务打分，再按工时加权，并给出可直接粘贴到 Claude 的五步提示词。文中引用 2023 年 GPTs are GPTs 的估计，80% 美国劳动…（UX Collective，2026-10-20）
 - [Cint 谈为何消费者洞察的未来依赖 AI 主持的混合研究](https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/)：Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。（Cint，2026-10-20）
@@ -44,9 +48,5 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [MeasuringU 从 34 条候选题中精简 AI 用户体验问卷](https://measuringu.com/streamlined-measurement-of-the-ux-of-ai/?utm_source=rss&utm_medium=rss&utm_campaign=streamlined-measurement-of-the-ux-of-ai)：MeasuringU 基于 2026 年 5 月对 ChatGPT、Claude、Gemini、Grok 共 420 名美国样本库受访者的回溯调查，完成 34 条 AI 用户体验候选题的筛选。因子分析显示，除一条同时落在 Trust 与…（MeasuringU（Jeff Sauro），2026-08-18）
 - [解释性序列设计：用访谈解释问卷结果的 Delve 实用指南](https://delvetool.com/blog/explanatory-sequential-research-design-delvetool/)：Delve 的《解释性序列设计：实用指南》讲解如何用访谈解释问卷结果。指南还给出真实研究案例，并演示如何在 Delve 中编码后续访谈。（Delve，2026-08-04）
 - [探索性序列设计实用指南：将访谈转化为问卷并在 Delve 中编码](https://delvetool.com/blog/exploratory-sequential-research-design-delvetool/)：Delve 的《探索性序列设计实用指南》讲解如何把访谈转化为问卷，并说明定性阶段的编码方法。文中包含一个真实研究示例，并演示如何在 Delve 中完成定性阶段编码。（Delve，2026-08-04）
-- [更新团队编码协作，新增 Transcript Dashboard、就地编辑与部分计分的编码者一致性](https://delvetool.com/blog/collaboration-in-delve/)：更新团队定性编码协作，新增 Transcript Dashboard 用于分配和跟踪团队工作，编码对比页面支持就地编辑，多编码片段可采用部分计分的编码者一致性计算。三项更新分别对应分工跟踪、编码对齐与一致性核对，面向多人协作处理同一批材料…（Delve，2026-07-24）
-- [Dovetail 夏季发布推出 Digital Twins、agents、Channels 2.0 与企业级功能](https://dovetail.com/blog/suns-out-2026-launch/)：Dovetail 在 Sun's Out 夏季发布中推出 Digital Twins、agents、Channels 2.0 以及新的企业级功能。此次发布还包含 MCP connectors 和企业级治理能力。官方称，这些更新意在缩短客户…（Dovetail Blog，2026-07-14）
-- [Dovetail 发布 AI 平台扩展，推出 Agents 与 Digital Twins](https://dovetail.com/blog/suns-out-summer-launch-26/)：Dovetail 宣布 Sun’s Out Summer Launch ’26，涉及 AI Agents、Digital Twins、Channels 2.0、MCP 连接器和 ISO 42001 认证。官方称这次平台扩展的目标是缩小客户…（Dovetail Blog，2026-07-14）
-- [重建数据接入：一次抓取，处处可用](https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/)：正在重建数据接入方式：不再让每个 Channel 各自抓取一份数据，而是改为工作区中的一份共享数据源。这份共享源可在需要的位置直接使用，对应“一次抓取，处处可用”（Dovetail Blog，2026-06-14）
 
-（更多 12 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 16 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

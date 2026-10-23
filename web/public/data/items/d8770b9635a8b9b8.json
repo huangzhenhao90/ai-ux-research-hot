@@ -1,0 +1,28 @@
+{
+  "id": "d8770b9635a8b9b8",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/startup-market-research-guide/",
+  "title": "How To Do Customer Research For a Startup: A 14-Day Playbook",
+  "titleZh": "初创公司如何做客户研究：Listen Labs 的 14 天操作手册",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布一份 14 天初创客户研究手册，把流程拆成假设、免费二手数据、一手访谈、自下而上测算市场与付费意愿验证五步，并列出每步的交付物和时限。手册要求先写 3–5 条可证伪假设，到 data.census.gov、sba.gov、Google Trends 与公开竞品 10-K 中各提取一个具体数字，形成需求信号备忘录。文中引用 Hennink 等人关于定性饱和的研究，称编码饱和约需 9 场访谈、意义饱和需 16–24 场，并附 7 个问题的访谈问题库和追问示例。",
+  "reason": "文中把两周验证拆成带交付物与时限的五个步骤，并附可直接套用的访谈问题库和饱和样本量参考。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "招募/样本"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-10-23T05:08:42+00:00",
+  "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

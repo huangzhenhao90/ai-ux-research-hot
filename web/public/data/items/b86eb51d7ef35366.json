@@ -1,0 +1,26 @@
+{
+  "id": "b86eb51d7ef35366",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.30548",
+  "title": "Atlas: Making Sense of Long Horizon Agent Trajectories",
+  "titleZh": "Atlas：让长周期智能体轨迹可理解",
+  "summaryZh": "研究者开发了带轨迹树的智能体工作区 Atlas，把长周期智能体运行呈现为分支结构，展示智能体的选择、搁置项和六种表示下的产物投影。在一项 N=14 的受试者内研究中，参与者报告 Atlas 的决策透明度、产物理解与目标关联高于标准基线，主观工作负荷明显更低。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "Agent",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-23T04:00:00+00:00",
+  "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

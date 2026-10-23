@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T00:55:48.549189+00:00",
+  "generatedAt": "2026-10-23T09:09:32.171281+00:00",
   "groups": [
     {
       "key": "company",
@@ -23,28 +23,28 @@
       "name": "Qualtrics",
       "group": "company",
       "definition": "Qualtrics 的 XM 平台与 XM Institute 研究，以及体验管理产品的 AI 能力更新。",
-      "count": 2
+      "count": 4
     },
     {
       "slug": "dovetail",
       "name": "Dovetail",
       "group": "company",
       "definition": "Dovetail 的洞察库与研究分析产品更新，以及其对研究流程自动化的做法。",
-      "count": 17
+      "count": 19
     },
     {
       "slug": "usertesting",
       "name": "UserTesting",
       "group": "company",
       "definition": "UserTesting（含 UserZoom）的可用性测试与 AI 分析能力更新。",
-      "count": 3
+      "count": 5
     },
     {
       "slug": "maze",
       "name": "Maze",
       "group": "company",
       "definition": "Maze 的快速研究平台、AI 功能与研究方法内容。",
-      "count": 2
+      "count": 4
     },
     {
       "slug": "nngroup",
@@ -58,42 +58,42 @@
       "name": "Ipsos",
       "group": "company",
       "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-      "count": 7
+      "count": 9
     },
     {
       "slug": "surveymonkey",
       "name": "SurveyMonkey",
       "group": "company",
       "definition": "SurveyMonkey 的问卷产品 AI 能力与自助研究工具更新。",
-      "count": 4
+      "count": 5
     },
     {
       "slug": "medallia",
       "name": "Medallia",
       "group": "company",
       "definition": "Medallia 的体验与反馈分析产品更新。",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "listen-labs",
       "name": "Listen Labs",
       "group": "company",
       "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-      "count": 15
+      "count": 20
     },
     {
       "slug": "dscout",
       "name": "dscout",
       "group": "company",
       "definition": "dscout 的远程研究与日记研究产品，以及 People Nerds 上的方法内容。",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "ai-interview",
       "name": "AI 访谈",
       "group": "field",
       "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-      "count": 13
+      "count": 17
     },
     {
       "slug": "synthetic-users",
@@ -107,14 +107,14 @@
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 32
+      "count": 36
     },
     {
       "slug": "qual-analysis",
       "name": "定性分析",
       "group": "field",
       "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-      "count": 51
+      "count": 53
     },
     {
       "slug": "voc",
@@ -135,7 +135,7 @@
       "name": "洞察库与 ResearchOps",
       "group": "field",
       "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-      "count": 27
+      "count": 31
     },
     {
       "slug": "ethics",
@@ -156,14 +156,14 @@
       "name": "论文",
       "group": "genre",
       "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-      "count": 25
+      "count": 31
     },
     {
       "slug": "methods",
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 50
+      "count": 54
     },
     {
       "slug": "prompts",
@@ -184,7 +184,7 @@
       "name": "行业报告",
       "group": "genre",
       "definition": "调研公司报告、行业协会规范与市场结构变化。",
-      "count": 16
+      "count": 18
     }
   ]
 }

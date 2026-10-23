@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 51,
+  "count": 53,
   "items": [
     {
       "id": "a16bc157b306b9dd",
@@ -489,6 +489,35 @@
       "relation": null
     },
     {
+      "id": "7ec64c599e95e72f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/voice-of-customer-process-guide/",
+      "title": "Voice of Customer Process: Step-by-Step VoC Guide",
+      "titleZh": "客户之声流程：分步 VoC 指南",
+      "summaryZh": "Listen Labs 的分步 VoC 指南拆解了客户之声流程，并指出多数项目卡在综合分析与闭环。其 AI 主持访谈覆盖 45+ 国家、120+ 语言的 50M+ 已验证受访者，回答长度达平均水平的 3 倍，24 小时内交付结果且成本为传统研究的三分之一。Listen Labs 已为 Microsoft、Google、Anthropic、P&G、Nestlé 等完成超 100 万次 AI 客户访谈。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps",
+        "定性分析",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-23T05:08:36+00:00",
+      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "75f743fd63cba808",
       "sourceId": "frontiers-cs",
       "sourceName": "Frontiers in Computer Science",
@@ -592,6 +621,40 @@
       "itemType": null,
       "publishedAt": "2023-10-03T11:00:54+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0fa25d0069aa4836",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-ux-research-tools/",
+      "title": "Best AI UX Research Tools In 2026: A Bottleneck-First Guide",
+      "titleZh": "2026 年最佳 AI UX 研究工具：以工作流瓶颈为切入的选型指南",
+      "summaryZh": "Listen Labs 按招募、主持、分析、观察四类工作流瓶颈，梳理 2026 年 AI UX 研究工具的选型，覆盖 Listen Labs、Dovetail、Maze 与 UserTesting 等。其平台整合 50M+ 验证受访者、120+ 语种的 AI 主持访谈，称可将 4–6 周研究周期压缩到 24 小时内、成本约三分之一。文中还引用 GPT-4 选取代表性引语仅 33–79% 与主题一致的评测，强调洞察须溯源到原话与时间戳。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail",
+        "maze",
+        "usertesting",
+        "outset",
+        "strella"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-23T05:01:46+00:00",
+      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

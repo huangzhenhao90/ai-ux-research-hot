@@ -1,0 +1,25 @@
+{
+  "id": "c19211af82edc8c6",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.30568",
+  "title": "Beyond Better Ideas: How Human-AI Collaboration Shapes Scientific Ideas and Human Perceptions",
+  "titleZh": "arXiv 论文对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上无显著优势",
+  "summaryZh": "arXiv 论文（arXiv:2610.30568）用同一实验设置对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上没有显著优势。反复迭代修订可稳定提升想法质量；AI 评审的分数接近人类，但在想法排序上与人类不一致，其中一个 AI 评审更偏好 AI 辅助方案，而人类评审并无对应的偏好。研究还发现协作来源只能被部分识别，人机与人人产出的科学成果存在大量重叠，并且亲身参与 AI 协作的人认为其更有用，但效率提升小于预期。",
+  "reason": "论文在同一实验设置下让人机与人际科研团队、人类与 LLM 评审同场比较，呈现 AI 协作对想法质量与评价的影响差异。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-23T04:00:00+00:00",
+  "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

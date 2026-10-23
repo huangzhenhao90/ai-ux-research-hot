@@ -23,5 +23,14 @@
   "status": "selected",
   "dupOf": null,
   "relation": null,
-  "related": []
+  "related": [
+    {
+      "id": "26b8ca5cbfcf5bae",
+      "title": "Organic growth of 2.0% in Q3",
+      "titleZh": "第三季度营收6.362亿欧元，有机增长2.0%",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/organic-growth-20-q3",
+      "publishedAt": "2026-10-23T05:51:34+00:00"
+    }
+  ]
 }

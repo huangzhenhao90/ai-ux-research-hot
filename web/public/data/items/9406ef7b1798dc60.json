@@ -1,0 +1,25 @@
+{
+  "id": "9406ef7b1798dc60",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.30763v1",
+  "title": "抽象的偏好，具体的回报：陈述性偏好与AI回应实际奖励之间的关系",
+  "titleZh": "PRISM 数据集研究对比用户对 AI 回答的陈述偏好与实际评分",
+  "summaryZh": "基于 PRISM 数据集的研究（1,396 名参与者、21 个 LLM、29,347 条回答）对比了用户对 AI 回答属性的陈述偏好与实际评分行为，发现陈述优先项无法直接预测实际奖励权重。未问及的特征（长度、格式、拒答语言）对评分的影响不亚于已调查属性，历史对话中要求短或长回答的反馈更具预测力。用户之间对具体特征权重存在稳定差异，但中位数仅 6 次对话导致估计精度不足。",
+  "reason": "研究用近 3 万条回答的评分数据说明，用户说出的偏好与真正打分的权重并不一致，对设计偏好问卷的研究者有参考。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "问卷/定量"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-21T16:00:00+00:00",
+  "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "same",
+  "related": []
+}

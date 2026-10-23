@@ -1,5 +1,5 @@
 {
-  "count": 461,
+  "count": 475,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -137,6 +137,21 @@
       "publishedAt": "2025-10-08T15:00:00+00:00"
     },
     {
+      "id": "c19211af82edc8c6",
+      "title": "Beyond Better Ideas: How Human-AI Collaboration Shapes Scientific Ideas and Human Perceptions",
+      "titleZh": "arXiv 论文对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上无显著优势",
+      "summaryZh": "arXiv 论文（arXiv:2610.30568）用同一实验设置对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上没有显著优势。反复迭代修订可稳定提升想法质量；AI 评审的分数接近人类，但在想法排序上与人类不一致，其中一个 AI 评审更偏好 AI 辅助方案，而人类评审并无对应的偏好。研究还发现协作来源只能被部分识别，人机与人人产出的科学成果存在大量重叠，并且亲身参与 AI 协作的人认为其更有用，但效率提升小于预期。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.30568",
+      "publishedAt": "2026-10-23T04:00:00+00:00"
+    },
+    {
       "id": "dedfd59baa47acfd",
       "title": "Introducing Dovetail’s most powerful chat yet",
       "titleZh": "发布迄今最强的聊天功能更新",
@@ -243,6 +258,21 @@
       "publishedAt": "2026-09-18T17:00:00+00:00"
     },
     {
+      "id": "9406ef7b1798dc60",
+      "title": "抽象的偏好，具体的回报：陈述性偏好与AI回应实际奖励之间的关系",
+      "titleZh": "PRISM 数据集研究对比用户对 AI 回答的陈述偏好与实际评分",
+      "summaryZh": "基于 PRISM 数据集的研究（1,396 名参与者、21 个 LLM、29,347 条回答）对比了用户对 AI 回答属性的陈述偏好与实际评分行为，发现陈述优先项无法直接预测实际奖励权重。未问及的特征（长度、格式、拒答语言）对评分的影响不亚于已调查属性，历史对话中要求短或长回答的反馈更具预测力。用户之间对具体特征权重存在稳定差异，但中位数仅 6 次对话导致估计精度不足。",
+      "tags": [
+        "论文/研究",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2610.30763v1",
+      "publishedAt": "2026-10-21T16:00:00+00:00"
+    },
+    {
       "id": "89c56ba372b9678d",
       "title": "Prototype with real customer data using the Dovetail connector for Figma Make",
       "titleZh": "Dovetail 发布 Figma Make 连接器，可用真实客户数据做原型",
@@ -314,6 +344,24 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/suns-out-summer-launch-26/",
       "publishedAt": "2026-07-14T12:00:00+00:00"
+    },
+    {
+      "id": "26b8ca5cbfcf5bae",
+      "title": "Organic growth of 2.0% in Q3",
+      "titleZh": "第三季度营收6.362亿欧元，有机增长2.0%",
+      "summaryZh": "公布2026年第三季度营收6.362亿欧元，有机增长2.0%，高于上半年的0.8%。增长主要由EMEA、中国以及Citizens业务的良好表现带动",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/organic-growth-20-q3",
+      "publishedAt": "2026-10-23T05:51:34+00:00"
     },
     {
       "id": "02f24ca2aa4a8368",
@@ -414,6 +462,22 @@
       "publishedAt": "2026-03-27T01:00:00+00:00"
     },
     {
+      "id": "363fc2298f2aa390",
+      "title": "超越更好的创意：人机协作如何塑造科学创意与人类感知",
+      "titleZh": "超越更好的创意：人机协作如何塑造科学创意与人类感知",
+      "summaryZh": "一项对比人机与人人团队的研究发现，AI 协作未显著提升人类评判的创意质量，迭代修改才是关键，且 AI 评委偏袒 AI 辅助方案。协作来源难以完全检测，亲身体验者认为 AI 更有用，但效率提升低于预期。研究结合人类与 LLM 评审、协作来源分析及参与者调研，挑战了 AI 价值主要在于改善创意的假设。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2610.30568v1",
+      "publishedAt": "2026-10-21T16:00:00+00:00"
+    },
+    {
       "id": "797430abdaa2cdf8",
       "title": "Explanatory sequential design: A practical guide",
       "titleZh": "解释性序列设计：用访谈解释问卷结果的 Delve 实用指南",
@@ -468,6 +532,24 @@
       "publishedAt": "2025-01-23T10:27:25+00:00"
     },
     {
+      "id": "b657bf455c82f874",
+      "title": "Croissance organique de 2,0 % au troisième trimestre",
+      "titleZh": "Ipsos 第三季度营收 6.362 亿欧元，有机增长 2.0%",
+      "summaryZh": "Ipsos 公布第三季度营收 6.362 亿欧元，有机增长 2.0%，高于上半年的 0.8%。这一增长主要来自 EMEA、中国以及面向公众（citizens）业务的表现。",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre",
+      "publishedAt": "2026-10-23T05:50:34+00:00"
+    },
+    {
       "id": "194a20915ff0389b",
       "title": "Data monitoring guide: How to catch leading indicators of bad data early",
       "titleZh": "数据监测指南：如何及早发现坏数据的领先指标",
@@ -520,6 +602,40 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/confirmability-in-qualitative-research/",
       "publishedAt": "2026-09-08T00:00:00+00:00"
+    },
+    {
+      "id": "d8770b9635a8b9b8",
+      "title": "How To Do Customer Research For a Startup: A 14-Day Playbook",
+      "titleZh": "初创公司如何做客户研究：Listen Labs 的 14 天操作手册",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布一份 14 天初创客户研究手册，把流程拆成假设、免费二手数据、一手访谈、自下而上测算市场与付费意愿验证五步，并列出每步的交付物和时限。手册要求先写 3–5 条可证伪假设，到 data.census.gov、sba.gov、Google Trends 与公开竞品 10-K 中各提取一个具体数字，形成需求信号备忘录。文中引用 Hennink 等人关于定性饱和的研究，称编码饱和约需 9 场访谈、意义饱和需 16–24 场，并附 7 个问题的访谈问题库和追问示例。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/startup-market-research-guide/",
+      "publishedAt": "2026-10-23T05:08:42+00:00"
+    },
+    {
+      "id": "b86eb51d7ef35366",
+      "title": "Atlas: Making Sense of Long Horizon Agent Trajectories",
+      "titleZh": "Atlas：让长周期智能体轨迹可理解",
+      "summaryZh": "研究者开发了带轨迹树的智能体工作区 Atlas，把长周期智能体运行呈现为分支结构，展示智能体的选择、搁置项和六种表示下的产物投影。在一项 N=14 的受试者内研究中，参与者报告 Atlas 的决策透明度、产物理解与目标关联高于标准基线，主观工作负荷明显更低。",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.30548",
+      "publishedAt": "2026-10-23T04:00:00+00:00"
     },
     {
       "id": "2a35eed0a8746362",
@@ -642,6 +758,23 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/do-i-have-too-many-codes-in-my-qualitative-analysis/",
       "publishedAt": "2025-05-09T09:46:24+00:00"
+    },
+    {
+      "id": "426a8df1b267258a",
+      "title": "Abstract Priorities, Concrete Rewards: How Stated Preferences Relate to What People Reward in AI Responses",
+      "titleZh": "PRISM 研究：陈述偏好如何关联 AI 回复中人们实际奖赏的特征",
+      "summaryZh": "基于 PRISM 数据集的研究让 1,396 名参与者报告七项属性重要性并评分 21 个 LLM 的 29,347 条回复，发现长度、格式和拒绝措辞等未调查特征与评分的关联至少不弱于所调查属性的文本代理。陈述优先级对应他人感知的模型属性，却不对应文本代理得分；个人信息预测留出选择的最大增益仅 0.13 个百分点，汇总模型为 1.11。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "问卷/定量",
+        "行为数据"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.30763",
+      "publishedAt": "2026-10-23T04:00:00+00:00"
     },
     {
       "id": "a025d1c02bcc90be",
@@ -936,6 +1069,26 @@
       "publishedAt": "2026-10-20T05:15:18+00:00"
     },
     {
+      "id": "7ec64c599e95e72f",
+      "title": "Voice of Customer Process: Step-by-Step VoC Guide",
+      "titleZh": "客户之声流程：分步 VoC 指南",
+      "summaryZh": "Listen Labs 的分步 VoC 指南拆解了客户之声流程，并指出多数项目卡在综合分析与闭环。其 AI 主持访谈覆盖 45+ 国家、120+ 语言的 50M+ 已验证受访者，回答长度达平均水平的 3 倍，24 小时内交付结果且成本为传统研究的三分之一。Listen Labs 已为 Microsoft、Google、Anthropic、P&G、Nestlé 等完成超 100 万次 AI 客户访谈。",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps",
+        "定性分析",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/voice-of-customer-process-guide/",
+      "publishedAt": "2026-10-23T05:08:36+00:00"
+    },
+    {
       "id": "75f743fd63cba808",
       "title": "Impact of information architecture on the accessibility of the UDG Biblioteca Digital: a user-centered usability evaluation",
       "titleZh": "UDG Biblioteca Digital 信息架构如何影响可访问性：一项以用户为中心的可用性评估",
@@ -1061,6 +1214,26 @@
       "publishedAt": "2023-10-03T11:00:54+00:00"
     },
     {
+      "id": "22164f1907bfe9e3",
+      "title": "How to Choose a Customer Insights Platform: A Buying Guide",
+      "titleZh": "如何选择客户洞察平台：Listen Labs 购买指南",
+      "summaryZh": "Listen Labs 的客户洞察平台购买指南按调研与评分追踪、反馈分析、产品内行为分析和规模化定性研究四类任务拆解选型。指南建议按洞察可追溯性、数据集成、AI 可解释性、隐私认证和总成本五项标准打分，并提到 Qualtrics 年费 25,000–75,000+ 美元、AI 主持访谈超 70% 洞察来自 AI 追问。",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "medallia"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/choose-customer-insights-platform/",
+      "publishedAt": "2026-10-23T05:01:24+00:00"
+    },
+    {
       "id": "130350f8feb0fa44",
       "title": "Transformative Mixed Methods Design-Based Research: Toward Developing Disciplinary Literacy Intervention for Students With Learning Differences",
       "titleZh": "变革性混合方法设计本位研究：为学习差异学生开发学科素养干预",
@@ -1108,6 +1281,22 @@
       "publishedAt": "2026-03-03T20:43:47+00:00"
     },
     {
+      "id": "b0739a940291a9a9",
+      "title": "透过表征工作：面向人-智能体知识协作的可塑工作空间",
+      "titleZh": "透过表征工作：面向人-智能体知识协作的可塑工作空间",
+      "summaryZh": "一项 GenAI 知识工作研究从表征工作切入，探讨面向人-智能体知识协作的可塑工作空间。该研究采用 3 个月纵向用研，样本量为 n=7。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "Agent"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2610.30893v1",
+      "publishedAt": "2026-10-21T16:00:00+00:00"
+    },
+    {
       "id": "993dab508828e82d",
       "title": "Ipsos launches its new creative assessment solution – Creative|Spark on Ipsos.Digital Platform in more countries",
       "titleZh": "Ipsos 在 Ipsos.Digital 平台面向更多国家推出 Creative|Spark 视频创意评估方案",
@@ -1124,6 +1313,31 @@
       "sourceName": "Ipsos",
       "url": "https://www.ipsos.com/en/ipsos-launches-its-new-creative-assessment-solution-creativespark-ipsosdigital-platform",
       "publishedAt": "2026-10-08T13:12:29+00:00"
+    },
+    {
+      "id": "0fa25d0069aa4836",
+      "title": "Best AI UX Research Tools In 2026: A Bottleneck-First Guide",
+      "titleZh": "2026 年最佳 AI UX 研究工具：以工作流瓶颈为切入的选型指南",
+      "summaryZh": "Listen Labs 按招募、主持、分析、观察四类工作流瓶颈，梳理 2026 年 AI UX 研究工具的选型，覆盖 Listen Labs、Dovetail、Maze 与 UserTesting 等。其平台整合 50M+ 验证受访者、120+ 语种的 AI 主持访谈，称可将 4–6 周研究周期压缩到 24 小时内、成本约三分之一。文中还引用 GPT-4 选取代表性引语仅 33–79% 与主题一致的评测，强调洞察须溯源到原话与时间戳。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail",
+        "maze",
+        "usertesting",
+        "outset",
+        "strella"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-ux-research-tools/",
+      "publishedAt": "2026-10-23T05:01:46+00:00"
     },
     {
       "id": "bae2f8c5de41e75f",
@@ -1983,6 +2197,36 @@
       "publishedAt": "2025-11-06T10:39:34+00:00"
     },
     {
+      "id": "1099aea369a19497",
+      "title": "Market Research Platform Competitors: Who Competes With Whom",
+      "titleZh": "市场研究平台竞品格局：从 Qualtrics 到 Listen Labs，谁与谁竞争",
+      "summaryZh": "市场研究平台竞品被划为六类，Listen Labs 被定位为覆盖设计、招募、AI 主持访谈、分析与交付的端到端 AI 原生定性研究平台。其称可调用 50M+ 验证样本库、覆盖 45+ 国家和 120+ 语言，并在 24 小时内以约三分之一传统成本交付；Qualtrics 则以约 22% 全球企业调研份额和 $2B+ ARR 作为企业套件基准。",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "AI 访谈",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "usertesting",
+        "dovetail",
+        "outset",
+        "dscout",
+        "quantilope",
+        "surveymonkey",
+        "user-interviews",
+        "maze",
+        "kantar",
+        "nielsen"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/market-research-platform-competitors/",
+      "publishedAt": "2026-10-23T05:01:31+00:00"
+    },
+    {
       "id": "498ab6cb5fbf6716",
       "title": "Investigating the effects of gender stereotyping on user experience in the context of fintech services",
       "titleZh": "探究性别刻板印象对金融科技服务用户体验的影响",
@@ -2795,6 +3039,18 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
       "publishedAt": "2025-11-24T12:14:05+00:00"
+    },
+    {
+      "id": "0c9d72d414617d36",
+      "title": "Hyy I'm a ba applied psychology student 2nd sem can anyone guide what to do after this? I was thinking about ux researcher and designer but i heard that it's dead and saturated no point of doing it is it true? Can anyone recommend some thing else better?",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Reddit r/UXResearch",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xd5sgc/hyy_im_a_ba_applied_psychology_student_2nd_sem/",
+      "publishedAt": "2026-10-23T05:52:21+00:00"
     },
     {
       "id": "83269b5779c63271",

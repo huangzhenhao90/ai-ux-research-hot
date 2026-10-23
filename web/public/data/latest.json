@@ -1,8 +1,92 @@
 {
-  "generatedAt": "2026-10-23T00:55:48.549189+00:00",
+  "generatedAt": "2026-10-23T09:09:32.171281+00:00",
   "windowDays": 3,
   "editionHour": 8,
   "days": [
+    {
+      "date": "2026-10-24",
+      "count": 3,
+      "items": [
+        {
+          "id": "c19211af82edc8c6",
+          "sourceId": "arxiv-cs-hc",
+          "sourceName": "arXiv cs.HC",
+          "venue": null,
+          "tier": "T2",
+          "url": "https://arxiv.org/abs/2610.30568",
+          "title": "Beyond Better Ideas: How Human-AI Collaboration Shapes Scientific Ideas and Human Perceptions",
+          "titleZh": "arXiv 论文对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上无显著优势",
+          "summaryZh": "arXiv 论文（arXiv:2610.30568）用同一实验设置对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上没有显著优势。反复迭代修订可稳定提升想法质量；AI 评审的分数接近人类，但在想法排序上与人类不一致，其中一个 AI 评审更偏好 AI 辅助方案，而人类评审并无对应的偏好。研究还发现协作来源只能被部分识别，人机与人人产出的科学成果存在大量重叠，并且亲身参与 AI 协作的人认为其更有用，但效率提升小于预期。",
+          "reason": "论文在同一实验设置下让人机与人际科研团队、人类与 LLM 评审同场比较，呈现 AI 协作对想法质量与评价的影响差异。",
+          "category": "research",
+          "tags": [
+            "论文/研究",
+            "学术 HCI"
+          ],
+          "entities": [],
+          "itemType": "research_paper",
+          "publishedAt": "2026-10-23T04:00:00+00:00",
+          "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        },
+        {
+          "id": "b657bf455c82f874",
+          "sourceId": "ipsos",
+          "sourceName": "Ipsos",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre",
+          "title": "Croissance organique de 2,0 % au troisième trimestre",
+          "titleZh": "Ipsos 第三季度营收 6.362 亿欧元，有机增长 2.0%",
+          "summaryZh": "Ipsos 公布第三季度营收 6.362 亿欧元，有机增长 2.0%，高于上半年的 0.8%。这一增长主要来自 EMEA、中国以及面向公众（citizens）业务的表现。",
+          "reason": "对比上半年 0.8% 的有机增长，这份财报给出第三季度回升到 2.0% 的区域来源，可用来观察市场研究行业的需求走向。",
+          "category": "industry",
+          "tags": [
+            "行业动态",
+            "市场研究",
+            "Ipsos"
+          ],
+          "entities": [
+            "ipsos"
+          ],
+          "itemType": "industry_event",
+          "publishedAt": "2026-10-23T05:50:34+00:00",
+          "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        },
+        {
+          "id": "d8770b9635a8b9b8",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/startup-market-research-guide/",
+          "title": "How To Do Customer Research For a Startup: A 14-Day Playbook",
+          "titleZh": "初创公司如何做客户研究：Listen Labs 的 14 天操作手册",
+          "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布一份 14 天初创客户研究手册，把流程拆成假设、免费二手数据、一手访谈、自下而上测算市场与付费意愿验证五步，并列出每步的交付物和时限。手册要求先写 3–5 条可证伪假设，到 data.census.gov、sba.gov、Google Trends 与公开竞品 10-K 中各提取一个具体数字，形成需求信号备忘录。文中引用 Hennink 等人关于定性饱和的研究，称编码饱和约需 9 场访谈、意义饱和需 16–24 场，并附 7 个问题的访谈问题库和追问示例。",
+          "reason": "文中把两周验证拆成带交付物与时限的五个步骤，并附可直接套用的访谈问题库和饱和样本量参考。",
+          "category": "methods",
+          "tags": [
+            "方法/实践",
+            "AI 访谈",
+            "招募/样本"
+          ],
+          "entities": [
+            "listen-labs"
+          ],
+          "itemType": "method_or_template",
+          "publishedAt": "2026-10-23T05:08:42+00:00",
+          "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        }
+      ]
+    },
     {
       "date": "2026-10-23",
       "count": 2,
@@ -66,8 +150,32 @@
     },
     {
       "date": "2026-10-22",
-      "count": 1,
+      "count": 2,
       "items": [
+        {
+          "id": "9406ef7b1798dc60",
+          "sourceId": "ur-ai-papers",
+          "sourceName": "arXiv",
+          "venue": "arXiv",
+          "tier": "T2",
+          "url": "https://arxiv.org/abs/2610.30763v1",
+          "title": "抽象的偏好，具体的回报：陈述性偏好与AI回应实际奖励之间的关系",
+          "titleZh": "PRISM 数据集研究对比用户对 AI 回答的陈述偏好与实际评分",
+          "summaryZh": "基于 PRISM 数据集的研究（1,396 名参与者、21 个 LLM、29,347 条回答）对比了用户对 AI 回答属性的陈述偏好与实际评分行为，发现陈述优先项无法直接预测实际奖励权重。未问及的特征（长度、格式、拒答语言）对评分的影响不亚于已调查属性，历史对话中要求短或长回答的反馈更具预测力。用户之间对具体特征权重存在稳定差异，但中位数仅 6 次对话导致估计精度不足。",
+          "reason": "研究用近 3 万条回答的评分数据说明，用户说出的偏好与真正打分的权重并不一致，对设计偏好问卷的研究者有参考。",
+          "category": "research",
+          "tags": [
+            "论文/研究",
+            "问卷/定量"
+          ],
+          "entities": [],
+          "itemType": "research_paper",
+          "publishedAt": "2026-10-21T16:00:00+00:00",
+          "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "same"
+        },
         {
           "id": "1afcb1a1360dc91a",
           "sourceId": "listen-labs",

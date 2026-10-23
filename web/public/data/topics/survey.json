@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 32,
+  "count": 36,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -82,6 +82,30 @@
       "relation": "same"
     },
     {
+      "id": "9406ef7b1798dc60",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.30763v1",
+      "title": "抽象的偏好，具体的回报：陈述性偏好与AI回应实际奖励之间的关系",
+      "titleZh": "PRISM 数据集研究对比用户对 AI 回答的陈述偏好与实际评分",
+      "summaryZh": "基于 PRISM 数据集的研究（1,396 名参与者、21 个 LLM、29,347 条回答）对比了用户对 AI 回答属性的陈述偏好与实际评分行为，发现陈述优先项无法直接预测实际奖励权重。未问及的特征（长度、格式、拒答语言）对评分的影响不亚于已调查属性，历史对话中要求短或长回答的反馈更具预测力。用户之间对具体特征权重存在稳定差异，但中位数仅 6 次对话导致估计精度不足。",
+      "reason": "研究用近 3 万条回答的评分数据说明，用户说出的偏好与真正打分的权重并不一致，对设计偏好问卷的研究者有参考。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-21T16:00:00+00:00",
+      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "same"
+    },
+    {
       "id": "9cf2210cbf70c129",
       "sourceId": "ijmr",
       "sourceName": "International Journal of Market Research",
@@ -101,6 +125,31 @@
       "itemType": null,
       "publishedAt": "2026-08-29T12:22:47+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "363fc2298f2aa390",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.30568v1",
+      "title": "超越更好的创意：人机协作如何塑造科学创意与人类感知",
+      "titleZh": "超越更好的创意：人机协作如何塑造科学创意与人类感知",
+      "summaryZh": "一项对比人机与人人团队的研究发现，AI 协作未显著提升人类评判的创意质量，迭代修改才是关键，且 AI 评委偏袒 AI 辅助方案。协作来源难以完全检测，亲身体验者认为 AI 更有用，但效率提升低于预期。研究结合人类与 LLM 评审、协作来源分析及参与者调研，挑战了 AI 价值主要在于改善创意的假设。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-21T16:00:00+00:00",
+      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -183,6 +232,32 @@
       "publishedAt": "2026-03-26T15:34:41+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "426a8df1b267258a",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.30763",
+      "title": "Abstract Priorities, Concrete Rewards: How Stated Preferences Relate to What People Reward in AI Responses",
+      "titleZh": "PRISM 研究：陈述偏好如何关联 AI 回复中人们实际奖赏的特征",
+      "summaryZh": "基于 PRISM 数据集的研究让 1,396 名参与者报告七项属性重要性并评分 21 个 LLM 的 29,347 条回复，发现长度、格式和拒绝措辞等未调查特征与评分的关联至少不弱于所调查属性的文本代理。陈述优先级对应他人感知的模型属性，却不对应文本代理得分；个人信息预测留出选择的最大增益仅 0.13 个百分点，汇总模型为 1.11。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "问卷/定量",
+        "行为数据"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-23T04:00:00+00:00",
+      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -295,6 +370,35 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:18+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7ec64c599e95e72f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/voice-of-customer-process-guide/",
+      "title": "Voice of Customer Process: Step-by-Step VoC Guide",
+      "titleZh": "客户之声流程：分步 VoC 指南",
+      "summaryZh": "Listen Labs 的分步 VoC 指南拆解了客户之声流程，并指出多数项目卡在综合分析与闭环。其 AI 主持访谈覆盖 45+ 国家、120+ 语言的 50M+ 已验证受访者，回答长度达平均水平的 3 倍，24 小时内交付结果且成本为传统研究的三分之一。Listen Labs 已为 Microsoft、Google、Anthropic、P&G、Nestlé 等完成超 100 万次 AI 客户访谈。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps",
+        "定性分析",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-23T05:08:36+00:00",
+      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

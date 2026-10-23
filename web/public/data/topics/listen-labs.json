@@ -3,7 +3,7 @@
   "name": "Listen Labs",
   "group": "company",
   "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-  "count": 15,
+  "count": 20,
   "items": [
     {
       "id": "766b4f8ed1745f9a",
@@ -29,6 +29,33 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-10-22T05:00:54+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "d8770b9635a8b9b8",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/startup-market-research-guide/",
+      "title": "How To Do Customer Research For a Startup: A 14-Day Playbook",
+      "titleZh": "初创公司如何做客户研究：Listen Labs 的 14 天操作手册",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布一份 14 天初创客户研究手册，把流程拆成假设、免费二手数据、一手访谈、自下而上测算市场与付费意愿验证五步，并列出每步的交付物和时限。手册要求先写 3–5 条可证伪假设，到 data.census.gov、sba.gov、Google Trends 与公开竞品 10-K 中各提取一个具体数字，形成需求信号备忘录。文中引用 Hennink 等人关于定性饱和的研究，称编码饱和约需 9 场访谈、意义饱和需 16–24 场，并附 7 个问题的访谈问题库和追问示例。",
+      "reason": "文中把两周验证拆成带交付物与时限的五个步骤，并附可直接套用的访谈问题库和饱和样本量参考。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-10-23T05:08:42+00:00",
+      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -115,6 +142,98 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:18+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7ec64c599e95e72f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/voice-of-customer-process-guide/",
+      "title": "Voice of Customer Process: Step-by-Step VoC Guide",
+      "titleZh": "客户之声流程：分步 VoC 指南",
+      "summaryZh": "Listen Labs 的分步 VoC 指南拆解了客户之声流程，并指出多数项目卡在综合分析与闭环。其 AI 主持访谈覆盖 45+ 国家、120+ 语言的 50M+ 已验证受访者，回答长度达平均水平的 3 倍，24 小时内交付结果且成本为传统研究的三分之一。Listen Labs 已为 Microsoft、Google、Anthropic、P&G、Nestlé 等完成超 100 万次 AI 客户访谈。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps",
+        "定性分析",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-23T05:08:36+00:00",
+      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "22164f1907bfe9e3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/choose-customer-insights-platform/",
+      "title": "How to Choose a Customer Insights Platform: A Buying Guide",
+      "titleZh": "如何选择客户洞察平台：Listen Labs 购买指南",
+      "summaryZh": "Listen Labs 的客户洞察平台购买指南按调研与评分追踪、反馈分析、产品内行为分析和规模化定性研究四类任务拆解选型。指南建议按洞察可追溯性、数据集成、AI 可解释性、隐私认证和总成本五项标准打分，并提到 Qualtrics 年费 25,000–75,000+ 美元、AI 主持访谈超 70% 洞察来自 AI 追问。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "medallia"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-23T05:01:24+00:00",
+      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0fa25d0069aa4836",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-ux-research-tools/",
+      "title": "Best AI UX Research Tools In 2026: A Bottleneck-First Guide",
+      "titleZh": "2026 年最佳 AI UX 研究工具：以工作流瓶颈为切入的选型指南",
+      "summaryZh": "Listen Labs 按招募、主持、分析、观察四类工作流瓶颈，梳理 2026 年 AI UX 研究工具的选型，覆盖 Listen Labs、Dovetail、Maze 与 UserTesting 等。其平台整合 50M+ 验证受访者、120+ 语种的 AI 主持访谈，称可将 4–6 周研究周期压缩到 24 小时内、成本约三分之一。文中还引用 GPT-4 选取代表性引语仅 33–79% 与主题一致的评测，强调洞察须溯源到原话与时间戳。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail",
+        "maze",
+        "usertesting",
+        "outset",
+        "strella"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-23T05:01:46+00:00",
+      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -230,6 +349,45 @@
       "itemType": null,
       "publishedAt": "2026-10-22T05:04:06+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1099aea369a19497",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/market-research-platform-competitors/",
+      "title": "Market Research Platform Competitors: Who Competes With Whom",
+      "titleZh": "市场研究平台竞品格局：从 Qualtrics 到 Listen Labs，谁与谁竞争",
+      "summaryZh": "市场研究平台竞品被划为六类，Listen Labs 被定位为覆盖设计、招募、AI 主持访谈、分析与交付的端到端 AI 原生定性研究平台。其称可调用 50M+ 验证样本库、覆盖 45+ 国家和 120+ 语言，并在 24 小时内以约三分之一传统成本交付；Qualtrics 则以约 22% 全球企业调研份额和 $2B+ ARR 作为企业套件基准。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "AI 访谈",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "usertesting",
+        "dovetail",
+        "outset",
+        "dscout",
+        "quantilope",
+        "surveymonkey",
+        "user-interviews",
+        "maze",
+        "kantar",
+        "nielsen"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-23T05:01:31+00:00",
+      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

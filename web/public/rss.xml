@@ -5,9 +5,36 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 00:55:48 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:09:32 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
+    <item>
+      <title>Ipsos 第三季度营收 6.362 亿欧元，有机增长 2.0%</title>
+      <link>https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre</link>
+      <guid isPermaLink="true">https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre</guid>
+      <pubDate>Fri, 23 Oct 2026 05:50:34 GMT</pubDate>
+      <description>Ipsos 公布第三季度营收 6.362 亿欧元，有机增长 2.0%，高于上半年的 0.8%。这一增长主要来自 EMEA、中国以及面向公众（citizens）业务的表现。</description>
+      <category>Ipsos</category>
+      <category>industry</category>
+    </item>
+    <item>
+      <title>初创公司如何做客户研究：Listen Labs 的 14 天操作手册</title>
+      <link>https://listenlabs.com/articles/startup-market-research-guide/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/startup-market-research-guide/</guid>
+      <pubDate>Fri, 23 Oct 2026 05:08:42 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 发布一份 14 天初创客户研究手册，把流程拆成假设、免费二手数据、一手访谈、自下而上测算市场与付费意愿验证五步，并列出每步的交付物和时限。手册要求先写 3–5 条可证伪假设，到 data.census.gov、sba.gov、Google Trends 与公开竞品 10-K 中各提取一个具体数字，形成需求信号备忘录。文中引用 Hennink 等人关于定性饱和的研究，称编码饱和约需 9 场访谈、意义饱和需 16–24 场，并附 7 个问题的访谈问题库和追问示例。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>arXiv 论文对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上无显著优势</title>
+      <link>https://arxiv.org/abs/2610.30568</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.30568</guid>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 GMT</pubDate>
+      <description>arXiv 论文（arXiv:2610.30568）用同一实验设置对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上没有显著优势。反复迭代修订可稳定提升想法质量；AI 评审的分数接近人类，但在想法排序上与人类不一致，其中一个 AI 评审更偏好 AI 辅助方案，而人类评审并无对应的偏好。研究还发现协作来源只能被部分识别，人机与人人产出的科学成果存在大量重叠，并且亲身参与 AI 协作的人认为其更有用，但效率提升小于预期。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
     <item>
       <title>MeasuringU 与 UXPA 公布 2024 年 UX 薪资调查结果并更新薪资计算器</title>
       <link>https://measuringu.com/user-experience-salaries-calculator-2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=user-experience-salaries-calculator-2026</link>
@@ -25,6 +52,15 @@
       <description>Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–4 人，量化指标则需 NN/g 建议的 20+ 用户。作者还称 AI 主持访谈可在 50–100+ 场次上同时观察屏幕行为并实时追问矛盾。</description>
       <category>Listen Labs</category>
       <category>methods</category>
+    </item>
+    <item>
+      <title>PRISM 数据集研究对比用户对 AI 回答的陈述偏好与实际评分</title>
+      <link>https://arxiv.org/abs/2610.30763v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.30763v1</guid>
+      <pubDate>Wed, 21 Oct 2026 16:00:00 GMT</pubDate>
+      <description>基于 PRISM 数据集的研究（1,396 名参与者、21 个 LLM、29,347 条回答）对比了用户对 AI 回答属性的陈述偏好与实际评分行为，发现陈述优先项无法直接预测实际奖励权重。未问及的特征（长度、格式、拒答语言）对评分的影响不亚于已调查属性，历史对话中要求短或长回答的反馈更具预测力。用户之间对具体特征权重存在稳定差异，但中位数仅 6 次对话导致估计精度不足。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
     </item>
     <item>
       <title>Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么</title>

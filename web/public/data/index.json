@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-23T00:55:48.549189+00:00",
+  "generatedAt": "2026-10-23T09:09:32.171281+00:00",
   "counts": {
-    "public": 461,
-    "selected": 42,
+    "public": 475,
+    "selected": 46,
     "months": 33,
     "categories": 6,
     "topics": 24,
-    "searchIndex": 461,
+    "searchIndex": 475,
     "dailyReports": 5,
     "weeklyReports": 3
   },
@@ -46,6 +46,7 @@
     "2020-07"
   ],
   "latestDays": [
+    "2026-10-24",
     "2026-10-23",
     "2026-10-22"
   ]

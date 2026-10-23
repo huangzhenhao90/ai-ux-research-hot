@@ -1,0 +1,26 @@
+{
+  "id": "363fc2298f2aa390",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.30568v1",
+  "title": "超越更好的创意：人机协作如何塑造科学创意与人类感知",
+  "titleZh": "超越更好的创意：人机协作如何塑造科学创意与人类感知",
+  "summaryZh": "一项对比人机与人人团队的研究发现，AI 协作未显著提升人类评判的创意质量，迭代修改才是关键，且 AI 评委偏袒 AI 辅助方案。协作来源难以完全检测，亲身体验者认为 AI 更有用，但效率提升低于预期。研究结合人类与 LLM 评审、协作来源分析及参与者调研，挑战了 AI 价值主要在于改善创意的假设。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "学术 HCI",
+    "问卷/定量"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-21T16:00:00+00:00",
+  "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

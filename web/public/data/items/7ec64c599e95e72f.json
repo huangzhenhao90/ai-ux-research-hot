@@ -1,0 +1,30 @@
+{
+  "id": "7ec64c599e95e72f",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/voice-of-customer-process-guide/",
+  "title": "Voice of Customer Process: Step-by-Step VoC Guide",
+  "titleZh": "客户之声流程：分步 VoC 指南",
+  "summaryZh": "Listen Labs 的分步 VoC 指南拆解了客户之声流程，并指出多数项目卡在综合分析与闭环。其 AI 主持访谈覆盖 45+ 国家、120+ 语言的 50M+ 已验证受访者，回答长度达平均水平的 3 倍，24 小时内交付结果且成本为传统研究的三分之一。Listen Labs 已为 Microsoft、Google、Anthropic、P&G、Nestlé 等完成超 100 万次 AI 客户访谈。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "洞察库/ResearchOps",
+    "定性分析",
+    "AI 访谈",
+    "问卷/定量"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-23T05:08:36+00:00",
+  "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

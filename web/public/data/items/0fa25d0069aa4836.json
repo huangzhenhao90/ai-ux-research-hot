@@ -1,0 +1,35 @@
+{
+  "id": "0fa25d0069aa4836",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-ux-research-tools/",
+  "title": "Best AI UX Research Tools In 2026: A Bottleneck-First Guide",
+  "titleZh": "2026 年最佳 AI UX 研究工具：以工作流瓶颈为切入的选型指南",
+  "summaryZh": "Listen Labs 按招募、主持、分析、观察四类工作流瓶颈，梳理 2026 年 AI UX 研究工具的选型，覆盖 Listen Labs、Dovetail、Maze 与 UserTesting 等。其平台整合 50M+ 验证受访者、120+ 语种的 AI 主持访谈，称可将 4–6 周研究周期压缩到 24 小时内、成本约三分之一。文中还引用 GPT-4 选取代表性引语仅 33–79% 与主题一致的评测，强调洞察须溯源到原话与时间戳。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "招募/样本",
+    "定性分析",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "listen-labs",
+    "dovetail",
+    "maze",
+    "usertesting",
+    "outset",
+    "strella"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-23T05:01:46+00:00",
+  "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
