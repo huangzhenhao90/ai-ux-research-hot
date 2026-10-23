@@ -5,7 +5,7 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 09:09:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 16:37:16 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
     <item>
@@ -43,6 +43,15 @@
       <description>MeasuringU 与 UXPA 汇总 2024 年 4 月至 10 月收集的 444 份、来自 37 个国家的问卷，UX 从业者薪资中位数为 12 万美元，名义上比 2022 年的 10.9 万美元高 10%。按同期 12% 的通胀折算为不变美元后，2024 年实际中位薪资比 2022 年低 2%。薪资驱动因素的回归模型解释 72% 的差异，其中所在国家或美国地区占 50%，职位层级占 11%，美国中位薪资为 14.2 万美元；薪资计算器此次合并了 User Interviews 2024 年的数据，样本量扩大到 1,063 份。</description>
       <category>MeasuringU（Jeff Sauro）</category>
       <category>research</category>
+    </item>
+    <item>
+      <title>MAXQDA 介绍 AI Assist 接入本地 AI 模型的设置与模型选型</title>
+      <link>https://www.maxqda.com/blogpost/local-ai-models-in-maxqda-ai-assist-with-full-control-over-your-data</link>
+      <guid isPermaLink="true">https://www.maxqda.com/blogpost/local-ai-models-in-maxqda-ai-assist-with-full-control-over-your-data</guid>
+      <pubDate>Thu, 22 Oct 2026 08:32:30 GMT</pubDate>
+      <description>MAXQDA 说明 AI Assist 可接入运行在本地电脑或机构内网服务器上的语言模型，数据不离开本地网络，并在文中给出设置步骤与本地模型选型建议。该能力属于 AI Assist Premium，发往本地模型的请求不计入每日额度；原文提示本地模型结果通常不如云端准确，响应也更慢。选型部分按 AI Chat、AI Summaries、AI Coding 分级说明模型要求，建议显存预留约 20%、量化选 Q4 及以上、默认响应超时为 3 分钟，并可通过兼容 OpenAI API 的模型服务器接入。</description>
+      <category>MAXQDA</category>
+      <category>methods</category>
     </item>
     <item>
       <title>Listen Labs 的 6 步用户原型测试操作指南</title>

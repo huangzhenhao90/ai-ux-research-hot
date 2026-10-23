@@ -3,7 +3,7 @@
   "label": "方法",
   "section": "方法与实践",
   "commentary": true,
-  "count": 53,
+  "count": 54,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -28,6 +28,33 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "17aa5dce6e93a86c",
+      "sourceId": "maxqda",
+      "sourceName": "MAXQDA",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.maxqda.com/blogpost/local-ai-models-in-maxqda-ai-assist-with-full-control-over-your-data",
+      "title": "Local AI Models in MAXQDA: Use Our AI Features With Full Control Over Your Data",
+      "titleZh": "MAXQDA 介绍 AI Assist 接入本地 AI 模型的设置与模型选型",
+      "summaryZh": "MAXQDA 说明 AI Assist 可接入运行在本地电脑或机构内网服务器上的语言模型，数据不离开本地网络，并在文中给出设置步骤与本地模型选型建议。该能力属于 AI Assist Premium，发往本地模型的请求不计入每日额度；原文提示本地模型结果通常不如云端准确，响应也更慢。选型部分按 AI Chat、AI Summaries、AI Coding 分级说明模型要求，建议显存预留约 20%、量化选 Q4 及以上、默认响应超时为 3 分钟，并可通过兼容 OpenAI API 的模型服务器接入。",
+      "reason": "文中按 AI Chat、AI Summaries 与 AI Coding 分别列出本地模型的算力要求，并给出显存预留与量化档位的取舍依据。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-22T08:32:30+00:00",
+      "discoveredAt": "2026-10-23T16:37:16.273053+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "a16bc157b306b9dd",

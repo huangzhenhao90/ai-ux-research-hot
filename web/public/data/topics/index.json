@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T09:09:32.171281+00:00",
+  "generatedAt": "2026-10-23T16:37:16.273053+00:00",
   "groups": [
     {
       "key": "company",
@@ -114,7 +114,7 @@
       "name": "定性分析",
       "group": "field",
       "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-      "count": 53
+      "count": 54
     },
     {
       "slug": "voc",
@@ -163,7 +163,7 @@
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 54
+      "count": 55
     },
     {
       "slug": "prompts",
