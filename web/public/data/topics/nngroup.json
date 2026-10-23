@@ -3,8 +3,36 @@
   "name": "Nielsen Norman Group",
   "group": "company",
   "definition": "NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。",
-  "count": 7,
+  "count": 9,
   "items": [
+    {
+      "id": "98ae0612de392e43",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "titleZh": "调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂",
+      "summaryZh": "调查 521 名 UX 从业者后发现，AI 几乎在每项任务上节省时间，但多数人对其态度平淡，强制推行、输出不可靠和期望过高消耗了这些收益。调查显示超过 99% 的受访者在工作中可使用生成式 AI 工具，其中 59% 只能使用获批的工具集，仅 12% 能自由选择任意工具。AI 带来的收益因角色、任务和工作场所不同而差异明显，智能体的使用情况也不均衡",
+      "reason": "基于 521 名 UX 从业者的调查给出 AI 提效与态度分化的事实，可按角色与任务拆解收益差异。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "Agent",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-23T17:00:00+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
     {
       "id": "fc857a633c94e9de",
       "sourceId": "nngroup",
@@ -186,6 +214,31 @@
       "itemType": null,
       "publishedAt": "2026-09-18T17:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9f40ceae20fc85ab",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "UX Disciplines: Glossary",
+      "titleZh": "UX 学科术语表：UX、UI、CX 与相邻领域定义",
+      "summaryZh": "UX 学科术语表界定了 UX 设计、UI 设计、视觉设计、交互设计、服务设计、UX 研究与 DesignOps 等领域的工作范围，并指出这些术语常被混用。它还区分了 UX、CX 等词的多重含义，并引用 UX-careers 调查称受访者报告了 134 个与 UX 相关的独特职位名称。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-23T17:00:00+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

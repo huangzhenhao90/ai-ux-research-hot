@@ -1,0 +1,26 @@
+{
+  "id": "9f40ceae20fc85ab",
+  "sourceId": "nngroup",
+  "sourceName": "Nielsen Norman Group",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+  "title": "UX Disciplines: Glossary",
+  "titleZh": "UX 学科术语表：UX、UI、CX 与相邻领域定义",
+  "summaryZh": "UX 学科术语表界定了 UX 设计、UI 设计、视觉设计、交互设计、服务设计、UX 研究与 DesignOps 等领域的工作范围，并指出这些术语常被混用。它还区分了 UX、CX 等词的多重含义，并引用 UX-careers 调查称受访者报告了 134 个与 UX 相关的独特职位名称。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践"
+  ],
+  "entities": [
+    "nngroup"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-23T17:00:00+00:00",
+  "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

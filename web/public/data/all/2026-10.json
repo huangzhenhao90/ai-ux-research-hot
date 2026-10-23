@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "count": 180,
+  "count": 190,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -155,6 +155,34 @@
       "status": "selected",
       "dupOf": null,
       "relation": "same"
+    },
+    {
+      "id": "98ae0612de392e43",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "titleZh": "调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂",
+      "summaryZh": "调查 521 名 UX 从业者后发现，AI 几乎在每项任务上节省时间，但多数人对其态度平淡，强制推行、输出不可靠和期望过高消耗了这些收益。调查显示超过 99% 的受访者在工作中可使用生成式 AI 工具，其中 59% 只能使用获批的工具集，仅 12% 能自由选择任意工具。AI 带来的收益因角色、任务和工作场所不同而差异明显，智能体的使用情况也不均衡",
+      "reason": "基于 521 名 UX 从业者的调查给出 AI 提效与态度分化的事实，可按角色与任务拆解收益差异。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "Agent",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-23T17:00:00+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "9406ef7b1798dc60",
@@ -649,6 +677,32 @@
       "relation": null
     },
     {
+      "id": "08a08360ea5d506d",
+      "sourceId": "strella-blog",
+      "sourceName": "Strella Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.strella.io/blog/how-to-analyze-interviews-faster",
+      "title": "Speed Up Consumer Interview Analysis: Where the Hours Go and What to Cut",
+      "titleZh": "Speed Up Consumer Interview Analysis: Where the Hours Go and What to Cut",
+      "summaryZh": "",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "strella"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T16:00:00+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "66bedcdc83b6e13d",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -702,6 +756,33 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:18+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "db4a5aba4e89ffef",
+      "sourceId": "strella-blog",
+      "sourceName": "Strella Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.strella.io/blog/building-customer-personas-from-interviews",
+      "title": "Building Consumer Personas from Interviews: Every Line Traces to Evidence",
+      "titleZh": "Building Consumer Personas from Interviews: Every Line Traces to Evidence",
+      "summaryZh": "",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "strella"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-22T16:00:00+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1060,6 +1141,31 @@
       "relation": null
     },
     {
+      "id": "9f40ceae20fc85ab",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "UX Disciplines: Glossary",
+      "titleZh": "UX 学科术语表：UX、UI、CX 与相邻领域定义",
+      "summaryZh": "UX 学科术语表界定了 UX 设计、UI 设计、视觉设计、交互设计、服务设计、UX 研究与 DesignOps 等领域的工作范围，并指出这些术语常被混用。它还区分了 UX、CX 等词的多重含义，并引用 UX-careers 调查称受访者报告了 134 个与 UX 相关的独特职位名称。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-23T17:00:00+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "b66647aea1813d83",
       "sourceId": "mopinion",
       "sourceName": "Mopinion",
@@ -1149,6 +1255,53 @@
       "itemType": null,
       "publishedAt": "2026-10-07T16:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6da9c11dfd548c1e",
+      "sourceId": "strella-blog",
+      "sourceName": "Strella Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.strella.io/blog/research-quality-guardrails-self-serve-research",
+      "title": "Keeping Research Quality High When More Teams Run Their Own Studies",
+      "titleZh": "Keeping Research Quality High When More Teams Run Their Own Studies",
+      "summaryZh": "",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T16:00:00+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "88c2bd50573138fb",
+      "sourceId": "strella-blog",
+      "sourceName": "Strella Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.strella.io/blog/customer-research-methods-overview",
+      "title": "Overview of Consumer Research Methods",
+      "titleZh": "Overview of Consumer Research Methods",
+      "summaryZh": "",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T16:00:00+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1404,6 +1557,56 @@
       "itemType": null,
       "publishedAt": "2026-10-22T05:00:45+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f2ccf3c77f3327a0",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/linkedin-live-ipsos-global-influentials-what-drives-affluents-spend",
+      "title": "[LINKEDIN LIVE] Ipsos Global Influentials: What Drives Affluents to Spend?",
+      "titleZh": "Global Influentials LinkedIn Live：什么驱动富裕人群消费？",
+      "summaryZh": "通过 LinkedIn Live 讨论 Global Influentials 所关注的富裕人群消费驱动力。议题还包括富裕消费者如何重新定义价值、奢侈与高端体验",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-23T15:11:46+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2b217acd615967e6",
+      "sourceId": "strella-blog",
+      "sourceName": "Strella Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.strella.io/blog/what-is-voice-of-customer",
+      "title": "What Is Voice of the Customer?",
+      "titleZh": "What Is Voice of the Customer?",
+      "summaryZh": "",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-22T16:00:00+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1704,6 +1907,48 @@
       "publishedAt": "2026-10-05T23:35:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
       "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "68f37a81409ea9ed",
+      "sourceId": "reddit-uxresearch",
+      "sourceName": "Reddit r/UXResearch",
+      "venue": null,
+      "tier": "EXCLUDE",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xdooqh/hiring_managers_whats_my_resume_telling_you_that/",
+      "title": "Hiring managers: What’s my resume telling you that I’m not seeing?",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-23T20:10:28+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
+      "status": "new",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f860bb0a1b693f5f",
+      "sourceId": "reddit-uxresearch",
+      "sourceName": "Reddit r/UXResearch",
+      "venue": null,
+      "tier": "EXCLUDE",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xdjkg9/ux_research_portfolios_examples/",
+      "title": "UX Research Portfolios examples",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-23T16:57:05+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
+      "status": "new",
       "dupOf": null,
       "relation": null
     },

@@ -1,5 +1,5 @@
 {
-  "count": 478,
+  "count": 488,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -256,6 +256,25 @@
       "sourceName": "arXiv",
       "url": "https://arxiv.org/abs/2610.29645v1",
       "publishedAt": "2026-10-20T16:00:00+00:00"
+    },
+    {
+      "id": "98ae0612de392e43",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "titleZh": "调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂",
+      "summaryZh": "调查 521 名 UX 从业者后发现，AI 几乎在每项任务上节省时间，但多数人对其态度平淡，强制推行、输出不可靠和期望过高消耗了这些收益。调查显示超过 99% 的受访者在工作中可使用生成式 AI 工具，其中 59% 只能使用获批的工具集，仅 12% 能自由选择任意工具。AI 带来的收益因角色、任务和工作场所不同而差异明显，智能体的使用情况也不均衡",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "Agent",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "category": "research",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-10-23T17:00:00+00:00"
     },
     {
       "id": "fc857a633c94e9de",
@@ -1047,6 +1066,23 @@
       "publishedAt": "2026-10-20T21:30:52+00:00"
     },
     {
+      "id": "08a08360ea5d506d",
+      "title": "Speed Up Consumer Interview Analysis: Where the Hours Go and What to Cut",
+      "titleZh": "Speed Up Consumer Interview Analysis: Where the Hours Go and What to Cut",
+      "summaryZh": "",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "strella"
+      ],
+      "category": "methods",
+      "sourceName": "Strella Blog",
+      "url": "https://www.strella.io/blog/how-to-analyze-interviews-faster",
+      "publishedAt": "2026-10-22T16:00:00+00:00"
+    },
+    {
       "id": "66bedcdc83b6e13d",
       "title": "Kantar Brand Tracking Methodology: MDS & Metrics Explained",
       "titleZh": "Kantar 品牌追踪方法论：MDS 框架与指标解析",
@@ -1085,6 +1121,24 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/concept-testing-retail-products/",
       "publishedAt": "2026-10-20T05:15:18+00:00"
+    },
+    {
+      "id": "db4a5aba4e89ffef",
+      "title": "Building Consumer Personas from Interviews: Every Line Traces to Evidence",
+      "titleZh": "Building Consumer Personas from Interviews: Every Line Traces to Evidence",
+      "summaryZh": "",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "strella"
+      ],
+      "category": "methods",
+      "sourceName": "Strella Blog",
+      "url": "https://www.strella.io/blog/building-customer-personas-from-interviews",
+      "publishedAt": "2026-10-22T16:00:00+00:00"
     },
     {
       "id": "7ec64c599e95e72f",
@@ -1735,6 +1789,22 @@
       "publishedAt": "2025-12-09T00:00:00+00:00"
     },
     {
+      "id": "9f40ceae20fc85ab",
+      "title": "UX Disciplines: Glossary",
+      "titleZh": "UX 学科术语表：UX、UI、CX 与相邻领域定义",
+      "summaryZh": "UX 学科术语表界定了 UX 设计、UI 设计、视觉设计、交互设计、服务设计、UX 研究与 DesignOps 等领域的工作范围，并指出这些术语常被混用。它还区分了 UX、CX 等词的多重含义，并引用 UX-careers 调查称受访者报告了 134 个与 UX 相关的独特职位名称。",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "category": "methods",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-10-23T17:00:00+00:00"
+    },
+    {
       "id": "b66647aea1813d83",
       "title": "How to build the best online feedback forms",
       "titleZh": "Mopinion：如何构建最佳在线反馈表单",
@@ -1908,6 +1978,20 @@
       "publishedAt": "2025-12-09T00:00:00+00:00"
     },
     {
+      "id": "6da9c11dfd548c1e",
+      "title": "Keeping Research Quality High When More Teams Run Their Own Studies",
+      "titleZh": "Keeping Research Quality High When More Teams Run Their Own Studies",
+      "summaryZh": "",
+      "tags": [
+        "其他"
+      ],
+      "entities": [],
+      "category": null,
+      "sourceName": "Strella Blog",
+      "url": "https://www.strella.io/blog/research-quality-guardrails-self-serve-research",
+      "publishedAt": "2026-10-22T16:00:00+00:00"
+    },
+    {
       "id": "2422378ea48b1eec",
       "title": "Queer theory and qualitative methods: an unlikely marriage?",
       "titleZh": "酷儿理论与定性研究：一场不太可能的结合？",
@@ -1922,6 +2006,21 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/queer-theory-and-qualitative-methods-an-unlikely-marriage/",
       "publishedAt": "2025-07-16T16:36:00+00:00"
+    },
+    {
+      "id": "88c2bd50573138fb",
+      "title": "Overview of Consumer Research Methods",
+      "titleZh": "Overview of Consumer Research Methods",
+      "summaryZh": "",
+      "tags": [
+        "方法/实践",
+        "市场研究"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Strella Blog",
+      "url": "https://www.strella.io/blog/customer-research-methods-overview",
+      "publishedAt": "2026-10-22T16:00:00+00:00"
     },
     {
       "id": "f2094553e5f9ba08",
@@ -2384,6 +2483,23 @@
       "publishedAt": "2026-10-22T05:00:45+00:00"
     },
     {
+      "id": "f2ccf3c77f3327a0",
+      "title": "[LINKEDIN LIVE] Ipsos Global Influentials: What Drives Affluents to Spend?",
+      "titleZh": "Global Influentials LinkedIn Live：什么驱动富裕人群消费？",
+      "summaryZh": "通过 LinkedIn Live 讨论 Global Influentials 所关注的富裕人群消费驱动力。议题还包括富裕消费者如何重新定义价值、奢侈与高端体验",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/linkedin-live-ipsos-global-influentials-what-drives-affluents-spend",
+      "publishedAt": "2026-10-23T15:11:46+00:00"
+    },
+    {
       "id": "f144b3e6b840f08d",
       "title": "Communicating and combating algorithmic bias: effects of data diversity, labeler diversity, performance bias, and user feedback on AI trust",
       "titleZh": "传达与对抗算法偏见：数据多样性、标注者多样性、性能偏见与用户反馈对 AI 信任的影响",
@@ -2396,6 +2512,21 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2024.2392494?af=R",
       "publishedAt": "2024-10-04T05:36:52+00:00"
+    },
+    {
+      "id": "2b217acd615967e6",
+      "title": "What Is Voice of the Customer?",
+      "titleZh": "What Is Voice of the Customer?",
+      "summaryZh": "",
+      "tags": [
+        "方法/实践",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Strella Blog",
+      "url": "https://www.strella.io/blog/what-is-voice-of-customer",
+      "publishedAt": "2026-10-22T16:00:00+00:00"
     },
     {
       "id": "def47d91bb8fef1b",
@@ -3057,6 +3188,30 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
       "publishedAt": "2025-11-24T12:14:05+00:00"
+    },
+    {
+      "id": "68f37a81409ea9ed",
+      "title": "Hiring managers: What’s my resume telling you that I’m not seeing?",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Reddit r/UXResearch",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xdooqh/hiring_managers_whats_my_resume_telling_you_that/",
+      "publishedAt": "2026-10-23T20:10:28+00:00"
+    },
+    {
+      "id": "f860bb0a1b693f5f",
+      "title": "UX Research Portfolios examples",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Reddit r/UXResearch",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xdjkg9/ux_research_portfolios_examples/",
+      "publishedAt": "2026-10-23T16:57:05+00:00"
     },
     {
       "id": "bdf1654a69a4176c",

@@ -18,6 +18,7 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂](https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：调查 521 名 UX 从业者后发现，AI 几乎在每项任务上节省时间，但多数人对其态度平淡，强制推行、输出不可靠和期望过高消耗了这些收益。调查显示超过 99% 的受访者在工作中可使用生成式 AI 工具，其中 59% 只能使用获批的工具集，…（Nielsen Norman Group，2026-10-23）
 - [Ipsos 第三季度营收 6.362 亿欧元，有机增长 2.0%](https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre)：Ipsos 公布第三季度营收 6.362 亿欧元，有机增长 2.0%，高于上半年的 0.8%。这一增长主要来自 EMEA、中国以及面向公众（citizens）业务的表现。（Ipsos，2026-10-23）
 - [初创公司如何做客户研究：Listen Labs 的 14 天操作手册](https://listenlabs.com/articles/startup-market-research-guide/)：Listen Labs 增长负责人 Anish Rao 发布一份 14 天初创客户研究手册，把流程拆成假设、免费二手数据、一手访谈、自下而上测算市场与付费意愿验证五步，并列出每步的交付物和时限。手册要求先写 3–5 条可证伪假设，到 da…（Listen Labs，2026-10-23）
 - [arXiv 论文对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上无显著优势](https://arxiv.org/abs/2610.30568)：arXiv 论文（arXiv:2610.30568）用同一实验设置对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上没有显著优势。反复迭代修订可稳定提升想法质量；AI 评审的分数接近人类，但在想法排序上与人类不一致，其中一个…（arXiv cs.HC，2026-10-23）
@@ -47,6 +48,5 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [MeasuringU 总结主持访谈时建立融洽关系的五种方法](https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&utm_medium=rss&utm_campaign=five-ways-to-use-rapport-when-moderating)：MeasuringU 撰文总结主持访谈时建立融洽关系的五种方法，涵盖会前准备、刻意破冰、语言与非语言技巧、警惕双向讨好，以及把融洽关系当作最后的甄别步骤。文中建议用中立的小谈降低参与者压力，用有意的停顿留出思考时间，并提醒过度友善会让参与…（MeasuringU（Jeff Sauro），2026-08-25）
 - [NN/g AI 术语表：从 token、上下文窗口到智能体、evals 与提示词注入](https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：NN/g 整理了一份面向产品与设计工作的 AI 术语表，解释 token、上下文窗口、智能体、evals 和提示词注入等术语。词条按字母排列，可查表、用浏览器查找或顺序阅读，并链接到 NN/g 的深入文章。定义遵循 AI 产品与 UX 工…（Nielsen Norman Group，2026-08-21）
 - [MeasuringU 从 34 条候选题中精简 AI 用户体验问卷](https://measuringu.com/streamlined-measurement-of-the-ux-of-ai/?utm_source=rss&utm_medium=rss&utm_campaign=streamlined-measurement-of-the-ux-of-ai)：MeasuringU 基于 2026 年 5 月对 ChatGPT、Claude、Gemini、Grok 共 420 名美国样本库受访者的回溯调查，完成 34 条 AI 用户体验候选题的筛选。因子分析显示，除一条同时落在 Trust 与…（MeasuringU（Jeff Sauro），2026-08-18）
-- [解释性序列设计：用访谈解释问卷结果的 Delve 实用指南](https://delvetool.com/blog/explanatory-sequential-research-design-delvetool/)：Delve 的《解释性序列设计：实用指南》讲解如何用访谈解释问卷结果。指南还给出真实研究案例，并演示如何在 Delve 中编码后续访谈。（Delve，2026-08-04）
 
-（更多 17 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 18 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

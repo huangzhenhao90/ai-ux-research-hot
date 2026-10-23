@@ -3,7 +3,7 @@
   "name": "行业报告",
   "group": "genre",
   "definition": "调研公司报告、行业协会规范与市场结构变化。",
-  "count": 18,
+  "count": 19,
   "items": [
     {
       "id": "26b8ca5cbfcf5bae",
@@ -292,6 +292,32 @@
       "itemType": null,
       "publishedAt": "2026-02-12T17:09:16+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f2ccf3c77f3327a0",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/linkedin-live-ipsos-global-influentials-what-drives-affluents-spend",
+      "title": "[LINKEDIN LIVE] Ipsos Global Influentials: What Drives Affluents to Spend?",
+      "titleZh": "Global Influentials LinkedIn Live：什么驱动富裕人群消费？",
+      "summaryZh": "通过 LinkedIn Live 讨论 Global Influentials 所关注的富裕人群消费驱动力。议题还包括富裕消费者如何重新定义价值、奢侈与高端体验",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-23T15:11:46+00:00",
+      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
