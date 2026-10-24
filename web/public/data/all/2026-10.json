@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "count": 195,
+  "count": 196,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -2050,6 +2050,27 @@
       "publishedAt": "2026-10-05T23:35:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
       "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8251d0e8784c8682",
+      "sourceId": "reddit-uxresearch",
+      "sourceName": "Reddit r/UXResearch",
+      "venue": null,
+      "tier": "EXCLUDE",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xehivl/what_would_you_like_to_hear_in_a_talk_about_ai/",
+      "title": "What would you like to hear in a talk about AI?",
+      "titleZh": null,
+      "summaryZh": null,
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-24T19:27:59+00:00",
+      "discoveredAt": "2026-10-24T22:16:44.946767+00:00",
+      "status": "new",
       "dupOf": null,
       "relation": null
     },

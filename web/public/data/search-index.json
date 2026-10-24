@@ -1,5 +1,5 @@
 {
-  "count": 493,
+  "count": 494,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -3286,6 +3286,18 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
       "publishedAt": "2025-11-24T12:14:05+00:00"
+    },
+    {
+      "id": "8251d0e8784c8682",
+      "title": "What would you like to hear in a talk about AI?",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Reddit r/UXResearch",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xehivl/what_would_you_like_to_hear_in_a_talk_about_ai/",
+      "publishedAt": "2026-10-24T19:27:59+00:00"
     },
     {
       "id": "68f37a81409ea9ed",
