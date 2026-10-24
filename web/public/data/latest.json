@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T22:56:32.316607+00:00",
+  "generatedAt": "2026-10-24T03:37:43.115377+00:00",
   "windowDays": 3,
   "editionHour": 8,
   "days": [
@@ -200,64 +200,6 @@
           "status": "selected",
           "dupOf": null,
           "relation": "different"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "count": 2,
-      "items": [
-        {
-          "id": "9406ef7b1798dc60",
-          "sourceId": "ur-ai-papers",
-          "sourceName": "arXiv",
-          "venue": "arXiv",
-          "tier": "T2",
-          "url": "https://arxiv.org/abs/2610.30763v1",
-          "title": "抽象的偏好，具体的回报：陈述性偏好与AI回应实际奖励之间的关系",
-          "titleZh": "PRISM 数据集研究对比用户对 AI 回答的陈述偏好与实际评分",
-          "summaryZh": "基于 PRISM 数据集的研究（1,396 名参与者、21 个 LLM、29,347 条回答）对比了用户对 AI 回答属性的陈述偏好与实际评分行为，发现陈述优先项无法直接预测实际奖励权重。未问及的特征（长度、格式、拒答语言）对评分的影响不亚于已调查属性，历史对话中要求短或长回答的反馈更具预测力。用户之间对具体特征权重存在稳定差异，但中位数仅 6 次对话导致估计精度不足。",
-          "reason": "研究用近 3 万条回答的评分数据说明，用户说出的偏好与真正打分的权重并不一致，对设计偏好问卷的研究者有参考。",
-          "category": "research",
-          "tags": [
-            "论文/研究",
-            "问卷/定量"
-          ],
-          "entities": [],
-          "itemType": "research_paper",
-          "publishedAt": "2026-10-21T16:00:00+00:00",
-          "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "same"
-        },
-        {
-          "id": "1afcb1a1360dc91a",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/voice-of-customer-software-features/",
-          "title": "Voice of Customer Software Features: What Each One Does",
-          "titleZh": "Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么",
-          "summaryZh": "Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。",
-          "reason": null,
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "文本分析/VOC",
-            "AI 访谈",
-            "定性分析"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": null,
-          "publishedAt": "2026-10-21T05:03:33+00:00",
-          "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": null
         }
       ]
     }
