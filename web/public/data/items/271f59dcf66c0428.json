@@ -1,0 +1,28 @@
+{
+  "id": "271f59dcf66c0428",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/financial-services-market-research-reports/",
+  "title": "Financial Services Market Research Reports: A Buyer’s Guide",
+  "titleZh": "金融服务市场研究报告：买家指南",
+  "summaryZh": "《金融服务市场研究报告：买家指南》梳理七类来源，指出市场规模估算差异源于范围、计量口径和货币/通胀处理。Listen Labs 的 AI 主持视频访谈覆盖 50M+ 验证受访者、120+ 语言和 45+ 国家，24 小时内交付报告。市场规模型报告通常约 $2,500–$5,000 一篇，指南提醒引用 CAGR 前核对口径。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "市场研究",
+    "AI 访谈"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-24T05:04:50+00:00",
+  "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "65b20129f3d9d28b",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/food-beverage-consumer-insights-trends/",
+  "title": "Food & Beverage Consumer Insights: The 2026 Briefing",
+  "titleZh": "Listen Labs 2026 食品饮料消费者洞察简报：七大趋势与验证方法",
+  "summaryZh": "Listen Labs 发布 2026 食品饮料消费者洞察简报，梳理蛋白质、GLP-1 适配、清洁标签等七大趋势。16% 消费者家庭使用 GLP-1（n=4,989），47% 转向自有品牌，2026 年全球市场规模 USD 9.79 万亿。其 AI 主持访谈称 24 小时内出结果，成本约为传统研究的三分之一。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "市场研究",
+    "AI 访谈"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-24T05:04:55+00:00",
+  "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

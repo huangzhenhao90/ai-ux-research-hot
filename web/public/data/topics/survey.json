@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 37,
+  "count": 38,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -314,6 +314,36 @@
       "publishedAt": "2026-08-04T00:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ec18d5dbcedfb9cf",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/cpg-market-research-playbook/",
+      "title": "How To Do CPG Market Research: A 5-Step Brand Playbook",
+      "titleZh": "Listen Labs 如何做 CPG 市场研究：5 步品牌手册",
+      "summaryZh": "Listen Labs 给出 CPG 市场研究 5 步手册，覆盖决策级问题、方法选择、样本与质量控制、零售数据解读及决策交付。其 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，支持 120+ 语言，并在 24 小时内交付分析，而传统流程常需 4–6 周。平台还提供 MaxDiff（Hierarchical Bayes）与 Gabor-Granger 定价测试。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "定性分析",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "prodege"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-24T05:04:39+00:00",
+      "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },

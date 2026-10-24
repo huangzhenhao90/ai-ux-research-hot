@@ -3,7 +3,7 @@
   "name": "可用性测试",
   "group": "field",
   "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-  "count": 6,
+  "count": 7,
   "items": [
     {
       "id": "dcc918dafe31f3ef",
@@ -104,6 +104,35 @@
       "itemType": null,
       "publishedAt": "2026-10-21T00:00:00+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "12b9385b5bfcc24b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/retail-qualitative-research-methods/",
+      "title": "Retail Qualitative Research Methods: A Practitioner’s Guide",
+      "titleZh": "Listen Labs 零售定性研究方法实践指南",
+      "summaryZh": "Listen Labs 的零售定性研究方法实践指南将 IDI、焦点小组、陪购、民族志、电商可用性测试等七类方法对应到购物者问题。IDI 聚焦研究约 9–17 次访谈饱和，焦点小组每组 6–10 人、单组低端约 $4,000–$5,000。Listen Labs 称 AI 主持访谈可覆盖 100+ 受访者，报告宣称 24 小时内交付，实际周转可长达约一周。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "AI 访谈",
+        "可用性测试",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-24T05:04:45+00:00",
+      "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

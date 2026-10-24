@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T08:42:28.584673+00:00",
+  "generatedAt": "2026-10-24T15:31:22.793456+00:00",
   "groups": [
     {
       "key": "company",
@@ -79,7 +79,7 @@
       "name": "Listen Labs",
       "group": "company",
       "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-      "count": 20
+      "count": 25
     },
     {
       "slug": "dscout",
@@ -93,7 +93,7 @@
       "name": "AI 访谈",
       "group": "field",
       "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-      "count": 17
+      "count": 21
     },
     {
       "slug": "synthetic-users",
@@ -107,14 +107,14 @@
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 37
+      "count": 38
     },
     {
       "slug": "qual-analysis",
       "name": "定性分析",
       "group": "field",
       "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-      "count": 56
+      "count": 60
     },
     {
       "slug": "voc",
@@ -128,14 +128,14 @@
       "name": "可用性测试",
       "group": "field",
       "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-      "count": 6
+      "count": 7
     },
     {
       "slug": "research-ops",
       "name": "洞察库与 ResearchOps",
       "group": "field",
       "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-      "count": 32
+      "count": 35
     },
     {
       "slug": "ethics",
@@ -163,7 +163,7 @@
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 60
+      "count": 65
     },
     {
       "slug": "prompts",

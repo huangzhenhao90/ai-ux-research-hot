@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 60,
+  "count": 65,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -533,6 +533,36 @@
       "relation": null
     },
     {
+      "id": "ec18d5dbcedfb9cf",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/cpg-market-research-playbook/",
+      "title": "How To Do CPG Market Research: A 5-Step Brand Playbook",
+      "titleZh": "Listen Labs 如何做 CPG 市场研究：5 步品牌手册",
+      "summaryZh": "Listen Labs 给出 CPG 市场研究 5 步手册，覆盖决策级问题、方法选择、样本与质量控制、零售数据解读及决策交付。其 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，支持 120+ 语言，并在 24 小时内交付分析，而传统流程常需 4–6 周。平台还提供 MaxDiff（Hierarchical Bayes）与 Gabor-Granger 定价测试。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "定性分析",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "prodege"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-24T05:04:39+00:00",
+      "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "08a08360ea5d506d",
       "sourceId": "strella-blog",
       "sourceName": "Strella Blog",
@@ -808,6 +838,35 @@
       "relation": null
     },
     {
+      "id": "12b9385b5bfcc24b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/retail-qualitative-research-methods/",
+      "title": "Retail Qualitative Research Methods: A Practitioner’s Guide",
+      "titleZh": "Listen Labs 零售定性研究方法实践指南",
+      "summaryZh": "Listen Labs 的零售定性研究方法实践指南将 IDI、焦点小组、陪购、民族志、电商可用性测试等七类方法对应到购物者问题。IDI 聚焦研究约 9–17 次访谈饱和，焦点小组每组 6–10 人、单组低端约 $4,000–$5,000。Listen Labs 称 AI 主持访谈可覆盖 100+ 受访者，报告宣称 24 小时内交付，实际周转可长达约一周。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "AI 访谈",
+        "可用性测试",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-24T05:04:45+00:00",
+      "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "0fa25d0069aa4836",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -915,6 +974,35 @@
       "itemType": null,
       "publishedAt": "2026-07-09T16:21:19+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "554c230ff099d83b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/qualitative-research-no-experience/",
+      "title": "Qualitative Research for Beginners: 7 Types & Methods",
+      "titleZh": "定性研究入门：7 种类型与方法",
+      "summaryZh": "Listen Labs 的定性研究入门指南梳理访谈、焦点小组（6–10 名参与者）等 7 种方法，并给出从开放式研究问题到主题分析的 7 步流程。指南建议起步项目招募 8–15 人，并引用 Guest et al.（2006）称同质人群第 12 次访谈可覆盖 97% 的重要主题。其 AI 平台覆盖研究设计、全球招募、AI 主持访谈与分析，宣称 24 小时内交付顾问级成果。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "AI 访谈",
+        "招募/样本",
+        "转写/编码"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-24T05:04:33+00:00",
+      "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1255,6 +1343,61 @@
       "itemType": null,
       "publishedAt": "2026-03-31T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "65b20129f3d9d28b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/food-beverage-consumer-insights-trends/",
+      "title": "Food & Beverage Consumer Insights: The 2026 Briefing",
+      "titleZh": "Listen Labs 2026 食品饮料消费者洞察简报：七大趋势与验证方法",
+      "summaryZh": "Listen Labs 发布 2026 食品饮料消费者洞察简报，梳理蛋白质、GLP-1 适配、清洁标签等七大趋势。16% 消费者家庭使用 GLP-1（n=4,989），47% 转向自有品牌，2026 年全球市场规模 USD 9.79 万亿。其 AI 主持访谈称 24 小时内出结果，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-24T05:04:55+00:00",
+      "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "271f59dcf66c0428",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/financial-services-market-research-reports/",
+      "title": "Financial Services Market Research Reports: A Buyer’s Guide",
+      "titleZh": "金融服务市场研究报告：买家指南",
+      "summaryZh": "《金融服务市场研究报告：买家指南》梳理七类来源，指出市场规模估算差异源于范围、计量口径和货币/通胀处理。Listen Labs 的 AI 主持视频访谈覆盖 50M+ 验证受访者、120+ 语言和 45+ 国家，24 小时内交付报告。市场规模型报告通常约 $2,500–$5,000 一篇，指南提醒引用 CAGR 前核对口径。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-24T05:04:50+00:00",
+      "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

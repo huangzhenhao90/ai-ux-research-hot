@@ -1,0 +1,30 @@
+{
+  "id": "554c230ff099d83b",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/qualitative-research-no-experience/",
+  "title": "Qualitative Research for Beginners: 7 Types & Methods",
+  "titleZh": "定性研究入门：7 种类型与方法",
+  "summaryZh": "Listen Labs 的定性研究入门指南梳理访谈、焦点小组（6–10 名参与者）等 7 种方法，并给出从开放式研究问题到主题分析的 7 步流程。指南建议起步项目招募 8–15 人，并引用 Guest et al.（2006）称同质人群第 12 次访谈可覆盖 97% 的重要主题。其 AI 平台覆盖研究设计、全球招募、AI 主持访谈与分析，宣称 24 小时内交付顾问级成果。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "AI 访谈",
+    "招募/样本",
+    "转写/编码"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-24T05:04:33+00:00",
+  "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
