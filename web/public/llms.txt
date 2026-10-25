@@ -18,6 +18,9 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [Listen Labs 如何用 AI 复用研究洞察：五步指南](https://listenlabs.com/articles/reuse-research-insights-with-ai/)：Listen Labs 在分步指南中介绍如何用 AI 复用研究洞察，核心是把访谈转写和洞察整理成带来源、受访者与时间戳的可追溯记录。文章列出五步流程和一段提取提示词，要求逐字引用受访者，缺证据时写 not found，并建议用可查询知识库…（Listen Labs，2026-10-25）
+- [合成研究对创业公司的适用场景与局限](https://listenlabs.com/articles/synthetic-research-for-startups/)：Listen Labs 增长负责人 Anish Rao 撰文梳理合成研究对创业公司的用处与边界，援引 NIM 对 285 项合成与真人对照的回顾，其中 24.9% 结果相近、65.3% 出现偏离。他建议把合成受访者用于概念筛选、假设生成、…（Listen Labs，2026-10-25）
+- [Listen Labs 介绍落地页概念测试四阶段流程](https://listenlabs.com/articles/concept-testing-for-landing-pages/)：Listen Labs 增长负责人 Anish Rao 介绍落地页概念测试的四阶段流程，依次为问卷与偏好测试、AI 主持访谈、付费流量小测试和 A/B 优化。问卷阶段建议每个测试单元约 200 名受访者，Top 2 Box 差距在 9–1…（Listen Labs，2026-10-25）
 - [调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂](https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：调查 521 名 UX 从业者后发现，AI 几乎在每项任务上节省时间，但多数人对其态度平淡，强制推行、输出不可靠和期望过高消耗了这些收益。调查显示超过 99% 的受访者在工作中可使用生成式 AI 工具，其中 59% 只能使用获批的工具集，…（Nielsen Norman Group，2026-10-23）
 - [Ipsos 第三季度营收 6.362 亿欧元，有机增长 2.0%](https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre)：Ipsos 公布第三季度营收 6.362 亿欧元，有机增长 2.0%，高于上半年的 0.8%。这一增长主要来自 EMEA、中国以及面向公众（citizens）业务的表现。（Ipsos，2026-10-23）
 - [初创公司如何做客户研究：Listen Labs 的 14 天操作手册](https://listenlabs.com/articles/startup-market-research-guide/)：Listen Labs 增长负责人 Anish Rao 发布一份 14 天初创客户研究手册，把流程拆成假设、免费二手数据、一手访谈、自下而上测算市场与付费意愿验证五步，并列出每步的交付物和时限。手册要求先写 3–5 条可证伪假设，到 da…（Listen Labs，2026-10-23）
@@ -45,8 +48,5 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [UX 的“看护时代”：为 AI 生成的设计善后](https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：AI 让团队生成内容、原型和可运行功能的速度快过 UX 评估，UX 正进入“看护时代”。UX 的工作从空白页设计转向判断 AI 产出中哪些保留、哪些修改，并为已存在的原型和功能善后。应对方式是建立共享判断、加速评估，并引导 AI 生成的设…（Nielsen Norman Group，2026-08-28）
 - [AI 无法在同理心地图中替代真实研究](https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：AI 无法替代真实研究来制作同理心地图，只能帮助整理已经收集到的研究材料。同理心地图用 Says、Thinks、Does、Feels 四个象限呈现团队对某类用户的已知信息，通常在工作坊中由来自真实研究的便利贴协作搭建。原文指出，AI 工具…（Nielsen Norman Group，2026-08-28）
 - [今天就能构建的 9 个 Dovetail Digital Twins，以及它们各自能为团队做什么](https://dovetail.com/blog/9-digital-twins-you-can-build-today/)：Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。（Dovetail Blog，2026-08-26）
-- [MeasuringU 总结主持访谈时建立融洽关系的五种方法](https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&utm_medium=rss&utm_campaign=five-ways-to-use-rapport-when-moderating)：MeasuringU 撰文总结主持访谈时建立融洽关系的五种方法，涵盖会前准备、刻意破冰、语言与非语言技巧、警惕双向讨好，以及把融洽关系当作最后的甄别步骤。文中建议用中立的小谈降低参与者压力，用有意的停顿留出思考时间，并提醒过度友善会让参与…（MeasuringU（Jeff Sauro），2026-08-25）
-- [NN/g AI 术语表：从 token、上下文窗口到智能体、evals 与提示词注入](https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：NN/g 整理了一份面向产品与设计工作的 AI 术语表，解释 token、上下文窗口、智能体、evals 和提示词注入等术语。词条按字母排列，可查表、用浏览器查找或顺序阅读，并链接到 NN/g 的深入文章。定义遵循 AI 产品与 UX 工…（Nielsen Norman Group，2026-08-21）
-- [MeasuringU 从 34 条候选题中精简 AI 用户体验问卷](https://measuringu.com/streamlined-measurement-of-the-ux-of-ai/?utm_source=rss&utm_medium=rss&utm_campaign=streamlined-measurement-of-the-ux-of-ai)：MeasuringU 基于 2026 年 5 月对 ChatGPT、Claude、Gemini、Grok 共 420 名美国样本库受访者的回溯调查，完成 34 条 AI 用户体验候选题的筛选。因子分析显示，除一条同时落在 Trust 与…（MeasuringU（Jeff Sauro），2026-08-18）
 
-（更多 18 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 21 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

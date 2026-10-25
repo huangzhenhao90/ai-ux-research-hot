@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 60,
+  "count": 62,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -217,6 +217,36 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "042be7b6ee4ca9d0",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/reuse-research-insights-with-ai/",
+      "title": "How To Reuse Research Insights With AI: A Step-By-Step Guide",
+      "titleZh": "Listen Labs 如何用 AI 复用研究洞察：五步指南",
+      "summaryZh": "Listen Labs 在分步指南中介绍如何用 AI 复用研究洞察，核心是把访谈转写和洞察整理成带来源、受访者与时间戳的可追溯记录。文章列出五步流程和一段提取提示词，要求逐字引用受访者，缺证据时写 not found，并建议用可查询知识库跨项目提问。文中还比较 Listen Labs Research Library 与 NotebookLM、Notion、Confluence、Dovetail 等工具在来源追溯和跨研究查询上的差异，并称 Listen Labs 已在 45+ 个国家、120+ 种语言完成 1M+ 场访谈。",
+      "reason": "文章给出把访谈转写整理为可追溯洞察记录并跨研究查询的五步流程，并附可复用提取提示词与工具比较。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps",
+        "定性分析",
+        "转写/编码",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-25T05:04:45+00:00",
+      "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "64c8d6b14fcc84d0",
@@ -487,6 +517,36 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "faf923d60fb05559",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/concept-testing-for-landing-pages/",
+      "title": "Concept Testing for Landing Pages: Validate Before You Build",
+      "titleZh": "Listen Labs 介绍落地页概念测试四阶段流程",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 介绍落地页概念测试的四阶段流程，依次为问卷与偏好测试、AI 主持访谈、付费流量小测试和 A/B 优化。问卷阶段建议每个测试单元约 200 名受访者，Top 2 Box 差距在 9–10 个百分点以内通常落在统计噪声中。AI 主持访谈用于解释分数背后的原因，Listen Labs 称可在 24 小时内交付分析结果，并覆盖 50M+ 已验证受访者。",
+      "reason": "文章给出从问卷到 AI 主持访谈再到付费流量小测试的四阶段顺序，可作为落地页概念验证的流程参考。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析",
+        "市场研究",
+        "行为数据"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-10-25T05:04:18+00:00",
+      "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "ec18d5dbcedfb9cf",

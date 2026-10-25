@@ -1,0 +1,31 @@
+{
+  "id": "042be7b6ee4ca9d0",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/reuse-research-insights-with-ai/",
+  "title": "How To Reuse Research Insights With AI: A Step-By-Step Guide",
+  "titleZh": "Listen Labs 如何用 AI 复用研究洞察：五步指南",
+  "summaryZh": "Listen Labs 在分步指南中介绍如何用 AI 复用研究洞察，核心是把访谈转写和洞察整理成带来源、受访者与时间戳的可追溯记录。文章列出五步流程和一段提取提示词，要求逐字引用受访者，缺证据时写 not found，并建议用可查询知识库跨项目提问。文中还比较 Listen Labs Research Library 与 NotebookLM、Notion、Confluence、Dovetail 等工具在来源追溯和跨研究查询上的差异，并称 Listen Labs 已在 45+ 个国家、120+ 种语言完成 1M+ 场访谈。",
+  "reason": "文章给出把访谈转写整理为可追溯洞察记录并跨研究查询的五步流程，并附可复用提取提示词与工具比较。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "洞察库/ResearchOps",
+    "定性分析",
+    "转写/编码",
+    "AI 访谈"
+  ],
+  "entities": [
+    "listen-labs",
+    "dovetail"
+  ],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-10-25T05:04:45+00:00",
+  "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

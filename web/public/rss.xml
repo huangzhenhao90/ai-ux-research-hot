@@ -5,9 +5,36 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 04:07:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 08:59:22 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 如何用 AI 复用研究洞察：五步指南</title>
+      <link>https://listenlabs.com/articles/reuse-research-insights-with-ai/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/reuse-research-insights-with-ai/</guid>
+      <pubDate>Sun, 25 Oct 2026 05:04:45 GMT</pubDate>
+      <description>Listen Labs 在分步指南中介绍如何用 AI 复用研究洞察，核心是把访谈转写和洞察整理成带来源、受访者与时间戳的可追溯记录。文章列出五步流程和一段提取提示词，要求逐字引用受访者，缺证据时写 not found，并建议用可查询知识库跨项目提问。文中还比较 Listen Labs Research Library 与 NotebookLM、Notion、Confluence、Dovetail 等工具在来源追溯和跨研究查询上的差异，并称 Listen Labs 已在 45+ 个国家、120+ 种语言完成 1M+ 场访谈。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>合成研究对创业公司的适用场景与局限</title>
+      <link>https://listenlabs.com/articles/synthetic-research-for-startups/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-research-for-startups/</guid>
+      <pubDate>Sun, 25 Oct 2026 05:04:34 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 撰文梳理合成研究对创业公司的用处与边界，援引 NIM 对 285 项合成与真人对照的回顾，其中 24.9% 结果相近、65.3% 出现偏离。他建议把合成受访者用于概念筛选、假设生成、小众 B2B 人群探索、真人访谈前预验证和问卷与甄别问卷预测试五类场景，定价、上市承诺与品牌定位等高风险决策仍需真人数据确认。文中还引用覆盖 2,058 名美国受访者、500 个问题的 Twin-2K-500 数据集，约 45% 真人拒绝了假设疫苗，而对应的数字孪生仅 4% 拒绝。</description>
+      <category>Listen Labs</category>
+      <category>opinion</category>
+    </item>
+    <item>
+      <title>Listen Labs 介绍落地页概念测试四阶段流程</title>
+      <link>https://listenlabs.com/articles/concept-testing-for-landing-pages/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/concept-testing-for-landing-pages/</guid>
+      <pubDate>Sun, 25 Oct 2026 05:04:18 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 介绍落地页概念测试的四阶段流程，依次为问卷与偏好测试、AI 主持访谈、付费流量小测试和 A/B 优化。问卷阶段建议每个测试单元约 200 名受访者，Top 2 Box 差距在 9–10 个百分点以内通常落在统计噪声中。AI 主持访谈用于解释分数背后的原因，Listen Labs 称可在 24 小时内交付分析结果，并覆盖 50M+ 已验证受访者。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂</title>
       <link>https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
@@ -428,15 +455,6 @@
       <description>Quirkos 列出定性分析中编码过多的几个警示信号：无法区分不同编码、多数编码为开放式且互不连接、检索结果碎片化到无意义、画布显得太小。建议用编码描述建立编码手册、合并近义编码、设置主题性上位编码来精简。Quirkos 中可悬停查看描述、右键合并，报告功能可查看全部描述。</description>
       <category>Quirkos</category>
       <category>methods</category>
-    </item>
-    <item>
-      <title>Quirkos 3 发布：不含 AI 功能的完全离线定性分析软件</title>
-      <link>https://www.quirkos.com/blog/post/quirkos-3-is-released-best-qualitative-software/</link>
-      <guid isPermaLink="true">https://www.quirkos.com/blog/post/quirkos-3-is-released-best-qualitative-software/</guid>
-      <pubDate>Thu, 23 Jan 2025 10:27:25 GMT</pubDate>
-      <description>Quirkos 发布完全离线的桌面定性分析软件 Quirkos 3，支持 Windows、Mac 和 Linux，不含任何 AI 功能，数据不与外部共享。新版沿用 Quirkos Web 界面，新增各来源主题使用频次表、编码间相关性等报告与图表，并支持导入 REFI-QDA 标准项目。Quirkos 2 继续获得支持且与新版双向兼容；过去 3 个月购买者可免费升级，其他用户升级费为新许可的 50%，并提供 14 天免费试用。</description>
-      <category>Quirkos</category>
-      <category>tools</category>
     </item>
   </channel>
 </rss>

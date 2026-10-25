@@ -1,0 +1,31 @@
+{
+  "id": "faf923d60fb05559",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/concept-testing-for-landing-pages/",
+  "title": "Concept Testing for Landing Pages: Validate Before You Build",
+  "titleZh": "Listen Labs 介绍落地页概念测试四阶段流程",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 介绍落地页概念测试的四阶段流程，依次为问卷与偏好测试、AI 主持访谈、付费流量小测试和 A/B 优化。问卷阶段建议每个测试单元约 200 名受访者，Top 2 Box 差距在 9–10 个百分点以内通常落在统计噪声中。AI 主持访谈用于解释分数背后的原因，Listen Labs 称可在 24 小时内交付分析结果，并覆盖 50M+ 已验证受访者。",
+  "reason": "文章给出从问卷到 AI 主持访谈再到付费流量小测试的四阶段顺序，可作为落地页概念验证的流程参考。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "问卷/定量",
+    "定性分析",
+    "市场研究",
+    "行为数据"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-10-25T05:04:18+00:00",
+  "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

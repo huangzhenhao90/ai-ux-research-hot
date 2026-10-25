@@ -1,5 +1,5 @@
 {
-  "count": 494,
+  "count": 500,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -256,6 +256,46 @@
       "sourceName": "arXiv",
       "url": "https://arxiv.org/abs/2610.29645v1",
       "publishedAt": "2026-10-20T16:00:00+00:00"
+    },
+    {
+      "id": "042be7b6ee4ca9d0",
+      "title": "How To Reuse Research Insights With AI: A Step-By-Step Guide",
+      "titleZh": "Listen Labs 如何用 AI 复用研究洞察：五步指南",
+      "summaryZh": "Listen Labs 在分步指南中介绍如何用 AI 复用研究洞察，核心是把访谈转写和洞察整理成带来源、受访者与时间戳的可追溯记录。文章列出五步流程和一段提取提示词，要求逐字引用受访者，缺证据时写 not found，并建议用可查询知识库跨项目提问。文中还比较 Listen Labs Research Library 与 NotebookLM、Notion、Confluence、Dovetail 等工具在来源追溯和跨研究查询上的差异，并称 Listen Labs 已在 45+ 个国家、120+ 种语言完成 1M+ 场访谈。",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps",
+        "定性分析",
+        "转写/编码",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/reuse-research-insights-with-ai/",
+      "publishedAt": "2026-10-25T05:04:45+00:00"
+    },
+    {
+      "id": "2b135116e602f7ca",
+      "title": "Synthetic Research for Startups: Benefits & Limits",
+      "titleZh": "合成研究对创业公司的适用场景与局限",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文梳理合成研究对创业公司的用处与边界，援引 NIM 对 285 项合成与真人对照的回顾，其中 24.9% 结果相近、65.3% 出现偏离。他建议把合成受访者用于概念筛选、假设生成、小众 B2B 人群探索、真人访谈前预验证和问卷与甄别问卷预测试五类场景，定价、上市承诺与品牌定位等高风险决策仍需真人数据确认。文中还引用覆盖 2,058 名美国受访者、500 个问题的 Twin-2K-500 数据集，约 45% 真人拒绝了假设疫苗，而对应的数字孪生仅 4% 拒绝。",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/synthetic-research-for-startups/",
+      "publishedAt": "2026-10-25T05:04:34+00:00"
     },
     {
       "id": "98ae0612de392e43",
@@ -831,6 +871,27 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/exploratory-sequential-research-design-delvetool/",
       "publishedAt": "2026-08-04T00:00:00+00:00"
+    },
+    {
+      "id": "faf923d60fb05559",
+      "title": "Concept Testing for Landing Pages: Validate Before You Build",
+      "titleZh": "Listen Labs 介绍落地页概念测试四阶段流程",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 介绍落地页概念测试的四阶段流程，依次为问卷与偏好测试、AI 主持访谈、付费流量小测试和 A/B 优化。问卷阶段建议每个测试单元约 200 名受访者，Top 2 Box 差距在 9–10 个百分点以内通常落在统计噪声中。AI 主持访谈用于解释分数背后的原因，Listen Labs 称可在 24 小时内交付分析结果，并覆盖 50M+ 已验证受访者。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析",
+        "市场研究",
+        "行为数据"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/concept-testing-for-landing-pages/",
+      "publishedAt": "2026-10-25T05:04:18+00:00"
     },
     {
       "id": "c4ffc13afa1657d9",
@@ -2021,6 +2082,26 @@
       "publishedAt": "2025-08-28T00:00:00+00:00"
     },
     {
+      "id": "10f9cc0e7897a987",
+      "title": "9 Best Quantilope Alternatives For Consumer Insights",
+      "titleZh": "9 个最佳 Quantilope 替代方案：面向消费者洞察",
+      "summaryZh": "Listen Labs 在 9 个 Quantilope 替代方案盘点中被评为消费者洞察首选，可同时访谈数百名参与者并在 24 小时内交付分析。其平台从覆盖 45+ 国家、120+ 语言的 50M+ 验证样本网络招募，成本约为传统研究的三分之一。其他替代方案还包括 Appinio、GWI、Qualtrics 和 Latana 等。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "quantilope",
+        "qualtrics"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-quantilope-alternatives-consumer-insights/",
+      "publishedAt": "2026-10-25T05:04:25+00:00"
+    },
+    {
       "id": "08e58d19623b331e",
       "title": "The Best QDA Software for Teaching Qualitative Research",
       "titleZh": "定性研究教学的最佳 QDA 软件指南",
@@ -2255,6 +2336,28 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/manual-coding-vs-qualitative-coding-software/",
       "publishedAt": "2026-03-31T00:00:00+00:00"
+    },
+    {
+      "id": "70097db50ef4dc5d",
+      "title": "Best AI Digital Twin Platforms for Consumer Insights",
+      "titleZh": "面向消费者洞察的最佳 AI 数字孪生平台：Listen Labs 居首",
+      "summaryZh": "消费者洞察 AI 数字孪生平台榜单将 Listen Labs 评为第一，其 1:1 Listen Twins 基于真实用户深度访谈，每个回答附推理、访谈引述和置信度分数。Listen Labs 覆盖研究设计、招募、AI 主持访谈、分析与交付，24 小时内出结果，成本约为传统研究的三分之一。",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar",
+        "outset"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-platforms/",
+      "publishedAt": "2026-10-25T05:04:40+00:00"
     },
     {
       "id": "65b20129f3d9d28b",
@@ -3286,6 +3389,18 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
       "publishedAt": "2025-11-24T12:14:05+00:00"
+    },
+    {
+      "id": "7f4dc4d625f6f459",
+      "title": "Your thoughts on generalist UXers",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Reddit r/UXResearch",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xeu2b8/your_thoughts_on_generalist_uxers/",
+      "publishedAt": "2026-10-25T05:34:26+00:00"
     },
     {
       "id": "8251d0e8784c8682",

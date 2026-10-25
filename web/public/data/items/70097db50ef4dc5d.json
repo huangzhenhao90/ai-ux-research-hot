@@ -1,0 +1,32 @@
+{
+  "id": "70097db50ef4dc5d",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-digital-twin-platforms/",
+  "title": "Best AI Digital Twin Platforms for Consumer Insights",
+  "titleZh": "面向消费者洞察的最佳 AI 数字孪生平台：Listen Labs 居首",
+  "summaryZh": "消费者洞察 AI 数字孪生平台榜单将 Listen Labs 评为第一，其 1:1 Listen Twins 基于真实用户深度访谈，每个回答附推理、访谈引述和置信度分数。Listen Labs 覆盖研究设计、招募、AI 主持访谈、分析与交付，24 小时内出结果，成本约为传统研究的三分之一。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "合成用户",
+    "AI 访谈",
+    "市场研究",
+    "Kantar"
+  ],
+  "entities": [
+    "listen-labs",
+    "kantar",
+    "outset"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-25T05:04:40+00:00",
+  "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

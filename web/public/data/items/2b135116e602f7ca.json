@@ -1,0 +1,29 @@
+{
+  "id": "2b135116e602f7ca",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/synthetic-research-for-startups/",
+  "title": "Synthetic Research for Startups: Benefits & Limits",
+  "titleZh": "合成研究对创业公司的适用场景与局限",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文梳理合成研究对创业公司的用处与边界，援引 NIM 对 285 项合成与真人对照的回顾，其中 24.9% 结果相近、65.3% 出现偏离。他建议把合成受访者用于概念筛选、假设生成、小众 B2B 人群探索、真人访谈前预验证和问卷与甄别问卷预测试五类场景，定价、上市承诺与品牌定位等高风险决策仍需真人数据确认。文中还引用覆盖 2,058 名美国受访者、500 个问题的 Twin-2K-500 数据集，约 45% 真人拒绝了假设疫苗，而对应的数字孪生仅 4% 拒绝。",
+  "reason": "汇总 285 项合成与真人对照等多项研究，说明合成受访者适合哪些环节、哪些高风险决策仍须真人验证。",
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "合成用户",
+    "AI 访谈",
+    "问卷/定量"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "opinion_analysis",
+  "publishedAt": "2026-10-25T05:04:34+00:00",
+  "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}
