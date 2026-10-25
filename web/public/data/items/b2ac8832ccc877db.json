@@ -1,0 +1,25 @@
+{
+  "id": "b2ac8832ccc877db",
+  "sourceId": "uxdesign-cc",
+  "sourceName": "UX Collective",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4",
+  "title": "Where to draw the line before AI reaches professional users",
+  "titleZh": "AI 进入专业用户工作前，边界该划在哪里",
+  "summaryZh": "作者提出六个考量，用来判断对话式 AI 界面是在加速专家用户，还是在他们与熟悉的工作之间插进一个键盘。文中引用 METR 的随机试验，经验丰富的开源开发者在自己的代码库上使用 AI 工具反而慢 19%，却以为获得了提速；Dell'Acqua、Mollick、Lakhani 等对 758 名顾问的研究中，AI 能力范围内的任务快 25.1% 且质量更高，超出范围时正确率低 19%。作者还以拥有 400 个已保存搜索的招聘人员或律师为例，指出自然语言输入把专家早已内化的字段名和状态码又变回表述问题。",
+  "reason": "作者用六条判断标准区分聊天界面何时帮到专家用户、何时拖慢他们，可作为评估对话式改版取舍的参照。",
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "可用性测试"
+  ],
+  "entities": [],
+  "itemType": "opinion_analysis",
+  "publishedAt": "2026-10-25T12:31:45+00:00",
+  "discoveredAt": "2026-10-25T15:41:00.844252+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

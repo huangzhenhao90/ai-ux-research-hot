@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 08:59:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 15:41:00 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
+    <item>
+      <title>AI 进入专业用户工作前，边界该划在哪里</title>
+      <link>https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4</link>
+      <guid isPermaLink="true">https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4</guid>
+      <pubDate>Sun, 25 Oct 2026 12:31:45 GMT</pubDate>
+      <description>作者提出六个考量，用来判断对话式 AI 界面是在加速专家用户，还是在他们与熟悉的工作之间插进一个键盘。文中引用 METR 的随机试验，经验丰富的开源开发者在自己的代码库上使用 AI 工具反而慢 19%，却以为获得了提速；Dell'Acqua、Mollick、Lakhani 等对 758 名顾问的研究中，AI 能力范围内的任务快 25.1% 且质量更高，超出范围时正确率低 19%。作者还以拥有 400 个已保存搜索的招聘人员或律师为例，指出自然语言输入把专家早已内化的字段名和状态码又变回表述问题。</description>
+      <category>UX Collective</category>
+      <category>opinion</category>
+    </item>
     <item>
       <title>Listen Labs 如何用 AI 复用研究洞察：五步指南</title>
       <link>https://listenlabs.com/articles/reuse-research-insights-with-ai/</link>
@@ -446,15 +455,6 @@
       <description>Dovetail 发布 2025 秋季版本，上线 10 项新能力，覆盖 AI Agents、Dashboards、Docs 与集成。官方称这些能力将客户反馈放在产品构建流程的核心，并改变传统线性的 SDLC 工作流。</description>
       <category>Dovetail Blog</category>
       <category>tools</category>
-    </item>
-    <item>
-      <title>我的定性分析编码是不是太多了？Quirkos 列出警示信号与精简方法</title>
-      <link>https://www.quirkos.com/blog/post/do-i-have-too-many-codes-in-my-qualitative-analysis/</link>
-      <guid isPermaLink="true">https://www.quirkos.com/blog/post/do-i-have-too-many-codes-in-my-qualitative-analysis/</guid>
-      <pubDate>Fri, 09 May 2025 09:46:24 GMT</pubDate>
-      <description>Quirkos 列出定性分析中编码过多的几个警示信号：无法区分不同编码、多数编码为开放式且互不连接、检索结果碎片化到无意义、画布显得太小。建议用编码描述建立编码手册、合并近义编码、设置主题性上位编码来精简。Quirkos 中可悬停查看描述、右键合并，报告功能可查看全部描述。</description>
-      <category>Quirkos</category>
-      <category>methods</category>
     </item>
   </channel>
 </rss>

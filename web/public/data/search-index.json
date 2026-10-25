@@ -1,5 +1,5 @@
 {
-  "count": 500,
+  "count": 502,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -187,6 +187,21 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/",
       "publishedAt": "2026-05-11T14:00:00+00:00"
+    },
+    {
+      "id": "b2ac8832ccc877db",
+      "title": "Where to draw the line before AI reaches professional users",
+      "titleZh": "AI 进入专业用户工作前，边界该划在哪里",
+      "summaryZh": "作者提出六个考量，用来判断对话式 AI 界面是在加速专家用户，还是在他们与熟悉的工作之间插进一个键盘。文中引用 METR 的随机试验，经验丰富的开源开发者在自己的代码库上使用 AI 工具反而慢 19%，却以为获得了提速；Dell'Acqua、Mollick、Lakhani 等对 758 名顾问的研究中，AI 能力范围内的任务快 25.1% 且质量更高，超出范围时正确率低 19%。作者还以拥有 400 个已保存搜索的招聘人员或律师为例，指出自然语言输入把专家早已内化的字段名和状态码又变回表述问题。",
+      "tags": [
+        "观点/讨论",
+        "可用性测试"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-10-25T12:31:45+00:00"
     },
     {
       "id": "05374bec817f75e3",
@@ -3389,6 +3404,18 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
       "publishedAt": "2025-11-24T12:14:05+00:00"
+    },
+    {
+      "id": "14b6c8aeeab552ae",
+      "title": "Soy psicóloga y quiero entrar al área de UX Research (Argentina), qué me recomiendan?",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Reddit r/UXResearch",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xezfyk/soy_psicóloga_y_quiero_entrar_al_área_de_ux/",
+      "publishedAt": "2026-10-25T10:59:21+00:00"
     },
     {
       "id": "7f4dc4d625f6f459",

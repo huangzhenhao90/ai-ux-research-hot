@@ -18,6 +18,7 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [AI 进入专业用户工作前，边界该划在哪里](https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4)：作者提出六个考量，用来判断对话式 AI 界面是在加速专家用户，还是在他们与熟悉的工作之间插进一个键盘。文中引用 METR 的随机试验，经验丰富的开源开发者在自己的代码库上使用 AI 工具反而慢 19%，却以为获得了提速；Dell'Acqu…（UX Collective，2026-10-25）
 - [Listen Labs 如何用 AI 复用研究洞察：五步指南](https://listenlabs.com/articles/reuse-research-insights-with-ai/)：Listen Labs 在分步指南中介绍如何用 AI 复用研究洞察，核心是把访谈转写和洞察整理成带来源、受访者与时间戳的可追溯记录。文章列出五步流程和一段提取提示词，要求逐字引用受访者，缺证据时写 not found，并建议用可查询知识库…（Listen Labs，2026-10-25）
 - [合成研究对创业公司的适用场景与局限](https://listenlabs.com/articles/synthetic-research-for-startups/)：Listen Labs 增长负责人 Anish Rao 撰文梳理合成研究对创业公司的用处与边界，援引 NIM 对 285 项合成与真人对照的回顾，其中 24.9% 结果相近、65.3% 出现偏离。他建议把合成受访者用于概念筛选、假设生成、…（Listen Labs，2026-10-25）
 - [Listen Labs 介绍落地页概念测试四阶段流程](https://listenlabs.com/articles/concept-testing-for-landing-pages/)：Listen Labs 增长负责人 Anish Rao 介绍落地页概念测试的四阶段流程，依次为问卷与偏好测试、AI 主持访谈、付费流量小测试和 A/B 优化。问卷阶段建议每个测试单元约 200 名受访者，Top 2 Box 差距在 9–1…（Listen Labs，2026-10-25）
@@ -47,6 +48,5 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [Product Talk 发布 AI 评估测试框架，附可运行的合成访谈示例](https://www.producttalk.org/ai-evals-test-harness/)：Product Talk 作者将自用的 AI 评估测试框架整理进代码仓库，并附一个完整示例，读者可以先跑通示例，再替换成自己的输入、提示词和 eval。示例用 15 份合成访谈记录检验「访谈转故事并判断参与者状态」的流程，更换提示词后编造…（Product Talk（Teresa Torres），2026-09-02）
 - [UX 的“看护时代”：为 AI 生成的设计善后](https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：AI 让团队生成内容、原型和可运行功能的速度快过 UX 评估，UX 正进入“看护时代”。UX 的工作从空白页设计转向判断 AI 产出中哪些保留、哪些修改，并为已存在的原型和功能善后。应对方式是建立共享判断、加速评估，并引导 AI 生成的设…（Nielsen Norman Group，2026-08-28）
 - [AI 无法在同理心地图中替代真实研究](https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：AI 无法替代真实研究来制作同理心地图，只能帮助整理已经收集到的研究材料。同理心地图用 Says、Thinks、Does、Feels 四个象限呈现团队对某类用户的已知信息，通常在工作坊中由来自真实研究的便利贴协作搭建。原文指出，AI 工具…（Nielsen Norman Group，2026-08-28）
-- [今天就能构建的 9 个 Dovetail Digital Twins，以及它们各自能为团队做什么](https://dovetail.com/blog/9-digital-twins-you-can-build-today/)：Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。（Dovetail Blog，2026-08-26）
 
-（更多 21 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 22 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
