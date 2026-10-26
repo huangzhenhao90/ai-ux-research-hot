@@ -1,5 +1,5 @@
 {
-  "count": 511,
+  "count": 512,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -52,6 +52,24 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/suns-out-2026-launch/",
       "publishedAt": "2026-07-14T16:00:00+00:00"
+    },
+    {
+      "id": "342f2af81bbbe547",
+      "title": "User Experience Salaries & Calculator (2026)",
+      "titleZh": "MeasuringU 与 UXPA 发布 2026 UX 薪资调查：中位数 $143K，附薪资计算器",
+      "summaryZh": "MeasuringU 与 UXPA 的 2026 UX 薪资调查共收集 24 个国家 383 份样本，UX 从业者薪资中位数为 $143K，较 2024 年的 $120K 高 19%。同期通胀为 6.3%，通胀调整后实际增幅约 12%；样本中美国占比由 67% 升至 82%，也抬高了整体中位数。关键驱动因素的回归模型解释了 73% 的薪资差异，地区影响最大，美国中位数 $153K，英国 $100K、加拿大 $81K、德国 $68K；页面附薪资计算器。",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "招募/样本"
+      ],
+      "entities": [
+        "uxpa"
+      ],
+      "category": "research",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "url": "https://measuringu.com/salary-survey2026/?utm_source=rss&utm_medium=rss&utm_campaign=salary-survey2026",
+      "publishedAt": "2026-10-26T18:42:59+00:00"
     },
     {
       "id": "a16bc157b306b9dd",

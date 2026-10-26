@@ -18,6 +18,7 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [MeasuringU 与 UXPA 发布 2026 UX 薪资调查：中位数 $143K，附薪资计算器](https://measuringu.com/salary-survey2026/?utm_source=rss&utm_medium=rss&utm_campaign=salary-survey2026)：MeasuringU 与 UXPA 的 2026 UX 薪资调查共收集 24 个国家 383 份样本，UX 从业者薪资中位数为 $143K，较 2024 年的 $120K 高 19%。同期通胀为 6.3%，通胀调整后实际增幅约 12%；样…（MeasuringU（Jeff Sauro），2026-10-26）
 - [如何用 AI persona 做可用性测试：Listen Labs 完整指南](https://listenlabs.com/articles/ai-personas-usability-testing/)：Listen Labs 在一份指南中把 AI persona 定位为可用性测试的假设生成与分诊工具，而非证据来源。指南主张用行为特征而非人口标签构建 persona，并用显式反迎合提示词让模型报告摩擦点而不是给出好评。文中引用 NN/g…（Listen Labs，2026-10-26）
 - [Listen Labs 分步讲解如何用 AI 模拟顾客反应](https://listenlabs.com/articles/simulate-customer-reactions-with-ai/)：Listen Labs 增长负责人 Anish Rao 撰文给出用 AI 模拟顾客反应的分步流程，包括定义决策与假设、选择分群、构建模拟基础、记录推理过程、用真人验证以及报告标注数据来源。文中引用 Park 等人（arXiv:2411.1…（Listen Labs，2026-10-26）
 - [Atlas of Human-AI Interaction 用 LLM 从 31,741 篇论文抽取 308,802 条论断构建交互知识图谱](https://arxiv.org/abs/2509.25499)：论文提出一套组织实证发现的框架，结合 LLM 驱动的论断抽取、实体消解、分类体系生成与知识图谱构建，并保留与研究情境和来源的链接。作者以 Atlas of Human-AI Interaction 实例化该框架，组织来自 31,741 篇…（arXiv cs.HC，2026-10-26）
@@ -47,6 +48,5 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [Vistaly 为 1 个客户反馈做了 4 个新 eval 与 16 个实验变体](https://www.producttalk.org/4-new-evals-and-16-experiment-variants/)：Teresa Torres 与 Vistaly 为修复一条客户反馈投入 4 个新 eval 与 16 个实验变体，该反馈指 AI 生成的机会解决方案树在一个分支上缺少层级。她先用代码断言的 tree-shape eval 统计父节点的子节…（Product Talk（Teresa Torres），2026-09-16）
 - [用 AI 原型制作更早测试复杂交互](https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实…（Nielsen Norman Group，2026-09-11）
 - [Cint 发文分析 MCP 与 AI 智能体如何重塑市场洞察](https://www.cint.com/blog/mcps-market-research-esomar/)：Cint 发布文章，讨论 MCP 与 AI 智能体正在如何重塑市场洞察的工作方式。文章以行业分析视角展开，未在标题层面给出具体案例或数据。（Cint，2026-09-10）
-- [定性研究中的可确认性：含义与建立方法](https://delvetool.com/blog/confirmability-in-qualitative-research/)：Delve 发文讲解定性研究中的可确认性，即如何证明研究发现来自数据本身。文章建议在编码过程中同步建立审计轨迹，由 Delve 集中保存记录。（Delve，2026-09-08）
 
-（更多 26 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 27 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

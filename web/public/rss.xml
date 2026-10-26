@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 18:23:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 23:36:41 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
+    <item>
+      <title>MeasuringU 与 UXPA 发布 2026 UX 薪资调查：中位数 $143K，附薪资计算器</title>
+      <link>https://measuringu.com/salary-survey2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=salary-survey2026</link>
+      <guid isPermaLink="true">https://measuringu.com/salary-survey2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=salary-survey2026</guid>
+      <pubDate>Mon, 26 Oct 2026 18:42:59 GMT</pubDate>
+      <description>MeasuringU 与 UXPA 的 2026 UX 薪资调查共收集 24 个国家 383 份样本，UX 从业者薪资中位数为 $143K，较 2024 年的 $120K 高 19%。同期通胀为 6.3%，通胀调整后实际增幅约 12%；样本中美国占比由 67% 升至 82%，也抬高了整体中位数。关键驱动因素的回归模型解释了 73% 的薪资差异，地区影响最大，美国中位数 $153K，英国 $100K、加拿大 $81K、德国 $68K；页面附薪资计算器。</description>
+      <category>MeasuringU（Jeff Sauro）</category>
+      <category>research</category>
+    </item>
     <item>
       <title>如何用 AI persona 做可用性测试：Listen Labs 完整指南</title>
       <link>https://listenlabs.com/articles/ai-personas-usability-testing/</link>
@@ -446,15 +455,6 @@
       <description>的指南演示如何用 AI 从首个编码到最终主题构建并应用主题分析编码本。指南具体说明在哪些环节、何时以及为何应信任 AI 工具，而不是依赖人工判断</description>
       <category>Delve</category>
       <category>methods</category>
-    </item>
-    <item>
-      <title>MAXQDA 发布 26.2 更新，新增片段级 AI 编码与 AI Reports</title>
-      <link>https://www.maxqda.com/blogpost/maxqda-26-2</link>
-      <guid isPermaLink="true">https://www.maxqda.com/blogpost/maxqda-26-2</guid>
-      <pubDate>Thu, 05 Mar 2026 13:21:19 GMT</pubDate>
-      <description>MAXQDA 发布 26.2（2026 年 3 月）更新，新增片段级 AI 编码与 Beta 版 AI Reports，并改版 Memos 布局。片段级 AI 编码会对选中的文本片段给出编码建议并附理由，需人工批准后应用，AI Assist 免费版一次最多分析 5 个编码，Premium 最多 20 个。AI Reports 按自定问题生成可回溯到原文的报告，免费版最多纳入 2 份文档，Premium 最多 50 份。</description>
-      <category>MAXQDA</category>
-      <category>tools</category>
     </item>
   </channel>
 </rss>

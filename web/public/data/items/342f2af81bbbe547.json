@@ -1,0 +1,28 @@
+{
+  "id": "342f2af81bbbe547",
+  "sourceId": "measuringu",
+  "sourceName": "MeasuringU（Jeff Sauro）",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://measuringu.com/salary-survey2026/?utm_source=rss&utm_medium=rss&utm_campaign=salary-survey2026",
+  "title": "User Experience Salaries & Calculator (2026)",
+  "titleZh": "MeasuringU 与 UXPA 发布 2026 UX 薪资调查：中位数 $143K，附薪资计算器",
+  "summaryZh": "MeasuringU 与 UXPA 的 2026 UX 薪资调查共收集 24 个国家 383 份样本，UX 从业者薪资中位数为 $143K，较 2024 年的 $120K 高 19%。同期通胀为 6.3%，通胀调整后实际增幅约 12%；样本中美国占比由 67% 升至 82%，也抬高了整体中位数。关键驱动因素的回归模型解释了 73% 的薪资差异，地区影响最大，美国中位数 $153K，英国 $100K、加拿大 $81K、德国 $68K；页面附薪资计算器。",
+  "reason": "报告交代了样本结构与通胀调整，读者可据此判断 $143K 中位数与自己薪资的可比程度，并查看地区差异。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "问卷/定量",
+    "招募/样本"
+  ],
+  "entities": [
+    "uxpa"
+  ],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-26T18:42:59+00:00",
+  "discoveredAt": "2026-10-26T23:36:41.954412+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "same",
+  "related": []
+}
