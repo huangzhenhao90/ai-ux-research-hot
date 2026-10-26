@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:21:02.599613+00:00",
+  "generatedAt": "2026-10-26T03:38:01.703139+00:00",
   "windowDays": 3,
   "editionHour": 8,
   "days": [
@@ -115,118 +115,6 @@
           "itemType": "method_or_template",
           "publishedAt": "2026-10-25T05:04:18+00:00",
           "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "count": 4,
-      "items": [
-        {
-          "id": "c19211af82edc8c6",
-          "sourceId": "arxiv-cs-hc",
-          "sourceName": "arXiv cs.HC",
-          "venue": null,
-          "tier": "T2",
-          "url": "https://arxiv.org/abs/2610.30568",
-          "title": "Beyond Better Ideas: How Human-AI Collaboration Shapes Scientific Ideas and Human Perceptions",
-          "titleZh": "arXiv 论文对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上无显著优势",
-          "summaryZh": "arXiv 论文（arXiv:2610.30568）用同一实验设置对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上没有显著优势。反复迭代修订可稳定提升想法质量；AI 评审的分数接近人类，但在想法排序上与人类不一致，其中一个 AI 评审更偏好 AI 辅助方案，而人类评审并无对应的偏好。研究还发现协作来源只能被部分识别，人机与人人产出的科学成果存在大量重叠，并且亲身参与 AI 协作的人认为其更有用，但效率提升小于预期。",
-          "reason": "论文在同一实验设置下让人机与人际科研团队、人类与 LLM 评审同场比较，呈现 AI 协作对想法质量与评价的影响差异。",
-          "category": "research",
-          "tags": [
-            "论文/研究",
-            "学术 HCI"
-          ],
-          "entities": [],
-          "itemType": "research_paper",
-          "publishedAt": "2026-10-23T04:00:00+00:00",
-          "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "98ae0612de392e43",
-          "sourceId": "nngroup",
-          "sourceName": "Nielsen Norman Group",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-          "titleZh": "调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂",
-          "summaryZh": "调查 521 名 UX 从业者后发现，AI 几乎在每项任务上节省时间，但多数人对其态度平淡，强制推行、输出不可靠和期望过高消耗了这些收益。调查显示超过 99% 的受访者在工作中可使用生成式 AI 工具，其中 59% 只能使用获批的工具集，仅 12% 能自由选择任意工具。AI 带来的收益因角色、任务和工作场所不同而差异明显，智能体的使用情况也不均衡",
-          "reason": "基于 521 名 UX 从业者的调查给出 AI 提效与态度分化的事实，可按角色与任务拆解收益差异。",
-          "category": "research",
-          "tags": [
-            "论文/研究",
-            "问卷/定量",
-            "Agent",
-            "NN/g"
-          ],
-          "entities": [
-            "nngroup"
-          ],
-          "itemType": "research_paper",
-          "publishedAt": "2026-10-23T17:00:00+00:00",
-          "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "b657bf455c82f874",
-          "sourceId": "ipsos",
-          "sourceName": "Ipsos",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre",
-          "title": "Croissance organique de 2,0 % au troisième trimestre",
-          "titleZh": "Ipsos 第三季度营收 6.362 亿欧元，有机增长 2.0%",
-          "summaryZh": "Ipsos 公布第三季度营收 6.362 亿欧元，有机增长 2.0%，高于上半年的 0.8%。这一增长主要来自 EMEA、中国以及面向公众（citizens）业务的表现。",
-          "reason": "对比上半年 0.8% 的有机增长，这份财报给出第三季度回升到 2.0% 的区域来源，可用来观察市场研究行业的需求走向。",
-          "category": "industry",
-          "tags": [
-            "行业动态",
-            "市场研究",
-            "Ipsos"
-          ],
-          "entities": [
-            "ipsos"
-          ],
-          "itemType": "industry_event",
-          "publishedAt": "2026-10-23T05:50:34+00:00",
-          "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "d8770b9635a8b9b8",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/startup-market-research-guide/",
-          "title": "How To Do Customer Research For a Startup: A 14-Day Playbook",
-          "titleZh": "初创公司如何做客户研究：Listen Labs 的 14 天操作手册",
-          "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布一份 14 天初创客户研究手册，把流程拆成假设、免费二手数据、一手访谈、自下而上测算市场与付费意愿验证五步，并列出每步的交付物和时限。手册要求先写 3–5 条可证伪假设，到 data.census.gov、sba.gov、Google Trends 与公开竞品 10-K 中各提取一个具体数字，形成需求信号备忘录。文中引用 Hennink 等人关于定性饱和的研究，称编码饱和约需 9 场访谈、意义饱和需 16–24 场，并附 7 个问题的访谈问题库和追问示例。",
-          "reason": "文中把两周验证拆成带交付物与时限的五个步骤，并附可直接套用的访谈问题库和饱和样本量参考。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "AI 访谈",
-            "招募/样本"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "method_or_template",
-          "publishedAt": "2026-10-23T05:08:42+00:00",
-          "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
           "status": "selected",
           "dupOf": null,
           "relation": "different"
