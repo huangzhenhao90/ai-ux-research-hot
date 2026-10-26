@@ -1,5 +1,5 @@
 {
-  "count": 510,
+  "count": 511,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -3395,6 +3395,20 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/how-get-more-accurate-results-ai-qualitative-research/",
       "publishedAt": "2026-05-19T00:00:00+00:00"
+    },
+    {
+      "id": "3c685dbe7a21e2e1",
+      "title": "Telling the wrong story, Design v ADHD, AI doesn’t care about your job title",
+      "titleZh": "UX Collective 周报：团队讲错的故事、设计与 ADHD、AI 不在乎你的职位",
+      "summaryZh": "UX Collective 发布本周设计资源精选，围绕团队讲错用户故事、设计与 ADHD 的迷思，以及 AI 对职位的影响。赞助内容演示 Optimal MCP 接入 Figma 的 AI 设计智能体，可用提示词更新或生成设计，再回到 Optimal 用真实参与者测试。另有一篇给出衡量 AI 暴露度并降低风险的方法。",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/telling-the-wrong-story-design-v-adhd-ai-doesnt-care-about-your-job-title-63869c750f07?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-10-26T11:20:17+00:00"
     },
     {
       "id": "497b2818397b5444",
