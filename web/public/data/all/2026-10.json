@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "count": 204,
+  "count": 206,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -289,6 +289,55 @@
       "status": "selected",
       "dupOf": null,
       "relation": "same"
+    },
+    {
+      "id": "3199af2867f83631",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2509.25499",
+      "title": "Atlas of Human-AI Interaction: An Interactive Knowledge Graph for Research Sensemaking at Scale",
+      "titleZh": "Atlas of Human-AI Interaction 用 LLM 从 31,741 篇论文抽取 308,802 条论断构建交互知识图谱",
+      "summaryZh": "论文提出一套组织实证发现的框架，结合 LLM 驱动的论断抽取、实体消解、分类体系生成与知识图谱构建，并保留与研究情境和来源的链接。作者以 Atlas of Human-AI Interaction 实例化该框架，组织来自 31,741 篇论文的 308,802 条论断，并提供交互界面用于浏览构念与已报告关系、核查证据。论文还给出描述性语料分析与一项探索性用户研究，考察这一表示如何支持研究者的意义建构，并指出改进空间。",
+      "reason": "框架把论文论断抽成可比较的知识图谱，并附探索性用户研究，可供做文献综述与洞察库的研究者参考。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-26T04:00:00+00:00",
+      "discoveredAt": "2026-10-26T04:11:50.621105+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "ad5fc89e5f9570c9",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.31678",
+      "title": "Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation",
+      "titleZh": "研究指出交互式 LLM 评估不能只验证评分器整体准确率",
+      "summaryZh": "论文指出，在交互式 LLM 评估中只用整体准确率或 F1 验证自动评分器，会掩盖提示词层面的错误并扭曲提示词之间的比较结果。作者用 6 个模型、180 个虚构实体问题和 6 种提示词条件做检验，288 条平衡审计的整体 F1 为 .916，但评分器将 2.6%-33.3% 被主要评分者判为不含无依据事实主张的回答标为有问题，且各提示词下的估计并不确定。第二次审计中，评分器与两个独立 LLM 评分者评估同一批 300 个模型-问题案例，原本 9.3 个百分点的提升在两位评分者下都降到 2.3 个百分点且主要评分者区间包含零；作者建议审计计划报告的那个差值本身，并把评分者不确定性纳入最终结果。",
+      "reason": "作者用 288 条与 300 个案例的两次审计说明，整体 F1 无法反映提示词层面的评分偏差。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-26T04:00:00+00:00",
+      "discoveredAt": "2026-10-26T04:11:50.621105+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "766b4f8ed1745f9a",

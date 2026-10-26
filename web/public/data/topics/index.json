@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T03:38:01.703139+00:00",
+  "generatedAt": "2026-10-26T04:11:50.621105+00:00",
   "groups": [
     {
       "key": "company",
@@ -121,7 +121,7 @@
       "name": "文本分析 / VOC",
       "group": "field",
       "definition": "用 AI 分析用户反馈、评论、开放题与客服文本。",
-      "count": 8
+      "count": 9
     },
     {
       "slug": "usability",
@@ -156,7 +156,7 @@
       "name": "论文",
       "group": "genre",
       "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-      "count": 32
+      "count": 34
     },
     {
       "slug": "methods",

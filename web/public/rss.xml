@@ -5,9 +5,27 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 03:38:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 04:11:50 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
+    <item>
+      <title>Atlas of Human-AI Interaction 用 LLM 从 31,741 篇论文抽取 308,802 条论断构建交互知识图谱</title>
+      <link>https://arxiv.org/abs/2509.25499</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2509.25499</guid>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 GMT</pubDate>
+      <description>论文提出一套组织实证发现的框架，结合 LLM 驱动的论断抽取、实体消解、分类体系生成与知识图谱构建，并保留与研究情境和来源的链接。作者以 Atlas of Human-AI Interaction 实例化该框架，组织来自 31,741 篇论文的 308,802 条论断，并提供交互界面用于浏览构念与已报告关系、核查证据。论文还给出描述性语料分析与一项探索性用户研究，考察这一表示如何支持研究者的意义建构，并指出改进空间。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>研究指出交互式 LLM 评估不能只验证评分器整体准确率</title>
+      <link>https://arxiv.org/abs/2610.31678</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.31678</guid>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 GMT</pubDate>
+      <description>论文指出，在交互式 LLM 评估中只用整体准确率或 F1 验证自动评分器，会掩盖提示词层面的错误并扭曲提示词之间的比较结果。作者用 6 个模型、180 个虚构实体问题和 6 种提示词条件做检验，288 条平衡审计的整体 F1 为 .916，但评分器将 2.6%-33.3% 被主要评分者判为不含无依据事实主张的回答标为有问题，且各提示词下的估计并不确定。第二次审计中，评分器与两个独立 LLM 评分者评估同一批 300 个模型-问题案例，原本 9.3 个百分点的提升在两位评分者下都降到 2.3 个百分点且主要评分者区间包含零；作者建议审计计划报告的那个差值本身，并把评分者不确定性纳入最终结果。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
     <item>
       <title>AI 进入专业用户工作前，边界该划在哪里</title>
       <link>https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4</link>
@@ -437,24 +455,6 @@
       <description>分步指南围绕 Braun 和 Clarke 的六步法，拆解 AI 如何辅助主题分析，并指出哪些环节需要研究者保持主导。它逐阶段说明 AI 的支持方式与操作步骤，强调 AI 用于辅助流程，而非替研究者做关键判断。</description>
       <category>Delve</category>
       <category>methods</category>
-    </item>
-    <item>
-      <title>SurveyCTO 将 AI 表单工具引入平台，帮助用户构建更好的表单</title>
-      <link>https://www.surveycto.com/press-releases/ai-form-tools-improve-survey-design/</link>
-      <guid isPermaLink="true">https://www.surveycto.com/press-releases/ai-form-tools-improve-survey-design/</guid>
-      <pubDate>Mon, 12 Jan 2026 01:23:34 GMT</pubDate>
-      <description>SurveyCTO 将 AI 表单工具引入平台，支持用 AI 编写表达式、审查调查问题并获取更好的数据。该工具面向问卷设计，目标是简化建表体验。</description>
-      <category>SurveyCTO</category>
-      <category>tools</category>
-    </item>
-    <item>
-      <title>Dovetail 发布 2025 秋季版本，推出 AI Agents、Dashboards、Docs 与集成等 10 项能力</title>
-      <link>https://dovetail.com/blog/2025-fall-launch/</link>
-      <guid isPermaLink="true">https://dovetail.com/blog/2025-fall-launch/</guid>
-      <pubDate>Wed, 08 Oct 2025 15:00:00 GMT</pubDate>
-      <description>Dovetail 发布 2025 秋季版本，上线 10 项新能力，覆盖 AI Agents、Dashboards、Docs 与集成。官方称这些能力将客户反馈放在产品构建流程的核心，并改变传统线性的 SDLC 工作流。</description>
-      <category>Dovetail Blog</category>
-      <category>tools</category>
     </item>
   </channel>
 </rss>

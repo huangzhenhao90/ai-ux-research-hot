@@ -3,7 +3,7 @@
   "name": "文本分析 / VOC",
   "group": "field",
   "definition": "用 AI 分析用户反馈、评论、开放题与客服文本。",
-  "count": 8,
+  "count": 9,
   "items": [
     {
       "id": "791883e6a4cafac0",
@@ -57,6 +57,31 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "3199af2867f83631",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2509.25499",
+      "title": "Atlas of Human-AI Interaction: An Interactive Knowledge Graph for Research Sensemaking at Scale",
+      "titleZh": "Atlas of Human-AI Interaction 用 LLM 从 31,741 篇论文抽取 308,802 条论断构建交互知识图谱",
+      "summaryZh": "论文提出一套组织实证发现的框架，结合 LLM 驱动的论断抽取、实体消解、分类体系生成与知识图谱构建，并保留与研究情境和来源的链接。作者以 Atlas of Human-AI Interaction 实例化该框架，组织来自 31,741 篇论文的 308,802 条论断，并提供交互界面用于浏览构念与已报告关系、核查证据。论文还给出描述性语料分析与一项探索性用户研究，考察这一表示如何支持研究者的意义建构，并指出改进空间。",
+      "reason": "框架把论文论断抽成可比较的知识图谱，并附探索性用户研究，可供做文献综述与洞察库的研究者参考。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-26T04:00:00+00:00",
+      "discoveredAt": "2026-10-26T04:11:50.621105+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "1afcb1a1360dc91a",
