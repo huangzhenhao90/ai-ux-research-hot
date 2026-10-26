@@ -18,6 +18,8 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [如何用 AI persona 做可用性测试：Listen Labs 完整指南](https://listenlabs.com/articles/ai-personas-usability-testing/)：Listen Labs 在一份指南中把 AI persona 定位为可用性测试的假设生成与分诊工具，而非证据来源。指南主张用行为特征而非人口标签构建 persona，并用显式反迎合提示词让模型报告摩擦点而不是给出好评。文中引用 NN/g…（Listen Labs，2026-10-26）
+- [Listen Labs 分步讲解如何用 AI 模拟顾客反应](https://listenlabs.com/articles/simulate-customer-reactions-with-ai/)：Listen Labs 增长负责人 Anish Rao 撰文给出用 AI 模拟顾客反应的分步流程，包括定义决策与假设、选择分群、构建模拟基础、记录推理过程、用真人验证以及报告标注数据来源。文中引用 Park 等人（arXiv:2411.1…（Listen Labs，2026-10-26）
 - [Atlas of Human-AI Interaction 用 LLM 从 31,741 篇论文抽取 308,802 条论断构建交互知识图谱](https://arxiv.org/abs/2509.25499)：论文提出一套组织实证发现的框架，结合 LLM 驱动的论断抽取、实体消解、分类体系生成与知识图谱构建，并保留与研究情境和来源的链接。作者以 Atlas of Human-AI Interaction 实例化该框架，组织来自 31,741 篇…（arXiv cs.HC，2026-10-26）
 - [研究指出交互式 LLM 评估不能只验证评分器整体准确率](https://arxiv.org/abs/2610.31678)：论文指出，在交互式 LLM 评估中只用整体准确率或 F1 验证自动评分器，会掩盖提示词层面的错误并扭曲提示词之间的比较结果。作者用 6 个模型、180 个虚构实体问题和 6 种提示词条件做检验，288 条平衡审计的整体 F1 为 .916…（arXiv cs.HC，2026-10-26）
 - [AI 进入专业用户工作前，边界该划在哪里](https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4)：作者提出六个考量，用来判断对话式 AI 界面是在加速专家用户，还是在他们与熟悉的工作之间插进一个键盘。文中引用 METR 的随机试验，经验丰富的开源开发者在自己的代码库上使用 AI 工具反而慢 19%，却以为获得了提速；Dell'Acqu…（UX Collective，2026-10-25）
@@ -46,7 +48,5 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [用 AI 原型制作更早测试复杂交互](https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实…（Nielsen Norman Group，2026-09-11）
 - [Cint 发文分析 MCP 与 AI 智能体如何重塑市场洞察](https://www.cint.com/blog/mcps-market-research-esomar/)：Cint 发布文章，讨论 MCP 与 AI 智能体正在如何重塑市场洞察的工作方式。文章以行业分析视角展开，未在标题层面给出具体案例或数据。（Cint，2026-09-10）
 - [定性研究中的可确认性：含义与建立方法](https://delvetool.com/blog/confirmability-in-qualitative-research/)：Delve 发文讲解定性研究中的可确认性，即如何证明研究发现来自数据本身。文章建议在编码过程中同步建立审计轨迹，由 Delve 集中保存记录。（Delve，2026-09-08）
-- [用 AI 做 UX 工作：学习指南](https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：发布《用 AI 做 UX 工作：学习指南》，汇总其文章和视频，帮助团队找到将 AI 融入 UX 工作流的具体方式。指南指出，AI 目前还不能完全接管 UX 工作，但可用于辅助既有流程；从业者应把 AI 当作增强能力的“手套”，而非替代判断（Nielsen Norman Group，2026-09-04）
-- [Product Talk 发布 AI 评估测试框架，附可运行的合成访谈示例](https://www.producttalk.org/ai-evals-test-harness/)：Product Talk 作者将自用的 AI 评估测试框架整理进代码仓库，并附一个完整示例，读者可以先跑通示例，再替换成自己的输入、提示词和 eval。示例用 15 份合成访谈记录检验「访谈转故事并判断参与者状态」的流程，更换提示词后编造…（Product Talk（Teresa Torres），2026-09-02）
 
-（更多 24 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 26 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

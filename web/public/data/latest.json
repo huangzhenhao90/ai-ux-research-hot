@@ -1,12 +1,67 @@
 {
-  "generatedAt": "2026-10-26T04:11:50.621105+00:00",
+  "generatedAt": "2026-10-26T09:49:34.325402+00:00",
   "windowDays": 3,
   "editionHour": 8,
   "days": [
     {
       "date": "2026-10-27",
-      "count": 2,
+      "count": 4,
       "items": [
+        {
+          "id": "3c513246b7a31682",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/ai-personas-usability-testing/",
+          "title": "AI Personas for Usability Testing: A Complete Guide",
+          "titleZh": "如何用 AI persona 做可用性测试：Listen Labs 完整指南",
+          "summaryZh": "Listen Labs 在一份指南中把 AI persona 定位为可用性测试的假设生成与分诊工具，而非证据来源。指南主张用行为特征而非人口标签构建 persona，并用显式反迎合提示词让模型报告摩擦点而不是给出好评。文中引用 NN/g 对比 120 名合成受访者与 604 名真人的结果，指出合成受访者的观点多样性明显更低；另引 Nogueira 等人的研究称多轮间接提问下迎合率中位数从 50% 升至 79%。",
+          "reason": "指南给出把 AI persona 限定在假设生成环节的具体做法，包括用行为特征替代人口标签和抑制模型迎合倾向的提示方式。",
+          "category": "methods",
+          "tags": [
+            "方法/实践",
+            "合成用户",
+            "可用性测试"
+          ],
+          "entities": [
+            "listen-labs"
+          ],
+          "itemType": "tutorial_explainer",
+          "publishedAt": "2026-10-26T05:07:24+00:00",
+          "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        },
+        {
+          "id": "b68c2c6b61048c5e",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/simulate-customer-reactions-with-ai/",
+          "title": "How To Simulate Customer Reactions With AI: Step-By-Step",
+          "titleZh": "Listen Labs 分步讲解如何用 AI 模拟顾客反应",
+          "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文给出用 AI 模拟顾客反应的分步流程，包括定义决策与假设、选择分群、构建模拟基础、记录推理过程、用真人验证以及报告标注数据来源。文中引用 Park 等人（arXiv:2411.10109）对 1,052 名美国人的研究，基于两小时访谈构建的智能体达到受访者自身两周重测一致性的 83%，仅按人口统计特征构建的智能体为 74%。ShopCART 基准基于 31,865 次真实购物会话发现，纯提示词的 LLM 智能体在真实购物动作上的精确匹配率仅 11.86%，过度购买比例为 25.2%，而真人为 3.3%。",
+          "reason": "文中把六步模拟流程与多项真人对照数据并置，便于研究者判断合成受访者适合承担哪类测试。",
+          "category": "methods",
+          "tags": [
+            "方法/实践",
+            "合成用户",
+            "市场研究",
+            "研究伦理"
+          ],
+          "entities": [
+            "listen-labs"
+          ],
+          "itemType": "tutorial_explainer",
+          "publishedAt": "2026-10-26T05:07:15+00:00",
+          "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        },
         {
           "id": "3199af2867f83631",
           "sourceId": "arxiv-cs-hc",

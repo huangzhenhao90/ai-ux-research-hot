@@ -3,8 +3,36 @@
   "name": "研究伦理",
   "group": "field",
   "definition": "合成用户与 AI 研究的知情同意、隐私、偏见与合规争议。",
-  "count": 4,
+  "count": 5,
   "items": [
+    {
+      "id": "b68c2c6b61048c5e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/simulate-customer-reactions-with-ai/",
+      "title": "How To Simulate Customer Reactions With AI: Step-By-Step",
+      "titleZh": "Listen Labs 分步讲解如何用 AI 模拟顾客反应",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文给出用 AI 模拟顾客反应的分步流程，包括定义决策与假设、选择分群、构建模拟基础、记录推理过程、用真人验证以及报告标注数据来源。文中引用 Park 等人（arXiv:2411.10109）对 1,052 名美国人的研究，基于两小时访谈构建的智能体达到受访者自身两周重测一致性的 83%，仅按人口统计特征构建的智能体为 74%。ShopCART 基准基于 31,865 次真实购物会话发现，纯提示词的 LLM 智能体在真实购物动作上的精确匹配率仅 11.86%，过度购买比例为 25.2%，而真人为 3.3%。",
+      "reason": "文中把六步模拟流程与多项真人对照数据并置，便于研究者判断合成受访者适合承担哪类测试。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究",
+        "研究伦理"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-26T05:07:15+00:00",
+      "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
     {
       "id": "9c0dcc371b7c9a38",
       "sourceId": "testingtime",

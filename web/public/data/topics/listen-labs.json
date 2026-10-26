@@ -3,8 +3,35 @@
   "name": "Listen Labs",
   "group": "company",
   "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-  "count": 30,
+  "count": 35,
   "items": [
+    {
+      "id": "3c513246b7a31682",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-personas-usability-testing/",
+      "title": "AI Personas for Usability Testing: A Complete Guide",
+      "titleZh": "如何用 AI persona 做可用性测试：Listen Labs 完整指南",
+      "summaryZh": "Listen Labs 在一份指南中把 AI persona 定位为可用性测试的假设生成与分诊工具，而非证据来源。指南主张用行为特征而非人口标签构建 persona，并用显式反迎合提示词让模型报告摩擦点而不是给出好评。文中引用 NN/g 对比 120 名合成受访者与 604 名真人的结果，指出合成受访者的观点多样性明显更低；另引 Nogueira 等人的研究称多轮间接提问下迎合率中位数从 50% 升至 79%。",
+      "reason": "指南给出把 AI persona 限定在假设生成环节的具体做法，包括用行为特征替代人口标签和抑制模型迎合倾向的提示方式。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "可用性测试"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-26T05:07:24+00:00",
+      "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
     {
       "id": "042be7b6ee4ca9d0",
       "sourceId": "listen-labs",
@@ -59,6 +86,34 @@
       "itemType": "opinion_analysis",
       "publishedAt": "2026-10-25T05:04:34+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "b68c2c6b61048c5e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/simulate-customer-reactions-with-ai/",
+      "title": "How To Simulate Customer Reactions With AI: Step-By-Step",
+      "titleZh": "Listen Labs 分步讲解如何用 AI 模拟顾客反应",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文给出用 AI 模拟顾客反应的分步流程，包括定义决策与假设、选择分群、构建模拟基础、记录推理过程、用真人验证以及报告标注数据来源。文中引用 Park 等人（arXiv:2411.10109）对 1,052 名美国人的研究，基于两小时访谈构建的智能体达到受访者自身两周重测一致性的 83%，仅按人口统计特征构建的智能体为 74%。ShopCART 基准基于 31,865 次真实购物会话发现，纯提示词的 LLM 智能体在真实购物动作上的精确匹配率仅 11.86%，过度购买比例为 25.2%，而真人为 3.3%。",
+      "reason": "文中把六步模拟流程与多项真人对照数据并置，便于研究者判断合成受访者适合承担哪类测试。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究",
+        "研究伦理"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-26T05:07:15+00:00",
+      "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -386,6 +441,33 @@
       "relation": null
     },
     {
+      "id": "b49f0382a95fee03",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-digital-twin-ad-testing-tools/",
+      "title": "Digital Twin Tools for Ad & Campaign Testing: 2026 Guide",
+      "titleZh": "广告与活动测试数字孪生工具：Listen Labs 2026 指南",
+      "summaryZh": "Listen Labs的2026指南将Listen Twins列为广告与活动测试的首选数字孪生工具。每个Twin来自一名真人访谈，可从50M+验证网络在数秒内给出100+条带推理、原话和置信分的预测答案，并支持一键用真人验证。文中援引研究称，AI生成问卷答案有48%的统计关系与人类数据显著不同，约三分之一方向相反。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-26T05:02:19+00:00",
+      "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6ddbda8fa559856b",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -466,6 +548,62 @@
       "itemType": null,
       "publishedAt": "2026-10-21T05:03:39+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "31c9dfb2162f9420",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-predictive-ad-testing-software/",
+      "title": "Predictive Ad Testing Software: What Each Tool Predicts",
+      "titleZh": "预测性广告测试软件：Listen Labs、Kantar LINK AI 等分别预测什么",
+      "summaryZh": "预测性广告测试软件覆盖注意力、情绪、文案与 CTR、品牌提升四类预测，没有单一工具能四项同等深入。Listen Labs 用 AI 主持访谈和 Emotional Intelligence，24 小时内出结果；Kantar LINK AI 基于 300,000+ 广告测试，5 分钟内评分；Anyword 起价 $49/月。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "合成用户",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-26T05:07:09+00:00",
+      "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "913c5dfc2b420294",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-maxdiff-concept-testing-software/",
+      "title": "Best MaxDiff Software in 2026: Top Analysis Tools Ranked",
+      "titleZh": "2026 年最佳 MaxDiff 软件：分析工具排名",
+      "summaryZh": "2026 年最佳 MaxDiff 软件排名将 Listen Labs 列为首选：它在 AI 主持访谈中运行 MaxDiff，输出无并列的个体效用分数。每次最佳/最差选择后，AI 主持人追问原因，分数可回溯到受访者原话和视频片段。Portfolio Optimization 结合 MaxDiff 与 TURF，案例中优化组合覆盖 87% 购物者，而 MaxDiff 得分前三口味为 51%。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-26T05:02:13+00:00",
+      "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

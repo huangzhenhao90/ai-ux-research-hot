@@ -1,0 +1,28 @@
+{
+  "id": "3c513246b7a31682",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/ai-personas-usability-testing/",
+  "title": "AI Personas for Usability Testing: A Complete Guide",
+  "titleZh": "如何用 AI persona 做可用性测试：Listen Labs 完整指南",
+  "summaryZh": "Listen Labs 在一份指南中把 AI persona 定位为可用性测试的假设生成与分诊工具，而非证据来源。指南主张用行为特征而非人口标签构建 persona，并用显式反迎合提示词让模型报告摩擦点而不是给出好评。文中引用 NN/g 对比 120 名合成受访者与 604 名真人的结果，指出合成受访者的观点多样性明显更低；另引 Nogueira 等人的研究称多轮间接提问下迎合率中位数从 50% 升至 79%。",
+  "reason": "指南给出把 AI persona 限定在假设生成环节的具体做法，包括用行为特征替代人口标签和抑制模型迎合倾向的提示方式。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "可用性测试"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-10-26T05:07:24+00:00",
+  "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

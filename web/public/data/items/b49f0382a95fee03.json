@@ -1,0 +1,28 @@
+{
+  "id": "b49f0382a95fee03",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-digital-twin-ad-testing-tools/",
+  "title": "Digital Twin Tools for Ad & Campaign Testing: 2026 Guide",
+  "titleZh": "广告与活动测试数字孪生工具：Listen Labs 2026 指南",
+  "summaryZh": "Listen Labs的2026指南将Listen Twins列为广告与活动测试的首选数字孪生工具。每个Twin来自一名真人访谈，可从50M+验证网络在数秒内给出100+条带推理、原话和置信分的预测答案，并支持一键用真人验证。文中援引研究称，AI生成问卷答案有48%的统计关系与人类数据显著不同，约三分之一方向相反。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-26T05:02:19+00:00",
+  "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

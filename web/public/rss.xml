@@ -5,9 +5,27 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 04:11:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 09:49:34 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
+    <item>
+      <title>如何用 AI persona 做可用性测试：Listen Labs 完整指南</title>
+      <link>https://listenlabs.com/articles/ai-personas-usability-testing/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/ai-personas-usability-testing/</guid>
+      <pubDate>Mon, 26 Oct 2026 05:07:24 GMT</pubDate>
+      <description>Listen Labs 在一份指南中把 AI persona 定位为可用性测试的假设生成与分诊工具，而非证据来源。指南主张用行为特征而非人口标签构建 persona，并用显式反迎合提示词让模型报告摩擦点而不是给出好评。文中引用 NN/g 对比 120 名合成受访者与 604 名真人的结果，指出合成受访者的观点多样性明显更低；另引 Nogueira 等人的研究称多轮间接提问下迎合率中位数从 50% 升至 79%。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Listen Labs 分步讲解如何用 AI 模拟顾客反应</title>
+      <link>https://listenlabs.com/articles/simulate-customer-reactions-with-ai/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/simulate-customer-reactions-with-ai/</guid>
+      <pubDate>Mon, 26 Oct 2026 05:07:15 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 撰文给出用 AI 模拟顾客反应的分步流程，包括定义决策与假设、选择分群、构建模拟基础、记录推理过程、用真人验证以及报告标注数据来源。文中引用 Park 等人（arXiv:2411.10109）对 1,052 名美国人的研究，基于两小时访谈构建的智能体达到受访者自身两周重测一致性的 83%，仅按人口统计特征构建的智能体为 74%。ShopCART 基准基于 31,865 次真实购物会话发现，纯提示词的 LLM 智能体在真实购物动作上的精确匹配率仅 11.86%，过度购买比例为 25.2%，而真人为 3.3%。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Atlas of Human-AI Interaction 用 LLM 从 31,741 篇论文抽取 308,802 条论断构建交互知识图谱</title>
       <link>https://arxiv.org/abs/2509.25499</link>
@@ -437,24 +455,6 @@
       <description>MAXQDA 发布 26.2（2026 年 3 月）更新，新增片段级 AI 编码与 Beta 版 AI Reports，并改版 Memos 布局。片段级 AI 编码会对选中的文本片段给出编码建议并附理由，需人工批准后应用，AI Assist 免费版一次最多分析 5 个编码，Premium 最多 20 个。AI Reports 按自定问题生成可回溯到原文的报告，免费版最多纳入 2 份文档，Premium 最多 50 份。</description>
       <category>MAXQDA</category>
       <category>tools</category>
-    </item>
-    <item>
-      <title>Dovetail 发布 Figma Make 连接器，可用真实客户数据做原型</title>
-      <link>https://dovetail.com/blog/dovetail-connector-figma-make/</link>
-      <guid isPermaLink="true">https://dovetail.com/blog/dovetail-connector-figma-make/</guid>
-      <pubDate>Mon, 16 Feb 2026 13:00:00 GMT</pubDate>
-      <description>Dovetail 发布面向 Figma Make 的连接器，用户在做原型时可以直接调用客户洞察数据。官方称使用该连接器无需切换上下文，就能在原型环节利用这些客户情报。</description>
-      <category>Dovetail Blog</category>
-      <category>tools</category>
-    </item>
-    <item>
-      <title>如何用 AI 进行主题分析：分步指南</title>
-      <link>https://delvetool.com/blog/how-to-use-ai-for-thematic-analysis-step-by-step-guide/</link>
-      <guid isPermaLink="true">https://delvetool.com/blog/how-to-use-ai-for-thematic-analysis-step-by-step-guide/</guid>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
-      <description>分步指南围绕 Braun 和 Clarke 的六步法，拆解 AI 如何辅助主题分析，并指出哪些环节需要研究者保持主导。它逐阶段说明 AI 的支持方式与操作步骤，强调 AI 用于辅助流程，而非替研究者做关键判断。</description>
-      <category>Delve</category>
-      <category>methods</category>
     </item>
   </channel>
 </rss>

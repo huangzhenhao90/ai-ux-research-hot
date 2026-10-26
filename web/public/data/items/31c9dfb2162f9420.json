@@ -1,0 +1,30 @@
+{
+  "id": "31c9dfb2162f9420",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-predictive-ad-testing-software/",
+  "title": "Predictive Ad Testing Software: What Each Tool Predicts",
+  "titleZh": "预测性广告测试软件：Listen Labs、Kantar LINK AI 等分别预测什么",
+  "summaryZh": "预测性广告测试软件覆盖注意力、情绪、文案与 CTR、品牌提升四类预测，没有单一工具能四项同等深入。Listen Labs 用 AI 主持访谈和 Emotional Intelligence，24 小时内出结果；Kantar LINK AI 基于 300,000+ 广告测试，5 分钟内评分；Anyword 起价 $49/月。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "市场研究",
+    "合成用户",
+    "Kantar"
+  ],
+  "entities": [
+    "listen-labs",
+    "kantar"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-26T05:07:09+00:00",
+  "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
