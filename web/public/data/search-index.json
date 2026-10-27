@@ -1,5 +1,5 @@
 {
-  "count": 526,
+  "count": 533,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -1197,6 +1197,26 @@
       "publishedAt": "2026-08-26T12:00:00+00:00"
     },
     {
+      "id": "d887cd2ca73d5cf0",
+      "title": "How To Find Out Why Your NPS Dropped: AI Tools (2026)",
+      "titleZh": "Listen Labs 如何用六步诊断流程和 AI 主持访谈查明 NPS 下滑原因",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布一份六步诊断指南，讲解如何用 AI 主持访谈查明 NPS 下滑的原因。文中指出只有约 10% 的 NPS 受访者会留下开放题文本，一轮 5000 账户、12–25% 回收率的调研可能只收到 60–150 条评论，且 30% 以上回答只有一两个词时应视为问卷设计问题而非分析问题。Listen Labs 的做法是从 50M+ 核实样本网络中招募贬损者，在 45+ 国家、120+ 语言开展自适应 AI 主持访谈，24 小时内交付可追溯到具体受访者、原话和视频片段的结论，并可通过 Listen Labs Pulse 对接 Qualtrics、Decipher 等现有 NPS 工具。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "文本分析/VOC",
+        "定性分析",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-tools-nps-drop/",
+      "publishedAt": "2026-10-27T06:16:33+00:00"
+    },
+    {
       "id": "17782bd98c014cbd",
       "title": "tvbeat and Ipsos partner to advance Total TV audience measurement for TVNZ and Sky in New Zealand",
       "titleZh": "tvbeat 与 合作，为 TVNZ 和 Sky 推进新西兰 Total TV 受众测量",
@@ -1299,6 +1319,26 @@
       "sourceName": "SurveyMonkey",
       "url": "https://www.surveymonkey.com/curiosity/ask-the-market-mental-health-ai/?ut_source=rss",
       "publishedAt": "2026-09-25T09:17:54+00:00"
+    },
+    {
+      "id": "6365b13a764297dc",
+      "title": "AI Digital Twin Platforms for Concept Testing and Beyond",
+      "titleZh": "Listen Labs 等 AI 数字孪生平台：概念测试与更多场景对比",
+      "summaryZh": "Listen Labs 盘点并对比了用于概念测试的 AI 数字孪生平台，主推可追溯到真实个体的 1:1 Listen Twins。其双胞胎由真实访谈构建，样本网络覆盖 45+ 国家和 120+ 语言，数秒可返回 100+ 条带推理、引语与置信分数的预测答案。Electric Twin 则称其 NDAM 最高 92%，接近约 94% 的人类重测上限。",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-concept-testing/",
+      "publishedAt": "2026-10-27T06:16:39+00:00"
     },
     {
       "id": "0d1ebdeaf0eaf730",
@@ -1903,6 +1943,24 @@
       "publishedAt": "2025-12-16T00:00:00+00:00"
     },
     {
+      "id": "e294fbca3a5f8b80",
+      "title": "October 2026: Global consumer confidence falls sharply",
+      "titleZh": "Ipsos 全球消费者信心指数：2026年10月全球消费者信心大幅下滑，美国和欧洲降幅最大",
+      "summaryZh": "2026年10月，Ipsos Global Consumer Confidence Index 显示全球消费者信心大幅下滑。整体情绪在美国和欧洲的降幅最大。",
+      "tags": [
+        "行业报告",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-consumer-confidence-october-2026",
+      "publishedAt": "2026-10-27T15:40:06+00:00"
+    },
+    {
       "id": "ba7cb117e7c61fa6",
       "title": "Introducing the new Dovetail experience—a simpler way to get around",
       "titleZh": "推出全新个性化首页体验，并更新侧边栏、文件夹导航与搜索",
@@ -2068,6 +2126,23 @@
       "publishedAt": "2026-02-12T09:40:49+00:00"
     },
     {
+      "id": "e5ffc3ccfb83c86c",
+      "title": "September 2026: Global consumer confidence unchanged this month",
+      "titleZh": "2026 年 9 月：Ipsos 全球消费者信心指数与上月持平",
+      "summaryZh": "Ipsos 2026 年 9 月全球消费者信心指数与上月持平，四个分项指数均保持稳定。该月指数未显示消费者信心出现变化。",
+      "tags": [
+        "行业报告",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "research",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-consumer-confidence-september-2026",
+      "publishedAt": "2026-10-27T15:26:04+00:00"
+    },
+    {
       "id": "554c230ff099d83b",
       "title": "Qualitative Research for Beginners: 7 Types & Methods",
       "titleZh": "定性研究入门：7 种类型与方法",
@@ -2209,6 +2284,23 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/qualitative-codes-themes-names-uncertainty/",
       "publishedAt": "2025-02-25T11:29:07+00:00"
+    },
+    {
+      "id": "4c76152147a691a6",
+      "title": "When to use MCP vs. AI Chat",
+      "titleZh": "When to use MCP vs. AI Chat",
+      "summaryZh": "",
+      "tags": [
+        "方法/实践",
+        "Agent"
+      ],
+      "entities": [
+        "optimal-workshop"
+      ],
+      "category": "methods",
+      "sourceName": "Optimal Workshop Blog",
+      "url": "https://www.optimalworkshop.com/blog/when-to-use-mcp-vs-ai-chat",
+      "publishedAt": "2026-10-26T16:00:00+00:00"
     },
     {
       "id": "913c5dfc2b420294",
@@ -2887,6 +2979,24 @@
       "sourceName": "Journal of Mixed Methods Research",
       "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898251396763?ai=2b4&mi=ehikzz&af=R",
       "publishedAt": "2025-11-06T10:39:34+00:00"
+    },
+    {
+      "id": "6d60d77d9f2f98d8",
+      "title": "Best Emotional Response Testing Software in 2026",
+      "titleZh": "2026 年最佳情绪反应测试软件盘点：Listen Labs 居首，iMotions、Affectiva、Realeyes 等入选",
+      "summaryZh": "Listen Labs 在 2026 年最佳情绪反应测试软件盘点中位列第一，其 Emotional Intelligence 按语调、用词和微表情量化情绪，标签可追溯至时间戳与原话，覆盖 50+ 种语言并在 24 小时内交付。iMotions 依赖面部表情分析、眼动、EEG 和 GSR 等实验室传感器，单项目约 $15,000–$50,000、周期 4–8 周。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "多模态"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-emotional-response-testing-software/",
+      "publishedAt": "2026-10-27T06:16:45+00:00"
     },
     {
       "id": "1099aea369a19497",
@@ -3975,6 +4085,18 @@
       "sourceName": "Reddit r/UXResearch",
       "url": "https://www.reddit.com/r/UXResearch/comments/1xc3kxq/jobs_similar_to_quant_uxr/",
       "publishedAt": "2026-10-22T00:02:26+00:00"
+    },
+    {
+      "id": "ed895bdedfcb6b2d",
+      "title": "AAPOR Condemns Continued Fabrication of Polling Data",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "AAPOR（美国民意研究协会）",
+      "url": "https://aapor.org/announcements/aapor-condemns-continued-fabrication-of-polling-data/",
+      "publishedAt": "2026-10-21T18:53:36+00:00"
     },
     {
       "id": "464a1eec03a8483e",

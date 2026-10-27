@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T14:04:13.481977+00:00",
+  "generatedAt": "2026-10-27T20:28:37.686022+00:00",
   "groups": [
     {
       "key": "company",
@@ -23,7 +23,7 @@
       "name": "Qualtrics",
       "group": "company",
       "definition": "Qualtrics 的 XM 平台与 XM Institute 研究，以及体验管理产品的 AI 能力更新。",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "dovetail",
@@ -58,7 +58,7 @@
       "name": "Ipsos",
       "group": "company",
       "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-      "count": 10
+      "count": 13
     },
     {
       "slug": "surveymonkey",
@@ -79,7 +79,7 @@
       "name": "Listen Labs",
       "group": "company",
       "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-      "count": 37
+      "count": 40
     },
     {
       "slug": "dscout",
@@ -93,35 +93,35 @@
       "name": "AI 访谈",
       "group": "field",
       "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-      "count": 27
+      "count": 30
     },
     {
       "slug": "synthetic-users",
       "name": "合成用户",
       "group": "field",
       "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-      "count": 20
+      "count": 21
     },
     {
       "slug": "survey",
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 44
+      "count": 45
     },
     {
       "slug": "qual-analysis",
       "name": "定性分析",
       "group": "field",
       "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-      "count": 64
+      "count": 65
     },
     {
       "slug": "voc",
       "name": "文本分析 / VOC",
       "group": "field",
       "definition": "用 AI 分析用户反馈、评论、开放题与客服文本。",
-      "count": 9
+      "count": 10
     },
     {
       "slug": "usability",
@@ -163,7 +163,7 @@
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 77
+      "count": 80
     },
     {
       "slug": "prompts",
@@ -184,7 +184,7 @@
       "name": "行业报告",
       "group": "genre",
       "definition": "调研公司报告、行业协会规范与市场结构变化。",
-      "count": 19
+      "count": 21
     }
   ]
 }

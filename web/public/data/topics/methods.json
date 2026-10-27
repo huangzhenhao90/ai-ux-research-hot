@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 77,
+  "count": 80,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -700,6 +700,35 @@
       "relation": "different"
     },
     {
+      "id": "d887cd2ca73d5cf0",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-tools-nps-drop/",
+      "title": "How To Find Out Why Your NPS Dropped: AI Tools (2026)",
+      "titleZh": "Listen Labs 如何用六步诊断流程和 AI 主持访谈查明 NPS 下滑原因",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布一份六步诊断指南，讲解如何用 AI 主持访谈查明 NPS 下滑的原因。文中指出只有约 10% 的 NPS 受访者会留下开放题文本，一轮 5000 账户、12–25% 回收率的调研可能只收到 60–150 条评论，且 30% 以上回答只有一两个词时应视为问卷设计问题而非分析问题。Listen Labs 的做法是从 50M+ 核实样本网络中招募贬损者，在 45+ 国家、120+ 语言开展自适应 AI 主持访谈，24 小时内交付可追溯到具体受访者、原话和视频片段的结论，并可通过 Listen Labs Pulse 对接 Qualtrics、Decipher 等现有 NPS 工具。",
+      "reason": "文中六步诊断流程把 NPS 下滑拆到人群与时间线，并指出仅靠开放题文本聚类难以定位原因。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "文本分析/VOC",
+        "定性分析",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-27T06:16:33+00:00",
+      "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "ec18d5dbcedfb9cf",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1335,6 +1364,32 @@
       "relation": null
     },
     {
+      "id": "4c76152147a691a6",
+      "sourceId": "optimalworkshop-blog",
+      "sourceName": "Optimal Workshop Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.optimalworkshop.com/blog/when-to-use-mcp-vs-ai-chat",
+      "title": "When to use MCP vs. AI Chat",
+      "titleZh": "When to use MCP vs. AI Chat",
+      "summaryZh": "",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "Agent"
+      ],
+      "entities": [
+        "optimal-workshop"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-26T16:00:00+00:00",
+      "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "913c5dfc2b420294",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1726,6 +1781,33 @@
       "itemType": null,
       "publishedAt": "2026-10-24T05:04:50+00:00",
       "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6d60d77d9f2f98d8",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-emotional-response-testing-software/",
+      "title": "Best Emotional Response Testing Software in 2026",
+      "titleZh": "2026 年最佳情绪反应测试软件盘点：Listen Labs 居首，iMotions、Affectiva、Realeyes 等入选",
+      "summaryZh": "Listen Labs 在 2026 年最佳情绪反应测试软件盘点中位列第一，其 Emotional Intelligence 按语调、用词和微表情量化情绪，标签可追溯至时间戳与原话，覆盖 50+ 种语言并在 24 小时内交付。iMotions 依赖面部表情分析、眼动、EEG 和 GSR 等实验室传感器，单项目约 $15,000–$50,000、周期 4–8 周。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "多模态"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-27T06:16:45+00:00",
+      "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

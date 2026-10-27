@@ -19,6 +19,7 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 ## 最新精选
 
 - [为什么用 AI 生成用户画像与需求只是原地加速](https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4)：作者在这篇评论中论证，产品团队让 LLM 先定义用户需求和生成画像，得到的多是基于平均值、难以追溯的结论，速度快不等于有进展。文中引用 Atlassian《State of Product 2026》称产品经理用 AI 每天省下近两小时，…（UX Collective，2026-10-27）
+- [Listen Labs 如何用六步诊断流程和 AI 主持访谈查明 NPS 下滑原因](https://listenlabs.com/articles/best-ai-tools-nps-drop/)：Listen Labs 增长负责人 Anish Rao 发布一份六步诊断指南，讲解如何用 AI 主持访谈查明 NPS 下滑的原因。文中指出只有约 10% 的 NPS 受访者会留下开放题文本，一轮 5000 账户、12–25% 回收率的调研…（Listen Labs，2026-10-27）
 - [Listen Labs 拆解预测式营销信息测试的 7 种方法与对应指标](https://listenlabs.com/articles/predictive-message-testing-examples/)：Listen Labs 增长负责人 Anish Rao 撰文拆解 7 种预测式营销信息测试方法，并说明各自评分方式与失效边界。文中以 Listen Twins 数字孪生预筛为例，称其基于 1 位真实受访者的访谈构建，可在数秒返回 100+…（Listen Labs，2026-10-27）
 - [研究提出判断 LLM 合成用户样本库何时可信的诊断与修正框架](https://arxiv.org/abs/2609.13148)：该论文提出一套框架，用来判断 LLM 合成消费者样本库何时可信任、可修正或应弃用；框架用协变量重叠、条件校准与跨模型稳定性做诊断。修正需要完整的邀请名单、所有受邀者的应答指示和受访者的真人结果，并要求数据随机缺失且满足正值性假设。在 AN…（arXiv cs.HC，2026-10-27）
 - [超越行为准确率：评估 LLM 投资者模拟中的个体层面保真度](https://arxiv.org/abs/2610.26524)：一项 80 人参与的纵向模拟交易研究检验 LLM 能否复现个体投资者的决策逻辑，发现没有评估中的 LLM 能在预测是否发生交易上稳定超过简单的近期活跃度基线。买卖结构与资产选择同样难以复现，且活动水平相近的模型也可能产生差异很大的组合轨迹…（arXiv cs.HC，2026-10-27）
@@ -47,6 +48,5 @@ UXHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [LLM 作为调查受访者：与简单语义基线的比较](https://arxiv.org/abs/2610.29645v1)：一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比。结果显示 LLM 整体优于基线，但随已知答案比例下降而性能下滑，在一份量表中甚至与基线持平。研究据此指出，数据稀缺时 LLM…（ur-ai-papers（用户与交互 AI 论文库），2026-10-21）
 - [quantilope 推出 Category Twins 合成用户社区](https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins)：quantilope 推出 Category Twins，这是一个基于品牌自有数据构建数字孪生、可组成合成用户社区的解决方案，现已面向全球品牌开放。该方案与 10 个国家 30 个品牌共同开发，使用 Ehrenberg-Bass 框架及…（quantilope，2026-10-20）
 - [tvbeat 与 合作，为 TVNZ 和 Sky 推进新西兰 Total TV 受众测量](https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand)：tvbeat 与 达成合作，将为 TVNZ 和 Sky 在新西兰推进 Total TV 受众测量。新的受众测量系统（Audience Measurement System）会把 TVNZ 和 Sky 的大规模一方观看数据与独立受众研究结合…（Ipsos，2026-10-19）
-- [Maze 宣布更多市场研究可在平台内完成](https://maze.co/blog/ai-for-market-research/)：Maze 发布博文称，更多市场研究现在可以在 Maze 内完成，指向平台对市场研究场景的进一步覆盖。（Maze Blog，2026-10-08）
 
-（更多 33 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 34 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

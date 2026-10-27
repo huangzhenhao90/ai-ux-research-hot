@@ -3,7 +3,7 @@
   "label": "行业",
   "section": "行业动态",
   "commentary": false,
-  "count": 16,
+  "count": 17,
   "items": [
     {
       "id": "26b8ca5cbfcf5bae",
@@ -132,6 +132,33 @@
       "itemType": null,
       "publishedAt": "2026-09-08T19:02:13+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e294fbca3a5f8b80",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ipsos-consumer-confidence-october-2026",
+      "title": "October 2026: Global consumer confidence falls sharply",
+      "titleZh": "Ipsos 全球消费者信心指数：2026年10月全球消费者信心大幅下滑，美国和欧洲降幅最大",
+      "summaryZh": "2026年10月，Ipsos Global Consumer Confidence Index 显示全球消费者信心大幅下滑。整体情绪在美国和欧洲的降幅最大。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-27T15:40:06+00:00",
+      "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

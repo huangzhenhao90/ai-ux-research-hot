@@ -1,0 +1,28 @@
+{
+  "id": "6d60d77d9f2f98d8",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-emotional-response-testing-software/",
+  "title": "Best Emotional Response Testing Software in 2026",
+  "titleZh": "2026 年最佳情绪反应测试软件盘点：Listen Labs 居首，iMotions、Affectiva、Realeyes 等入选",
+  "summaryZh": "Listen Labs 在 2026 年最佳情绪反应测试软件盘点中位列第一，其 Emotional Intelligence 按语调、用词和微表情量化情绪，标签可追溯至时间戳与原话，覆盖 50+ 种语言并在 24 小时内交付。iMotions 依赖面部表情分析、眼动、EEG 和 GSR 等实验室传感器，单项目约 $15,000–$50,000、周期 4–8 周。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "多模态"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-27T06:16:45+00:00",
+  "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

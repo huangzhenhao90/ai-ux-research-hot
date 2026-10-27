@@ -3,7 +3,7 @@
   "name": "Ipsos",
   "group": "company",
   "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-  "count": 10,
+  "count": 13,
   "items": [
     {
       "id": "26b8ca5cbfcf5bae",
@@ -86,6 +86,35 @@
       "relation": null
     },
     {
+      "id": "6365b13a764297dc",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-concept-testing/",
+      "title": "AI Digital Twin Platforms for Concept Testing and Beyond",
+      "titleZh": "Listen Labs 等 AI 数字孪生平台：概念测试与更多场景对比",
+      "summaryZh": "Listen Labs 盘点并对比了用于概念测试的 AI 数字孪生平台，主推可追溯到真实个体的 1:1 Listen Twins。其双胞胎由真实访谈构建，样本网络覆盖 45+ 国家和 120+ 语言，数秒可返回 100+ 条带推理、引语与置信分数的预测答案。Electric Twin 则称其 NDAM 最高 92%，接近约 94% 的人类重测上限。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-27T06:16:39+00:00",
+      "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "78722a787bd09eb1",
       "sourceId": "ipsos",
       "sourceName": "Ipsos",
@@ -141,6 +170,33 @@
       "relation": null
     },
     {
+      "id": "e294fbca3a5f8b80",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ipsos-consumer-confidence-october-2026",
+      "title": "October 2026: Global consumer confidence falls sharply",
+      "titleZh": "Ipsos 全球消费者信心指数：2026年10月全球消费者信心大幅下滑，美国和欧洲降幅最大",
+      "summaryZh": "2026年10月，Ipsos Global Consumer Confidence Index 显示全球消费者信心大幅下滑。整体情绪在美国和欧洲的降幅最大。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-27T15:40:06+00:00",
+      "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6a904c74c3ee127f",
       "sourceId": "ipsos",
       "sourceName": "Ipsos",
@@ -163,6 +219,32 @@
       "itemType": null,
       "publishedAt": "2026-10-09T08:55:06+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e5ffc3ccfb83c86c",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ipsos-consumer-confidence-september-2026",
+      "title": "September 2026: Global consumer confidence unchanged this month",
+      "titleZh": "2026 年 9 月：Ipsos 全球消费者信心指数与上月持平",
+      "summaryZh": "Ipsos 2026 年 9 月全球消费者信心指数与上月持平，四个分项指数均保持稳定。该月指数未显示消费者信心出现变化。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "行业报告",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-27T15:26:04+00:00",
+      "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

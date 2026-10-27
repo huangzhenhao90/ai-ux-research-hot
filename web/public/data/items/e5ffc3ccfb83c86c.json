@@ -1,0 +1,27 @@
+{
+  "id": "e5ffc3ccfb83c86c",
+  "sourceId": "ipsos",
+  "sourceName": "Ipsos",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.ipsos.com/en/ipsos-consumer-confidence-september-2026",
+  "title": "September 2026: Global consumer confidence unchanged this month",
+  "titleZh": "2026 年 9 月：Ipsos 全球消费者信心指数与上月持平",
+  "summaryZh": "Ipsos 2026 年 9 月全球消费者信心指数与上月持平，四个分项指数均保持稳定。该月指数未显示消费者信心出现变化。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "行业报告",
+    "市场研究"
+  ],
+  "entities": [
+    "ipsos"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-27T15:26:04+00:00",
+  "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

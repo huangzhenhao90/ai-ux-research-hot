@@ -5,7 +5,7 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 14:04:13 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 20:28:37 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
     <item>
@@ -16,6 +16,15 @@
       <description>作者在这篇评论中论证，产品团队让 LLM 先定义用户需求和生成画像，得到的多是基于平均值、难以追溯的结论，速度快不等于有进展。文中引用 Atlassian《State of Product 2026》称产品经理用 AI 每天省下近两小时，但 84% 仍担心产品难以成功；NN/g 用 AI 生成受访者重跑三项研究，答案过浅；2026 年 User Interviews 对 150 名研究者的调查中 81% 常用 AI，仅 8% 用它模拟受访者，88% 担心洞察质量。作者主张先用真实访谈与支持工单完成发现，再让 AI 综合笔记、排序失败场景并生成概念。</description>
       <category>UX Collective</category>
       <category>opinion</category>
+    </item>
+    <item>
+      <title>Listen Labs 如何用六步诊断流程和 AI 主持访谈查明 NPS 下滑原因</title>
+      <link>https://listenlabs.com/articles/best-ai-tools-nps-drop/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/best-ai-tools-nps-drop/</guid>
+      <pubDate>Tue, 27 Oct 2026 06:16:33 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 发布一份六步诊断指南，讲解如何用 AI 主持访谈查明 NPS 下滑的原因。文中指出只有约 10% 的 NPS 受访者会留下开放题文本，一轮 5000 账户、12–25% 回收率的调研可能只收到 60–150 条评论，且 30% 以上回答只有一两个词时应视为问卷设计问题而非分析问题。Listen Labs 的做法是从 50M+ 核实样本网络中招募贬损者，在 45+ 国家、120+ 语言开展自适应 AI 主持访谈，24 小时内交付可追溯到具体受访者、原话和视频片段的结论，并可通过 Listen Labs Pulse 对接 Qualtrics、Decipher 等现有 NPS 工具。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
     </item>
     <item>
       <title>Listen Labs 拆解预测式营销信息测试的 7 种方法与对应指标</title>
@@ -444,15 +453,6 @@
       <guid isPermaLink="true">https://dovetail.com/blog/suns-out-2026-launch/</guid>
       <pubDate>Tue, 14 Jul 2026 16:00:00 GMT</pubDate>
       <description>Dovetail 在 Sun's Out 夏季发布中推出 Digital Twins、agents、Channels 2.0 以及新的企业级功能。此次发布还包含 MCP connectors 和企业级治理能力。官方称，这些更新意在缩短客户上下文与业务决策之间的距离。</description>
-      <category>Dovetail Blog</category>
-      <category>tools</category>
-    </item>
-    <item>
-      <title>Dovetail 发布 AI 平台扩展，推出 Agents 与 Digital Twins</title>
-      <link>https://dovetail.com/blog/suns-out-summer-launch-26/</link>
-      <guid isPermaLink="true">https://dovetail.com/blog/suns-out-summer-launch-26/</guid>
-      <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
-      <description>Dovetail 宣布 Sun’s Out Summer Launch ’26，涉及 AI Agents、Digital Twins、Channels 2.0、MCP 连接器和 ISO 42001 认证。官方称这次平台扩展的目标是缩小客户信号与业务结果之间的差距。Digital Twins 被描述为具有品类定义意义的数字孪生能力。</description>
       <category>Dovetail Blog</category>
       <category>tools</category>
     </item>

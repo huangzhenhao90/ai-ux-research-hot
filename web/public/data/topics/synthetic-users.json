@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 20,
+  "count": 21,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -375,6 +375,35 @@
       "publishedAt": "2026-08-26T12:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6365b13a764297dc",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-concept-testing/",
+      "title": "AI Digital Twin Platforms for Concept Testing and Beyond",
+      "titleZh": "Listen Labs 等 AI 数字孪生平台：概念测试与更多场景对比",
+      "summaryZh": "Listen Labs 盘点并对比了用于概念测试的 AI 数字孪生平台，主推可追溯到真实个体的 1:1 Listen Twins。其双胞胎由真实访谈构建，样本网络覆盖 45+ 国家和 120+ 语言，数秒可返回 100+ 条带推理、引语与置信分数的预测答案。Electric Twin 则称其 NDAM 最高 92%，接近约 94% 的人类重测上限。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-27T06:16:39+00:00",
+      "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },

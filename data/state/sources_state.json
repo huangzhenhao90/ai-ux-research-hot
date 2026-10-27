@@ -3,34 +3,34 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "nngroup": {
     "etag": null,
-    "lastModified": "Sat, 24 Oct 2026 14:18:12 GMT",
+    "lastModified": "Tue, 27 Oct 2026 10:18:52 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-24T18:37:41.639925+00:00",
-    "consecutiveFailures": 1,
-    "lastError": "ConnectTimeout: timed out",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
+    "consecutiveFailures": 0,
+    "lastError": null,
     "extra": {}
   },
   "medallia": {
-    "etag": "W/\"35e013fa200d85dc0d4cc984fd41cf11-gzip\"",
-    "lastModified": "Wed, 21 Oct 2026 18:55:31 GMT",
+    "etag": "W/\"15f9968e470daff3fe4ea42b97bb5066-gzip\"",
+    "lastModified": "Tue, 27 Oct 2026 16:32:42 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:53:51.171535+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "qualtrics": {
-    "etag": "\"1793073627\"",
-    "lastModified": "Tue, 27 Oct 2026 04:00:27 GMT",
+    "etag": "\"1793126484\"",
+    "lastModified": "Tue, 27 Oct 2026 18:41:24 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T04:02:06.317224+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -45,46 +45,46 @@
     "extra": {}
   },
   "listen-labs": {
-    "etag": "W/\"dd7c23ff425198c06551ac3a5918ffee\"",
-    "lastModified": "Tue, 27 Oct 2026 06:07:31 GMT",
+    "etag": "W/\"d0956d61a3f1a0d1fb2a5ad178cca834\"",
+    "lastModified": "Tue, 27 Oct 2026 06:34:04 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "maxqda": {
-    "etag": "\"6723e508d4adbdf91a63e8d994bf66d1-gzip\"",
-    "lastModified": "Tue, 27 Oct 2026 10:08:39 GMT",
+    "etag": "\"badd643e5cef90fe7293d001977fa0bc-gzip\"",
+    "lastModified": "Tue, 27 Oct 2026 15:45:53 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "quirkos": {
-    "etag": "W/\"50923-GjJEAdhnFQnQyBU5pqYdRtgNEiA\"",
+    "etag": "W/\"50923-XrZ8WtGVTIW1z6Kl0lnjFNTVZWE\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "delve": {
-    "etag": "W/\"6190c6bdab6dffae0dbb8d9fb62862c6\"",
-    "lastModified": "Fri, 23 Oct 2026 16:37:55 GMT",
+    "etag": "W/\"5b5f5d709b7eb935c0616d681d6ab2f5\"",
+    "lastModified": "Tue, 27 Oct 2026 18:17:13 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-23T16:37:16.273053+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "surveycto": {
-    "etag": "\"1375699e5eff1eb60f86f7ea2588dd7b\"",
-    "lastModified": "Tue, 27 Oct 2026 14:04:24 GMT",
+    "etag": "\"593576f0822baa934410eac719ff8d9f\"",
+    "lastModified": "Tue, 27 Oct 2026 20:28:47 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -93,7 +93,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -102,16 +102,16 @@
     "etag": "W/\"f8d053226c14b3383c4adba2cef3e094\"",
     "lastModified": "Mon, 26 Oct 2026 15:26:18 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "mopinion": {
-    "etag": "\"ab6c9015dd609c8c9c454829b3f66f70-gzip\"",
-    "lastModified": "Tue, 27 Oct 2026 13:55:37 GMT",
+    "etag": "\"cb255f7223ff83d6a431d7e84996147e-gzip\"",
+    "lastModified": "Tue, 27 Oct 2026 15:23:38 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -135,28 +135,28 @@
     "extra": {}
   },
   "prodege": {
-    "etag": "W/\"38d6c570add2b6e0b46d7e22edaf4870\"",
-    "lastModified": "Mon, 26 Oct 2026 17:49:54 GMT",
+    "etag": "W/\"1f90e48129d198fe41938a8b1a094973\"",
+    "lastModified": "Tue, 27 Oct 2026 15:37:00 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-26T18:23:03.103858+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "ipsos": {
-    "etag": "W/\"1793107733\"",
-    "lastModified": "Tue, 27 Oct 2026 13:28:53 GMT",
+    "etag": "W/\"1793115735\"",
+    "lastModified": "Tue, 27 Oct 2026 15:42:15 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "aapor": {
-    "etag": "\"99e615634b14048ac9e736b933b55589\"",
-    "lastModified": "Mon, 26 Oct 2026 17:22:22 GMT",
+    "etag": "\"b13d92b6635d49d5b5998e75c7568cfa\"",
+    "lastModified": "Tue, 27 Oct 2026 18:54:07 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-26T18:23:03.103858+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -174,7 +174,7 @@
     "etag": "\"e621f80ce5f662373a351d57eaf734a8-gzip\"",
     "lastModified": "Mon, 19 Oct 2026 11:36:24 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -192,7 +192,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -234,10 +234,10 @@
     "extra": {}
   },
   "measuringu": {
-    "etag": "W/\"74109c18e28a087973374cb835538ae6\"",
-    "lastModified": "Mon, 26 Oct 2026 21:02:42 GMT",
+    "etag": "W/\"10dbc7384dfb42cd9a5ef9b132866722\"",
+    "lastModified": "Tue, 27 Oct 2026 19:33:10 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -255,16 +255,16 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "rosenfeldmedia": {
     "etag": null,
-    "lastModified": "Wed, 21 Oct 2026 16:39:59 GMT",
+    "lastModified": "Tue, 27 Oct 2026 20:24:15 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-22T01:53:51.171535+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -274,7 +274,7 @@
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
     "lastFetchAt": "2026-10-23T00:49:43.921066+00:00",
-    "consecutiveFailures": 24,
+    "consecutiveFailures": 25,
     "lastError": "HTTP 403",
     "extra": {}
   },
@@ -300,7 +300,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -315,10 +315,10 @@
     "extra": {}
   },
   "usertesting-blog": {
-    "etag": "\"1793059533-gzip\"",
-    "lastModified": "Tue, 27 Oct 2026 00:05:33 GMT",
+    "etag": "\"1793127986-gzip\"",
+    "lastModified": "Tue, 27 Oct 2026 19:06:26 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T04:02:06.317224+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -327,16 +327,16 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "optimalworkshop-blog": {
     "etag": null,
-    "lastModified": "Tue, 27 Oct 2026 04:02:51 GMT",
+    "lastModified": "Tue, 27 Oct 2026 20:19:14 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T04:02:06.317224+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -369,19 +369,19 @@
     "extra": {}
   },
   "maze-blog": {
-    "etag": "\"38a31e8bc0ff081775afb2a5f857932a-ssl-df\"",
+    "etag": "\"3f27fd8e1153ecdf9851fbade1b53a38-ssl-df\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "dscout-people-nerds": {
     "etag": null,
-    "lastModified": "Tue, 27 Oct 2026 04:02:55 GMT",
+    "lastModified": "Tue, 27 Oct 2026 18:31:05 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T04:02:06.317224+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -390,7 +390,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-27T20:28:37.686022+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
