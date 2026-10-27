@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-27T04:31:01.377402+00:00",
+  "generatedAt": "2026-10-27T14:04:13.481977+00:00",
   "windowDays": 3,
   "editionHour": 8,
   "days": [
     {
       "date": "2026-10-28",
-      "count": 2,
+      "count": 4,
       "items": [
         {
           "id": "b80497b282a548ce",
@@ -53,6 +53,59 @@
           "itemType": "research_paper",
           "publishedAt": "2026-10-27T04:00:00+00:00",
           "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        },
+        {
+          "id": "ac5699bdf639bad5",
+          "sourceId": "uxdesign-cc",
+          "sourceName": "UX Collective",
+          "venue": null,
+          "tier": "T2",
+          "url": "https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4",
+          "title": "Going nowhere fast",
+          "titleZh": "为什么用 AI 生成用户画像与需求只是原地加速",
+          "summaryZh": "作者在这篇评论中论证，产品团队让 LLM 先定义用户需求和生成画像，得到的多是基于平均值、难以追溯的结论，速度快不等于有进展。文中引用 Atlassian《State of Product 2026》称产品经理用 AI 每天省下近两小时，但 84% 仍担心产品难以成功；NN/g 用 AI 生成受访者重跑三项研究，答案过浅；2026 年 User Interviews 对 150 名研究者的调查中 81% 常用 AI，仅 8% 用它模拟受访者，88% 担心洞察质量。作者主张先用真实访谈与支持工单完成发现，再让 AI 综合笔记、排序失败场景并生成概念。",
+          "reason": "借抢道与合成用户两个例子，作者说明先做真实用户研究再用 AI 加速，比让 LLM 先定义问题更省成本。",
+          "category": "opinion",
+          "tags": [
+            "观点/讨论",
+            "合成用户",
+            "定性分析",
+            "NN/g"
+          ],
+          "entities": [],
+          "itemType": "opinion_analysis",
+          "publishedAt": "2026-10-27T11:13:03+00:00",
+          "discoveredAt": "2026-10-27T14:04:13.481977+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        },
+        {
+          "id": "cb120d2f6215ccd7",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/predictive-message-testing-examples/",
+          "title": "Predictive Message Testing Examples: 7 Methods & Metrics",
+          "titleZh": "Listen Labs 拆解预测式营销信息测试的 7 种方法与对应指标",
+          "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文拆解 7 种预测式营销信息测试方法，并说明各自评分方式与失效边界。文中以 Listen Twins 数字孪生预筛为例，称其基于 1 位真实受访者的访谈构建，可在数秒返回 100+ 条预测答案；文章还引用 Pew 研究指出合成民调平均绝对误差为 11–13 个百分点。文章列出理解度、可信度、差异化和行动意愿四项指标，并指出基于人物画像的预测只具方向性，应作为待检验假设而非最终结论。",
+          "reason": "文章逐一拆解七种预测式营销信息测试方法，并对照其评分指标与失效边界，便于团队判断不同方法的适用场景。",
+          "category": "methods",
+          "tags": [
+            "方法/实践",
+            "合成用户",
+            "市场研究"
+          ],
+          "entities": [
+            "listen-labs"
+          ],
+          "itemType": "tutorial_explainer",
+          "publishedAt": "2026-10-27T05:40:34+00:00",
+          "discoveredAt": "2026-10-27T14:04:13.481977+00:00",
           "status": "selected",
           "dupOf": null,
           "relation": "different"

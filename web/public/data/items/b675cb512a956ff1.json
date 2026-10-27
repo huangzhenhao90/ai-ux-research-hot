@@ -1,0 +1,24 @@
+{
+  "id": "b675cb512a956ff1",
+  "sourceId": "producttalk",
+  "sourceName": "Product Talk（Teresa Torres）",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://www.producttalk.org/defining-what-good-looks-likes-all-things-product-podcast-with-teresa-torres-petra-wille/",
+  "title": "Defining What Good Looks Likes - All Things Product Podcast with Teresa Torres & Petra Wille",
+  "titleZh": "All Things Product 播客：Teresa Torres 与 Petra Wille 谈 AI evals 如何定义“好”",
+  "summaryZh": "All Things Product 播客中，Teresa Torres 与 Petra Wille 讨论 AI evals 如何定义“好”。Teresa 认为评测应同时衡量技术性能、客户价值与商业价值，不能把“好”外包给通用现成 evals；“好”随语境变化，指标也会从 MAU 走向 DocuSign 发送文档这类真实价值时刻。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-27T13:00:15+00:00",
+  "discoveredAt": "2026-10-27T14:04:13.481977+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

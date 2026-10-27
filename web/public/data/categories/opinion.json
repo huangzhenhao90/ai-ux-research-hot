@@ -3,8 +3,34 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 35,
+  "count": 38,
   "items": [
+    {
+      "id": "ac5699bdf639bad5",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4",
+      "title": "Going nowhere fast",
+      "titleZh": "为什么用 AI 生成用户画像与需求只是原地加速",
+      "summaryZh": "作者在这篇评论中论证，产品团队让 LLM 先定义用户需求和生成画像，得到的多是基于平均值、难以追溯的结论，速度快不等于有进展。文中引用 Atlassian《State of Product 2026》称产品经理用 AI 每天省下近两小时，但 84% 仍担心产品难以成功；NN/g 用 AI 生成受访者重跑三项研究，答案过浅；2026 年 User Interviews 对 150 名研究者的调查中 81% 常用 AI，仅 8% 用它模拟受访者，88% 担心洞察质量。作者主张先用真实访谈与支持工单完成发现，再让 AI 综合笔记、排序失败场景并生成概念。",
+      "reason": "借抢道与合成用户两个例子，作者说明先做真实用户研究再用 AI 加速，比让 LLM 先定义问题更省成本。",
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "定性分析",
+        "NN/g"
+      ],
+      "entities": [],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-10-27T11:13:03+00:00",
+      "discoveredAt": "2026-10-27T14:04:13.481977+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
     {
       "id": "b2ac8832ccc877db",
       "sourceId": "uxdesign-cc",
@@ -291,6 +317,29 @@
       "itemType": null,
       "publishedAt": "2025-09-09T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "b675cb512a956ff1",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://www.producttalk.org/defining-what-good-looks-likes-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "title": "Defining What Good Looks Likes - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "titleZh": "All Things Product 播客：Teresa Torres 与 Petra Wille 谈 AI evals 如何定义“好”",
+      "summaryZh": "All Things Product 播客中，Teresa Torres 与 Petra Wille 讨论 AI evals 如何定义“好”。Teresa 认为评测应同时衡量技术性能、客户价值与商业价值，不能把“好”外包给通用现成 evals；“好”随语境变化，指标也会从 MAU 走向 DocuSign 发送文档这类真实价值时刻。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-27T13:00:15+00:00",
+      "discoveredAt": "2026-10-27T14:04:13.481977+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -893,6 +942,30 @@
       "itemType": null,
       "publishedAt": "2026-08-04T13:50:40+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "99b641e27ad991b9",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/beyond-aisle-why-food-brands-are-showing-up-in-shower",
+      "title": "Beyond the Aisle: Why Food Brands Are Showing Up in the Shower",
+      "titleZh": "Beyond the Aisle：食品品牌为何出现在淋浴间",
+      "summaryZh": "Ipsos 高级研究分析师 Kathryn Valldejuli 在《Beyond the Aisle》中探讨食品品牌为何出现在淋浴间，以及部分品牌如何把日常仪式转化为愉悦、连接与增长时刻。文章聚焦食品品牌跳出货架、融入日常仪式的现象。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-27T09:00:00+00:00",
+      "discoveredAt": "2026-10-27T14:04:13.481977+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

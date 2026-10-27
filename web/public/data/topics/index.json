@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T04:31:01.377402+00:00",
+  "generatedAt": "2026-10-27T14:04:13.481977+00:00",
   "groups": [
     {
       "key": "company",
@@ -51,7 +51,7 @@
       "name": "Nielsen Norman Group",
       "group": "company",
       "definition": "NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。",
-      "count": 9
+      "count": 10
     },
     {
       "slug": "ipsos",
@@ -79,7 +79,7 @@
       "name": "Listen Labs",
       "group": "company",
       "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-      "count": 35
+      "count": 37
     },
     {
       "slug": "dscout",
@@ -93,28 +93,28 @@
       "name": "AI 访谈",
       "group": "field",
       "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-      "count": 26
+      "count": 27
     },
     {
       "slug": "synthetic-users",
       "name": "合成用户",
       "group": "field",
       "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-      "count": 18
+      "count": 20
     },
     {
       "slug": "survey",
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 43
+      "count": 44
     },
     {
       "slug": "qual-analysis",
       "name": "定性分析",
       "group": "field",
       "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-      "count": 63
+      "count": 64
     },
     {
       "slug": "voc",
@@ -128,14 +128,14 @@
       "name": "可用性测试",
       "group": "field",
       "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-      "count": 9
+      "count": 10
     },
     {
       "slug": "research-ops",
       "name": "洞察库与 ResearchOps",
       "group": "field",
       "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-      "count": 39
+      "count": 40
     },
     {
       "slug": "ethics",
@@ -163,7 +163,7 @@
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 75
+      "count": 77
     },
     {
       "slug": "prompts",

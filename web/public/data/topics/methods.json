@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 75,
+  "count": 77,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -454,6 +454,33 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "cb120d2f6215ccd7",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/predictive-message-testing-examples/",
+      "title": "Predictive Message Testing Examples: 7 Methods & Metrics",
+      "titleZh": "Listen Labs 拆解预测式营销信息测试的 7 种方法与对应指标",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文拆解 7 种预测式营销信息测试方法，并说明各自评分方式与失效边界。文中以 Listen Twins 数字孪生预筛为例，称其基于 1 位真实受访者的访谈构建，可在数秒返回 100+ 条预测答案；文章还引用 Pew 研究指出合成民调平均绝对误差为 11–13 个百分点。文章列出理解度、可信度、差异化和行动意愿四项指标，并指出基于人物画像的预测只具方向性，应作为待检验假设而非最终结论。",
+      "reason": "文章逐一拆解七种预测式营销信息测试方法，并对照其评分指标与失效边界，便于团队判断不同方法的适用场景。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-27T05:40:34+00:00",
+      "discoveredAt": "2026-10-27T14:04:13.481977+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "d8770b9635a8b9b8",
@@ -1510,6 +1537,35 @@
       "itemType": null,
       "publishedAt": "2026-07-14T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "b07c2eb86511570e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ux-concept-testing-tools/",
+      "title": "UX Concept Testing Tool: How To Choose One This Week",
+      "titleZh": "UX 概念测试工具如何选：Listen Labs 领衔首选清单",
+      "summaryZh": "Listen Labs 的 UX 概念测试工具选购指南按六种方法和主持/非主持、样本库/BYOP 两大取舍排序，并将 Listen Labs 列为首选。其称 AI 主持访谈可并行覆盖数百名参与者，24 小时内交付结果，样本来自 50M+ 验证样本库、覆盖 45+ 国家和 120+ 语言。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "可用性测试",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-27T05:40:29+00:00",
+      "discoveredAt": "2026-10-27T14:04:13.481977+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
