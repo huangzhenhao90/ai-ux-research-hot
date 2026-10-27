@@ -5,9 +5,16 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot/daily/</link>
     <description>AI 用研热点的每日精选，08:00 后出刊。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 04:02:06 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 04:31:01 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss-daily.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
+    <item>
+      <title>UXHOT 日报 2026-10-27｜6 条精选</title>
+      <link>https://huangzhenhao90.github.io/ai-ux-research-hot/daily/2026-10-27/</link>
+      <guid isPermaLink="true">https://huangzhenhao90.github.io/ai-ux-research-hot/daily/2026-10-27/</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description>&lt;ul&gt;&lt;li&gt;&lt;a href="https://measuringu.com/salary-survey2026/?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=salary-survey2026"&gt;MeasuringU 与 UXPA 发布 2026 UX 薪资调查：中位数 $143K，附薪资计算器&lt;/a&gt;（MeasuringU（Jeff Sauro））&lt;/li&gt;&lt;li&gt;&lt;a href="https://listenlabs.com/articles/ai-personas-usability-testing/"&gt;如何用 AI persona 做可用性测试：Listen Labs 完整指南&lt;/a&gt;（Listen Labs）&lt;/li&gt;&lt;li&gt;&lt;a href="https://dovetail.com/blog/channels-2-is-generally-available/"&gt;Channels 2.0 正式可用，为各团队提供统一的客户上下文层&lt;/a&gt;（Dovetail Blog）&lt;/li&gt;&lt;li&gt;&lt;a href="https://listenlabs.com/articles/simulate-customer-reactions-with-ai/"&gt;Listen Labs 分步讲解如何用 AI 模拟顾客反应&lt;/a&gt;（Listen Labs）&lt;/li&gt;&lt;li&gt;&lt;a href="https://arxiv.org/abs/2509.25499"&gt;Atlas of Human-AI Interaction 用 LLM 从 31,741 篇论文抽取 308,802 条论断构建交互知识图谱&lt;/a&gt;（arXiv cs.HC）&lt;/li&gt;&lt;li&gt;&lt;a href="https://arxiv.org/abs/2610.31678"&gt;研究指出交互式 LLM 评估不能只验证评分器整体准确率&lt;/a&gt;（arXiv cs.HC）&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>UXHOT 日报 2026-10-26｜5 条精选</title>
       <link>https://huangzhenhao90.github.io/ai-ux-research-hot/daily/2026-10-26/</link>

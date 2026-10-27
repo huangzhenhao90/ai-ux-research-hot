@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "count": 222,
+  "count": 223,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -2513,6 +2513,30 @@
       "itemType": null,
       "publishedAt": "2026-10-08T09:52:41+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a7d19d10d9beafab",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/context-changes-everything",
+      "title": "Context Changes Everything",
+      "titleZh": "益普索（Ipsos）Contextual Brand Tracking：情境塑造品牌选择，也应塑造品牌衡量",
+      "summaryZh": "益普索（Ipsos）围绕 Contextual Brand Tracking 指出，情境塑造品牌选择，品牌衡量也应把情境纳入。该内容将情境化品牌追踪作为核心主张，强调品牌衡量应与品牌选择所处的情境保持一致。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-26T16:25:27+00:00",
+      "discoveredAt": "2026-10-27T04:31:01.377402+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
