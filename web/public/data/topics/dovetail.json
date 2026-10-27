@@ -3,7 +3,7 @@
   "name": "Dovetail",
   "group": "company",
   "definition": "Dovetail 的洞察库与研究分析产品更新，以及其对研究流程自动化的做法。",
-  "count": 20,
+  "count": 21,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -87,6 +87,33 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "8951dc7351f470b0",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/channels-2-is-generally-available/",
+      "title": "Channels 2.0 in GA: one customer context layer for every team",
+      "titleZh": "Channels 2.0 正式可用，为各团队提供统一的客户上下文层",
+      "summaryZh": "宣布 Channels 2.0 正式可用（GA），把营收、产品与团队上下文叠加到每一条客户反馈上。官方称，这让每个团队都能基于证据做决策",
+      "reason": "Dovetail 把营收、产品与团队上下文叠到每条客户反馈上，便于考察跨团队共享客户洞察的方式。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "Dovetail",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-10-26T12:00:00+00:00",
+      "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "042be7b6ee4ca9d0",

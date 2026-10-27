@@ -1,0 +1,26 @@
+{
+  "id": "93522d31daf7320e",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.28929",
+  "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
+  "titleZh": "Scriptorium：多人多 AI 协作数字图书馆搜索平台的设计与实现",
+  "summaryZh": "Scriptorium 技术报告记录了多人多 AI 协作数字图书馆搜索平台的设计与实现。系统采用 Manager–Worker 架构，由七个角色专精的生成式 AI 智能体协同，跨用户搜索活动完全透明。报告给出数据模型、逐字提示词、确定性护栏及语言模型与检索配置，计划用户研究验证协作透明与受限多智能体辅助能否增加研究线索偶然交叉。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "Agent",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-27T04:00:00+00:00",
+  "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

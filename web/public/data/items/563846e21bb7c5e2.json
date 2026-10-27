@@ -1,0 +1,27 @@
+{
+  "id": "563846e21bb7c5e2",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.33997",
+  "title": "Detecting and Understanding Ambiguity in Visualizations with Role-Playing Vision Language Model Interpretations",
+  "titleZh": "用角色扮演视觉语言模型检测与理解可视化中的歧义",
+  "summaryZh": "研究者用角色扮演视觉语言模型（VLM）生成候选解读，再以 Target--Pattern--Scope 框架和 LLM 评判器标注歧义并汇总为歧义画像。方法按各图表类型筛选表现最佳的 VLM，用人工标注评估标签并应用于公开真实可视化；案例显示其能生成候选语境结论、补充人类反馈并暴露潜在歧义。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "多模态",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-27T04:00:00+00:00",
+  "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

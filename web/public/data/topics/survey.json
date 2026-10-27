@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 42,
+  "count": 43,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -79,6 +79,31 @@
       "itemType": "research_paper",
       "publishedAt": "2026-10-22T18:42:59+00:00",
       "discoveredAt": "2026-10-23T00:49:43.921066+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "b80497b282a548ce",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2609.13148",
+      "title": "When Can You Trust Your Synthetic Users? Diagnostics and Corrections for LLM Consumer Panels",
+      "titleZh": "研究提出判断 LLM 合成用户样本库何时可信的诊断与修正框架",
+      "summaryZh": "该论文提出一套框架，用来判断 LLM 合成消费者样本库何时可信任、可修正或应弃用；框架用协变量重叠、条件校准与跨模型稳定性做诊断。修正需要完整的邀请名单、所有受邀者的应答指示和受访者的真人结果，并要求数据随机缺失且满足正值性假设。在 ANES 与 Twin-2K-500 的配对真人及 LLM 回答模拟中，部分可识别情形下名义 95% 置信区间仅覆盖 88–94%；当非应答依赖缺失的真人结果时，偏差仍然明显，覆盖率接近零。",
+      "reason": "论文给出诊断协变量重叠、条件校准与跨模型稳定性的判断框架，并指出修正只能依赖可获得的真人数据与识别假设。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-27T04:00:00+00:00",
+      "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"

@@ -1,5 +1,5 @@
 {
-  "count": 512,
+  "count": 520,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -191,6 +191,38 @@
       "publishedAt": "2025-10-08T15:00:00+00:00"
     },
     {
+      "id": "b80497b282a548ce",
+      "title": "When Can You Trust Your Synthetic Users? Diagnostics and Corrections for LLM Consumer Panels",
+      "titleZh": "研究提出判断 LLM 合成用户样本库何时可信的诊断与修正框架",
+      "summaryZh": "该论文提出一套框架，用来判断 LLM 合成消费者样本库何时可信任、可修正或应弃用；框架用协变量重叠、条件校准与跨模型稳定性做诊断。修正需要完整的邀请名单、所有受邀者的应答指示和受访者的真人结果，并要求数据随机缺失且满足正值性假设。在 ANES 与 Twin-2K-500 的配对真人及 LLM 回答模拟中，部分可识别情形下名义 95% 置信区间仅覆盖 88–94%；当非应答依赖缺失的真人结果时，偏差仍然明显，覆盖率接近零。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2609.13148",
+      "publishedAt": "2026-10-27T04:00:00+00:00"
+    },
+    {
+      "id": "d18b16dfe61e7d9e",
+      "title": "Beyond Behavioral Accuracy: Evaluating Individual-Level Fidelity in LLM Investor Simulation",
+      "titleZh": "超越行为准确率：评估 LLM 投资者模拟中的个体层面保真度",
+      "summaryZh": "一项 80 人参与的纵向模拟交易研究检验 LLM 能否复现个体投资者的决策逻辑，发现没有评估中的 LLM 能在预测是否发生交易上稳定超过简单的近期活跃度基线。买卖结构与资产选择同样难以复现，且活动水平相近的模型也可能产生差异很大的组合轨迹。消融实验显示交易活动预测主要依赖近期交易记录，资产选择则对多种证据来源敏感；参与者认为模型给出的解释更贴合其长期策略而非单次决策理由。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "行为数据"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.26524",
+      "publishedAt": "2026-10-27T04:00:00+00:00"
+    },
+    {
       "id": "c19211af82edc8c6",
       "title": "Beyond Better Ideas: How Human-AI Collaboration Shapes Scientific Ideas and Human Perceptions",
       "titleZh": "arXiv 论文对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上无显著优势",
@@ -275,6 +307,24 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/collaboration-in-delve/",
       "publishedAt": "2026-07-24T00:00:00+00:00"
+    },
+    {
+      "id": "8951dc7351f470b0",
+      "title": "Channels 2.0 in GA: one customer context layer for every team",
+      "titleZh": "Channels 2.0 正式可用，为各团队提供统一的客户上下文层",
+      "summaryZh": "宣布 Channels 2.0 正式可用（GA），把营收、产品与团队上下文叠加到每一条客户反馈上。官方称，这让每个团队都能基于证据做决策",
+      "tags": [
+        "工具发布",
+        "Dovetail",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/channels-2-is-generally-available/",
+      "publishedAt": "2026-10-26T12:00:00+00:00"
     },
     {
       "id": "dcc918dafe31f3ef",
@@ -524,6 +574,24 @@
       "publishedAt": "2026-07-14T12:00:00+00:00"
     },
     {
+      "id": "fa0448f1e6aad392",
+      "title": "Expanding Sprig MCP: From study creation to complete workflows",
+      "titleZh": "Sprig 扩展 MCP 能力，从创建研究延伸到完整工作流",
+      "summaryZh": "Sprig 宣布扩展其 MCP 能力，覆盖范围从创建单项研究延伸到完整工作流。原文把此前只能做研究创建的阶段与现在可串联多步骤流程的能力做了区分。",
+      "tags": [
+        "功能更新",
+        "Agent",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "sprig"
+      ],
+      "category": "tools",
+      "sourceName": "Sprig Blog",
+      "url": "https://sprig.com/blog/mcp-capabilities-expansion",
+      "publishedAt": "2026-10-25T16:00:00+00:00"
+    },
+    {
       "id": "26b8ca5cbfcf5bae",
       "title": "Organic growth of 2.0% in Q3",
       "titleZh": "第三季度营收6.362亿欧元，有机增长2.0%",
@@ -638,6 +706,39 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/",
       "publishedAt": "2026-03-27T01:00:00+00:00"
+    },
+    {
+      "id": "563846e21bb7c5e2",
+      "title": "Detecting and Understanding Ambiguity in Visualizations with Role-Playing Vision Language Model Interpretations",
+      "titleZh": "用角色扮演视觉语言模型检测与理解可视化中的歧义",
+      "summaryZh": "研究者用角色扮演视觉语言模型（VLM）生成候选解读，再以 Target--Pattern--Scope 框架和 LLM 评判器标注歧义并汇总为歧义画像。方法按各图表类型筛选表现最佳的 VLM，用人工标注评估标签并应用于公开真实可视化；案例显示其能生成候选语境结论、补充人类反馈并暴露潜在歧义。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "多模态",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.33997",
+      "publishedAt": "2026-10-27T04:00:00+00:00"
+    },
+    {
+      "id": "93522d31daf7320e",
+      "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
+      "titleZh": "Scriptorium：多人多 AI 协作数字图书馆搜索平台的设计与实现",
+      "summaryZh": "Scriptorium 技术报告记录了多人多 AI 协作数字图书馆搜索平台的设计与实现。系统采用 Manager–Worker 架构，由七个角色专精的生成式 AI 智能体协同，跨用户搜索活动完全透明。报告给出数据模型、逐字提示词、确定性护栏及语言模型与检索配置，计划用户研究验证协作透明与受限多智能体辅助能否增加研究线索偶然交叉。",
+      "tags": [
+        "方法/实践",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.28929",
+      "publishedAt": "2026-10-27T04:00:00+00:00"
     },
     {
       "id": "363fc2298f2aa390",
@@ -1163,6 +1264,21 @@
       "sourceName": "SurveyMonkey",
       "url": "https://www.surveymonkey.com/curiosity/ask-the-market-mental-health-ai/?ut_source=rss",
       "publishedAt": "2026-09-25T09:17:54+00:00"
+    },
+    {
+      "id": "0d1ebdeaf0eaf730",
+      "title": "How to use affinity mapping for user research",
+      "titleZh": "How to use affinity mapping for user research",
+      "summaryZh": "",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "UserTesting Blog",
+      "url": "https://www.usertesting.com/blog/affinity-mapping",
+      "publishedAt": "2026-10-27T00:00:00+00:00"
     },
     {
       "id": "da7ddc0160b2d648",
@@ -2401,6 +2517,22 @@
       "sourceName": "Behaviour & Information Technology",
       "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2623945?af=R",
       "publishedAt": "2026-02-03T12:24:32+00:00"
+    },
+    {
+      "id": "f83e205121a192d3",
+      "title": "Agents for Experiments, Experiments for Agents: A Design Grammar for AI-Enabled Experimental Science",
+      "titleZh": "SEED：AI 赋能实验科学中的智能体与实验设计语法",
+      "summaryZh": "一项概念评论提出 SEED 语法，用类型化行动者流图表示实验条件，并将公开记录的研究组织成共享条件库。该语法区分结构变化与属性变化，并通过计算示例展示其如何支持设计比较和 AI 辅助开发候选实验条件。作者呼吁社区就语法达成共识、协调建设与维护该库，并讨论复现、来源追踪及受限数据访问等影响。",
+      "tags": [
+        "方法/实践",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2605.17746",
+      "publishedAt": "2026-10-27T04:00:00+00:00"
     },
     {
       "id": "f0f79ace627c246c",

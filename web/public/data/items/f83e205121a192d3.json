@@ -1,0 +1,26 @@
+{
+  "id": "f83e205121a192d3",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2605.17746",
+  "title": "Agents for Experiments, Experiments for Agents: A Design Grammar for AI-Enabled Experimental Science",
+  "titleZh": "SEED：AI 赋能实验科学中的智能体与实验设计语法",
+  "summaryZh": "一项概念评论提出 SEED 语法，用类型化行动者流图表示实验条件，并将公开记录的研究组织成共享条件库。该语法区分结构变化与属性变化，并通过计算示例展示其如何支持设计比较和 AI 辅助开发候选实验条件。作者呼吁社区就语法达成共识、协调建设与维护该库，并讨论复现、来源追踪及受限数据访问等影响。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "Agent",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-27T04:00:00+00:00",
+  "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

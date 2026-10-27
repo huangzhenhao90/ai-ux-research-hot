@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 37,
+  "count": 39,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -116,6 +116,33 @@
       "relation": null
     },
     {
+      "id": "8951dc7351f470b0",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/channels-2-is-generally-available/",
+      "title": "Channels 2.0 in GA: one customer context layer for every team",
+      "titleZh": "Channels 2.0 正式可用，为各团队提供统一的客户上下文层",
+      "summaryZh": "宣布 Channels 2.0 正式可用（GA），把营收、产品与团队上下文叠加到每一条客户反馈上。官方称，这让每个团队都能基于证据做决策",
+      "reason": "Dovetail 把营收、产品与团队上下文叠到每条客户反馈上，便于考察跨团队共享客户洞察的方式。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "Dovetail",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-10-26T12:00:00+00:00",
+      "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "042be7b6ee4ca9d0",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -226,6 +253,33 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "fa0448f1e6aad392",
+      "sourceId": "sprig-blog",
+      "sourceName": "Sprig Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://sprig.com/blog/mcp-capabilities-expansion",
+      "title": "Expanding Sprig MCP: From study creation to complete workflows",
+      "titleZh": "Sprig 扩展 MCP 能力，从创建研究延伸到完整工作流",
+      "summaryZh": "Sprig 宣布扩展其 MCP 能力，覆盖范围从创建单项研究延伸到完整工作流。原文把此前只能做研究创建的阶段与现在可串联多步骤流程的能力做了区分。",
+      "reason": "原文交代了 Sprig MCP 从单次研究创建扩展到完整工作流的范围变化，研究者可据此判断哪些环节能交给智能体串联。",
+      "category": "tools",
+      "tags": [
+        "功能更新",
+        "Agent",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "sprig"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-10-25T16:00:00+00:00",
+      "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "a6138ac6efa9ae84",

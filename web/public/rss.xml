@@ -5,9 +5,27 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 23:36:41 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 04:02:06 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>UXHOT publish/rss_out.py</generator>
+    <item>
+      <title>研究提出判断 LLM 合成用户样本库何时可信的诊断与修正框架</title>
+      <link>https://arxiv.org/abs/2609.13148</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2609.13148</guid>
+      <pubDate>Tue, 27 Oct 2026 04:00:00 GMT</pubDate>
+      <description>该论文提出一套框架，用来判断 LLM 合成消费者样本库何时可信任、可修正或应弃用；框架用协变量重叠、条件校准与跨模型稳定性做诊断。修正需要完整的邀请名单、所有受邀者的应答指示和受访者的真人结果，并要求数据随机缺失且满足正值性假设。在 ANES 与 Twin-2K-500 的配对真人及 LLM 回答模拟中，部分可识别情形下名义 95% 置信区间仅覆盖 88–94%；当非应答依赖缺失的真人结果时，偏差仍然明显，覆盖率接近零。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>超越行为准确率：评估 LLM 投资者模拟中的个体层面保真度</title>
+      <link>https://arxiv.org/abs/2610.26524</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.26524</guid>
+      <pubDate>Tue, 27 Oct 2026 04:00:00 GMT</pubDate>
+      <description>一项 80 人参与的纵向模拟交易研究检验 LLM 能否复现个体投资者的决策逻辑，发现没有评估中的 LLM 能在预测是否发生交易上稳定超过简单的近期活跃度基线。买卖结构与资产选择同样难以复现，且活动水平相近的模型也可能产生差异很大的组合轨迹。消融实验显示交易活动预测主要依赖近期交易记录，资产选择则对多种证据来源敏感；参与者认为模型给出的解释更贴合其长期策略而非单次决策理由。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
     <item>
       <title>MeasuringU 与 UXPA 发布 2026 UX 薪资调查：中位数 $143K，附薪资计算器</title>
       <link>https://measuringu.com/salary-survey2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=salary-survey2026</link>
@@ -16,6 +34,15 @@
       <description>MeasuringU 与 UXPA 的 2026 UX 薪资调查共收集 24 个国家 383 份样本，UX 从业者薪资中位数为 $143K，较 2024 年的 $120K 高 19%。同期通胀为 6.3%，通胀调整后实际增幅约 12%；样本中美国占比由 67% 升至 82%，也抬高了整体中位数。关键驱动因素的回归模型解释了 73% 的薪资差异，地区影响最大，美国中位数 $153K，英国 $100K、加拿大 $81K、德国 $68K；页面附薪资计算器。</description>
       <category>MeasuringU（Jeff Sauro）</category>
       <category>research</category>
+    </item>
+    <item>
+      <title>Channels 2.0 正式可用，为各团队提供统一的客户上下文层</title>
+      <link>https://dovetail.com/blog/channels-2-is-generally-available/</link>
+      <guid isPermaLink="true">https://dovetail.com/blog/channels-2-is-generally-available/</guid>
+      <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
+      <description>宣布 Channels 2.0 正式可用（GA），把营收、产品与团队上下文叠加到每一条客户反馈上。官方称，这让每个团队都能基于证据做决策</description>
+      <category>Dovetail Blog</category>
+      <category>tools</category>
     </item>
     <item>
       <title>如何用 AI persona 做可用性测试：Listen Labs 完整指南</title>
@@ -52,6 +79,15 @@
       <description>论文指出，在交互式 LLM 评估中只用整体准确率或 F1 验证自动评分器，会掩盖提示词层面的错误并扭曲提示词之间的比较结果。作者用 6 个模型、180 个虚构实体问题和 6 种提示词条件做检验，288 条平衡审计的整体 F1 为 .916，但评分器将 2.6%-33.3% 被主要评分者判为不含无依据事实主张的回答标为有问题，且各提示词下的估计并不确定。第二次审计中，评分器与两个独立 LLM 评分者评估同一批 300 个模型-问题案例，原本 9.3 个百分点的提升在两位评分者下都降到 2.3 个百分点且主要评分者区间包含零；作者建议审计计划报告的那个差值本身，并把评分者不确定性纳入最终结果。</description>
       <category>arXiv cs.HC</category>
       <category>research</category>
+    </item>
+    <item>
+      <title>Sprig 扩展 MCP 能力，从创建研究延伸到完整工作流</title>
+      <link>https://sprig.com/blog/mcp-capabilities-expansion</link>
+      <guid isPermaLink="true">https://sprig.com/blog/mcp-capabilities-expansion</guid>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>Sprig 宣布扩展其 MCP 能力，覆盖范围从创建单项研究延伸到完整工作流。原文把此前只能做研究创建的阶段与现在可串联多步骤流程的能力做了区分。</description>
+      <category>Sprig Blog</category>
+      <category>tools</category>
     </item>
     <item>
       <title>AI 进入专业用户工作前，边界该划在哪里</title>
@@ -419,42 +455,6 @@
       <description>将 Claude 连接到 Dovetail 后，用户可把客户证据带入草稿、决策和简报，同时不打断工作流。Dovetail 以此说明 Claude 与 Dovetail 连接后的使用场景。</description>
       <category>Dovetail Blog</category>
       <category>tools</category>
-    </item>
-    <item>
-      <title>发布迄今最强的聊天功能更新</title>
-      <link>https://dovetail.com/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/</link>
-      <guid isPermaLink="true">https://dovetail.com/blog/the-most-powerful-version-of-chat-in-dovetail-is-now-live/</guid>
-      <pubDate>Mon, 11 May 2026 14:00:00 GMT</pubDate>
-      <description>发布聊天功能上线以来规模最大的一次更新，支持在对话中内嵌富媒体、多上下文提问与网页搜索。此次更新还包括重新设计的交互体验和更广的数据覆盖范围</description>
-      <category>Dovetail Blog</category>
-      <category>tools</category>
-    </item>
-    <item>
-      <title>推出 Explore：可视化搜索客户知识的新体验</title>
-      <link>https://dovetail.com/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/</link>
-      <guid isPermaLink="true">https://dovetail.com/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/</guid>
-      <pubDate>Fri, 27 Mar 2026 01:00:00 GMT</pubDate>
-      <description>推出 Explore，一种新的可视化搜索体验，帮助团队在工作区中浏览高亮、项目、对话和客户时刻。该功能定位为跨工作区串联客户知识的入口</description>
-      <category>Dovetail Blog</category>
-      <category>tools</category>
-    </item>
-    <item>
-      <title>数据监测指南：如何及早发现坏数据的领先指标</title>
-      <link>https://www.surveycto.com/data-collection-quality/data-monitoring-guide/</link>
-      <guid isPermaLink="true">https://www.surveycto.com/data-collection-quality/data-monitoring-guide/</guid>
-      <pubDate>Thu, 26 Mar 2026 15:34:41 GMT</pubDate>
-      <description>发布数据监测指南，讲解如何用自动化和智能检查识别坏数据的早期指标。指南以分步方式说明及早发现数据质量问题的方法</description>
-      <category>SurveyCTO</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>如何用 AI 构建并应用主题分析编码本</title>
-      <link>https://delvetool.com/blog/how-to-create-apply-thematic-analysis-codebook-using-ai/</link>
-      <guid isPermaLink="true">https://delvetool.com/blog/how-to-create-apply-thematic-analysis-codebook-using-ai/</guid>
-      <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
-      <description>的指南演示如何用 AI 从首个编码到最终主题构建并应用主题分析编码本。指南具体说明在哪些环节、何时以及为何应信任 AI 工具，而不是依赖人工判断</description>
-      <category>Delve</category>
-      <category>methods</category>
     </item>
   </channel>
 </rss>

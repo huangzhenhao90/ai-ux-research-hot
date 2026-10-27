@@ -1,0 +1,28 @@
+{
+  "id": "fa0448f1e6aad392",
+  "sourceId": "sprig-blog",
+  "sourceName": "Sprig Blog",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://sprig.com/blog/mcp-capabilities-expansion",
+  "title": "Expanding Sprig MCP: From study creation to complete workflows",
+  "titleZh": "Sprig 扩展 MCP 能力，从创建研究延伸到完整工作流",
+  "summaryZh": "Sprig 宣布扩展其 MCP 能力，覆盖范围从创建单项研究延伸到完整工作流。原文把此前只能做研究创建的阶段与现在可串联多步骤流程的能力做了区分。",
+  "reason": "原文交代了 Sprig MCP 从单次研究创建扩展到完整工作流的范围变化，研究者可据此判断哪些环节能交给智能体串联。",
+  "category": "tools",
+  "tags": [
+    "功能更新",
+    "Agent",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "sprig"
+  ],
+  "itemType": "tool_launch",
+  "publishedAt": "2026-10-25T16:00:00+00:00",
+  "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

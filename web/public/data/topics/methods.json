@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 72,
+  "count": 75,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -349,6 +349,31 @@
       "relation": null
     },
     {
+      "id": "93522d31daf7320e",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.28929",
+      "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
+      "titleZh": "Scriptorium：多人多 AI 协作数字图书馆搜索平台的设计与实现",
+      "summaryZh": "Scriptorium 技术报告记录了多人多 AI 协作数字图书馆搜索平台的设计与实现。系统采用 Manager–Worker 架构，由七个角色专精的生成式 AI 智能体协同，跨用户搜索活动完全透明。报告给出数据模型、逐字提示词、确定性护栏及语言模型与检索配置，计划用户研究验证协作透明与受限多智能体辅助能否增加研究线索偶然交叉。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-27T04:00:00+00:00",
+      "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "797430abdaa2cdf8",
       "sourceId": "delve",
       "sourceName": "Delve",
@@ -673,6 +698,30 @@
       "itemType": null,
       "publishedAt": "2026-10-24T05:04:39+00:00",
       "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "0d1ebdeaf0eaf730",
+      "sourceId": "usertesting-blog",
+      "sourceName": "UserTesting Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.usertesting.com/blog/affinity-mapping",
+      "title": "How to use affinity mapping for user research",
+      "titleZh": "How to use affinity mapping for user research",
+      "summaryZh": "",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-27T00:00:00+00:00",
+      "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1461,6 +1510,31 @@
       "itemType": null,
       "publishedAt": "2026-07-14T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f83e205121a192d3",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2605.17746",
+      "title": "Agents for Experiments, Experiments for Agents: A Design Grammar for AI-Enabled Experimental Science",
+      "titleZh": "SEED：AI 赋能实验科学中的智能体与实验设计语法",
+      "summaryZh": "一项概念评论提出 SEED 语法，用类型化行动者流图表示实验条件，并将公开记录的研究组织成共享条件库。该语法区分结构变化与属性变化，并通过计算示例展示其如何支持设计比较和 AI 辅助开发候选实验条件。作者呼吁社区就语法达成共识、协调建设与维护该库，并讨论复现、来源追踪及受限数据访问等影响。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-27T04:00:00+00:00",
+      "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
