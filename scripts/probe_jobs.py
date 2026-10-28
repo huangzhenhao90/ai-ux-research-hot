@@ -495,6 +495,14 @@ def render_dates(reports: list[CompanyReport]) -> list[str]:
                 f"- `{key}`：{count}/{len(jobs)} 条有；最早 {days[0]}，最新 {days[-1]}；"
                 f"30 天内 {fresh30} 条、90 天内 {fresh90} 条、更早 {len(ages) - fresh90} 条"
             )
+        # 字段名像时间、但值认不出来的（空值、别的写法），原样列几条供人工判断
+        raw: dict[str, list[str]] = {}
+        for job, found in zip(jobs, fields):
+            for key, value in job.items():
+                if DATE_KEY.search(str(key)) and key not in found and len(raw.setdefault(key, [])) < 3:
+                    raw[key].append(json.dumps(value, ensure_ascii=False)[:40])
+        for key, values in raw.items():
+            lines.append(f"- `{key}` 未解析，原值：{' / '.join(values)}")
         for job, found in list(zip(jobs, fields))[:4]:
             title = next((str(job[k]) for k in TITLE_KEYS if isinstance(job.get(k), str)), "?")
             stamps = "，".join(f"{k}={v}" for k, v in found.items()) or "无"
