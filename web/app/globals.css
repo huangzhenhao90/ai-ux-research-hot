@@ -47,6 +47,12 @@
 
   /* 手机顶栏的高度：吸顶的日期头停在它下面。桌面没有顶栏。 */
   --bar-h: 0px;
+  /*
+   * 主区宽度跟着屏幕形状走：列表页铺满到约 21:9 的屏幕，更宽才居中留白；
+   * 阅读页（详情、关于）保持窄栏、居中。236px 是侧栏加主区左右内边距。
+   */
+  --page-max-wide: max(1200px, calc(270dvh - 236px));
+  --page-max-reading: 820px;
   --gutter: 16px;
 }
 
@@ -218,12 +224,13 @@ code {
 
 .main {
   width: 100%;
-  max-width: 1240px;
+  max-width: var(--page-max-wide);
+  margin-inline: auto;
   padding: 24px 32px 48px;
 }
 
 .main--narrow {
-  max-width: 820px;
+  max-width: var(--page-max-reading);
 }
 
 .sidebar {
@@ -423,10 +430,17 @@ code {
   display: flex;
   flex-wrap: wrap;
   gap: 4px 14px;
-  margin-top: auto;
+  /* 贴底，左右与列表页主区对齐 */
+  width: 100%;
+  max-width: var(--page-max-wide);
+  margin: auto auto 0;
   padding: 20px 32px 28px;
   font-size: 12px;
   color: var(--ink-4);
+}
+
+.site-footer--narrow {
+  max-width: var(--page-max-reading);
 }
 
 .site-footer a:hover {
