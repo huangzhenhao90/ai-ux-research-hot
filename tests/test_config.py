@@ -56,9 +56,9 @@ def test_site_uses_confirmed_identity(cfg) -> None:
 
 
 def test_site_editions_match_d10(cfg) -> None:
-    """D10：日报 08:00、周报周一 10:00。"""
+    """D10：一期按北京时间 08:00 分界（日报、周报已在 D14 去掉）。"""
     assert cfg.site.editions["daily"] == "08:00"
-    assert cfg.site.editions["weekly"].startswith("MON")
+    assert "weekly" not in cfg.site.editions
 
 
 def test_budget_matches_d9(cfg) -> None:
@@ -171,7 +171,6 @@ def test_overrides_empty_by_default(cfg) -> None:
     assert cfg.overrides.select == []
     assert cfg.overrides.reject == []
     assert cfg.overrides.category == []
-    assert cfg.overrides.pin == []
 
 
 # ══ 负例：证明校验真的会拦 ═══════════════════════════════════════════════
@@ -185,13 +184,11 @@ def _tax(**overrides) -> Taxonomy:
         ],
         itemTypes=["tool_launch"],
         itemTypeCategoryTag={"tool_launch": "工具发布"},
-        release={"category": "tools", "tag": "工具发布", "unit": "款新工具"},
         categoryTags=["工具发布"],
         topicTags=["AI 访谈"],
         entityTags=["Qualtrics"],
         tagSynonyms={"AI 访谈": ["AI moderated"]},
         entities=[Entity(id="qualtrics", name="Qualtrics")],
-        plainTerms=["ai"],
     )
     base.update(overrides)
     return Taxonomy(**base)

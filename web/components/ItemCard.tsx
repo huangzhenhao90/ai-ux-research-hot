@@ -107,10 +107,17 @@ export function ItemCardList({
   if (items.length === 0) {
     return <p className="empty">{emptyText}</p>;
   }
+  const groups = groupByDay(items);
+  const refYear = groups.find((group) => group.day)?.day.slice(0, 4);
   return (
     <div className="days">
-      {groupByDay(items).map((group) => (
-        <TimelineDay key={group.day} day={group.day} count={group.items.length}>
+      {groups.map((group) => (
+        <TimelineDay
+          key={group.day}
+          day={group.day}
+          refYear={refYear}
+          count={group.items.length}
+        >
           {group.items.map(({ item, at }) => (
             <TimelineSlot key={item.id} at={at}>
               <ItemCard

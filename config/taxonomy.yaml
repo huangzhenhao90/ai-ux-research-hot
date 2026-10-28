@@ -77,12 +77,6 @@ itemTypeCategoryTag:
   opinion_analysis: 观点/讨论
   tutorial_explainer: 方法/实践
 
-# ── 日报报头统计用：`N 款新工具` ────────────────────────────────────────
-release:
-  category: tools
-  tag: 工具发布
-  unit: 款新工具
-
 # ── 分类标签（第一个必选其一）────────────────────────────────────────────
 categoryTags:
   - 工具发布
@@ -321,21 +315,3 @@ entities:
     name: 腾讯问卷
     aliases: [腾讯问卷]
     domains: [wj.qq.com]
-
-# ── 通用词（周报总述校验时豁免；这些词不算「条目里没有的名字」）──────────
-plainTerms:
-  - ai
-  - ux
-  - ui
-  - llm
-  - nps
-  - csat
-  - ces
-  - voc
-  - jtbd
-  - sus
-  - b2b
-  - saas
-  - ceo
-  - cx
-  - hci

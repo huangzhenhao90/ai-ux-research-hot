@@ -3,16 +3,7 @@
 手写 XML 而不是引第三方库：这里只需要一个频道加若干条目，标准库足够，
 少一个依赖就少一份 Actions 安装与升级成本。
 
-两个 feed 的分工：
-
-- `rss.xml`：**每条精选一个 item**，订阅者按文章读；
-- `rss-daily.xml`：**每期日报一个 item**，指向 `/daily/<date>/`，描述是当天精选的
-  链接列表，订阅者按天读。
-
-**已知局限（Lead 已知悉）**：`rss-daily.xml` 从 Item 推、不读 `data/reports/daily/`，
-所以「空刊」（当天没有精选、日报只有一句「今日无重要更新」）不会出现在这个 feed 里；
-需要空刊的订阅者请看日报页面本身。这么换的是：日报还没生成时 feed 也可用，
-且分日口径与 `latest.json` 完全一致。
+只有一个 feed：`rss.xml`，**每条精选一个 item**，订阅者按文章读。
 
 时间一律 RFC 822（`email.utils.format_datetime`），且必须是 tz-aware——naive 时间
 在 RFC 822 里没有偏移可写，宁可构建失败也不要发出一个时区不明的 pubDate。
@@ -26,12 +17,9 @@ from pathlib import Path
 from typing import Iterable
 from xml.sax.saxutils import escape
 
-from uxhot.collect.dates import parse_tz
 from uxhot.config import ConfigBundle
 from uxhot.models import Item
 from uxhot.publish.build_site_data import (
-    edition_day,
-    edition_hour,
     item_time,
     require_aware,
     sort_items,
@@ -39,12 +27,9 @@ from uxhot.publish.build_site_data import (
 )
 
 RSS_FILE = "rss.xml"
-RSS_DAILY_FILE = "rss-daily.xml"
 
 # 精选 feed 的条目上限：RSS 阅读器不需要无限历史，产物也别无限膨胀
 DEFAULT_ITEM_LIMIT = 50
-# 日报 feed 的期数上限（约两个月）
-DEFAULT_DAY_LIMIT = 60
 
 
 def rfc822(dt: datetime) -> str:
@@ -162,91 +147,19 @@ def build_rss(
     )
 
 
-def build_rss_daily(
-    config: ConfigBundle,
-    items: Iterable[Item],
-    *,
-    now: datetime | None = None,
-    limit: int = DEFAULT_DAY_LIMIT,
-    report_dates: set[str] | None = None,
-) -> str:
-    """日报 feed：每期一个 item，按出刊日分组，新的在前。
-
-    ⚠️ `report_dates` 必须传「**实际存在的日报期号**」。
-    只从 Item 推是不够的：有入选条目的日子未必都出过日报（`build_daily.py`
-    只补到点的期），于是 feed 会指向一批根本不存在的 `/daily/<date>/` 页面。
-    实测过一次：37 条 item 里 32 条指向 404 —— RSS 阅读器点进去全是死链。
-
-    传 `None` 表示不过滤（只有单测会这么用）；传集合（哪怕是空集）就严格
-    只发这个集合里的日期，保证 feed 里每个链接都有对应页面。
-    """
-    site = config.site
-    names = source_name_map(config)
-    reference = require_aware(now or datetime.now(timezone.utc), what="now")
-    tz = parse_tz(site.timezone)
-    hour = edition_hour(config)
-    today = edition_day(reference, tz, hour)
-
-    by_day: dict[str, list[Item]] = {}
-    for item in items:
-        if not (item.is_public and item.is_selected):
-            continue
-        day = edition_day(item_time(item), tz, hour)
-        if day <= today:
-            by_day.setdefault(day.isoformat(), []).append(item)
-
-    # 只发真的出过日报的那几期，避免 feed 里出现死链
-    if report_dates is not None:
-        by_day = {day: rows for day, rows in by_day.items() if day in report_dates}
-
-    item_lines: list[str] = []
-    for day in sorted(by_day, reverse=True)[:limit]:
-        rows = sort_items(by_day[day])
-        url = f"{site.siteUrl.rstrip('/')}/daily/{day}/"
-        # 出刊时刻 = 该日 08:00 本地时间（`day_bounds` 的起点）
-        published = datetime.fromisoformat(f"{day}T{hour:02d}:00:00").replace(tzinfo=tz)
-        rows_html = "".join(
-            f'<li><a href="{_attr(i.url)}">{_text(i.display_title or i.title or i.id)}</a>'
-            f"（{_text(names.get(i.sourceId, i.sourceId))}）</li>"
-            for i in rows
-        )
-        item_lines.extend(
-            _item_xml(
-                title=f"{site.name} 日报 {day}｜{len(rows)} 条精选",
-                link=url,
-                guid=url,
-                pub_date=published,
-                description=f"<ul>{rows_html}</ul>",
-                categories=[],
-            )
-        )
-
-    return _channel_xml(
-        title=f"{site.name} · {site.alias} 日报",
-        link=f"{site.siteUrl.rstrip('/')}/daily/",
-        description=f"{site.alias}的每日精选，{site.editions.get('daily', '08:00')} 后出刊。",
-        language=site.locale,
-        self_url=f"{site.siteUrl.rstrip('/')}/{RSS_DAILY_FILE}",
-        last_build=reference,
-        item_lines=item_lines,
-    )
-
-
 def write_rss_files(
     config: ConfigBundle,
     items: Iterable[Item],
     out_dir: Path,
     *,
     now: datetime | None = None,
-    report_dates: set[str] | None = None,
 ) -> dict[str, Path]:
-    """把两个 feed 写进发布根目录（`web/public/`）。"""
+    """把 feed 写进发布根目录（`web/public/`）。"""
     root = Path(out_dir)
     root.mkdir(parents=True, exist_ok=True)
     rows = list(items)
     files = {
         RSS_FILE: build_rss(config, rows, now=now),
-        RSS_DAILY_FILE: build_rss_daily(config, rows, now=now, report_dates=report_dates),
     }
     paths: dict[str, Path] = {}
     for name, content in files.items():

@@ -19,8 +19,8 @@ export const metadata: Metadata = {
 const WHAT_IT_IS =
   "「AI 用研」是「AI 与用户研究」的简称，两头都算：一头是用户研究本身正在被 AI 改变——AI 访谈、合成用户、自动编码与主题分析、问卷与可用性测试的自动化；另一头是 AI 产品要被人用起来，仍然得靠访谈、测试和调研来回答体验问题。本站只收这两类交叉的动态，纯模型发布、融资快讯这类不沾研究方法的，一律不进。";
 
-const ISSUE_SHAPE =
-  "每期日报把入选条目拆成三部分：一条头条、若干条今日看点、其余按分类进分节，再补一小段只给标题和来源的快讯。";
+const HOW_TO_READ =
+  "「精选」只放入选的条目，「全部动态」放收录到的所有条目，两边都按天排成时间线，可以按分类筛选，也可以直接跳到某一天。";
 
 const SCORE_NOTE_HEAD = "评分与模型打分只用来决定入选和排序，不在页面上公开显示（";
 const SCORE_NOTE_TAIL = "）。每一条都能点回原文，判断留给你自己。";
@@ -33,7 +33,6 @@ export default function AboutPage() {
   const active = sources.length - excluded.length;
 
   const rssPath = `${site.basePath}/rss.xml`;
-  const rssDailyPath = `${site.basePath}/rss-daily.xml`;
 
   return (
     <PageShell current="/about/">
@@ -46,7 +45,7 @@ export default function AboutPage() {
         <h2>这个站做什么</h2>
         <p>{site.description}</p>
         <p>{WHAT_IT_IS}</p>
-        <p>{ISSUE_SHAPE}</p>
+        <p>{HOW_TO_READ}</p>
 
         <h2>怎么选的</h2>
         <ol>
@@ -130,13 +129,8 @@ export default function AboutPage() {
 
         <h2>更新频率</h2>
         <ul>
-          <li>采集：每 4 小时扫一次信源。</li>
-          <li>
-            {"日报：每天 "}
-            <strong>8 点后</strong>
-            {"出刊（定时任务本身会延迟 5–30 分钟，所以不承诺整点）；窗口是前一天 08:00 到当天 08:00。"}
-          </li>
-          <li>周报：每周一出，汇编上一周的日报，同一事件跨天只算一件。</li>
+          <li>采集：每 4 小时扫一次信源（定时任务本身会延迟，所以不承诺整点）。</li>
+          <li>新入选的条目随即出现在精选里，不用等固定出刊时间。</li>
         </ul>
 
         <h2>订阅</h2>
@@ -144,14 +138,10 @@ export default function AboutPage() {
           {"RSS："}
           <a href={rssPath}>{rssPath}</a>
         </p>
-        <p>
-          {"只要日报的话还有一份日报源："}
-          <a href={rssDailyPath}>{rssDailyPath}</a>
-        </p>
 
         <h2>致谢</h2>
         <p>
-          {"提示词与精选方法改编自 "}
+          {"提示词、精选方法与界面样式改编自 "}
           <a
             href="https://github.com/KKKKhazix/AIHOT"
             target="_blank"

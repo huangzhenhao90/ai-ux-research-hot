@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """生成**前端开发用的种子数据**。
 
-为什么需要它：真实门槛（T1 60 / T2 76）下 21 条评分只选出 1 条，日报会是空刊，
-前端的日报/周报/主题页就没有内容可渲染、无法验收。
+为什么需要它：真实门槛（T1 60 / T2 76）下 21 条评分只选出 1 条，
+前端的精选/主题页就没有内容可渲染、无法验收。
 
-做法：把已评分条目里分数最高的一批临时标为 `selected`，补出 `selectedAt`，
-再生成日报与周报，最后发布。
+做法：把已评分条目里分数最高的一批临时标为 `selected`，补出 `selectedAt`，最后发布。
 
 ⚠️ **这只改内存里的条目状态，不改 `config/selection.yaml`。**
 真实门槛按计划 §2.6 只在阶段 8 用用户标注的金标评测结果重定。
@@ -19,7 +18,6 @@
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -27,27 +25,18 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
-from uxhot.collect.dates import parse_tz  # noqa: E402
 from uxhot.config import ConfigError, load_config  # noqa: E402
 from uxhot.models import Status, load_items, write_items  # noqa: E402
 from uxhot.publish import PublishError, build_and_validate  # noqa: E402
-from uxhot.report import build_daily, build_weekly  # noqa: E402
 
 DATA_DIR = REPO_ROOT / "data"
 ITEMS_DIR = DATA_DIR / "items"
-DAILY_DIR = DATA_DIR / "reports" / "daily"
-WEEKLY_DIR = DATA_DIR / "reports" / "weekly"
-
-
-def edition_date_for(dt: datetime, hour: int) -> str:
-    tz = parse_tz("Asia/Shanghai")
-    return (dt.astimezone(tz) + timedelta(hours=24 - hour)).strftime("%Y-%m-%d")
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="生成前端开发用种子数据")
     parser.add_argument("--top", type=int, default=40, help="按均分取前 N 条标为精选")
-    parser.add_argument("--days", type=int, default=10, help="补出最近 N 天的日报")
+    parser.add_argument("--days", type=int, default=10, help="只从最近 N 天的条目里取")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -58,7 +47,6 @@ def main() -> int:
         return 2
 
     now = datetime.now(timezone.utc)
-    hour = int(str(cfg.site.editions.get("daily", "08:00")).split(":")[0])
 
     # ── 读全部条目 ────────────────────────────────────────────────────
     items = []
@@ -86,7 +74,7 @@ def main() -> int:
     # 两个硬条件：
     #   1. 必须有非空的 titleZh 与 summaryZh —— 发布层会校验「精选必须有中文标题与摘要」，
     #      否则首页会出现空卡片；
-    #   2. 只取最近的条目 —— 否则会把 2020 年的老条目标成精选，补出一堆荒诞的日报期号。
+    #   2. 只取最近的条目 —— 否则会把 2020 年的老条目标成精选。
     cutoff = now - timedelta(days=args.days)
     eligible = [
         i for i in scored
@@ -107,7 +95,7 @@ def main() -> int:
 
     for item in ranked:
         item.status = Status.SELECTED
-        # selectedAt 决定它落在哪一期日报；用发布时间，让各期都有内容
+        # 用发布时间作入选时刻，让最近几天都有内容
         stamp = item.publishedAt or item.discoveredAt
         item.selectedAt = stamp
         if not item.titleZh:
@@ -131,35 +119,6 @@ def main() -> int:
         batch = [i for i in items if i.discoveredAt.strftime("%Y-%m") == path.stem]
         if batch:
             write_items(path, batch)
-
-    # ── 补日报 ────────────────────────────────────────────────────────
-    DAILY_DIR.mkdir(parents=True, exist_ok=True)
-    dates = sorted({edition_date_for(i.selectedAt or i.discoveredAt, hour) for i in ranked})
-    made_daily = 0
-    for date_str in dates:
-        report = build_daily(items, cfg, date_str, now=now)
-        (DAILY_DIR / f"{date_str}.json").write_text(
-            json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
-        made_daily += 1
-    print(f"出日报 {made_daily} 期：{', '.join(dates)}")
-
-    # ── 补周报 ────────────────────────────────────────────────────────
-    WEEKLY_DIR.mkdir(parents=True, exist_ok=True)
-    dailies = [
-        json.loads(p.read_text(encoding="utf-8"))
-        for p in sorted(DAILY_DIR.glob("*.json"))
-        if p.name != "index.json"
-    ]
-    weeks = sorted({f"{datetime.strptime(d, '%Y-%m-%d').isocalendar()[0]}-W{datetime.strptime(d, '%Y-%m-%d').isocalendar()[1]:02d}" for d in dates})
-    made_weekly = 0
-    for week in weeks:
-        report = build_weekly(items, cfg, week, previous_dailies=dailies, llm=None, now=now)
-        (WEEKLY_DIR / f"{week}.json").write_text(
-            json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
-        made_weekly += 1
-    print(f"出周报 {made_weekly} 期：{', '.join(weeks)}")
 
     # ── 发布 ──────────────────────────────────────────────────────────
     try:

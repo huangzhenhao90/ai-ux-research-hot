@@ -24,16 +24,13 @@ OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().paren
 # (文件名, 路径, 视口宽, 视口高, 是否移动端)
 PAGES = [
     ("home-mobile", "", 390, 844, True),
-    ("daily-mobile", "daily/2026-10-22/", 390, 844, True),
     ("all-mobile", "all/", 390, 844, True),
     ("about-mobile", "about/", 390, 844, True),
     ("topics-mobile", "topics/", 390, 844, True),
     # 顺带用真实桌面视口重截几张，保证和手机是同一套渲染管线
     ("home", "", 1440, 1100, False),
-    ("daily", "daily/2026-10-22/", 1440, 1100, False),
     ("all", "all/", 1440, 1100, False),
     ("item", "item/0f6df2ffe2a6818a/", 1440, 1100, False),
-    ("weekly", "weekly/2026-W43/", 1440, 1100, False),
     ("topics", "topics/", 1440, 1100, False),
     ("search", "search/", 1440, 1100, False),
     ("about", "about/", 1440, 1100, False),

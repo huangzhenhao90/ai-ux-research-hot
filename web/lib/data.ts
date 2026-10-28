@@ -15,16 +15,12 @@ import type {
   AllMonth,
   CategoriesIndex,
   CategoryDoc,
-  DailyReport,
   DataManifest,
   ItemDetail,
-  LatestDoc,
-  ReportIndex,
   SearchIndexDoc,
   SiteConfig,
   TopicDoc,
   TopicsIndex,
-  WeeklyReport,
 } from "./types";
 
 const DATA_DIR = join(process.cwd(), "public", "data");
@@ -41,7 +37,7 @@ function readJson<T>(relativePath: string): T {
   return JSON.parse(readFileSync(full, "utf8")) as T;
 }
 
-/** 读一个可能不存在的 JSON，用于报告这类可能还没有的产物。 */
+/** 读一个可能不存在的 JSON（条目详情、分类、主题按 id 取，取不到就 404）。 */
 function readJsonOptional<T>(relativePath: string): T | null {
   const full = join(DATA_DIR, relativePath);
   if (!existsSync(full)) return null;
@@ -63,10 +59,6 @@ export function getManifest(): DataManifest {
 }
 
 // ── 精选与全部动态 ──────────────────────────────────────────────────────
-
-export function getLatest(): LatestDoc {
-  return readJson<LatestDoc>("latest.json");
-}
 
 export function getAllIndex(): AllIndex {
   return readJson<AllIndex>("all/index.json");
@@ -116,24 +108,6 @@ export function getTopic(slug: string): TopicDoc | null {
 
 export function getSearchIndex(): SearchIndexDoc {
   return readJson<SearchIndexDoc>("search-index.json");
-}
-
-// ── 报告 ────────────────────────────────────────────────────────────────
-
-export function getDailyIndex(): ReportIndex | null {
-  return readJsonOptional<ReportIndex>("reports/daily/index.json");
-}
-
-export function getDaily(date: string): DailyReport | null {
-  return readJsonOptional<DailyReport>(`reports/daily/${date}.json`);
-}
-
-export function getWeeklyIndex(): ReportIndex | null {
-  return readJsonOptional<ReportIndex>("reports/weekly/index.json");
-}
-
-export function getWeekly(week: string): WeeklyReport | null {
-  return readJsonOptional<WeeklyReport>(`reports/weekly/${week}.json`);
 }
 
 // ── 展示工具 ────────────────────────────────────────────────────────────

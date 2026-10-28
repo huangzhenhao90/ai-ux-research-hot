@@ -2,7 +2,7 @@
 
 每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，
 用大模型预筛 + **同一标准独立打两次分**，按信源分级门槛筛出值得看的，
-写成中文标题、摘要和「为什么值得看」，每天早上出一份日报。
+写成中文标题、摘要和「为什么值得看」，按天排进「精选」。
 
 **站点**：`UXHOT` · AI 用研热点
 **仓库**：`huangzhenhao90/ai-ux-research-hot`
@@ -26,7 +26,6 @@
    ↓ 写作（模型 1 次）：中文标题 + 答案先行摘要 + 推荐理由
    ↓ 同事件去重：与最近 7 天精选比对，同事件且无新信息 → 只进「全部动态」
    ↓ 发布：静态 JSON + RSS + llms.txt
-   ↓ 出刊：日报（纯规则编排，不调模型）+ 周报
    ↓ 前端：Next.js 静态导出 → GitHub Pages
 ```
 
@@ -51,11 +50,7 @@ python scripts/run_pipeline.py --dry-run
 # 4. 真跑（会花钱，需要 MODEL_CALLS_ENABLED=true）
 MODEL_CALLS_ENABLED=true python scripts/run_pipeline.py --execute --limit 30
 
-# 5. 出刊
-python scripts/build_daily.py
-python scripts/build_weekly.py
-
-# 6. 前端
+# 5. 前端
 cd web && npm ci && npm run build && npx serve out
 ```
 
@@ -71,8 +66,6 @@ cd web && npm ci && npm run build && npx serve out
 | `python scripts/run_pipeline.py --dry-run` | 抓取 + 机械步骤，模型步骤只统计调用次数 |
 | `python scripts/run_pipeline.py --execute --limit 30` | 真实运行 |
 | `python scripts/run_pipeline.py --source nngroup` | 只跑指定信源（可重复） |
-| `python scripts/build_daily.py [--date YYYY-MM-DD] [--force]` | 出日报（已出的不重写，漏的补出） |
-| `python scripts/build_weekly.py [--execute]` | 出周报（默认模板句，`--execute` 才让模型写总述） |
 | `python scripts/sample_gold.py` | 导出金标标注表 `eval/gold_candidates.xlsx` |
 | `python scripts/sample_gold.py --convert` | 标注完转成 `eval/gold.jsonl` |
 | `python scripts/eval_selection.py --split development --label v1 --execute` | 金标评测 + 门槛扫描 |
@@ -127,19 +120,17 @@ python scripts/probe_feeds.py --url https://example.com/feed   # 先试抓
 
 ```
 config/     站点、分类、主题、信源、门槛、人工覆盖
-prompts/    18 份提示词（改编自 AIHOT，逐文件注明来源）
+prompts/    17 份提示词（改编自 AIHOT，逐文件注明来源）
 uxhot/      Python 包
   collect/   dates(时区/未来日期) · fetch · rss · web_list · external_json
   pipeline/  normalize · prefilter · score · structure · write · dedupe · select · runner
-  report/    daily · weekly
   publish/   build_site_data · rss_out · llms_txt · validate
   models.py  gold.py  evalrun.py  llm.py  prompts.py  budget.py  config.py
 scripts/    命令行入口
-data/       items(条目) · state(游标) · reports(日报周报) · runs(审计)
+data/       items(条目) · state(游标) · runs(审计)
 web/        Next.js 静态站（output: "export"）
 eval/       金标评测（gold.jsonl 与标注表不进 Git）
-tests/      315 条测试
-docs/       report-schema.md（日报/周报 JSON 契约）
+tests/      251 条测试
 ```
 
 ---

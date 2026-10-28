@@ -113,11 +113,15 @@ export function formatClock(iso: string | null | undefined): string {
   return beijingParts(iso)?.clock ?? "";
 }
 
-/** `YYYY-MM-DD` → `10月28日`。 */
-export function monthDay(day: string): string {
-  const [, month, date] = day.split("-");
+/**
+ * `YYYY-MM-DD` → `10月28日`；年份与 `refYear`（通常是列表里最新那天的年份）
+ * 不同时带上年份，如 `2020年7月2日`，免得跨年的旧条目看不出是哪一年。
+ */
+export function monthDay(day: string, refYear?: string): string {
+  const [year, month, date] = day.split("-");
   if (!month || !date) return day;
-  return `${Number(month)}月${Number(date)}日`;
+  const head = refYear && year !== refYear ? `${year}年` : "";
+  return `${head}${Number(month)}月${Number(date)}日`;
 }
 
 /** `YYYY-MM-DD` → `星期三`（按北京时间）。 */

@@ -41,19 +41,6 @@ export const IconList: Icon = (p) => (
     <circle cx="3.5" cy="18" r="1" />
   </Svg>
 );
-export const IconDoc: Icon = (p) => (
-  <Svg {...p}>
-    <rect x="5" y="3.5" width="14" height="17" rx="2" />
-    <path d="M8.5 8h7M8.5 12h7M8.5 16h4" />
-  </Svg>
-);
-export const IconHistory: Icon = (p) => (
-  <Svg {...p}>
-    <path d="M3.5 12a8.5 8.5 0 102.5-6" />
-    <path d="M3.5 4v4h4" />
-    <path d="M12 8v4l2.5 2" />
-  </Svg>
-);
 export const IconGrid: Icon = (p) => (
   <Svg {...p}>
     <rect x="3.5" y="3.5" width="7" height="7" rx="1.5" />

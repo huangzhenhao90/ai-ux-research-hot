@@ -13,20 +13,26 @@ import { IconChevronDown } from "./icons";
  * `day` 为空串表示没有时间的条目。
  */
 export function TimelineDay({
+  id,
   day,
+  refYear,
   count,
   aside,
   children,
 }: {
+  /** 锚点，供「跳到日期」滚动定位。 */
+  id?: string;
   day: string;
+  /** 列表里最新那天的年份；不同年的日期头会带上年份。 */
+  refYear?: string;
   count: number;
   aside?: ReactNode;
   children: ReactNode;
 }) {
   return (
-    <details className="day" open>
+    <details className="day" id={id} open>
       <summary className="day-head">
-        <span className="day-head__date">{day ? monthDay(day) : "日期未知"}</span>
+        <span className="day-head__date">{day ? monthDay(day, refYear) : "日期未知"}</span>
         <span className="day-head__toggle" aria-hidden="true">
           <IconChevronDown size={14} />
         </span>

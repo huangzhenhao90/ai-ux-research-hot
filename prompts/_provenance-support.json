@@ -34,9 +34,5 @@
   "translate-body.md": {
     "adaptedFrom": "industry/prompts/translate-body.md",
     "changes": "基本照搬；仅角色由「专业的科技新闻译者」改为「专业的用户研究 / 科技新闻译者」；原文件没有 rules-domain include，按原结构不加"
-  },
-  "report-period.md": {
-    "adaptedFrom": "industry/prompts/report-period.md",
-    "changes": "基本照搬；「公司、产品、模型和人名照条目写」改为「公司、产品、工具和人名照条目写」；{{siteName}}/{{kindName}}/{{span}}/{{sentences}}/{{chars}}/{{sections}}/{{sectionsExample}} 占位符与 JSON 输出格式不变"
   }
 }

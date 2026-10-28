@@ -4,7 +4,6 @@
 #   select: 强制入选（即使分数没过门槛）
 #   reject: 强制剔除（即使分数过了门槛）
 #   category: 改分类
-#   pin: 置顶到首页与日报（按数字升序）
 #
 # 匹配键 `url` 用规范化后的 URL（去 utm 等追踪参数、去尾斜杠）；
 # 也可以用 `urlPrefix` 做前缀匹配（例如某一批同类文章）。
@@ -14,7 +13,6 @@
 select: []
 reject: []
 category: []
-pin: []
 
 # 示例（注释形式，避免误生效）：
 #
@@ -28,6 +26,3 @@ pin: []
 #   - url: https://example.com/paper-with-code
 #     category: research
 #     note: 有实验对照，重心在证据而非工具
-# pin:
-#   - url: https://example.com/breaking-news
-#     order: 1

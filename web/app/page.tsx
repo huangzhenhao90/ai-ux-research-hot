@@ -2,26 +2,26 @@ import Link from "next/link";
 
 import { FeedClient } from "@/components/FeedClient";
 import { PageShell } from "@/components/PageShell";
-import { getCategories, getDailyIndex, getLatest, getSite } from "@/lib/data";
+import { getAllItems, getCategories, getSite } from "@/lib/data";
 
+/**
+ * 精选：全部入选条目，按天排成时间线。
+ *
+ * 日报、周报去掉之后（D14），这里同时承担「往期精选」的存档：
+ * 不再只放最近 3 期，而是全部历史，靠分批展开与「跳到日期」浏览。
+ */
 export default function HomePage() {
   const site = getSite();
-  const latest = getLatest();
   const categories = getCategories().categories.map(({ key, label }) => ({ key, label }));
-  const items = latest.days.flatMap((day) => day.items);
-
-  // 最新一期日报入口（有就显示）
-  const latestDaily = getDailyIndex()?.entries?.[0]?.date ?? null;
+  const items = getAllItems().filter((item) => item.status === "selected");
 
   return (
     <PageShell current="/">
       <div className="page-head page-head--row">
         <h1>精选</h1>
-        {latestDaily ? (
-          <Link href={`/daily/${latestDaily}/`} className="page-head__aside">
-            读最新日报 →
-          </Link>
-        ) : null}
+        <span className="page-head__aside">
+          共 <span className="num">{items.length}</span> 条
+        </span>
       </div>
 
       <FeedClient
@@ -29,7 +29,8 @@ export default function HomePage() {
         categories={categories}
         reasonLabel={site.reasonLabel}
         searchAction={`${site.basePath}/search/`}
-        emptyText={`最近 ${latest.windowDays} 天还没有新的精选。`}
+        pageSize={50}
+        emptyText="还没有入选的条目。"
       />
 
       {items.length > 0 ? (

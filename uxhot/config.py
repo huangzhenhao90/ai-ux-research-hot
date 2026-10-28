@@ -85,13 +85,11 @@ class Taxonomy(BaseModel):
     categories: list[Category]
     itemTypes: list[str]
     itemTypeCategoryTag: dict[str, str]
-    release: dict
     categoryTags: list[str]
     topicTags: list[str]
     entityTags: list[str]
     tagSynonyms: dict[str, list[str]]
     entities: list[Entity]
-    plainTerms: list[str]
 
     @property
     def category_keys(self) -> list[str]:
@@ -147,14 +145,6 @@ def validate_taxonomy(tax: Taxonomy) -> None:
         if not isinstance(variants, list) or not variants:
             raise ConfigError(f"taxonomy.yaml：tagSynonyms「{target}」的同义词必须是非空列表")
 
-    rel = tax.release
-    for field in ("category", "tag", "unit"):
-        if field not in rel:
-            raise ConfigError(f"taxonomy.yaml：release 缺少字段 {field}")
-    if rel["category"] not in keys:
-        raise ConfigError(f"taxonomy.yaml：release.category「{rel['category']}」不是已知分类")
-    if rel["tag"] not in tax.categoryTags:
-        raise ConfigError(f"taxonomy.yaml：release.tag「{rel['tag']}」不是已知分类标签")
 
 
 # ── topics.yaml ────────────────────────────────────────────────────────
@@ -308,7 +298,6 @@ class Overrides(BaseModel):
     select: list[dict] = Field(default_factory=list)
     reject: list[dict] = Field(default_factory=list)
     category: list[dict] = Field(default_factory=list)
-    pin: list[dict] = Field(default_factory=list)
 
 
 def validate_overrides(ov: Overrides, tax: Taxonomy) -> None:
@@ -319,7 +308,7 @@ def validate_overrides(ov: Overrides, tax: Taxonomy) -> None:
             raise ConfigError(
                 f"overrides.yaml：category 项指向未知分类「{item['category']}」"
             )
-    for name in ("select", "reject", "category", "pin"):
+    for name in ("select", "reject", "category"):
         for item in getattr(ov, name):
             if "url" not in item and "urlPrefix" not in item:
                 raise ConfigError(f"overrides.yaml：{name} 项必须给 url 或 urlPrefix")

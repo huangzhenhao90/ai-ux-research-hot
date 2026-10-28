@@ -46,7 +46,6 @@ REQUIRED_PROMPTS = [
     "group-pair.md",
     "group-definitions.md",
     "group-method.md",
-    "report-period.md",
     "translate-body.md",
 ]
 

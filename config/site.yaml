@@ -11,7 +11,7 @@ subject: AI 用研
 siteUrl: https://huangzhenhao90.github.io/ai-ux-research-hot
 
 homeTitle: "UXHOT · 每天读完 AI 怎么改变用户研究"
-description: "每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，每天早上出日报。"
+description: "每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。"
 tagline: AI 用研的每日精选
 
 # 卡片上「推荐理由」字段的显示名
@@ -23,14 +23,13 @@ showScore: false
 locale: zh-CN
 timezone: Asia/Shanghai
 
-# 出刊时间（D10）。日报 08:00 北京时间；周报周一 10:00。
-# 注意：GitHub Actions 定时任务常延迟 5–30 分钟，关于页如实写「每天早上 8 点后」。
+# 「一期」的分界时刻（北京时间）：latest.json 按它把精选分到各天。
+# 日报、周报已去掉（D14），这里只剩这一个用途。
 editions:
   daily: "08:00"
-  weekly: "MON 10:00"
 
 # 采集器 UA（关于页与 robots 礼仪用）
 crawlerName: UXHOTBot (+https://huangzhenhao90.github.io/ai-ux-research-hot/about)
 
 # 关于页的致谢行（计划成功标准 6 允许的唯一一处 AIHOT 提及）
-credit: 提示词与精选方法改编自 AIHOT（MIT）
+credit: 提示词、精选方法与界面样式改编自 AIHOT（MIT）

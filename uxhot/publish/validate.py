@@ -37,7 +37,7 @@ from uxhot.publish.build_site_data import (
     build_site_data,
 )
 from uxhot.publish.llms_txt import write_llms_txt
-from uxhot.publish.rss_out import RSS_DAILY_FILE, RSS_FILE, write_rss_files
+from uxhot.publish.rss_out import RSS_FILE, write_rss_files
 
 # 公开目录里绝不能出现的字段。body 是原文全文（版权 + 再分发），
 # 其余是流水线内部审计信息，放上公网没有收益只有风险。
@@ -65,10 +65,7 @@ REQUIRED_FILES: tuple[str, ...] = (
     "data/all/index.json",
     "data/categories/index.json",
     "data/topics/index.json",
-    "data/reports/daily/index.json",
-    "data/reports/weekly/index.json",
     RSS_FILE,
-    RSS_DAILY_FILE,
     "llms.txt",
 )
 
@@ -77,7 +74,6 @@ NON_PUBLIC_STATUSES = frozenset({Status.BLOCKED.value, Status.UNKNOWN.value})
 
 ID_PATTERN = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$")
 DATE_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-WEEK_PATTERN = re.compile(r"^\d{4}-W\d{2}$")
 MONTH_PATTERN = re.compile(r"^\d{4}-\d{2}$")
 ISO_DATETIME_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}[T ]\d{2}:\d{2}")
 
@@ -115,22 +111,6 @@ def iter_dicts(value: Any) -> Iterable[dict]:
             yield from iter_dicts(child)
 
 
-def _is_report_payload(rel: str) -> bool:
-    """报告正文文件（`data/reports/<kind>/<日期>.json`）。
-
-    这些文件的**条目级**规则归 `report/` 模块（排序、同源条数、7 期内不重复），
-    publish 只查公开边界与顶层形状：能解析、不含禁字段、文件名合法、
-    以及 `docs/report-schema.md` 规定的那几个顶层字段（见 `_check_report_payloads`）。
-    """
-    parts = rel.split("/")
-    return (
-        len(parts) >= 4
-        and parts[0] == "data"
-        and parts[1] == "reports"
-        and parts[3] != "index.json"
-    )
-
-
 # ── 主校验 ─────────────────────────────────────────────────────────────
 
 
@@ -153,8 +133,6 @@ def validate_publish_dir(path: Path | str) -> list[str]:
     _check_items(docs, problems)
     _check_generated_shapes(docs, problems)
     _check_site(docs.get("data/site.json"), problems)
-    _check_report_payloads(docs, problems)
-    _check_report_indexes(docs, problems)
     _check_rss(root, problems, has_selected=_has_selected(docs))
     _check_llms(root, problems)
     return problems
@@ -186,18 +164,11 @@ def _check_forbidden_keys(docs: dict[str, Any], problems: list[str]) -> None:
 
 
 def _check_items(docs: dict[str, Any], problems: list[str]) -> None:
-    """逐条检查：id 形状与重复、状态、链接、日期、精选必备字段、跨文件一致。
-
-    报告正文（`data/reports/<kind>/<日期>.json`）只做「公开边界」检查——id 形状、
-    链接、日期、状态；**不做**重复 id 与跨文件取值一致检查。因为报告里的 ItemRef
-    是报告层自己裁剪出来的子集，它想怎么摆条目（比如同一条同时进正文和快讯）是
-    报告层的自由，发布层不该因此拦掉整次发布。
-    """
+    """逐条检查：id 形状与重复、状态、链接、日期、精选必备字段、跨文件一致。"""
     # id -> 字段 -> (首次出现的文件, 值)：同一 id 在不同文件里必须说同一件事
     seen: dict[str, dict[str, tuple[str, Any]]] = {}
 
     for rel, doc in sorted(docs.items()):
-        in_report = _is_report_payload(rel)
         local_counts: dict[str, int] = {}
         for node in iter_dicts(doc):
             for key, value in node.items():
@@ -206,9 +177,8 @@ def _check_items(docs: dict[str, Any], problems: list[str]) -> None:
                         problems.append(f"{rel}: 字段「{key}」不是 http(s) 链接：{value}")
                 if isinstance(value, str) and value:
                     _check_datetime_value(f"{rel}: 字段「{key}」", key, value, problems)
-                if key in ("date", "week", "month") and isinstance(value, str) and value:
-                    if not in_report:
-                        _check_date_key(f"{rel}: 字段「{key}」", key, value, problems)
+                if key in ("date", "month") and isinstance(value, str) and value:
+                    _check_date_key(f"{rel}: 字段「{key}」", key, value, problems)
 
             item_id = node.get("id")
             if not isinstance(item_id, str) or not item_id:
@@ -216,8 +186,6 @@ def _check_items(docs: dict[str, Any], problems: list[str]) -> None:
             if not ID_PATTERN.match(item_id):
                 problems.append(f"{rel}: id 形状不合法（会被当成路径）：{item_id!r}")
             _check_status_and_writing(rel, node, item_id, problems)
-            if in_report:
-                continue
             local_counts[item_id] = local_counts.get(item_id, 0) + 1
             for key, value in node.items():
                 if key not in PUBLIC_FIELDS:
@@ -285,8 +253,8 @@ def _check_datetime_value(label: str, key: str, value: str, problems: list[str])
 
 
 def _check_date_key(label: str, key: str, value: str, problems: list[str]) -> None:
-    """纯日期字段的格式（date=YYYY-MM-DD / week=YYYY-Www / month=YYYY-MM）。"""
-    pattern = {"date": DATE_PATTERN, "week": WEEK_PATTERN, "month": MONTH_PATTERN}[key]
+    """纯日期字段的格式（date=YYYY-MM-DD / month=YYYY-MM）。"""
+    pattern = {"date": DATE_PATTERN, "month": MONTH_PATTERN}[key]
     if not pattern.match(value):
         problems.append(f"{label} 格式不对：{value!r}")
 
@@ -306,7 +274,7 @@ def _check_generated_shapes(docs: dict[str, Any], problems: list[str]) -> None:
     404 或空页面，很难在页面上一眼看出来，所以在发布前拦。
     """
     for rel, doc in sorted(docs.items()):
-        if rel.startswith("data/reports/") or not isinstance(doc, dict):
+        if not isinstance(doc, dict):
             continue
         stem = Path(rel).stem
         if rel.startswith("data/items/"):
@@ -411,119 +379,9 @@ def _check_site(doc: Any, problems: list[str]) -> None:
             )
 
 
-def _check_report_payloads(docs: dict[str, Any], problems: list[str]) -> None:
-    """按 `docs/report-schema.md` 检查报告正文的**顶层形状**。
-
-    发布层不解释报告的业务含义（条目排序、同源条数这些归 `report/` 模块自己测），
-    但顶层字段必须守契约：报告层写错时宁可整次发布失败、保留上一版，
-    也不要让前端拿到一个缺 `headline` 的日报页。
-    """
-    for rel, doc in sorted(docs.items()):
-        parts = rel.split("/")
-        if not _is_report_payload(rel):
-            continue
-        name = Path(parts[3]).stem
-        pattern = DATE_PATTERN if parts[2] == "daily" else WEEK_PATTERN
-        if not pattern.match(name):
-            problems.append(f"{rel}: 报告文件名不是「{pattern.pattern}」格式")
-        _check_report_doc(rel, parts[2], name, doc, problems)
-
-
-def _check_report_doc(
-    rel: str, kind: str, name: str, doc: Any, problems: list[str]
-) -> None:
-    if not isinstance(doc, dict):
-        problems.append(f"{rel}: 报告不是 JSON 对象")
-        return
-
-    for key in ("kind", "siteName", "generatedAt", "window", "stats", "sections"):
-        if key not in doc:
-            problems.append(f"{rel}: 报告缺字段「{key}」")
-    if doc.get("kind") != kind:
-        problems.append(f"{rel}: kind 应为「{kind}」，实际 {doc.get('kind')!r}")
-    if not isinstance(doc.get("siteName"), str) or not str(doc.get("siteName")).strip():
-        problems.append(f"{rel}: siteName 必须是非空字符串")
-    window = doc.get("window")
-    if not isinstance(window, dict) or not window.get("start") or not window.get("end"):
-        problems.append(f"{rel}: window 必须含 start 与 end")
-    if not isinstance(doc.get("stats"), dict):
-        problems.append(f"{rel}: stats 必须是对象")
-    if not isinstance(doc.get("sections"), list):
-        problems.append(f"{rel}: sections 必须是数组")
-
-    if kind == "daily":
-        _check_daily_report(rel, name, doc, problems)
-    else:
-        _check_weekly_report(rel, name, doc, problems)
-
-
-def _check_daily_report(rel: str, name: str, doc: dict, problems: list[str]) -> None:
-    if doc.get("date") != name:
-        problems.append(f"{rel}: date「{doc.get('date')}」与文件名「{name}」不一致")
-    empty = doc.get("empty")
-    if not isinstance(empty, bool):
-        problems.append(f"{rel}: empty 必须是布尔值，实际 {empty!r}")
-    elif not empty and doc.get("headline") is None:
-        # 非空刊必须有头条：前端拿 empty=false 就会去渲染 headline
-        problems.append(f"{rel}: empty 为 false 时 headline 不能是 null")
-    for key in ("highlights", "briefs"):
-        if not isinstance(doc.get(key), list):
-            problems.append(f"{rel}: {key} 必须是数组")
-
-
-def _check_weekly_report(rel: str, name: str, doc: dict, problems: list[str]) -> None:
-    if doc.get("week") != name:
-        problems.append(f"{rel}: week「{doc.get('week')}」与文件名「{name}」不一致")
-    source = doc.get("overviewSource")
-    if source not in ("model", "template"):
-        problems.append(f"{rel}: overviewSource 只能是 model 或 template，实际 {source!r}")
-
-
-def _check_report_indexes(docs: dict[str, Any], problems: list[str]) -> None:
-    """报告索引与实际文件必须互相覆盖（索引里有、文件没有 → 前端 404）。"""
-    for kind, key, pattern in (
-        ("daily", "date", DATE_PATTERN),
-        ("weekly", "week", WEEK_PATTERN),
-    ):
-        index_rel = f"data/reports/{kind}/index.json"
-        doc = docs.get(index_rel)
-        if not isinstance(doc, dict):
-            continue
-        entries = doc.get("entries")
-        if not isinstance(entries, list):
-            problems.append(f"{index_rel}: 缺 entries 列表")
-            continue
-        listed: set[str] = set()
-        for entry in entries:
-            if not isinstance(entry, dict):
-                problems.append(f"{index_rel}: entries 里有非对象项")
-                continue
-            name = entry.get(key)
-            if not isinstance(name, str) or not pattern.match(name):
-                problems.append(f"{index_rel}: 索引项 {key} 不合法：{name!r}")
-                continue
-            listed.add(name)
-            payload_rel = f"data/reports/{kind}/{name}.json"
-            if payload_rel not in docs:
-                problems.append(f"{index_rel}: 索引里的 {name} 没有对应文件 {payload_rel}")
-            url = entry.get("url")
-            if isinstance(url, str) and url and not url.startswith(("http://", "https://")):
-                problems.append(f"{index_rel}: {name} 的 url 不是 http(s)：{url}")
-            count = entry.get("count")
-            if count is not None and not isinstance(count, int):
-                problems.append(f"{index_rel}: {name} 的 count 不是整数：{count!r}")
-
-        prefix = f"data/reports/{kind}/"
-        for rel in docs:
-            if rel.startswith(prefix) and rel != index_rel:
-                stem = Path(rel).stem
-                if stem not in listed:
-                    problems.append(f"{rel}: 报告文件没有出现在 {index_rel} 的索引里")
-
-
 def _check_rss(root: Path, problems: list[str], *, has_selected: bool) -> None:
     """RSS 必须能被 XML 解析器读，且 pubDate 是带时区的 RFC 822。"""
-    for name in (RSS_FILE, RSS_DAILY_FILE):
+    for name in (RSS_FILE,):
         file = root / name
         if not file.is_file():
             continue  # 缺文件已由 REQUIRED_FILES 报过
@@ -650,23 +508,11 @@ def publish_atomic(
     return PublishResult(out_dir=out, counts=dict(counts), replaced=replaced)
 
 
-def _published_report_dates(dir_path: Path) -> set[str]:
-    """暂存目录里实际存在的日报期号（读不到就给空集，宁可 feed 空也不发死链）。"""
-    if not dir_path.is_dir():
-        return set()
-    return {
-        path.stem
-        for path in dir_path.glob("*.json")
-        if path.name != "index.json"
-    }
-
-
 def build_and_validate(
     items: Iterable[Item],
     config: ConfigBundle,
     *,
     public_dir: Path | str | None = None,
-    reports_dir: Path | str | None = None,
     now: datetime | None = None,
 ) -> PublishResult:
     """完整发布：JSON + RSS + llms.txt 一起写、一起校验、一起替换。
@@ -675,15 +521,10 @@ def build_and_validate(
     """
     out = Path(public_dir) if public_dir is not None else PUBLIC_DIR
     rows = list(items)
-    reports = Path(reports_dir) if reports_dir is not None else None
 
     def build(stage: Path) -> dict[str, int]:
-        counts = build_site_data(rows, config, stage, reports_dir=reports, now=now)
-        # 日报 feed 只发**真的写进了暂存目录**的那几期，否则会指向不存在的页面
-        write_rss_files(
-            config, rows, stage, now=now,
-            report_dates=_published_report_dates(stage / "data" / "reports" / "daily"),
-        )
+        counts = build_site_data(rows, config, stage, now=now)
+        write_rss_files(config, rows, stage, now=now)
         write_llms_txt(config, rows, stage, now=now)
         return counts
 

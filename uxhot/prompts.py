@@ -122,8 +122,8 @@ def _substitute(text: str, variables: dict[str, str], strict: bool) -> str:
         if leftover_includes:
             raise UnfilledPlaceholderError(f"这些包含没有被展开：{leftover_includes}")
         # 只查 `{{`（未展开或写坏的占位符起点）。
-        # 不查 `}}`：report-period.md 结尾是 `"sections": {{sectionsExample}}}，
-        # 当 sectionsExample 本身是 JSON 对象时，替换后天然会出现 `}}`，那是合法输出。
+        # 不查 `}}`：占位符的值本身是 JSON 对象时（如 `"x": {{example}}}`），
+        # 替换后天然会出现 `}}`，那是合法输出。
         if "{{" in out:
             raise UnfilledPlaceholderError("渲染结果里仍有未展开的 {{")
 

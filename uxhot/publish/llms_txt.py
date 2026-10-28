@@ -23,7 +23,7 @@ from uxhot.publish.build_site_data import (
     sort_items,
     source_name_map,
 )
-from uxhot.publish.rss_out import RSS_DAILY_FILE, RSS_FILE
+from uxhot.publish.rss_out import RSS_FILE
 
 LLMS_FILE = "llms.txt"
 
@@ -73,21 +73,17 @@ def build_llms_txt(
         f"> {site.tagline}｜{site.subject}",
         "",
         f"{site.name}（{site.alias}）每天从研究工具官网、用研社区、HCI 学术与行业媒体收集"
-        f"{site.subject}的动态，模型双评分筛出值得看的，每天早上 "
-        f"{site.editions.get('daily', '08:00')} 后出日报。站点是纯静态页面，"
+        f"{site.subject}的动态，模型双评分筛出值得看的，按天排在精选里。站点是纯静态页面，"
         f"不调模型、不访问后端，页面上的链接都指向原文。",
         "",
         "入口：",
         "",
-        f"- [首页]({base}/)：今日精选",
-        f"- [全部动态]({base}/all/)：含未入选的条目",
-        f"- [日报]({base}/daily/)：每天早上 {site.editions.get('daily', '08:00')} 后出刊",
-        f"- [周报]({base}/weekly/)：周一汇编上周",
+        f"- [精选]({base}/)：入选条目，按天排列",
+        f"- [全部动态]({base}/all/)：含未入选的条目，按天排列",
         f"- [分类]({base}/categories/)：{site.subject}的六个方向",
         f"- [主题]({base}/topics/)：按公司与研究方向追踪",
         f"- [关于本站]({base}/about/)：做什么、怎么选、信源名单",
         f"- [RSS（精选）]({base}/{RSS_FILE})",
-        f"- [RSS（日报）]({base}/{RSS_DAILY_FILE})",
         "",
         "## 最新精选",
         "",

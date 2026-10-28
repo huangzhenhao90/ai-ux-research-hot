@@ -4,10 +4,8 @@ import { getSite } from "@/lib/data";
 
 import {
   IconBolt,
-  IconDoc,
   IconGrid,
   IconHeart,
-  IconHistory,
   IconList,
   IconRss,
   IconSearch,
@@ -29,8 +27,6 @@ const SECTIONS: { title: string; items: NavItem[] }[] = [
     items: [
       { href: "/", label: "精选", icon: IconBolt, exact: true },
       { href: "/all/", label: "全部动态", icon: IconList },
-      { href: "/daily/", label: "日报", icon: IconDoc },
-      { href: "/weekly/", label: "周报", icon: IconHistory },
       { href: "/topics/", label: "主题", icon: IconGrid },
       { href: "/search/", label: "搜索", icon: IconSearch },
     ],
