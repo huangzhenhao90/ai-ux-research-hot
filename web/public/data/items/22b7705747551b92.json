@@ -1,0 +1,36 @@
+{
+  "id": "22b7705747551b92",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.36484",
+  "title": "CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments",
+  "titleZh": "CogArena：评测多模态智能体在交互行为实验中的表现",
+  "summaryZh": "研究者提出 CogArena 基准，包含十个社会科学与行为科学实验范式，智能体需通过标准网页浏览器完成与在线参与者相同的视觉刺激和响应界面。三级评分分别检查智能体是否完成任务、完成得有多准确、其数据是否呈现该范式在人类身上稳定出现的行为特征。四个多模态模型每个任务各运行十次，结果显示完成实验与复现行为特征并不等同，多场会话未能完成，完成者对一些特征稳定复现、对另一些则完全没有。研究者公开了任务、评分代码与接受新提交的公开排行榜。",
+  "reason": "基准把行为实验搬进浏览器，并用三级评分区分能否完成与能否复现人类行为特征，可用来对照评估智能体产出的数据。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "Agent",
+    "多模态",
+    "行为数据"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-28T04:00:00+00:00",
+  "discoveredAt": "2026-10-28T04:28:31.660351+00:00",
+  "status": "duplicate",
+  "dupOf": "3199af2867f83631",
+  "relation": "same",
+  "related": [
+    {
+      "id": "3199af2867f83631",
+      "title": "Atlas of Human-AI Interaction: An Interactive Knowledge Graph for Research Sensemaking at Scale",
+      "titleZh": "Atlas of Human-AI Interaction 用 LLM 从 31,741 篇论文抽取 308,802 条论断构建交互知识图谱",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2509.25499",
+      "publishedAt": "2026-10-26T04:00:00+00:00"
+    }
+  ]
+}

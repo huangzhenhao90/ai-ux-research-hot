@@ -3,7 +3,7 @@
   "label": "方法",
   "section": "方法与实践",
   "commentary": true,
-  "count": 79,
+  "count": 80,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -1001,6 +1001,32 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:01:24+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "373ace93ecaf1237",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.24035",
+      "title": "TRACE: Governing AI-Assisted Research with Principles from Computer Science",
+      "titleZh": "TRACE：用计算机科学原则治理 AI 辅助研究",
+      "summaryZh": "arXiv 论文提出 TRACE 五项原则，帮助研究团队在 AI 辅助研究中保持控制。五项原则——Track records、Review against sources、Accept independently、Control transitions、Evaluate corrections——提炼自软件工程与安全研究实践；并介绍 TRACE-OS，用共享指令、工具和记录把原则嵌入现有工作流。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "Agent",
+        "洞察库/ResearchOps",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-28T04:00:00+00:00",
+      "discoveredAt": "2026-10-28T04:28:31.660351+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -22,5 +22,14 @@
   "status": "selected",
   "dupOf": null,
   "relation": "different",
-  "related": []
+  "related": [
+    {
+      "id": "22b7705747551b92",
+      "title": "CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments",
+      "titleZh": "CogArena：评测多模态智能体在交互行为实验中的表现",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.36484",
+      "publishedAt": "2026-10-28T04:00:00+00:00"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "count": 533,
+  "count": 538,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -414,6 +414,23 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/synthetic-research-for-startups/",
       "publishedAt": "2026-10-25T05:04:34+00:00"
+    },
+    {
+      "id": "22b7705747551b92",
+      "title": "CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments",
+      "titleZh": "CogArena：评测多模态智能体在交互行为实验中的表现",
+      "summaryZh": "研究者提出 CogArena 基准，包含十个社会科学与行为科学实验范式，智能体需通过标准网页浏览器完成与在线参与者相同的视觉刺激和响应界面。三级评分分别检查智能体是否完成任务、完成得有多准确、其数据是否呈现该范式在人类身上稳定出现的行为特征。四个多模态模型每个任务各运行十次，结果显示完成实验与复现行为特征并不等同，多场会话未能完成，完成者对一些特征稳定复现、对另一些则完全没有。研究者公开了任务、评分代码与接受新提交的公开排行榜。",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "多模态",
+        "行为数据"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.36484",
+      "publishedAt": "2026-10-28T04:00:00+00:00"
     },
     {
       "id": "98ae0612de392e43",
@@ -844,6 +861,22 @@
       "sourceName": "Ipsos",
       "url": "https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre",
       "publishedAt": "2026-10-23T05:50:34+00:00"
+    },
+    {
+      "id": "2aed3e29d232db91",
+      "title": "Annotrace: A Workbench for Step-Level Annotation of Agent Traces",
+      "titleZh": "Annotrace：智能体轨迹的步骤级标注工作台",
+      "summaryZh": "Annotrace 工作台把智能体轨迹转成有序嵌套步骤列表，用于步骤级人工-AI 联合标注。它支持 OpenTelemetry GenAI、LangSmith、Langfuse 等六种格式，前沿模型从轨迹样本提出初始标签集。多智能体问答语料上，它精确复现此前人工的 235 个标注单元，两个模型标注一致率为 91%（κ=0.82）。",
+      "tags": [
+        "论文/研究",
+        "转写/编码",
+        "Agent"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.23284",
+      "publishedAt": "2026-10-28T04:00:00+00:00"
     },
     {
       "id": "194a20915ff0389b",
@@ -1708,6 +1741,23 @@
       "sourceName": "Journal of Mixed Methods Research",
       "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898251398262?ai=2b4&mi=ehikzz&af=R",
       "publishedAt": "2025-11-26T05:49:55+00:00"
+    },
+    {
+      "id": "373ace93ecaf1237",
+      "title": "TRACE: Governing AI-Assisted Research with Principles from Computer Science",
+      "titleZh": "TRACE：用计算机科学原则治理 AI 辅助研究",
+      "summaryZh": "arXiv 论文提出 TRACE 五项原则，帮助研究团队在 AI 辅助研究中保持控制。五项原则——Track records、Review against sources、Accept independently、Control transitions、Evaluate corrections——提炼自软件工程与安全研究实践；并介绍 TRACE-OS，用共享指令、工具和记录把原则嵌入现有工作流。",
+      "tags": [
+        "方法/实践",
+        "Agent",
+        "洞察库/ResearchOps",
+        "研究伦理"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.24035",
+      "publishedAt": "2026-10-28T04:00:00+00:00"
     },
     {
       "id": "8719f3a37f50c586",
@@ -2981,6 +3031,25 @@
       "publishedAt": "2025-11-06T10:39:34+00:00"
     },
     {
+      "id": "89bda7267f80e947",
+      "title": "Read the Label, Then Buy the Vibe: Gen Z’s Food & Beverage Paradox",
+      "titleZh": "Prodege 与 First & First Consulting 研究：Z 世代的食品饮料悖论——看标签，再为氛围买单",
+      "summaryZh": "Prodege 与 First & First Consulting 的新研究显示，Z 世代对食品营销高度怀疑，却仍会因创作者推荐和包装氛围在 TikTok Shop 下单。经 KaloData 分析的销售数据显示，TikTok Shop 为饮料行业带来每月超 $15 million 收入，零食收入的 70% 由联盟创作者而非品牌账号驱动。研究分出 Buzz Drinker、Social Sophisticate、Earnest Optimizer 三类功能饮料饮用者，并指出 Z 世代常把水、电解质和健身当作平衡其他饮食的方式。",
+      "tags": [
+        "论文/研究",
+        "市场研究",
+        "问卷/定量",
+        "行为数据"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "category": "research",
+      "sourceName": "Prodege",
+      "url": "https://www.prodege.com/resources/blog/insights/gen-z-food-beverage-paradox/",
+      "publishedAt": "2026-10-27T20:30:03+00:00"
+    },
+    {
       "id": "6d60d77d9f2f98d8",
       "title": "Best Emotional Response Testing Software in 2026",
       "titleZh": "2026 年最佳情绪反应测试软件盘点：Listen Labs 居首，iMotions、Affectiva、Realeyes 等入选",
@@ -3917,6 +3986,18 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
       "publishedAt": "2025-11-24T12:14:05+00:00"
+    },
+    {
+      "id": "43581a16412ce77b",
+      "title": "Are UX researchers still needed what with AI?",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Reddit r/UXResearch",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xhaydt/are_ux_researchers_still_needed_what_with_ai/",
+      "publishedAt": "2026-10-28T01:26:09+00:00"
     },
     {
       "id": "14b6c8aeeab552ae",

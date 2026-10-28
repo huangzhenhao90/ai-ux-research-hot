@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 65,
+  "count": 66,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -350,6 +350,31 @@
       "publishedAt": "2025-01-23T10:27:25+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2aed3e29d232db91",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.23284",
+      "title": "Annotrace: A Workbench for Step-Level Annotation of Agent Traces",
+      "titleZh": "Annotrace：智能体轨迹的步骤级标注工作台",
+      "summaryZh": "Annotrace 工作台把智能体轨迹转成有序嵌套步骤列表，用于步骤级人工-AI 联合标注。它支持 OpenTelemetry GenAI、LangSmith、Langfuse 等六种格式，前沿模型从轨迹样本提出初始标签集。多智能体问答语料上，它精确复现此前人工的 235 个标注单元，两个模型标注一致率为 91%（κ=0.82）。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "转写/编码",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-28T04:00:00+00:00",
+      "discoveredAt": "2026-10-28T04:28:31.660351+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
