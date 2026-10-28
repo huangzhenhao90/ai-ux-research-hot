@@ -25,7 +25,7 @@ from uxhot.pipeline.runner import run_pipeline  # noqa: E402
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="UXHOT 流水线")
+    parser = argparse.ArgumentParser(description="URHOT 流水线")
     parser.add_argument("--dry-run", action="store_true", default=True,
                         help="默认。只抓取与机械步骤，模型步骤只统计调用次数")
     parser.add_argument("--execute", action="store_true",
@@ -54,7 +54,7 @@ def main() -> int:
         print(f"模型：{llm.config.describe()}")
 
     mode = "dry-run" if dry_run else "execute"
-    print(f"=== UXHOT 流水线（{mode}）===")
+    print(f"=== URHOT 流水线（{mode}）===")
     print(f"信源 {len(cfg.sources.sources)} 个；门槛 {cfg.selection.thresholds}")
     print(f"预算 本次 ≤{cfg.selection.budget['perRunCalls']}，"
           f"当日 ≤{cfg.selection.budget['perDayCalls']}")

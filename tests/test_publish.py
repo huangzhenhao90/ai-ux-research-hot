@@ -251,7 +251,7 @@ def test_site_json_carries_base_path(published: Path) -> None:
     doc = load_json(published / "data" / "site.json")
     assert doc["siteUrl"] == SITE_URL
     assert doc["basePath"] == "/ai-ux-research-hot"
-    assert doc["name"] == "UXHOT"
+    assert doc["name"] == "URHOT"
     assert doc["alias"] == "AI 用研热点"
     assert doc["subject"] == "AI 用研"
 
@@ -517,7 +517,7 @@ def test_rss_parses_and_has_one_entry_per_selected(published: Path) -> None:
     for entry in feed.entries:
         assert entry.published_parsed is not None
         assert entry.link.startswith("https://")
-    assert feed.feed.title == "UXHOT · AI 用研热点"
+    assert feed.feed.title == "URHOT · AI 用研热点"
     assert feed.feed.link == SITE_URL
 
 
@@ -567,7 +567,7 @@ def test_rss_pubdate_is_rfc822_with_offset(published: Path) -> None:
 
 def test_llms_txt_has_intro_and_selected_links(published: Path) -> None:
     text = (published / "llms.txt").read_text(encoding="utf-8")
-    assert text.startswith("# UXHOT · AI 用研热点")
+    assert text.startswith("# URHOT · AI 用研热点")
     assert "> AI 用研的每日精选" in text
     assert "## 最新精选" in text
     assert f"]({url_of(1)})" in text

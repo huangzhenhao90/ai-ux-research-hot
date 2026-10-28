@@ -3,14 +3,14 @@
 # ⚠️ siteUrl 按 D7 的确认值：仓库名为 ai-ux-research-hot，不是 uxhot。
 #    前端的 basePath / assetPrefix 也从这里取（阶段 6）。
 
-name: UXHOT
+name: URHOT
 alias: AI 用研热点
 subject: AI 用研
 
 # GitHub Pages 子路径（D6 托管方式 + D7 仓库名）
 siteUrl: https://huangzhenhao90.github.io/ai-ux-research-hot
 
-homeTitle: "UXHOT · 每天读完 AI 怎么改变用户研究"
+homeTitle: "URHOT · 每天读完 AI 怎么改变用户研究"
 description: "每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。"
 tagline: AI 用研的每日精选
 
@@ -29,7 +29,7 @@ editions:
   daily: "08:00"
 
 # 采集器 UA（关于页与 robots 礼仪用）
-crawlerName: UXHOTBot (+https://huangzhenhao90.github.io/ai-ux-research-hot/about)
+crawlerName: URHOTBot (+https://huangzhenhao90.github.io/ai-ux-research-hot/about)
 
 # 关于页的致谢行（计划成功标准 6 允许的唯一一处 AIHOT 提及）
 credit: 提示词、精选方法与界面样式改编自 AIHOT（MIT）
