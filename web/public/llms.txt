@@ -15,6 +15,9 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [Listen Labs 介绍测量广告情绪反应的六类方法](https://listenlabs.com/articles/measure-emotional-response-to-ads/)：Listen Labs 增长负责人 Anish Rao 发布指南，将广告情绪反应测量归纳为自陈量表、生理与生物特征、面部编码、逐秒与内隐追踪、社交情绪分析、AI 主持多模态访谈六类方法。文章主张方法应跟随决策与预算选择，并指出单一方法的核…（Listen Labs，2026-10-28）
+- [Listen Labs 撰文介绍合成受访者平台的评估与选择方法](https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/)：Listen Labs 增长负责人 Anish Rao 撰文把合成受访者平台分为从零模拟、真实数据建模和样本扩充三类，并建议采购前做留出真人对比、核查答案可追溯性、检测 persona 漂移等验证。文中引用 Pew Research Ce…（Listen Labs，2026-10-28）
+- [Listen Labs 对比多款广告测试用 AI 合成用户模拟工具](https://listenlabs.com/articles/best-ai-persona-simulators-ad-testing/)：Listen Labs 增长负责人 Anish Rao 发布广告测试用 AI 合成用户模拟工具对比，认为这类模拟只适合创意初筛，不能替代真人验证。文中引用 2026 年多项验证研究，合成工具的准确率为 47.8%–87.73%，Strat…（Listen Labs，2026-10-28）
 - [为什么用 AI 生成用户画像与需求只是原地加速](https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4)：作者在这篇评论中论证，产品团队让 LLM 先定义用户需求和生成画像，得到的多是基于平均值、难以追溯的结论，速度快不等于有进展。文中引用 Atlassian《State of Product 2026》称产品经理用 AI 每天省下近两小时，…（UX Collective，2026-10-27）
 - [Listen Labs 如何用六步诊断流程和 AI 主持访谈查明 NPS 下滑原因](https://listenlabs.com/articles/best-ai-tools-nps-drop/)：Listen Labs 增长负责人 Anish Rao 发布一份六步诊断指南，讲解如何用 AI 主持访谈查明 NPS 下滑的原因。文中指出只有约 10% 的 NPS 受访者会留下开放题文本，一轮 5000 账户、12–25% 回收率的调研…（Listen Labs，2026-10-27）
 - [Listen Labs 拆解预测式营销信息测试的 7 种方法与对应指标](https://listenlabs.com/articles/predictive-message-testing-examples/)：Listen Labs 增长负责人 Anish Rao 撰文拆解 7 种预测式营销信息测试方法，并说明各自评分方式与失效边界。文中以 Listen Twins 数字孪生预筛为例，称其基于 1 位真实受访者的访谈构建，可在数秒返回 100+…（Listen Labs，2026-10-27）
@@ -42,8 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么](https://listenlabs.com/articles/voice-of-customer-software-features/)：Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen…（Listen Labs，2026-10-21）
 - [AI 暴露度不看职位看任务：用 Claude 测算的五步法](https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4)：作者提出按任务而非职位评估 AI 暴露度，用能否两句话描述最终结果、能否更快核验两问给一周任务打分，再按工时加权，并给出可直接粘贴到 Claude 的五步提示词。文中引用 2023 年 GPTs are GPTs 的估计，80% 美国劳动…（UX Collective，2026-10-20）
 - [Cint 谈为何消费者洞察的未来依赖 AI 主持的混合研究](https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/)：Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。（Cint，2026-10-20）
-- [LLM 作为调查受访者：与简单语义基线的比较](https://arxiv.org/abs/2610.29645v1)：一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比。结果显示 LLM 整体优于基线，但随已知答案比例下降而性能下滑，在一份量表中甚至与基线持平。研究据此指出，数据稀缺时 LLM…（ur-ai-papers（用户与交互 AI 论文库），2026-10-21）
-- [quantilope 推出 Category Twins 合成用户社区](https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins)：quantilope 推出 Category Twins，这是一个基于品牌自有数据构建数字孪生、可组成合成用户社区的解决方案，现已面向全球品牌开放。该方案与 10 个国家 30 个品牌共同开发，使用 Ehrenberg-Bass 框架及…（quantilope，2026-10-20）
-- [tvbeat 与 合作，为 TVNZ 和 Sky 推进新西兰 Total TV 受众测量](https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand)：tvbeat 与 达成合作，将为 TVNZ 和 Sky 在新西兰推进 Total TV 受众测量。新的受众测量系统（Audience Measurement System）会把 TVNZ 和 Sky 的大规模一方观看数据与独立受众研究结合…（Ipsos，2026-10-19）
 
-（更多 34 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 37 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

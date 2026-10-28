@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "count": 103,
+  "count": 109,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -659,6 +659,36 @@
       "relation": null
     },
     {
+      "id": "513d0bb28edb882c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/",
+      "title": "Synthetic Respondent Platforms: How To Evaluate And Choose",
+      "titleZh": "Listen Labs 撰文介绍合成受访者平台的评估与选择方法",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文把合成受访者平台分为从零模拟、真实数据建模和样本扩充三类，并建议采购前做留出真人对比、核查答案可追溯性、检测 persona 漂移等验证。文中引用 Pew Research Center 2026 年 9 月 30 日的研究称 AI 生成结果与人类民调平均相差 12.4 个百分点，共和党倾向者平均误差最高为 16.1 个百分点；Science Advances 同月刊出的哥伦比亚大学领衔 19 项预注册研究则发现 LLM 数字孪生在 164 个结果中有 154 个组内方差低于所模拟的真人。文章同时推介 Listen Labs 自有的 50M+ 真人网络与 Listen Twins。",
+      "reason": "文章把合成受访者平台分为三类，引用已发表证据说明其准确性限制，并给出采购前的验证清单与场景匹配建议。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "delve"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-28T05:10:50+00:00",
+      "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "04536d291010d65c",
       "sourceId": "maze-blog",
       "sourceName": "Maze Blog",
@@ -758,6 +788,33 @@
       "status": "listed",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "dda520eafe7335c0",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-persona-simulators-ad-testing/",
+      "title": "AI Persona Simulator for Ad Testing: Which Tools Work",
+      "titleZh": "Listen Labs 对比多款广告测试用 AI 合成用户模拟工具",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布广告测试用 AI 合成用户模拟工具对比，认为这类模拟只适合创意初筛，不能替代真人验证。文中引用 2026 年多项验证研究，合成工具的准确率为 47.8%–87.73%，Strat7 的 3,000 人样本显示合成受访者给出的支付意愿约高 16%，纯合成样本在一次价格排序中 68% 出现逻辑不一致。付费合成工具月费在 $29–$800，传统预测试为 $25k–$100k；Listen Labs 则以覆盖 45+ 国家、5000 万以上已验证受访者的 AI 主持访谈和 24 小时内出结果作为对照。",
+      "reason": "文中汇总了 2026 年多项合成受访者验证研究与各工具价格档位，可用来判断模拟测试适合放在创意筛选的哪一步。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-28T05:10:43+00:00",
+      "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "b657bf455c82f874",
@@ -916,6 +973,34 @@
       "status": "listed",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "70a5bbcfdf83daac",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/measure-emotional-response-to-ads/",
+      "title": "How To Measure Emotional Response To Ads: Methods Guide",
+      "titleZh": "Listen Labs 介绍测量广告情绪反应的六类方法",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布指南，将广告情绪反应测量归纳为自陈量表、生理与生物特征、面部编码、逐秒与内隐追踪、社交情绪分析、AI 主持多模态访谈六类方法。文章主张方法应跟随决策与预算选择，并指出单一方法的核心失效点在于 say-feel gap，相同的自陈得分可能掩盖不同的真实感受。文中引用数据包括 PAD 模型 Pleasure 子量表 Cronbach's alpha 约 .80–.93，一项 2026 年研究中 Arousal 的编码者一致性 Cohen's kappa 仅 0.28（Pleasure 为 0.85），完整生理测量的广告测试项目需 5 至 8 周、花费 $50,000 至 $100,000。",
+      "reason": "文章按决策场景梳理六类广告情绪测量方法及其成本与速度差异，并指出仅靠自陈量表会掩盖真实感受的失效点。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "多模态",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-28T05:10:56+00:00",
+      "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "1afcb1a1360dc91a",
@@ -1356,6 +1441,34 @@
       "relation": null
     },
     {
+      "id": "f32456e952ae77d3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/digital-twin-message-testing-examples/",
+      "title": "Digital Twin Message Testing: 8 Named Cases And What Changed",
+      "titleZh": "数字孪生消息测试：8 个具名案例与结果变化",
+      "summaryZh": "Listen Labs 汇总 8 个数字孪生消息测试案例：Atani 用 300 个 True Twins 预筛广告语，胜出句分享意愿达 90.6%。River City FCU 用 140 个数字孪生选口号，活动 Result Rate 从 0.52 升至 0.74（+42%）。另区分 Audience Twins 与 System Twins。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-28T05:08:53+00:00",
+      "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "22164f1907bfe9e3",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1380,6 +1493,35 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:01:24+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4d7c2b7e72ec3ae5",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-b2b-message-testing-tools/",
+      "title": "B2B Message Testing Tools: Which Method & Vendor to Pick",
+      "titleZh": "B2B 信息测试工具怎么选：Listen Labs、Wynter、Articos 等方法与厂商对比",
+      "summaryZh": "B2B 信息测试工具分为验证过的真人买家访谈、AI 合成受访者模拟和上线后 A/B 测试三类，Listen Labs、Wynter 等各有取舍。Listen Labs 以 50M+ 网络招募验证 B2B 决策者，AI 主持访谈并在 24 小时内交付分析；Wynter 称有 86,000+ B2B 样本、12–48 小时结果，Pro 档年起价 $20,000。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "合成用户",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-28T05:09:02+00:00",
+      "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2759,6 +2901,32 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:31+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ebe944806d1b3e2a",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/mediacell",
+      "title": "MediaCell: the future of cross-media measurement",
+      "titleZh": "MediaCell：跨媒体测量的未来",
+      "summaryZh": "MediaCell 是一款用途广泛、具备多种潜在应用的跨媒体测量解决方案，被定位为跨媒体测量的未来。",
+      "reason": null,
+      "category": null,
+      "tags": [
+        "其他",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-28T11:44:33+00:00",
+      "discoveredAt": "2026-10-28T13:30:20.620692+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

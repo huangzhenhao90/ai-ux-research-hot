@@ -1,0 +1,30 @@
+{
+  "id": "4d7c2b7e72ec3ae5",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-b2b-message-testing-tools/",
+  "title": "B2B Message Testing Tools: Which Method & Vendor to Pick",
+  "titleZh": "B2B 信息测试工具怎么选：Listen Labs、Wynter、Articos 等方法与厂商对比",
+  "summaryZh": "B2B 信息测试工具分为验证过的真人买家访谈、AI 合成受访者模拟和上线后 A/B 测试三类，Listen Labs、Wynter 等各有取舍。Listen Labs 以 50M+ 网络招募验证 B2B 决策者，AI 主持访谈并在 24 小时内交付分析；Wynter 称有 86,000+ B2B 样本、12–48 小时结果，Pro 档年起价 $20,000。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "合成用户",
+    "市场研究",
+    "招募/样本"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-28T05:09:02+00:00",
+  "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

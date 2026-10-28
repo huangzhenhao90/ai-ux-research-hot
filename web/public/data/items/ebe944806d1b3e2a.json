@@ -1,0 +1,27 @@
+{
+  "id": "ebe944806d1b3e2a",
+  "sourceId": "ipsos",
+  "sourceName": "Ipsos",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.ipsos.com/en/mediacell",
+  "title": "MediaCell: the future of cross-media measurement",
+  "titleZh": "MediaCell：跨媒体测量的未来",
+  "summaryZh": "MediaCell 是一款用途广泛、具备多种潜在应用的跨媒体测量解决方案，被定位为跨媒体测量的未来。",
+  "reason": null,
+  "category": null,
+  "tags": [
+    "其他",
+    "市场研究"
+  ],
+  "entities": [
+    "ipsos"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-28T11:44:33+00:00",
+  "discoveredAt": "2026-10-28T13:30:20.620692+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

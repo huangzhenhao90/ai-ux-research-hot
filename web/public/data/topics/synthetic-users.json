@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 21,
+  "count": 25,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -244,6 +244,36 @@
       "relation": null
     },
     {
+      "id": "513d0bb28edb882c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/",
+      "title": "Synthetic Respondent Platforms: How To Evaluate And Choose",
+      "titleZh": "Listen Labs 撰文介绍合成受访者平台的评估与选择方法",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文把合成受访者平台分为从零模拟、真实数据建模和样本扩充三类，并建议采购前做留出真人对比、核查答案可追溯性、检测 persona 漂移等验证。文中引用 Pew Research Center 2026 年 9 月 30 日的研究称 AI 生成结果与人类民调平均相差 12.4 个百分点，共和党倾向者平均误差最高为 16.1 个百分点；Science Advances 同月刊出的哥伦比亚大学领衔 19 项预注册研究则发现 LLM 数字孪生在 164 个结果中有 154 个组内方差低于所模拟的真人。文章同时推介 Listen Labs 自有的 50M+ 真人网络与 Listen Twins。",
+      "reason": "文章把合成受访者平台分为三类，引用已发表证据说明其准确性限制，并给出采购前的验证清单与场景匹配建议。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "delve"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-28T05:10:50+00:00",
+      "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "563846e21bb7c5e2",
       "sourceId": "arxiv-cs-hc",
       "sourceName": "arXiv cs.HC",
@@ -268,6 +298,33 @@
       "status": "listed",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "dda520eafe7335c0",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-persona-simulators-ad-testing/",
+      "title": "AI Persona Simulator for Ad Testing: Which Tools Work",
+      "titleZh": "Listen Labs 对比多款广告测试用 AI 合成用户模拟工具",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布广告测试用 AI 合成用户模拟工具对比，认为这类模拟只适合创意初筛，不能替代真人验证。文中引用 2026 年多项验证研究，合成工具的准确率为 47.8%–87.73%，Strat7 的 3,000 人样本显示合成受访者给出的支付意愿约高 16%，纯合成样本在一次价格排序中 68% 出现逻辑不一致。付费合成工具月费在 $29–$800，传统预测试为 $25k–$100k；Listen Labs 则以覆盖 45+ 国家、5000 万以上已验证受访者的 AI 主持访谈和 24 小时内出结果作为对照。",
+      "reason": "文中汇总了 2026 年多项合成受访者验证研究与各工具价格档位，可用来判断模拟测试适合放在创意筛选的哪一步。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-28T05:10:43+00:00",
+      "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "cb120d2f6215ccd7",
@@ -430,6 +487,63 @@
       "itemType": null,
       "publishedAt": "2026-10-20T21:30:52+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f32456e952ae77d3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/digital-twin-message-testing-examples/",
+      "title": "Digital Twin Message Testing: 8 Named Cases And What Changed",
+      "titleZh": "数字孪生消息测试：8 个具名案例与结果变化",
+      "summaryZh": "Listen Labs 汇总 8 个数字孪生消息测试案例：Atani 用 300 个 True Twins 预筛广告语，胜出句分享意愿达 90.6%。River City FCU 用 140 个数字孪生选口号，活动 Result Rate 从 0.52 升至 0.74（+42%）。另区分 Audience Twins 与 System Twins。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-28T05:08:53+00:00",
+      "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4d7c2b7e72ec3ae5",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-b2b-message-testing-tools/",
+      "title": "B2B Message Testing Tools: Which Method & Vendor to Pick",
+      "titleZh": "B2B 信息测试工具怎么选：Listen Labs、Wynter、Articos 等方法与厂商对比",
+      "summaryZh": "B2B 信息测试工具分为验证过的真人买家访谈、AI 合成受访者模拟和上线后 A/B 测试三类，Listen Labs、Wynter 等各有取舍。Listen Labs 以 50M+ 网络招募验证 B2B 决策者，AI 主持访谈并在 24 小时内交付分析；Wynter 称有 86,000+ B2B 样本、12–48 小时结果，Pro 档年起价 $20,000。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "合成用户",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-28T05:09:02+00:00",
+      "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

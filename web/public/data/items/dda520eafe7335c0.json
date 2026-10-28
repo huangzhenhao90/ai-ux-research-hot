@@ -1,0 +1,28 @@
+{
+  "id": "dda520eafe7335c0",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-persona-simulators-ad-testing/",
+  "title": "AI Persona Simulator for Ad Testing: Which Tools Work",
+  "titleZh": "Listen Labs 对比多款广告测试用 AI 合成用户模拟工具",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布广告测试用 AI 合成用户模拟工具对比，认为这类模拟只适合创意初筛，不能替代真人验证。文中引用 2026 年多项验证研究，合成工具的准确率为 47.8%–87.73%，Strat7 的 3,000 人样本显示合成受访者给出的支付意愿约高 16%，纯合成样本在一次价格排序中 68% 出现逻辑不一致。付费合成工具月费在 $29–$800，传统预测试为 $25k–$100k；Listen Labs 则以覆盖 45+ 国家、5000 万以上已验证受访者的 AI 主持访谈和 24 小时内出结果作为对照。",
+  "reason": "文中汇总了 2026 年多项合成受访者验证研究与各工具价格档位，可用来判断模拟测试适合放在创意筛选的哪一步。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-10-28T05:10:43+00:00",
+  "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

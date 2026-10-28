@@ -5,9 +5,36 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 13:30:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 14:54:22 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 介绍测量广告情绪反应的六类方法</title>
+      <link>https://listenlabs.com/articles/measure-emotional-response-to-ads/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/measure-emotional-response-to-ads/</guid>
+      <pubDate>Wed, 28 Oct 2026 05:10:56 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 发布指南，将广告情绪反应测量归纳为自陈量表、生理与生物特征、面部编码、逐秒与内隐追踪、社交情绪分析、AI 主持多模态访谈六类方法。文章主张方法应跟随决策与预算选择，并指出单一方法的核心失效点在于 say-feel gap，相同的自陈得分可能掩盖不同的真实感受。文中引用数据包括 PAD 模型 Pleasure 子量表 Cronbach's alpha 约 .80–.93，一项 2026 年研究中 Arousal 的编码者一致性 Cohen's kappa 仅 0.28（Pleasure 为 0.85），完整生理测量的广告测试项目需 5 至 8 周、花费 $50,000 至 $100,000。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Listen Labs 撰文介绍合成受访者平台的评估与选择方法</title>
+      <link>https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/</guid>
+      <pubDate>Wed, 28 Oct 2026 05:10:50 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 撰文把合成受访者平台分为从零模拟、真实数据建模和样本扩充三类，并建议采购前做留出真人对比、核查答案可追溯性、检测 persona 漂移等验证。文中引用 Pew Research Center 2026 年 9 月 30 日的研究称 AI 生成结果与人类民调平均相差 12.4 个百分点，共和党倾向者平均误差最高为 16.1 个百分点；Science Advances 同月刊出的哥伦比亚大学领衔 19 项预注册研究则发现 LLM 数字孪生在 164 个结果中有 154 个组内方差低于所模拟的真人。文章同时推介 Listen Labs 自有的 50M+ 真人网络与 Listen Twins。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Listen Labs 对比多款广告测试用 AI 合成用户模拟工具</title>
+      <link>https://listenlabs.com/articles/best-ai-persona-simulators-ad-testing/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/best-ai-persona-simulators-ad-testing/</guid>
+      <pubDate>Wed, 28 Oct 2026 05:10:43 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 发布广告测试用 AI 合成用户模拟工具对比，认为这类模拟只适合创意初筛，不能替代真人验证。文中引用 2026 年多项验证研究，合成工具的准确率为 47.8%–87.73%，Strat7 的 3,000 人样本显示合成受访者给出的支付意愿约高 16%，纯合成样本在一次价格排序中 68% 出现逻辑不一致。付费合成工具月费在 $29–$800，传统预测试为 $25k–$100k；Listen Labs 则以覆盖 45+ 国家、5000 万以上已验证受访者的 AI 主持访谈和 24 小时内出结果作为对照。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>为什么用 AI 生成用户画像与需求只是原地加速</title>
       <link>https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4</link>
@@ -428,33 +455,6 @@
       <description>Delve 的《解释性序列设计：实用指南》讲解如何用访谈解释问卷结果。指南还给出真实研究案例，并演示如何在 Delve 中编码后续访谈。</description>
       <category>Delve</category>
       <category>methods</category>
-    </item>
-    <item>
-      <title>探索性序列设计实用指南：将访谈转化为问卷并在 Delve 中编码</title>
-      <link>https://delvetool.com/blog/exploratory-sequential-research-design-delvetool/</link>
-      <guid isPermaLink="true">https://delvetool.com/blog/exploratory-sequential-research-design-delvetool/</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Delve 的《探索性序列设计实用指南》讲解如何把访谈转化为问卷，并说明定性阶段的编码方法。文中包含一个真实研究示例，并演示如何在 Delve 中完成定性阶段编码。</description>
-      <category>Delve</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>更新团队编码协作，新增 Transcript Dashboard、就地编辑与部分计分的编码者一致性</title>
-      <link>https://delvetool.com/blog/collaboration-in-delve/</link>
-      <guid isPermaLink="true">https://delvetool.com/blog/collaboration-in-delve/</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-      <description>更新团队定性编码协作，新增 Transcript Dashboard 用于分配和跟踪团队工作，编码对比页面支持就地编辑，多编码片段可采用部分计分的编码者一致性计算。三项更新分别对应分工跟踪、编码对齐与一致性核对，面向多人协作处理同一批材料的场景</description>
-      <category>Delve</category>
-      <category>tools</category>
-    </item>
-    <item>
-      <title>Dovetail 夏季发布推出 Digital Twins、agents、Channels 2.0 与企业级功能</title>
-      <link>https://dovetail.com/blog/suns-out-2026-launch/</link>
-      <guid isPermaLink="true">https://dovetail.com/blog/suns-out-2026-launch/</guid>
-      <pubDate>Tue, 14 Jul 2026 16:00:00 GMT</pubDate>
-      <description>Dovetail 在 Sun's Out 夏季发布中推出 Digital Twins、agents、Channels 2.0 以及新的企业级功能。此次发布还包含 MCP connectors 和企业级治理能力。官方称，这些更新意在缩短客户上下文与业务决策之间的距离。</description>
-      <category>Dovetail Blog</category>
-      <category>tools</category>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-28T13:30:20.620692+00:00",
-  "total": 208,
+  "generatedAt": "2026-10-28T14:54:22.801553+00:00",
+  "total": 214,
   "months": [
     {
       "month": "2026-10",
-      "count": 103,
+      "count": 109,
       "path": "data/all/2026-10.json"
     },
     {

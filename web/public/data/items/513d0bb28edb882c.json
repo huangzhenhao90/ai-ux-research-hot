@@ -1,0 +1,31 @@
+{
+  "id": "513d0bb28edb882c",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/",
+  "title": "Synthetic Respondent Platforms: How To Evaluate And Choose",
+  "titleZh": "Listen Labs 撰文介绍合成受访者平台的评估与选择方法",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文把合成受访者平台分为从零模拟、真实数据建模和样本扩充三类，并建议采购前做留出真人对比、核查答案可追溯性、检测 persona 漂移等验证。文中引用 Pew Research Center 2026 年 9 月 30 日的研究称 AI 生成结果与人类民调平均相差 12.4 个百分点，共和党倾向者平均误差最高为 16.1 个百分点；Science Advances 同月刊出的哥伦比亚大学领衔 19 项预注册研究则发现 LLM 数字孪生在 164 个结果中有 154 个组内方差低于所模拟的真人。文章同时推介 Listen Labs 自有的 50M+ 真人网络与 Listen Twins。",
+  "reason": "文章把合成受访者平台分为三类，引用已发表证据说明其准确性限制，并给出采购前的验证清单与场景匹配建议。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "问卷/定量",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs",
+    "qualtrics",
+    "delve"
+  ],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-10-28T05:10:50+00:00",
+  "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

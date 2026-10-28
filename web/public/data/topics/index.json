@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T13:30:20.620692+00:00",
+  "generatedAt": "2026-10-28T14:54:22.801553+00:00",
   "groups": [
     {
       "key": "company",
@@ -23,7 +23,7 @@
       "name": "Qualtrics",
       "group": "company",
       "definition": "Qualtrics 的 XM 平台与 XM Institute 研究，以及体验管理产品的 AI 能力更新。",
-      "count": 6
+      "count": 7
     },
     {
       "slug": "dovetail",
@@ -58,7 +58,7 @@
       "name": "Ipsos",
       "group": "company",
       "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-      "count": 12
+      "count": 13
     },
     {
       "slug": "surveymonkey",
@@ -79,7 +79,7 @@
       "name": "Listen Labs",
       "group": "company",
       "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-      "count": 40
+      "count": 45
     },
     {
       "slug": "dscout",
@@ -93,21 +93,21 @@
       "name": "AI 访谈",
       "group": "field",
       "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-      "count": 30
+      "count": 32
     },
     {
       "slug": "synthetic-users",
       "name": "合成用户",
       "group": "field",
       "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-      "count": 21
+      "count": 25
     },
     {
       "slug": "survey",
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 39
+      "count": 42
     },
     {
       "slug": "qual-analysis",
@@ -135,7 +135,7 @@
       "name": "洞察库与 ResearchOps",
       "group": "field",
       "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-      "count": 35
+      "count": 36
     },
     {
       "slug": "ethics",
@@ -163,7 +163,7 @@
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 73
+      "count": 78
     },
     {
       "slug": "prompts",

@@ -1,0 +1,29 @@
+{
+  "id": "70a5bbcfdf83daac",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/measure-emotional-response-to-ads/",
+  "title": "How To Measure Emotional Response To Ads: Methods Guide",
+  "titleZh": "Listen Labs 介绍测量广告情绪反应的六类方法",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布指南，将广告情绪反应测量归纳为自陈量表、生理与生物特征、面部编码、逐秒与内隐追踪、社交情绪分析、AI 主持多模态访谈六类方法。文章主张方法应跟随决策与预算选择，并指出单一方法的核心失效点在于 say-feel gap，相同的自陈得分可能掩盖不同的真实感受。文中引用数据包括 PAD 模型 Pleasure 子量表 Cronbach's alpha 约 .80–.93，一项 2026 年研究中 Arousal 的编码者一致性 Cohen's kappa 仅 0.28（Pleasure 为 0.85），完整生理测量的广告测试项目需 5 至 8 周、花费 $50,000 至 $100,000。",
+  "reason": "文章按决策场景梳理六类广告情绪测量方法及其成本与速度差异，并指出仅靠自陈量表会掩盖真实感受的失效点。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "多模态",
+    "问卷/定量"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-10-28T05:10:56+00:00",
+  "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}
