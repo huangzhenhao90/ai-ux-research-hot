@@ -8,7 +8,7 @@ commit `a0d1e75`）的 `industry/prompts/`，按「AI × 用户研究」行业�
 
 由 `uxhot/prompts.py` 渲染：
 
-- `{{siteName}}`：站名，渲染成 `UXHOT`
+- `{{siteName}}`：站名，渲染成 `URHOT`
 - `{{> 文件名}}`：包含 `prompts/<文件名>.md`，递归展开；`{{> group-method}}` 与 `{{> group-method.md}}` 等价
 
 渲染时做三项检查，任一失败直接报错：**包含循环**、**文件缺失**、**未知占位符**。

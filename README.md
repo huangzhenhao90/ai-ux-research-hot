@@ -1,10 +1,10 @@
-# UXHOT · AI 用研热点
+# URHOT · AI 用研热点
 
 每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，
 用大模型预筛 + **同一标准独立打两次分**，按信源分级门槛筛出值得看的，
 写成中文标题、摘要和「为什么值得看」，按天排进「精选」。
 
-**站点**：`UXHOT` · AI 用研热点
+**站点**：`URHOT` · AI 用研热点（2026-10-28 由 UXHOT 改名，见 D1 修订）
 **仓库**：`huangzhenhao90/ai-ux-research-hot`
 
 > 精选流程改编自开源项目 [AIHOT](https://github.com/KKKKhazix/AIHOT)（MIT），

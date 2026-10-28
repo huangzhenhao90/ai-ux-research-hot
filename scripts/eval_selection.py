@@ -42,7 +42,7 @@ from uxhot.llm import LLMClient, LLMCallsDisabled, load_llm_config  # noqa: E402
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="UXHOT 金标评测")
+    parser = argparse.ArgumentParser(description="URHOT 金标评测")
     parser.add_argument("--gold", default="eval/gold.jsonl", help="金标文件")
     parser.add_argument("--split", default="development", choices=["development", "holdout", "all"])
     parser.add_argument("--label", default="v1", help="这一版的标签，用于报告文件名")

@@ -35,7 +35,7 @@ def cfg():
 
 
 def test_all_configs_parse(cfg) -> None:
-    assert cfg.site.name == "UXHOT"
+    assert cfg.site.name == "URHOT"
     assert cfg.taxonomy.categories
     assert cfg.topics.topics
     assert cfg.sources.sources
@@ -50,7 +50,7 @@ def test_site_url_matches_confirmed_repo_name(cfg) -> None:
 
 def test_site_uses_confirmed_identity(cfg) -> None:
     """D1/D2：站名与行业词。"""
-    assert cfg.site.name == "UXHOT"
+    assert cfg.site.name == "URHOT"
     assert cfg.site.alias == "AI 用研热点"
     assert cfg.site.subject == "AI 用研"
 

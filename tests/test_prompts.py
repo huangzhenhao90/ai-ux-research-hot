@@ -325,7 +325,7 @@ def test_prompt_version_changes_with_content(tmp_path: Path, variables) -> None:
 
 def test_prompt_version_changes_with_site_name() -> None:
     """{{siteName}} 变了，版本也要变（同一份提示词在不同站是不同的提示词）。"""
-    v1 = prompt_version("prefilter", {"siteName": "UXHOT"})
+    v1 = prompt_version("prefilter", {"siteName": "URHOT"})
     v2 = prompt_version("prefilter", {"siteName": "OTHER"})
     assert v1 != v2
 
@@ -341,11 +341,11 @@ def test_render_snapshot_written(tmp_path: Path, variables) -> None:
 
     # 抽看三份关键提示词的关键结构
     score = (tmp_path / "selection-score.md").read_text(encoding="utf-8")
-    assert "UXHOT" in score
+    assert "URHOT" in score
     assert "attentionScore" in score
 
     pre = (tmp_path / "prefilter.md").read_text(encoding="utf-8")
-    assert "UXHOT" in pre
+    assert "URHOT" in pre
 
     struct = (tmp_path / "structure.md").read_text(encoding="utf-8")
     assert "6选一" in struct, "categoryCount 应渲染成 6"

@@ -96,7 +96,7 @@ def _channel_xml(
         f"    <language>{_text(language)}</language>",
         f"    <lastBuildDate>{_text(rfc822(last_build))}</lastBuildDate>",
         f'    <atom:link href="{_attr(self_url)}" rel="self" type="application/rss+xml"/>',
-        "    <generator>UXHOT publish/rss_out.py</generator>",
+        "    <generator>URHOT publish/rss_out.py</generator>",
         *item_lines,
         "  </channel>",
         "</rss>",
