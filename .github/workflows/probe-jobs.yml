@@ -9,6 +9,7 @@ on:
     branches: ["claude/**"]
     paths:
       - scripts/probe_jobs.py
+      - scripts/probe_job_samples.py
       - config/job_probe.yaml
       - .github/workflows/probe-jobs.yml
 
@@ -32,5 +33,11 @@ jobs:
       - name: 安装依赖
         run: pip install -r requirements.txt
 
+      - name: 安装无头浏览器
+        # 只有验证岗位详情页链接时用到
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
       - name: 探测
-        run: python scripts/probe_jobs.py --api-only
+        run: python scripts/probe_job_samples.py
