@@ -90,6 +90,19 @@ def joined(*parts: Any) -> str | None:
     return text or None
 
 
+def cookie(client: httpx.Client, name: str, host: str) -> str:
+    """取某个站点的 cookie。
+
+    一个客户端会依次访问多家，同名 cookie（如字节系的 atsx-csrf-token）会有好几份，
+    所以按域名挑；站点常把 cookie 设在带点的上级域名（`.jobs.bytedance.com`）上。
+    """
+    for item in client.cookies.jar:
+        domain = item.domain.lstrip(".")
+        if item.name == name and (host == domain or host.endswith("." + domain)):
+            return unquote(item.value or "")
+    return ""
+
+
 def find_list(doc: Any, title_key: str, id_key: str) -> tuple[int | None, list[dict] | None]:
     """在返回的 JSON 里找岗位列表（元素同时带岗位名与 id 字段）和最先出现的总数。"""
     total: int | None = None
@@ -187,10 +200,10 @@ BYTEDANCE_BASE = "https://jobs.bytedance.com"
 
 def _atsx_search(client: httpx.Client, base: str, portal: tuple[str, str], keyword: str, page: int, size: int):
     host = urlsplit(base).hostname or ""
-    token = unquote(client.cookies.get("atsx-csrf-token", domain=host) or "")
+    token = cookie(client, "atsx-csrf-token", host)
     if not token:
         client.post(f"{base}/api/v1/csrf/token", json={"portal_entrance": 1})
-        token = unquote(client.cookies.get("atsx-csrf-token", domain=host) or "")
+        token = cookie(client, "atsx-csrf-token", host)
         if not token:
             raise AdapterError("没拿到 CSRF token")
     website_path, channel = portal
@@ -247,10 +260,10 @@ def atsx_job(company: Company, raw: dict) -> Job | None:
 
 
 def alibaba_search(client: httpx.Client, _: Company, keyword: str, page: int, size: int):
-    token = client.cookies.get("XSRF-TOKEN", domain="talent.alibaba.com")
+    token = cookie(client, "XSRF-TOKEN", "talent.alibaba.com")
     if not token:
         client.get("https://talent.alibaba.com/off-campus/position-list")
-        token = client.cookies.get("XSRF-TOKEN", domain="talent.alibaba.com")
+        token = cookie(client, "XSRF-TOKEN", "talent.alibaba.com")
         if not token:
             raise AdapterError("没拿到 XSRF-TOKEN")
     resp = client.post(

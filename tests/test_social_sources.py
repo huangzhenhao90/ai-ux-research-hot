@@ -12,7 +12,7 @@ from pathlib import Path
 import httpx
 import pytest
 
-from uxhot.social.sources import ADAPTERS, AdapterError, Company, clean, parse, to_date
+from uxhot.social.sources import ADAPTERS, AdapterError, Company, clean, cookie, parse, to_date
 from uxhot.social.sync import TZ, SocialConfig, fetch_company, is_relevant, load_social_config, sync
 from uxhot.social.window import Job
 
@@ -215,3 +215,16 @@ def test_sync_all_failed_writes_nothing(tmp_path):
     report = sync(_cfg("腾讯"), now=datetime(2026, 10, 28, tzinfo=TZ), state_path=state,
                   content_path=content, fetch=fetch, client_factory=_NullClient)
     assert list(report.failed) == ["腾讯"] and not state.exists() and not content.exists()
+
+
+def test_cookie_picks_the_right_site():
+    """同一个客户端里有好几家的同名 cookie，且常设在带点的上级域名上。"""
+    client = httpx.Client()
+    client.cookies.set("atsx-csrf-token", "byte%3D1", domain=".jobs.bytedance.com")
+    client.cookies.set("atsx-csrf-token", "nio", domain="nio.jobs.feishu.cn")
+    client.cookies.set("XSRF-TOKEN", "ali", domain="talent.alibaba.com")
+    assert cookie(client, "atsx-csrf-token", "jobs.bytedance.com") == "byte=1"
+    assert cookie(client, "atsx-csrf-token", "nio.jobs.feishu.cn") == "nio"
+    assert cookie(client, "atsx-csrf-token", "li.jobs.feishu.cn") == ""
+    assert cookie(client, "XSRF-TOKEN", "talent.alibaba.com") == "ali"
+    client.close()
