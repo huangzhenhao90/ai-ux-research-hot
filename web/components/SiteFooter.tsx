@@ -14,7 +14,9 @@ export function SiteFooter({ narrow = false }: { narrow?: boolean }) {
       <Link href="/about/">关于</Link>
       <Link href="/about/#sources">信源</Link>
       <a href={`${site.basePath}/rss.xml`}>RSS</a>
-      <span>信源内容版权归各发布方所有，本站只展示摘要与原文链接。</span>
+      <span>
+        信源内容版权归各发布方所有；动态只展示摘要与原文链接，校招岗位描述转自企业官网公开页面。
+      </span>
     </footer>
   );
 }

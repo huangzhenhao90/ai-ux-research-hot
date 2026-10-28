@@ -49,6 +49,13 @@ export const IconGrid: Icon = (p) => (
     <rect x="13.5" y="13.5" width="7" height="7" rx="1.5" />
   </Svg>
 );
+export const IconCap: Icon = (p) => (
+  <Svg {...p}>
+    <path d="M2.5 9.5L12 5l9.5 4.5L12 14z" />
+    <path d="M6.5 11.5v4.2c0 1.3 2.5 2.8 5.5 2.8s5.5-1.5 5.5-2.8v-4.2" />
+    <path d="M21.5 9.5v5" />
+  </Svg>
+);
 export const IconSearch: Icon = (p) => (
   <Svg {...p}>
     <circle cx="11" cy="11" r="6.5" />

@@ -66,6 +66,7 @@ cd web && npm ci && npm run build && npx serve out
 | `python scripts/run_pipeline.py --dry-run` | 抓取 + 机械步骤，模型步骤只统计调用次数 |
 | `python scripts/run_pipeline.py --execute --limit 30` | 真实运行 |
 | `python scripts/run_pipeline.py --source nngroup` | 只跑指定信源（可重复） |
+| `node web/scripts/sync-campus.mjs [index.html]` | 同步「用研校招」岗位库（默认从 GitHub 拉 uxr-campus-2027） |
 | `python scripts/sample_gold.py` | 导出金标标注表 `eval/gold_candidates.xlsx` |
 | `python scripts/sample_gold.py --convert` | 标注完转成 `eval/gold.jsonl` |
 | `python scripts/eval_selection.py --split development --label v1 --execute` | 金标评测 + 门槛扫描 |

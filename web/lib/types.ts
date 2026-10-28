@@ -152,3 +152,50 @@ export interface DataManifest {
   months: string[];
   latestDays: string[];
 }
+
+// ── 用研校招（数据来自 uxr-campus-2027，见 web/scripts/sync-campus.mjs）──────
+
+export interface CampusJob {
+  id: string;
+  company: string;
+  title: string;
+  industry: string;
+  /** 战略/策略向、交互/设计向、体验管理向、不确定 */
+  type: string;
+  location: string | null;
+  headcount: string | null;
+  degree: string | null;
+  url: string;
+  flags: string[];
+  tagline: string | null;
+  business: string | null;
+  jd: string;
+  analysis: string | null;
+  advice: string | null;
+  cohortNote: string | null;
+  verificationNote: string | null;
+  checkedAt: string | null;
+  /** 职责或标签里写了 AI / 大模型 / AIGC */
+  ai: boolean;
+  /** 明确招 2 人及以上 */
+  multipleHires: boolean;
+}
+
+export interface CampusCompany {
+  name: string;
+  mark: string;
+  industry: string;
+  /** open = 27 届正式校招已开；pending = 尚未确认正式批 */
+  status: "open" | "pending";
+  recruitment: string | null;
+  research: string | null;
+  url: string | null;
+  checkedAt: string | null;
+  jobCount: number;
+}
+
+export interface CampusDoc {
+  source: { repo: string; repoUrl: string; siteUrl: string; updated: string | null };
+  jobs: CampusJob[];
+  companies: CampusCompany[];
+}
