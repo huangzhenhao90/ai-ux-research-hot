@@ -120,6 +120,12 @@ jobs:
         run: |
           node web/scripts/sync-campus.mjs || echo "::warning title=校招岗位库同步失败::沿用 web/content/campus.json 的上一版快照"
 
+      - name: 同步用研社招岗位
+        # 从各公司招聘官网抓用研社招岗位，按滑动窗口维护（DECISIONS D17）；一天最多真抓一次。
+        # 全部抓失败就沿用上一版，不拦整次更新
+        run: |
+          python scripts/sync_social.py || echo "::warning title=社招岗位同步失败::沿用 web/content/social.json 的上一版"
+
       - name: 类型检查
         working-directory: web
         run: npm run typecheck

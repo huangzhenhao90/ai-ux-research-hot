@@ -4,6 +4,7 @@ import { getSite } from "@/lib/data";
 
 import {
   IconBolt,
+  IconBriefcase,
   IconCap,
   IconGrid,
   IconHeart,
@@ -34,7 +35,10 @@ const SECTIONS: { title: string; items: NavItem[] }[] = [
   },
   {
     title: "求职",
-    items: [{ href: "/campus/", label: "用研校招", icon: IconCap }],
+    items: [
+      { href: "/campus/", label: "用研校招", icon: IconCap },
+      { href: "/social/", label: "用研社招", icon: IconBriefcase },
+    ],
   },
   {
     title: "更多",

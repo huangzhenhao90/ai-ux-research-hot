@@ -13,6 +13,7 @@ import { join } from "node:path";
 import type {
   AllIndex,
   CampusDoc,
+  SocialDoc,
   AllMonth,
   CategoriesIndex,
   CategoryDoc,
@@ -127,6 +128,17 @@ export function getCampus(): CampusDoc | null {
 
 export function getCampusJob(id: string) {
   return getCampus()?.jobs.find((job) => job.id === id) ?? null;
+}
+
+/** 用研社招（`scripts/sync_social.py` 写进 `content/social.json`；还没同步过就是 null）。 */
+export function getSocial(): SocialDoc | null {
+  const full = join(process.cwd(), "content", "social.json");
+  if (!existsSync(full)) return null;
+  return JSON.parse(readFileSync(full, "utf8")) as SocialDoc;
+}
+
+export function getSocialJob(id: string) {
+  return getSocial()?.jobs.find((job) => job.id === id) ?? null;
 }
 
 // ── 展示工具 ────────────────────────────────────────────────────────────

@@ -1,15 +1,29 @@
 name: Probe jobs
 
-# 社招可行性探测（scripts/probe_jobs.py）：一次性工具，不进定时更新、不提交任何文件。
-# 结果在运行日志与运行摘要里。手动触发；在 claude/** 分支上改了探测脚本或清单也会自动跑一次。
+# 用研社招的试跑与探测工具（只读：结果在运行日志与运行摘要里，不提交任何文件）。
+#
+# - sync（默认）：试跑一次社招同步 scripts/sync_social.py --force --dump，看各家能不能抓、抓到什么；
+#   在 claude/** 分支上改了社招代码或配置会自动跑一次，合并前先验证。正式同步在 Update 里。
+# - probe / samples / links：当初的可行性探测（接口可用性与时间字段 / 原始样例与详情页 / 阿里百度详情页）。
 
 on:
   workflow_dispatch:
+    inputs:
+      tool:
+        description: "跑哪个工具"
+        type: choice
+        options:
+          - sync
+          - probe
+          - samples
+          - links
+        default: sync
   push:
     branches: ["claude/**"]
     paths:
-      - scripts/probe_jobs.py
-      - config/job_probe.yaml
+      - scripts/sync_social.py
+      - uxhot/social/**
+      - config/social.yaml
       - .github/workflows/probe-jobs.yml
 
 permissions:
@@ -19,6 +33,8 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      TOOL: ${{ inputs.tool || 'sync' }}
     steps:
       - name: 检出
         uses: actions/checkout@v7
@@ -32,5 +48,18 @@ jobs:
       - name: 安装依赖
         run: pip install -r requirements.txt
 
-      - name: 探测
-        run: python scripts/probe_jobs.py
+      - name: 安装无头浏览器
+        # 只有验证岗位详情页链接时用到
+        if: env.TOOL == 'samples' || env.TOOL == 'links'
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: 运行
+        run: |
+          case "$TOOL" in
+            sync)    python scripts/sync_social.py --force --dump ;;
+            probe)   python scripts/probe_jobs.py --api-only ;;
+            samples) python scripts/probe_job_samples.py ;;
+            links)   python scripts/probe_job_links.py ;;
+          esac

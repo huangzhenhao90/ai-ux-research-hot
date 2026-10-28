@@ -81,7 +81,7 @@ jobs:
         working-directory: web
         run: |
           set -e
-          for f in out/index.html out/all/index.html out/about/index.html \
+          for f in out/index.html out/all/index.html out/about/index.html out/social/index.html \
                    out/rss.xml out/llms.txt out/data/site.json; do
             test -f "$f" || { echo "缺少产物：$f"; exit 1; }
           done

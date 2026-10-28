@@ -1,0 +1,751 @@
+{
+ "tencent": [
+  {
+   "Id": 0,
+   "PostId": "2112095379343454208",
+   "RecruitPostId": 123172,
+   "RecruitPostName": "魔方市场用户研究经理",
+   "CountryName": "中国",
+   "LocationName": "深圳",
+   "BGName": "IEG",
+   "ComCode": "",
+   "ComName": "",
+   "ProductName": "UC-手游APP",
+   "CategoryName": "战略与投资",
+   "Responsibility": "1.跟进工作室重点产品全生命周期研发运营过程，深度分析产品问题，建立评估体系，帮助提升游戏质量和用户体验；\r\n2.应用游戏行业长期积累经验，独立挖掘并主导长期课…",
+   "LastUpdateTime": "2026年10月19日",
+   "PostURL": "http://careers.tencent.com/jobdesc.html?postId=2112095379343454208",
+   "SourceID": 1,
+   "IsCollect": false,
+   "IsValid": true,
+   "RequireWorkYearsName": "一年以上工作经验"
+  },
+  {
+   "Id": 0,
+   "PostId": "2076927005642895360",
+   "RecruitPostId": 121166,
+   "RecruitPostName": "魔方市场用户研究经理",
+   "CountryName": "中国",
+   "LocationName": "深圳",
+   "BGName": "IEG",
+   "ComCode": "",
+   "ComName": "",
+   "ProductName": "公共",
+   "CategoryName": "战略与投资",
+   "Responsibility": "1.负责跟进工作室重点产品全生命周期研发运营过程，深度分析产品问题，建立评估体系，帮助提升游戏质量和用户体验；\r\n2.应用游戏行业长期积累经验，独立挖掘并主导长…",
+   "LastUpdateTime": "2026年10月16日",
+   "PostURL": "http://careers.tencent.com/jobdesc.html?postId=2076927005642895360",
+   "SourceID": 1,
+   "IsCollect": false,
+   "IsValid": true,
+   "RequireWorkYearsName": "两年以上工作经验"
+  }
+ ],
+ "bytedance": [
+  {
+   "id": "7637726737113975045",
+   "title": "用户研究AI Agent产品-抖音",
+   "sub_title": null,
+   "description": "1、负责字节跳动用户研究Agent的产品迭代全流程管理，深度洞察挖掘内外部用户需求（包括用户研究/业务方/外部客户）和行业前瞻方向，制定产品路径图和功能迭代路径…",
+   "requirement": "1、本科及以上学历，1年以上B端工具型产品策划经验，有完整经历过产品从0到1的建设过程或AI+用户研究功能实践的候选者优先；\n2、熟悉AI产品，对提示词工程、S…",
+   "job_category": {
+    "id": "6709824272996501772",
+    "name": "用户研究",
+    "en_name": "User Research",
+    "i18n_name": "用户研究",
+    "depth": 2,
+    "parent": {
+     "id": "6709824272514156812",
+     "name": "设计",
+     "en_name": "Design",
+     "i18n_name": "设计",
+     "depth": 1,
+     "parent": null,
+     "children": null
+    },
+    "children": null
+   },
+   "city_info": {
+    "code": "CT_128",
+    "name": "深圳",
+    "en_name": "Shenzhen",
+    "location_type": null,
+    "i18n_name": "深圳",
+    "py_name": null,
+    "mdm_code": null,
+    "node_status": null
+   },
+   "recruit_type": {
+    "id": "101",
+    "name": "正式",
+    "en_name": "Regular",
+    "i18n_name": "正式",
+    "depth": 2,
+    "parent": {
+     "id": "1",
+     "name": "社招",
+     "en_name": "Experienced",
+     "i18n_name": "社招",
+     "depth": 1,
+     "parent": null,
+     "children": null,
+     "active_status": 1,
+     "selectability": 1
+    },
+    "children": null,
+    "active_status": 1,
+    "selectability": 1
+   },
+   "publish_time": 1778296881961,
+   "job_hot_flag": null,
+   "job_subject": null,
+   "code": "A54552",
+   "department_id": null,
+   "job_function": null,
+   "job_process_id": "6694104661676411150",
+   "recommend_id": null,
+   "city_list": [
+    {
+     "code": "CT_128",
+     "name": "深圳",
+     "en_name": "Shenzhen",
+     "location_type": null,
+     "i18n_name": "深圳",
+     "py_name": null,
+     "mdm_code": null,
+     "node_status": null
+    }
+   ],
+   "storefront_mode": 1,
+   "storefront_list": null,
+   "process_type": 1
+  },
+  {
+   "id": "7603208397941885189",
+   "title": "用户研究分析师-抖音（上海）",
+   "sub_title": null,
+   "description": "1、负责短视频、社交、投稿等业务的国内用户研究工作；\n2、能独立支持业务，主动跟进业务方向策略及进展，完成业务生态内各类用研项目的需求分析、方案设计、项目执行，…",
+   "requirement": "1、本科及以上学历，包括但不限于社会学、心理学、统计学、市场营销等相关专业，2年及以上市场与用户研究经验，熟悉各种研究方法，执行能力强，能一定程度上独立对接业务…",
+   "job_category": {
+    "id": "6709824272996501772",
+    "name": "用户研究",
+    "en_name": "User Research",
+    "i18n_name": "用户研究",
+    "depth": 2,
+    "parent": {
+     "id": "6709824272514156812",
+     "name": "设计",
+     "en_name": "Design",
+     "i18n_name": "设计",
+     "depth": 1,
+     "parent": null,
+     "children": null
+    },
+    "children": null
+   },
+   "city_info": {
+    "code": "CT_125",
+    "name": "上海",
+    "en_name": "Shanghai",
+    "location_type": null,
+    "i18n_name": "上海",
+    "py_name": null,
+    "mdm_code": null,
+    "node_status": null
+   },
+   "recruit_type": {
+    "id": "101",
+    "name": "正式",
+    "en_name": "Regular",
+    "i18n_name": "正式",
+    "depth": 2,
+    "parent": {
+     "id": "1",
+     "name": "社招",
+     "en_name": "Experienced",
+     "i18n_name": "社招",
+     "depth": 1,
+     "parent": null,
+     "children": null,
+     "active_status": 1,
+     "selectability": 1
+    },
+    "children": null,
+    "active_status": 1,
+    "selectability": 1
+   },
+   "publish_time": 1770260005305,
+   "job_hot_flag": null,
+   "job_subject": null,
+   "code": "A121275B",
+   "department_id": null,
+   "job_function": null,
+   "job_process_id": "6694104661676411150",
+   "recommend_id": null,
+   "city_list": [
+    {
+     "code": "CT_125",
+     "name": "上海",
+     "en_name": "Shanghai",
+     "location_type": null,
+     "i18n_name": "上海",
+     "py_name": null,
+     "mdm_code": null,
+     "node_status": null
+    }
+   ],
+   "storefront_mode": 1,
+   "storefront_list": null,
+   "process_type": 1
+  }
+ ],
+ "alibaba": [
+  {
+   "trackId": "SSP1793192725207vpoEEHAiRs2028",
+   "positionUrl": "/off-campus/position-detail?positionId=100020840001&track_id=SSP1793192725207vpo…",
+   "bucket": "DEFAULT",
+   "id": 100020840001,
+   "name": "千问事业部-高级用户体验研究专员-北京/杭州",
+   "status": null,
+   "categories": [
+    "设计类-用户体验与研究"
+   ],
+   "publishTime": 1793181065000,
+   "graduationTime": null,
+   "modifyTime": 1793181065000,
+   "workLocations": [
+    "北京",
+    "杭州"
+   ],
+   "interviewLocations": null,
+   "regionEnNameMap": {},
+   "technologyNameIdMap": {},
+   "tags": [
+    "NEW"
+   ],
+   "requirement": "1、本科及以上学历，3年及以上用户研究相关经验，心理学、社会学、统计学、人机交互、计算机等相关专业；\n2、具备互联网头部大厂、知名咨询公司/市场调研公司或AI产…",
+   "description": "1、支持 AI C端创新产品深度研究与策略输出；\n2、可结合业务\\产品发展与问题、AI行业趋势，独立主导并完成用户研究项目的需求分析、方案设计及高质量的执行与研…",
+   "experience": {
+    "from": 3,
+    "to": null
+   },
+   "degree": "bachelor",
+   "department": null,
+   "project": null,
+   "positionType": null,
+   "code": "GP100020840001",
+   "categoryName": null,
+   "categoryType": null,
+   "batchName": null,
+   "batchId": null,
+   "batchWillingCount": null,
+   "channels": null,
+   "operations": [],
+   "isTongyi": false,
+   "circle": null,
+   "circleNames": null,
+   "circleCodeList": null,
+   "niuKeProjectName": null,
+   "useInternal": null,
+   "isLingYang": null,
+   "tongyi": false
+  },
+  {
+   "trackId": "SSP1793192725207bKZiascizV9853",
+   "positionUrl": "/off-campus/position-detail?positionId=100048480006&track_id=SSP1793192725207bKZ…",
+   "bucket": "DEFAULT",
+   "id": 100048480006,
+   "name": "淘宝平台事业部-用户研究专家-客户运营部",
+   "status": null,
+   "categories": null,
+   "publishTime": 1791877140000,
+   "graduationTime": null,
+   "modifyTime": 1791877140000,
+   "workLocations": [
+    "杭州"
+   ],
+   "interviewLocations": null,
+   "regionEnNameMap": {},
+   "technologyNameIdMap": {},
+   "tags": null,
+   "requirement": "1. 5年或以上市场研究/用户研究相关工作经验；知名市场研究公司/调研机构/咨询公司等工作经验或兼具甲乙方研究经验优先；\n2. 专业基础扎实：具备优秀的定性研究…",
+   "description": "1. 洞察业务诉求并准确定义研究命题：独立对接客户运营部的运营/产品/技术等各部门负责人，了解业务发展诉求，主动思考当下关键产品痛点和业务机会，基于此准确定义并…",
+   "experience": {
+    "from": 5,
+    "to": null
+   },
+   "degree": "bachelor",
+   "department": null,
+   "project": null,
+   "positionType": null,
+   "code": "GP100048480006",
+   "categoryName": null,
+   "categoryType": null,
+   "batchName": null,
+   "batchId": null,
+   "batchWillingCount": null,
+   "channels": null,
+   "operations": [],
+   "isTongyi": false,
+   "circle": null,
+   "circleNames": null,
+   "circleCodeList": null,
+   "niuKeProjectName": null,
+   "useInternal": null,
+   "isLingYang": null,
+   "tongyi": false
+  }
+ ],
+ "baidu": [
+  {
+   "education": "",
+   "name": "用户研究（J72632）",
+   "orgName": "",
+   "postId": "f7ae2310-4637-4ed1-be76-50fc744df6bd",
+   "jobId": "f4772c92-2282-44d2-9588-c01af33a0dc9",
+   "postType": "产品",
+   "publishDate": "2024-07-08",
+   "updateDate": "2026-07-21",
+   "recruitNum": "1",
+   "serviceCondition": "-1~2年市场研究/用户研究/咨询行业顶尖公司的工作经验，有AI大模型产品经验优先\n-熟练掌握各类用户研究方法、流程和相关定性或定量模型\n-具备较强的逻辑思维能…",
+   "workContent": "-支持AI创新产品文心一言的B、C端的用户研究工作\n-衡量并跟踪文心一言及其竞品的用户体验情况，为业务提供体验优化的用户insight\n-独立开展产品全生命周期…",
+   "workPlace": "北京市",
+   "workYears": "",
+   "favoriteFlag": false,
+   "projectType": "",
+   "hotFlag": false,
+   "bgShortName": "技术中台群组"
+  },
+  {
+   "education": "",
+   "name": "用户研究团队负责人（J95919）",
+   "orgName": "",
+   "postId": "053eb70f-2297-439d-8ae6-5c8d38b1637a",
+   "jobId": "f2fb38f3-9139-4121-af12-2f193b741233",
+   "postType": "产品",
+   "publishDate": "2025-12-23",
+   "updateDate": "2026-07-21",
+   "recruitNum": "1",
+   "serviceCondition": "-5年以上用户研究经验，（具备管理经验优先），拥有海外市场深度研究经验\n-精通定量与定性研究方法，能根据业务问题灵活设计和整合混合研究方案\n-具备优秀的沟通、呈…",
+   "workContent": "-与公司高层及业务线负责人紧密协同，理解核心战略目标，制定年度/季度用户研究规划与资源分配\n-带领团队，主导复杂、前瞻性的研究课题（AI相关产品和功能），为业务…",
+   "workPlace": "北京市",
+   "workYears": "",
+   "favoriteFlag": false,
+   "projectType": "",
+   "hotFlag": false,
+   "bgShortName": "PSIG"
+  }
+ ],
+ "meituan": [
+  {
+   "jobUnionId": "4663364114",
+   "name": "用户研究专家（骑手生态）",
+   "projectId": null,
+   "projectName": null,
+   "jobType": "3",
+   "jobSpecialCode": "5",
+   "jobSource": "1",
+   "jobStatus": "000",
+   "jobFamily": "商业分析类",
+   "jobFamilyGroup": "商业分析",
+   "cityList": [
+    {
+     "code": null,
+     "name": "北京市",
+     "children": null,
+     "sort": null,
+     "subCode": null,
+     "mapping": null,
+     "outerCode": null,
+     "bgNode": false
+    }
+   ],
+   "workYear": null,
+   "department": [
+    {
+     "code": null,
+     "name": "核心本地商业-到家履约平台",
+     "children": null,
+     "sort": null,
+     "subCode": null,
+     "mapping": null,
+     "outerCode": null,
+     "bgNode": false
+    }
+   ],
+   "desc": "",
+   "departmentIntro": null,
+   "jobDuty": "1）参与骑手生态体验维度的定义与拆解，能将感知转化为可度量的框架输入，产出不止于描述性结论，需落到触发条件、比较基准、颗粒度等结构化信息。\n\n2）开展骑手体验专…",
+   "jobRequirement": "1）3年以上用户研究相关经验，互联网或咨询背景。\n\n2）对一线体力劳动者有真实的理解意愿，能进入骑手的语境和场景获取有效信息。\n\n3）具备AI辅助用研工作的实践…",
+   "precedence": null,
+   "highLight": "1）参与骑手生态体验指标体系从零到一的建设，在蓝领群体研究中探索用研方法论创新。\n\n2）用AI重塑用研工作流，让定性洞察以前所未有的效率覆盖更大范围的骑手声音。",
+   "otherInfo": null,
+   "firstPostTime": null,
+   "refreshTime": 1793153243000,
+   "tag": null,
+   "expiredTime": null,
+   "socialRecommendJob": null
+  },
+  {
+   "jobUnionId": "3875732823",
+   "name": "无人车业务部-硬件产品经理（用户研究）",
+   "projectId": null,
+   "projectName": null,
+   "jobType": "3",
+   "jobSpecialCode": "5",
+   "jobSource": "1",
+   "jobStatus": "000",
+   "jobFamily": "产品类",
+   "jobFamilyGroup": "硬件产品",
+   "cityList": [
+    {
+     "code": null,
+     "name": "北京市",
+     "children": null,
+     "sort": null,
+     "subCode": null,
+     "mapping": null,
+     "outerCode": null,
+     "bgNode": false
+    },
+    {
+     "code": null,
+     "name": "深圳市",
+     "children": null,
+     "sort": null,
+     "subCode": null,
+     "mapping": null,
+     "outerCode": null,
+     "bgNode": false
+    }
+   ],
+   "workYear": null,
+   "department": [
+    {
+     "code": null,
+     "name": "软硬件服务-无人车业务部",
+     "children": null,
+     "sort": null,
+     "subCode": null,
+     "mapping": null,
+     "outerCode": null,
+     "bgNode": false
+    }
+   ],
+   "desc": null,
+   "departmentIntro": null,
+   "jobDuty": "1、负责无人车车辆的用户研究，通过定性定量方法深入理解用户需求和使用场景，应用AI大模型等工具高效输出用户调研报告。\n\n2、设计并执行用户调研项目，包括深度访谈…",
+   "jobRequirement": "1、大学本科及以上学历，社会学、心理学、人机交互、统计学等相关专业优先。\n\n2、5年以上用户研究经验，具备车辆产品或智能设备研究背景。\n\n3、熟练掌握用户研究方…",
+   "precedence": null,
+   "highLight": "1、深度洞察机会：深度参与L4自动驾驶车辆产品定义，广阔的探索空间和展现舞台\n\n2、AI驱动产品决策：AI辅助用户研究/行业产品分析，让产品经理从繁重数据处理中…",
+   "otherInfo": null,
+   "firstPostTime": null,
+   "refreshTime": 1778727812000,
+   "tag": null,
+   "expiredTime": null,
+   "socialRecommendJob": null
+  }
+ ],
+ "netease": [
+  {
+   "id": 78151,
+   "name": "用户研究实习生",
+   "workType": "1",
+   "firstPostTypeName": "用户体验及设计",
+   "recruitNum": 1,
+   "requirement": "1.、热爱用研工作，有较强的结构性思维、逻辑思维能力;善于从表象归纳出问题共性，洞察用户需求。 \n2、热爱互联网产品，对互联网内容行业有一定的思考，具备较强的信…",
+   "description": "用户研究实习生主要负责支持网易新闻和网易小蜜蜂用户研究项目和用户反馈工作。\n 职位描述 \n1、处理用户反馈工作，对反馈进行打标、回复，与各业务线沟通，整理用户反…",
+   "reqEducationName": "本科",
+   "reqWorkYearsName": "不限",
+   "firstDepName": "传媒事业群",
+   "workPlaceList": [
+    1
+   ],
+   "updateTime": 1791452073000,
+   "product": "P014",
+   "productName": "网易传媒",
+   "workPlaceNameList": [
+    "北京市"
+   ],
+   "geekPassionateTalentFlag": 0,
+   "beeUrl": null
+  },
+  {
+   "id": 75940,
+   "name": "游戏用户体验研究专家（美术研究向）",
+   "workType": "0",
+   "firstPostTypeName": "用户体验及设计",
+   "recruitNum": 1,
+   "requirement": "1. 美术相关工作经验丰富，美术设计 / 原画 / 场景 /角色/ 艺术指导 / 视觉设计 / 动画 / 视觉内容编导等3年以上相关岗位从业经验 \n2. 有美术…",
+   "description": "1. 对美术品类下的产品、用户与视觉趋势进行研究，通过多样化的研究手段，发掘美术维度上的游戏潜力增长机会点 \n2. 建设和运营\"美术标杆游戏推荐\"机制：建立并维…",
+   "reqEducationName": "不限",
+   "reqWorkYearsName": "不限",
+   "firstDepName": "用户体验中心",
+   "workPlaceList": [
+    138
+   ],
+   "updateTime": 1792640872000,
+   "product": "P041",
+   "productName": "网易游戏（互娱）",
+   "workPlaceNameList": [
+    "广州市"
+   ],
+   "geekPassionateTalentFlag": 1,
+   "beeUrl": null
+  }
+ ],
+ "xiaomi": [
+  {
+   "id": "7617683525462477075",
+   "title": "高级用户研究经理",
+   "sub_title": null,
+   "description": "岗位职责：\n1.   承担手机产品全生命周期的用户调研与用户研究工作，以用户需求和体验驱动产品创新。\n2.   细分人群，明确各系列目标人群、产品赛道、关键场景…",
+   "requirement": "1.   5年以上用户洞察相关工作经验。（消费电子产品行业背景为佳，有过0-1项目经历者为佳）\n2.   熟悉市场研究与用户研究方法论，并能够灵活运用用户研究工…",
+   "job_category": null,
+   "city_info": null,
+   "recruit_type": {
+    "id": "101",
+    "name": "全职",
+    "en_name": "Full-time",
+    "i18n_name": "全职",
+    "depth": 2,
+    "parent": {
+     "id": "1",
+     "name": "社招",
+     "en_name": "Experienced",
+     "i18n_name": "社招",
+     "depth": 1,
+     "parent": null,
+     "children": null,
+     "active_status": 1,
+     "selectability": 1
+    },
+    "children": null,
+    "active_status": 1,
+    "selectability": 1
+   },
+   "publish_time": 1773630288638,
+   "job_hot_flag": null,
+   "job_subject": null,
+   "code": "A123588",
+   "department_id": null,
+   "job_function": null,
+   "job_process_id": "7178028100281041004",
+   "recommend_id": null,
+   "city_list": [
+    {
+     "code": "CT_11",
+     "name": "北京",
+     "en_name": "Beijing",
+     "location_type": null,
+     "i18n_name": "北京",
+     "py_name": null,
+     "mdm_code": null,
+     "node_status": null
+    }
+   ],
+   "storefront_mode": 1,
+   "storefront_list": null,
+   "process_type": 1
+  },
+  {
+   "id": "7696702615224813874",
+   "title": "高级用户研究员",
+   "sub_title": null,
+   "description": "1.人群战略洞察，支撑产品规划：开展人群细分、用户需求变迁、用户底层动机等战略级研究，结合定性 + 定量研究方法，完成用户分层、机会人群识别、需求赛道研判；挖掘…",
+   "requirement": "1.本科及以上学历，社会学、心理学、统计学、传播学等相关专业；5 年及以上用户研究经验，有全链路用研实战经验。\n2.主导过品牌用户洞察、人群细分等战略型研究项目…",
+   "job_category": null,
+   "city_info": null,
+   "recruit_type": {
+    "id": "101",
+    "name": "全职",
+    "en_name": "Full-time",
+    "i18n_name": "全职",
+    "depth": 2,
+    "parent": {
+     "id": "1",
+     "name": "社招",
+     "en_name": "Experienced",
+     "i18n_name": "社招",
+     "depth": 1,
+     "parent": null,
+     "children": null,
+     "active_status": 1,
+     "selectability": 1
+    },
+    "children": null,
+    "active_status": 1,
+    "selectability": 1
+   },
+   "publish_time": 1792028458651,
+   "job_hot_flag": null,
+   "job_subject": null,
+   "code": "A97638",
+   "department_id": null,
+   "job_function": null,
+   "job_process_id": "7178028100281041004",
+   "recommend_id": null,
+   "city_list": [
+    {
+     "code": "CT_154",
+     "name": "武汉",
+     "en_name": "Wuhan",
+     "location_type": null,
+     "i18n_name": "武汉",
+     "py_name": null,
+     "mdm_code": null,
+     "node_status": null
+    }
+   ],
+   "storefront_mode": 1,
+   "storefront_list": null,
+   "process_type": 1
+  }
+ ],
+ "poizon": [
+  {
+   "id": "7649301070234437897",
+   "title": "用户研究专家",
+   "sub_title": null,
+   "description": "1. 独立承接业务侧用户研究需求，主动澄清问题背景、研究目标和决策场景，判断适合的研究方法并推动项目落地。\n2. 负责用户访谈、问卷调研、可用性测试、桌面研究、…",
+   "requirement": "1. 心理学、社会学、人类学、统计学、市场研究、设计、产品等相关背景优先。\n2. 具备 5 年以上用户研究、体验研究、市场研究、产品研究或相关经验，能独立完成完…",
+   "job_category": {
+    "id": "6791698585114724616",
+    "name": "互联网 / 电子 / 网游",
+    "en_name": "Internet / Electronics / Games",
+    "i18n_name": "互联网 / 电子 / 网游",
+    "depth": 1,
+    "parent": null,
+    "children": null
+   },
+   "city_info": null,
+   "recruit_type": {
+    "id": "101",
+    "name": "全职",
+    "en_name": "Full-time",
+    "i18n_name": "全职",
+    "depth": 2,
+    "parent": {
+     "id": "1",
+     "name": "社招",
+     "en_name": "Experienced",
+     "i18n_name": "社招",
+     "depth": 1,
+     "parent": null,
+     "children": null,
+     "active_status": 1,
+     "selectability": 1
+    },
+    "children": null,
+    "active_status": 1,
+    "selectability": 1
+   },
+   "publish_time": 1780991761354,
+   "job_hot_flag": null,
+   "job_subject": null,
+   "code": null,
+   "department_id": null,
+   "job_function": {
+    "id": "7287150674084153660",
+    "name": "职能类",
+    "en_name": null,
+    "i18n_name": "职能类",
+    "parent_id": null,
+    "index": null,
+    "active_status": null,
+    "biz_create_time": null,
+    "biz_modify_time": null,
+    "parent": null
+   },
+   "job_process_id": "6938686839986833672",
+   "recommend_id": null,
+   "city_list": [
+    {
+     "code": "CT_125",
+     "name": "上海",
+     "en_name": "Shanghai",
+     "location_type": null,
+     "i18n_name": "上海",
+     "py_name": null,
+     "mdm_code": null,
+     "node_status": null
+    }
+   ],
+   "storefront_mode": 1,
+   "storefront_list": null,
+   "process_type": 1
+  },
+  {
+   "id": "7646326745355897131",
+   "title": "平台供给策略-用户需求与搜推协作方向",
+   "sub_title": null,
+   "description": "平台用户研究与供给需求分析：和平台用户研究团队，用户增长，搜索推荐，社区等团队进行协作分析，产出目标用户在商品供给上的机会点；\n基于供给机会点，和平台行业侧深度…",
+   "requirement": "学历&经验：本科及以上，3年以上电商公司经验，用户需求策略or分析，内容场域流量分析，搜推策略or分析，用户供给策略等岗位优先\n技能：较强的数据分析能力，对平台…",
+   "job_category": {
+    "id": "6791698585114724616",
+    "name": "互联网 / 电子 / 网游",
+    "en_name": "Internet / Electronics / Games",
+    "i18n_name": "互联网 / 电子 / 网游",
+    "depth": 1,
+    "parent": null,
+    "children": null
+   },
+   "city_info": null,
+   "recruit_type": {
+    "id": "101",
+    "name": "全职",
+    "en_name": "Full-time",
+    "i18n_name": "全职",
+    "depth": 2,
+    "parent": {
+     "id": "1",
+     "name": "社招",
+     "en_name": "Experienced",
+     "i18n_name": "社招",
+     "depth": 1,
+     "parent": null,
+     "children": null,
+     "active_status": 1,
+     "selectability": 1
+    },
+    "children": null,
+    "active_status": 1,
+    "selectability": 1
+   },
+   "publish_time": 1780299228526,
+   "job_hot_flag": null,
+   "job_subject": null,
+   "code": null,
+   "department_id": null,
+   "job_function": {
+    "id": "7287150551853173049",
+    "name": "交易运营",
+    "en_name": null,
+    "i18n_name": "交易运营",
+    "parent_id": null,
+    "index": null,
+    "active_status": null,
+    "biz_create_time": null,
+    "biz_modify_time": null,
+    "parent": null
+   },
+   "job_process_id": "6938686839986833672",
+   "recommend_id": null,
+   "city_list": [
+    {
+     "code": "CT_125",
+     "name": "上海",
+     "en_name": "Shanghai",
+     "location_type": null,
+     "i18n_name": "上海",
+     "py_name": null,
+     "mdm_code": null,
+     "node_status": null
+    }
+   ],
+   "storefront_mode": 1,
+   "storefront_list": null,
+   "process_type": 1
+  }
+ ]
+}
