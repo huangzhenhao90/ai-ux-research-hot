@@ -1,0 +1,73 @@
+# 社招可行性探测的公司清单（scripts/probe_jobs.py 读取）。
+#
+# 只用于一次性探测「能不能从公司招聘官网拿到用研社招岗位」，不进正式流水线。
+# 名单取自校招岗位库的重点公司池（uxr-campus-2027）里社招用研岗最集中的那批。
+#
+# 字段：
+#   name     公司名
+#   careers  社招官网首页（探测可达性、robots.txt、托管平台）
+#   api      已知或疑似的岗位搜索接口策略名（见 probe_jobs.py 的 STRATEGIES）；没有就只测首页
+
+companies:
+  - name: 腾讯
+    careers: https://careers.tencent.com/
+    api: tencent
+  - name: 字节跳动
+    careers: https://jobs.bytedance.com/experienced/position
+    api: bytedance
+  - name: 阿里巴巴
+    careers: https://talent.alibaba.com/off-campus/position-list
+    api: alibaba
+  - name: 百度
+    careers: https://talent.baidu.com/jobs/social-list
+    api: baidu
+  - name: 美团
+    careers: https://zhaopin.meituan.com/web/social
+    api: meituan
+  - name: 网易
+    careers: https://hr.163.com/job-list.html
+    api: netease
+  - name: 京东
+    careers: https://zhaopin.jd.com/web/job/job_info_list/3
+    api: jd
+  - name: 快手
+    careers: https://zhaopin.kuaishou.cn/#/official/social/
+    api: kuaishou
+  - name: 小红书
+    careers: https://job.xiaohongshu.com/social
+  - name: 拼多多
+    careers: https://careers.pddglobalhr.com/jobs
+  - name: 小米
+    careers: https://xiaomi.jobs.f.mioffice.cn/index/
+  - name: 华为
+    careers: https://career.huawei.com/reccampportal/portal5/social-recruitment.html
+  - name: 米哈游
+    careers: https://jobs.mihoyo.com/#/social
+  - name: 网易雷火
+    careers: https://leihuo.163.com/jobs/
+  - name: 携程
+    careers: https://careers.ctrip.com/index.html#/socialRecruitment
+  - name: 蔚来
+    careers: https://nio.jobs.feishu.cn/experienced/position
+    api: feishu:nio
+  - name: 理想汽车
+    careers: https://li.jobs.feishu.cn/
+    api: feishu:li
+  - name: 小鹏汽车
+    careers: https://xiaopeng.jobs.feishu.cn/
+    api: feishu:xiaopeng
+  - name: 比亚迪
+    careers: https://job.byd.com/portal/pc/
+  - name: OPPO
+    careers: https://careers.oppo.com/
+  - name: vivo
+    careers: https://hr.vivo.com/
+  - name: 哔哩哔哩
+    careers: https://jobs.bilibili.com/social/positions
+  - name: 知乎
+    careers: https://app.mokahr.com/apply/zhihu
+  - name: 得物
+    careers: https://poizon.jobs.feishu.cn/
+    api: feishu:poizon
+  - name: 滴滴
+    careers: https://talent.didiglobal.com/social/list
