@@ -3,7 +3,7 @@
   "name": "可用性测试",
   "group": "field",
   "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-  "count": 10,
+  "count": 9,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -213,31 +213,6 @@
       "itemType": null,
       "publishedAt": "2026-10-27T05:40:29+00:00",
       "discoveredAt": "2026-10-27T14:04:13.481977+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "39cfbee29b546093",
-      "sourceId": "testingtime",
-      "sourceName": "TestingTime",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.testingtime.com/blog/wordpress-fuer-barrierefreies-design/",
-      "title": "Das Engagement von WordPress für barrierefreies Design",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": "methods",
-      "tags": [
-        "方法/实践",
-        "可用性测试",
-        "招募/样本"
-      ],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2023-10-10T09:59:17+00:00",
-      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

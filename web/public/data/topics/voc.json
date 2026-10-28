@@ -3,7 +3,7 @@
   "name": "文本分析 / VOC",
   "group": "field",
   "definition": "用 AI 分析用户反馈、评论、开放题与客服文本。",
-  "count": 10,
+  "count": 9,
   "items": [
     {
       "id": "791883e6a4cafac0",
@@ -217,30 +217,6 @@
       "itemType": null,
       "publishedAt": "2025-09-09T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "2b217acd615967e6",
-      "sourceId": "strella-blog",
-      "sourceName": "Strella Blog",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.strella.io/blog/what-is-voice-of-customer",
-      "title": "What Is Voice of the Customer?",
-      "titleZh": "What Is Voice of the Customer?",
-      "summaryZh": "",
-      "reason": null,
-      "category": "methods",
-      "tags": [
-        "方法/实践",
-        "文本分析/VOC"
-      ],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-10-22T16:00:00+00:00",
-      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

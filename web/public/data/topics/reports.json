@@ -3,7 +3,7 @@
   "name": "行业报告",
   "group": "genre",
   "definition": "调研公司报告、行业协会规范与市场结构变化。",
-  "count": 21,
+  "count": 14,
   "items": [
     {
       "id": "26b8ca5cbfcf5bae",
@@ -82,33 +82,6 @@
       "publishedAt": "2026-10-19T10:12:34+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
       "status": "selected",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "845279803dea965c",
-      "sourceId": "surveymonkey",
-      "sourceName": "SurveyMonkey",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.surveymonkey.com/curiosity/ask-the-market-mental-health-ai/?ut_source=rss",
-      "title": "Ask the Market: People are already using AI for mental health. Here’s what they actually trust it to do.",
-      "titleZh": "Ask the Market: People are already using AI for mental health. Here’s what they actually trust it to do.",
-      "summaryZh": "",
-      "reason": null,
-      "category": "research",
-      "tags": [
-        "行业报告",
-        "问卷/定量",
-        "市场研究"
-      ],
-      "entities": [
-        "surveymonkey"
-      ],
-      "itemType": null,
-      "publishedAt": "2026-09-25T09:17:54+00:00",
-      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -192,32 +165,6 @@
       "relation": null
     },
     {
-      "id": "f07a3ce3428031ae",
-      "sourceId": "aapor",
-      "sourceName": "AAPOR（美国民意研究协会）",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://aapor.org/newsletters/aapor-2026-conference-blog-thursday/",
-      "title": "AAPOR 2026 Conference Blog: Thursday",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": "industry",
-      "tags": [
-        "行业动态",
-        "问卷/定量"
-      ],
-      "entities": [
-        "aapor"
-      ],
-      "itemType": null,
-      "publishedAt": "2026-05-15T13:12:47+00:00",
-      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
       "id": "e5ffc3ccfb83c86c",
       "sourceId": "ipsos",
       "sourceName": "Ipsos",
@@ -239,87 +186,6 @@
       "itemType": null,
       "publishedAt": "2026-10-27T15:26:04+00:00",
       "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "009e65b81334a246",
-      "sourceId": "aapor",
-      "sourceName": "AAPOR（美国民意研究协会）",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://aapor.org/newsletters/aapor-2026-conference-blog-wednesday/",
-      "title": "AAPOR 2026 Conference Blog: Wednesday",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": "industry",
-      "tags": [
-        "行业动态",
-        "市场研究",
-        "招募/样本"
-      ],
-      "entities": [
-        "aapor"
-      ],
-      "itemType": null,
-      "publishedAt": "2026-05-14T13:28:18+00:00",
-      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "f97ec532514eb8de",
-      "sourceId": "prodege",
-      "sourceName": "Prodege",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.prodege.com/resources/news/insights/sports-brings-people-together/",
-      "title": "We Surveyed 50,674 Americans. This Is What Brings Them Together.",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": "industry",
-      "tags": [
-        "行业动态",
-        "市场研究",
-        "问卷/定量"
-      ],
-      "entities": [
-        "prodege"
-      ],
-      "itemType": null,
-      "publishedAt": "2026-10-21T15:03:39+00:00",
-      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "69b9caaa02c589f0",
-      "sourceId": "prodege",
-      "sourceName": "Prodege",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.prodege.com/resources/blog/insights/gen-z-21st-birthday-trends-data/",
-      "title": "How Gen Z Celebrates 21st Birthdays: New Data Beyond the Bar Crawl",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": "research",
-      "tags": [
-        "行业报告",
-        "问卷/定量",
-        "市场研究"
-      ],
-      "entities": [
-        "prodege"
-      ],
-      "itemType": null,
-      "publishedAt": "2026-09-09T20:53:08+00:00",
-      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -376,34 +242,6 @@
       "relation": null
     },
     {
-      "id": "795af009a10b00f1",
-      "sourceId": "surveymonkey",
-      "sourceName": "SurveyMonkey",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.surveymonkey.com/curiosity/ask-the-market-holiday-shopping-pricing/?ut_source=rss",
-      "title": "Ask the Market: Shoppers are feeling the holiday price squeeze. Here’s what they’re doing differently.",
-      "titleZh": "Ask the Market: Shoppers are feeling the holiday price squeeze. Here’s what they’re doing differently.",
-      "summaryZh": "",
-      "reason": null,
-      "category": "research",
-      "tags": [
-        "论文/研究",
-        "行业报告",
-        "市场研究",
-        "问卷/定量"
-      ],
-      "entities": [
-        "surveymonkey"
-      ],
-      "itemType": null,
-      "publishedAt": "2026-10-21T15:18:55+00:00",
-      "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
       "id": "263b215d53519328",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -431,30 +269,6 @@
       ],
       "itemType": null,
       "publishedAt": "2026-10-21T05:03:24+00:00",
-      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "06fb58fa9d8ccb92",
-      "sourceId": "surveymonkey",
-      "sourceName": "SurveyMonkey",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.surveymonkey.com/curiosity/hubspot-unbound-market-research-engine/?ut_source=rss",
-      "title": "On the ground at HubSpot UNBOUND: The new rules of market research in an AI world",
-      "titleZh": "On the ground at HubSpot UNBOUND: The new rules of market research in an AI world",
-      "summaryZh": "",
-      "reason": null,
-      "category": "industry",
-      "tags": [
-        "行业动态",
-        "市场研究"
-      ],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-09-22T15:59:08+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,

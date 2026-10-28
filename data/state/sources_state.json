@@ -3,7 +3,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -57,16 +57,16 @@
     "etag": "\"ddb065ae9fdf6690a0f3eede77b9cd96-gzip\"",
     "lastModified": "Wed, 28 Oct 2026 09:11:43 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "quirkos": {
-    "etag": "W/\"50923-aZkm5nDi70Ul5j56rmvdlNNouvg\"",
+    "etag": "W/\"50923-WZS31GH/pNEbNPj5cO/Seu+eHSg\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -93,7 +93,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -102,7 +102,7 @@
     "etag": "W/\"f8d053226c14b3383c4adba2cef3e094\"",
     "lastModified": "Mon, 26 Oct 2026 15:26:18 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -111,7 +111,7 @@
     "etag": "\"2eeaa8b0c2633371af4fe7f03857983f-gzip\"",
     "lastModified": "Wed, 28 Oct 2026 09:32:17 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -174,7 +174,7 @@
     "etag": "\"e621f80ce5f662373a351d57eaf734a8-gzip\"",
     "lastModified": "Mon, 19 Oct 2026 11:36:24 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -192,7 +192,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -237,7 +237,7 @@
     "etag": "W/\"10dbc7384dfb42cd9a5ef9b132866722\"",
     "lastModified": "Tue, 27 Oct 2026 19:33:10 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -255,7 +255,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -274,7 +274,7 @@
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
     "lastFetchAt": "2026-10-23T00:49:43.921066+00:00",
-    "consecutiveFailures": 31,
+    "consecutiveFailures": 32,
     "lastError": "HTTP 403",
     "extra": {}
   },
@@ -300,7 +300,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -327,7 +327,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -390,7 +390,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T11:48:27.447792+00:00",
+    "lastFetchAt": "2026-10-28T12:06:00.373537+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}

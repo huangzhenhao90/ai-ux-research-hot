@@ -1,6 +1,6 @@
 {
   "month": "2026-01",
-  "count": 5,
+  "count": 3,
   "items": [
     {
       "id": "77abf1d30d076038",
@@ -72,48 +72,6 @@
       "publishedAt": "2026-01-15T00:12:09+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "83b09f52e092cc80",
-      "sourceId": "jmmr",
-      "sourceName": "Journal of Mixed Methods Research",
-      "venue": null,
-      "tier": "T2",
-      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261416725?ai=2b4&mi=ehikzz&af=R",
-      "title": "Detecting and Mitigating Fraudulent Participation: Lessons Learned from a Mixed Methods Study",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-01-20T08:51:28+00:00",
-      "discoveredAt": "2026-10-22T01:53:51.171535+00:00",
-      "status": "archived",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "e2398bc89ceb2a66",
-      "sourceId": "jmmr",
-      "sourceName": "Journal of Mixed Methods Research",
-      "venue": null,
-      "tier": "T2",
-      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898251413451?ai=2b4&mi=ehikzz&af=R",
-      "title": "Advancing the Classification of Mixed Methods Research Questions",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-01-02T05:02:58+00:00",
-      "discoveredAt": "2026-10-22T01:53:51.171535+00:00",
-      "status": "archived",
       "dupOf": null,
       "relation": null
     }
