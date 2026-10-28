@@ -7,7 +7,8 @@
    白名单**正向**选取，而不是「排除 body」的反向写法——反向写法在模型将来新增字段时会
    静默泄露，正向写法最多让前端少一个字段。
 2. **BLOCK 与 UNKNOWN 不公开**（`Item.is_public`），在写入前就过滤掉；`validate.py`
-   再兜一次底，两道都拦。
+   再兜一次底，两道都拦。另外**没写出中文标题与摘要的不上页面**（`Item.is_publishable`，
+   D16）：归档旧文、热度信号源、还在流水线里或写作失败的条目，写好后自然出现。
 
 时间：内部一律 UTC，输出 ISO 8601 带时区。`latest.json` 的「天」按 `site.timezone` 的
 **出刊日**切分（08:00 分界，所以 10-21 那一期覆盖 10-20 08:00 – 10-21 08:00）。
@@ -307,7 +308,7 @@ def build_site_data(
         return public_item(item, source_name=names.get(item.sourceId, item.sourceId),
                            show_score=show_score)
 
-    public_items = sort_items(dedupe_by_id(i for i in items if i.is_public))
+    public_items = sort_items(dedupe_by_id(i for i in items if i.is_publishable))
     selected = [i for i in public_items if i.is_selected]
 
     # ── site.json：站点配置，前端 basePath / 文案都从这里取 ──────────────

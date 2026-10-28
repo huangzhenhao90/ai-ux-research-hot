@@ -330,6 +330,15 @@ def run_pipeline(
     write.run(pending, ctx)
     result.steps["write"] = write.summary(pending)
 
+    # 补写：以前评过分、但当次额度用尽没写出中文的条目（只重跑写作，不重跑其他步骤）
+    pending_ids = {i.id for i in pending}
+    retry = [i for i in all_items if i.needs_write_retry and i.id not in pending_ids]
+    write.run(retry, ctx)
+    result.steps["writeRetry"] = {
+        "candidates": len(retry),
+        "written": sum(1 for i in retry if i.has_chinese),
+    }
+
     dedupe.run(
         pending,
         threshold=cfg.selection.dedupe["titleSimilarity"],

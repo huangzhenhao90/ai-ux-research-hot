@@ -128,8 +128,44 @@ class Item(BaseModel):
 
     @property
     def is_public(self) -> bool:
-        """能不能出现在公开页面上。BLOCK 与 UNKNOWN 不公开。"""
+        """状态上允许公开：BLOCK 与 UNKNOWN 不公开。真正发布还要看 `is_publishable`。"""
         return self.status not in (Status.BLOCKED, Status.UNKNOWN)
+
+    @property
+    def has_chinese(self) -> bool:
+        """模型已写出中文标题与摘要。"""
+        return bool((self.titleZh or "").strip() and (self.summaryZh or "").strip())
+
+    @property
+    def is_publishable(self) -> bool:
+        """进公开页面：状态允许，且已有中文标题与摘要（D16）。
+
+        没写出中文的（首次导入归档的旧文、热度信号源、还在流水线里或写作失败的）
+        不上页面，写好后下一次发布自然出现。
+
+        精选例外：精选缺中文是流水线出错，要让发布校验整次失败、保留上一版，
+        不能在这里悄悄过滤掉。
+        """
+        return self.is_public and (self.is_selected or self.has_chinese)
+
+    @property
+    def needs_write_retry(self) -> bool:
+        """评过分、已定状态，但中文标题摘要没写出来（多半是当次额度用尽）。
+
+        这类条目不在常规待处理集合里（只收 NEW / PREFILTERED / SCORED），
+        流水线每次运行单独补写一次；`strip_bodies` 会为它们留着正文。
+
+        正文已经被清掉的（这条规则之前的老条目）不补写：没有原文时短写法只会
+        把英文原标题抄进 titleZh，深写法还会白白花一次调用。它们按 D16 不上页面。
+        """
+        return (
+            self.mode == "editorial"
+            and self.tier != "EXCLUDE"
+            and self.status in (Status.LISTED, Status.SELECTED)
+            and bool(self.scores)
+            and not self.has_chinese
+            and bool(self.body.strip())
+        )
 
     @property
     def is_selected(self) -> bool:
@@ -202,6 +238,8 @@ def strip_bodies(items: list[Item]) -> int:
     for item in items:
         if not item.body:
             continue
+        if item.needs_write_retry:
+            continue  # 还要补写中文，留着正文
         if item.status in BODY_FREE_STATUSES or _never_processed(item):
             item.body = ""
             item.bodyTruncated = False

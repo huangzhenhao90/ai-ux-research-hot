@@ -1,0 +1,36 @@
+name: Probe jobs
+
+# 社招可行性探测（scripts/probe_jobs.py）：一次性工具，不进定时更新、不提交任何文件。
+# 结果在运行日志与运行摘要里。手动触发；在 claude/** 分支上改了探测脚本或清单也会自动跑一次。
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["claude/**"]
+    paths:
+      - scripts/probe_jobs.py
+      - config/job_probe.yaml
+      - .github/workflows/probe-jobs.yml
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: 检出
+        uses: actions/checkout@v7
+
+      - name: 安装 Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 探测
+        run: python scripts/probe_jobs.py
