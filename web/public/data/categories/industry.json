@@ -3,7 +3,7 @@
   "label": "行业",
   "section": "行业动态",
   "commentary": false,
-  "count": 12,
+  "count": 13,
   "items": [
     {
       "id": "26b8ca5cbfcf5bae",
@@ -321,6 +321,32 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:31+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "722f3299226045a3",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/webinar-keys-new-moments-truth",
+      "title": "[Webinar]: KEYS- The New Moments of Truth",
+      "titleZh": "KEYS 网络研讨会：新的关键时刻",
+      "summaryZh": "将举办 KEYS 网络研讨会，主题为“新的关键时刻”，聚焦不断演变的消费者旅程。活动以“Championing the evolving consumer journey”为核心议题",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-28T15:24:49+00:00",
+      "discoveredAt": "2026-10-28T20:50:08.570436+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

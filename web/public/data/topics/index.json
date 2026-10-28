@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T14:54:22.801553+00:00",
+  "generatedAt": "2026-10-28T20:50:08.570436+00:00",
   "groups": [
     {
       "key": "company",
@@ -58,7 +58,7 @@
       "name": "Ipsos",
       "group": "company",
       "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-      "count": 13
+      "count": 15
     },
     {
       "slug": "surveymonkey",
@@ -107,7 +107,7 @@
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 42
+      "count": 43
     },
     {
       "slug": "qual-analysis",
@@ -184,7 +184,7 @@
       "name": "行业报告",
       "group": "genre",
       "definition": "调研公司报告、行业协会规范与市场结构变化。",
-      "count": 14
+      "count": 15
     }
   ]
 }

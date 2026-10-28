@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "count": 109,
+  "count": 112,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -1799,6 +1799,33 @@
       "relation": null
     },
     {
+      "id": "6403b83cf3f151f8",
+      "sourceId": "cint",
+      "sourceName": "Cint",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.cint.com/blog/outcomes-measurement-study-creator/",
+      "title": "Bridge the gap between brand awareness and revenue with Cint’s Study Creator",
+      "titleZh": "Cint Study Creator：打通品牌认知与营收的成果测量",
+      "summaryZh": "Cint 在 Lucid Measurement 的 Study Creator 中上线自助式成果测量，将品牌提升与确定性销售提升并排呈现。广告主可在活动进行中按受众和媒体策略查看两类指标，并使用 Linear TV 测试版及 Retail、Telecom and Technology、QSR 行业基准。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-28T15:03:01+00:00",
+      "discoveredAt": "2026-10-28T20:50:08.570436+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "d464a5bec03554b2",
       "sourceId": "ur-ai-papers",
       "sourceName": "arXiv",
@@ -2785,6 +2812,36 @@
       "relation": null
     },
     {
+      "id": "a070d76ee03c055e",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/blog/insights/kantar-vs-ipsos/",
+      "title": "Kantar vs. Ipsos vs. Prodege (In-Depth Look)",
+      "titleZh": "Kantar、Ipsos 与 Prodege 深度对比：谁更适合你的团队？",
+      "summaryZh": "Prodege 对比 Kantar 与 Ipsos，主张其全服务市场研究凭定制设计、资深研究员和响应速度更适合团队。其第一方样本库覆盖 100+ 国家、120M+ 受访者，并设有 40 人样本库支持、安全与合规部门。每位研究负责人拥有 20+ 年经验，Prodege 还已收购 DIY 调研平台 Pollfish。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "Ipsos",
+        "Kantar"
+      ],
+      "entities": [
+        "prodege",
+        "kantar",
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-28T20:37:48+00:00",
+      "discoveredAt": "2026-10-28T20:50:08.570436+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "99b641e27ad991b9",
       "sourceId": "ipsos",
       "sourceName": "Ipsos",
@@ -2901,6 +2958,32 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:31+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "722f3299226045a3",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/webinar-keys-new-moments-truth",
+      "title": "[Webinar]: KEYS- The New Moments of Truth",
+      "titleZh": "KEYS 网络研讨会：新的关键时刻",
+      "summaryZh": "将举办 KEYS 网络研讨会，主题为“新的关键时刻”，聚焦不断演变的消费者旅程。活动以“Championing the evolving consumer journey”为核心议题",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-28T15:24:49+00:00",
+      "discoveredAt": "2026-10-28T20:50:08.570436+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

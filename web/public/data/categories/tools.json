@@ -3,7 +3,7 @@
   "label": "工具",
   "section": "工具发布/更新",
   "commentary": false,
-  "count": 30,
+  "count": 31,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -591,6 +591,33 @@
       "itemType": null,
       "publishedAt": "2026-03-31T01:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6403b83cf3f151f8",
+      "sourceId": "cint",
+      "sourceName": "Cint",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.cint.com/blog/outcomes-measurement-study-creator/",
+      "title": "Bridge the gap between brand awareness and revenue with Cint’s Study Creator",
+      "titleZh": "Cint Study Creator：打通品牌认知与营收的成果测量",
+      "summaryZh": "Cint 在 Lucid Measurement 的 Study Creator 中上线自助式成果测量，将品牌提升与确定性销售提升并排呈现。广告主可在活动进行中按受众和媒体策略查看两类指标，并使用 Linear TV 测试版及 Retail、Telecom and Technology、QSR 行业基准。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-28T15:03:01+00:00",
+      "discoveredAt": "2026-10-28T20:50:08.570436+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

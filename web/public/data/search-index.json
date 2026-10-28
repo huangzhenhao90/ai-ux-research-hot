@@ -1,5 +1,5 @@
 {
-  "count": 214,
+  "count": 217,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -2055,6 +2055,24 @@
       "publishedAt": "2026-08-24T07:29:35+00:00"
     },
     {
+      "id": "6403b83cf3f151f8",
+      "title": "Bridge the gap between brand awareness and revenue with Cint’s Study Creator",
+      "titleZh": "Cint Study Creator：打通品牌认知与营收的成果测量",
+      "summaryZh": "Cint 在 Lucid Measurement 的 Study Creator 中上线自助式成果测量，将品牌提升与确定性销售提升并排呈现。广告主可在活动进行中按受众和媒体策略查看两类指标，并使用 Linear TV 测试版及 Retail、Telecom and Technology、QSR 行业基准。",
+      "tags": [
+        "工具发布",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "category": "tools",
+      "sourceName": "Cint",
+      "url": "https://www.cint.com/blog/outcomes-measurement-study-creator/",
+      "publishedAt": "2026-10-28T15:03:01+00:00"
+    },
+    {
       "id": "d464a5bec03554b2",
       "title": "Profile-Driven User Simulation via Reinforcement Learning with Hierarchical Rewards for Task-Oriented Dialogues",
       "titleZh": "ProfileSim：基于分层奖励强化学习的画像驱动任务型对话用户模拟",
@@ -3395,6 +3413,27 @@
       "publishedAt": "2025-12-18T14:00:00+00:00"
     },
     {
+      "id": "a070d76ee03c055e",
+      "title": "Kantar vs. Ipsos vs. Prodege (In-Depth Look)",
+      "titleZh": "Kantar、Ipsos 与 Prodege 深度对比：谁更适合你的团队？",
+      "summaryZh": "Prodege 对比 Kantar 与 Ipsos，主张其全服务市场研究凭定制设计、资深研究员和响应速度更适合团队。其第一方样本库覆盖 100+ 国家、120M+ 受访者，并设有 40 人样本库支持、安全与合规部门。每位研究负责人拥有 20+ 年经验，Prodege 还已收购 DIY 调研平台 Pollfish。",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "Ipsos",
+        "Kantar"
+      ],
+      "entities": [
+        "prodege",
+        "kantar",
+        "ipsos"
+      ],
+      "category": "opinion",
+      "sourceName": "Prodege",
+      "url": "https://www.prodege.com/resources/blog/insights/kantar-vs-ipsos/",
+      "publishedAt": "2026-10-28T20:37:48+00:00"
+    },
+    {
       "id": "99b641e27ad991b9",
       "title": "Beyond the Aisle: Why Food Brands Are Showing Up in the Shower",
       "titleZh": "Beyond the Aisle：食品品牌为何出现在淋浴间",
@@ -3658,6 +3697,23 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/case-study-lsu/",
       "publishedAt": "2025-11-13T00:00:00+00:00"
+    },
+    {
+      "id": "722f3299226045a3",
+      "title": "[Webinar]: KEYS- The New Moments of Truth",
+      "titleZh": "KEYS 网络研讨会：新的关键时刻",
+      "summaryZh": "将举办 KEYS 网络研讨会，主题为“新的关键时刻”，聚焦不断演变的消费者旅程。活动以“Championing the evolving consumer journey”为核心议题",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/webinar-keys-new-moments-truth",
+      "publishedAt": "2026-10-28T15:24:49+00:00"
     },
     {
       "id": "c05977f0cba456e6",

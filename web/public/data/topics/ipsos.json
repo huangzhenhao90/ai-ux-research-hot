@@ -3,7 +3,7 @@
   "name": "Ipsos",
   "group": "company",
   "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-  "count": 13,
+  "count": 15,
   "items": [
     {
       "id": "26b8ca5cbfcf5bae",
@@ -300,6 +300,36 @@
       "relation": null
     },
     {
+      "id": "a070d76ee03c055e",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/blog/insights/kantar-vs-ipsos/",
+      "title": "Kantar vs. Ipsos vs. Prodege (In-Depth Look)",
+      "titleZh": "Kantar、Ipsos 与 Prodege 深度对比：谁更适合你的团队？",
+      "summaryZh": "Prodege 对比 Kantar 与 Ipsos，主张其全服务市场研究凭定制设计、资深研究员和响应速度更适合团队。其第一方样本库覆盖 100+ 国家、120M+ 受访者，并设有 40 人样本库支持、安全与合规部门。每位研究负责人拥有 20+ 年经验，Prodege 还已收购 DIY 调研平台 Pollfish。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "Ipsos",
+        "Kantar"
+      ],
+      "entities": [
+        "prodege",
+        "kantar",
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-28T20:37:48+00:00",
+      "discoveredAt": "2026-10-28T20:50:08.570436+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "d69a0193cd65c7be",
       "sourceId": "ipsos",
       "sourceName": "Ipsos",
@@ -322,6 +352,32 @@
       "itemType": null,
       "publishedAt": "2026-10-07T10:26:20+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "722f3299226045a3",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/webinar-keys-new-moments-truth",
+      "title": "[Webinar]: KEYS- The New Moments of Truth",
+      "titleZh": "KEYS 网络研讨会：新的关键时刻",
+      "summaryZh": "将举办 KEYS 网络研讨会，主题为“新的关键时刻”，聚焦不断演变的消费者旅程。活动以“Championing the evolving consumer journey”为核心议题",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-28T15:24:49+00:00",
+      "discoveredAt": "2026-10-28T20:50:08.570436+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

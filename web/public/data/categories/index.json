@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-28T14:54:22.801553+00:00",
+  "generatedAt": "2026-10-28T20:50:08.570436+00:00",
   "categories": [
     {
       "key": "tools",
       "label": "工具",
       "section": "工具发布/更新",
       "commentary": false,
-      "count": 30
+      "count": 31
     },
     {
       "key": "methods",
@@ -27,7 +27,7 @@
       "label": "行业",
       "section": "行业动态",
       "commentary": false,
-      "count": 12
+      "count": 13
     },
     {
       "key": "cases",
@@ -41,7 +41,7 @@
       "label": "观点",
       "section": "观点与讨论",
       "commentary": true,
-      "count": 36
+      "count": 37
     }
   ]
 }
