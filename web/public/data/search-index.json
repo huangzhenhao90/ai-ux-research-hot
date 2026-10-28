@@ -1,5 +1,5 @@
 {
-  "count": 546,
+  "count": 548,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -3986,6 +3986,30 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
       "publishedAt": "2025-11-24T12:14:05+00:00"
+    },
+    {
+      "id": "389b7b912be8b62b",
+      "title": "Smaller teams want design leaders who make, again. Here’s how.",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/smaller-teams-want-design-leaders-who-make-again-heres-how-b8939221bd7b?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-10-28T09:37:57+00:00"
+    },
+    {
+      "id": "2b34f2b2ee7db0b9",
+      "title": "The agent woke up before you did",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/the-agent-woke-up-before-you-did-a61cfc3948c7?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-10-28T09:34:18+00:00"
     },
     {
       "id": "70a5bbcfdf83daac",
