@@ -10,6 +10,7 @@ on:
     paths:
       - scripts/probe_jobs.py
       - scripts/probe_job_samples.py
+      - scripts/probe_job_links.py
       - config/job_probe.yaml
       - .github/workflows/probe-jobs.yml
 
@@ -40,4 +41,4 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: 探测
-        run: python scripts/probe_job_samples.py
+        run: python scripts/probe_job_links.py
