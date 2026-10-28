@@ -347,6 +347,11 @@ code {
   color: var(--text-faint);
 }
 
+/* 放在卡片顶部、和分类角标同一行时，不需要上边距 */
+.card__meta--top {
+  margin-top: 0;
+}
+
 .card__meta a {
   color: var(--text-faint);
   text-decoration: underline;

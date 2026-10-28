@@ -38,6 +38,13 @@ export function ItemCard({
         {item.status === "archived" ? (
           <span className="badge badge--plain">往期</span>
         ) : null}
+        <div className="card__meta card__meta--top">
+          <span>{item.sourceName}</span>
+          {time ? <time dateTime={item.publishedAt ?? undefined}>{time}</time> : null}
+          <a href={item.url} target="_blank" rel="noopener noreferrer nofollow">
+            原文
+          </a>
+        </div>
       </div>
 
       <h3 className="card__title">
@@ -62,14 +69,6 @@ export function ItemCard({
           ))}
         </div>
       ) : null}
-
-      <div className="card__meta">
-        <span>{item.sourceName}</span>
-        {time ? <time dateTime={item.publishedAt ?? undefined}>{time}</time> : null}
-        <a href={item.url} target="_blank" rel="noopener noreferrer nofollow">
-          原文
-        </a>
-      </div>
     </article>
   );
 }
