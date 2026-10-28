@@ -39,6 +39,7 @@ companies:
     careers: https://careers.pddglobalhr.com/jobs
   - name: 小米
     careers: https://xiaomi.jobs.f.mioffice.cn/index/
+    api: atsx:https://xiaomi.jobs.f.mioffice.cn
   - name: 华为
     careers: https://career.huawei.com/reccampportal/portal5/social-recruitment.html
   - name: 米哈游

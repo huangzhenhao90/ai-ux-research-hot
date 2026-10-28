@@ -157,29 +157,48 @@ def s_tencent(client: httpx.Client, kw: str, _: str) -> ApiResult:
     return json_result(resp)
 
 
-def _atsx(client: httpx.Client, base: str, kw: str, website_path: str) -> ApiResult:
-    """字节系招聘系统（字节跳动官网与飞书招聘租户）：先取 CSRF，再搜索。"""
+# 字节系招聘系统的门户参数：第一轮探测拿到的是「site not exist」，说明 CSRF 握手通了、
+# 但门户标识不对。这里按常见取值逐个试，报告里记下哪一组能用。
+ATSX_VARIANTS: tuple[tuple[str, str], ...] = (
+    ("experienced", "office"),
+    ("society", "office"),
+    ("experienced", "saas-career"),
+    ("society", "saas-career"),
+    ("index", "saas-career"),
+    ("social", "office"),
+)
+
+
+def _atsx(client: httpx.Client, base: str, kw: str, _website_path: str) -> ApiResult:
+    """字节系招聘系统（字节跳动官网与飞书招聘租户）：先取 CSRF，再按门户参数逐个试搜索。"""
     token_resp = client.post(f"{base}/api/v1/csrf/token", json={"portal_entrance": 1})
     token = unquote(client.cookies.get("atsx-csrf-token") or "")
     if not token:
         res = json_result(token_resp)
         res.note = f"没拿到 CSRF token（HTTP {token_resp.status_code}）"
         return res
-    pause()
-    resp = client.post(
-        f"{base}/api/v1/search/job/posts",
-        json={
-            "keyword": kw, "limit": 10, "offset": 0, "job_category_id_list": [],
-            "tag_id_list": [], "location_code_list": [], "subject_id_list": [],
-            "recruitment_id_list": [], "portal_type": 2, "job_function_id_list": [],
-            "storefront_id_list": [], "portal_entrance": 1,
-        },
-        headers={
-            "x-csrf-token": token, "website-path": website_path,
-            "portal-channel": "office", "portal-platform": "pc", "accept-language": "zh-CN",
-        },
-    )
-    return json_result(resp)
+    last = ApiResult(note="没有可试的门户参数")
+    for website_path, channel in ATSX_VARIANTS:
+        pause()
+        resp = client.post(
+            f"{base}/api/v1/search/job/posts",
+            json={
+                "keyword": kw, "limit": 10, "offset": 0, "job_category_id_list": [],
+                "tag_id_list": [], "location_code_list": [], "subject_id_list": [],
+                "recruitment_id_list": [], "portal_type": 2, "job_function_id_list": [],
+                "storefront_id_list": [], "portal_entrance": 1,
+            },
+            headers={
+                "x-csrf-token": token, "website-path": website_path,
+                "portal-channel": channel, "portal-platform": "pc", "accept-language": "zh-CN",
+            },
+        )
+        last = json_result(resp)
+        if last.titles or (last.json_ok and last.total == 0):
+            last.note = (f"可用参数：website-path={website_path}, portal-channel={channel}；" + last.note).rstrip("；")
+            return last
+    last.note = "试过的门户参数都不行；" + last.note
+    return last
 
 
 def s_bytedance(client: httpx.Client, kw: str, _: str) -> ApiResult:
@@ -188,6 +207,11 @@ def s_bytedance(client: httpx.Client, kw: str, _: str) -> ApiResult:
 
 def s_feishu(client: httpx.Client, kw: str, tenant: str) -> ApiResult:
     return _atsx(client, f"https://{tenant}.jobs.feishu.cn", kw, "experienced")
+
+
+def s_atsx(client: httpx.Client, kw: str, base: str) -> ApiResult:
+    """自有域名的字节系招聘站（如小米的 jobs.f.mioffice.cn），参数是站点根地址。"""
+    return _atsx(client, base, kw, "experienced")
 
 
 def s_alibaba(client: httpx.Client, kw: str, _: str) -> ApiResult:
@@ -263,6 +287,7 @@ STRATEGIES: dict[str, Callable[[httpx.Client, str, str], ApiResult]] = {
     "tencent": s_tencent,
     "bytedance": s_bytedance,
     "feishu": s_feishu,
+    "atsx": s_atsx,
     "alibaba": s_alibaba,
     "baidu": s_baidu,
     "meituan": s_meituan,
