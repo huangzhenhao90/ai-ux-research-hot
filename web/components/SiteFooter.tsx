@@ -2,11 +2,12 @@ import Link from "next/link";
 
 import { getSite } from "@/lib/data";
 
-export function SiteFooter() {
+/** `narrow` 与 PageShell 一致：阅读页的站脚跟正文栏同宽、居中对齐。 */
+export function SiteFooter({ narrow = false }: { narrow?: boolean }) {
   const site = getSite();
 
   return (
-    <footer className="site-footer">
+    <footer className={narrow ? "site-footer site-footer--narrow" : "site-footer"}>
       <span>
         {site.name} · {site.alias}
       </span>

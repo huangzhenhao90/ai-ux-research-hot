@@ -22,7 +22,7 @@ export function PageShell({
       <div className="shell__main">
         <PhoneBar current={current} />
         <main className={narrow ? "main main--narrow" : "main"}>{children}</main>
-        <SiteFooter />
+        <SiteFooter narrow={narrow} />
       </div>
     </div>
   );
