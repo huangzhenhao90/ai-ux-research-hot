@@ -885,6 +885,69 @@ def test_strip_bodies_clears_processed_items_only() -> None:
         assert item.body, f"{item.status} 的正文不能被清掉"
 
 
+def test_needs_write_retry_only_for_scored_items_missing_chinese() -> None:
+    """评过分、已定状态却没写出中文的（当次额度用尽）才补写；别的情况都不碰。"""
+    stuck = _item("stuck", "https://x.com/r1", status=Status.LISTED)
+    stuck.scores = [30, 32]
+    stuck.set_body("原文")
+    assert stuck.needs_write_retry
+
+    stripped = _item("stripped", "https://x.com/r0", status=Status.LISTED)
+    stripped.scores = [30, 32]
+    assert not stripped.needs_write_retry, "正文已清掉的补写不出东西，不补"
+
+    written = _item("written", "https://x.com/r2", status=Status.LISTED)
+    written.scores = [30, 32]
+    written.set_body("原文")
+    written.titleZh, written.summaryZh = "中文标题", "中文摘要"
+    assert not written.needs_write_retry
+
+    archived = _item("archived", "https://x.com/r3", status=Status.ARCHIVED)
+    assert not archived.needs_write_retry, "归档旧文本来就不进模型"
+
+    unscored = _item("unscored", "https://x.com/r4", status=Status.LISTED)
+    unscored.set_body("原文")
+    assert not unscored.needs_write_retry, "没评过分的不补写"
+
+    signal = _item("signal", "https://x.com/r5", status=Status.LISTED)
+    signal.scores = [30, 32]
+    signal.set_body("原文")
+    signal.mode = "hot_signal"
+    assert not signal.needs_write_retry, "热度信号源不进模型"
+
+
+def test_strip_bodies_keeps_items_needing_write_retry() -> None:
+    """还要补写中文的条目留着正文，否则补写时没有原文可读。"""
+    from uxhot.models import strip_bodies
+
+    stuck = _item("stuck", "https://x.com/k1", status=Status.LISTED)
+    stuck.scores = [30, 32]
+    stuck.set_body("原文还要用")
+    done = _item("done", "https://x.com/k2", status=Status.LISTED)
+    done.scores = [30, 32]
+    done.titleZh, done.summaryZh = "中文标题", "中文摘要"
+    done.set_body("写完了")
+
+    assert strip_bodies([stuck, done]) == 1
+    assert stuck.body == "原文还要用"
+    assert done.body == ""
+
+
+def test_publishable_requires_chinese_except_selected() -> None:
+    """D16：非精选没中文不上页面；精选缺中文仍算可发布，交给发布校验报错。"""
+    listed = _item("listed", "https://x.com/p1", status=Status.LISTED)
+    assert listed.is_public and not listed.is_publishable
+    listed.titleZh, listed.summaryZh = "中文标题", "中文摘要"
+    assert listed.is_publishable
+
+    selected = _item("selected", "https://x.com/p2", status=Status.SELECTED)
+    assert selected.is_publishable
+
+    blocked = _item("blocked", "https://x.com/p3", status=Status.BLOCKED)
+    blocked.titleZh, blocked.summaryZh = "中文标题", "中文摘要"
+    assert not blocked.is_publishable
+
+
 def test_strip_bodies_clears_unknown_and_never_processed() -> None:
     """UNKNOWN 与 hot_signal / EXCLUDE 永远不会进模型步骤，正文该清掉。
 

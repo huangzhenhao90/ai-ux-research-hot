@@ -185,12 +185,13 @@ def test_latest_covers_three_edition_days(published: Path) -> None:
 def test_all_month_keeps_non_selected(published: Path) -> None:
     doc = load_json(published / "data" / "all" / "2026-10.json")
     ids = {item["id"] for item in doc["items"]}
-    assert ids == {id_of(1), id_of(2), id_of(3), id_of(4), id_of(7), id_of(8)}
-    assert doc["count"] == 6
+    # 8 号还没写出中文（NEW），不上页面（D16）
+    assert ids == {id_of(1), id_of(2), id_of(3), id_of(4), id_of(7)}
+    assert doc["count"] == 5
     index = load_json(published / "data" / "all" / "index.json")
-    assert index["total"] == 6
+    assert index["total"] == 5
     assert index["months"] == [
-        {"month": "2026-10", "count": 6, "path": "data/all/2026-10.json"}
+        {"month": "2026-10", "count": 5, "path": "data/all/2026-10.json"}
     ]
 
 
@@ -238,7 +239,7 @@ def test_topics_match_entity_id_and_tags(cfg, published: Path) -> None:
 
 def test_search_index_has_title_summary_tags(published: Path) -> None:
     doc = load_json(published / "data" / "search-index.json")
-    assert doc["count"] == len(doc["items"]) == 6
+    assert doc["count"] == len(doc["items"]) == 5
     allowed = set(PUBLIC_FIELDS)
     for entry in doc["items"]:
         assert set(entry) <= allowed
@@ -256,15 +257,23 @@ def test_site_json_carries_base_path(published: Path) -> None:
     assert doc["subject"] == "AI 用研"
 
 
+def test_items_without_chinese_are_not_published(published: Path) -> None:
+    """D16：没写出中文标题与摘要的条目不上任何页面（列表、搜索、详情都没有）。"""
+    hidden = id_of(8)
+    assert not (published / "data" / "items" / f"{hidden}.json").exists()
+    for path in sorted(published.rglob("*.json")):
+        assert hidden not in path.read_text(encoding="utf-8"), f"{path} 里出现了没写中文的条目"
+
+
 def test_data_manifest_counts(published: Path) -> None:
     doc = load_json(published / "data" / "index.json")
     assert doc["counts"] == {
-        "public": 6,
+        "public": 5,
         "selected": 3,
         "months": 1,
         "categories": 6,
         "topics": 24,
-        "searchIndex": 6,
+        "searchIndex": 5,
     }
     assert doc["months"] == ["2026-10"]
     assert doc["latestDays"] == ["2026-10-22", "2026-10-21", "2026-10-20"]
