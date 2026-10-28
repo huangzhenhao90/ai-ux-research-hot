@@ -38,6 +38,8 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 CONFIG = REPO_ROOT / "config" / "job_probe.yaml"
 
 KEYWORDS = ("用户研究", "体验研究")
+# 每次搜索取多少条：看发布时间分布要样本，20 条够看出新旧
+PAGE_SIZE = 20
 USER_AGENT = (
     "Mozilla/5.0 (compatible; URHOTBot-probe/0.1; "
     "+https://github.com/huangzhenhao90/ai-ux-research-hot)"
@@ -69,6 +71,7 @@ class ApiResult:
     json_ok: bool = False
     total: int | None = None
     titles: list[str] = field(default_factory=list)
+    jobs: list[dict] = field(default_factory=list)
     note: str = ""
 
 
@@ -93,17 +96,19 @@ def pause() -> None:
     time.sleep(PAUSE_SECONDS)
 
 
-def find_jobs(doc: Any) -> tuple[int | None, list[str]]:
+def find_jobs(doc: Any) -> tuple[int | None, list[str], list[dict]]:
     """在任意形状的 JSON 里找「岗位列表」与「总数」。
 
     岗位列表 = 第一个「元素是字典、且带岗位名字段」的数组；总数 = 最先遇到的计数字段。
-    找不到就返回 (None, [])，让报告如实写「没解析出来」。
+    同时返回岗位对象本身（看里面有没有发布/更新时间）。
+    找不到就返回 (None, [], [])，让报告如实写「没解析出来」。
     """
     total: int | None = None
     titles: list[str] = []
+    jobs: list[dict] = []
 
     def walk(node: Any) -> None:
-        nonlocal total, titles
+        nonlocal total, titles, jobs
         if isinstance(node, dict):
             for key in TOTAL_KEYS:
                 value = node.get(key)
@@ -117,6 +122,7 @@ def find_jobs(doc: Any) -> tuple[int | None, list[str]]:
                     found = [str(x[key]).strip() for x in node if isinstance(x.get(key), str)]
                     if found:
                         titles = found
+                        jobs = [x for x in node if isinstance(x.get(key), str)]
                         return
             for value in node:
                 walk(value)
@@ -124,7 +130,7 @@ def find_jobs(doc: Any) -> tuple[int | None, list[str]]:
     walk(doc)
     if total is None and titles:
         total = len(titles)
-    return total, titles
+    return total, titles, jobs
 
 
 def json_result(resp: httpx.Response) -> ApiResult:
@@ -135,11 +141,56 @@ def json_result(resp: httpx.Response) -> ApiResult:
         out.note = f"不是 JSON（{resp.headers.get('content-type', '?')}，{len(resp.content)} 字节）"
         return out
     out.json_ok = True
-    out.total, out.titles = find_jobs(doc)
+    out.total, out.titles, out.jobs = find_jobs(doc)
     if not out.titles:
         # 留一点原文方便人工判断接口要什么参数
         out.note = "JSON 里没找到岗位列表：" + json.dumps(doc, ensure_ascii=False)[:160]
     return out
+
+
+# ── 发布 / 更新时间 ───────────────────────────────────────────────────
+
+# 字段名里带这些词的才当作时间候选（publish_time、LastUpdateTime、refreshDate……）
+DATE_KEY = re.compile(r"time|date|publish|update|refresh|create|modif|online|release", re.I)
+DATE_TEXT = re.compile(r"(20\d{2})\s*[-/.年]\s*(\d{1,2})\s*[-/.月]\s*(\d{1,2})")
+
+
+def to_date(value: Any) -> str | None:
+    """把各种时间写法统一成 YYYY-MM-DD；认不出就返回 None。"""
+    if isinstance(value, bool):
+        return None
+    if isinstance(value, (int, float)) or (isinstance(value, str) and value.isdigit()):
+        n = float(value)
+        if 1e12 < n < 1e14:      # 毫秒
+            n /= 1000
+        if 1e9 < n < 1e11:       # 秒（2001 年以后）
+            return time.strftime("%Y-%m-%d", time.gmtime(n))
+        return None
+    if isinstance(value, str):
+        m = DATE_TEXT.search(value)
+        if m:
+            y, mo, d = (int(g) for g in m.groups())
+            if 1 <= mo <= 12 and 1 <= d <= 31:
+                return f"{y:04d}-{mo:02d}-{d:02d}"
+    return None
+
+
+def date_fields(job: dict, prefix: str = "") -> dict[str, str]:
+    """岗位对象里所有能解析成日期的时间字段（往下看一层嵌套）。"""
+    out: dict[str, str] = {}
+    for key, value in job.items():
+        name = f"{prefix}{key}"
+        if isinstance(value, dict) and not prefix:
+            out.update(date_fields(value, prefix=f"{key}."))
+        elif DATE_KEY.search(str(key)):
+            parsed = to_date(value)
+            if parsed:
+                out[name] = parsed
+    return out
+
+
+def age_days(day: str) -> int:
+    return int((time.time() - time.mktime(time.strptime(day, "%Y-%m-%d"))) // 86400)
 
 
 # ── 各家的搜索接口策略（地址取自公开网页前端的调用方式，可能已变）──────
@@ -151,7 +202,7 @@ def s_tencent(client: httpx.Client, kw: str, _: str) -> ApiResult:
         params={
             "timestamp": int(time.time() * 1000), "countryId": "", "cityId": "", "bgIds": "",
             "productId": "", "categoryId": "", "parentCategoryId": "", "attrId": "",
-            "keyword": kw, "pageIndex": 1, "pageSize": 10, "language": "zh-cn", "area": "cn",
+            "keyword": kw, "pageIndex": 1, "pageSize": PAGE_SIZE, "language": "zh-cn", "area": "cn",
         },
     )
     return json_result(resp)
@@ -160,11 +211,12 @@ def s_tencent(client: httpx.Client, kw: str, _: str) -> ApiResult:
 # 字节系招聘系统的门户参数：第一轮探测拿到的是「site not exist」，说明 CSRF 握手通了、
 # 但门户标识不对。这里按常见取值逐个试，报告里记下哪一组能用。
 ATSX_VARIANTS: tuple[tuple[str, str], ...] = (
-    ("experienced", "office"),
+    # 第二轮探出来的两组：字节官网用前者，飞书招聘租户（含小米自有域名）用后者
     ("society", "office"),
+    ("index", "saas-career"),
+    ("experienced", "office"),
     ("experienced", "saas-career"),
     ("society", "saas-career"),
-    ("index", "saas-career"),
     ("social", "office"),
 )
 
@@ -183,7 +235,7 @@ def _atsx(client: httpx.Client, base: str, kw: str, _website_path: str) -> ApiRe
         resp = client.post(
             f"{base}/api/v1/search/job/posts",
             json={
-                "keyword": kw, "limit": 10, "offset": 0, "job_category_id_list": [],
+                "keyword": kw, "limit": PAGE_SIZE, "offset": 0, "job_category_id_list": [],
                 "tag_id_list": [], "location_code_list": [], "subject_id_list": [],
                 "recruitment_id_list": [], "portal_type": 2, "job_function_id_list": [],
                 "storefront_id_list": [], "portal_entrance": 1,
@@ -223,7 +275,7 @@ def s_alibaba(client: httpx.Client, kw: str, _: str) -> ApiResult:
         params={"_csrf": token},
         json={
             "channel": "group_official_site", "language": "zh", "batchId": "",
-            "categories": "", "deptCodes": [], "key": kw, "pageIndex": 1, "pageSize": 10,
+            "categories": "", "deptCodes": [], "key": kw, "pageIndex": 1, "pageSize": PAGE_SIZE,
             "regions": "", "subCategories": "",
         },
         headers={"x-xsrf-token": token},
@@ -237,7 +289,7 @@ def s_alibaba(client: httpx.Client, kw: str, _: str) -> ApiResult:
 def s_baidu(client: httpx.Client, kw: str, _: str) -> ApiResult:
     resp = client.post(
         "https://talent.baidu.com/httservice/getPostListNew",
-        data={"recruitType": "SOCIAL", "pageSize": 10, "keyWord": kw, "curPage": 1, "projectType": ""},
+        data={"recruitType": "SOCIAL", "pageSize": PAGE_SIZE, "keyWord": kw, "curPage": 1, "projectType": ""},
         headers={"Referer": "https://talent.baidu.com/jobs/social-list"},
     )
     return json_result(resp)
@@ -247,7 +299,7 @@ def s_meituan(client: httpx.Client, kw: str, _: str) -> ApiResult:
     resp = client.post(
         "https://zhaopin.meituan.com/api/official/job/getJobList",
         json={
-            "page": {"pageNo": 1, "pageSize": 10}, "jobShareType": "1", "keywords": kw,
+            "page": {"pageNo": 1, "pageSize": PAGE_SIZE}, "jobShareType": "1", "keywords": kw,
             "cityList": [], "department": [], "jfJgList": [],
             "jobType": [{"code": "3", "subCode": []}], "typeCode": [], "specialCode": [],
         },
@@ -259,7 +311,7 @@ def s_meituan(client: httpx.Client, kw: str, _: str) -> ApiResult:
 def s_netease(client: httpx.Client, kw: str, _: str) -> ApiResult:
     resp = client.post(
         "https://hr.163.com/api/hr163/position/queryPage",
-        json={"currentPage": 1, "pageSize": 10, "keyword": kw},
+        json={"currentPage": 1, "pageSize": PAGE_SIZE, "keyword": kw},
         headers={"Referer": "https://hr.163.com/job-list.html"},
     )
     return json_result(resp)
@@ -268,7 +320,7 @@ def s_netease(client: httpx.Client, kw: str, _: str) -> ApiResult:
 def s_jd(client: httpx.Client, kw: str, _: str) -> ApiResult:
     resp = client.post(
         "https://zhaopin.jd.com/web/job/job_list",
-        data={"pageIndex": 1, "pageSize": 10, "workCityJson": "[]", "jobTypeJson": "[]", "jobSearch": kw},
+        data={"pageIndex": 1, "pageSize": PAGE_SIZE, "workCityJson": "[]", "jobTypeJson": "[]", "jobSearch": kw},
         headers={"Referer": "https://zhaopin.jd.com/web/job/job_info_list/3"},
     )
     return json_result(resp)
@@ -277,7 +329,7 @@ def s_jd(client: httpx.Client, kw: str, _: str) -> ApiResult:
 def s_kuaishou(client: httpx.Client, kw: str, _: str) -> ApiResult:
     resp = client.get(
         "https://zhaopin.kuaishou.cn/recruit/e/api/v1/open/positions/simple",
-        params={"pageNum": 1, "pageSize": 10, "keyword": kw},
+        params={"pageNum": 1, "pageSize": PAGE_SIZE, "keyword": kw},
         headers={"Referer": "https://zhaopin.kuaishou.cn/"},
     )
     return json_result(resp)
@@ -340,11 +392,13 @@ def probe_robots(client: httpx.Client, report: CompanyReport) -> None:
 # ── 主流程 ─────────────────────────────────────────────────────────────
 
 
-def probe_company(entry: dict) -> CompanyReport:
+def probe_company(
+    entry: dict, keywords: tuple[str, ...] = KEYWORDS, *, api_only: bool = False
+) -> CompanyReport:
     report = CompanyReport(name=entry["name"], careers=entry["careers"], api=entry.get("api") or "")
     headers = {"User-Agent": USER_AGENT, "Accept-Language": "zh-CN,zh;q=0.9"}
     with httpx.Client(headers=headers, timeout=TIMEOUT, follow_redirects=True) as client:
-        for step in (probe_home, probe_robots):
+        for step in () if api_only else (probe_home, probe_robots):
             try:
                 step(client, report)
             except httpx.HTTPError as exc:
@@ -353,7 +407,7 @@ def probe_company(entry: dict) -> CompanyReport:
         if report.api:
             name, _, arg = report.api.partition(":")
             strategy = STRATEGIES[name]
-            for kw in KEYWORDS:
+            for kw in keywords:
                 try:
                     report.results[kw] = strategy(client, kw, arg)
                 except (httpx.HTTPError, KeyError, ValueError) as exc:
@@ -373,14 +427,14 @@ def cell_for(result: ApiResult | None) -> str:
     return f"❌ HTTP {result.status}" if result.status else "❌ 请求失败"
 
 
-def render(reports: list[CompanyReport]) -> str:
+def render(reports: list[CompanyReport], keywords: tuple[str, ...] = KEYWORDS) -> str:
     lines = [
         "# 社招可行性探测报告",
         "",
-        f"关键词：{' / '.join(KEYWORDS)}；UA：`{USER_AGENT}`",
+        f"关键词：{' / '.join(keywords)}；每次取 {PAGE_SIZE} 条；UA：`{USER_AGENT}`",
         "",
-        "| 公司 | 首页 | 托管平台 | 前端渲染 | robots.txt | 接口策略 | " + " | ".join(KEYWORDS) + " |",
-        "|---|---|---|---|---|---|" + "---|" * len(KEYWORDS),
+        "| 公司 | 首页 | 托管平台 | 前端渲染 | robots.txt | 接口策略 | " + " | ".join(keywords) + " |",
+        "|---|---|---|---|---|---|" + "---|" * len(keywords),
     ]
     for r in reports:
         home = f"{r.home_status}" if r.home_status else "失败"
@@ -389,7 +443,7 @@ def render(reports: list[CompanyReport]) -> str:
         lines.append(
             f"| {r.name} | {home} | {r.platform or '—'} | {'是' if r.spa else '否'} | "
             f"{r.robots or '—'} | {r.api or '—'} | "
-            + " | ".join(cell_for(r.results.get(kw)) for kw in KEYWORDS)
+            + " | ".join(cell_for(r.results.get(kw)) for kw in keywords)
             + " |"
         )
     lines += ["", "## 明细", ""]
@@ -405,24 +459,70 @@ def render(reports: list[CompanyReport]) -> str:
             if res.note:
                 lines.append(f"  - 备注：{res.note}")
         lines.append("")
+    lines += render_dates(reports)
     return "\n".join(lines)
+
+
+def render_dates(reports: list[CompanyReport]) -> list[str]:
+    """每家接口返回的岗位里有没有发布 / 更新时间，以及这些岗位有多旧。"""
+    lines = ["## 发布 / 更新时间", ""]
+    for r in reports:
+        # 两个关键词常搜到同一批岗位，去重后再统计
+        unique: dict[str, dict] = {}
+        for res in r.results.values():
+            for job in res.jobs:
+                unique.setdefault(json.dumps(job, ensure_ascii=False, sort_keys=True), job)
+        jobs = list(unique.values())
+        if not jobs:
+            continue
+        lines.append(f"### {r.name}（{len(jobs)} 条岗位）")
+        lines.append("- 岗位对象的字段：" + "、".join(list(jobs[0].keys())[:50]))
+        fields = [date_fields(job) for job in jobs]
+        coverage: dict[str, int] = {}
+        for found in fields:
+            for key in found:
+                coverage[key] = coverage.get(key, 0) + 1
+        if not coverage:
+            lines.append("- 列表接口里**没有**能解析的时间字段")
+            lines.append("")
+            continue
+        for key, count in sorted(coverage.items(), key=lambda kv: -kv[1]):
+            days = sorted(f[key] for f in fields if key in f)
+            ages = [age_days(d) for d in days]
+            fresh30 = sum(1 for a in ages if a <= 30)
+            fresh90 = sum(1 for a in ages if a <= 90)
+            lines.append(
+                f"- `{key}`：{count}/{len(jobs)} 条有；最早 {days[0]}，最新 {days[-1]}；"
+                f"30 天内 {fresh30} 条、90 天内 {fresh90} 条、更早 {len(ages) - fresh90} 条"
+            )
+        for job, found in list(zip(jobs, fields))[:4]:
+            title = next((str(job[k]) for k in TITLE_KEYS if isinstance(job.get(k), str)), "?")
+            stamps = "，".join(f"{k}={v}" for k, v in found.items()) or "无"
+            lines.append(f"  - 样例：{title[:30]} → {stamps}")
+        lines.append("")
+    return lines
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="社招可行性探测")
     parser.add_argument("--only", action="append", default=[], help="只测指定公司（可重复）")
+    parser.add_argument("--keyword", action="append", default=[], help="搜索关键词（可重复，默认两个）")
+    parser.add_argument("--api-only", action="store_true", help="只测有接口策略的公司，跳过首页与 robots")
     args = parser.parse_args()
 
     entries = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))["companies"]
     if args.only:
         entries = [e for e in entries if e["name"] in args.only]
+    if args.api_only:
+        entries = [e for e in entries if e.get("api")]
+    keywords = tuple(args.keyword) or KEYWORDS
 
     reports = []
     for entry in entries:
         print(f"… {entry['name']}", file=sys.stderr, flush=True)
-        reports.append(probe_company(entry))
+        reports.append(probe_company(entry, keywords, api_only=args.api_only))
 
-    text = render(reports)
+    text = render(reports, keywords)
     print(text)
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
