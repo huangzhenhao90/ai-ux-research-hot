@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { categoryLabel, formatTime } from "@/lib/data";
+import { IconExternal } from "@/components/icons";
 import type { BriefRef, ItemRef } from "@/lib/types";
 
 /**
@@ -93,44 +94,44 @@ export function ItemRefCard({
   const title = item.titleZh?.trim() || item.url;
 
   return (
-    <article className="card">
-      <div className="card__top">
-        {category ? <span className="badge">{category}</span> : null}
-        {related > 0 ? (
-          <span className="badge badge--plain">同一事件另有 {related} 篇</span>
-        ) : null}
-        <div className="card__meta card__meta--top">
-          <span>{item.sourceName}</span>
-          {time ? (
-            <time dateTime={item.publishedAt ?? undefined}>{time}</time>
-          ) : null}
-          <a href={item.url} target="_blank" rel="noopener noreferrer nofollow">
-            原文
-          </a>
-        </div>
-      </div>
+    <article className="card card--item">
+      <header className="card__head">
+        <span className="card__source">{item.sourceName}</span>
+        {time ? <span>· {time}</span> : null}
+        {category ? <span className="badge badge--accent">{category}</span> : null}
+        {related > 0 ? <span className="badge">同一事件另有 {related} 篇</span> : null}
+        <a
+          href={item.url}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          className="card__origin card__raise"
+          title="打开原文"
+        >
+          原文
+          <IconExternal size={12} />
+        </a>
+      </header>
 
       <h3 className="card__title">
-        <Link href={`/item/${item.id}/`}>{title}</Link>
+        <Link href={`/item/${item.id}/`} className="card__link">
+          {title}
+        </Link>
       </h3>
 
       {item.summaryZh ? <p className="card__summary">{item.summaryZh}</p> : null}
 
-      {item.reason ? (
-        <div className="card__reason">
-          <span className="card__reason-label">{reasonLabel}</span>
-          {item.reason}
+      {(item.tags?.length ?? 0) > 0 ? (
+        <div className="card__tags">
+          {item.tags.slice(0, 4).map((tag) => (
+            <span key={tag}>#{tag}</span>
+          ))}
         </div>
       ) : null}
 
-      {(item.tags?.length ?? 0) > 0 ? (
-        <div className="tag-row">
-          {item.tags.slice(0, 6).map((tag) => (
-            <span key={tag} className="badge badge--plain">
-              {tag}
-            </span>
-          ))}
-        </div>
+      {item.reason ? (
+        <p className="card__reason">
+          {reasonLabel}：{item.reason}
+        </p>
       ) : null}
     </article>
   );
@@ -178,6 +179,23 @@ export function HeadlineBlock({
     <section className="headline">
       <p className="headline__label">{label}</p>
 
+      <div className="card__head" style={{ marginTop: "0.6rem" }}>
+        <span className="card__source">{item.sourceName}</span>
+        {time ? <span>· {time}</span> : null}
+        {category ? <span className="badge badge--accent">{category}</span> : null}
+        {related > 0 ? <span className="badge">同一事件另有 {related} 篇</span> : null}
+        <a
+          href={item.url}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          className="card__origin"
+          title="打开原文"
+        >
+          原文
+          <IconExternal size={12} />
+        </a>
+      </div>
+
       <h2 className="headline__title">
         <Link href={`/item/${item.id}/`}>{title}</Link>
       </h2>
@@ -187,23 +205,10 @@ export function HeadlineBlock({
       ) : null}
 
       {item.reason ? (
-        <div className="card__reason" style={{ marginTop: "0.85rem" }}>
-          <span className="card__reason-label">{reasonLabel}</span>
-          {item.reason}
-        </div>
+        <p className="card__reason">
+          {reasonLabel}：{item.reason}
+        </p>
       ) : null}
-
-      <div className="card__meta">
-        {category ? <span>{category}</span> : null}
-        <span>{item.sourceName}</span>
-        {time ? (
-          <time dateTime={item.publishedAt ?? undefined}>{time}</time>
-        ) : null}
-        {related > 0 ? <span>同一事件另有 {related} 篇</span> : null}
-        <a href={item.url} target="_blank" rel="noopener noreferrer nofollow">
-          原文
-        </a>
-      </div>
     </section>
   );
 }

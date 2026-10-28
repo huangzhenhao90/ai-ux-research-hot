@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 /** 服务端整理好的展示条目（见 app/search/page.tsx）。 */
 export interface SearchEntry {
@@ -36,11 +36,18 @@ function haystack(entry: SearchEntry): string {
 /**
  * 本地搜索框。
  *
- * 纯浏览器内过滤：不请求网络、不改 URL、不用路由。空白分隔的多个关键词之间是
+ * 纯浏览器内过滤：不请求网络、不用路由。空白分隔的多个关键词之间是
  * 「同时包含」（AND）的关系，全部不区分大小写。
+ *
+ * 信息流顶部的搜索框会带着 `?q=` 跳过来，打开时读一次作为初始关键词。
  */
 export function SearchClient({ items }: { items: SearchEntry[] }) {
   const [query, setQuery] = useState("");
+
+  useEffect(() => {
+    const initial = new URLSearchParams(window.location.search).get("q");
+    if (initial) setQuery(initial);
+  }, []);
 
   // 预先把全部记录转成检索串，输入时只做字符串比较
   const indexed = useMemo(
@@ -115,13 +122,23 @@ export function SearchClient({ items }: { items: SearchEntry[] }) {
         <>
           <div className="card-list">
             {shown.map((entry) => (
-              <article className="card" key={entry.id}>
+              <article className="card card--item" key={entry.id}>
+                <header className="card__head">
+                  <span className="card__source">{entry.sourceName}</span>
+                  {entry.time ? <span>· {entry.time}</span> : null}
+                  {entry.categoryLabel ? (
+                    <span className="badge badge--accent">{entry.categoryLabel}</span>
+                  ) : null}
+                </header>
+
                 <h3 className="card__title">
-                  <Link href={`/item/${entry.id}/`}>{entry.title}</Link>
+                  <Link href={`/item/${entry.id}/`} className="card__link">
+                    {entry.title}
+                  </Link>
                 </h3>
 
                 {entry.originalTitle ? (
-                  <p className="section__count" lang="en" style={{ marginTop: "0.2rem" }}>
+                  <p className="card__original" lang="en">
                     {entry.originalTitle}
                   </p>
                 ) : null}
@@ -131,20 +148,12 @@ export function SearchClient({ items }: { items: SearchEntry[] }) {
                 ) : null}
 
                 {entry.tags.length > 0 ? (
-                  <div className="tag-row">
-                    {entry.tags.slice(0, 6).map((tag) => (
-                      <span key={tag} className="badge badge--plain">
-                        {tag}
-                      </span>
+                  <div className="card__tags">
+                    {entry.tags.slice(0, 4).map((tag) => (
+                      <span key={tag}>#{tag}</span>
                     ))}
                   </div>
                 ) : null}
-
-                <div className="card__meta">
-                  {entry.categoryLabel ? <span>{entry.categoryLabel}</span> : null}
-                  <span>{entry.sourceName}</span>
-                  {entry.time ? <time>{entry.time}</time> : null}
-                </div>
               </article>
             ))}
           </div>

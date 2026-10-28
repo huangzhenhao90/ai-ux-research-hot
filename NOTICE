@@ -15,6 +15,12 @@ Copyright (c) 2026 huangzhenhao90. 代码以 MIT 许可证发布（见 LICENSE�
 `prompts/` 下的提示词逐文件改编自 AIHOT `industry/prompts/` 中的对应文件，
 每个文件的来源在 `prompts/README.md` 中逐条注明。
 
+站点界面（`web/`）的版式与配色改编自 AIHOT 前端（`apps/web/`，2026-10-28 拉取的 main）：
+左侧栏导航、分类胶囊、按天分组的时间线卡片、三档外观开关，
+`web/app/globals.css` 的配色变量改编自其 `apps/web/app/app.css`，
+`web/components/icons.tsx` 的图标路径改编自其 `apps/web/app/components/icons.tsx`。
+组件代码按本站的 Next.js 静态导出重新编写，没有照搬。
+
 注意：AIHOT 的名称与 Logo 不在 MIT 许可范围内。本站不使用 AIHOT 的名称与 Logo，
 只在「关于」页保留一行致谢。
 

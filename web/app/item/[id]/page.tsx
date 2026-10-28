@@ -62,9 +62,9 @@ export default async function ItemPage({
   return (
     <PageShell narrow>
       <div className="page-head">
-        <div className="card__top">
+        <div className="card__head">
           {item.category ? (
-            <Link href={href(`/category/${item.category}`)} className="badge">
+            <Link href={href(`/category/${item.category}`)} className="badge badge--accent">
               {categoryLabel(item.category)}
             </Link>
           ) : (
@@ -97,7 +97,7 @@ export default async function ItemPage({
       {item.summaryZh?.trim() ? (
         <section className="section">
           <h2 className="section__title">摘要</h2>
-          <p style={{ color: "var(--text-muted)", fontSize: "0.9375rem" }}>
+          <p className="lead">
             {item.summaryZh}
           </p>
         </section>
@@ -105,10 +105,10 @@ export default async function ItemPage({
 
       {item.reason?.trim() ? (
         <section className="section">
-          <div className="card__reason" style={{ marginTop: 0 }}>
-            <span className="card__reason-label">{site.reasonLabel}</span>
+          <p className="callout">
+            <strong>{site.reasonLabel}：</strong>
             {item.reason}
-          </div>
+          </p>
         </section>
       ) : null}
 
@@ -139,12 +139,12 @@ export default async function ItemPage({
             <span>{item.sourceName}</span>
             {published ? <time dateTime={item.publishedAt ?? undefined}>{published}</time> : null}
           </div>
-          <p style={{ marginTop: "0.75rem", fontSize: "0.9375rem" }}>
+          <p style={{ marginTop: "0.75rem" }}>
             <a
               href={item.url}
               target="_blank"
               rel="noopener noreferrer nofollow"
-              style={{ textDecoration: "underline" }}
+              className="text-link"
             >
               阅读原文 →
             </a>
