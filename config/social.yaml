@@ -1,0 +1,79 @@
+# 用研社招（scripts/sync_social.py 读取，规则见 DECISIONS D17）。
+#
+# 每天从公司招聘官网的岗位搜索接口抓一次用研相关的社招岗位，按滑动窗口维护：
+# 第一次看到时发布（或更新）不超过 admitDays 天才收，满 keepDays 天移出，
+# 官网连续 missLimit 次搜不到就当下线。
+
+# 两次抓取至少隔多久（小时）。Update 每 4 小时跑一次，这里让它一天只真抓一次。
+minIntervalHours: 20
+
+window:
+  admitDays: 30
+  keepDays: 90
+  missLimit: 3
+
+# 每个关键词最多翻几页、每页几条。搜索按相关度排，后面几页基本都是不相关的岗位。
+maxPages: 5
+pageSize: 20
+
+keywords:
+  - 用户研究
+  - 体验研究
+  - 用户洞察
+  - 市场研究
+
+# 岗位名命中 include 且不命中 exclude 才收（不区分大小写）
+include: "用户.{0,4}研究|用研|体验研究|UX\\s*Research|User\\s*Research|UXR|(用户|体验|消费者)洞察|消费者研究|市场(与用户)?研究|人因(研究|工程)"
+exclude: "实习|校招|应届|管培|intern"
+
+# key 进岗位 id（别改，改了等于全部换成新岗位）；adapter 见 uxhot/social/sources.py
+companies:
+  - key: tencent
+    name: 腾讯
+    careers: https://careers.tencent.com/
+    adapter: tencent
+  - key: bytedance
+    name: 字节跳动
+    careers: https://jobs.bytedance.com/experienced/position
+    adapter: bytedance
+  - key: alibaba
+    name: 阿里巴巴
+    careers: https://talent.alibaba.com/off-campus/position-list
+    adapter: alibaba
+  - key: baidu
+    name: 百度
+    careers: https://talent.baidu.com/jobs/social-list
+    adapter: baidu
+  - key: meituan
+    name: 美团
+    careers: https://zhaopin.meituan.com/web/social
+    adapter: meituan
+  - key: netease
+    name: 网易
+    careers: https://hr.163.com/job-list.html
+    adapter: netease
+  - key: xiaomi
+    name: 小米
+    careers: https://xiaomi.jobs.f.mioffice.cn/index/
+    adapter: atsx
+    base: https://xiaomi.jobs.f.mioffice.cn
+  - key: nio
+    name: 蔚来
+    careers: https://nio.jobs.feishu.cn/index/
+    adapter: atsx
+    base: https://nio.jobs.feishu.cn
+  - key: li
+    name: 理想汽车
+    careers: https://li.jobs.feishu.cn/index/
+    adapter: atsx
+    base: https://li.jobs.feishu.cn
+  - key: xiaopeng
+    name: 小鹏汽车
+    careers: https://xiaopeng.jobs.feishu.cn/index/
+    adapter: atsx
+    base: https://xiaopeng.jobs.feishu.cn
+  - key: poizon
+    name: 得物
+    careers: https://poizon.jobs.feishu.cn/index/
+    adapter: atsx
+    base: https://poizon.jobs.feishu.cn
