@@ -145,20 +145,18 @@ def parse(resp: httpx.Response, title_key: str, id_key: str) -> tuple[int | None
     raise AdapterError("没找到岗位列表：" + resp.text[:160])
 
 
-def job_id(company: Company, raw_id: Any) -> str:
-    if raw_id in (None, ""):
-        raise AdapterError("岗位没有 id")
-    return f"{company.key}-{raw_id}"
-
-
 def build(company: Company, *, raw_id: Any, title: Any, url: str, posted: Any, kind: str, **fields: Any) -> Job | None:
-    """统一组装；标题或日期缺失的岗位直接跳过（没有日期就没法进窗口）。"""
+    """统一组装；缺 id、标题或日期的岗位直接跳过（没有日期就没法进窗口），不连累同一家的其他岗位。"""
     title = str(title or "").strip()
     posted_at = to_date(posted)
-    if not title or not posted_at:
+    if raw_id in (None, "") or not title or not posted_at:
         return None
+    # 各家城市写法不一（「北京市」「北京」），统一成不带「市」的，城市筛选才不会分成两项
+    fields["cities"] = list(dict.fromkeys(
+        re.sub(r"(?<=..)市$", "", c.strip()) for c in fields.get("cities") or [] if c and c.strip()
+    ))
     return Job(
-        id=job_id(company, raw_id), company=company.name, title=title, url=url,
+        id=f"{company.key}-{raw_id}", company=company.name, title=title, url=url,
         dateKind=kind, postedAt=posted_at, **fields,
     )
 
@@ -225,8 +223,9 @@ def _atsx_search(client: httpx.Client, base: str, portal: tuple[str, str], keywo
 
 def _atsx_job(company: Company, raw: dict, url: str) -> Job | None:
     # 飞书招聘租户的搜索会混进校招 / 实习，只留「社招」下的岗位
-    recruit = raw.get("recruit_type") or {}
-    parent = (recruit.get("parent") or {}).get("name") if isinstance(recruit, dict) else None
+    recruit = raw.get("recruit_type")
+    parent = recruit.get("parent") if isinstance(recruit, dict) else None
+    parent = parent.get("name") if isinstance(parent, dict) else None
     if parent and parent != "社招":
         return None
     cities = names(raw.get("city_list")) or names([raw.get("city_info")])

@@ -199,3 +199,44 @@ export interface CampusDoc {
   jobs: CampusJob[];
   companies: CampusCompany[];
 }
+
+// ── 用研社招（web/content/social.json，由 scripts/sync_social.py 生成）────────
+
+export interface SocialJob {
+  id: string;
+  company: string;
+  title: string;
+  url: string;
+  cities: string[];
+  department: string | null;
+  experience: string | null;
+  /** 官网给的日期是哪一种：publish = 首次发布；update = 最近更新 / 刷新 */
+  dateKind: "publish" | "update";
+  /** 官网这次给的日期（会随刷新变） */
+  postedAt: string;
+  /** 窗口起算日：第一次看到时官网给的日期，之后不变 */
+  since: string;
+  /** 本站第一次看到 */
+  firstSeen: string;
+  /** 满 90 天后移出的日期 */
+  expiresAt: string;
+  duty: string;
+  requirement: string;
+}
+
+export interface SocialCompany {
+  key: string;
+  name: string;
+  careers: string;
+  /** 最近一次抓取是否成功 */
+  ok: boolean;
+  lastOkAt: string | null;
+  jobCount: number;
+}
+
+export interface SocialDoc {
+  updatedAt: string | null;
+  window: { admitDays: number; keepDays: number };
+  companies: SocialCompany[];
+  jobs: SocialJob[];
+}

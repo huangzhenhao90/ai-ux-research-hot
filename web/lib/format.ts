@@ -152,3 +152,23 @@ export function groupByDay<
   }
   return groups;
 }
+
+// ── 用研社招的日期 ─────────────────────────────────────────────────────
+
+/** 北京时间的今天 `YYYY-MM-DD`。页面在构建时算，定时更新每次都会重新构建。 */
+export function beijingToday(now: Date = new Date()): string {
+  return beijingParts(now.toISOString())?.day ?? now.toISOString().slice(0, 10);
+}
+
+/** 两个 `YYYY-MM-DD` 相差几天（`to - from`）。 */
+export function daysBetween(from: string, to: string): number {
+  return Math.round((Date.parse(`${to}T00:00:00Z`) - Date.parse(`${from}T00:00:00Z`)) / 86_400_000);
+}
+
+/** `今天` / `昨天` / `12 天前` */
+export function daysAgoLabel(day: string, today: string): string {
+  const n = daysBetween(day, today);
+  if (n <= 0) return "今天";
+  if (n === 1) return "昨天";
+  return `${n} 天前`;
+}

@@ -67,6 +67,7 @@ cd web && npm ci && npm run build && npx serve out
 | `python scripts/run_pipeline.py --execute --limit 30` | 真实运行 |
 | `python scripts/run_pipeline.py --source nngroup` | 只跑指定信源（可重复） |
 | `node web/scripts/sync-campus.mjs [index.html]` | 同步「用研校招」岗位库（默认从 GitHub 拉 uxr-campus-2027） |
+| `python scripts/sync_social.py [--force]` | 同步「用研社招」岗位（抓 11 家公司招聘官网，滑动窗口见 D17；默认一天只真抓一次） |
 | `python scripts/sample_gold.py` | 导出金标标注表 `eval/gold_candidates.xlsx` |
 | `python scripts/sample_gold.py --convert` | 标注完转成 `eval/gold.jsonl` |
 | `python scripts/eval_selection.py --split development --label v1 --execute` | 金标评测 + 门槛扫描 |
@@ -126,12 +127,13 @@ uxhot/      Python 包
   collect/   dates(时区/未来日期) · fetch · rss · web_list · external_json
   pipeline/  normalize · prefilter · score · structure · write · dedupe · select · runner
   publish/   build_site_data · rss_out · llms_txt · validate
+  social/    用研社招：sources(各家官网接口) · window(滑动窗口) · sync
   models.py  gold.py  evalrun.py  llm.py  prompts.py  budget.py  config.py
 scripts/    命令行入口
-data/       items(条目) · state(游标) · runs(审计)
+data/       items(条目) · state(游标) · runs(审计) · social(社招岗位窗口状态)
 web/        Next.js 静态站（output: "export"）
 eval/       金标评测（gold.jsonl 与标注表不进 Git）
-tests/      251 条测试
+tests/      293 条测试
 ```
 
 ---
@@ -139,7 +141,7 @@ tests/      251 条测试
 ## 测试
 
 ```bash
-.venv/bin/python -m pytest -q                    # 315 条
+.venv/bin/python -m pytest -q                    # 293 条
 cd web && npm run typecheck && npm run build      # 前端
 ```
 

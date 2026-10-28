@@ -45,12 +45,12 @@ def test_config_loads_and_every_company_has_an_adapter():
          ["北京", "杭州"]),
         ("baidu", "baidu-f7ae2310-4637-4ed1-be76-50fc744df6bd", "用户研究",
          "https://talent.baidu.com/jobs/detail/SOCIAL/f7ae2310-4637-4ed1-be76-50fc744df6bd", "publish",
-         "2024-07-08", ["北京市"]),
+         "2024-07-08", ["北京"]),
         ("meituan", "meituan-4663364114", "用户研究专家（骑手生态）",
          "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4663364114&highlightType=social",
-         "update", "2026-10-28", ["北京市"]),
+         "update", "2026-10-28", ["北京"]),
         ("netease", "netease-78151", "用户研究实习生",
-         "https://hr.163.com/job-detail.html?id=78151", "update", None, ["北京市"]),
+         "https://hr.163.com/job-detail.html?id=78151", "update", None, ["北京"]),
     ],
 )
 def test_normalize_samples(key, jid, title, url, kind, posted, cities):
@@ -88,9 +88,10 @@ def test_atsx_keeps_only_experienced_hires():
     assert ADAPTERS["atsx"].normalize(company, raw) is None
 
 
-def test_job_without_date_is_skipped():
-    raw = dict(SAMPLES["tencent"][0], LastUpdateTime="")
-    assert ADAPTERS["tencent"].normalize(COMPANIES["tencent"], raw) is None
+def test_job_without_date_or_id_is_skipped():
+    for broken in ({"LastUpdateTime": ""}, {"PostId": None}):
+        raw = dict(SAMPLES["tencent"][0], **broken)
+        assert ADAPTERS["tencent"].normalize(COMPANIES["tencent"], raw) is None
 
 
 def test_to_date_and_clean():

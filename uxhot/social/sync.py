@@ -172,7 +172,7 @@ def sync(
             status = state.companies.get(company.name, CompanyStatus())
             try:
                 jobs = fetch(client, company, cfg)
-            except (httpx.HTTPError, AdapterError, ValueError, KeyError, TypeError) as exc:
+            except (httpx.HTTPError, AdapterError, ValueError, KeyError, TypeError, AttributeError) as exc:
                 status.ok = False
                 status.lastError = f"{type(exc).__name__}: {exc}"[:200]
                 report.failed[company.name] = status.lastError
