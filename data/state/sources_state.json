@@ -3,7 +3,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -45,28 +45,28 @@
     "extra": {}
   },
   "listen-labs": {
-    "etag": "W/\"bc741f0d67783d553a46c2ae8c6d9fff\"",
-    "lastModified": "Wed, 28 Oct 2026 05:11:16 GMT",
+    "etag": "W/\"823e06311cf8bf1c2c002e54f0985910\"",
+    "lastModified": "Wed, 28 Oct 2026 06:01:53 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:21:44.768756+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "maxqda": {
-    "etag": "\"badd643e5cef90fe7293d001977fa0bc-gzip\"",
-    "lastModified": "Tue, 27 Oct 2026 15:45:53 GMT",
+    "etag": "\"ddb065ae9fdf6690a0f3eede77b9cd96-gzip\"",
+    "lastModified": "Wed, 28 Oct 2026 09:11:43 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "quirkos": {
-    "etag": "W/\"50923-3dEex++7JoekvBeg/5+SqI+xDVA\"",
+    "etag": "W/\"50923-TycjtnIfZX9WFtQruWhw680ylr8\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -81,10 +81,10 @@
     "extra": {}
   },
   "surveycto": {
-    "etag": "\"443389c85440599d4f7f899543eb16c1\"",
-    "lastModified": "Wed, 28 Oct 2026 07:19:38 GMT",
+    "etag": "\"9b39ca9c5c5e807fd345dc3358877bc5\"",
+    "lastModified": "Wed, 28 Oct 2026 11:21:54 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:21:44.768756+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -93,7 +93,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -102,16 +102,16 @@
     "etag": "W/\"f8d053226c14b3383c4adba2cef3e094\"",
     "lastModified": "Mon, 26 Oct 2026 15:26:18 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "mopinion": {
-    "etag": "\"cb255f7223ff83d6a431d7e84996147e-gzip\"",
-    "lastModified": "Tue, 27 Oct 2026 15:23:38 GMT",
+    "etag": "\"2eeaa8b0c2633371af4fe7f03857983f-gzip\"",
+    "lastModified": "Wed, 28 Oct 2026 09:32:17 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -144,10 +144,10 @@
     "extra": {}
   },
   "ipsos": {
-    "etag": "W/\"1793153049\"",
-    "lastModified": "Wed, 28 Oct 2026 02:04:09 GMT",
+    "etag": "W/\"1793181051\"",
+    "lastModified": "Wed, 28 Oct 2026 09:50:51 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T04:28:31.660351+00:00",
+    "lastFetchAt": "2026-10-28T11:21:44.768756+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -174,7 +174,7 @@
     "etag": "\"e621f80ce5f662373a351d57eaf734a8-gzip\"",
     "lastModified": "Mon, 19 Oct 2026 11:36:24 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -192,7 +192,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -237,16 +237,16 @@
     "etag": "W/\"10dbc7384dfb42cd9a5ef9b132866722\"",
     "lastModified": "Tue, 27 Oct 2026 19:33:10 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "producttalk": {
-    "etag": "W/\"3304e-wNMmY0U9cAYFwlygIMCThzwG49M\"",
+    "etag": "W/\"3304e-zmO557wZif5cZEDHBTP2Zdxdjkw\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-28T11:21:44.768756+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -255,7 +255,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -274,7 +274,7 @@
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
     "lastFetchAt": "2026-10-23T00:49:43.921066+00:00",
-    "consecutiveFailures": 28,
+    "consecutiveFailures": 30,
     "lastError": "HTTP 403",
     "extra": {}
   },
@@ -300,7 +300,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -327,25 +327,25 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "optimalworkshop-blog": {
     "etag": null,
-    "lastModified": "Wed, 28 Oct 2026 06:00:16 GMT",
+    "lastModified": "Wed, 28 Oct 2026 08:11:06 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:21:44.768756+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "greatquestion-blog": {
-    "etag": "W/\"4fc86a9fff781ad63b95eb014e0c4916\"",
+    "etag": "W/\"2ef35a67170a69ea7159e92c65eb6f3e\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T04:28:31.660351+00:00",
+    "lastFetchAt": "2026-10-28T11:21:44.768756+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -361,9 +361,9 @@
   },
   "strella-blog": {
     "etag": null,
-    "lastModified": "Tue, 27 Oct 2026 08:08:00 GMT",
+    "lastModified": "Wed, 28 Oct 2026 11:22:24 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-28T11:21:44.768756+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -372,7 +372,7 @@
     "etag": "\"903efc793da5fc0adf180cf3453bcb9f-ssl-df\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:21:44.768756+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -390,16 +390,16 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-28T07:19:26.672389+00:00",
+    "lastFetchAt": "2026-10-28T11:30:01.747909+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "ur-ai-papers": {
-    "etag": "W/\"ef111fc74e5e1706222f5bbe4b9a305a5a0b914e0cda33cd8e4a1456ea9eb9ed\"",
+    "etag": "W/\"c1bf82540000d1d7273f27bcdee9eb1efee3edaf20fa93e7cbe45d9af750cf08\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-27T14:04:13.481977+00:00",
+    "lastFetchAt": "2026-10-28T11:21:44.768756+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
