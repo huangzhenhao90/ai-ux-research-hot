@@ -1,0 +1,135 @@
+{
+  "kind": "daily",
+  "date": "2026-10-28",
+  "siteName": "UXHOT",
+  "generatedAt": "2026-10-28T04:32:05.326987+00:00",
+  "window": {
+    "start": "2026-10-27T00:00:00+00:00",
+    "end": "2026-10-28T00:00:00+00:00"
+  },
+  "empty": false,
+  "stats": {
+    "selectedCount": 5,
+    "newTools": 0,
+    "briefCount": 0
+  },
+  "headline": {
+    "id": "b80497b282a548ce",
+    "titleZh": "研究提出判断 LLM 合成用户样本库何时可信的诊断与修正框架",
+    "summaryZh": "该论文提出一套框架，用来判断 LLM 合成消费者样本库何时可信任、可修正或应弃用；框架用协变量重叠、条件校准与跨模型稳定性做诊断。修正需要完整的邀请名单、所有受邀者的应答指示和受访者的真人结果，并要求数据随机缺失且满足正值性假设。在 ANES 与 Twin-2K-500 的配对真人及 LLM 回答模拟中，部分可识别情形下名义 95% 置信区间仅覆盖 88–94%；当非应答依赖缺失的真人结果时，偏差仍然明显，覆盖率接近零。",
+    "reason": "论文给出诊断协变量重叠、条件校准与跨模型稳定性的判断框架，并指出修正只能依赖可获得的真人数据与识别假设。",
+    "category": "research",
+    "categoryLabel": "论文",
+    "sourceId": "arxiv-cs-hc",
+    "sourceName": "arXiv cs.HC",
+    "tier": "T2",
+    "url": "https://arxiv.org/abs/2609.13148",
+    "publishedAt": "2026-10-27T04:00:00+00:00",
+    "avgScore": 62.5,
+    "importance": 62.5,
+    "tags": [
+      "论文/研究",
+      "合成用户",
+      "问卷/定量"
+    ],
+    "relatedIds": []
+  },
+  "highlights": [
+    {
+      "id": "d18b16dfe61e7d9e",
+      "titleZh": "超越行为准确率：评估 LLM 投资者模拟中的个体层面保真度",
+      "summaryZh": "一项 80 人参与的纵向模拟交易研究检验 LLM 能否复现个体投资者的决策逻辑，发现没有评估中的 LLM 能在预测是否发生交易上稳定超过简单的近期活跃度基线。买卖结构与资产选择同样难以复现，且活动水平相近的模型也可能产生差异很大的组合轨迹。消融实验显示交易活动预测主要依赖近期交易记录，资产选择则对多种证据来源敏感；参与者认为模型给出的解释更贴合其长期策略而非单次决策理由。",
+      "reason": "80 人纵向模拟交易显示没有 LLM 能稳定超过近期活跃度基线，为合成用户的行为保真度给出了一套分维度评估方法。",
+      "category": "research",
+      "categoryLabel": "论文",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.26524",
+      "publishedAt": "2026-10-27T04:00:00+00:00",
+      "avgScore": 61.5,
+      "importance": 61.5,
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "行为数据"
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "ac5699bdf639bad5",
+      "titleZh": "为什么用 AI 生成用户画像与需求只是原地加速",
+      "summaryZh": "作者在这篇评论中论证，产品团队让 LLM 先定义用户需求和生成画像，得到的多是基于平均值、难以追溯的结论，速度快不等于有进展。文中引用 Atlassian《State of Product 2026》称产品经理用 AI 每天省下近两小时，但 84% 仍担心产品难以成功；NN/g 用 AI 生成受访者重跑三项研究，答案过浅；2026 年 User Interviews 对 150 名研究者的调查中 81% 常用 AI，仅 8% 用它模拟受访者，88% 担心洞察质量。作者主张先用真实访谈与支持工单完成发现，再让 AI 综合笔记、排序失败场景并生成概念。",
+      "reason": "借抢道与合成用户两个例子，作者说明先做真实用户研究再用 AI 加速，比让 LLM 先定义问题更省成本。",
+      "category": "opinion",
+      "categoryLabel": "观点",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "tier": "T2",
+      "url": "https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-10-27T11:13:03+00:00",
+      "avgScore": 61.0,
+      "importance": 61.0,
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "定性分析",
+        "NN/g"
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "cb120d2f6215ccd7",
+      "titleZh": "Listen Labs 拆解预测式营销信息测试的 7 种方法与对应指标",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文拆解 7 种预测式营销信息测试方法，并说明各自评分方式与失效边界。文中以 Listen Twins 数字孪生预筛为例，称其基于 1 位真实受访者的访谈构建，可在数秒返回 100+ 条预测答案；文章还引用 Pew 研究指出合成民调平均绝对误差为 11–13 个百分点。文章列出理解度、可信度、差异化和行动意愿四项指标，并指出基于人物画像的预测只具方向性，应作为待检验假设而非最终结论。",
+      "reason": "文章逐一拆解七种预测式营销信息测试方法，并对照其评分指标与失效边界，便于团队判断不同方法的适用场景。",
+      "category": "methods",
+      "categoryLabel": "方法",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/predictive-message-testing-examples/",
+      "publishedAt": "2026-10-27T05:40:34+00:00",
+      "avgScore": 43.5,
+      "importance": 43.5,
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究"
+      ],
+      "relatedIds": []
+    }
+  ],
+  "sections": [
+    {
+      "key": "methods",
+      "label": "方法",
+      "items": [
+        {
+          "id": "d887cd2ca73d5cf0",
+          "titleZh": "Listen Labs 如何用六步诊断流程和 AI 主持访谈查明 NPS 下滑原因",
+          "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布一份六步诊断指南，讲解如何用 AI 主持访谈查明 NPS 下滑的原因。文中指出只有约 10% 的 NPS 受访者会留下开放题文本，一轮 5000 账户、12–25% 回收率的调研可能只收到 60–150 条评论，且 30% 以上回答只有一两个词时应视为问卷设计问题而非分析问题。Listen Labs 的做法是从 50M+ 核实样本网络中招募贬损者，在 45+ 国家、120+ 语言开展自适应 AI 主持访谈，24 小时内交付可追溯到具体受访者、原话和视频片段的结论，并可通过 Listen Labs Pulse 对接 Qualtrics、Decipher 等现有 NPS 工具。",
+          "reason": "文中六步诊断流程把 NPS 下滑拆到人群与时间线，并指出仅靠开放题文本聚类难以定位原因。",
+          "category": "methods",
+          "categoryLabel": "方法",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/best-ai-tools-nps-drop/",
+          "publishedAt": "2026-10-27T06:16:33+00:00",
+          "avgScore": 41.0,
+          "importance": 41.0,
+          "tags": [
+            "方法/实践",
+            "AI 访谈",
+            "文本分析/VOC",
+            "定性分析",
+            "Qualtrics"
+          ],
+          "relatedIds": []
+        }
+      ]
+    }
+  ],
+  "briefs": []
+}

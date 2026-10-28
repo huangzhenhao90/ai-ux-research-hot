@@ -1,5 +1,5 @@
 {
-  "count": 538,
+  "count": 539,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -3986,6 +3986,18 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
       "publishedAt": "2025-11-24T12:14:05+00:00"
+    },
+    {
+      "id": "0b19cdef0d8704b0",
+      "title": "Testing",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Reddit r/UXResearch",
+      "url": "https://www.reddit.com/r/UXResearch/comments/1xhew5k/testing/",
+      "publishedAt": "2026-10-28T04:45:44+00:00"
     },
     {
       "id": "43581a16412ce77b",
