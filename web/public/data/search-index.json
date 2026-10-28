@@ -1,5 +1,5 @@
 {
-  "count": 539,
+  "count": 546,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -3988,6 +3988,66 @@
       "publishedAt": "2025-11-24T12:14:05+00:00"
     },
     {
+      "id": "70a5bbcfdf83daac",
+      "title": "How To Measure Emotional Response To Ads: Methods Guide",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/measure-emotional-response-to-ads/",
+      "publishedAt": "2026-10-28T05:10:56+00:00"
+    },
+    {
+      "id": "513d0bb28edb882c",
+      "title": "Synthetic Respondent Platforms: How To Evaluate And Choose",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/",
+      "publishedAt": "2026-10-28T05:10:50+00:00"
+    },
+    {
+      "id": "dda520eafe7335c0",
+      "title": "AI Persona Simulator for Ad Testing: Which Tools Work",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-persona-simulators-ad-testing/",
+      "publishedAt": "2026-10-28T05:10:43+00:00"
+    },
+    {
+      "id": "4d7c2b7e72ec3ae5",
+      "title": "B2B Message Testing Tools: Which Method & Vendor to Pick",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-b2b-message-testing-tools/",
+      "publishedAt": "2026-10-28T05:09:02+00:00"
+    },
+    {
+      "id": "f32456e952ae77d3",
+      "title": "Digital Twin Message Testing: 8 Named Cases And What Changed",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/digital-twin-message-testing-examples/",
+      "publishedAt": "2026-10-28T05:08:53+00:00"
+    },
+    {
       "id": "0b19cdef0d8704b0",
       "title": "Testing",
       "titleZh": null,
@@ -4010,6 +4070,30 @@
       "sourceName": "Reddit r/UXResearch",
       "url": "https://www.reddit.com/r/UXResearch/comments/1xhaydt/are_ux_researchers_still_needed_what_with_ai/",
       "publishedAt": "2026-10-28T01:26:09+00:00"
+    },
+    {
+      "id": "eaaecea558d7a002",
+      "title": "An adaptive spatio-temporal cross-modal learning with directional causal fusion for explainable multimodal depression detection",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Frontiers in Computer Science",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1948529",
+      "publishedAt": "2026-10-28T00:00:00+00:00"
+    },
+    {
+      "id": "0e578128900f33bb",
+      "title": "We let AI interview UX researchers and designers: Here’s what it taught us about designing conversational AI",
+      "titleZh": null,
+      "summaryZh": null,
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Optimal Workshop Blog",
+      "url": "https://www.optimalworkshop.com/blog/ai-interviews-ux-researchers-designers",
+      "publishedAt": "2026-10-27T16:00:00+00:00"
     },
     {
       "id": "14b6c8aeeab552ae",

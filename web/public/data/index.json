@@ -1,14 +1,12 @@
 {
-  "generatedAt": "2026-10-28T05:02:12.762021+00:00",
+  "generatedAt": "2026-10-28T07:19:26.672389+00:00",
   "counts": {
-    "public": 539,
+    "public": 546,
     "selected": 64,
     "months": 33,
     "categories": 6,
     "topics": 24,
-    "searchIndex": 539,
-    "dailyReports": 10,
-    "weeklyReports": 4
+    "searchIndex": 546
   },
   "months": [
     "2026-10",
