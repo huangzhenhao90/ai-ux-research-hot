@@ -9,15 +9,13 @@
 2. **BLOCK 与 UNKNOWN 不公开**（`Item.is_public`），在写入前就过滤掉；`validate.py`
    再兜一次底，两道都拦。
 
-时间：内部一律 UTC，输出 ISO 8601 带时区。「天」按 `site.timezone` 的**出刊日**切分
-（日报 08:00 出刊，所以 10-21 那一期覆盖 10-20 08:00 – 10-21 08:00），这样首页分组、
-日报窗口、RSS 分日三处口径一致，不会出现同一条内容今天在首页、明天又在日报里。
+时间：内部一律 UTC，输出 ISO 8601 带时区。`latest.json` 的「天」按 `site.timezone` 的
+**出刊日**切分（08:00 分界，所以 10-21 那一期覆盖 10-20 08:00 – 10-21 08:00）。
 """
 
 from __future__ import annotations
 
 import json
-import re
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Callable, Iterable
@@ -30,7 +28,6 @@ from uxhot.models import Item, month_key
 # 发布根目录（与 rss.xml / llms.txt 同级）
 PUBLIC_DIR = REPO_ROOT / "web" / "public"
 DATA_DIRNAME = "data"
-REPORTS_DIR = REPO_ROOT / "data" / "reports"
 
 # 首页「近 3 天精选」
 LATEST_WINDOW_DAYS = 3
@@ -117,8 +114,7 @@ def edition_day(dt: datetime, tz, hour: int = DEFAULT_EDITION_HOUR) -> date:
     例（北京时间、hour=8）：10-21 07:00 落在窗口 [10-20 08:00, 10-21 08:00) → **10-21 期**；
     10-21 09:00 落在窗口 [10-21 08:00, 10-22 08:00) → **10-22 期**。
 
-    ⚠️ 这里必须与报告层一致：`uxhot/report/daily.py` 的 `date` 就是出刊日，
-    窗口为 `day_bounds_bj(date - 1 天)`。算错一天会让首页分组与 /daily/<date>/ 对不上。
+    ⚠️ 必须与 `uxhot/collect/dates.py` 的出刊窗口一致，算错一天会让条目落进错的一期。
     """
     return (dt.astimezone(tz) + timedelta(hours=24 - hour)).date()
 
@@ -280,112 +276,6 @@ def topic_items(topic, public_items: list[Item], config: ConfigBundle) -> list[I
     return out
 
 
-# ── 报告透传 ───────────────────────────────────────────────────────────
-
-
-def _guess_count(doc: Any, kind: str) -> int | None:
-    """从报告 JSON 里取条目数，取不到就给 None（不编数字）。
-
-    按 `docs/report-schema.md`：日报看 `stats.selectedCount`，周报看 `stats.itemCount`；
-    再兜底认几个同义键，最后才数数组。报告 schema 归 `report/` 模块，这里只读不算。
-    """
-    if not isinstance(doc, dict):
-        return None
-    stats = doc.get("stats")
-    if isinstance(stats, dict):
-        key = "selectedCount" if kind == "daily" else "itemCount"
-        value = stats.get(key)
-        if isinstance(value, int) and not isinstance(value, bool):
-            return value
-    for key in ("count", "itemCount", "total"):
-        value = doc.get(key)
-        if isinstance(value, int) and not isinstance(value, bool):
-            return value
-    for key in ("items", "entries"):
-        value = doc.get(key)
-        if isinstance(value, list):
-            return len(value)
-    return None
-
-
-def _guess_title(doc: Any) -> str | None:
-    if isinstance(doc, dict):
-        title = doc.get("title")
-        if isinstance(title, str) and title.strip():
-            return title.strip()
-    return None
-
-
-def copy_reports(
-    reports_dir: Path | None,
-    data_dir: Path,
-    *,
-    site_url: str,
-    stamp: str,
-) -> dict[str, int]:
-    """把日报/周报 JSON 原样搬进公开目录，并生成索引。
-
-    为什么透传而不是重排字段：报告的 schema 归 `report/` 模块所有，publish 只负责
-    「公开边界」——能不能解析、有没有夹带 body、文件名是不是日期。这样报告改版
-    不会连带改发布层。索引里的 `count`/`title` 取不到就给 null。
-    """
-    counts: dict[str, int] = {}
-    for kind, key, path_seg in (("daily", "date", "daily"), ("weekly", "week", "weekly")):
-        out_dir = data_dir / "reports" / path_seg
-        out_dir.mkdir(parents=True, exist_ok=True)
-        entries: list[dict[str, Any]] = []
-        src_dir = (reports_dir / path_seg) if reports_dir is not None else None
-        if src_dir is not None and src_dir.is_dir():
-            for src in sorted(src_dir.glob("*.json")):
-                if src.name == "index.json" or src.name.startswith("."):
-                    continue
-                name = src.stem
-                if not _report_name_ok(name, kind):
-                    # 非报告文件（临时文件、别的产物）不进公开目录
-                    continue
-                try:
-                    doc = json.loads(src.read_text(encoding="utf-8"))
-                except (OSError, json.JSONDecodeError):
-                    # 解析不了的报告由校验层报错，这里照搬原文，让问题暴露而不是被吞
-                    out_dir.joinpath(src.name).write_bytes(src.read_bytes())
-                    entries.append(_report_entry(key, name, site_url, None, None))
-                    continue
-                out_dir.joinpath(src.name).write_text(
-                    json.dumps(doc, **_JSON_KWARGS) + "\n", encoding="utf-8"
-                )
-                entries.append(
-                    _report_entry(
-                        key, name, site_url, _guess_count(doc, kind), _guess_title(doc)
-                    )
-                )
-        entries.sort(key=lambda e: e[key], reverse=True)
-        write_json(
-            out_dir / "index.json",
-            {"generatedAt": stamp, "kind": kind, "count": len(entries), "entries": entries},
-        )
-        counts[kind] = len(entries)
-    return counts
-
-
-def _report_name_ok(name: str, kind: str) -> bool:
-    """报告文件名必须是日期/周号，别的东西（临时文件、别的产物）不进公开目录。"""
-    pattern = r"\d{4}-\d{2}-\d{2}" if kind == "daily" else r"\d{4}-W\d{2}"
-    return re.fullmatch(pattern, name) is not None
-
-
-def _report_entry(
-    key: str, name: str, site_url: str, count: int | None, title: str | None
-) -> dict[str, Any]:
-    """索引项。url 是站点上的页面地址（带尾斜杠，前端 trailingSlash 约定）。"""
-    segment = "daily" if key == "date" else "weekly"
-    return {
-        key: name,
-        "url": f"{site_url.rstrip('/')}/{segment}/{name}/",
-        "count": count,
-        "title": title,
-    }
-
-
 # ── 主入口 ─────────────────────────────────────────────────────────────
 
 
@@ -394,7 +284,6 @@ def build_site_data(
     config: ConfigBundle,
     out_dir: Path,
     *,
-    reports_dir: Path | None = None,
     now: datetime | None = None,
 ) -> dict[str, int]:
     """写出 `web/public/data/` 全套 JSON，返回写入数量统计。
@@ -586,14 +475,6 @@ def build_site_data(
         {"count": len(search_items), "items": search_items},
     )
 
-    # ── reports/：report 模块的产物透传 ────────────────────────────────
-    report_counts = copy_reports(
-        reports_dir if reports_dir is not None else REPORTS_DIR,
-        data_dir,
-        site_url=site.siteUrl,
-        stamp=stamp,
-    )
-
     # ── data/index.json：清单，前端不必猜有哪些文件 ─────────────────────
     counts = {
         "public": len(public_items),
@@ -602,8 +483,6 @@ def build_site_data(
         "categories": len(category_index),
         "topics": len(topic_index),
         "searchIndex": len(search_items),
-        "dailyReports": report_counts["daily"],
-        "weeklyReports": report_counts["weekly"],
     }
     write_json(
         data_dir / "index.json",

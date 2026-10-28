@@ -136,20 +136,6 @@ def _apply_overrides(items: list[Item], ctx: StepContext) -> None:
                 item.category = entry.get("category") or item.category
                 item.errors.append(f"override: 人工改分类为 {item.category}")
 
-
-def pinned_order(items: list[Item], ctx: StepContext) -> dict[str, int]:
-    """置顶顺序：{item_id: order}，供日报排序使用。"""
-    out: dict[str, int] = {}
-    for entry in ctx.cfg.overrides.pin:
-        order = entry.get("order")
-        if not isinstance(order, int):
-            continue
-        for item in items:
-            if _match_override(item, entry):
-                out[item.id] = order
-    return out
-
-
 def summary(items: list[Item]) -> dict[str, int]:
     return {
         "selected": sum(1 for i in items if i.status is Status.SELECTED),

@@ -15,13 +15,10 @@ EXPECTED_DIRS = [
     "uxhot",
     "uxhot/collect",
     "uxhot/pipeline",
-    "uxhot/report",
     "uxhot/publish",
     "scripts",
     "data/state",
     "data/items",
-    "data/reports/daily",
-    "data/reports/weekly",
     "data/runs",
     "web",
     "eval",
@@ -69,6 +66,5 @@ def test_python_package_importable() -> None:
     import uxhot.collect
     import uxhot.pipeline
     import uxhot.publish
-    import uxhot.report
 
     assert uxhot is not None

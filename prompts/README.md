@@ -53,19 +53,19 @@ commit `a0d1e75`）的 `industry/prompts/`，按「AI × 用户研究」行业�
 | `summarize-article-empty.md` | `industry/prompts/summarize-article-empty.md` | 原样移植 |
 | `summarize-short-post.md` | `industry/prompts/summarize-short-post.md` | 保留翻译任务与 10–15 字标题；**新增**一条用研语境的「优先保留」（AIHOT 原文件没有这条，它在 `summarize-long-post.md` 里） |
 | `translate-body.md` | `industry/prompts/translate-body.md` | 基本照搬；角色改为「用户研究 / 科技新闻译者」 |
-| `report-period.md` | `industry/prompts/report-period.md` | 基本照搬；「公司、产品、工具和人名照条目写」 |
 
 ### 未移植
 
 `group-batch.md`、`group-signal.md`、`story-digest.md`、`identity-context.md`、`mend-wording.md`、
-`summarize-long-post*.md`、`report-period-sections.md`、`report-period-no-sections.md`、
-`translate-post.md` —— 对应功能一期不做（事件聚簇、综述、热榜、X 帖子）。
+`summarize-long-post*.md`、`report-period.md`、`report-period-sections.md`、`report-period-no-sections.md`、
+`translate-post.md` —— 对应功能不做（事件聚簇、综述、周报总述、热榜、X 帖子）。
+`report-period.md` 曾用于周报总述，周报去掉后一并删除（D14）。
 
 ## 测试
 
 `tests/test_prompts.py` 守住这些契约：
 
-- 18 份提示词全部能 strict 渲染，无残留占位符、无未知引用；
+- 17 份提示词全部能 strict 渲染，无残留占位符、无未知引用；
 - 渲染器会拦循环引用、缺失文件、未知占位符、未赋值占位符（负例证明）；
 - 提示词里不出现 AIHOT 名字、不夹带 HTML 注释；
 - 计划 §4 的 grep：`OpenAI` / `Anthropic` / `model_release` / `模型发布` 只允许出现在

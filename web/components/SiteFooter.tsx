@@ -7,22 +7,13 @@ export function SiteFooter() {
 
   return (
     <footer className="site-footer">
-      <div className="wrap">
-        <div className="site-footer__row">
-          <span>
-            {site.name} · {site.alias}
-          </span>
-          <span aria-hidden="true">·</span>
-          <Link href="/about/">关于</Link>
-          <Link href="/about/#sources">信源</Link>
-          <a href={`${site.basePath}/rss.xml`}>RSS</a>
-        </div>
-        <div className="site-footer__row">
-          <span>
-            信源内容版权归各发布方所有，本站只展示摘要与原文链接。
-          </span>
-        </div>
-      </div>
+      <span>
+        {site.name} · {site.alias}
+      </span>
+      <Link href="/about/">关于</Link>
+      <Link href="/about/#sources">信源</Link>
+      <a href={`${site.basePath}/rss.xml`}>RSS</a>
+      <span>信源内容版权归各发布方所有，本站只展示摘要与原文链接。</span>
     </footer>
   );
 }

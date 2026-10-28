@@ -1,10 +1,11 @@
+import { PhoneBar, Sidebar } from "./Sidebar";
 import { SiteFooter } from "./SiteFooter";
-import { SiteHeader } from "./SiteHeader";
 
 /**
- * 页面外壳：站头 + 主区 + 站脚。
+ * 页面外壳：桌面左侧栏 + 主区；手机上侧栏收成顶栏。
  *
  * `current` 用于高亮导航，传路由路径（如 `/all/`）。
+ * `narrow` 用于详情、关于这类以阅读为主的页面。
  */
 export function PageShell({
   current,
@@ -16,10 +17,13 @@ export function PageShell({
   narrow?: boolean;
 }) {
   return (
-    <>
-      <SiteHeader current={current} />
-      <main className={narrow ? "wrap wrap-narrow" : "wrap"}>{children}</main>
-      <SiteFooter />
-    </>
+    <div className="shell">
+      <Sidebar current={current} />
+      <div className="shell__main">
+        <PhoneBar current={current} />
+        <main className={narrow ? "main main--narrow" : "main"}>{children}</main>
+        <SiteFooter />
+      </div>
+    </div>
   );
 }

@@ -3,7 +3,7 @@
 四个模块各管一件事：
 
 - `build_site_data`：`web/public/data/` 下的全套 JSON（只放公开字段白名单）
-- `rss_out`：`web/public/rss.xml`（精选）与 `rss-daily.xml`（按天）
+- `rss_out`：`web/public/rss.xml`（精选）
 - `llms_txt`：`web/public/llms.txt`
 - `validate`：产物校验 + 「先写临时目录、校验通过才替换」的原子发布
 
@@ -27,10 +27,8 @@ from uxhot.publish.build_site_data import (
 )
 from uxhot.publish.llms_txt import build_llms_txt, write_llms_txt
 from uxhot.publish.rss_out import (
-    RSS_DAILY_FILE,
     RSS_FILE,
     build_rss,
-    build_rss_daily,
     write_rss_files,
 )
 from uxhot.publish.validate import (
@@ -45,7 +43,6 @@ __all__ = [
     # 构建
     "build_site_data",
     "build_rss",
-    "build_rss_daily",
     "build_llms_txt",
     "write_rss_files",
     "write_llms_txt",
@@ -60,7 +57,6 @@ __all__ = [
     "DETAIL_EXTRA_FIELDS",
     "PUBLIC_DIR",
     "RSS_FILE",
-    "RSS_DAILY_FILE",
     # 小工具（测试与调用方都用得上）
     "iso_utc",
     "public_item",

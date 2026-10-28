@@ -3,7 +3,7 @@
 测试全部用 `tests/fixtures/publish_items.py` 的假条目，不抓网络、不调模型。
 重点不在「函数能跑」，而在几条**必须为真**的规则：
 
-- 产物里不许出现 `body`（含报告透传进来的文件）
+- 产物里不许出现 `body`
 - BLOCK / UNKNOWN 不公开
 - 无重复 id、同一 id 在各文件里内容一致
 - 精选缺 titleZh / summaryZh、链接不是 http(s)、日期没时区 → 整次发布失败
@@ -22,13 +22,10 @@ import pytest
 from tests.fixtures.publish_items import (
     NOW,
     SECRET_BODY,
-    daily_report,
     id_of,
     make_item,
     sample_items,
     url_of,
-    weekly_report,
-    write_reports,
 )
 from uxhot.config import load_config
 from uxhot.models import Status
@@ -59,24 +56,8 @@ def public_dir(tmp_path: Path) -> Path:
 
 
 @pytest.fixture()
-def reports_dir(tmp_path: Path) -> Path:
-    return write_reports(tmp_path / "data" / "reports")
-
-
-@pytest.fixture()
-def empty_reports(tmp_path: Path) -> Path:
-    """还没有报告时的样子（只有空目录）。"""
-    target = tmp_path / "data" / "reports"
-    (target / "daily").mkdir(parents=True, exist_ok=True)
-    (target / "weekly").mkdir(parents=True, exist_ok=True)
-    return target
-
-
-@pytest.fixture()
-def published(cfg, public_dir: Path, reports_dir: Path) -> Path:
-    build_and_validate(
-        sample_items(), cfg, public_dir=public_dir, reports_dir=reports_dir, now=NOW
-    )
+def published(cfg, public_dir: Path) -> Path:
+    build_and_validate(sample_items(), cfg, public_dir=public_dir, now=NOW)
     return public_dir
 
 
@@ -153,8 +134,6 @@ def test_item_fields_stay_inside_whitelist(published: Path) -> None:
     checked = 0
     for path in sorted(published.rglob("*.json")):
         rel = path.relative_to(published).as_posix()
-        if rel.startswith("data/reports/"):
-            continue  # 报告 schema 归 report/ 模块
         for node in iter_dicts(load_json(path)):
             if "status" not in node:
                 continue  # 只有条目对象带 status
@@ -165,10 +144,10 @@ def test_item_fields_stay_inside_whitelist(published: Path) -> None:
     assert checked > 0, "没检查到任何条目，测试本身失效了"
 
 
-def test_avg_score_only_when_show_score(cfg, public_dir: Path, empty_reports: Path) -> None:
+def test_avg_score_only_when_show_score(cfg, public_dir: Path) -> None:
     """真实配置 showScore=false → 产物里没有 avgScore；打开后才有。"""
     build_and_validate(
-        sample_items(), cfg, public_dir=public_dir, reports_dir=empty_reports, now=NOW
+        sample_items(), cfg, public_dir=public_dir, now=NOW
     )
     assert cfg.site.showScore is False
     doc = load_json(public_dir / "data" / "all" / "2026-10.json")
@@ -176,7 +155,7 @@ def test_avg_score_only_when_show_score(cfg, public_dir: Path, empty_reports: Pa
 
     loud = cfg.model_copy(update={"site": cfg.site.model_copy(update={"showScore": True})})
     other = public_dir.parent / "public-with-score"
-    build_and_validate(sample_items(), loud, public_dir=other, reports_dir=empty_reports, now=NOW)
+    build_and_validate(sample_items(), loud, public_dir=other, now=NOW)
     scored = load_json(other / "data" / "all" / "2026-10.json")["items"]
     assert any(item["avgScore"] is not None for item in scored)
 
@@ -286,8 +265,6 @@ def test_data_manifest_counts(published: Path) -> None:
         "categories": 6,
         "topics": 24,
         "searchIndex": 6,
-        "dailyReports": 2,
-        "weeklyReports": 1,
     }
     assert doc["months"] == ["2026-10"]
     assert doc["latestDays"] == ["2026-10-22", "2026-10-21", "2026-10-20"]
@@ -335,8 +312,6 @@ def test_publish_has_no_duplicate_ids(published: Path) -> None:
     assert validate_publish_dir(published) == []
     for path in sorted(published.rglob("*.json")):
         rel = path.relative_to(published).as_posix()
-        if rel.startswith("data/reports/"):
-            continue
         seen: list[str] = []
         for node in iter_dicts(load_json(path)):
             value = node.get("id")
@@ -408,42 +383,42 @@ def test_missing_required_file_is_detected(published: Path) -> None:
 # ── 校验拦截：发布必须整体失败 ──────────────────────────────────────────
 
 
-def test_selected_without_title_zh_fails_publish(cfg, public_dir: Path, empty_reports: Path) -> None:
+def test_selected_without_title_zh_fails_publish(cfg, public_dir: Path) -> None:
     items = [make_item(1, titleZh=None), make_item(2)]
     with pytest.raises(PublishError) as excinfo:
-        build_and_validate(items, cfg, public_dir=public_dir, reports_dir=empty_reports, now=NOW)
+        build_and_validate(items, cfg, public_dir=public_dir, now=NOW)
     assert any("titleZh" in p for p in excinfo.value.problems)
 
 
 def test_selected_without_summary_zh_fails_publish(
-    cfg, public_dir: Path, empty_reports: Path
+    cfg, public_dir: Path
 ) -> None:
     items = [make_item(1, summaryZh="   ")]
     with pytest.raises(PublishError) as excinfo:
-        build_and_validate(items, cfg, public_dir=public_dir, reports_dir=empty_reports, now=NOW)
+        build_and_validate(items, cfg, public_dir=public_dir, now=NOW)
     assert any("summaryZh" in p for p in excinfo.value.problems)
 
 
-def test_non_http_link_fails_publish(cfg, public_dir: Path, empty_reports: Path) -> None:
+def test_non_http_link_fails_publish(cfg, public_dir: Path) -> None:
     items = [make_item(1, url="ftp://example.com/post-1")]
     with pytest.raises(PublishError) as excinfo:
-        build_and_validate(items, cfg, public_dir=public_dir, reports_dir=empty_reports, now=NOW)
+        build_and_validate(items, cfg, public_dir=public_dir, now=NOW)
     assert any("http(s)" in p for p in excinfo.value.problems)
 
 
-def test_javascript_url_fails_publish(cfg, public_dir: Path, empty_reports: Path) -> None:
+def test_javascript_url_fails_publish(cfg, public_dir: Path) -> None:
     items = [make_item(1, url="javascript:alert(1)")]
     with pytest.raises(PublishError) as excinfo:
-        build_and_validate(items, cfg, public_dir=public_dir, reports_dir=empty_reports, now=NOW)
+        build_and_validate(items, cfg, public_dir=public_dir, now=NOW)
     assert any("http(s)" in p for p in excinfo.value.problems)
 
 
 def test_validation_failure_keeps_previous_version(
-    cfg, public_dir: Path, reports_dir: Path
+    cfg, public_dir: Path
 ) -> None:
     """核心要求：跑一次会失败的发布，旧数据必须原样还在。"""
     build_and_validate(
-        sample_items(), cfg, public_dir=public_dir, reports_dir=reports_dir, now=NOW
+        sample_items(), cfg, public_dir=public_dir, now=NOW
     )
     (public_dir / "KEEP-ME.txt").write_text("上一版留下的文件", encoding="utf-8")
     before = snapshot(public_dir)
@@ -455,7 +430,7 @@ def test_validation_failure_keeps_previous_version(
     ]
     with pytest.raises(PublishError) as excinfo:
         build_and_validate(
-            broken, cfg, public_dir=public_dir, reports_dir=reports_dir, now=NOW
+            broken, cfg, public_dir=public_dir, now=NOW
         )
     assert any("http(s)" in p for p in excinfo.value.problems)
     assert any("titleZh" in p for p in excinfo.value.problems)
@@ -465,11 +440,11 @@ def test_validation_failure_keeps_previous_version(
     assert not list(public_dir.parent.glob(".publish-stage-*")), "临时目录没清干净"
 
 
-def test_first_publish_into_missing_dir_works(cfg, tmp_path: Path, empty_reports: Path) -> None:
+def test_first_publish_into_missing_dir_works(cfg, tmp_path: Path) -> None:
     """第一次发布时正式目录还不存在，也要能落位。"""
     target = tmp_path / "web" / "public"
     result = build_and_validate(
-        sample_items(), cfg, public_dir=target, reports_dir=empty_reports, now=NOW
+        sample_items(), cfg, public_dir=target, now=NOW
     )
     assert result.replaced is False
     assert (target / "data" / "latest.json").is_file()
@@ -477,18 +452,26 @@ def test_first_publish_into_missing_dir_works(cfg, tmp_path: Path, empty_reports
 
 
 def test_successful_publish_replaces_previous_and_drops_stale_files(
-    cfg, public_dir: Path, empty_reports: Path
+    cfg, public_dir: Path
 ) -> None:
     build_and_validate(
-        sample_items(), cfg, public_dir=public_dir, reports_dir=empty_reports, now=NOW
+        sample_items(), cfg, public_dir=public_dir, now=NOW
     )
     stale = public_dir / "data" / "obsolete.json"
     stale.write_text("{}", encoding="utf-8")
     result = build_and_validate(
-        sample_items(), cfg, public_dir=public_dir, reports_dir=empty_reports, now=NOW
+        sample_items(), cfg, public_dir=public_dir, now=NOW
     )
     assert result.replaced is True
     assert not stale.exists(), "整体替换后不该留下上一版的孤儿文件"
+
+
+def test_no_report_artifacts_are_published(published: Path) -> None:
+    """日报、周报已去掉（D14）：产物里不该再有报告目录或日报 RSS。"""
+    assert not (published / "data" / "reports").exists()
+    assert not (published / "rss-daily.xml").exists()
+    llms = (published / "llms.txt").read_text(encoding="utf-8")
+    assert "/daily/" not in llms and "/weekly/" not in llms
 
 
 def test_validate_reports_missing_dir(tmp_path: Path) -> None:
@@ -496,12 +479,12 @@ def test_validate_reports_missing_dir(tmp_path: Path) -> None:
     assert problems and "不存在" in problems[0]
 
 
-def test_publish_is_deterministic(cfg, tmp_path: Path, empty_reports: Path) -> None:
+def test_publish_is_deterministic(cfg, tmp_path: Path) -> None:
     """同样的输入与 now 必须产出逐字节相同的结果（顺序抖动会让 CI 反复提交）。"""
     first = tmp_path / "a"
     second = tmp_path / "b"
-    build_and_validate(sample_items(), cfg, public_dir=first, reports_dir=empty_reports, now=NOW)
-    build_and_validate(sample_items(), cfg, public_dir=second, reports_dir=empty_reports, now=NOW)
+    build_and_validate(sample_items(), cfg, public_dir=first, now=NOW)
+    build_and_validate(sample_items(), cfg, public_dir=second, now=NOW)
     assert snapshot(first) == snapshot(second)
 
 
@@ -518,110 +501,6 @@ def test_publish_atomic_passes_through_build_counts(tmp_path: Path) -> None:
     assert result.replaced is False
     assert (tmp_path / "out" / "hello.txt").read_text(encoding="utf-8") == "hi"
     assert len(calls) == 1
-
-
-# ── 报告透传与契约校验 ─────────────────────────────────────────────────
-
-
-def test_reports_are_passed_through_unchanged(published: Path, reports_dir: Path) -> None:
-    source = load_json(reports_dir / "daily" / "2026-10-21.json")
-    copied = load_json(published / "data" / "reports" / "daily" / "2026-10-21.json")
-    assert copied == source
-    assert load_json(published / "data" / "reports" / "weekly" / "2026-W43.json") == weekly_report()
-
-
-def test_report_index_is_sorted_with_urls_and_counts(published: Path) -> None:
-    daily = load_json(published / "data" / "reports" / "daily" / "index.json")
-    assert daily["kind"] == "daily"
-    assert daily["count"] == 2
-    assert [entry["date"] for entry in daily["entries"]] == ["2026-10-21", "2026-10-20"]
-    first = daily["entries"][0]
-    assert first["url"] == f"{SITE_URL}/daily/2026-10-21/"
-    assert first["count"] == 3  # 取 stats.selectedCount
-    assert first["title"] is None
-    assert daily["entries"][1]["count"] == 0  # 空刊
-
-    weekly = load_json(published / "data" / "reports" / "weekly" / "index.json")
-    assert [entry["week"] for entry in weekly["entries"]] == ["2026-W43"]
-    assert weekly["entries"][0]["url"] == f"{SITE_URL}/weekly/2026-W43/"
-    assert weekly["entries"][0]["count"] == 12  # 取 stats.itemCount
-
-
-def test_empty_reports_dir_still_publishes(cfg, public_dir: Path, empty_reports: Path) -> None:
-    result = build_and_validate(
-        sample_items(), cfg, public_dir=public_dir, reports_dir=empty_reports, now=NOW
-    )
-    assert result.counts["dailyReports"] == 0
-    index = load_json(public_dir / "data" / "reports" / "daily" / "index.json")
-    assert index["entries"] == []
-
-
-def test_report_with_body_is_rejected(cfg, public_dir: Path, reports_dir: Path) -> None:
-    """报告透传文件里夹带 body 也要挡住（Lead 明确要求）。"""
-    path = reports_dir / "daily" / "2026-10-21.json"
-    doc = load_json(path)
-    doc["headline"]["body"] = "原文全文"
-    path.write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
-    with pytest.raises(PublishError) as excinfo:
-        build_and_validate(
-            sample_items(), cfg, public_dir=public_dir, reports_dir=reports_dir, now=NOW
-        )
-    assert any("body" in p for p in excinfo.value.problems)
-
-
-def test_daily_report_without_headline_when_not_empty_is_rejected(
-    cfg, public_dir: Path, reports_dir: Path
-) -> None:
-    path = reports_dir / "daily" / "2026-10-21.json"
-    doc = load_json(path)
-    doc["empty"] = False
-    doc["headline"] = None
-    path.write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
-    with pytest.raises(PublishError) as excinfo:
-        build_and_validate(
-            sample_items(), cfg, public_dir=public_dir, reports_dir=reports_dir, now=NOW
-        )
-    assert any("headline" in p for p in excinfo.value.problems)
-
-
-def test_report_with_wrong_kind_is_rejected(cfg, public_dir: Path, reports_dir: Path) -> None:
-    path = reports_dir / "daily" / "2026-10-21.json"
-    doc = load_json(path)
-    doc["kind"] = "weekly"
-    path.write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
-    with pytest.raises(PublishError) as excinfo:
-        build_and_validate(
-            sample_items(), cfg, public_dir=public_dir, reports_dir=reports_dir, now=NOW
-        )
-    assert any("kind" in p for p in excinfo.value.problems)
-
-
-def test_weekly_overview_source_must_be_known(cfg, public_dir: Path, reports_dir: Path) -> None:
-    path = reports_dir / "weekly" / "2026-W43.json"
-    doc = load_json(path)
-    doc["overviewSource"] = "llm"
-    path.write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
-    with pytest.raises(PublishError) as excinfo:
-        build_and_validate(
-            sample_items(), cfg, public_dir=public_dir, reports_dir=reports_dir, now=NOW
-        )
-    assert any("overviewSource" in p for p in excinfo.value.problems)
-
-
-def test_report_index_entry_without_file_is_rejected(published: Path) -> None:
-    path = published / "data" / "reports" / "daily" / "index.json"
-    doc = load_json(path)
-    doc["entries"].append({"date": "2026-10-19", "url": f"{SITE_URL}/daily/2026-10-19/", "count": 1, "title": None})
-    path.write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
-    problems = validate_publish_dir(published)
-    assert any("2026-10-19" in p for p in problems), problems
-
-
-def test_report_file_missing_from_index_is_rejected(published: Path) -> None:
-    stray = published / "data" / "reports" / "daily" / "2026-10-18.json"
-    stray.write_text(json.dumps(daily_report("2026-10-18"), ensure_ascii=False), encoding="utf-8")
-    problems = validate_publish_dir(published)
-    assert any("2026-10-18" in p for p in problems), problems
 
 
 # ── RSS ────────────────────────────────────────────────────────────────
@@ -642,37 +521,7 @@ def test_rss_parses_and_has_one_entry_per_selected(published: Path) -> None:
     assert feed.feed.link == SITE_URL
 
 
-def test_rss_daily_only_links_to_reports_that_exist(published: Path) -> None:
-    """日报 feed 里每个链接都必须有对应页面 —— 不能指向没出过的期。
-
-    曾经的实现是「从 Item 推」，于是有入选条目但没出过日报的日子也会发出去。
-    实测过一次：37 条 item 里 32 条指向不存在的 `/daily/<date>/`，
-    RSS 阅读器点进去全是死链。现在只发真的写进产物里的那几期。
-    """
-    feed = feedparser.parse((published / "rss-daily.xml").read_text(encoding="utf-8"))
-    assert not feed.bozo, getattr(feed, "bozo_exception", None)
-
-    # 夹具里只写了 10-21 与 10-20 两期日报
-    report_dates = {
-        path.stem
-        for path in (published / "data" / "reports" / "daily").glob("*.json")
-        if path.name != "index.json"
-    }
-    assert report_dates == {"2026-10-20", "2026-10-21"}
-
-    linked = {entry.link.rstrip("/").split("/")[-1] for entry in feed.entries}
-    assert linked == report_dates, "feed 里只能有真的出过的那几期"
-    assert "2026-10-22" not in linked, "10-22 有入选条目但没出日报，不该出现在 feed 里"
-
-    # 每条链接都要能对上产物里的日报文件
-    for entry in feed.entries:
-        date = entry.link.rstrip("/").split("/")[-1]
-        assert (published / "data" / "reports" / "daily" / f"{date}.json").is_file(), (
-            f"{entry.link} 指向的日报不存在"
-        )
-
-
-def test_rss_is_well_formed_and_escaped(cfg, public_dir: Path, empty_reports: Path) -> None:
+def test_rss_is_well_formed_and_escaped(cfg, public_dir: Path) -> None:
     """标题里的 & < > 必须转义，否则阅读器直接解析失败。"""
     items = [
         make_item(
@@ -682,7 +531,7 @@ def test_rss_is_well_formed_and_escaped(cfg, public_dir: Path, empty_reports: Pa
             summaryZh="摘要里有 <b>HTML</b> 与 & 符号",
         )
     ]
-    build_and_validate(items, cfg, public_dir=public_dir, reports_dir=empty_reports, now=NOW)
+    build_and_validate(items, cfg, public_dir=public_dir, now=NOW)
     text = (public_dir / "rss.xml").read_text(encoding="utf-8")
     assert "&amp;" in text
     assert "<script>" not in text  # 原始尖括号绝不能进 XML
@@ -693,13 +542,12 @@ def test_rss_is_well_formed_and_escaped(cfg, public_dir: Path, empty_reports: Pa
     assert feed.entries[0].title == '中文 & "引号" <标签>'
 
 
-def test_rss_without_selected_items_is_empty_not_broken(cfg, public_dir: Path, empty_reports: Path) -> None:
+def test_rss_without_selected_items_is_empty_not_broken(cfg, public_dir: Path) -> None:
     """没有精选（空刊）时 feed 仍然合法，只是没有条目。"""
     build_and_validate(
         [make_item(1, status=Status.LISTED)],
         cfg,
         public_dir=public_dir,
-        reports_dir=empty_reports,
         now=NOW,
     )
     feed = feedparser.parse((public_dir / "rss.xml").read_text(encoding="utf-8"))
@@ -731,9 +579,9 @@ def test_llms_txt_has_intro_and_selected_links(published: Path) -> None:
     assert len([line for line in picks.splitlines() if line.startswith("- [")]) == 3
 
 
-def test_llms_txt_escapes_brackets_in_titles(cfg, public_dir: Path, empty_reports: Path) -> None:
+def test_llms_txt_escapes_brackets_in_titles(cfg, public_dir: Path) -> None:
     items = [make_item(1, titleZh="标题里有 [方括号] 和换行\n第二行")]
-    build_and_validate(items, cfg, public_dir=public_dir, reports_dir=empty_reports, now=NOW)
+    build_and_validate(items, cfg, public_dir=public_dir, now=NOW)
     text = (public_dir / "llms.txt").read_text(encoding="utf-8")
     picks = text.split("## 最新精选", 1)[1]
     entry_lines = [line for line in picks.splitlines() if line.startswith("- [")]
@@ -742,13 +590,12 @@ def test_llms_txt_escapes_brackets_in_titles(cfg, public_dir: Path, empty_report
     assert "第二行" in entry_lines[0]
 
 
-def test_llms_txt_without_selected_items(cfg, public_dir: Path, empty_reports: Path) -> None:
+def test_llms_txt_without_selected_items(cfg, public_dir: Path) -> None:
     """没有精选时列表位置要有明确说明，不能留下空标题，也不能因此发不出去。"""
     build_and_validate(
         [make_item(1, status=Status.LISTED)],
         cfg,
         public_dir=public_dir,
-        reports_dir=empty_reports,
         now=NOW,
     )
     text = (public_dir / "llms.txt").read_text(encoding="utf-8")
