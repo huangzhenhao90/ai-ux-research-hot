@@ -3,7 +3,7 @@
   "name": "Ipsos",
   "group": "company",
   "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-  "count": 13,
+  "count": 12,
   "items": [
     {
       "id": "26b8ca5cbfcf5bae",
@@ -110,34 +110,6 @@
       "itemType": null,
       "publishedAt": "2026-10-27T06:16:39+00:00",
       "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "78722a787bd09eb1",
-      "sourceId": "ipsos",
-      "sourceName": "Ipsos",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.ipsos.com/en/axa-future-risks-report-2025",
-      "title": "AXA Future Risks Report 2025",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": "research",
-      "tags": [
-        "论文/研究",
-        "问卷/定量",
-        "市场研究",
-        "Ipsos"
-      ],
-      "entities": [
-        "ipsos"
-      ],
-      "itemType": null,
-      "publishedAt": "2026-10-14T09:10:05+00:00",
-      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

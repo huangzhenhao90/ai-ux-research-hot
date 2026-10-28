@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 41,
+  "count": 35,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -445,57 +445,6 @@
       "relation": null
     },
     {
-      "id": "da7ddc0160b2d648",
-      "sourceId": "userinterviews-blog",
-      "sourceName": "User Interviews Blog",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.userinterviews.com/blog/researchops-and-future-of-research-operations",
-      "title": "ResearchOps 2.0: Looking back at the past, present, and future of research operations",
-      "titleZh": "ResearchOps 2.0: Looking back at the past, present, and future of research operations",
-      "summaryZh": "",
-      "reason": null,
-      "category": "opinion",
-      "tags": [
-        "观点/讨论",
-        "洞察库/ResearchOps"
-      ],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2026-10-20T16:00:00+00:00",
-      "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "db4a5aba4e89ffef",
-      "sourceId": "strella-blog",
-      "sourceName": "Strella Blog",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.strella.io/blog/building-customer-personas-from-interviews",
-      "title": "Building Consumer Personas from Interviews: Every Line Traces to Evidence",
-      "titleZh": "Building Consumer Personas from Interviews: Every Line Traces to Evidence",
-      "summaryZh": "",
-      "reason": null,
-      "category": "methods",
-      "tags": [
-        "方法/实践",
-        "定性分析",
-        "洞察库/ResearchOps"
-      ],
-      "entities": [
-        "strella"
-      ],
-      "itemType": null,
-      "publishedAt": "2026-10-22T16:00:00+00:00",
-      "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
       "id": "7ec64c599e95e72f",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -520,34 +469,6 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:08:36+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "9c0dcc371b7c9a38",
-      "sourceId": "testingtime",
-      "sourceName": "TestingTime",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.testingtime.com/blog/5-typische-herausforderungen-bei-der-uxr-analyse-und-wie-man-sie-bewaeltigt/",
-      "title": "5 typische Herausforderungen bei der UXR-Analyse und wie man sie bewältigt",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": "methods",
-      "tags": [
-        "方法/实践",
-        "定性分析",
-        "洞察库/ResearchOps",
-        "研究伦理"
-      ],
-      "entities": [
-        "testingtime"
-      ],
-      "itemType": null,
-      "publishedAt": "2023-10-03T11:00:54+00:00",
-      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -781,33 +702,6 @@
       "relation": null
     },
     {
-      "id": "009e65b81334a246",
-      "sourceId": "aapor",
-      "sourceName": "AAPOR（美国民意研究协会）",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://aapor.org/newsletters/aapor-2026-conference-blog-wednesday/",
-      "title": "AAPOR 2026 Conference Blog: Wednesday",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": "industry",
-      "tags": [
-        "行业动态",
-        "市场研究",
-        "招募/样本"
-      ],
-      "entities": [
-        "aapor"
-      ],
-      "itemType": null,
-      "publishedAt": "2026-05-14T13:28:18+00:00",
-      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
       "id": "38ce9fc155bbeb26",
       "sourceId": "dovetail-blog",
       "sourceName": "Dovetail Blog",
@@ -892,32 +786,6 @@
       "relation": null
     },
     {
-      "id": "221137465a08966c",
-      "sourceId": "usertesting-blog",
-      "sourceName": "UserTesting Blog",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.usertesting.com/blog/why-research-teams-need-influence-more-budget",
-      "title": "Why research teams need influence more than budget",
-      "titleZh": "Why research teams need influence more than budget",
-      "summaryZh": "",
-      "reason": null,
-      "category": "opinion",
-      "tags": [
-        "观点/讨论",
-        "洞察库/ResearchOps"
-      ],
-      "entities": [
-        "usertesting"
-      ],
-      "itemType": null,
-      "publishedAt": "2026-06-16T18:17:28+00:00",
-      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
       "id": "02019ad8dc034702",
       "sourceId": "quantilope",
       "sourceName": "quantilope",
@@ -941,31 +809,6 @@
       "itemType": null,
       "publishedAt": "2026-08-27T13:47:47+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "39cfbee29b546093",
-      "sourceId": "testingtime",
-      "sourceName": "TestingTime",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.testingtime.com/blog/wordpress-fuer-barrierefreies-design/",
-      "title": "Das Engagement von WordPress für barrierefreies Design",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": "methods",
-      "tags": [
-        "方法/实践",
-        "可用性测试",
-        "招募/样本"
-      ],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2023-10-10T09:59:17+00:00",
-      "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

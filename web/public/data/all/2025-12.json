@@ -1,6 +1,6 @@
 {
   "month": "2025-12",
-  "count": 8,
+  "count": 6,
   "items": [
     {
       "id": "78cc1108413d28d6",
@@ -158,48 +158,6 @@
       "publishedAt": "2025-12-18T14:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
       "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "dccc8fb99acae67e",
-      "sourceId": "quirkos",
-      "sourceName": "Quirkos",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.quirkos.com/blog/post/quirkos-unwrapped-2025-11-fantastic-articles-by-quirkos-users-published-this-year/",
-      "title": "Quirkos Unwrapped 2025: 11 fantastic articles by Quirkos users, published this year",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2025-12-09T15:01:38+00:00",
-      "discoveredAt": "2026-10-22T01:53:51.171535+00:00",
-      "status": "archived",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "176440f865618962",
-      "sourceId": "uxpa",
-      "sourceName": "UXPA（用户体验专业协会）",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://uxpa.org/volunteer-spotlight-ej-makela/",
-      "title": "Volunteer Spotlight: EJ Makela",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2025-12-08T20:55:26+00:00",
-      "discoveredAt": "2026-10-22T01:53:51.171535+00:00",
-      "status": "archived",
       "dupOf": null,
       "relation": null
     }

@@ -1,6 +1,6 @@
 {
   "month": "2025-10",
-  "count": 4,
+  "count": 2,
   "items": [
     {
       "id": "46fe5ae344a21995",
@@ -53,48 +53,6 @@
       "publishedAt": "2025-10-08T13:04:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
       "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "2ef2979f8659b62a",
-      "sourceId": "optimalworkshop-blog",
-      "sourceName": "Optimal Workshop Blog",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.optimalworkshop.com/blog/rethinking-how-we-design-and-innovate-in-an-agentic-ai-world-takeaways-from-ddx-san-diego",
-      "title": "Rethinking How We Design and Innovate in an Agentic AI World: Key Takeaways from DDX",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2025-10-29T16:00:00+00:00",
-      "discoveredAt": "2026-10-22T01:53:51.171535+00:00",
-      "status": "archived",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "f44362151cb7937f",
-      "sourceId": "quirkos",
-      "sourceName": "Quirkos",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.quirkos.com/blog/post/a-new-textbook-on-the-qualitative-research-process-from-start-to-finish/",
-      "title": "A new textbook on the qualitative research process, from start to finish",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2025-10-16T16:48:24+00:00",
-      "discoveredAt": "2026-10-22T01:53:51.171535+00:00",
-      "status": "archived",
       "dupOf": null,
       "relation": null
     }

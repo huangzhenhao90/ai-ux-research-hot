@@ -3,7 +3,7 @@
   "name": "UserTesting",
   "group": "company",
   "definition": "UserTesting（含 UserZoom）的可用性测试与 AI 分析能力更新。",
-  "count": 5,
+  "count": 4,
   "items": [
     {
       "id": "0fa25d0069aa4836",
@@ -35,32 +35,6 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:01:46+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
-      "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "221137465a08966c",
-      "sourceId": "usertesting-blog",
-      "sourceName": "UserTesting Blog",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.usertesting.com/blog/why-research-teams-need-influence-more-budget",
-      "title": "Why research teams need influence more than budget",
-      "titleZh": "Why research teams need influence more than budget",
-      "summaryZh": "",
-      "reason": null,
-      "category": "opinion",
-      "tags": [
-        "观点/讨论",
-        "洞察库/ResearchOps"
-      ],
-      "entities": [
-        "usertesting"
-      ],
-      "itemType": null,
-      "publishedAt": "2026-06-16T18:17:28+00:00",
-      "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

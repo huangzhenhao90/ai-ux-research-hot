@@ -1,6 +1,6 @@
 {
   "month": "2025-09",
-  "count": 4,
+  "count": 3,
   "items": [
     {
       "id": "0fb5cd21ea968d97",
@@ -84,27 +84,6 @@
       "publishedAt": "2025-09-10T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
       "status": "listed",
-      "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "8d5187692f2a9b3f",
-      "sourceId": "uxpa",
-      "sourceName": "UXPA（用户体验专业协会）",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://uxpa.org/volunteer-spotlight-anamol-rajbhandari/",
-      "title": "Volunteer Spotlight: Anamol Rajbhandari",
-      "titleZh": null,
-      "summaryZh": null,
-      "reason": null,
-      "category": null,
-      "tags": [],
-      "entities": [],
-      "itemType": null,
-      "publishedAt": "2025-09-29T07:11:38+00:00",
-      "discoveredAt": "2026-10-22T01:53:51.171535+00:00",
-      "status": "archived",
       "dupOf": null,
       "relation": null
     }

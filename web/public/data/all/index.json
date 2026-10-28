@@ -1,80 +1,80 @@
 {
-  "generatedAt": "2026-10-28T11:48:27.447792+00:00",
-  "total": 548,
+  "generatedAt": "2026-10-28T12:06:00.373537+00:00",
+  "total": 208,
   "months": [
     {
       "month": "2026-10",
-      "count": 250,
+      "count": 103,
       "path": "data/all/2026-10.json"
     },
     {
       "month": "2026-09",
-      "count": 82,
+      "count": 15,
       "path": "data/all/2026-09.json"
     },
     {
       "month": "2026-08",
-      "count": 47,
+      "count": 16,
       "path": "data/all/2026-08.json"
     },
     {
       "month": "2026-07",
-      "count": 25,
+      "count": 8,
       "path": "data/all/2026-07.json"
     },
     {
       "month": "2026-06",
-      "count": 28,
+      "count": 6,
       "path": "data/all/2026-06.json"
     },
     {
       "month": "2026-05",
-      "count": 12,
+      "count": 4,
       "path": "data/all/2026-05.json"
     },
     {
       "month": "2026-04",
-      "count": 8,
+      "count": 4,
       "path": "data/all/2026-04.json"
     },
     {
       "month": "2026-03",
-      "count": 14,
+      "count": 8,
       "path": "data/all/2026-03.json"
     },
     {
       "month": "2026-02",
-      "count": 18,
+      "count": 11,
       "path": "data/all/2026-02.json"
     },
     {
       "month": "2026-01",
-      "count": 5,
+      "count": 3,
       "path": "data/all/2026-01.json"
     },
     {
       "month": "2025-12",
-      "count": 8,
+      "count": 6,
       "path": "data/all/2025-12.json"
     },
     {
       "month": "2025-11",
-      "count": 10,
+      "count": 4,
       "path": "data/all/2025-11.json"
     },
     {
       "month": "2025-10",
-      "count": 4,
+      "count": 2,
       "path": "data/all/2025-10.json"
     },
     {
       "month": "2025-09",
-      "count": 4,
+      "count": 3,
       "path": "data/all/2025-09.json"
     },
     {
       "month": "2025-08",
-      "count": 2,
+      "count": 1,
       "path": "data/all/2025-08.json"
     },
     {
@@ -84,23 +84,18 @@
     },
     {
       "month": "2025-06",
-      "count": 4,
+      "count": 1,
       "path": "data/all/2025-06.json"
     },
     {
       "month": "2025-05",
-      "count": 4,
+      "count": 1,
       "path": "data/all/2025-05.json"
     },
     {
       "month": "2025-04",
-      "count": 2,
-      "path": "data/all/2025-04.json"
-    },
-    {
-      "month": "2025-03",
       "count": 1,
-      "path": "data/all/2025-03.json"
+      "path": "data/all/2025-04.json"
     },
     {
       "month": "2025-02",
@@ -123,44 +118,9 @@
       "path": "data/all/2024-10.json"
     },
     {
-      "month": "2024-09",
-      "count": 1,
-      "path": "data/all/2024-09.json"
-    },
-    {
-      "month": "2024-06",
-      "count": 1,
-      "path": "data/all/2024-06.json"
-    },
-    {
-      "month": "2024-03",
-      "count": 1,
-      "path": "data/all/2024-03.json"
-    },
-    {
-      "month": "2024-02",
-      "count": 1,
-      "path": "data/all/2024-02.json"
-    },
-    {
-      "month": "2023-11",
-      "count": 1,
-      "path": "data/all/2023-11.json"
-    },
-    {
-      "month": "2023-10",
-      "count": 3,
-      "path": "data/all/2023-10.json"
-    },
-    {
       "month": "2022-04",
       "count": 1,
       "path": "data/all/2022-04.json"
-    },
-    {
-      "month": "2022-02",
-      "count": 1,
-      "path": "data/all/2022-02.json"
     },
     {
       "month": "2020-07",
