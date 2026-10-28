@@ -1084,6 +1084,192 @@ a.tile:hover,
   color: var(--ink-3);
 }
 
+/* ── 用研校招 ──────────────────────────────────────────────────────── */
+
+.campus-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.campus-stats span {
+  padding: 6px 12px;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius-tile);
+  background: var(--surface);
+  font-size: 12.5px;
+  color: var(--ink-3);
+}
+
+.campus-stats b {
+  margin-right: 2px;
+  font-family: var(--font-mono);
+  font-size: 16px;
+  color: var(--ink);
+}
+
+/* 行业、类型、开关这一行小胶囊 */
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.chip-row__sep {
+  width: 1px;
+  height: 18px;
+  margin: 0 4px;
+  background: var(--line-strong);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  height: 30px;
+  padding: 0 12px;
+  border: 1px solid var(--line-soft);
+  border-radius: 999px;
+  background: var(--bg-sunk);
+  font-size: 13px;
+  color: var(--ink-3);
+  transition: color 150ms, border-color 150ms, background-color 150ms;
+}
+
+.chip:hover {
+  color: var(--ink);
+  border-color: var(--line-strong);
+}
+
+.chip[aria-pressed="true"],
+.chip--active {
+  border-color: transparent;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.chip-select {
+  height: 30px;
+  font-size: 13px;
+}
+
+.campus-count {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+/* 看起来像文字链接的按钮（卡片里的公司名、清除筛选等） */
+.link-button {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.link-button:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.card__head .link-button {
+  color: var(--ink-3);
+  font-weight: 500;
+}
+
+.card__head .link-button:hover {
+  color: var(--accent);
+}
+
+.company-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.company-tile__head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.company-tile__mark {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: var(--radius-control);
+  background: var(--accent-soft);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.company-tile__name {
+  flex: 1;
+  min-width: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.company-tile__foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 8px;
+  font-size: 13px;
+}
+
+/* 详情页的要点表 */
+.fact-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: 10px 16px;
+  margin: 16px 0 0;
+}
+
+.fact-list dt {
+  font-size: 12px;
+  color: var(--ink-4);
+}
+
+.fact-list dd {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.pill-button--primary {
+  border-color: transparent;
+  background: var(--accent);
+  color: var(--surface);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pill-button--primary:hover {
+  background: var(--accent);
+  color: var(--surface);
+  opacity: 0.9;
+}
+
+/* 官网原文保留原有的分行 */
+.jd-text {
+  white-space: pre-line;
+}
+
 /* ── 正文排版（关于页等）────────────────────────────────────────────── */
 
 .prose h2 {
@@ -1269,6 +1455,15 @@ a.tile:hover,
     height: 40px;
     flex-shrink: 0;
     max-width: 46%;
+  }
+
+  .chip-select {
+    height: 30px;
+    max-width: none;
+  }
+
+  .chip-row__sep {
+    display: none;
   }
 
   .search-box {

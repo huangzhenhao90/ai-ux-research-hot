@@ -12,6 +12,7 @@ import { join } from "node:path";
 
 import type {
   AllIndex,
+  CampusDoc,
   AllMonth,
   CategoriesIndex,
   CategoryDoc,
@@ -108,6 +109,24 @@ export function getTopic(slug: string): TopicDoc | null {
 
 export function getSearchIndex(): SearchIndexDoc {
   return readJson<SearchIndexDoc>("search-index.json");
+}
+
+// ── 用研校招 ────────────────────────────────────────────────────────────
+
+/**
+ * 校招岗位库快照（`web/content/campus.json`，由 `scripts/sync-campus.mjs` 生成）。
+ *
+ * 不放在 `public/data/`：发布层每次会整体替换那个目录。没有快照时返回 null，
+ * 页面显示空状态而不是让整站构建失败。
+ */
+export function getCampus(): CampusDoc | null {
+  const full = join(process.cwd(), "content", "campus.json");
+  if (!existsSync(full)) return null;
+  return JSON.parse(readFileSync(full, "utf8")) as CampusDoc;
+}
+
+export function getCampusJob(id: string) {
+  return getCampus()?.jobs.find((job) => job.id === id) ?? null;
 }
 
 // ── 展示工具 ────────────────────────────────────────────────────────────

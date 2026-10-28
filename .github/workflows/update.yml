@@ -115,6 +115,11 @@ jobs:
         working-directory: web
         run: npm ci
 
+      - name: 同步用研校招岗位库
+        # 数据只在 huangzhenhao90/uxr-campus-2027 维护；拉不到或结构变了就沿用上一版快照，不拦整次更新
+        run: |
+          node web/scripts/sync-campus.mjs || echo "::warning title=校招岗位库同步失败::沿用 web/content/campus.json 的上一版快照"
+
       - name: 类型检查
         working-directory: web
         run: npm run typecheck
@@ -128,7 +133,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data web/public
+          git add data web/public web/content
           if git diff --cached --quiet; then
             echo "没有变化，跳过提交"
           else
