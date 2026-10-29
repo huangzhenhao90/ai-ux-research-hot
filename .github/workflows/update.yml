@@ -17,8 +17,9 @@ name: Update
 #    · 过渡：源码仓库自己是 public 时，设 Variable `PAGES_ENABLED=true`，
 #      用 GitHub Actions 方式部署 Pages（原来的做法）。`PUBLIC_SITE_REPO` 设了就以它为准，这条不再生效。
 #
-# 3) 统计（可选，DECISIONS D21）：Variable `ANALYTICS_PROVIDER`（umami / baidu）、
-#    `ANALYTICS_ID`、`ANALYTICS_HOST`（自建 Umami 才要）。没配就不加载任何统计脚本。
+# 3) 统计（DECISIONS D21）：百度统计已写进每个页面，不用配变量。
+#    自定义事件要改走 Umami 时才设 Variable `ANALYTICS_PROVIDER=umami`、
+#    `ANALYTICS_ID`、`ANALYTICS_HOST`（自建才要）。页面 PV 仍由百度统计记录。
 
 on:
   schedule:
@@ -139,7 +140,7 @@ jobs:
       - name: 构建静态站
         working-directory: web
         env:
-          # 统计服务的公开参数（站点 ID 之类，本来就会出现在页面里）；没配就不加载统计脚本
+          # 可选：把自定义事件改走 Umami。百度统计不看这些变量，安装代码在根布局里。
           NEXT_PUBLIC_ANALYTICS_PROVIDER: ${{ vars.ANALYTICS_PROVIDER }}
           NEXT_PUBLIC_ANALYTICS_ID: ${{ vars.ANALYTICS_ID }}
           NEXT_PUBLIC_ANALYTICS_HOST: ${{ vars.ANALYTICS_HOST }}

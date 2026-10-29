@@ -6,7 +6,7 @@ import { useEffect, useRef } from "react";
 import { dataFromElement, startAnalytics, track, trackPageview, featureOf } from "@/lib/track";
 
 /**
- * 埋点入口，放在根布局里。没配统计服务时什么都不做（见 `lib/track.ts`）。
+ * 埋点入口，放在根布局里。百度统计安装代码在 `<head>`；这里负责换页补记 PV（见 `lib/track.ts`）。
  *
  * 做两件事：
  * 1. 每次换页记一次页面浏览与一次 `feature_view`（`pathname` 不含 basePath，

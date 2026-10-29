@@ -116,7 +116,7 @@ Boss 直聘截图、社群里看到的岗位，整理进这个文件（格式与
 
 ### 埋点 → `docs/埋点方案.md`
 
-各功能的 PV / UV：设 Variables `ANALYTICS_PROVIDER`（umami / baidu）与 `ANALYTICS_ID` 即可，没配就什么都不发（D21）。
+各功能的 PV / UV：百度统计已写进每个页面（站点 ID 在 `web/lib/baidu.ts`）。自定义事件要改走 Umami 才设 Variables `ANALYTICS_PROVIDER=umami` 与 `ANALYTICS_ID`（D21）。
 
 ### 人工干预 → `config/overrides.yaml`
 

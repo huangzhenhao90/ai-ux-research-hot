@@ -24,8 +24,6 @@ const WHAT_IT_IS =
 const HOW_TO_READ =
   "「精选」只放入选的条目，「全部动态」放已写好中文标题和摘要的全部条目（含没入选的），两边都按天排成时间线，可以按分类筛选，也可以直接跳到某一天。";
 
-const ANALYTICS_NAMES = { umami: "Umami", baidu: "百度统计" } as const;
-
 const SCORE_NOTE_HEAD = "评分与模型打分只用来决定入选和排序，不在页面上公开显示（";
 const SCORE_NOTE_TAIL = "）。每一条都能点回原文，判断留给你自己。";
 
@@ -160,11 +158,11 @@ export default function AboutPage() {
             <Link href="/favorites/">收藏夹</Link>
             {"里导出备份、换设备时导入。"}
           </li>
-          {analyticsProvider ? (
-            <li>
-              {`本站用${ANALYTICS_NAMES[analyticsProvider]}统计各个页面与功能被访问、被使用的次数和人数；不记录你搜索的关键词，不收集姓名、账号等个人信息，浏览器开着「请勿跟踪」时不统计。`}
-            </li>
-          ) : null}
+          <li>
+            {analyticsProvider === "umami"
+              ? "本站用百度统计记录每个页面的访问次数和人数，功能使用另外发给 Umami；不记录你搜索的关键词，不收集姓名、账号等个人信息。百度统计会在浏览器里保存 cookie。"
+              : "本站用百度统计记录各个页面与功能被访问、被使用的次数和人数；不记录你搜索的关键词，不收集姓名、账号等个人信息。百度统计会在浏览器里保存 cookie。"}
+          </li>
         </ul>
 
         <h2>更新频率</h2>
