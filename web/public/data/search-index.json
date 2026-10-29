@@ -1,5 +1,5 @@
 {
-  "count": 217,
+  "count": 220,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -682,6 +682,22 @@
       "publishedAt": "2026-10-28T05:10:50+00:00"
     },
     {
+      "id": "dae7ebe78faa683f",
+      "title": "How I stopped dreading AI and started studying it full-time",
+      "titleZh": "一名设计师如何不再恐惧 AI，开始全职学习它",
+      "summaryZh": "一名设计师借助 Claude 制定 8 周、每周 40 小时的 AI 学习计划，并搭建两个 demo 项目，目前已完成前三周。她用 evals 检查自建 AI 智能体时发现，改动一个示例后，6 个回答中有 4 个不再提卖家；又让 Claude 盲测 2025 年 AWS 可用性研究材料，并在综合 13 条公开论坛帖时获得 24 条准确归源引用，但模型仍会把猜测当事实。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "Agent"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/how-i-stopped-dreading-ai-and-started-studying-it-full-time-fee7afc2b967?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-10-28T23:24:01+00:00"
+    },
+    {
       "id": "64c8d6b14fcc84d0",
       "title": "How to Use AI for Thematic Analysis: A Step-by-Step Guide",
       "titleZh": "如何用 AI 进行主题分析：分步指南",
@@ -810,6 +826,20 @@
       "sourceName": "arXiv",
       "url": "https://arxiv.org/abs/2610.30568v1",
       "publishedAt": "2026-10-21T16:00:00+00:00"
+    },
+    {
+      "id": "3390eb306006cb06",
+      "title": "The AI reckoning in UX was 20 years in the making",
+      "titleZh": "UX 的 AI 清算已酝酿 20 年",
+      "summaryZh": "Jeff Sauro 与 Jim Lewis 发现 UX 职位发布较 2022 年峰值下降 71%，研究岗位降幅更大，一年内三分之一组织裁减 UX 人员。Prakash Shukla 团队分析 120 多篇 UX 社区文章与讨论，发现自动化焦虑贯穿其中。文章把 AI 冲击视为继互联网泡沫和训练营后的第三轮繁荣—收缩，并引用 Figma《State of the Designer》称 58% 设计师将 craft 定义为视觉打磨。",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "category": null,
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-10-28T23:22:26+00:00"
     },
     {
       "id": "dda520eafe7335c0",
@@ -3144,6 +3174,21 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/should-i-use-nvivo-dissertation/",
       "publishedAt": "2026-04-28T00:00:00+00:00"
+    },
+    {
+      "id": "2db9d3c8f34dd18d",
+      "title": "Designing for AI deep research: lessons from Google, Perplexity and Microsoft",
+      "titleZh": "为 AI 深度研究做设计：来自 Google、Perplexity 和 Microsoft 的 6 个 UX 问题",
+      "summaryZh": "面向耗时较长的 AI 研究任务，Google、Perplexity 和 Microsoft 的 AI 深度研究设计经验被整理为 6 个 UX 问题。内容围绕 AI 深度研究的设计经验展开。",
+      "tags": [
+        "观点/讨论",
+        "Agent"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/designing-for-ai-deep-research-lessons-from-google-perplexity-and-microsoft-b32fa2f21e7e?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-10-28T23:23:05+00:00"
     },
     {
       "id": "fd40c9f209173903",

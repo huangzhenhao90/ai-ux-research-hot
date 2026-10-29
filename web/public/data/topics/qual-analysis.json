@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 62,
+  "count": 63,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -273,6 +273,31 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "dae7ebe78faa683f",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/how-i-stopped-dreading-ai-and-started-studying-it-full-time-fee7afc2b967?source=rss----138adf9c44c---4",
+      "title": "How I stopped dreading AI and started studying it full-time",
+      "titleZh": "一名设计师如何不再恐惧 AI，开始全职学习它",
+      "summaryZh": "一名设计师借助 Claude 制定 8 周、每周 40 小时的 AI 学习计划，并搭建两个 demo 项目，目前已完成前三周。她用 evals 检查自建 AI 智能体时发现，改动一个示例后，6 个回答中有 4 个不再提卖家；又让 Claude 盲测 2025 年 AWS 可用性研究材料，并在综合 13 条公开论坛帖时获得 24 条准确归源引用，但模型仍会把猜测当事实。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-28T23:24:01+00:00",
+      "discoveredAt": "2026-10-29T03:46:48.732266+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
     },
     {
       "id": "64c8d6b14fcc84d0",
