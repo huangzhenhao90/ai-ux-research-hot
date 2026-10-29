@@ -103,7 +103,8 @@ jobs:
           cache: pip
 
       - name: 公开产物自检
-        # 要推到公开仓库的就是 out/：里面不能有源码、配置、密钥（DECISIONS D22）
+        # 要推到公开仓库的就是 out/：里面不能有源码、配置、密钥（DECISIONS D22）。
+        # 要装完整依赖：脚本会 import uxhot.publish 这个包，它的 __init__ 会一路链到 dateutil 等
         run: |
-          pip install pyyaml pydantic
+          pip install -r requirements.txt
           python scripts/check_public_output.py web/out
