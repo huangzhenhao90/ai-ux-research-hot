@@ -71,7 +71,6 @@ export function Sidebar({ current }: { current?: string }) {
       <Link href="/" className="sidebar__brand" aria-label={`${site.name} 首页`}>
         <Wordmark />
       </Link>
-      <span className="sidebar__alias">{site.alias}</span>
       <span className="sidebar__byline">
         <Byline />
       </span>
