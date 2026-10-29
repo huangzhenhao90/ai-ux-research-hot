@@ -1,8 +1,43 @@
 {
-  "generatedAt": "2026-10-29T13:27:59.987954+00:00",
+  "generatedAt": "2026-10-29T14:59:25.656356+00:00",
   "windowDays": 3,
   "editionHour": 8,
   "days": [
+    {
+      "date": "2026-10-30",
+      "count": 1,
+      "items": [
+        {
+          "id": "d927c8908eed94da",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/synthetic-user-panels-product-testing/",
+          "title": "Synthetic User Panels for Product Testing: A Decision Guide",
+          "titleZh": "Listen Labs 解读合成用户样本库在产品测试中的适用与失效场景",
+          "summaryZh": "Listen Labs 在决策指南中按概念测试、UX 流程测试、问卷预测试和定价四类任务，划分了合成用户样本库的适用与失效边界。指南指出合成受访者由大语言模型根据人设描述预测作答，只能产出假设而非决策级证据，可靠用途集中在问卷预测试、早期概念筛选和讨论提纲准备，不适合定价、可用性测试和最终决策。文中引用 Strat7 对 3,000 名真实受访者的对比，纯合成受访者在价格敏感度练习中 68% 打乱了逻辑顺序，价格比真人高约 16%，并引用 Kantar 发现 GPT-4 存在正向偏差。",
+          "reason": "按概念测试、可用性测试、问卷预测试和定价四类任务梳理合成用户的适用边界，并给出分阶段验证流程。",
+          "category": "methods",
+          "tags": [
+            "方法/实践",
+            "合成用户",
+            "问卷/定量",
+            "可用性测试",
+            "市场研究"
+          ],
+          "entities": [
+            "listen-labs"
+          ],
+          "itemType": "tutorial_explainer",
+          "publishedAt": "2026-10-29T05:03:34+00:00",
+          "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        }
+      ]
+    },
     {
       "date": "2026-10-29",
       "count": 3,

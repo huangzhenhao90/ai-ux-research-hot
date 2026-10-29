@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 63,
+  "count": 64,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -761,6 +761,34 @@
       "itemType": null,
       "publishedAt": "2026-10-21T00:00:00+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8bcd27b71684b7ad",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/concept-testing-examples/",
+      "title": "What Is Concept Testing? 8 Real-World Examples Explained",
+      "titleZh": "概念测试是什么？8 个真实案例解析",
+      "summaryZh": "Listen Labs 用 8 个真实案例解释概念测试：在开发前让目标用户评估未落地概念，以决定继续、调整或放弃。其中 Lego 观察 3,500 名女孩及母亲，P&G 完成 250+ 场访谈。其 AI 主持访谈覆盖 50M+ 网络、45+ 国家，称可在 24 小时内交付顾问级结果。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-29T05:03:28+00:00",
+      "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

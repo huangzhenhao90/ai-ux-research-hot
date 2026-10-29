@@ -3,7 +3,7 @@
   "label": "论文",
   "section": "研究与证据",
   "commentary": false,
-  "count": 42,
+  "count": 43,
   "items": [
     {
       "id": "342f2af81bbbe547",
@@ -969,6 +969,33 @@
       "itemType": null,
       "publishedAt": "2026-10-08T09:52:41+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4a2903609d7deede",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/what-worries-world",
+      "title": "What Worries the World – October 2026",
+      "titleZh": "Ipsos What Worries the World 2026 年 10 月调查",
+      "summaryZh": "Ipsos 的 What Worries the World 2026 年 10 月调查覆盖 30 个国家、约 2 万名成年人。该调查每月开展，已持续十余年，用于呈现全球公众对紧迫全球议题的看法。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "行业报告",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-29T10:58:22+00:00",
+      "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

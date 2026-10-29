@@ -1,0 +1,29 @@
+{
+  "id": "57dbe200cade9ea3",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-secure-ai-research-platforms/",
+  "title": "Secure AI Consumer Research Platform: Enterprise Guide",
+  "titleZh": "Listen Labs：企业采购 AI 消费者研究平台的安全指南与 8 项验证清单",
+  "summaryZh": "Listen Labs 的 AI 消费者研究平台安全采购指南列出 8 项验证清单，覆盖客户数据不用于模型训练、256-bit 加密、SSO/审计日志、SOC 2 Type II 与 ISO 42001 等。指南称 Listen Labs 持有 SOC 2 Type II、ISO 27001/27701/42001，并覆盖 45+ 国家、50M+ 验证受访者网络。Suzy、Outset、User Intuition、Koji、Qualtrics 的认证与训练政策也被对照，采购前应直接向厂商索取认证报告与证明文件。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "研究伦理"
+  ],
+  "entities": [
+    "listen-labs",
+    "outset",
+    "qualtrics"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-29T05:03:45+00:00",
+  "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

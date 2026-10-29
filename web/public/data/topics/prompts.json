@@ -3,8 +3,36 @@
   "name": "提示词与模板",
   "group": "genre",
   "definition": "可直接复用的研究用提示词与模板。",
-  "count": 1,
+  "count": 2,
   "items": [
+    {
+      "id": "6c64ab94bbbdc193",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/test-campaigns-before-launch-ai/",
+      "title": "How To Test Campaigns Before Launch With AI",
+      "titleZh": "Listen Labs：如何用 AI 在发布前测试营销活动",
+      "summaryZh": "Listen Labs 给出的发布前活动测试流程是先用 AI 生成和筛选活动变体，再让真实受访者验证高风险假设。其 AI 主持访谈依托 50M+ 验证网络，覆盖 45+ 国家和 120+ 语言，并在 24 小时内返回证据。AI personas 与合成受访者受 say-do gap 限制，只能用于梳理异议和准备，不能替代真实受访者。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "提示词/模板",
+        "AI 访谈",
+        "合成用户"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-29T05:03:52+00:00",
+      "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "36d3f8bbcb45babc",
       "sourceId": "delve",

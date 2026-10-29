@@ -1,0 +1,29 @@
+{
+  "id": "5b76f08b03eb01fd",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-digital-twin-segmentation-tools/",
+  "title": "Digital Twin Customer Segmentation Tools: A Buyer’s Guide",
+  "titleZh": "数字孪生客户分群工具购买指南：Listen Labs、Dovetail、Delve AI 等入选",
+  "summaryZh": "该购买指南按分群创建、数据集成、模拟能力、真人验证、激活导出五项标准评选数字孪生客户分群工具，首选 Listen Labs 的 Listen Twins。Listen Labs 从 5000 万+ 受访者网络招募真人深访生成 1:1 孪生，数秒返回 100+ 条带推理和引文的预测答案。Dovetail 明确其孪生不做统计预测，Delve AI 称合成定量回答准确率约 80–90%。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "AI 访谈"
+  ],
+  "entities": [
+    "listen-labs",
+    "dovetail"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-29T05:03:39+00:00",
+  "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

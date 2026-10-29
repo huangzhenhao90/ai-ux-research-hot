@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Oct 2026 13:27:59 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 14:59:25 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 解读合成用户样本库在产品测试中的适用与失效场景</title>
+      <link>https://listenlabs.com/articles/synthetic-user-panels-product-testing/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-user-panels-product-testing/</guid>
+      <pubDate>Thu, 29 Oct 2026 05:03:34 GMT</pubDate>
+      <description>Listen Labs 在决策指南中按概念测试、UX 流程测试、问卷预测试和定价四类任务，划分了合成用户样本库的适用与失效边界。指南指出合成受访者由大语言模型根据人设描述预测作答，只能产出假设而非决策级证据，可靠用途集中在问卷预测试、早期概念筛选和讨论提纲准备，不适合定价、可用性测试和最终决策。文中引用 Strat7 对 3,000 名真实受访者的对比，纯合成受访者在价格敏感度练习中 68% 打乱了逻辑顺序，价格比真人高约 16%，并引用 Kantar 发现 GPT-4 存在正向偏差。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Listen Labs 介绍测量广告情绪反应的六类方法</title>
       <link>https://listenlabs.com/articles/measure-emotional-response-to-ads/</link>
@@ -445,15 +454,6 @@
       <pubDate>Tue, 18 Aug 2026 22:21:12 GMT</pubDate>
       <description>MeasuringU 基于 2026 年 5 月对 ChatGPT、Claude、Gemini、Grok 共 420 名美国样本库受访者的回溯调查，完成 34 条 AI 用户体验候选题的筛选。因子分析显示，除一条同时落在 Trust 与 Productivity 上的题目外，其余 33 条均落在预期构念之上。AI Productivity、AI Trust、AI Dependency、AI Anxiety 等构念各有二至三条题目入选，目标是让每个构念的 coefficient alpha 不低于 0.70。</description>
       <category>MeasuringU（Jeff Sauro）</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>解释性序列设计：用访谈解释问卷结果的 Delve 实用指南</title>
-      <link>https://delvetool.com/blog/explanatory-sequential-research-design-delvetool/</link>
-      <guid isPermaLink="true">https://delvetool.com/blog/explanatory-sequential-research-design-delvetool/</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Delve 的《解释性序列设计：实用指南》讲解如何用访谈解释问卷结果。指南还给出真实研究案例，并演示如何在 Delve 中编码后续访谈。</description>
-      <category>Delve</category>
       <category>methods</category>
     </item>
   </channel>

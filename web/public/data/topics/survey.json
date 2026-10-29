@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 43,
+  "count": 46,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -104,6 +104,35 @@
       "itemType": "research_paper",
       "publishedAt": "2026-10-27T04:00:00+00:00",
       "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "d927c8908eed94da",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/synthetic-user-panels-product-testing/",
+      "title": "Synthetic User Panels for Product Testing: A Decision Guide",
+      "titleZh": "Listen Labs 解读合成用户样本库在产品测试中的适用与失效场景",
+      "summaryZh": "Listen Labs 在决策指南中按概念测试、UX 流程测试、问卷预测试和定价四类任务，划分了合成用户样本库的适用与失效边界。指南指出合成受访者由大语言模型根据人设描述预测作答，只能产出假设而非决策级证据，可靠用途集中在问卷预测试、早期概念筛选和讨论提纲准备，不适合定价、可用性测试和最终决策。文中引用 Strat7 对 3,000 名真实受访者的对比，纯合成受访者在价格敏感度练习中 68% 打乱了逻辑顺序，价格比真人高约 16%，并引用 Kantar 发现 GPT-4 存在正向偏差。",
+      "reason": "按概念测试、可用性测试、问卷预测试和定价四类任务梳理合成用户的适用边界，并给出分阶段验证流程。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "问卷/定量",
+        "可用性测试",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-29T05:03:34+00:00",
+      "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -603,6 +632,34 @@
       "relation": null
     },
     {
+      "id": "8bcd27b71684b7ad",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/concept-testing-examples/",
+      "title": "What Is Concept Testing? 8 Real-World Examples Explained",
+      "titleZh": "概念测试是什么？8 个真实案例解析",
+      "summaryZh": "Listen Labs 用 8 个真实案例解释概念测试：在开发前让目标用户评估未落地概念，以决定继续、调整或放弃。其中 Lego 观察 3,500 名女孩及母亲，P&G 完成 250+ 场访谈。其 AI 主持访谈覆盖 50M+ 网络、45+ 国家，称可在 24 小时内交付顾问级结果。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-29T05:03:28+00:00",
+      "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "f32456e952ae77d3",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1060,6 +1117,33 @@
       "itemType": null,
       "publishedAt": "2026-07-09T16:51:21+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4a2903609d7deede",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/what-worries-world",
+      "title": "What Worries the World – October 2026",
+      "titleZh": "Ipsos What Worries the World 2026 年 10 月调查",
+      "summaryZh": "Ipsos 的 What Worries the World 2026 年 10 月调查覆盖 30 个国家、约 2 万名成年人。该调查每月开展，已持续十余年，用于呈现全球公众对紧迫全球议题的看法。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "行业报告",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-29T10:58:22+00:00",
+      "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
