@@ -59,7 +59,15 @@ function isActive(item: NavItem, current?: string): boolean {
 }
 
 /**
- * 桌面左侧栏（≥ 961px）：标志与字标、出品方署名、分组导航、RSS 与外观开关。
+ * 把别名拆成「词」：连续的西文与数字算一个词，其余字符（中文、标点）逐个拆开，空白丢掉。
+ * 侧栏里别名要和上面的字标左右对齐，做法是让这些词在一行里均匀摊开（见 `.sidebar__alias`）。
+ */
+function spreadWords(text: string): string[] {
+  return text.match(/[A-Za-z0-9][A-Za-z0-9._'’+-]*|[^\sA-Za-z0-9]/gu) ?? [];
+}
+
+/**
+ * 桌面左侧栏（≥ 961px）：标志与字标、别名、出品方署名、分组导航、RSS 与外观开关。
  *
  * `current` 是当前页的路由路径（如 `/all/`），用来点亮对应入口。
  */
@@ -68,10 +76,20 @@ export function Sidebar({ current }: { current?: string }) {
 
   return (
     <aside className="sidebar">
-      <Link href="/" className="sidebar__brand" aria-label={`${site.name} 首页`}>
-        <Wordmark />
-      </Link>
-      <span className="sidebar__alias">{site.alias}</span>
+      <div className="sidebar__lockup">
+        <Link href="/" className="sidebar__brand" aria-label={`${site.name} 首页`}>
+          <Wordmark />
+        </Link>
+        {/* 摊开后的字是给眼睛看的；读屏软件读下面那份完整的别名 */}
+        <span className="sidebar__alias">
+          <span className="sr-only">{site.alias}</span>
+          {spreadWords(site.alias).map((word, index) => (
+            <span key={index} aria-hidden="true">
+              {word}
+            </span>
+          ))}
+        </span>
+      </div>
       <span className="sidebar__byline">
         <Byline />
       </span>
