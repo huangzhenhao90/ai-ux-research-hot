@@ -1,0 +1,17 @@
+URhot（AI 用研热点）· 站点产物的第三方声明
+==========================================
+
+本站的精选流程设计、提示词与界面样式改编自开源项目 AIHOT：
+
+    AIHOT (https://github.com/KKKKhazix/AIHOT)
+    Copyright (c) 2026 数字生命卡兹克
+    MIT License (https://github.com/KKKKhazix/AIHOT/blob/main/LICENSE)
+
+站点界面的版式与配色、图标路径改编自 AIHOT 前端（apps/web/）；组件代码按本站的 Next.js 静态导出重新编写。
+AIHOT 的名称与 Logo 不在 MIT 许可范围内，本站不使用；URhot 的标志是本站自己设计的。
+
+第三方材料
+----------
+
+本站采集的信源内容版权归各发布方所有；站上动态默认只展示摘要与原文链接，
+岗位描述转自企业官网公开页面或来源平台。

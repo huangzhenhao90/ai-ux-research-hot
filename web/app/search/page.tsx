@@ -34,6 +34,7 @@ export default function SearchPage() {
     entities: item.entities,
     categoryLabel: item.category ? categoryLabel(item.category) : null,
     sourceName: item.sourceName,
+    url: item.url,
     time: formatDate(item.publishedAt),
   }));
 

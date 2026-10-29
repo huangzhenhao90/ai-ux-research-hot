@@ -1,0 +1,48 @@
+# 用研社招：手动收录的岗位（Boss 直聘截图、社群里看到的信息）。
+# 官网岗位由 scripts/sync_social.py 每天自动抓，不用写在这里。规则见 DECISIONS D20、D22。
+#
+# ⚠️ 这个文件可能写到社群成员、截图来源这类不该公开的信息，只放在私有仓库。
+#    在源码仓库转为私有之前，不要往 jobs 里填真实内容（见 docs/私有化与公开站点.md）。
+#
+# 页面上每个岗位都会标来源：官网 / Boss直聘 / 社群。
+#   · 同一个岗位官网和 Boss 直聘都有时，只标官网（这条手动收录会并进官网那一张卡，不单独显示）；
+#   · 官网 + 社群、Boss直聘 + 社群：两个来源都标。
+# 「是不是同一个岗位」按 公司 + 岗位名 + 城市 认（岗位名要完全一致，或官网名字里带着它）；
+# 认不出来时用 officialId 指到官网岗位的 id（页面 /social/<id>/ 的那串）。
+#
+# 保留规则与官网岗位一致：起算日是 postedAt（没写就是 addedAt），满 90 天自动移出；
+# 写了 postedAt 且比 addedAt 早了 30 天以上的不收。过期的条目留在这里没关系，不用手动删。
+#
+# 字段（除 source / company / title / addedAt 外都可省略）：
+#   source       boss | community
+#   company      公司名；官网有的公司请与 config/social.yaml 里的名字一致（腾讯、字节跳动、阿里巴巴……）
+#   title        岗位名，照截图 / 原文写
+#   addedAt      收录日：把这条信息整理进来的那天（YYYY-MM-DD）
+#   id           省略时按 来源+公司+岗位名+收录日 生成；之后改了这几项 id 会变（用户的收藏会失效），想固定就自己写
+#   postedAt     截图 / 消息里能看出发布日期时才写
+#   cities       [北京, 上海]
+#   department   部门
+#   experience   经验要求，如 3-5年
+#   salary       薪资，如 30-50K·15薪（Boss 截图里都有）
+#   url          能打开的岗位页；Boss 截图通常没有，不要编
+#   duty         岗位职责原文
+#   requirement  任职要求原文
+#   officialId   手动指定它就是官网的哪个岗位
+#   internal     私有备注：谁分享的、截图文件名……只留在这个文件里，不会发布
+#
+# 例子（写真实内容时照这个格式加到 jobs 下面）：
+#
+#   - source: boss
+#     company: 滴滴
+#     title: 用户体验研究专家
+#     addedAt: 2026-10-29
+#     cities: [北京]
+#     experience: 3-5年
+#     salary: 30-50K·15薪
+#     duty: |
+#       1. ……
+#     requirement: |
+#       1. ……
+#     internal: 截图 boss-20261029-03.png
+
+jobs: []

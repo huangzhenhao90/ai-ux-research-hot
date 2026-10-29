@@ -16,7 +16,7 @@
 
 from __future__ import annotations
 
-from datetime import date, timedelta
+from datetime import date
 
 from pydantic import BaseModel, Field
 
@@ -62,11 +62,6 @@ class WindowResult(BaseModel):
 
 def age(day: str, today: date) -> int:
     return (today - date.fromisoformat(day)).days
-
-
-def expires_on(job: Job, window: Window) -> str:
-    """满 keepDays 后的第一天移出；页面上显示「预计下架」。"""
-    return (date.fromisoformat(job.since) + timedelta(days=window.keepDays + 1)).isoformat()
 
 
 def apply_window(

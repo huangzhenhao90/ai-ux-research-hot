@@ -21,6 +21,7 @@ from zoneinfo import ZoneInfo
 import httpx
 from pydantic import BaseModel
 
+from uxhot.social.origin import normalize_city
 from uxhot.social.window import Job
 
 TZ = ZoneInfo("Asia/Shanghai")
@@ -153,7 +154,7 @@ def build(company: Company, *, raw_id: Any, title: Any, url: str, posted: Any, k
         return None
     # 各家城市写法不一（「北京市」「北京」），统一成不带「市」的，城市筛选才不会分成两项
     fields["cities"] = list(dict.fromkeys(
-        re.sub(r"(?<=..)市$", "", c.strip()) for c in fields.get("cities") or [] if c and c.strip()
+        normalize_city(c) for c in fields.get("cities") or [] if c and c.strip()
     ))
     return Job(
         id=f"{company.key}-{raw_id}", company=company.name, title=title, url=url,

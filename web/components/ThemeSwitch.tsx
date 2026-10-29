@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 
+import { track } from "@/lib/track";
+
 import { IconMonitor, IconMoon, IconSun } from "./icons";
 
 type Choice = "dark" | "system" | "light";
@@ -36,6 +38,7 @@ export function ThemeSwitch({ className = "" }: { className?: string }) {
 
   function choose(next: Choice) {
     setCurrent(next);
+    track("theme", { theme: next });
     const root = document.documentElement;
     try {
       if (next === "system") window.localStorage.removeItem(THEME_STORAGE_KEY);

@@ -13,7 +13,7 @@ import httpx
 import pytest
 
 from uxhot.social.sources import ADAPTERS, AdapterError, Company, clean, cookie, parse, to_date
-from uxhot.social.sync import TZ, SocialConfig, fetch_company, is_relevant, load_social_config, sync
+from uxhot.social.sync import TZ, SocialConfig, fetch_company, is_relevant, load_social_config, sync, user_agent
 from uxhot.social.window import Job
 
 SAMPLES = json.loads((Path(__file__).parent / "fixtures" / "social_samples.json").read_text(encoding="utf-8"))
@@ -185,15 +185,16 @@ def test_sync_writes_state_and_content(tmp_path):
             raise AdapterError("没找到岗位列表")
         return [_job("t-1"), _job("t-2", posted="2026-08-01")]
 
-    report = sync(_cfg("腾讯", "百度"), now=now, state_path=state, content_path=content,
+    manual = tmp_path / "manual.yaml"
+    report = sync(_cfg("腾讯", "百度"), now=now, state_path=state, content_path=content, manual_path=manual,
                   fetch=fetch, client_factory=_NullClient)
     assert report.ok == ["腾讯"] and list(report.failed) == ["百度"]
     assert report.window.added == ["t-1"] and report.window.rejected == ["t-2"]
     doc = json.loads(content.read_text(encoding="utf-8"))
     assert doc["window"] == {"admitDays": 30, "keepDays": 90}
     assert [j["id"] for j in doc["jobs"]] == ["t-1"]
-    assert doc["jobs"][0]["expiresAt"] == "2027-01-26"
-    assert "misses" not in doc["jobs"][0]
+    assert doc["jobs"][0]["origins"] == ["official"]
+    assert "misses" not in doc["jobs"][0] and "expiresAt" not in doc["jobs"][0]
     by_name = {c["name"]: c for c in doc["companies"]}
     assert by_name["腾讯"]["ok"] and by_name["腾讯"]["jobCount"] == 1
     assert not by_name["百度"]["ok"] and by_name["百度"]["lastOkAt"] is None
@@ -203,7 +204,7 @@ def test_sync_writes_state_and_content(tmp_path):
         raise AssertionError("不该抓取")
 
     again = sync(_cfg("腾讯", "百度"), now=now + timedelta(hours=5), state_path=state, content_path=content,
-                 fetch=boom, client_factory=_NullClient)
+                 manual_path=manual, fetch=boom, client_factory=_NullClient)
     assert again.skipped and again.total == 1
 
 
@@ -214,7 +215,8 @@ def test_sync_all_failed_writes_nothing(tmp_path):
         raise httpx.ConnectError("断网")
 
     report = sync(_cfg("腾讯"), now=datetime(2026, 10, 28, tzinfo=TZ), state_path=state,
-                  content_path=content, fetch=fetch, client_factory=_NullClient)
+                  content_path=content, manual_path=tmp_path / "manual.yaml", fetch=fetch,
+                  client_factory=_NullClient)
     assert list(report.failed) == ["腾讯"] and not state.exists() and not content.exists()
 
 
@@ -229,3 +231,12 @@ def test_cookie_picks_the_right_site():
     assert cookie(client, "atsx-csrf-token", "li.jobs.feishu.cn") == ""
     assert cookie(client, "XSRF-TOKEN", "talent.alibaba.com") == "ali"
     client.close()
+
+
+def test_user_agent_points_at_the_public_about_page_not_the_private_repo(tmp_path):
+    ua = user_agent()
+    assert ua.startswith("Mozilla/5.0 (compatible; URHOTBot/0.1; +https://")
+    assert ua.endswith("/about)") and "github.com/huangzhenhao90/ai-ux-research-hot" not in ua
+    site = tmp_path / "site.yaml"
+    site.write_text("crawlerName: 没有括号的写法\n", encoding="utf-8")
+    assert user_agent(site) == "Mozilla/5.0 (compatible; 没有括号的写法)"

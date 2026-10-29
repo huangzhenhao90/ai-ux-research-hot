@@ -40,9 +40,10 @@ CONFIG = REPO_ROOT / "config" / "job_probe.yaml"
 KEYWORDS = ("用户研究", "体验研究")
 # 每次搜索取多少条：看发布时间分布要样本，20 条够看出新旧
 PAGE_SIZE = 20
+# 联系地址指向公开的关于页，不是源码仓库（私有，DECISIONS D22）
 USER_AGENT = (
     "Mozilla/5.0 (compatible; URHOTBot-probe/0.1; "
-    "+https://github.com/huangzhenhao90/ai-ux-research-hot)"
+    "+https://huangzhenhao90.github.io/ai-ux-research-hot/about)"
 )
 PAUSE_SECONDS = 1.0
 TIMEOUT = 15.0

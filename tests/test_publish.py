@@ -255,6 +255,7 @@ def test_site_json_carries_base_path(published: Path) -> None:
     assert doc["name"] == "URHOT"
     assert doc["alias"] == "AI 用研热点"
     assert doc["subject"] == "AI 用研"
+    assert doc["byline"] == "真知浩见出品"          # D18：出品方署名，前端在侧栏、顶栏、页脚、关于页写出来
 
 
 def test_items_without_chinese_are_not_published(published: Path) -> None:

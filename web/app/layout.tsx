@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { Analytics } from "@/components/Analytics";
 import { getSite } from "@/lib/data";
 
 import "./globals.css";
@@ -38,7 +39,10 @@ export default function RootLayout({
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

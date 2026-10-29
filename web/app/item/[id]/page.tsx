@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { BookmarkButton } from "@/components/BookmarkButton";
+import { Crumbs } from "@/components/Crumbs";
 import { PageShell } from "@/components/PageShell";
+import { itemFav } from "@/lib/favorites";
 import {
   categoryLabel,
   displayTitle,
@@ -61,6 +64,13 @@ export default async function ItemPage({
 
   return (
     <PageShell narrow>
+      <Crumbs
+        items={[
+          { href: "/all/", label: "返回全部动态" },
+          { href: "/search/", label: "去搜索" },
+        ]}
+      />
+
       <div className="page-head">
         <div className="card__head">
           {item.category ? (
@@ -139,16 +149,20 @@ export default async function ItemPage({
             <span>{item.sourceName}</span>
             {published ? <time dateTime={item.publishedAt ?? undefined}>{published}</time> : null}
           </div>
-          <p style={{ marginTop: "0.75rem" }}>
+          <div className="action-row" style={{ marginTop: "0.75rem" }}>
             <a
               href={item.url}
               target="_blank"
               rel="noopener noreferrer nofollow"
               className="text-link"
+              data-track="outbound"
+              data-track-kind="item_origin"
+              data-track-tab="item_detail"
             >
               阅读原文 →
             </a>
-          </p>
+            <BookmarkButton entry={itemFav(item)} where="detail" variant="pill" />
+          </div>
         </div>
       </section>
 
@@ -179,12 +193,6 @@ export default async function ItemPage({
         </section>
       ) : null}
 
-      <section className="section">
-        <p className="section__count">
-          <Link href="/all/">← 返回全部动态</Link> ·{" "}
-          <Link href="/search/">去搜索</Link>
-        </p>
-      </section>
     </PageShell>
   );
 }

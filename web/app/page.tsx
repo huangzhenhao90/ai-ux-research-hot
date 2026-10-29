@@ -37,7 +37,9 @@ export default function HomePage() {
         <p className="feed-more">
           想看更多？<Link href="/all/">全部动态</Link> ·{" "}
           <Link href="/topics/">按主题浏览</Link> ·{" "}
-          <a href={`${site.basePath}/rss.xml`}>订阅 RSS</a>
+          <a href={`${site.basePath}/rss.xml`} data-track="rss" data-track-where="home">
+            订阅 RSS
+          </a>
         </p>
       ) : null}
     </PageShell>

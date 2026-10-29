@@ -4,8 +4,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { groupSources, readSources } from "@/app/_lib/sources";
+import { Byline, LogoMark } from "@/components/Brand";
 import { PageShell } from "@/components/PageShell";
-import { getSite } from "@/lib/data";
+import { getSite, getSocial } from "@/lib/data";
+import { analyticsProvider } from "@/lib/track";
 
 export const metadata: Metadata = {
   title: "关于",
@@ -22,6 +24,8 @@ const WHAT_IT_IS =
 const HOW_TO_READ =
   "「精选」只放入选的条目，「全部动态」放已写好中文标题和摘要的全部条目（含没入选的），两边都按天排成时间线，可以按分类筛选，也可以直接跳到某一天。";
 
+const ANALYTICS_NAMES = { umami: "Umami", baidu: "百度统计" } as const;
+
 const SCORE_NOTE_HEAD = "评分与模型打分只用来决定入选和排序，不在页面上公开显示（";
 const SCORE_NOTE_TAIL = "）。每一条都能点回原文，判断留给你自己。";
 
@@ -33,9 +37,22 @@ export default function AboutPage() {
   const active = sources.length - excluded.length;
 
   const rssPath = `${site.basePath}/rss.xml`;
+  const socialWindow = getSocial()?.window ?? { admitDays: 30, keepDays: 90 };
 
   return (
     <PageShell current="/about/">
+      <div className="brand-hero">
+        <LogoMark size={72} />
+        <div>
+          <div className="brand-hero__name">
+            <b>UR</b>
+            <span>hot</span>
+          </div>
+          <p className="brand-hero__alias">{site.alias}</p>
+          <Byline size="lg" />
+        </div>
+      </div>
+
       <div className="page-head">
         <h1>关于 {site.name}</h1>
         <p className="page-head__desc">{site.tagline}</p>
@@ -127,6 +144,29 @@ export default function AboutPage() {
           </>
         )}
 
+        <h2 id="jobs">求职：校招与社招</h2>
+        <p>
+          {"「用研校招」收录 2027 届用户研究相关的正式校招岗位，每个岗位附官网原文、岗位分析与投递建议；"}
+          {`「用研社招」每天从公司招聘官网收集社招岗位，只收第一次出现时发布不超过 ${socialWindow.admitDays} 天的，满 ${socialWindow.keepDays} 天自动移出。`}
+        </p>
+        <p>
+          {"社招岗位都标了来源：「官网」是公司招聘官网，每天自动抓取，是主要来源；「Boss直聘」与「社群」是人工整理进来的。同一个岗位官网和 Boss 直聘都有时，只标官网。"}
+        </p>
+
+        <h2 id="privacy">收藏与统计</h2>
+        <ul>
+          <li>
+            {"收藏只保存在你当前使用的浏览器里，不登录、不上传；清理浏览器数据会丢，可以在"}
+            <Link href="/favorites/">收藏夹</Link>
+            {"里导出备份、换设备时导入。"}
+          </li>
+          {analyticsProvider ? (
+            <li>
+              {`本站用${ANALYTICS_NAMES[analyticsProvider]}统计各个页面与功能被访问、被使用的次数和人数；不记录你搜索的关键词，不收集姓名、账号等个人信息，浏览器开着「请勿跟踪」时不统计。`}
+            </li>
+          ) : null}
+        </ul>
+
         <h2>更新频率</h2>
         <ul>
           <li>采集：每 4 小时扫一次信源（定时任务本身会延迟，所以不承诺整点）。</li>
@@ -136,7 +176,9 @@ export default function AboutPage() {
         <h2>订阅</h2>
         <p>
           {"RSS："}
-          <a href={rssPath}>{rssPath}</a>
+          <a href={rssPath} data-track="rss" data-track-where="about">
+            {rssPath}
+          </a>
         </p>
 
         <h2>致谢</h2>

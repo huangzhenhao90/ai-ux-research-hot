@@ -9,6 +9,8 @@
  * 需要读数据的函数放 `lib/data.ts`。
  */
 
+import type { SocialJob, SocialOrigin } from "./types";
+
 const CATEGORY_LABELS: Record<string, string> = {
   tools: "工具",
   methods: "方法",
@@ -172,3 +174,15 @@ export function daysAgoLabel(day: string, today: string): string {
   if (n === 1) return "昨天";
   return `${n} 天前`;
 }
+
+/** 日期后面跟的动作：官网给首次发布日期、只给更新日期，或手动收录时按本站收录日。 */
+export function dateKindLabel(kind: SocialJob["dateKind"]): string {
+  return kind === "publish" ? "发布" : kind === "update" ? "更新" : "收录";
+}
+
+/** 岗位来源的显示名（DECISIONS D20）。 */
+export const ORIGIN_LABELS: Record<SocialOrigin, string> = {
+  official: "官网",
+  boss: "Boss直聘",
+  community: "社群",
+};

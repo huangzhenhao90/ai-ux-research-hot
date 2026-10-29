@@ -3,6 +3,9 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
+import { BookmarkButton } from "@/components/BookmarkButton";
+import { useSearchTracking } from "@/lib/use-search-tracking";
+
 /** 服务端整理好的展示条目（见 app/search/page.tsx）。 */
 export interface SearchEntry {
   id: string;
@@ -13,6 +16,8 @@ export interface SearchEntry {
   entities: string[];
   categoryLabel: string | null;
   sourceName: string;
+  /** 原文链接（收藏时存下来） */
+  url: string;
   time: string;
 }
 
@@ -73,6 +78,7 @@ export function SearchClient({ items }: { items: SearchEntry[] }) {
 
   const shown = matched.slice(0, MAX_RESULTS);
   const keyword = query.trim();
+  useSearchTracking(query, "search_page", matched.length > 0);
 
   return (
     <>
@@ -129,6 +135,19 @@ export function SearchClient({ items }: { items: SearchEntry[] }) {
                   {entry.categoryLabel ? (
                     <span className="badge badge--accent">{entry.categoryLabel}</span>
                   ) : null}
+                  <span className="card__actions">
+                    <BookmarkButton
+                      where="card"
+                      entry={{
+                        kind: "item",
+                        id: entry.id,
+                        title: entry.title,
+                        subtitle: entry.sourceName,
+                        tags: entry.categoryLabel ? [entry.categoryLabel] : [],
+                        url: entry.url,
+                      }}
+                    />
+                  </span>
                 </header>
 
                 <h3 className="card__title">

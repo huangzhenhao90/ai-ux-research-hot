@@ -2,16 +2,18 @@ import Link from "next/link";
 
 // ⚠️ 只从 lib/format 取辅助函数，不要从 lib/data 取——
 // lib/data 会 import node:fs，一旦链进来，这个组件就不能在 "use client" 里用了。
+import { itemFav } from "@/lib/favorites";
 import { categoryLabel, displayTitle, formatClock, groupByDay } from "@/lib/format";
 import type { PublicItem } from "@/lib/types";
 
+import { BookmarkButton } from "./BookmarkButton";
 import { IconExternal } from "./icons";
 import { TimelineDay, TimelineSlot } from "./Timeline";
 
 /**
  * 条目卡片。首页、全部动态、分类页、主题页共用。
  *
- * 顶部一行：来源、分类、精选等角标，右侧「原文」；整张卡片点进详情页。
+ * 顶部一行：来源、分类、精选等角标，右侧「原文」与书签（收藏）；整张卡片点进详情页。
  * 桌面上时刻画在左侧时间线上，手机上没有时间线，时刻跟在来源后面（`at`）。
  */
 export function ItemCard({
@@ -51,16 +53,22 @@ export function ItemCard({
         ) : null}
         {item.itemType === "tool_launch" ? <span className="badge">新工具</span> : null}
         {item.status === "archived" ? <span className="badge">往期</span> : null}
-        <a
-          href={item.url}
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-          className="card__origin card__raise"
-          title="打开原文"
-        >
-          原文
-          <IconExternal size={12} />
-        </a>
+        <span className="card__actions">
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="card__origin card__raise"
+            title="打开原文"
+            data-track="outbound"
+            data-track-kind="item_origin"
+            data-track-tab="feed"
+          >
+            原文
+            <IconExternal size={12} />
+          </a>
+          <BookmarkButton entry={itemFav(item)} where="card" />
+        </span>
       </header>
 
       <h3 className="card__title">

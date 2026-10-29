@@ -102,6 +102,22 @@ export const IconChevronDown: Icon = (p) => (
     <path d="M6 9l6 6 6-6" />
   </Svg>
 );
+/** 书签：默认描边；收藏后传 `fill="currentColor"` 变实心。 */
+export const IconBookmark: Icon = (p) => (
+  <Svg {...p}>
+    <path d="M6.5 3.5h11a1 1 0 011 1V20.5l-6.5-4.3-6.5 4.3V4.5a1 1 0 011-1z" />
+  </Svg>
+);
+export const IconDownload: Icon = (p) => (
+  <Svg {...p}>
+    <path d="M12 4v11M7.5 10.5L12 15l4.5-4.5M5 19.5h14" />
+  </Svg>
+);
+export const IconUpload: Icon = (p) => (
+  <Svg {...p}>
+    <path d="M12 15V4M7.5 8.5L12 4l4.5 4.5M5 19.5h14" />
+  </Svg>
+);
 export const IconExternal: Icon = (p) => (
   <Svg {...p}>
     <path d="M14 4.5h5.5V10M19.5 4.5L11 13M18 14v4.5a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 014 18.5v-11A1.5 1.5 0 015.5 6H10" />

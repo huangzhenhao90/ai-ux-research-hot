@@ -5,14 +5,20 @@ name: Update
 # 定时：每 4 小时采集评分一次，新入选的条目随即出现在精选里。
 # 注意 GitHub 的定时任务常延迟，实际间隔不一定整 4 小时。
 #
-# ── 两个需要配置的开关 ────────────────────────────────────────────────
+# ── 需要配置的开关 ────────────────────────────────────────────────────
 #
 # 1) Secret `LLM_API_KEY`：**没配就自动降级为 dry-run**（只抓取、不花钱），
 #    并在日志里明确告警。这样仓库在密钥就位前也能正常跑，不会一路红。
-# 2) Variable `PAGES_ENABLED`：设为 `true` 才会上传产物并部署 Pages。
-#    private 仓库开不了 Pages（除非 GitHub Pro），所以默认不开；
-#    阶段 8 之后把仓库转 public、在 Settings → Pages 选 GitHub Actions，
-#    再把该 Variable 设成 true 即可。
+#
+# 2) 怎么把站点发出去（二选一，详见 docs/私有化与公开站点.md）：
+#    · 推荐：源码仓库保持**私有**，Pages 从另一个**公开**的站点仓库出（DECISIONS D22）。
+#      设 Variable `PUBLIC_SITE_REPO`（owner/name）和 Secret `SITE_DEPLOY_KEY`，
+#      每次构建完把 web/out 强推到那个仓库的 gh-pages 分支。
+#    · 过渡：源码仓库自己是 public 时，设 Variable `PAGES_ENABLED=true`，
+#      用 GitHub Actions 方式部署 Pages（原来的做法）。`PUBLIC_SITE_REPO` 设了就以它为准，这条不再生效。
+#
+# 3) 统计（可选，DECISIONS D21）：Variable `ANALYTICS_PROVIDER`（umami / baidu）、
+#    `ANALYTICS_ID`、`ANALYTICS_HOST`（自建 Umami 才要）。没配就不加载任何统计脚本。
 
 on:
   schedule:
@@ -132,6 +138,11 @@ jobs:
 
       - name: 构建静态站
         working-directory: web
+        env:
+          # 统计服务的公开参数（站点 ID 之类，本来就会出现在页面里）；没配就不加载统计脚本
+          NEXT_PUBLIC_ANALYTICS_PROVIDER: ${{ vars.ANALYTICS_PROVIDER }}
+          NEXT_PUBLIC_ANALYTICS_ID: ${{ vars.ANALYTICS_ID }}
+          NEXT_PUBLIC_ANALYTICS_HOST: ${{ vars.ANALYTICS_HOST }}
         run: npm run build
 
       - name: 提交数据与产物
@@ -147,16 +158,31 @@ jobs:
             git push
           fi
 
+      - name: 公开产物自检
+        # 要公开的就是 web/out：里面不能有源码、配置、密钥、手动收录的私有备注（DECISIONS D22）。
+        # 放在提交之后：不过只是不发布，数据状态照样保存
+        run: python scripts/check_public_output.py web/out
+
+      - name: 发布到公开站点仓库
+        # 源码仓库私有时的做法：Pages 从另一个公开仓库出，那里只有构建产物（docs/私有化与公开站点.md）
+        if: vars.PUBLIC_SITE_REPO != ''
+        env:
+          PUBLIC_SITE_REPO: ${{ vars.PUBLIC_SITE_REPO }}
+          PUBLIC_SITE_BRANCH: ${{ vars.PUBLIC_SITE_BRANCH }}
+          PUBLIC_SITE_BASE_PATH: ${{ vars.PUBLIC_SITE_BASE_PATH }}
+          SITE_DEPLOY_KEY: ${{ secrets.SITE_DEPLOY_KEY }}
+        run: python scripts/publish_site.py
+
       - name: 上传 Pages 产物
-        # private 仓库开不了 Pages，用 Variable 控制；转 public 后设为 true
-        if: vars.PAGES_ENABLED == 'true'
+        # 过渡做法：源码仓库自己是 public 时用；设了 PUBLIC_SITE_REPO 就不走这条
+        if: vars.PAGES_ENABLED == 'true' && vars.PUBLIC_SITE_REPO == ''
         uses: actions/upload-pages-artifact@v5
         with:
           path: web/out
 
   deploy:
     needs: update
-    if: vars.PAGES_ENABLED == 'true'
+    if: vars.PAGES_ENABLED == 'true' && vars.PUBLIC_SITE_REPO == ''
     runs-on: ubuntu-latest
     environment:
       name: github-pages

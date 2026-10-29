@@ -3,8 +3,12 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
+import { BookmarkButton } from "@/components/BookmarkButton";
 import { IconExternal, IconSearch } from "@/components/icons";
+import { campusFav } from "@/lib/favorites";
+import { track } from "@/lib/track";
 import type { CampusCompany, CampusJob } from "@/lib/types";
+import { useSearchTracking } from "@/lib/use-search-tracking";
 
 type View = "jobs" | "companies";
 type CompanyScope = "hiring" | "none" | "all";
@@ -110,8 +114,16 @@ export function CampusClient({
     );
   }, [companies, industry, scope, query]);
 
+  useSearchTracking(query, "campus", (view === "jobs" ? shownJobs.length : shownCompanies.length) > 0);
+
+  /** 改筛选条件并记一次埋点。 */
+  function pick<T>(setter: (value: T) => void, by: string, value: T) {
+    setter(value);
+    track("filter", { tab: "campus", by });
+  }
+
   function pickCompany(name: string) {
-    setCompany(name);
+    pick(setCompany, "company", name);
     setView("jobs");
     window.scrollTo({ top: 0 });
   }
@@ -135,7 +147,7 @@ export function CampusClient({
             type="button"
             className="pill-tabs__tab"
             aria-pressed={view === "jobs"}
-            onClick={() => setView("jobs")}
+            onClick={() => pick(setView, "view", "jobs" as View)}
           >
             岗位 <span className="num">{jobs.length}</span>
           </button>
@@ -143,7 +155,7 @@ export function CampusClient({
             type="button"
             className="pill-tabs__tab"
             aria-pressed={view === "companies"}
-            onClick={() => setView("companies")}
+            onClick={() => pick(setView, "view", "companies" as View)}
           >
             公司库 <span className="num">{companies.length}</span>
           </button>
@@ -168,7 +180,7 @@ export function CampusClient({
           type="button"
           className="chip"
           aria-pressed={industry === null}
-          onClick={() => setIndustry(null)}
+          onClick={() => pick(setIndustry, "industry", null)}
         >
           全部行业
         </button>
@@ -178,7 +190,7 @@ export function CampusClient({
             type="button"
             className="chip"
             aria-pressed={industry === name}
-            onClick={() => setIndustry(industry === name ? null : name)}
+            onClick={() => pick(setIndustry, "industry", industry === name ? null : name)}
           >
             {name}
           </button>
@@ -190,7 +202,7 @@ export function CampusClient({
               className="day-select chip-select"
               aria-label="岗位类型"
               value={type}
-              onChange={(event) => setType(event.target.value)}
+              onChange={(event) => pick(setType, "type", event.target.value)}
             >
               <option value="">全部类型</option>
               {types.map((name) => (
@@ -203,7 +215,7 @@ export function CampusClient({
               type="button"
               className="chip"
               aria-pressed={aiOnly}
-              onClick={() => setAiOnly(!aiOnly)}
+              onClick={() => pick(setAiOnly, "ai", !aiOnly)}
             >
               职责含 AI
             </button>
@@ -211,7 +223,7 @@ export function CampusClient({
               type="button"
               className="chip"
               aria-pressed={multiOnly}
-              onClick={() => setMultiOnly(!multiOnly)}
+              onClick={() => pick(setMultiOnly, "multi", !multiOnly)}
             >
               招多人
             </button>
@@ -223,7 +235,7 @@ export function CampusClient({
               type="button"
               className="chip"
               aria-pressed={scope === option.key}
-              onClick={() => setScope(option.key)}
+              onClick={() => pick(setScope, "scope", option.key)}
             >
               {option.label}
             </button>
@@ -296,16 +308,22 @@ function JobCard({ job, onCompany }: { job: CampusJob; onCompany: (name: string)
         <span className="badge">{job.industry}</span>
         <span className="badge badge--accent">{job.type}</span>
         {job.ai ? <span className="badge badge--selected">职责含 AI</span> : null}
-        <a
-          href={job.url}
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-          className="card__origin card__raise"
-          title="打开官方岗位页"
-        >
-          官方投递
-          <IconExternal size={12} />
-        </a>
+        <span className="card__actions">
+          <a
+            href={job.url}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="card__origin card__raise"
+            title="打开官方岗位页"
+            data-track="outbound"
+            data-track-kind="job_apply"
+            data-track-tab="campus"
+          >
+            官方投递
+            <IconExternal size={12} />
+          </a>
+          <BookmarkButton entry={campusFav(job)} where="card" />
+        </span>
       </header>
 
       <h3 className="card__title">
@@ -365,7 +383,15 @@ function CompanyTile({
           <span className="section__count">暂未收录岗位</span>
         )}
         {company.url ? (
-          <a href={company.url} target="_blank" rel="noopener noreferrer nofollow" className="link-button">
+          <a
+            href={company.url}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="link-button"
+            data-track="outbound"
+            data-track-kind="careers_site"
+            data-track-tab="campus"
+          >
             招聘官网 ↗
           </a>
         ) : null}

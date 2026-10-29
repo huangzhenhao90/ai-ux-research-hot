@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from datetime import date, timedelta
 
-from uxhot.social.window import Job, Window, apply_window, expires_on
+from uxhot.social.window import Job, Window, apply_window
 
 TODAY = date(2026, 11, 1)
 W = Window(admitDays=30, keepDays=90, missLimit=3)
@@ -38,7 +38,6 @@ def test_window_grows_to_90_days_then_slides():
         kept, retired, _ = apply_window(kept, retired, {"腾讯": [job("a", 30)]}, day, W)
         assert [j.id for j in kept] == ["a"], days_later
     assert kept[0].since == ago(30)
-    assert expires_on(kept[0], W) == (TODAY + timedelta(days=61)).isoformat()
 
     day = TODAY + timedelta(days=61)          # 起算日之后第 91 天
     kept, retired, res = apply_window(kept, retired, {"腾讯": [job("a", 30)]}, day, W)

@@ -82,6 +82,7 @@ jobs:
         run: |
           set -e
           for f in out/index.html out/all/index.html out/about/index.html out/social/index.html \
+                   out/campus/index.html out/favorites/index.html out/icon.svg \
                    out/rss.xml out/llms.txt out/data/site.json; do
             test -f "$f" || { echo "缺少产物：$f"; exit 1; }
           done
@@ -94,3 +95,16 @@ jobs:
             exit 1
           fi
           echo "AIHOT 仅出现在关于页 ✅"
+
+      - name: 安装 Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: 公开产物自检
+        # 要推到公开仓库的就是 out/：里面不能有源码、配置、密钥（DECISIONS D22）。
+        # 要装完整依赖：脚本会 import uxhot.publish 这个包，它的 __init__ 会一路链到 dateutil 等
+        run: |
+          pip install -r requirements.txt
+          python scripts/check_public_output.py web/out
