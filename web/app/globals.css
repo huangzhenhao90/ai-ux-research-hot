@@ -3,7 +3,7 @@
  *
  * 版式与配色改编自上游开源项目的前端样式（MIT，来源与版权声明见仓库根目录 NOTICE）：
  * 暖白纸底、墨色文字、一个青色强调色（深色下转亮青）、细线边框、不用渐变。
- * 上游的名称与 Logo 不在 MIT 许可范围内，本站不使用。
+ * 上游的名称与 Logo 不在 MIT 许可范围内，本站不使用；URhot 的标志与字标是本站自己设计的（components/Brand.tsx）。
  *
  * 组件只用下面的语义变量；深浅色只换变量的值。
  */
@@ -34,6 +34,7 @@
   --note: #526f72;
   --amber-ink: #7c5a24;
   --amber-soft: rgba(184, 135, 58, 0.1);
+  --danger: #b3402f;
   --shadow-card: 0 1px 2px rgba(32, 42, 48, 0.025);
   --shadow-card-hover: 0 3px 12px rgba(32, 42, 48, 0.055);
   --shadow-thumb: 0 1px 2px rgba(28, 39, 51, 0.1), 0 1px 1px rgba(28, 39, 51, 0.04);
@@ -78,6 +79,7 @@
     --note: #8fb8a8;
     --amber-ink: #d3b26a;
     --amber-soft: rgba(211, 178, 106, 0.12);
+    --danger: #e58c7c;
     --shadow-card: none;
     --shadow-card-hover: none;
     --shadow-thumb: 0 1px 2px rgba(0, 0, 0, 0.45);
@@ -107,6 +109,7 @@
   --note: #8fb8a8;
   --amber-ink: #d3b26a;
   --amber-soft: rgba(211, 178, 106, 0.12);
+  --danger: #e58c7c;
   --shadow-card: none;
   --shadow-card-hover: none;
   --shadow-thumb: 0 1px 2px rgba(0, 0, 0, 0.45);
@@ -249,7 +252,7 @@ code {
 .sidebar__brand {
   display: flex;
   align-items: center;
-  height: 34px;
+  height: 40px;
   padding: 0 4px;
   color: var(--ink);
 }
@@ -259,36 +262,72 @@ code {
 }
 
 .sidebar__alias {
-  padding: 0 4px 0 22px;
+  padding: 2px 4px 0;
   font-size: 12px;
   color: var(--ink-4);
 }
 
+.sidebar__byline {
+  padding: 8px 4px 0;
+}
+
+/* 标志 + 字标：UR 粗、hot 细并用强调色（标志本身见 components/Brand.tsx） */
 .wordmark {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  font-size: 22px;
-  font-weight: 750;
+  gap: 9px;
+  font-size: 23px;
+  line-height: 1;
   letter-spacing: 0.01em;
 }
 
 .wordmark--small {
-  font-size: 17px;
-  gap: 6px;
+  font-size: 18px;
+  gap: 7px;
 }
 
-.wordmark__dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 999px;
-  background: var(--accent);
+.logo-mark {
+  display: block;
   flex-shrink: 0;
 }
 
-.wordmark--small .wordmark__dot {
-  width: 6px;
-  height: 6px;
+.wordmark__text b {
+  font-weight: 800;
+  color: var(--ink);
+}
+
+.wordmark__text span {
+  font-weight: 500;
+  color: var(--accent);
+}
+
+/* 「真知浩见出品」：出品方署名胶囊，放在侧栏、手机顶栏、关于页 */
+.byline {
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 22%, transparent);
+  font-size: 12.5px;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.byline--sm {
+  height: 18px;
+  padding: 0 7px;
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+}
+
+.byline--lg {
+  height: 30px;
+  padding: 0 14px;
+  font-size: 14.5px;
 }
 
 .sidebar__nav {
@@ -333,6 +372,16 @@ code {
   background: var(--accent-soft);
   color: var(--ink);
   font-weight: 600;
+}
+
+.side-link__count {
+  margin-left: auto;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--bg-sunk);
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: var(--ink-3);
 }
 
 .side-link__icon {
@@ -780,18 +829,70 @@ a.page-head__aside:hover {
   font-size: 12px;
 }
 
+/* 卡片右上角：原文 / 官方投递 + 书签 */
+.card__actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  padding-left: 8px;
+}
+
 .card__origin {
   display: inline-flex;
   align-items: center;
   gap: 3px;
-  margin-left: auto;
-  padding-left: 8px;
   color: var(--ink-4);
   white-space: nowrap;
 }
 
 .card__origin:hover {
   color: var(--accent);
+}
+
+/* 书签：点击区 30px，用负外边距让它不把卡片头撑高，图标贴着卡片内边距 */
+.bookmark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 30px;
+  height: 30px;
+  margin: -6px -6px -6px 0;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-control);
+  background: transparent;
+  color: var(--ink-4);
+  transition: color 150ms, background-color 150ms;
+}
+
+.bookmark:hover {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.bookmark.is-saved {
+  color: var(--accent);
+}
+
+/* 详情页顶部的「收藏」胶囊 */
+.bookmark--pill {
+  width: auto;
+  height: 34px;
+  margin: 0;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 14px;
+  color: var(--ink-3);
+}
+
+.bookmark--pill.is-saved {
+  border-color: transparent;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
 }
 
 /* 整张卡片可点（标题链接的 ::after 铺满），卡片里其他链接要浮在它上面 */
@@ -908,6 +1009,36 @@ a.badge--accent:hover {
   color: var(--amber-ink);
 }
 
+/* 岗位来源：官网用实心强调色（主要来源），Boss直聘、社群用各自的浅色 */
+.badge--origin {
+  font-weight: 650;
+}
+
+.badge--origin-official {
+  border-color: transparent;
+  background: var(--accent);
+  color: var(--surface);
+}
+
+.badge--origin-boss {
+  border-color: transparent;
+  background: var(--amber-soft);
+  color: var(--amber-ink);
+}
+
+.badge--origin-community {
+  border-color: var(--line-strong);
+  background: var(--bg-muted);
+  color: var(--ink-2);
+}
+
+/* 收藏夹里已经下架的条目 */
+.badge--gone {
+  border-color: var(--line-strong);
+  background: transparent;
+  color: var(--ink-3);
+}
+
 .badge__dot {
   width: 5px;
   height: 5px;
@@ -1011,9 +1142,40 @@ a.badge--plain:hover {
   color: var(--note);
 }
 
+.callout--warn {
+  margin-bottom: 14px;
+  background: var(--amber-soft);
+  color: var(--amber-ink);
+}
+
 .callout strong {
   color: var(--accent);
   font-weight: 600;
+}
+
+/* 详情页最上面的「← 返回…」 */
+.crumbs {
+  margin-bottom: 14px;
+  font-size: 13px;
+  color: var(--ink-4);
+}
+
+.crumbs a {
+  color: var(--accent);
+}
+
+.crumbs a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* 详情页的「去官网投递」+「收藏」 */
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
 }
 
 /* ── 搜索页 ─────────────────────────────────────────────────────────── */
@@ -1109,6 +1271,88 @@ a.tile:hover,
   color: var(--ink);
 }
 
+/* 校招统计：先说监控范围，再说「其中」多少家已开、多少家有岗 */
+.campus-stats--tiered {
+  align-items: center;
+}
+
+.campus-stats .campus-stats__lead {
+  border-color: transparent;
+  background: var(--accent-soft);
+  font-size: 14px;
+  color: var(--ink-2);
+}
+
+.campus-stats .campus-stats__lead b {
+  font-size: 20px;
+  color: var(--accent);
+}
+
+.campus-stats .campus-stats__sep {
+  padding: 0 2px;
+  border: 0;
+  background: none;
+  font-size: 13px;
+  color: var(--ink-4);
+}
+
+/* 社招页头：把「数据来源：招聘官网」放大强调，下面再说规则与来源标注 */
+.source-hero {
+  margin-bottom: 18px;
+  padding: 16px 20px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  box-shadow: var(--shadow-card);
+}
+
+.source-hero__kicker {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--ink-4);
+}
+
+.source-hero__title {
+  margin-top: 2px;
+  font-size: 26px;
+  font-weight: 750;
+  line-height: 1.35;
+  color: var(--ink);
+}
+
+.source-hero__em {
+  margin-left: 4px;
+  padding: 0 0.3em;
+  border-radius: 8px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.source-hero__desc {
+  max-width: 46rem;
+  margin-top: 10px;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--ink-3);
+}
+
+.source-hero__desc strong {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.source-hero__legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+  margin-top: 12px;
+  font-size: 12.5px;
+  color: var(--ink-4);
+}
+
 /* 行业、类型、开关这一行小胶囊 */
 .chip-row {
   display: flex;
@@ -1116,6 +1360,12 @@ a.tile:hover,
   align-items: center;
   gap: 6px;
   margin-bottom: 12px;
+}
+
+.chip-row__label {
+  margin-right: 2px;
+  font-size: 12.5px;
+  color: var(--ink-4);
 }
 
 .chip-row__sep {
@@ -1177,6 +1427,20 @@ a.tile:hover,
 .link-button:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.link-button:disabled {
+  color: var(--ink-4);
+  cursor: default;
+  text-decoration: none;
+}
+
+.link-button svg {
+  vertical-align: -2px;
+}
+
+.link-button--danger {
+  color: var(--danger);
 }
 
 .card__head .link-button {
@@ -1268,6 +1532,35 @@ a.tile:hover,
 /* 官网原文保留原有的分行 */
 .jd-text {
   white-space: pre-line;
+}
+
+/* 关于页顶部：标志、字标与「真知浩见出品」 */
+.brand-hero {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 4px 0 22px;
+}
+
+.brand-hero__name {
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+
+.brand-hero__name b {
+  font-weight: 800;
+}
+
+.brand-hero__name span {
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.brand-hero__alias {
+  margin: 4px 0 8px;
+  font-size: 14px;
+  color: var(--ink-3);
 }
 
 /* ── 正文排版（关于页等）────────────────────────────────────────────── */
@@ -1393,6 +1686,17 @@ a.tile:hover,
     color: var(--ink);
   }
 
+  .phonebar__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+
+  .phonebar__nav a .side-link__count {
+    margin-left: 6px;
+  }
+
   .phonebar__nav {
     display: flex;
     gap: 4px;
@@ -1433,6 +1737,14 @@ a.tile:hover,
 
   .page-head h1 {
     font-size: 21px;
+  }
+
+  .source-hero {
+    padding: 14px 16px;
+  }
+
+  .source-hero__title {
+    font-size: 22px;
   }
 
   .feed-bar {

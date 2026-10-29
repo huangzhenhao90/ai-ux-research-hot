@@ -323,6 +323,7 @@ def build_site_data(
             "homeTitle": site.homeTitle,
             "description": site.description,
             "tagline": site.tagline,
+            "byline": site.byline,
             "reasonLabel": site.reasonLabel,
             "showScore": site.showScore,
             "locale": site.locale,

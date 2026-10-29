@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { BookmarkButton } from "@/components/BookmarkButton";
+import { Crumbs } from "@/components/Crumbs";
 import { IconExternal } from "@/components/icons";
 import { PageShell } from "@/components/PageShell";
 import { getCampus, getCampusJob } from "@/lib/data";
+import { campusFav } from "@/lib/favorites";
 
 export function generateStaticParams() {
   const jobs = getCampus()?.jobs ?? [];
@@ -47,6 +49,13 @@ export default async function CampusJobPage({
 
   return (
     <PageShell current="/campus/" narrow>
+      <Crumbs
+        items={[
+          { href: "/campus/", label: "返回用研校招" },
+          { href: `/campus/?company=${encodeURIComponent(job.company)}`, label: `${job.company}的全部岗位` },
+        ]}
+      />
+
       <div className="page-head">
         <div className="card__head">
           <span className="badge">{job.industry}</span>
@@ -77,17 +86,21 @@ export default async function CampusJobPage({
           ))}
       </dl>
 
-      <p style={{ marginTop: "1rem" }}>
+      <div className="action-row">
         <a
           href={job.url}
           target="_blank"
           rel="noopener noreferrer nofollow"
           className="pill-button pill-button--primary"
+          data-track="outbound"
+          data-track-kind="job_apply"
+          data-track-tab="campus_detail"
         >
           去官网投递
           <IconExternal size={13} />
         </a>
-      </p>
+        <BookmarkButton entry={campusFav(job)} where="detail" variant="pill" />
+      </div>
 
       <section className="section">
         <h2 className="section__title">岗位描述（官网原文）</h2>
@@ -121,13 +134,7 @@ export default async function CampusJobPage({
       ) : null}
 
       <section className="section">
-        <p className="section__count">
-          <Link href="/campus/">← 返回用研校招</Link> ·{" "}
-          <Link href={`/campus/?company=${encodeURIComponent(job.company)}`}>
-            {job.company}的全部岗位
-          </Link>
-          {" · 岗位信息会变化，投递前请以官网为准"}
-        </p>
+        <p className="section__count">岗位信息会变化，投递前请以官网为准。</p>
       </section>
     </PageShell>
   );

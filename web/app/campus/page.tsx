@@ -52,18 +52,17 @@ export default function CampusPage() {
         {"只收已确认的 2027 届正式校招研究岗：用户研究、市场研究、用户洞察、体验研究、人因研究。每个岗位附官网原文、岗位分析与投递建议；岗位变化很快，投递前请以企业官网为准。"}
       </p>
 
-      <div className="campus-stats">
-        <span>
-          <b className="num">{jobs.length}</b> 个岗位
+      {/* 先说监控范围，再说其中多少家已开校招、多少家有用研岗位（共多少个岗位） */}
+      <div className="campus-stats campus-stats--tiered">
+        <span className="campus-stats__lead">
+          监控范围 <b className="num">{companies.length}</b> 家重点公司
         </span>
-        <span>
-          <b className="num">{hiring}</b> 家公司有岗
-        </span>
-        <span>
-          <b className="num">{companies.length}</b> 家重点公司
-        </span>
+        <span className="campus-stats__sep">其中</span>
         <span>
           <b className="num">{open}</b> 家已开 27 届校招
+        </span>
+        <span>
+          <b className="num">{hiring}</b> 家有用研岗位，共 <b className="num">{jobs.length}</b> 个
         </span>
       </div>
 

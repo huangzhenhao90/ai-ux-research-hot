@@ -52,6 +52,8 @@ export interface SiteConfig {
   homeTitle: string;
   description: string;
   tagline: string;
+  /** 出品方署名，如「真知浩见出品」 */
+  byline: string;
   reasonLabel: string;
   showScore: boolean;
   locale: string;
@@ -202,24 +204,36 @@ export interface CampusDoc {
 
 // ── 用研社招（web/content/social.json，由 scripts/sync_social.py 生成）────────
 
+/** 岗位来源：官网 / Boss 直聘 / 社群（标注规则见 DECISIONS D20）。 */
+export type SocialOrigin = "official" | "boss" | "community";
+
 export interface SocialJob {
   id: string;
   company: string;
   title: string;
-  url: string;
+  /** 能打开的岗位页：官网岗位都有；Boss 直聘截图、社群消息来源的通常没有 */
+  url: string | null;
   cities: string[];
   department: string | null;
   experience: string | null;
-  /** 官网给的日期是哪一种：publish = 首次发布；update = 最近更新 / 刷新 */
-  dateKind: "publish" | "update";
-  /** 官网这次给的日期（会随刷新变） */
+  /** 薪资：只有 Boss 直聘来源的岗位带 */
+  salary: string | null;
+  /**
+   * 来源标注，已经套用「官网和 Boss 直聘都有的岗位只标官网」。
+   * 按 官网 → Boss 直聘 → 社群 排好，至少有一个。
+   */
+  origins: SocialOrigin[];
+  /**
+   * 日期是哪一种：publish = 首次发布；update = 官网只给最近更新 / 刷新；
+   * added = 手动收录时没有发布日期，按本站收录日
+   */
+  dateKind: "publish" | "update" | "added";
+  /** 页面上显示的日期（会随官网刷新变；手动收录的是发布日期或收录日） */
   postedAt: string;
-  /** 窗口起算日：第一次看到时官网给的日期，之后不变 */
+  /** 窗口起算日：第一次看到时的日期，之后不变 */
   since: string;
   /** 本站第一次看到 */
   firstSeen: string;
-  /** 满 90 天后移出的日期 */
-  expiresAt: string;
   duty: string;
   requirement: string;
 }
@@ -228,9 +242,10 @@ export interface SocialCompany {
   key: string;
   name: string;
   careers: string;
-  /** 最近一次抓取是否成功 */
+  /** 最近一次官网抓取是否成功 */
   ok: boolean;
   lastOkAt: string | null;
+  /** 来自这家公司官网的岗位数 */
   jobCount: number;
 }
 

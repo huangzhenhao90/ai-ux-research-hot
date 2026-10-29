@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 import { groupByDay, monthDay, weekdayLong } from "@/lib/format";
+import { track } from "@/lib/track";
 import type { PublicItem } from "@/lib/types";
 
 import { IconSearch } from "./icons";
@@ -75,6 +76,7 @@ export function FeedClient({
   }
 
   function select(key: string | null) {
+    track("filter", { tab: "feed", by: "category" });
     setActive(key);
     setVisible(pageSize);
     setJumpDay("");
@@ -145,7 +147,10 @@ export function FeedClient({
               className="day-select"
               aria-label="跳到日期"
               value={jumpDay}
-              onChange={(event) => jumpTo(event.target.value)}
+              onChange={(event) => {
+                if (event.target.value) track("filter", { tab: "feed", by: "date" });
+                jumpTo(event.target.value);
+              }}
             >
               <option value="">跳到日期</option>
               {allDays
@@ -157,7 +162,13 @@ export function FeedClient({
                 ))}
             </select>
           ) : null}
-          <form action={searchAction} method="get" role="search" className="search-box">
+          <form
+            action={searchAction}
+            method="get"
+            role="search"
+            className="search-box"
+            onSubmit={() => track("search", { scope: "feed_bar" })}
+          >
             <IconSearch size={15} />
             <input
               type="search"
@@ -197,7 +208,10 @@ export function FeedClient({
           <button
             type="button"
             className="pill-button"
-            onClick={() => setVisible((value) => value + pageSize)}
+            onClick={() => {
+              track("load_more", { tab: "feed" });
+              setVisible((value) => value + pageSize);
+            }}
           >
             加载更多（还有 {rest} 条）
           </button>

@@ -54,6 +54,7 @@ class SiteConfig(BaseModel):
     homeTitle: str
     description: str
     tagline: str
+    byline: str
     reasonLabel: str
     showScore: bool
     locale: str

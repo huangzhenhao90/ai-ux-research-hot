@@ -1,7 +1,9 @@
-"""用研社招同步：抓各家官网 → 相关性筛选 → 滑动窗口 → 写状态与站点数据。
+"""用研社招同步：抓各家官网 → 相关性筛选 → 滑动窗口 → 并入手动收录的岗位 → 写状态与站点数据。
 
-- 状态：`data/social/jobs.json`（窗口里的岗位、retired 名单、各家最近一次抓取结果），提交进仓库；
-- 站点数据：`web/content/social.json`（页面构建时读），由状态整理出来。
+- 状态：`data/social/jobs.json`（窗口里的官网岗位、retired 名单、各家最近一次抓取结果），提交进仓库；
+- 手动收录：`data/social/manual.yaml`（Boss 直聘截图、社群信息；见 `manual.py`），人工维护；
+- 站点数据：`web/content/social.json`（页面构建时读），由状态与手动收录整理出来，
+  字段白名单见 `public.py`。
 
 一家抓失败不影响别家：它的岗位原样保留，页面上标「上次更新于 …」。
 全部失败时不写任何文件，退出码 1，让定时任务出黄色警告、沿用上一版。
@@ -12,7 +14,7 @@ from __future__ import annotations
 import json
 import re
 import time
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Callable
 from zoneinfo import ZoneInfo
@@ -22,17 +24,17 @@ import yaml
 from pydantic import BaseModel, Field
 
 from uxhot.config import CONFIG_DIR, REPO_ROOT
+from uxhot.social.manual import ManualReport, load_manual, merge_manual
+from uxhot.social.origin import OFFICIAL
+from uxhot.social.public import official_job
 from uxhot.social.sources import ADAPTERS, AdapterError, Company
-from uxhot.social.window import Job, Window, WindowResult, apply_window, expires_on
+from uxhot.social.window import Job, Window, WindowResult, apply_window
 
 TZ = ZoneInfo("Asia/Shanghai")
 STATE_PATH = REPO_ROOT / "data" / "social" / "jobs.json"
+MANUAL_PATH = REPO_ROOT / "data" / "social" / "manual.yaml"
 CONTENT_PATH = REPO_ROOT / "web" / "content" / "social.json"
 
-USER_AGENT = (
-    "Mozilla/5.0 (compatible; URHOTBot/0.1; "
-    "+https://github.com/huangzhenhao90/ai-ux-research-hot)"
-)
 PAUSE_SECONDS = 1.0
 TIMEOUT = 15.0
 
@@ -123,12 +125,24 @@ def fetch_company(client: httpx.Client, company: Company, cfg: SocialConfig) -> 
     return list(found.values())
 
 
+def user_agent(site_yaml: Path | None = None) -> str:
+    """采集器的 User-Agent：`Mozilla/5.0 (compatible; URHOTBot/0.1; +关于页地址)`。
+
+    名字与联系地址取自 config/site.yaml 的 `crawlerName`（「URHOTBot (+关于页地址)」）：联系地址要指向
+    公开的关于页——源码仓库是私有的，被抓的站点点进去会是 404（DECISIONS D22）。
+    """
+    site = yaml.safe_load((site_yaml or CONFIG_DIR / "site.yaml").read_text(encoding="utf-8"))
+    crawler = str(site["crawlerName"]).strip()
+    m = re.match(r"^(\S+)\s*\((\+[^)]*)\)$", crawler)
+    return f"Mozilla/5.0 (compatible; {m.group(1)}/0.1; {m.group(2)})" if m else f"Mozilla/5.0 (compatible; {crawler})"
+
+
 def build_client() -> httpx.Client:
     from uxhot.collect.fetch import build_client as base_client
 
     return base_client(
         timeout=TIMEOUT,
-        headers={"User-Agent": USER_AGENT, "Accept-Language": "zh-CN,zh;q=0.9"},
+        headers={"User-Agent": user_agent(), "Accept-Language": "zh-CN,zh;q=0.9"},
     )
 
 
@@ -140,7 +154,16 @@ class SyncReport(BaseModel):
     ok: list[str] = Field(default_factory=list)
     failed: dict[str, str] = Field(default_factory=dict)
     window: WindowResult = Field(default_factory=WindowResult)
+    manual: ManualReport = Field(default_factory=ManualReport)
     total: int = 0
+
+
+def assemble_jobs(
+    state: State, cfg: SocialConfig, manual_path: Path | None, today: date
+) -> tuple[list[dict], ManualReport]:
+    """页面上的全部岗位 = 官网岗位 + 手动收录的岗位（按来源标注规则并在一起）。"""
+    manual = load_manual(manual_path) if manual_path else []
+    return merge_manual([official_job(job) for job in state.jobs], manual, today, cfg.window)
 
 
 def sync(
@@ -150,6 +173,7 @@ def sync(
     force: bool = False,
     state_path: Path = STATE_PATH,
     content_path: Path = CONTENT_PATH,
+    manual_path: Path | None = MANUAL_PATH,
     fetch: Callable[[httpx.Client, Company, SocialConfig], list[Job]] = fetch_company,
     client_factory: Callable[[], httpx.Client] = build_client,
 ) -> SyncReport:
@@ -161,9 +185,10 @@ def sync(
         last = datetime.fromisoformat(state.fetchedAt)
         if now - last < timedelta(hours=cfg.minIntervalHours):
             report.skipped = True
-            report.total = len(state.jobs)
-            if not content_path.exists():
-                write_json(content_path, build_content(state, cfg))
+            # 不抓取，但手动收录的岗位随时可能改过、也每天在过期：页面数据照常重建（没变化就不会产生提交）
+            jobs, report.manual = assemble_jobs(state, cfg, manual_path, now.date())
+            report.total = len(jobs)
+            write_json(content_path, build_content(state, cfg, jobs))
             return report
 
     fetched: dict[str, list[Job]] = {}
@@ -194,18 +219,26 @@ def sync(
     names = {c.name for c in cfg.companies}
     state.companies = {k: v for k, v in state.companies.items() if k in names}
     state.jobs = [j for j in state.jobs if j.company in names]
-    report.total = len(state.jobs)
+
+    jobs, report.manual = assemble_jobs(state, cfg, manual_path, now.date())
+    report.total = len(jobs)
 
     write_json(state_path, state.model_dump())
-    write_json(content_path, build_content(state, cfg))
+    write_json(content_path, build_content(state, cfg, jobs))
     return report
 
 
-def build_content(state: State, cfg: SocialConfig) -> dict:
-    """页面读的数据：岗位按起算日新→旧，附预计下架日；公司带抓取状态。"""
+def build_content(state: State, cfg: SocialConfig, jobs: list[dict] | None = None) -> dict:
+    """页面读的数据：岗位按起算日新→旧（官网 + 手动收录，每条带 origins 来源）；公司带官网抓取状态。
+
+    `jobs` 是 `assemble_jobs` 的结果；不传就只有官网岗位。
+    """
+    if jobs is None:
+        jobs = [official_job(job) for job in state.jobs]
     counts: dict[str, int] = {}
-    for job in state.jobs:
-        counts[job.company] = counts.get(job.company, 0) + 1
+    for doc in jobs:
+        if OFFICIAL in doc["origins"]:
+            counts[doc["company"]] = counts.get(doc["company"], 0) + 1
     companies = []
     for c in cfg.companies:
         status = state.companies.get(c.name, CompanyStatus())
@@ -215,13 +248,9 @@ def build_content(state: State, cfg: SocialConfig) -> dict:
             "careers": c.careers,
             "ok": status.ok,
             "lastOkAt": status.lastOkAt,
+            # 来自这家公司官网的岗位数（Boss 直聘、社群来源的不算）
             "jobCount": counts.get(c.name, 0),
         })
-    jobs = []
-    for job in state.jobs:
-        doc = job.model_dump(exclude={"misses", "lastSeen"})
-        doc["expiresAt"] = expires_on(job, cfg.window)
-        jobs.append(doc)
     return {
         "updatedAt": state.fetchedAt,
         "window": {"admitDays": cfg.window.admitDays, "keepDays": cfg.window.keepDays},
