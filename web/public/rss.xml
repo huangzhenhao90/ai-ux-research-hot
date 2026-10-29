@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Oct 2026 14:59:25 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 20:55:20 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO</title>
+      <link>https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-0</link>
+      <guid isPermaLink="true">https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-0</guid>
+      <pubDate>Thu, 29 Oct 2026 17:03:12 GMT</pubDate>
+      <description>Ipsos 宣布任命 Mitch Barns 为美洲区董事长兼 CEO，自 2026 年 11 月 2 日起生效。他将担任 Ipsos 美国 CEO，并负责统筹 Ipsos 在加拿大和拉美地区的业务。任命消息于 2026 年 10 月 29 日在巴黎发布。</description>
+      <category>Ipsos</category>
+      <category>industry</category>
+    </item>
     <item>
       <title>Listen Labs 解读合成用户样本库在产品测试中的适用与失效场景</title>
       <link>https://listenlabs.com/articles/synthetic-user-panels-product-testing/</link>
@@ -445,15 +454,6 @@
       <pubDate>Fri, 21 Aug 2026 17:00:00 GMT</pubDate>
       <description>NN/g 整理了一份面向产品与设计工作的 AI 术语表，解释 token、上下文窗口、智能体、evals 和提示词注入等术语。词条按字母排列，可查表、用浏览器查找或顺序阅读，并链接到 NN/g 的深入文章。定义遵循 AI 产品与 UX 工作中的用法，厂商和研究者的用法可能不同。</description>
       <category>Nielsen Norman Group</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>MeasuringU 从 34 条候选题中精简 AI 用户体验问卷</title>
-      <link>https://measuringu.com/streamlined-measurement-of-the-ux-of-ai/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=streamlined-measurement-of-the-ux-of-ai</link>
-      <guid isPermaLink="true">https://measuringu.com/streamlined-measurement-of-the-ux-of-ai/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=streamlined-measurement-of-the-ux-of-ai</guid>
-      <pubDate>Tue, 18 Aug 2026 22:21:12 GMT</pubDate>
-      <description>MeasuringU 基于 2026 年 5 月对 ChatGPT、Claude、Gemini、Grok 共 420 名美国样本库受访者的回溯调查，完成 34 条 AI 用户体验候选题的筛选。因子分析显示，除一条同时落在 Trust 与 Productivity 上的题目外，其余 33 条均落在预期构念之上。AI Productivity、AI Trust、AI Dependency、AI Anxiety 等构念各有二至三条题目入选，目标是让每个构念的 coefficient alpha 不低于 0.70。</description>
-      <category>MeasuringU（Jeff Sauro）</category>
       <category>methods</category>
     </item>
   </channel>

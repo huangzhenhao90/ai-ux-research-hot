@@ -1,5 +1,5 @@
 {
-  "count": 227,
+  "count": 229,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -542,6 +542,23 @@
       "publishedAt": "2026-02-16T13:00:00+00:00"
     },
     {
+      "id": "fbf0c41fde4cb4e8",
+      "title": "Ipsos appoints Mitch Barns as Chairman and CEO, Americas",
+      "titleZh": "Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO，11 月 2 日生效",
+      "summaryZh": "Ipsos 宣布任命 Mitch Barns 为美洲区董事长兼 CEO，自 2026 年 11 月 2 日起生效。他将担任 Ipsos 美国 CEO，并负责加拿大与拉丁美洲地区的业务。",
+      "tags": [
+        "行业动态",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-1",
+      "publishedAt": "2026-10-29T17:03:26+00:00"
+    },
+    {
       "id": "a3087d5fd45ca8bc",
       "title": "Research has entered the chat: how MCPs and AI agents are reshaping market insights",
       "titleZh": "Cint 发文分析 MCP 与 AI 智能体如何重塑市场洞察",
@@ -797,6 +814,23 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/",
       "publishedAt": "2026-03-27T01:00:00+00:00"
+    },
+    {
+      "id": "a343873a779e028c",
+      "title": "Ipsos appoints Mitch Barns as Chairman and CEO, Americas",
+      "titleZh": "Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO",
+      "summaryZh": "Ipsos 宣布任命 Mitch Barns 为美洲区董事长兼 CEO，自 2026 年 11 月 2 日起生效。他将担任 Ipsos 美国 CEO，并负责统筹 Ipsos 在加拿大和拉美地区的业务。任命消息于 2026 年 10 月 29 日在巴黎发布。",
+      "tags": [
+        "行业动态",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-0",
+      "publishedAt": "2026-10-29T17:03:12+00:00"
     },
     {
       "id": "563846e21bb7c5e2",

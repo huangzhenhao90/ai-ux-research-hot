@@ -1,0 +1,36 @@
+{
+  "id": "fbf0c41fde4cb4e8",
+  "sourceId": "ipsos",
+  "sourceName": "Ipsos",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-1",
+  "title": "Ipsos appoints Mitch Barns as Chairman and CEO, Americas",
+  "titleZh": "Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO，11 月 2 日生效",
+  "summaryZh": "Ipsos 宣布任命 Mitch Barns 为美洲区董事长兼 CEO，自 2026 年 11 月 2 日起生效。他将担任 Ipsos 美国 CEO，并负责加拿大与拉丁美洲地区的业务。",
+  "reason": "益普索任命 Mitch Barns 出任美洲区董事长兼 CEO，可据此观察大型调研机构的区域管理层布局。",
+  "category": "industry",
+  "tags": [
+    "行业动态",
+    "Ipsos"
+  ],
+  "entities": [
+    "ipsos"
+  ],
+  "itemType": "industry_event",
+  "publishedAt": "2026-10-29T17:03:26+00:00",
+  "discoveredAt": "2026-10-29T20:55:20.380326+00:00",
+  "status": "duplicate",
+  "dupOf": "a343873a779e028c",
+  "relation": null,
+  "related": [
+    {
+      "id": "a343873a779e028c",
+      "title": "Ipsos appoints Mitch Barns as Chairman and CEO, Americas",
+      "titleZh": "Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-0",
+      "publishedAt": "2026-10-29T17:03:12+00:00"
+    }
+  ]
+}

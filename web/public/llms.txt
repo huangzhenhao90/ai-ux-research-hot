@@ -15,6 +15,7 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO](https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-0)：Ipsos 宣布任命 Mitch Barns 为美洲区董事长兼 CEO，自 2026 年 11 月 2 日起生效。他将担任 Ipsos 美国 CEO，并负责统筹 Ipsos 在加拿大和拉美地区的业务。任命消息于 2026 年 10 月 2…（Ipsos，2026-10-29）
 - [Listen Labs 解读合成用户样本库在产品测试中的适用与失效场景](https://listenlabs.com/articles/synthetic-user-panels-product-testing/)：Listen Labs 在决策指南中按概念测试、UX 流程测试、问卷预测试和定价四类任务，划分了合成用户样本库的适用与失效边界。指南指出合成受访者由大语言模型根据人设描述预测作答，只能产出假设而非决策级证据，可靠用途集中在问卷预测试、早期…（Listen Labs，2026-10-29）
 - [Listen Labs 介绍测量广告情绪反应的六类方法](https://listenlabs.com/articles/measure-emotional-response-to-ads/)：Listen Labs 增长负责人 Anish Rao 发布指南，将广告情绪反应测量归纳为自陈量表、生理与生物特征、面部编码、逐秒与内隐追踪、社交情绪分析、AI 主持多模态访谈六类方法。文章主张方法应跟随决策与预算选择，并指出单一方法的核…（Listen Labs，2026-10-28）
 - [Listen Labs 撰文介绍合成受访者平台的评估与选择方法](https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/)：Listen Labs 增长负责人 Anish Rao 撰文把合成受访者平台分为从零模拟、真实数据建模和样本扩充三类，并建议采购前做留出真人对比、核查答案可追溯性、检测 persona 漂移等验证。文中引用 Pew Research Ce…（Listen Labs，2026-10-28）
@@ -44,6 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [Listen Labs 的 6 步用户原型测试操作指南](https://listenlabs.com/articles/prototype-testing-with-users-playbook/)：Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–…（Listen Labs，2026-10-22）
 - [PRISM 数据集研究对比用户对 AI 回答的陈述偏好与实际评分](https://arxiv.org/abs/2610.30763v1)：基于 PRISM 数据集的研究（1,396 名参与者、21 个 LLM、29,347 条回答）对比了用户对 AI 回答属性的陈述偏好与实际评分行为，发现陈述优先项无法直接预测实际奖励权重。未问及的特征（长度、格式、拒答语言）对评分的影响不…（ur-ai-papers（用户与交互 AI 论文库），2026-10-22）
 - [Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么](https://listenlabs.com/articles/voice-of-customer-software-features/)：Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen…（Listen Labs，2026-10-21）
-- [AI 暴露度不看职位看任务：用 Claude 测算的五步法](https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4)：作者提出按任务而非职位评估 AI 暴露度，用能否两句话描述最终结果、能否更快核验两问给一周任务打分，再按工时加权，并给出可直接粘贴到 Claude 的五步提示词。文中引用 2023 年 GPTs are GPTs 的估计，80% 美国劳动…（UX Collective，2026-10-20）
 
-（更多 38 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 39 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
