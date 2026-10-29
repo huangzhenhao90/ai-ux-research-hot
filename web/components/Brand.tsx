@@ -56,13 +56,29 @@ export function Wordmark({ small = false }: { small?: boolean }) {
 }
 
 /**
- * 「真知浩见出品」：出品方署名，写成一枚胶囊放在明显位置（侧栏、手机顶栏、关于页）。
+ * 「真知浩见出品」：出品方署名，写成一枚胶囊放在明显位置（侧栏、手机顶栏、关于页），
+ * 左边是出品方的 logo（黑底、琥珀色行星、竖排「真知浩见」；原图存档在 `docs/brand/`）。
  * 文案来自 `config/site.yaml` 的 `byline`。
+ *
+ * logo 在 `public/brand/`：小尺寸用 96px 的图，关于页的大号用 192px 的（都是原图按 Lanczos 缩的，不是浏览器现缩）。
+ * 它是装饰（旁边就是同名的文字），所以 `alt` 留空。
  *
  * ⚠️ 只能在服务端组件里用（它读 `getSite()`，链着 node:fs）；`LogoMark`、`Wordmark` 没有这个限制。
  */
 export function Byline({ size = "md" }: { size?: "sm" | "md" | "lg" }) {
-  const { byline } = getSite();
+  const { byline, basePath } = getSite();
   if (!byline) return null;
-  return <span className={`byline byline--${size}`}>{byline}</span>;
+  const pixels = size === "lg" ? 192 : 96;
+  return (
+    <span className={`byline byline--${size}`}>
+      <img
+        className="byline__logo"
+        src={`${basePath}/brand/maker-${pixels}.png`}
+        width={pixels}
+        height={pixels}
+        alt=""
+      />
+      {byline}
+    </span>
+  );
 }

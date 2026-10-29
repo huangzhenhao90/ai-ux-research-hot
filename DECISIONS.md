@@ -327,7 +327,8 @@ Maze 7、Optimal Workshop 7、MRS 5；dscout 用 `/people-nerds/` 前缀（非 `
 **确认值**：设计 URhot 的标志，并在明显位置写明「真知浩见出品」（2026-10-29，用户提出）
 
 - 标志是本站自己设计的：青底圆角方块里一个连体的「UR」（User Research），右上角一苗琥珀色的火（hot）；字标「URhot」，UR 粗、hot 细并用强调色。图形只在 `web/components/Brand.tsx` 与 `web/app/icon.svg`（浏览器标签页图标）两处，改一处记得改另一处。与 NOTICE 里提到的上游项目的名称、Logo 无关。
-- 出品方署名「真知浩见出品」是一枚胶囊，出现在：桌面侧栏（标志下面）、手机顶栏（字标旁边）、关于页顶部（大号）、页脚。文案是 `config/site.yaml` 的 `byline`，经 `site.json` 传给前端。
+- 出品方署名「真知浩见出品」是一枚胶囊，出现在：桌面侧栏（标志下面）、手机顶栏（字标旁边）、关于页顶部（大号）、页脚（只有文字）。文案是 `config/site.yaml` 的 `byline`，经 `site.json` 传给前端。
+- 胶囊左边是出品方**真知浩见自己的 logo**（用户提供：黑底、琥珀色行星、竖排「真知浩见」）。原图存档在 `docs/brand/zhenzhi-haojian-logo.jpg`（不发布）；站点用的是按 Lanczos 缩好的 `web/public/brand/maker-96.png`（小尺寸）与 `maker-192.png`（关于页大号）。换 logo 时用同样的方式重新生成这两个文件。它的琥珀色（约 `#f6bf4b`）与 URhot 标志里火苗的颜色（`#f2b84b`）几乎一样，所以没有改动 URhot 的标志。
 - 站名文本仍是 `URHOT`（D1：页面标题、RSS、llms.txt、采集器 UA、提示词里的 `{{siteName}}`），只有标志的字标写成 `URhot`。统一大小写要改 `name`，那会让提示词版本哈希变化，另议。
 - 旧的「圆点 + 文字」字标已去掉；D13 里「不采用 AIHOT 的 Logo、站名仍是纯文字」改为「站名文本仍是 `URHOT`，标志是自己设计的」。
 

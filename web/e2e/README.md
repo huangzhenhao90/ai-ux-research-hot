@@ -1,6 +1,6 @@
 # 端到端测试（浏览器里真点一遍）
 
-覆盖两块最容易回归的功能：**书签与收藏夹**（D19）和**埋点**（D21）。不在 CI 里跑（需要 Playwright 的浏览器），改了卡片、收藏、统计相关代码后手动跑。
+覆盖三块最容易回归的功能：**书签与收藏夹**（D19）、**埋点**（D21）和**品牌**（D18：标志、署名与出品方 logo 在子路径下能加载）。不在 CI 里跑（需要 Playwright 的浏览器），改了卡片、收藏、统计相关代码后手动跑。
 
 需要 Playwright（云端环境已预装；本地：`npm i --no-save playwright && npx playwright install chromium`）。
 脚本自带一个极小的静态服务器（`serve.mjs`，把 `web/out` 放在 `basePath` 下），不用另起服务。
@@ -8,9 +8,10 @@
 ```bash
 cd web
 
-# 书签与收藏夹：对默认构建跑
+# 书签与收藏夹、品牌：对默认构建跑
 npm run build
 node e2e/favorites.mjs
+node e2e/brand.mjs
 
 # 埋点：不配统计服务时不加载任何第三方脚本
 PROVIDER=none node e2e/analytics.mjs
