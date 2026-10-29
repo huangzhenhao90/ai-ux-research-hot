@@ -87,6 +87,14 @@ jobs:
             test -f "$f" || { echo "缺少产物：$f"; exit 1; }
           done
           echo "关键产物齐全"
+          # 百度统计安装代码在根布局里，每个 HTML 都要有（含以后新增的页面）
+          missing=$(find out -name '*.html' -print0 | xargs -0 grep -L -F "hm.baidu.com/hm.js?83c75a4bd0be4caa753d999c2313e715" || true)
+          if [ -n "$missing" ]; then
+            echo "这些页面缺少百度统计："
+            echo "$missing"
+            exit 1
+          fi
+          echo "每个 HTML 都带百度统计 ✅"
           # 许可要求：AIHOT 的名字只允许出现在关于页
           hits=$(grep -rl "AIHOT" out --include='*.html' | grep -v '^out/about/' || true)
           if [ -n "$hits" ]; then

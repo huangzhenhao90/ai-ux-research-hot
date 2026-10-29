@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { Analytics } from "@/components/Analytics";
+import { BAIDU_TONGJI_SNIPPET } from "@/lib/baidu";
 import { getSite } from "@/lib/data";
 
 import "./globals.css";
@@ -38,6 +39,8 @@ export default function RootLayout({
     <html lang="zh-CN" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+        {/* 百度统计官方安装代码。静态导出后每个页面的 <head> 里都有；换页 PV 由 Analytics 补记。 */}
+        <script dangerouslySetInnerHTML={{ __html: BAIDU_TONGJI_SNIPPET }} />
       </head>
       <body>
         {children}

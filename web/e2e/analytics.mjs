@@ -1,7 +1,7 @@
 // 端到端：埋点。对不同环境变量构建出来的站点各跑一次（见 e2e/README.md）：
-//   PROVIDER=none   默认构建：不加载任何第三方脚本
+//   PROVIDER=none   默认构建：百度统计已写进每个页面（站点 ID 见 web/lib/baidu.ts）
+//   PROVIDER=baidu  与默认构建相同（站点 ID 不再由环境变量覆盖）
 //   PROVIDER=umami  NEXT_PUBLIC_ANALYTICS_PROVIDER=umami NEXT_PUBLIC_ANALYTICS_ID=test-site-id NEXT_PUBLIC_ANALYTICS_HOST=http://127.0.0.1:4174
-//   PROVIDER=baidu  NEXT_PUBLIC_ANALYTICS_PROVIDER=baidu NEXT_PUBLIC_ANALYTICS_ID=abc123
 // 统计服务用「按文档行为写的替身脚本」拦下来，不会连真实服务；所以验证的是：我们按文档的用法发出了对的调用。
 import { loadPlaywright, startServer } from "./serve.mjs";
 
@@ -9,6 +9,7 @@ const { chromium } = await loadPlaywright();
 const server = await startServer();
 const BASE = server.base;
 const PROVIDER = process.env.PROVIDER || "none";
+const BAIDU_SRC = "https://hm.baidu.com/hm.js?83c75a4bd0be4caa753d999c2313e715";
 let failed = 0;
 const ok = (cond, msg) => {
   console.log(`${cond ? "✓" : "✗"} ${msg}`);
@@ -46,19 +47,6 @@ async function newContext(browser, { dnt = false } = {}) {
 
 const browser = await chromium.launch();
 
-if (PROVIDER === "none") {
-  const { ctx, requests } = await newContext(browser);
-  const page = await ctx.newPage();
-  await page.goto(`${BASE}/social/`, { waitUntil: "networkidle" });
-  await page.locator("article.card--item button.bookmark").first().click();
-  ok(requests.every(sameOrigin), "没配统计服务：页面只请求本站，不加载任何第三方脚本");
-  ok((await page.evaluate(() => typeof window.umami + typeof window._hmt)) === "undefinedundefined", "没配统计服务：没有任何统计全局对象");
-  await browser.close();
-  server.close();
-  console.log(failed ? `\n${failed} 项失败` : "\n全部通过");
-  process.exit(failed ? 1 : 0);
-}
-
 const read = (page) =>
   PROVIDER === "umami"
     ? page.evaluate(() => window.__umami)
@@ -69,6 +57,7 @@ const page = await ctx.newPage();
 await page.goto(`${BASE}/`, { waitUntil: "networkidle" });
 await sleep(300);
 
+ok(requests.some((u) => u === BAIDU_SRC), "每个页面都从 <head> 加载百度统计");
 if (PROVIDER === "umami") {
   ok(requests.some((u) => u.startsWith("http://127.0.0.1:4174/script.js")), "加载了 Umami 脚本（走配置的 host）");
   const tag = await page.evaluate(() => {
@@ -76,8 +65,6 @@ if (PROVIDER === "umami") {
     return { id: s?.dataset.websiteId, auto: s?.dataset.autoTrack, dnt: s?.dataset.doNotTrack };
   });
   ok(tag.id === "test-site-id" && tag.auto === "false" && tag.dnt === "true", `脚本参数：website-id、auto-track=false、do-not-track（${JSON.stringify(tag)}）`);
-} else {
-  ok(requests.some((u) => u === "https://hm.baidu.com/hm.js?abc123"), "加载了百度统计脚本");
 }
 
 const pathname = (p) => new URL(`${BASE}${p}`).pathname;
@@ -159,11 +146,17 @@ await sleep(200);
 ev = await read(rssPage);
 ok(ev.some((e) => (PROVIDER === "umami" ? e.event === "rss" && e.data.where === "footer" : e[1] === "rss" && e[2] === "footer")), "rss {where: footer}");
 
-// 请勿跟踪：不加载脚本
+// 请勿跟踪：百度统计的安装代码仍在页面里；Umami 不加载
 const dnt = await newContext(browser, { dnt: true });
 const p2 = await dnt.ctx.newPage();
 await p2.goto(`${BASE}/`, { waitUntil: "networkidle" });
-ok(dnt.requests.every(sameOrigin), "浏览器开着「请勿跟踪」：不加载统计脚本、不发任何第三方请求");
+ok(
+  dnt.requests.every((u) => sameOrigin(u) || u === BAIDU_SRC),
+  "请勿跟踪：除页面里的百度统计安装代码外，不加载别的统计脚本",
+);
+if (PROVIDER === "umami") {
+  ok(!dnt.requests.some((u) => u.includes("/script.js")), "请勿跟踪：不加载 Umami");
+}
 
 // 脚本还没加载好时的事件会排队，加载后补发（Umami）
 if (PROVIDER === "umami") {

@@ -1,11 +1,13 @@
 /**
  * 埋点（DECISIONS D21）：了解各个功能的 PV（次数）与 UV（人数）。
  *
- * 站点是静态导出、没有后端，统计交给第三方统计服务（Umami 或百度统计），这里只做一层很薄的封装：
- * 页面上到处调 `track(事件名, 参数)`，由这里转成统计服务认识的调用。
- * 没配统计服务（没设 `NEXT_PUBLIC_ANALYTICS_*`，本地开发、PR 预览都是这样）时，
- * 所有函数都是空操作：不加载任何脚本、不发任何请求、不写任何 cookie。
- * 访客开着浏览器的「请勿跟踪」（Do Not Track）时同样什么都不发。
+ * 站点是静态导出、没有后端。页面 PV / UV 交给百度统计：官方安装代码在根布局 `<head>`
+ * （`lib/baidu.ts`），这里只负责两件它覆盖不到的事——
+ * 站内跳转是 Next 的客户端路由（history），hm.js 不会自动记第二次浏览，所以换页要
+ * `_hmt.push(['_trackPageview', path])`；自定义事件（功能 PV）默认也进百度统计。
+ * 可选：设了 `NEXT_PUBLIC_ANALYTICS_PROVIDER=umami` 和 `NEXT_PUBLIC_ANALYTICS_ID` 时，
+ * 自定义事件改走 Umami（Umami 仍尊重「请勿跟踪」）。页面浏览始终走百度统计。
+ * 不要在这里再插一段 hm.js：安装代码已经在 HTML 里，再插一次会多记一次页面浏览。
  *
  * ── 埋点清单（参数顺序即百度统计里 action / label 的顺序）────────────────────
  *
@@ -31,13 +33,16 @@ export type TrackData = Record<string, string | number | boolean>;
 
 type Provider = "umami" | "baidu";
 
-const PROVIDER = process.env.NEXT_PUBLIC_ANALYTICS_PROVIDER;
-const SITE_ID = process.env.NEXT_PUBLIC_ANALYTICS_ID ?? "";
+const ENV_PROVIDER = (process.env.NEXT_PUBLIC_ANALYTICS_PROVIDER ?? "").trim();
+const ENV_SITE_ID = (process.env.NEXT_PUBLIC_ANALYTICS_ID ?? "").trim();
 const SCRIPT_HOST = (process.env.NEXT_PUBLIC_ANALYTICS_HOST ?? "").replace(/\/+$/, "");
 
-/** 构建时就定下来：配了统计服务才算启用。 */
-export const analyticsProvider: Provider | null =
-  (PROVIDER === "umami" || PROVIDER === "baidu") && SITE_ID ? PROVIDER : null;
+/**
+ * 页面浏览始终是百度统计（站点 ID 写死在 `lib/baidu.ts`）。
+ * 只有显式配了 Umami 时，自定义事件才改走 Umami。
+ */
+export const analyticsProvider: Provider =
+  ENV_PROVIDER === "umami" && ENV_SITE_ID ? "umami" : "baidu";
 
 declare global {
   interface Window {
@@ -84,31 +89,32 @@ let started = false;
 /** Umami 的脚本是异步加载的，加载完之前的调用先排队。 */
 let umamiQueue: (() => void)[] | null = null;
 
-/** 加载统计脚本（只会做一次）。返回是否启用。 */
+/**
+ * 准备统计（只会做一次）。百度统计的 hm.js 已经在根布局里，这里不再插入第二段。
+ * 返回是否可以记页面浏览 / 事件。
+ */
 export function startAnalytics(): boolean {
+  if (typeof window === "undefined") return false;
   if (started) return true;
-  if (!analyticsProvider || typeof window === "undefined" || doNotTrack()) return false;
   started = true;
+  window._hmt = window._hmt ?? [];
 
+  if (analyticsProvider !== "umami" || doNotTrack()) return true;
+
+  umamiQueue = [];
   const script = document.createElement("script");
   script.async = true;
-  if (analyticsProvider === "umami") {
-    umamiQueue = [];
-    script.src = `${SCRIPT_HOST || "https://cloud.umami.is"}/script.js`;
-    script.dataset.websiteId = SITE_ID;
-    // 页面浏览由我们按「换页」手动发：Umami 默认还会盯着 history.replaceState，
-    // 而筛选条件会写进链接（replaceState），那样同一页会被记成很多次浏览
-    script.dataset.autoTrack = "false";
-    script.dataset.doNotTrack = "true";
-    script.addEventListener("load", () => {
-      const queued = umamiQueue ?? [];
-      umamiQueue = null;
-      queued.forEach((run) => run());
-    });
-  } else {
-    window._hmt = window._hmt ?? [];
-    script.src = `https://hm.baidu.com/hm.js?${SITE_ID}`;
-  }
+  script.src = `${SCRIPT_HOST || "https://cloud.umami.is"}/script.js`;
+  script.dataset.websiteId = ENV_SITE_ID;
+  // 页面浏览由我们按「换页」手动发：Umami 默认还会盯着 history.replaceState，
+  // 而筛选条件会写进链接（replaceState），那样同一页会被记成很多次浏览
+  script.dataset.autoTrack = "false";
+  script.dataset.doNotTrack = "true";
+  script.addEventListener("load", () => {
+    const queued = umamiQueue ?? [];
+    umamiQueue = null;
+    queued.forEach((run) => run());
+  });
   document.head.appendChild(script);
   return true;
 }
@@ -125,23 +131,24 @@ function umamiDo(run: () => void): void {
 export function trackPageview(first: boolean): void {
   if (!started) return;
   const path = window.location.pathname;
-  if (analyticsProvider === "umami") {
+  if (analyticsProvider === "umami" && !doNotTrack()) {
     umamiDo(() => window.umami?.track((props) => ({ ...props, url: path })));
-  } else if (!first) {
-    window._hmt?.push(["_trackPageview", path]);
   }
+  // 首次进站由 <head> 里的 hm.js 自己记；客户端换页才补。path 用浏览器 pathname
+  //（含 basePath），和 hm.js 自动记的那次是同一条路径。
+  if (!first) window._hmt?.push(["_trackPageview", path]);
 }
 
-/** 记一个事件。没启用时什么都不做。 */
+/** 记一个事件。Umami 开着且访客没开「请勿跟踪」时走 Umami，否则走百度统计。 */
 export function track(name: string, data: TrackData = {}): void {
   if (!started) return;
-  if (analyticsProvider === "umami") {
+  if (analyticsProvider === "umami" && !doNotTrack()) {
     umamiDo(() => window.umami?.track(name, data));
-  } else {
-    // 百度统计的事件是 (类别, 操作, 标签)：类别 = 事件名，操作 = 第一个参数，标签 = 其余参数
-    const values = Object.values(data).map(String);
-    window._hmt?.push(["_trackEvent", name, values[0] ?? name, values.slice(1).join("|") || undefined]);
+    return;
   }
+  // 百度统计的事件是 (类别, 操作, 标签)：类别 = 事件名，操作 = 第一个参数，标签 = 其余参数
+  const values = Object.values(data).map(String);
+  window._hmt?.push(["_trackEvent", name, values[0] ?? name, values.slice(1).join("|") || undefined]);
 }
 
 /** 把元素上的 `data-track-*` 转成参数（`data-track-kind="x"` → `{ kind: "x" }`），保持属性顺序。 */

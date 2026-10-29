@@ -13,17 +13,14 @@ npm run build
 node e2e/favorites.mjs
 node e2e/brand.mjs
 
-# 埋点：不配统计服务时不加载任何第三方脚本
+# 埋点：默认构建已含百度统计（站点 ID 在 web/lib/baidu.ts，不看环境变量）
 PROVIDER=none node e2e/analytics.mjs
 
 # 埋点：Umami（用替身脚本，不连真实服务；host 必须是下面这个）
+# 页面里仍有百度统计；自定义事件改走 Umami
 NEXT_PUBLIC_ANALYTICS_PROVIDER=umami NEXT_PUBLIC_ANALYTICS_ID=test-site-id \
   NEXT_PUBLIC_ANALYTICS_HOST=http://127.0.0.1:4174 npm run build
 PROVIDER=umami node e2e/analytics.mjs
-
-# 埋点：百度统计
-NEXT_PUBLIC_ANALYTICS_PROVIDER=baidu NEXT_PUBLIC_ANALYTICS_ID=abc123 npm run build
-PROVIDER=baidu node e2e/analytics.mjs
 
 npm run build   # 跑完把默认构建恢复回来
 ```

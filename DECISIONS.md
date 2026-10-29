@@ -359,9 +359,10 @@ Maze 7、Optimal Workshop 7、MRS 5；dscout 用 `/people-nerds/` 前缀（非 `
 
 **确认值**：站内埋点，了解不同功能的 PV 和 UV（2026-10-29，用户提出）
 
-- 统计交给第三方服务，支持 **Umami**（能自定义事件，不用 cookie，可自建）与**百度统计**，由 Variables `ANALYTICS_PROVIDER` / `ANALYTICS_ID`（/ `ANALYTICS_HOST`）选择；**没配就什么都不发**（不加载脚本、不写 cookie）。账号要用户自己注册，所以服务选择与接入留给用户（`docs/埋点方案.md`）。
+- 页面 PV / UV 用**百度统计**，站点 ID 写在 `web/lib/baidu.ts`，官方安装代码在根布局 `<head>`，静态导出的每个 HTML 都有。站内跳转是客户端路由，换页时补 `_hmt.push(['_trackPageview', path])`（第一次进站由 hm.js 自己记，避免记两次）。合并后要等 Update 工作流重新构建并发布，Pages 上的旧文件不会自己变。
+- 自定义事件默认也进百度统计。要改走 **Umami**（不用 cookie，可自建）才设 Variables `ANALYTICS_PROVIDER=umami` / `ANALYTICS_ID`（/ `ANALYTICS_HOST`）；这时页面浏览仍走百度统计。Umami 尊重浏览器「请勿跟踪」，百度统计的官方安装代码不看这个开关。
 - 事件清单、功能与指标对照表在 `docs/埋点方案.md` 与 `web/lib/track.ts` 顶部：每次换页发 `feature_view {feature}`，另有 `bookmark`、`search`、`filter`、`outbound`、`favorites`、`load_more`、`theme`、`rss`。
-- 不记录搜索关键词、标题和任何个人信息；浏览器开着「请勿跟踪」时不统计；关于页「收藏与统计」如实写明。
+- 不记录搜索关键词、标题和任何个人信息。关于页「收藏与统计」写明用百度统计，以及它会保存 cookie。
 - 页面浏览按「换页」手动发，不用统计脚本的自动页面浏览：筛选条件会写进链接（`history.replaceState`），自动模式会把同一页记成很多次。
 
 ## D22 源码私有，只公开构建产物
@@ -379,6 +380,7 @@ Maze 7、Optimal Workshop 7、MRS 5；dscout 用 `/people-nerds/` 前缀（非 `
 
 | 日期 | 变更 | 依据 |
 |---|---|---|
+| 2026-10-29 | **D21 修订**：百度统计站点 ID 写进根布局，每个页面都带官方安装代码；客户端换页补记 PV | 用户要求接入百度统计，看全站与分页 PV/UV |
 | 2026-10-29 | **D18 修订**：侧栏去掉字标下面的别名「AI 用研热点」（页脚、关于页、RSS 等处保留） | 用户：别名与字标对不齐不协调，直接不要 |
 | 2026-10-29 | **D22 新增**：源码私有、只公开构建产物；D6「仓库必须 public」不再成立 | 用户：不能把所有东西都开源，完整代码要私有 |
 | 2026-10-29 | **D21 新增**：埋点，了解各功能的 PV / UV | 用户要求 |
