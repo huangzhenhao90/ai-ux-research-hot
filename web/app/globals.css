@@ -249,41 +249,16 @@ code {
   border-right: 1px solid var(--line);
 }
 
-/*
- * 字标和下面的别名上下叠成一组，别名要和字标「左右都对齐」：
- * 这一组的宽度由字标那一行撑出来；别名那一行 width: 0 + min-width: 100%，撑宽时不占地方，
- * 撑好之后再铺满，并用 space-between 把每个词均匀摊开。不靠浏览器的两端对齐（各家对中文的处理不一样），
- * 也不写死宽度，换字体、换系统都对得齐。
- */
-.sidebar__lockup {
-  align-self: flex-start;
-  display: flex;
-  flex-direction: column;
-  padding: 0 4px;
-}
-
 .sidebar__brand {
   display: flex;
   align-items: center;
   height: 40px;
+  padding: 0 4px;
   color: var(--ink);
 }
 
 .sidebar__brand:hover {
   color: var(--ink);
-}
-
-.sidebar__alias {
-  display: flex;
-  justify-content: space-between;
-  gap: 0.25em; /* 摊开的最小间距：别名变长、没有富余宽度时字也不会挤在一起 */
-  width: 0;
-  min-width: 100%;
-  padding-top: 2px;
-  font-size: 13px;
-  line-height: 1.5;
-  color: var(--ink-4);
-  white-space: nowrap;
 }
 
 .sidebar__byline {

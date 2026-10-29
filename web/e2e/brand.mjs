@@ -30,22 +30,6 @@ ok(side?.loaded && side.w === 96 && side.alt === "", `侧栏署名里的出品�
 ok((await page.locator(".sidebar .byline").innerText()).trim() === "真知浩见出品", "侧栏署名文字是「真知浩见出品」");
 ok((await page.locator(".site-footer").innerText()).includes("真知浩见出品"), "页脚写了「真知浩见出品」");
 ok((await page.locator(".sidebar .logo-mark").count()) === 1, "侧栏有 URhot 标志");
-
-// 侧栏里别名（AI 用研热点）要和上面的字标那一行左右对齐；读屏软件读到的是完整别名
-const aligned = await page.evaluate(() => {
-  const rect = (el) => el.getBoundingClientRect();
-  const words = [...document.querySelectorAll(".sidebar__alias > span:not(.sr-only)")];
-  if (!words.length) return null;
-  const boxes = words.map(rect);
-  return {
-    left: Math.min(...boxes.map((b) => b.left)) - rect(document.querySelector(".sidebar .logo-mark")).left,
-    right: Math.max(...boxes.map((b) => b.right)) - rect(document.querySelector(".sidebar .wordmark__text")).right,
-    visible: words.map((el) => el.textContent).join(""),
-    spoken: document.querySelector(".sidebar__alias .sr-only")?.textContent ?? "",
-  };
-});
-ok(aligned && Math.abs(aligned.left) < 0.5 && Math.abs(aligned.right) < 0.5, `侧栏别名与字标左右对齐（左差 ${aligned?.left.toFixed(2)}px，右差 ${aligned?.right.toFixed(2)}px）`);
-ok(aligned && aligned.spoken.trim() !== "" && aligned.visible === aligned.spoken.replace(/\s/g, ""), `摊开的字拼起来就是别名「${aligned?.spoken}」，读屏读的也是它`);
 const icon = await page.getAttribute('link[rel="icon"]', "href");
 ok(!!icon && /icon\.svg/.test(icon) && icon.startsWith(new URL(BASE).pathname), `浏览器标签页图标指向子路径下的 icon.svg（${icon}）`);
 
