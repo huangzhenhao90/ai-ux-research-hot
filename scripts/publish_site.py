@@ -84,7 +84,8 @@ def main() -> int:
             out,
             stage,
             readme=REPO_ROOT / "docs" / "public-site-README.md",
-            extras=[REPO_ROOT / "LICENSE", REPO_ROOT / "NOTICE"],
+            # 只放第三方致谢，不放项目自己的 LICENSE / NOTICE：完整代码是私有的，不对构建产物声明开源许可
+            extras={"NOTICE": REPO_ROOT / "docs" / "public-site-NOTICE.txt"},
         )
         if args.dry_run:
             print(f"✓ 检查通过，将推送 {count} 个文件到 {repo}（分支 {branch}）；--dry-run 不推送")

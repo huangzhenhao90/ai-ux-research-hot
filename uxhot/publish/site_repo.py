@@ -53,8 +53,11 @@ def check_base_path(out_dir: Path, repo: str, override: str | None = None) -> st
     return None
 
 
-def stage_site(out_dir: Path, stage: Path, *, readme: Path | None, extras: list[Path]) -> int:
-    """把产物整理成要推送的内容：站点文件 + `.nojekyll` + 说明与许可文件。返回文件数。
+def stage_site(out_dir: Path, stage: Path, *, readme: Path | None, extras: dict[str, Path]) -> int:
+    """把产物整理成要推送的内容：站点文件 + `.nojekyll` + 说明与声明文件。返回文件数。
+
+    `extras` 是 目标文件名 → 源文件：源码仓库里的文件（比如带项目自己许可声明的 NOTICE）不原样公开，
+    公开仓库里放的是专门写给它的版本。
 
     `.nojekyll` 必须有：分支方式的 Pages 默认会跑 Jekyll，它会丢掉下划线开头的目录（Next 的 `_next`）。
     """
@@ -62,9 +65,9 @@ def stage_site(out_dir: Path, stage: Path, *, readme: Path | None, extras: list[
     (stage / ".nojekyll").write_text("", encoding="utf-8")
     if readme is not None and readme.exists():
         shutil.copyfile(readme, stage / "README.md")
-    for extra in extras:
-        if extra.exists():
-            shutil.copyfile(extra, stage / extra.name)
+    for name, source in extras.items():
+        if source.exists():
+            shutil.copyfile(source, stage / name)
     return sum(1 for p in stage.rglob("*") if p.is_file())
 
 

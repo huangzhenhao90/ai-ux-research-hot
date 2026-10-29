@@ -166,20 +166,28 @@ def git(cwd: Path, *args: str) -> str:
     return subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True, check=True).stdout.strip()
 
 
-def test_stage_adds_nojekyll_readme_and_license_files(tmp_path):
+def test_stage_adds_nojekyll_readme_and_a_public_notice_under_its_own_name(tmp_path):
     out = make_site(tmp_path / "out")
     readme = tmp_path / "README-template.md"
     readme.write_text("# public", encoding="utf-8")
-    license_file = tmp_path / "LICENSE"
-    license_file.write_text("MIT", encoding="utf-8")
+    notice = tmp_path / "public-site-NOTICE.txt"
+    notice.write_text("第三方声明", encoding="utf-8")
 
     stage = tmp_path / "stage"
-    count = stage_site(out, stage, readme=readme, extras=[license_file, tmp_path / "NOTICE-missing"])
+    count = stage_site(out, stage, readme=readme, extras={"NOTICE": notice, "MISSING": tmp_path / "nope"})
     assert (stage / ".nojekyll").exists() and (stage / "README.md").read_text(encoding="utf-8") == "# public"
-    assert (stage / "LICENSE").exists() and not (stage / "NOTICE-missing").exists()
+    assert (stage / "NOTICE").read_text(encoding="utf-8") == "第三方声明" and not (stage / "MISSING").exists()
+    assert not (stage / "LICENSE").exists()                      # 不对构建产物声明开源许可
     assert (stage / "_next" / "static" / "app.js").exists()      # 下划线目录要带上（所以才要 .nojekyll）
     assert count == sum(1 for p in stage.rglob("*") if p.is_file())
     assert not (out / ".nojekyll").exists()                      # 不改动构建目录
+
+
+def test_the_public_notice_credits_third_parties_but_grants_no_license_to_the_site():
+    """站点仓库里的 NOTICE 只致谢第三方；项目自己的 MIT 声明（见根目录 NOTICE / LICENSE）不随产物公开。"""
+    notice = (REPO_ROOT / "docs" / "public-site-NOTICE.txt").read_text(encoding="utf-8")
+    assert "AIHOT" in notice and "MIT" in notice            # 对上游的致谢与许可链接要在
+    assert "见 LICENSE" not in notice and "以 MIT 许可证发布" not in notice
 
 
 def test_push_replaces_the_branch_with_a_single_fresh_commit(tmp_path):
@@ -190,7 +198,7 @@ def test_push_replaces_the_branch_with_a_single_fresh_commit(tmp_path):
         out = make_site(tmp_path / f"out{round_number}")
         (out / "index.html").write_text(f"<html>{content}</html>", encoding="utf-8")
         stage = tmp_path / f"stage{round_number}"
-        stage_site(out, stage, readme=None, extras=[])
+        stage_site(out, stage, readme=None, extras={})
         push_site(stage, str(bare), "gh-pages", message=f"站点产物 {content}")
 
     assert git(bare, "rev-list", "--count", "gh-pages") == "1"          # 强推：没有历史
@@ -203,7 +211,7 @@ def test_push_replaces_the_branch_with_a_single_fresh_commit(tmp_path):
 def test_push_failure_is_reported_not_swallowed(tmp_path):
     out = make_site(tmp_path / "out")
     stage = tmp_path / "stage"
-    stage_site(out, stage, readme=None, extras=[])
+    stage_site(out, stage, readme=None, extras={})
     with pytest.raises(RuntimeError, match="git push 失败"):
         push_site(stage, str(tmp_path / "does-not-exist.git"), "gh-pages", message="x")
 

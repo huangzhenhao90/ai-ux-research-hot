@@ -366,7 +366,7 @@ Maze 7、Optimal Workshop 7、MRS 5；dscout 用 `/people-nerds/` 前缀（非 `
 
 **确认值**：完整代码改为私有，不全部开源；GitHub Pages 从另一个只放构建产物的公开仓库出（2026-10-29，用户提出「不能把所有的东西都放在 GitHub 上开源，完整的代码可能还是需要是私有的」）
 
-- 拆成两个仓库：**源码仓库**（私有，全部代码、提示词、配置、数据、手动收录、工作流）与**站点仓库**（公开，只有 `web/out`：HTML / JS / CSS、`/data/*.json`、`rss.xml`、`llms.txt`，外加 README、LICENSE、NOTICE）。私有仓库开 Pages 要付费套餐，所以不是把源码仓库直接转私有。
+- 拆成两个仓库：**源码仓库**（私有，全部代码、提示词、配置、数据、手动收录、工作流）与**站点仓库**（公开，只有 `web/out`：HTML / JS / CSS、`/data/*.json`、`rss.xml`、`llms.txt`，外加 README 与一份只含第三方致谢的 NOTICE；**不放项目自己的 MIT LICENSE**，不对构建产物声明开源许可）。私有仓库开 Pages 要付费套餐，所以不是把源码仓库直接转私有。
 - Update 工作流构建完成后，`scripts/publish_site.py` 用 deploy key（只对站点仓库有写权限）把产物放进一个全新的单提交，**强推**到站点仓库的 `gh-pages` 分支：公开仓库里没有历史，也就没有「某次构建里漏出去的东西」可以翻。
 - 推送前两道检查，不过就不推、公开站点保持上一版：`scripts/check_public_output.py`（路径、密钥特征、`manual.yaml` 私有备注原文）与子路径核对（`siteUrl` 的子路径要和站点仓库名推出的 Pages 路径一致）。CI 每次构建也跑前者。
 - 向后兼容：没设 Variable `PUBLIC_SITE_REPO` 时仍按原来的「源码仓库自己部署 Pages」（`PAGES_ENABLED`）。**转私有这一步由用户在 GitHub 上完成**（建站点仓库、deploy key、Pages 设置、改可见性），步骤与顺序见 `docs/私有化与公开站点.md`。
