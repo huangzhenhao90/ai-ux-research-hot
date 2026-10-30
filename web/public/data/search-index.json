@@ -1,5 +1,5 @@
 {
-  "count": 229,
+  "count": 230,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -3002,6 +3002,20 @@
       "sourceName": "Journal of Mixed Methods Research",
       "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898251396763?ai=2b4&mi=ehikzz&af=R",
       "publishedAt": "2025-11-06T10:39:34+00:00"
+    },
+    {
+      "id": "d414e1a16c289ca5",
+      "title": "Bringing shadow AI out of the shadows",
+      "titleZh": "Dovetail 谈影子 AI：封禁为何失败，获准替代方案长什么样",
+      "summaryZh": "Dovetail 发文讨论员工把公司 Slack、Drive 和 CRM 数据接入个人 AI 账号的“影子 AI”现象，并解释封禁策略为何失败、获准的替代方案应是什么样。文章围绕封禁失败与获准替代方案展开。",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/bringing-shadow-ai-out-of-the-shadows/",
+      "publishedAt": "2026-10-29T12:00:00+00:00"
     },
     {
       "id": "89bda7267f80e947",

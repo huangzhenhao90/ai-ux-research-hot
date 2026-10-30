@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 38,
+  "count": 39,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -587,6 +587,29 @@
       "itemType": null,
       "publishedAt": "2026-05-19T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "d414e1a16c289ca5",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/bringing-shadow-ai-out-of-the-shadows/",
+      "title": "Bringing shadow AI out of the shadows",
+      "titleZh": "Dovetail 谈影子 AI：封禁为何失败，获准替代方案长什么样",
+      "summaryZh": "Dovetail 发文讨论员工把公司 Slack、Drive 和 CRM 数据接入个人 AI 账号的“影子 AI”现象，并解释封禁策略为何失败、获准的替代方案应是什么样。文章围绕封禁失败与获准替代方案展开。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-29T12:00:00+00:00",
+      "discoveredAt": "2026-10-30T04:45:04.954733+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
