@@ -1,0 +1,28 @@
+{
+  "id": "10efb16077cb40b3",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/recruit-hard-to-reach-audiences/",
+  "title": "How to Recruit Hard-to-Reach Audiences for Concept Testing",
+  "titleZh": "Listen Labs 如何为概念测试招募难触达受众",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文，介绍概念测试中难触达受众的招募方法；该方法按低发生率、被把关、不信任、时间稀缺、缺席样本库五类成因分别匹配招募渠道。文中建议用行为甄别题、开放式验证题和虚构品牌排雷题筛掉职业答题者，并对时间稀缺人群按机会成本设分层激励、超额招募 20–30%。文章还称其 50M+ 验证样本网络与 Quality Guard 可在 24 小时内完成研究，并给出 45 分钟高管访谈 $150–$400、专家网络 24–72 小时安排等参照。",
+  "reason": "按难触达成因匹配招募渠道，再用行为甄别与超额招募控制样本质量，为概念测试的招募环节提供了一套可复用的流程。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "招募/样本",
+    "问卷/定量"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-10-30T05:11:50+00:00",
+  "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

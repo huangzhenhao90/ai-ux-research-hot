@@ -1,5 +1,5 @@
 {
-  "count": 230,
+  "count": 240,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -577,6 +577,24 @@
       "publishedAt": "2026-09-10T21:29:14+00:00"
     },
     {
+      "id": "10efb16077cb40b3",
+      "title": "How to Recruit Hard-to-Reach Audiences for Concept Testing",
+      "titleZh": "Listen Labs 如何为概念测试招募难触达受众",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文，介绍概念测试中难触达受众的招募方法；该方法按低发生率、被把关、不信任、时间稀缺、缺席样本库五类成因分别匹配招募渠道。文中建议用行为甄别题、开放式验证题和虚构品牌排雷题筛掉职业答题者，并对时间稀缺人群按机会成本设分层激励、超额招募 20–30%。文章还称其 50M+ 验证样本网络与 Quality Guard 可在 24 小时内完成研究，并给出 45 分钟高管访谈 $150–$400、专家网络 24–72 小时安排等参照。",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/recruit-hard-to-reach-audiences/",
+      "publishedAt": "2026-10-30T05:11:50+00:00"
+    },
+    {
       "id": "3199af2867f83631",
       "title": "Atlas of Human-AI Interaction: An Interactive Knowledge Graph for Research Sensemaking at Scale",
       "titleZh": "Atlas of Human-AI Interaction 用 LLM 从 31,741 篇论文抽取 308,802 条论断构建交互知识图谱",
@@ -864,6 +882,22 @@
       "sourceName": "arXiv cs.HC",
       "url": "https://arxiv.org/abs/2610.28929",
       "publishedAt": "2026-10-27T04:00:00+00:00"
+    },
+    {
+      "id": "1e22f1348a28f6bc",
+      "title": "The people using AI should set its strategy",
+      "titleZh": "设计与研究运营：使用 AI 的人应主导 AI 工具策略",
+      "summaryZh": "使用 AI 的设计与研究者应主导 AI 工具策略，运营团队负责合同、许可与安全等基础设施。Microsoft 2024 Work Trend Index 显示，78% 的职场 AI 用户自带工具。Anthropic 2026 年 6 月对约 40 万条 Claude Code 会话的初步研究显示，专家会话获得验证成功的频率是新手的两倍以上。",
+      "tags": [
+        "观点/讨论",
+        "岗位/职业",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/the-people-using-ai-should-set-its-strategy-473c7f2ebb94?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-10-30T07:06:26+00:00"
     },
     {
       "id": "363fc2298f2aa390",
@@ -1285,6 +1319,26 @@
       "publishedAt": "2026-08-04T00:00:00+00:00"
     },
     {
+      "id": "e8eabdc0ab7d672c",
+      "title": "Fast Message Testing for Startups: A 7-Step Playbook",
+      "titleZh": "Listen Labs 的初创公司快速信息测试七步流程",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 给出一套面向初创公司的快速信息测试七步流程，先用免费 LLM 粗筛文案，再用真实受访者验证。流程中间用 Lyssna 的五秒测试和 PickFu 的偏好测试把四个方向缩到两个，文中提示 60/40 的偏好比约需 50 名参与者，55/45 则接近 200 名。文中引用 Journal of Marketing Analytics 的研究称合成受访者把享乐型产品的支付意愿高估 37–86%，因此 LLM 只作早期过滤器；Listen Labs 从 50M+ 网络招募受访者，以 120+ 语言 AI 主持访谈在 24 小时内交付结果。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "合成用户",
+        "招募/样本",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/fast-message-testing-startups-playbook/",
+      "publishedAt": "2026-10-30T05:11:56+00:00"
+    },
+    {
       "id": "faf923d60fb05559",
       "title": "Concept Testing for Landing Pages: Validate Before You Build",
       "titleZh": "Listen Labs 介绍落地页概念测试四阶段流程",
@@ -1440,6 +1494,22 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
       "publishedAt": "2026-06-14T23:00:00+00:00"
+    },
+    {
+      "id": "9b9685307f6b81c0",
+      "title": "利用眼动追踪评估AI生成视频的视觉真实性",
+      "titleZh": "GazeEval：利用眼动追踪评估AI生成视频的视觉真实性",
+      "summaryZh": "该研究通过两项视觉图灵测试，让90名参与者观看438段AI生成视频，收集4286次有效眼动数据。注视模式与显式真实感评价高度相关。新方法GazeEval可依据眼动信号以71.3%的准确率预测视频的视觉真实感。",
+      "tags": [
+        "论文/研究",
+        "多模态",
+        "行为数据"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2610.38825v1",
+      "publishedAt": "2026-10-27T16:00:00+00:00"
     },
     {
       "id": "ec18d5dbcedfb9cf",
@@ -1659,6 +1729,26 @@
       "sourceName": "Nielsen Norman Group",
       "url": "https://www.nngroup.com/articles/designing-ai-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "publishedAt": "2026-09-18T17:00:00+00:00"
+    },
+    {
+      "id": "36372bd36fd3d19a",
+      "title": "The Best Hard-To-Reach Audience Research Platforms",
+      "titleZh": "最佳难以触达受众研究平台：Listen Labs 等 11 个平台对比",
+      "summaryZh": "Listen Labs 在难触达受众研究平台盘点中将自身列为最佳，称可从 50M+ 验证网络、45+ 国家招募低于 1% 发生率参与者。该平台称 AI 主持访谈覆盖 120+ 语言，并将完整研究周期压缩至 24 小时内。Quality Guard 实时监测视频、语音、内容与设备信号，参与者每月最多参与 3 项研究。",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "AI 访谈",
+        "Maze"
+      ],
+      "entities": [
+        "listen-labs",
+        "maze"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-hard-to-reach-audience-platforms/",
+      "publishedAt": "2026-10-30T05:12:09+00:00"
     },
     {
       "id": "8bcd27b71684b7ad",
@@ -2196,6 +2286,23 @@
       "publishedAt": "2026-08-24T07:29:35+00:00"
     },
     {
+      "id": "a0cc3c52f6796f30",
+      "title": "The Human Advantage Conference 2026: Navigating a complex world through Behavioural Science, AI and Human Intelligence",
+      "titleZh": "Ipsos 支持的 Human Advantage Conference 2026：用行为科学、AI 与人类智能应对复杂世界",
+      "summaryZh": "Ipsos 支持的 Human Advantage Conference 2026 在巴黎举行，汇聚全球研究者、企业领导者和专家，进行两天现场讨论。会议聚焦行为科学、人类智能与 AI 如何帮助组织应对日益复杂的世界。",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/human-advantage-conference-2026-navigating-complex-world-through-behavioural-science-ai-and-human-1",
+      "publishedAt": "2026-10-30T10:56:13+00:00"
+    },
+    {
       "id": "6403b83cf3f151f8",
       "title": "Bridge the gap between brand awareness and revenue with Cint’s Study Creator",
       "titleZh": "Cint Study Creator：打通品牌认知与营收的成果测量",
@@ -2275,6 +2382,23 @@
       "sourceName": "Journal of Mixed Methods Research",
       "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261423078?ai=2b4&mi=ehikzz&af=R",
       "publishedAt": "2026-02-12T09:40:49+00:00"
+    },
+    {
+      "id": "37c7f6dce3860705",
+      "title": "GDPR Compliant AI Research Platform for Consumer Insights",
+      "titleZh": "Listen Labs：消费者洞察 AI 研究平台的 GDPR 合规采购核查清单",
+      "summaryZh": "Listen Labs 在面向消费者洞察的 GDPR 合规指南中列出合法依据、数据最小化、DPA/SCCs 与 EU/EEA 数据驻留四项核查要求，并给出采购前可逐项验证的清单。其平台称持有 SOC 2 Type II、ISO 27001、ISO 27701 和 ISO 42001，采用 256-bit 加密，且客户与受访者数据不用于训练 AI 模型。文章还提醒，EU 托管本身不等于 GDPR 合规，买方应索取签署的 DPA、2021 SCCs、传输影响评估及证书范围说明。",
+      "tags": [
+        "方法/实践",
+        "研究伦理"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/gdpr-compliant-ai-research-platform/",
+      "publishedAt": "2026-10-30T05:12:15+00:00"
     },
     {
       "id": "e5ffc3ccfb83c86c",
@@ -2435,6 +2559,25 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/qualitative-codes-themes-names-uncertainty/",
       "publishedAt": "2025-02-25T11:29:07+00:00"
+    },
+    {
+      "id": "7caa7a80e73ff16f",
+      "title": "AI Research Tools For Consulting Firms: 2026 Buyer’s Guide",
+      "titleZh": "Listen Labs《咨询公司 AI 研究工具：2026 采购指南》",
+      "summaryZh": "Listen Labs 发布面向咨询公司的 2026 AI 研究工具采购指南，将工具分为五层并强调一手研究证据。指南引述 GPTZero 审查称 KPMG 报告 45 个来源中 40 个为模型幻觉；Listen Labs 自述平台已完成超 100 万次 AI 主持访谈，24 小时内交付报告。",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-research-tools-consulting/",
+      "publishedAt": "2026-10-30T05:12:03+00:00"
     },
     {
       "id": "913c5dfc2b420294",
@@ -2734,6 +2877,23 @@
       "sourceName": "Behaviour & Information Technology",
       "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2623945?af=R",
       "publishedAt": "2026-02-03T12:24:32+00:00"
+    },
+    {
+      "id": "1d487c1dfdb8913f",
+      "title": "The Human Advantage Conference 2026: Navigating a complex world through Behavioural Science, AI and Human Intelligence",
+      "titleZh": "Ipsos 支持的 The Human Advantage Conference 2026 汇聚专家探讨行为科学、AI 与人类智能",
+      "summaryZh": "Ipsos 支持的 The Human Advantage Conference 2026 于 10 月 15 日在巴黎汇聚全球研究者、商业领袖和专家，开展两天现场讨论。会议聚焦行为科学、人类智能与 AI 如何帮助组织应对日益复杂的世界。",
+      "tags": [
+        "行业动态",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/human-advantage-conference-2026-navigating-complex-world-through-behavioural-science-ai-and-human-0",
+      "publishedAt": "2026-10-30T10:53:59+00:00"
     },
     {
       "id": "b07c2eb86511570e",
@@ -3712,6 +3872,21 @@
       "sourceName": "Behaviour & Information Technology",
       "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2024.2431050?af=R",
       "publishedAt": "2024-11-26T01:29:00+00:00"
+    },
+    {
+      "id": "a59733d9ac3ca28a",
+      "title": "Participatory design in human-robot interaction research: a systematic review",
+      "titleZh": "人机交互研究中的参与式设计：一项系统性综述",
+      "summaryZh": "一篇系统性综述聚焦人机交互研究中的参与式设计。原文未给出纳入文献数量、检索范围与主要结论等细节。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Human-Computer Interaction",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2727384?af=R",
+      "publishedAt": "2026-10-29T02:35:58+00:00"
     },
     {
       "id": "9a745ac3c6a3873d",

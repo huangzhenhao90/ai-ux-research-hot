@@ -3,7 +3,7 @@
   "label": "论文",
   "section": "研究与证据",
   "commentary": false,
-  "count": 43,
+  "count": 45,
   "items": [
     {
       "id": "342f2af81bbbe547",
@@ -432,6 +432,31 @@
       "itemType": null,
       "publishedAt": "2026-10-23T04:00:00+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9b9685307f6b81c0",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.38825v1",
+      "title": "利用眼动追踪评估AI生成视频的视觉真实性",
+      "titleZh": "GazeEval：利用眼动追踪评估AI生成视频的视觉真实性",
+      "summaryZh": "该研究通过两项视觉图灵测试，让90名参与者观看438段AI生成视频，收集4286次有效眼动数据。注视模式与显式真实感评价高度相关。新方法GazeEval可依据眼动信号以71.3%的准确率预测视频的视觉真实感。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "多模态",
+        "行为数据"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-27T16:00:00+00:00",
+      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1042,6 +1067,30 @@
       "itemType": null,
       "publishedAt": "2024-11-26T01:29:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a59733d9ac3ca28a",
+      "sourceId": "hci-journal",
+      "sourceName": "Human-Computer Interaction",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2026.2727384?af=R",
+      "title": "Participatory design in human-robot interaction research: a systematic review",
+      "titleZh": "人机交互研究中的参与式设计：一项系统性综述",
+      "summaryZh": "一篇系统性综述聚焦人机交互研究中的参与式设计。原文未给出纳入文献数量、检索范围与主要结论等细节。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-29T02:35:58+00:00",
+      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

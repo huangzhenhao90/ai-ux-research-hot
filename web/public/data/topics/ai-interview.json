@@ -3,7 +3,7 @@
   "name": "AI 访谈",
   "group": "field",
   "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-  "count": 35,
+  "count": 38,
   "items": [
     {
       "id": "05374bec817f75e3",
@@ -230,6 +230,35 @@
       "relation": null
     },
     {
+      "id": "e8eabdc0ab7d672c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/fast-message-testing-startups-playbook/",
+      "title": "Fast Message Testing for Startups: A 7-Step Playbook",
+      "titleZh": "Listen Labs 的初创公司快速信息测试七步流程",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 给出一套面向初创公司的快速信息测试七步流程，先用免费 LLM 粗筛文案，再用真实受访者验证。流程中间用 Lyssna 的五秒测试和 PickFu 的偏好测试把四个方向缩到两个，文中提示 60/40 的偏好比约需 50 名参与者，55/45 则接近 200 名。文中引用 Journal of Marketing Analytics 的研究称合成受访者把享乐型产品的支付意愿高估 37–86%，因此 LLM 只作早期过滤器；Listen Labs 从 50M+ 网络招募受访者，以 120+ 语言 AI 主持访谈在 24 小时内交付结果。",
+      "reason": "从免费的 LLM 粗筛到真实受访者验证，这套七步流程给出了低流量团队做信息测试的可迁移路径。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "合成用户",
+        "招募/样本",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-10-30T05:11:56+00:00",
+      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "faf923d60fb05559",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -370,6 +399,35 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:08:36+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "36372bd36fd3d19a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-hard-to-reach-audience-platforms/",
+      "title": "The Best Hard-To-Reach Audience Research Platforms",
+      "titleZh": "最佳难以触达受众研究平台：Listen Labs 等 11 个平台对比",
+      "summaryZh": "Listen Labs 在难触达受众研究平台盘点中将自身列为最佳，称可从 50M+ 验证网络、45+ 国家招募低于 1% 发生率参与者。该平台称 AI 主持访谈覆盖 120+ 语言，并将完整研究周期压缩至 24 小时内。Quality Guard 实时监测视频、语音、内容与设备信号，参与者每月最多参与 3 项研究。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "AI 访谈",
+        "Maze"
+      ],
+      "entities": [
+        "listen-labs",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-30T05:12:09+00:00",
+      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -631,6 +689,34 @@
       "itemType": null,
       "publishedAt": "2026-10-21T05:03:39+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7caa7a80e73ff16f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-research-tools-consulting/",
+      "title": "AI Research Tools For Consulting Firms: 2026 Buyer’s Guide",
+      "titleZh": "Listen Labs《咨询公司 AI 研究工具：2026 采购指南》",
+      "summaryZh": "Listen Labs 发布面向咨询公司的 2026 AI 研究工具采购指南，将工具分为五层并强调一手研究证据。指南引述 GPTZero 审查称 KPMG 报告 45 个来源中 40 个为模型幻觉；Listen Labs 自述平台已完成超 100 万次 AI 主持访谈，24 小时内交付报告。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-30T05:12:03+00:00",
+      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

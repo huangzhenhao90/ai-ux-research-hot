@@ -5,9 +5,27 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 04:45:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 14:53:27 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 的初创公司快速信息测试七步流程</title>
+      <link>https://listenlabs.com/articles/fast-message-testing-startups-playbook/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/fast-message-testing-startups-playbook/</guid>
+      <pubDate>Fri, 30 Oct 2026 05:11:56 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 给出一套面向初创公司的快速信息测试七步流程，先用免费 LLM 粗筛文案，再用真实受访者验证。流程中间用 Lyssna 的五秒测试和 PickFu 的偏好测试把四个方向缩到两个，文中提示 60/40 的偏好比约需 50 名参与者，55/45 则接近 200 名。文中引用 Journal of Marketing Analytics 的研究称合成受访者把享乐型产品的支付意愿高估 37–86%，因此 LLM 只作早期过滤器；Listen Labs 从 50M+ 网络招募受访者，以 120+ 语言 AI 主持访谈在 24 小时内交付结果。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Listen Labs 如何为概念测试招募难触达受众</title>
+      <link>https://listenlabs.com/articles/recruit-hard-to-reach-audiences/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/recruit-hard-to-reach-audiences/</guid>
+      <pubDate>Fri, 30 Oct 2026 05:11:50 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 撰文，介绍概念测试中难触达受众的招募方法；该方法按低发生率、被把关、不信任、时间稀缺、缺席样本库五类成因分别匹配招募渠道。文中建议用行为甄别题、开放式验证题和虚构品牌排雷题筛掉职业答题者，并对时间稀缺人群按机会成本设分层激励、超额招募 20–30%。文章还称其 50M+ 验证样本网络与 Quality Guard 可在 24 小时内完成研究，并给出 45 分钟高管访谈 $150–$400、专家网络 24–72 小时安排等参照。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO</title>
       <link>https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-0</link>
@@ -437,24 +455,6 @@
       <description>Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。</description>
       <category>Dovetail Blog</category>
       <category>tools</category>
-    </item>
-    <item>
-      <title>MeasuringU 总结主持访谈时建立融洽关系的五种方法</title>
-      <link>https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=five-ways-to-use-rapport-when-moderating</link>
-      <guid isPermaLink="true">https://measuringu.com/five-ways-to-use-rapport-when-moderating/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=five-ways-to-use-rapport-when-moderating</guid>
-      <pubDate>Tue, 25 Aug 2026 21:18:05 GMT</pubDate>
-      <description>MeasuringU 撰文总结主持访谈时建立融洽关系的五种方法，涵盖会前准备、刻意破冰、语言与非语言技巧、警惕双向讨好，以及把融洽关系当作最后的甄别步骤。文中建议用中立的小谈降低参与者压力，用有意的停顿留出思考时间，并提醒过度友善会让参与者表演而非真实反应。文章还提到，一些团队（包括作者所在团队）正在低风险、高样本量的口头问卷中试验 AI 主持，但当参与者难以招募时，人类主持人的技巧仍决定访谈收获。</description>
-      <category>MeasuringU（Jeff Sauro）</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>NN/g AI 术语表：从 token、上下文窗口到智能体、evals 与提示词注入</title>
-      <link>https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
-      <guid isPermaLink="true">https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
-      <pubDate>Fri, 21 Aug 2026 17:00:00 GMT</pubDate>
-      <description>NN/g 整理了一份面向产品与设计工作的 AI 术语表，解释 token、上下文窗口、智能体、evals 和提示词注入等术语。词条按字母排列，可查表、用浏览器查找或顺序阅读，并链接到 NN/g 的深入文章。定义遵循 AI 产品与 UX 工作中的用法，厂商和研究者的用法可能不同。</description>
-      <category>Nielsen Norman Group</category>
-      <category>methods</category>
     </item>
   </channel>
 </rss>

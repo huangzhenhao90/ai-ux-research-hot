@@ -1,0 +1,30 @@
+{
+  "id": "36372bd36fd3d19a",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-hard-to-reach-audience-platforms/",
+  "title": "The Best Hard-To-Reach Audience Research Platforms",
+  "titleZh": "最佳难以触达受众研究平台：Listen Labs 等 11 个平台对比",
+  "summaryZh": "Listen Labs 在难触达受众研究平台盘点中将自身列为最佳，称可从 50M+ 验证网络、45+ 国家招募低于 1% 发生率参与者。该平台称 AI 主持访谈覆盖 120+ 语言，并将完整研究周期压缩至 24 小时内。Quality Guard 实时监测视频、语音、内容与设备信号，参与者每月最多参与 3 项研究。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "招募/样本",
+    "AI 访谈",
+    "Maze"
+  ],
+  "entities": [
+    "listen-labs",
+    "maze"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-30T05:12:09+00:00",
+  "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

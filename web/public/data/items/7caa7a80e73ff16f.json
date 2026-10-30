@@ -1,0 +1,29 @@
+{
+  "id": "7caa7a80e73ff16f",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-research-tools-consulting/",
+  "title": "AI Research Tools For Consulting Firms: 2026 Buyer’s Guide",
+  "titleZh": "Listen Labs《咨询公司 AI 研究工具：2026 采购指南》",
+  "summaryZh": "Listen Labs 发布面向咨询公司的 2026 AI 研究工具采购指南，将工具分为五层并强调一手研究证据。指南引述 GPTZero 审查称 KPMG 报告 45 个来源中 40 个为模型幻觉；Listen Labs 自述平台已完成超 100 万次 AI 主持访谈，24 小时内交付报告。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "市场研究",
+    "AI 访谈",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-30T05:12:03+00:00",
+  "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

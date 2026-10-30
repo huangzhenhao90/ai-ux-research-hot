@@ -3,7 +3,7 @@
   "name": "岗位与职业",
   "group": "field",
   "definition": "AI 对用研岗位需求、技能结构与团队组织的影响。",
-  "count": 1,
+  "count": 2,
   "items": [
     {
       "id": "821d7c7df70ddb3f",
@@ -29,6 +29,31 @@
       "publishedAt": "2026-08-28T17:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1e22f1348a28f6bc",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/the-people-using-ai-should-set-its-strategy-473c7f2ebb94?source=rss----138adf9c44c---4",
+      "title": "The people using AI should set its strategy",
+      "titleZh": "设计与研究运营：使用 AI 的人应主导 AI 工具策略",
+      "summaryZh": "使用 AI 的设计与研究者应主导 AI 工具策略，运营团队负责合同、许可与安全等基础设施。Microsoft 2024 Work Trend Index 显示，78% 的职场 AI 用户自带工具。Anthropic 2026 年 6 月对约 40 万条 Claude Code 会话的初步研究显示，专家会话获得验证成功的频率是新手的两倍以上。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "岗位/职业",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-30T07:06:26+00:00",
+      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     }

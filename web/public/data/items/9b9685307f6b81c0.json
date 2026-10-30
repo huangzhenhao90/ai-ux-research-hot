@@ -1,0 +1,26 @@
+{
+  "id": "9b9685307f6b81c0",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.38825v1",
+  "title": "利用眼动追踪评估AI生成视频的视觉真实性",
+  "titleZh": "GazeEval：利用眼动追踪评估AI生成视频的视觉真实性",
+  "summaryZh": "该研究通过两项视觉图灵测试，让90名参与者观看438段AI生成视频，收集4286次有效眼动数据。注视模式与显式真实感评价高度相关。新方法GazeEval可依据眼动信号以71.3%的准确率预测视频的视觉真实感。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "多模态",
+    "行为数据"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-27T16:00:00+00:00",
+  "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

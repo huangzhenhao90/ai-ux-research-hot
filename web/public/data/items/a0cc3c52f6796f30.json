@@ -1,0 +1,36 @@
+{
+  "id": "a0cc3c52f6796f30",
+  "sourceId": "ipsos",
+  "sourceName": "Ipsos",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.ipsos.com/en/human-advantage-conference-2026-navigating-complex-world-through-behavioural-science-ai-and-human-1",
+  "title": "The Human Advantage Conference 2026: Navigating a complex world through Behavioural Science, AI and Human Intelligence",
+  "titleZh": "Ipsos 支持的 Human Advantage Conference 2026：用行为科学、AI 与人类智能应对复杂世界",
+  "summaryZh": "Ipsos 支持的 Human Advantage Conference 2026 在巴黎举行，汇聚全球研究者、企业领导者和专家，进行两天现场讨论。会议聚焦行为科学、人类智能与 AI 如何帮助组织应对日益复杂的世界。",
+  "reason": null,
+  "category": "industry",
+  "tags": [
+    "行业动态",
+    "市场研究"
+  ],
+  "entities": [
+    "ipsos"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-30T10:56:13+00:00",
+  "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+  "status": "duplicate",
+  "dupOf": "1d487c1dfdb8913f",
+  "relation": null,
+  "related": [
+    {
+      "id": "1d487c1dfdb8913f",
+      "title": "The Human Advantage Conference 2026: Navigating a complex world through Behavioural Science, AI and Human Intelligence",
+      "titleZh": "Ipsos 支持的 The Human Advantage Conference 2026 汇聚专家探讨行为科学、AI 与人类智能",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/human-advantage-conference-2026-navigating-complex-world-through-behavioural-science-ai-and-human-0",
+      "publishedAt": "2026-10-30T10:53:59+00:00"
+    }
+  ]
+}

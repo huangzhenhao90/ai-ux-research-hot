@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 36,
+  "count": 41,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -200,6 +200,33 @@
       "relation": null
     },
     {
+      "id": "10efb16077cb40b3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/recruit-hard-to-reach-audiences/",
+      "title": "How to Recruit Hard-to-Reach Audiences for Concept Testing",
+      "titleZh": "Listen Labs 如何为概念测试招募难触达受众",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文，介绍概念测试中难触达受众的招募方法；该方法按低发生率、被把关、不信任、时间稀缺、缺席样本库五类成因分别匹配招募渠道。文中建议用行为甄别题、开放式验证题和虚构品牌排雷题筛掉职业答题者，并对时间稀缺人群按机会成本设分层激励、超额招募 20–30%。文章还称其 50M+ 验证样本网络与 Quality Guard 可在 24 小时内完成研究，并给出 45 分钟高管访谈 $150–$400、专家网络 24–72 小时安排等参照。",
+      "reason": "按难触达成因匹配招募渠道，再用行为甄别与超额招募控制样本质量，为概念测试的招募环节提供了一套可复用的流程。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-10-30T05:11:50+00:00",
+      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "766b4f8ed1745f9a",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -308,6 +335,31 @@
       "relation": null
     },
     {
+      "id": "1e22f1348a28f6bc",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/the-people-using-ai-should-set-its-strategy-473c7f2ebb94?source=rss----138adf9c44c---4",
+      "title": "The people using AI should set its strategy",
+      "titleZh": "设计与研究运营：使用 AI 的人应主导 AI 工具策略",
+      "summaryZh": "使用 AI 的设计与研究者应主导 AI 工具策略，运营团队负责合同、许可与安全等基础设施。Microsoft 2024 Work Trend Index 显示，78% 的职场 AI 用户自带工具。Anthropic 2026 年 6 月对约 40 万条 Claude Code 会话的初步研究显示，专家会话获得验证成功的频率是新手的两倍以上。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "岗位/职业",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-30T07:06:26+00:00",
+      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "d8770b9635a8b9b8",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -359,6 +411,35 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "e8eabdc0ab7d672c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/fast-message-testing-startups-playbook/",
+      "title": "Fast Message Testing for Startups: A 7-Step Playbook",
+      "titleZh": "Listen Labs 的初创公司快速信息测试七步流程",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 给出一套面向初创公司的快速信息测试七步流程，先用免费 LLM 粗筛文案，再用真实受访者验证。流程中间用 Lyssna 的五秒测试和 PickFu 的偏好测试把四个方向缩到两个，文中提示 60/40 的偏好比约需 50 名参与者，55/45 则接近 200 名。文中引用 Journal of Marketing Analytics 的研究称合成受访者把享乐型产品的支付意愿高估 37–86%，因此 LLM 只作早期过滤器；Listen Labs 从 50M+ 网络招募受访者，以 120+ 语言 AI 主持访谈在 24 小时内交付结果。",
+      "reason": "从免费的 LLM 粗筛到真实受访者验证，这套七步流程给出了低流量团队做信息测试的可迁移路径。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "合成用户",
+        "招募/样本",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-10-30T05:11:56+00:00",
+      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "15710eb0367bf6e8",
@@ -469,6 +550,35 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:08:36+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "36372bd36fd3d19a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-hard-to-reach-audience-platforms/",
+      "title": "The Best Hard-To-Reach Audience Research Platforms",
+      "titleZh": "最佳难以触达受众研究平台：Listen Labs 等 11 个平台对比",
+      "summaryZh": "Listen Labs 在难触达受众研究平台盘点中将自身列为最佳，称可从 50M+ 验证网络、45+ 国家招募低于 1% 发生率参与者。该平台称 AI 主持访谈覆盖 120+ 语言，并将完整研究周期压缩至 24 小时内。Quality Guard 实时监测视频、语音、内容与设备信号，参与者每月最多参与 3 项研究。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "AI 访谈",
+        "Maze"
+      ],
+      "entities": [
+        "listen-labs",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-30T05:12:09+00:00",
+      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -726,6 +836,34 @@
       "itemType": null,
       "publishedAt": "2026-06-14T23:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7caa7a80e73ff16f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-research-tools-consulting/",
+      "title": "AI Research Tools For Consulting Firms: 2026 Buyer’s Guide",
+      "titleZh": "Listen Labs《咨询公司 AI 研究工具：2026 采购指南》",
+      "summaryZh": "Listen Labs 发布面向咨询公司的 2026 AI 研究工具采购指南，将工具分为五层并强调一手研究证据。指南引述 GPTZero 审查称 KPMG 报告 45 个来源中 40 个为模型幻觉；Listen Labs 自述平台已完成超 100 万次 AI 主持访谈，24 小时内交付报告。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-30T05:12:03+00:00",
+      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -3,7 +3,7 @@
   "name": "研究伦理",
   "group": "field",
   "definition": "合成用户与 AI 研究的知情同意、隐私、偏见与合规争议。",
-  "count": 6,
+  "count": 7,
   "items": [
     {
       "id": "b68c2c6b61048c5e",
@@ -81,6 +81,32 @@
       "itemType": null,
       "publishedAt": "2026-03-03T20:43:47+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "37c7f6dce3860705",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/gdpr-compliant-ai-research-platform/",
+      "title": "GDPR Compliant AI Research Platform for Consumer Insights",
+      "titleZh": "Listen Labs：消费者洞察 AI 研究平台的 GDPR 合规采购核查清单",
+      "summaryZh": "Listen Labs 在面向消费者洞察的 GDPR 合规指南中列出合法依据、数据最小化、DPA/SCCs 与 EU/EEA 数据驻留四项核查要求，并给出采购前可逐项验证的清单。其平台称持有 SOC 2 Type II、ISO 27001、ISO 27701 和 ISO 42001，采用 256-bit 加密，且客户与受访者数据不用于训练 AI 模型。文章还提醒，EU 托管本身不等于 GDPR 合规，买方应索取签署的 DPA、2021 SCCs、传输影响评估及证书范围说明。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "研究伦理"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-30T05:12:15+00:00",
+      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T21:28:46+08:00",
+ "updatedAt": "2026-10-30T23:00:09+08:00",
  "window": {
   "admitDays": 30,
   "keepDays": 90
@@ -10,7 +10,7 @@
    "name": "腾讯",
    "careers": "https://careers.tencent.com/",
    "ok": true,
-   "lastOkAt": "2026-10-29T21:28:46+08:00",
+   "lastOkAt": "2026-10-30T23:00:09+08:00",
    "jobCount": 3
   },
   {
@@ -18,7 +18,7 @@
    "name": "字节跳动",
    "careers": "https://jobs.bytedance.com/experienced/position",
    "ok": true,
-   "lastOkAt": "2026-10-29T21:28:46+08:00",
+   "lastOkAt": "2026-10-30T23:00:09+08:00",
    "jobCount": 0
   },
   {
@@ -26,7 +26,7 @@
    "name": "阿里巴巴",
    "careers": "https://talent.alibaba.com/off-campus/position-list",
    "ok": true,
-   "lastOkAt": "2026-10-29T21:28:46+08:00",
+   "lastOkAt": "2026-10-30T23:00:09+08:00",
    "jobCount": 6
   },
   {
@@ -34,7 +34,7 @@
    "name": "百度",
    "careers": "https://talent.baidu.com/jobs/social-list",
    "ok": true,
-   "lastOkAt": "2026-10-29T21:28:46+08:00",
+   "lastOkAt": "2026-10-30T23:00:09+08:00",
    "jobCount": 0
   },
   {
@@ -42,7 +42,7 @@
    "name": "美团",
    "careers": "https://zhaopin.meituan.com/web/social",
    "ok": true,
-   "lastOkAt": "2026-10-29T21:28:46+08:00",
+   "lastOkAt": "2026-10-30T23:00:09+08:00",
    "jobCount": 2
   },
   {
@@ -50,7 +50,7 @@
    "name": "网易",
    "careers": "https://hr.163.com/job-list.html",
    "ok": true,
-   "lastOkAt": "2026-10-29T21:28:46+08:00",
+   "lastOkAt": "2026-10-30T23:00:09+08:00",
    "jobCount": 16
   },
   {
@@ -58,7 +58,7 @@
    "name": "小米",
    "careers": "https://xiaomi.jobs.f.mioffice.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-10-29T21:28:46+08:00",
+   "lastOkAt": "2026-10-30T23:00:09+08:00",
    "jobCount": 1
   },
   {
@@ -66,7 +66,7 @@
    "name": "蔚来",
    "careers": "https://nio.jobs.feishu.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-10-29T21:28:46+08:00",
+   "lastOkAt": "2026-10-30T23:00:09+08:00",
    "jobCount": 0
   },
   {
@@ -74,7 +74,7 @@
    "name": "理想汽车",
    "careers": "https://li.jobs.feishu.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-10-29T21:28:46+08:00",
+   "lastOkAt": "2026-10-30T23:00:09+08:00",
    "jobCount": 0
   },
   {
@@ -82,7 +82,7 @@
    "name": "小鹏汽车",
    "careers": "https://xiaopeng.jobs.feishu.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-10-29T21:28:46+08:00",
+   "lastOkAt": "2026-10-30T23:00:09+08:00",
    "jobCount": 0
   },
   {
@@ -90,7 +90,7 @@
    "name": "得物",
    "careers": "https://poizon.jobs.feishu.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-10-29T21:28:46+08:00",
+   "lastOkAt": "2026-10-30T23:00:09+08:00",
    "jobCount": 0
   }
  ],
