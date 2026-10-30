@@ -1,5 +1,5 @@
 {
-  "count": 240,
+  "count": 241,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -2679,6 +2679,20 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/power-product-strategy-with-customer-intelligence-pms-guide/",
       "publishedAt": "2025-10-08T13:04:00+00:00"
+    },
+    {
+      "id": "53dde8fa2e7ecff6",
+      "title": "Let’s recap: Our curators reflect on the first-ever Shift UX conference",
+      "titleZh": "Rosenfeld Media 回顾首届 Shift UX 大会：策展人反思 UX 的转变",
+      "summaryZh": "Rosenfeld Media 回顾 9 月在纽约举办的首届 Shift UX 大会：两天议程汇集二十多位讲者，策展人围绕 AI 将如何改变工作、UX 教育与团队协作展开反思。讨论反复触及效率与效果、自动化与人类判断的张力，并追问 UX 从业者如何参与塑造 AI 设计、补足 ML 素养。",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "Rosenfeld Media",
+      "url": "https://rosenfeldmedia.com/lets-recap-our-curators-reflect-on-the-first-ever-shift-ux-conference/",
+      "publishedAt": "2026-10-30T15:45:44+00:00"
     },
     {
       "id": "57dbe200cade9ea3",

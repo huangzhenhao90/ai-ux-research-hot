@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "count": 135,
+  "count": 136,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -2535,6 +2535,29 @@
       "itemType": null,
       "publishedAt": "2026-10-22T07:14:53+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "53dde8fa2e7ecff6",
+      "sourceId": "rosenfeldmedia",
+      "sourceName": "Rosenfeld Media",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://rosenfeldmedia.com/lets-recap-our-curators-reflect-on-the-first-ever-shift-ux-conference/",
+      "title": "Let’s recap: Our curators reflect on the first-ever Shift UX conference",
+      "titleZh": "Rosenfeld Media 回顾首届 Shift UX 大会：策展人反思 UX 的转变",
+      "summaryZh": "Rosenfeld Media 回顾 9 月在纽约举办的首届 Shift UX 大会：两天议程汇集二十多位讲者，策展人围绕 AI 将如何改变工作、UX 教育与团队协作展开反思。讨论反复触及效率与效果、自动化与人类判断的张力，并追问 UX 从业者如何参与塑造 AI 设计、补足 ML 素养。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-30T15:45:44+00:00",
+      "discoveredAt": "2026-10-30T20:28:25.805063+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

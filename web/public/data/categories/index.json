@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T14:53:27.331676+00:00",
+  "generatedAt": "2026-10-30T20:28:25.805063+00:00",
   "categories": [
     {
       "key": "tools",
@@ -41,7 +41,7 @@
       "label": "观点",
       "section": "观点与讨论",
       "commentary": true,
-      "count": 40
+      "count": 41
     }
   ]
 }
