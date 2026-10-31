@@ -3,7 +3,7 @@
   "name": "Qualtrics",
   "group": "company",
   "definition": "Qualtrics 的 XM 平台与 XM Institute 研究，以及体验管理产品的 AI 能力更新。",
-  "count": 8,
+  "count": 9,
   "items": [
     {
       "id": "513d0bb28edb882c",
@@ -89,6 +89,36 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:01:24+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ff1cb8b24682c85f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-message-testing-tools-panel/",
+      "title": "Message Testing Tools That Actually Own Their Panel",
+      "titleZh": "Listen Labs 等真正拥有自有样本库的信息测试工具",
+      "summaryZh": "Listen Labs 被列为最符合“自有样本库”的信息测试工具，50M+ 验证受访者池支持 AI 主持访谈。SurveyMonkey 用 Audience 混合自有与合作伙伴样本库，Qualtrics 用 Dynata、Cint 第三方样本库。Pew 分析 60,000+ 访谈显示 opt-in 假受访者占 4%–7%，随机住址招募样本约 1%。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "surveymonkey",
+        "qualtrics",
+        "usertesting"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-31T05:16:46+00:00",
+      "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

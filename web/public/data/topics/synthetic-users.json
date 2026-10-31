@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 29,
+  "count": 32,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -327,6 +327,33 @@
       "status": "listed",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "5f4a190fc4907812",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-consumer-simulation-tools/",
+      "title": "AI Consumer Simulation Tools: Decision Guide by Architecture",
+      "titleZh": "Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界",
+      "summaryZh": "Listen Labs 发布按架构划分的 AI 消费者模拟工具决策指南，将其分为合成用户、人群模型和基于真人访谈的数字孪生三类。文中引用 Bisbee 等 2024 年发表于 Political Analysis 的研究，称合成受访者可匹配真实调查均值，但方差明显偏低，48% 的回归系数出现显著偏差、32% 符号反转。作者称其 Listen Twins 由真人访谈构建，数秒内返回 100+ 条带推理、原话与置信度的预测答案，并引用 Park 等 2024 年针对 1,052 人的 Stanford 研究，指出访谈构建的智能体达到人类两周重测信度的 83–86%，仅按人口统计提示的为 74%。",
+      "reason": "文章按合成用户、人群模型与真人数字孪生三类架构拆解可信度边界，并给出各类研究任务的选择依据。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-31T05:16:28+00:00",
+      "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "dda520eafe7335c0",
@@ -663,6 +690,34 @@
       "relation": null
     },
     {
+      "id": "f98f06e0afe96498",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-vendors/",
+      "title": "AI Digital Twin Vendors For Enterprise Consumer Insights",
+      "titleZh": "面向企业消费者洞察的 AI 数字孪生供应商：合成人设、人工验证研究孪生与 1:1 真人孪生",
+      "summaryZh": "Listen Labs 将 AI 数字孪生供应商分为合成人设模拟器、人工验证研究孪生和 1:1 真人孪生三类，称 Listen Twins 领跑第三类。该产品基于 50M+ 验证网络的真人访谈，给出带推理、引语和置信分数的答案，支持一键真人验证。合成孪生仅 24.9% 与真人一致，趋势问题平均误差 9-12 个百分点。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-31T05:16:40+00:00",
+      "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "b49f0382a95fee03",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -770,6 +825,35 @@
       "itemType": null,
       "publishedAt": "2026-10-25T05:04:40+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6a05983bd3953bf5",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-sightx-alternatives-message-testing/",
+      "title": "Companies Like SightX for Predictive Message Testing",
+      "titleZh": "SightX 替代方案对比：Listen Labs、Anyword、Zappi 等预测性信息测试公司",
+      "summaryZh": "Listen Labs 对比 SightX 等预测性信息测试替代方案，主打真人 1:1 数字孪生、可追溯推理与一键验证。Listen Twins 覆盖 50M+ 验证受访者、45+ 国家，数秒内返回 100+ 条带原话和置信分的答案；一项 182 项研究的系统综述称，LLM 合成受访者会在潜在特质、反应变异、文化细节上偏离真人数据。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-31T05:11:44+00:00",
+      "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

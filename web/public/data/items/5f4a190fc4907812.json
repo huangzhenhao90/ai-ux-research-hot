@@ -1,0 +1,28 @@
+{
+  "id": "5f4a190fc4907812",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-consumer-simulation-tools/",
+  "title": "AI Consumer Simulation Tools: Decision Guide by Architecture",
+  "titleZh": "Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界",
+  "summaryZh": "Listen Labs 发布按架构划分的 AI 消费者模拟工具决策指南，将其分为合成用户、人群模型和基于真人访谈的数字孪生三类。文中引用 Bisbee 等 2024 年发表于 Political Analysis 的研究，称合成受访者可匹配真实调查均值，但方差明显偏低，48% 的回归系数出现显著偏差、32% 符号反转。作者称其 Listen Twins 由真人访谈构建，数秒内返回 100+ 条带推理、原话与置信度的预测答案，并引用 Park 等 2024 年针对 1,052 人的 Stanford 研究，指出访谈构建的智能体达到人类两周重测信度的 83–86%，仅按人口统计提示的为 74%。",
+  "reason": "文章按合成用户、人群模型与真人数字孪生三类架构拆解可信度边界，并给出各类研究任务的选择依据。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-10-31T05:16:28+00:00",
+  "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

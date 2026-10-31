@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 47,
+  "count": 50,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -214,6 +214,34 @@
       "itemType": "research_paper",
       "publishedAt": "2026-10-23T17:00:00+00:00",
       "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "53ab599720369930",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/concept-testing-template/",
+      "title": "Concept Testing Template: Questions, Metrics & Rubric",
+      "titleZh": "Listen Labs 提供概念测试模板，含甄别问题、量化指标与 Go/Refine/Kill 规则",
+      "summaryZh": "Listen Labs 提供一套可直接复用的概念测试模板，按甄别、刺激展示、量化评分、开放题和 Go/Refine/Kill 规则五个步骤组织。模板用 5 点量表测量吸引力、相关性、独特性、可信度、购买意愿和价格感知，并以 top-2-box 作为主要 KPI。文章建议在测试 6 个以上概念或评分趋同时改用 MaxDiff，并用 AI 主持访谈追问每个评分背后的原因。",
+      "reason": "原文把概念测试拆成甄别、刺激展示、量化评分、开放题和 Go/Refine/Kill 规则，研究者可直接改写成问卷或交给研究伙伴执行。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-10-31T05:11:39+00:00",
+      "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -542,6 +570,30 @@
       "relation": "different"
     },
     {
+      "id": "511d44f4a53ac4ba",
+      "sourceId": "strella-blog",
+      "sourceName": "Strella Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.strella.io/blog/open-ended-questions-for-surveys-examples",
+      "title": "Open-Ended Survey Questions: Examples for Every Research Goal",
+      "titleZh": "面向不同研究目标的开放式问卷问题示例",
+      "summaryZh": "Strella 博客发布一篇开放式问卷问题示例文章，按不同研究目标整理提问示例。文章以示例形式呈现，供设计开放式问题时对照参考。",
+      "reason": "按不同研究目标整理开放式问卷的提问示例，可作为设计问卷时的具体参考，帮助对照研究目的选择提问方式。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-10-30T16:00:00+00:00",
+      "discoveredAt": "2026-10-31T14:22:04.991442+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "ec18d5dbcedfb9cf",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -843,6 +895,36 @@
       "itemType": null,
       "publishedAt": "2026-10-26T05:02:13+00:00",
       "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ff1cb8b24682c85f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-message-testing-tools-panel/",
+      "title": "Message Testing Tools That Actually Own Their Panel",
+      "titleZh": "Listen Labs 等真正拥有自有样本库的信息测试工具",
+      "summaryZh": "Listen Labs 被列为最符合“自有样本库”的信息测试工具，50M+ 验证受访者池支持 AI 主持访谈。SurveyMonkey 用 Audience 混合自有与合作伙伴样本库，Qualtrics 用 Dynata、Cint 第三方样本库。Pew 分析 60,000+ 访谈显示 opt-in 假受访者占 4%–7%，随机住址招募样本约 1%。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "surveymonkey",
+        "qualtrics",
+        "usertesting"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-10-31T05:16:46+00:00",
+      "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

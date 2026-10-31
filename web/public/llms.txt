@@ -15,7 +15,10 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界](https://listenlabs.com/articles/best-ai-consumer-simulation-tools/)：Listen Labs 发布按架构划分的 AI 消费者模拟工具决策指南，将其分为合成用户、人群模型和基于真人访谈的数字孪生三类。文中引用 Bisbee 等 2024 年发表于 Political Analysis 的研究，称合成受访者可匹…（Listen Labs，2026-10-31）
+- [Listen Labs 提供概念测试模板，含甄别问题、量化指标与 Go/Refine/Kill 规则](https://listenlabs.com/articles/concept-testing-template/)：Listen Labs 提供一套可直接复用的概念测试模板，按甄别、刺激展示、量化评分、开放题和 Go/Refine/Kill 规则五个步骤组织。模板用 5 点量表测量吸引力、相关性、独特性、可信度、购买意愿和价格感知，并以 top-2-b…（Listen Labs，2026-10-31）
 - [NN/g 解读 UX 在 Anthropic 智能体软件工厂中的角色](https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：NN/g 分析 Anthropic 在 2026 年 8 月发布的 AI 原生软件开发生命周期（SDLC）构想，指出它把 UX 简化为引导 AI 生成的后台上下文。文章将其与 Google（2026 年 5 月）和 OpenAI（2025…（Nielsen Norman Group，2026-10-30）
+- [面向不同研究目标的开放式问卷问题示例](https://www.strella.io/blog/open-ended-questions-for-surveys-examples)：Strella 博客发布一篇开放式问卷问题示例文章，按不同研究目标整理提问示例。文章以示例形式呈现，供设计开放式问题时对照参考。（Strella Blog，2026-10-31）
 - [Listen Labs 的初创公司快速信息测试七步流程](https://listenlabs.com/articles/fast-message-testing-startups-playbook/)：Listen Labs 增长负责人 Anish Rao 给出一套面向初创公司的快速信息测试七步流程，先用免费 LLM 粗筛文案，再用真实受访者验证。流程中间用 Lyssna 的五秒测试和 PickFu 的偏好测试把四个方向缩到两个，文中提…（Listen Labs，2026-10-30）
 - [Listen Labs 如何为概念测试招募难触达受众](https://listenlabs.com/articles/recruit-hard-to-reach-audiences/)：Listen Labs 增长负责人 Anish Rao 撰文，介绍概念测试中难触达受众的招募方法；该方法按低发生率、被把关、不信任、时间稀缺、缺席样本库五类成因分别匹配招募渠道。文中建议用行为甄别题、开放式验证题和虚构品牌排雷题筛掉职业答…（Listen Labs，2026-10-30）
 - [Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO](https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-0)：Ipsos 宣布任命 Mitch Barns 为美洲区董事长兼 CEO，自 2026 年 11 月 2 日起生效。他将担任 Ipsos 美国 CEO，并负责统筹 Ipsos 在加拿大和拉美地区的业务。任命消息于 2026 年 10 月 2…（Ipsos，2026-10-29）
@@ -42,8 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂](https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：调查 521 名 UX 从业者后发现，AI 几乎在每项任务上节省时间，但多数人对其态度平淡，强制推行、输出不可靠和期望过高消耗了这些收益。调查显示超过 99% 的受访者在工作中可使用生成式 AI 工具，其中 59% 只能使用获批的工具集，…（Nielsen Norman Group，2026-10-23）
 - [Ipsos 第三季度营收 6.362 亿欧元，有机增长 2.0%](https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre)：Ipsos 公布第三季度营收 6.362 亿欧元，有机增长 2.0%，高于上半年的 0.8%。这一增长主要来自 EMEA、中国以及面向公众（citizens）业务的表现。（Ipsos，2026-10-23）
 - [初创公司如何做客户研究：Listen Labs 的 14 天操作手册](https://listenlabs.com/articles/startup-market-research-guide/)：Listen Labs 增长负责人 Anish Rao 发布一份 14 天初创客户研究手册，把流程拆成假设、免费二手数据、一手访谈、自下而上测算市场与付费意愿验证五步，并列出每步的交付物和时限。手册要求先写 3–5 条可证伪假设，到 da…（Listen Labs，2026-10-23）
-- [arXiv 论文对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上无显著优势](https://arxiv.org/abs/2610.30568)：arXiv 论文（arXiv:2610.30568）用同一实验设置对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上没有显著优势。反复迭代修订可稳定提升想法质量；AI 评审的分数接近人类，但在想法排序上与人类不一致，其中一个…（arXiv cs.HC，2026-10-23）
-- [MeasuringU 与 UXPA 公布 2024 年 UX 薪资调查结果并更新薪资计算器](https://measuringu.com/user-experience-salaries-calculator-2026/?utm_source=rss&utm_medium=rss&utm_campaign=user-experience-salaries-calculator-2026)：MeasuringU 与 UXPA 汇总 2024 年 4 月至 10 月收集的 444 份、来自 37 个国家的问卷，UX 从业者薪资中位数为 12 万美元，名义上比 2022 年的 10.9 万美元高 10%。按同期 12% 的通胀折…（MeasuringU（Jeff Sauro），2026-10-22）
-- [MAXQDA 介绍 AI Assist 接入本地 AI 模型的设置与模型选型](https://www.maxqda.com/blogpost/local-ai-models-in-maxqda-ai-assist-with-full-control-over-your-data)：MAXQDA 说明 AI Assist 可接入运行在本地电脑或机构内网服务器上的语言模型，数据不离开本地网络，并在文中给出设置步骤与本地模型选型建议。该能力属于 AI Assist Premium，发往本地模型的请求不计入每日额度；原文提…（MAXQDA，2026-10-22）
 
-（更多 42 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 45 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

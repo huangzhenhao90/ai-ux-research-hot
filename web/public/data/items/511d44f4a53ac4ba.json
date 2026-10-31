@@ -1,0 +1,25 @@
+{
+  "id": "511d44f4a53ac4ba",
+  "sourceId": "strella-blog",
+  "sourceName": "Strella Blog",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.strella.io/blog/open-ended-questions-for-surveys-examples",
+  "title": "Open-Ended Survey Questions: Examples for Every Research Goal",
+  "titleZh": "面向不同研究目标的开放式问卷问题示例",
+  "summaryZh": "Strella 博客发布一篇开放式问卷问题示例文章，按不同研究目标整理提问示例。文章以示例形式呈现，供设计开放式问题时对照参考。",
+  "reason": "按不同研究目标整理开放式问卷的提问示例，可作为设计问卷时的具体参考，帮助对照研究目的选择提问方式。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "问卷/定量"
+  ],
+  "entities": [],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-10-30T16:00:00+00:00",
+  "discoveredAt": "2026-10-31T14:22:04.991442+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

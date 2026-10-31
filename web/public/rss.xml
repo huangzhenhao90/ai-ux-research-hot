@@ -5,9 +5,27 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 09:57:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 14:22:04 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界</title>
+      <link>https://listenlabs.com/articles/best-ai-consumer-simulation-tools/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/best-ai-consumer-simulation-tools/</guid>
+      <pubDate>Sat, 31 Oct 2026 05:16:28 GMT</pubDate>
+      <description>Listen Labs 发布按架构划分的 AI 消费者模拟工具决策指南，将其分为合成用户、人群模型和基于真人访谈的数字孪生三类。文中引用 Bisbee 等 2024 年发表于 Political Analysis 的研究，称合成受访者可匹配真实调查均值，但方差明显偏低，48% 的回归系数出现显著偏差、32% 符号反转。作者称其 Listen Twins 由真人访谈构建，数秒内返回 100+ 条带推理、原话与置信度的预测答案，并引用 Park 等 2024 年针对 1,052 人的 Stanford 研究，指出访谈构建的智能体达到人类两周重测信度的 83–86%，仅按人口统计提示的为 74%。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Listen Labs 提供概念测试模板，含甄别问题、量化指标与 Go/Refine/Kill 规则</title>
+      <link>https://listenlabs.com/articles/concept-testing-template/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/concept-testing-template/</guid>
+      <pubDate>Sat, 31 Oct 2026 05:11:39 GMT</pubDate>
+      <description>Listen Labs 提供一套可直接复用的概念测试模板，按甄别、刺激展示、量化评分、开放题和 Go/Refine/Kill 规则五个步骤组织。模板用 5 点量表测量吸引力、相关性、独特性、可信度、购买意愿和价格感知，并以 top-2-box 作为主要 KPI。文章建议在测试 6 个以上概念或评分趋同时改用 MaxDiff，并用 AI 主持访谈追问每个评分背后的原因。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>NN/g 解读 UX 在 Anthropic 智能体软件工厂中的角色</title>
       <link>https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
@@ -16,6 +34,15 @@
       <description>NN/g 分析 Anthropic 在 2026 年 8 月发布的 AI 原生软件开发生命周期（SDLC）构想，指出它把 UX 简化为引导 AI 生成的后台上下文。文章将其与 Google（2026 年 5 月）和 OpenAI（2025 年 11 月）的类似发布做对比，认为三者细节不同但都把 UX 边缘化。作者提出 UX 还负责发现用户需求、强化团队对构建内容的共同判断，以及在上线前后评估产出，照搬该模型的组织可能失去 AI 上下文所依赖的用户洞察。</description>
       <category>Nielsen Norman Group</category>
       <category>opinion</category>
+    </item>
+    <item>
+      <title>面向不同研究目标的开放式问卷问题示例</title>
+      <link>https://www.strella.io/blog/open-ended-questions-for-surveys-examples</link>
+      <guid isPermaLink="true">https://www.strella.io/blog/open-ended-questions-for-surveys-examples</guid>
+      <pubDate>Fri, 30 Oct 2026 16:00:00 GMT</pubDate>
+      <description>Strella 博客发布一篇开放式问卷问题示例文章，按不同研究目标整理提问示例。文章以示例形式呈现，供设计开放式问题时对照参考。</description>
+      <category>Strella Blog</category>
+      <category>methods</category>
     </item>
     <item>
       <title>Listen Labs 的初创公司快速信息测试七步流程</title>
@@ -426,33 +453,6 @@
       <guid isPermaLink="true">https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
       <pubDate>Fri, 04 Sep 2026 17:00:00 GMT</pubDate>
       <description>发布《用 AI 做 UX 工作：学习指南》，汇总其文章和视频，帮助团队找到将 AI 融入 UX 工作流的具体方式。指南指出，AI 目前还不能完全接管 UX 工作，但可用于辅助既有流程；从业者应把 AI 当作增强能力的“手套”，而非替代判断</description>
-      <category>Nielsen Norman Group</category>
-      <category>opinion</category>
-    </item>
-    <item>
-      <title>Product Talk 发布 AI 评估测试框架，附可运行的合成访谈示例</title>
-      <link>https://www.producttalk.org/ai-evals-test-harness/</link>
-      <guid isPermaLink="true">https://www.producttalk.org/ai-evals-test-harness/</guid>
-      <pubDate>Wed, 02 Sep 2026 13:05:45 GMT</pubDate>
-      <description>Product Talk 作者将自用的 AI 评估测试框架整理进代码仓库，并附一个完整示例，读者可以先跑通示例，再替换成自己的输入、提示词和 eval。示例用 15 份合成访谈记录检验「访谈转故事并判断参与者状态」的流程，更换提示词后编造引语从 12.5% 降到 1.7%，无依据论断从 8.4% 降到 3.2%，状态标签错误降为零。框架分三步：先看输出错误，再按错误类型各配一个可独立添加的 eval 模块，最后跑基线版与变体版对比，工具面向 Supporting Members 和 CDH Members 开放。</description>
-      <category>Product Talk（Teresa Torres）</category>
-      <category>tools</category>
-    </item>
-    <item>
-      <title>UX 的“看护时代”：为 AI 生成的设计善后</title>
-      <link>https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
-      <guid isPermaLink="true">https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
-      <pubDate>Fri, 28 Aug 2026 17:00:00 GMT</pubDate>
-      <description>AI 让团队生成内容、原型和可运行功能的速度快过 UX 评估，UX 正进入“看护时代”。UX 的工作从空白页设计转向判断 AI 产出中哪些保留、哪些修改，并为已存在的原型和功能善后。应对方式是建立共享判断、加速评估，并引导 AI 生成的设计。</description>
-      <category>Nielsen Norman Group</category>
-      <category>opinion</category>
-    </item>
-    <item>
-      <title>AI 无法在同理心地图中替代真实研究</title>
-      <link>https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
-      <guid isPermaLink="true">https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
-      <pubDate>Fri, 28 Aug 2026 17:00:00 GMT</pubDate>
-      <description>AI 无法替代真实研究来制作同理心地图，只能帮助整理已经收集到的研究材料。同理心地图用 Says、Thinks、Does、Feels 四个象限呈现团队对某类用户的已知信息，通常在工作坊中由来自真实研究的便利贴协作搭建。原文指出，AI 工具虽能在几秒内生成整页便利贴，但便利贴由什么材料生成比生成速度更重要。</description>
       <category>Nielsen Norman Group</category>
       <category>opinion</category>
     </item>

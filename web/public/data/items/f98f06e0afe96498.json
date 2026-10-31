@@ -1,0 +1,29 @@
+{
+  "id": "f98f06e0afe96498",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-digital-twin-vendors/",
+  "title": "AI Digital Twin Vendors For Enterprise Consumer Insights",
+  "titleZh": "面向企业消费者洞察的 AI 数字孪生供应商：合成人设、人工验证研究孪生与 1:1 真人孪生",
+  "summaryZh": "Listen Labs 将 AI 数字孪生供应商分为合成人设模拟器、人工验证研究孪生和 1:1 真人孪生三类，称 Listen Twins 领跑第三类。该产品基于 50M+ 验证网络的真人访谈，给出带推理、引语和置信分数的答案，支持一键真人验证。合成孪生仅 24.9% 与真人一致，趋势问题平均误差 9-12 个百分点。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs",
+    "ipsos"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-10-31T05:16:40+00:00",
+  "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

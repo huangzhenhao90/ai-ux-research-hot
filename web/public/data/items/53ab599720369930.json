@@ -1,0 +1,29 @@
+{
+  "id": "53ab599720369930",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/concept-testing-template/",
+  "title": "Concept Testing Template: Questions, Metrics & Rubric",
+  "titleZh": "Listen Labs 提供概念测试模板，含甄别问题、量化指标与 Go/Refine/Kill 规则",
+  "summaryZh": "Listen Labs 提供一套可直接复用的概念测试模板，按甄别、刺激展示、量化评分、开放题和 Go/Refine/Kill 规则五个步骤组织。模板用 5 点量表测量吸引力、相关性、独特性、可信度、购买意愿和价格感知，并以 top-2-box 作为主要 KPI。文章建议在测试 6 个以上概念或评分趋同时改用 MaxDiff，并用 AI 主持访谈追问每个评分背后的原因。",
+  "reason": "原文把概念测试拆成甄别、刺激展示、量化评分、开放题和 Go/Refine/Kill 规则，研究者可直接改写成问卷或交给研究伙伴执行。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "问卷/定量",
+    "AI 访谈",
+    "定性分析"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-10-31T05:11:39+00:00",
+  "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

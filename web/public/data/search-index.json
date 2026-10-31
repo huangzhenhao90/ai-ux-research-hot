@@ -1,5 +1,5 @@
 {
-  "count": 238,
+  "count": 244,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -508,6 +508,25 @@
       "publishedAt": "2026-09-18T17:00:00+00:00"
     },
     {
+      "id": "53ab599720369930",
+      "title": "Concept Testing Template: Questions, Metrics & Rubric",
+      "titleZh": "Listen Labs 提供概念测试模板，含甄别问题、量化指标与 Go/Refine/Kill 规则",
+      "summaryZh": "Listen Labs 提供一套可直接复用的概念测试模板，按甄别、刺激展示、量化评分、开放题和 Go/Refine/Kill 规则五个步骤组织。模板用 5 点量表测量吸引力、相关性、独特性、可信度、购买意愿和价格感知，并以 top-2-box 作为主要 KPI。文章建议在测试 6 个以上概念或评分趋同时改用 MaxDiff，并用 AI 主持访谈追问每个评分背后的原因。",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/concept-testing-template/",
+      "publishedAt": "2026-10-31T05:11:39+00:00"
+    },
+    {
       "id": "9406ef7b1798dc60",
       "title": "抽象的偏好，具体的回报：陈述性偏好与AI回应实际奖励之间的关系",
       "titleZh": "PRISM 数据集研究对比用户对 AI 回答的陈述偏好与实际评分",
@@ -846,6 +865,24 @@
       "sourceName": "arXiv cs.HC",
       "url": "https://arxiv.org/abs/2610.28929",
       "publishedAt": "2026-10-27T04:00:00+00:00"
+    },
+    {
+      "id": "5f4a190fc4907812",
+      "title": "AI Consumer Simulation Tools: Decision Guide by Architecture",
+      "titleZh": "Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界",
+      "summaryZh": "Listen Labs 发布按架构划分的 AI 消费者模拟工具决策指南，将其分为合成用户、人群模型和基于真人访谈的数字孪生三类。文中引用 Bisbee 等 2024 年发表于 Political Analysis 的研究，称合成受访者可匹配真实调查均值，但方差明显偏低，48% 的回归系数出现显著偏差、32% 符号反转。作者称其 Listen Twins 由真人访谈构建，数秒内返回 100+ 条带推理、原话与置信度的预测答案，并引用 Park 等 2024 年针对 1,052 人的 Stanford 研究，指出访谈构建的智能体达到人类两周重测信度的 83–86%，仅按人口统计提示的为 74%。",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-consumer-simulation-tools/",
+      "publishedAt": "2026-10-31T05:16:28+00:00"
     },
     {
       "id": "1e22f1348a28f6bc",
@@ -1408,6 +1445,21 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/best-ai-tools-nps-drop/",
       "publishedAt": "2026-10-27T06:16:33+00:00"
+    },
+    {
+      "id": "511d44f4a53ac4ba",
+      "title": "Open-Ended Survey Questions: Examples for Every Research Goal",
+      "titleZh": "面向不同研究目标的开放式问卷问题示例",
+      "summaryZh": "Strella 博客发布一篇开放式问卷问题示例文章，按不同研究目标整理提问示例。文章以示例形式呈现，供设计开放式问题时对照参考。",
+      "tags": [
+        "方法/实践",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Strella Blog",
+      "url": "https://www.strella.io/blog/open-ended-questions-for-surveys-examples",
+      "publishedAt": "2026-10-30T16:00:00+00:00"
     },
     {
       "id": "17782bd98c014cbd",
@@ -2061,6 +2113,25 @@
       "publishedAt": "2025-09-09T00:00:00+00:00"
     },
     {
+      "id": "f98f06e0afe96498",
+      "title": "AI Digital Twin Vendors For Enterprise Consumer Insights",
+      "titleZh": "面向企业消费者洞察的 AI 数字孪生供应商：合成人设、人工验证研究孪生与 1:1 真人孪生",
+      "summaryZh": "Listen Labs 将 AI 数字孪生供应商分为合成人设模拟器、人工验证研究孪生和 1:1 真人孪生三类，称 Listen Twins 领跑第三类。该产品基于 50M+ 验证网络的真人访谈，给出带推理、引语和置信分数的答案，支持一键真人验证。合成孪生仅 24.9% 与真人一致，趋势问题平均误差 9-12 个百分点。",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-vendors/",
+      "publishedAt": "2026-10-31T05:16:40+00:00"
+    },
+    {
       "id": "b675cb512a956ff1",
       "title": "Defining What Good Looks Likes - All Things Product Podcast with Teresa Torres & Petra Wille",
       "titleZh": "All Things Product 播客：Teresa Torres 与 Petra Wille 谈 AI evals 如何定义“好”",
@@ -2563,6 +2634,27 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/comparing-best-software-for-thematic-analysis/",
       "publishedAt": "2025-12-09T00:00:00+00:00"
+    },
+    {
+      "id": "ff1cb8b24682c85f",
+      "title": "Message Testing Tools That Actually Own Their Panel",
+      "titleZh": "Listen Labs 等真正拥有自有样本库的信息测试工具",
+      "summaryZh": "Listen Labs 被列为最符合“自有样本库”的信息测试工具，50M+ 验证受访者池支持 AI 主持访谈。SurveyMonkey 用 Audience 混合自有与合作伙伴样本库，Qualtrics 用 Dynata、Cint 第三方样本库。Pew 分析 60,000+ 访谈显示 opt-in 假受访者占 4%–7%，随机住址招募样本约 1%。",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "surveymonkey",
+        "qualtrics",
+        "usertesting"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-message-testing-tools-panel/",
+      "publishedAt": "2026-10-31T05:16:46+00:00"
     },
     {
       "id": "9f40ceae20fc85ab",
@@ -3137,6 +3229,26 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/bringing-shadow-ai-out-of-the-shadows/",
       "publishedAt": "2026-10-29T12:00:00+00:00"
+    },
+    {
+      "id": "6a05983bd3953bf5",
+      "title": "Companies Like SightX for Predictive Message Testing",
+      "titleZh": "SightX 替代方案对比：Listen Labs、Anyword、Zappi 等预测性信息测试公司",
+      "summaryZh": "Listen Labs 对比 SightX 等预测性信息测试替代方案，主打真人 1:1 数字孪生、可追溯推理与一键验证。Listen Twins 覆盖 50M+ 验证受访者、45+ 国家，数秒内返回 100+ 条带原话和置信分的答案；一项 182 项研究的系统综述称，LLM 合成受访者会在潜在特质、反应变异、文化细节上偏离真人数据。",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-sightx-alternatives-message-testing/",
+      "publishedAt": "2026-10-31T05:11:44+00:00"
     },
     {
       "id": "89bda7267f80e947",
