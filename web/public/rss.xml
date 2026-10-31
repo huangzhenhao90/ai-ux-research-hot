@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 20:28:25 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 04:29:44 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>NN/g 解读 UX 在 Anthropic 智能体软件工厂中的角色</title>
+      <link>https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
+      <guid isPermaLink="true">https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
+      <pubDate>Fri, 30 Oct 2026 17:00:00 GMT</pubDate>
+      <description>NN/g 分析 Anthropic 在 2026 年 8 月发布的 AI 原生软件开发生命周期（SDLC）构想，指出它把 UX 简化为引导 AI 生成的后台上下文。文章将其与 Google（2026 年 5 月）和 OpenAI（2025 年 11 月）的类似发布做对比，认为三者细节不同但都把 UX 边缘化。作者提出 UX 还负责发现用户需求、强化团队对构建内容的共同判断，以及在上线前后评估产出，照搬该模型的组织可能失去 AI 上下文所依赖的用户洞察。</description>
+      <category>Nielsen Norman Group</category>
+      <category>opinion</category>
+    </item>
     <item>
       <title>Listen Labs 的初创公司快速信息测试七步流程</title>
       <link>https://listenlabs.com/articles/fast-message-testing-startups-playbook/</link>
@@ -446,15 +455,6 @@
       <description>AI 无法替代真实研究来制作同理心地图，只能帮助整理已经收集到的研究材料。同理心地图用 Says、Thinks、Does、Feels 四个象限呈现团队对某类用户的已知信息，通常在工作坊中由来自真实研究的便利贴协作搭建。原文指出，AI 工具虽能在几秒内生成整页便利贴，但便利贴由什么材料生成比生成速度更重要。</description>
       <category>Nielsen Norman Group</category>
       <category>opinion</category>
-    </item>
-    <item>
-      <title>今天就能构建的 9 个 Dovetail Digital Twins，以及它们各自能为团队做什么</title>
-      <link>https://dovetail.com/blog/9-digital-twins-you-can-build-today/</link>
-      <guid isPermaLink="true">https://dovetail.com/blog/9-digital-twins-you-can-build-today/</guid>
-      <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-      <description>Dovetail 列出 9 个可直接构建的 Digital Twins，面向产品经理、销售、客户成功、研究和领导层，每个都基于团队已有的证据数据。原文未给出样本量、价格或具体可用性档位。</description>
-      <category>Dovetail Blog</category>
-      <category>tools</category>
     </item>
   </channel>
 </rss>

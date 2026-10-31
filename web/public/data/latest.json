@@ -1,12 +1,37 @@
 {
-  "generatedAt": "2026-10-30T20:28:25.805063+00:00",
+  "generatedAt": "2026-10-31T04:29:44.259953+00:00",
   "windowDays": 3,
   "editionHour": 8,
   "days": [
     {
       "date": "2026-10-31",
-      "count": 2,
+      "count": 3,
       "items": [
+        {
+          "id": "48c9e720164ce250",
+          "sourceId": "nngroup",
+          "sourceName": "Nielsen Norman Group",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "title": "The Role of UX in Agentic Software Factories",
+          "titleZh": "NN/g 解读 UX 在 Anthropic 智能体软件工厂中的角色",
+          "summaryZh": "NN/g 分析 Anthropic 在 2026 年 8 月发布的 AI 原生软件开发生命周期（SDLC）构想，指出它把 UX 简化为引导 AI 生成的后台上下文。文章将其与 Google（2026 年 5 月）和 OpenAI（2025 年 11 月）的类似发布做对比，认为三者细节不同但都把 UX 边缘化。作者提出 UX 还负责发现用户需求、强化团队对构建内容的共同判断，以及在上线前后评估产出，照搬该模型的组织可能失去 AI 上下文所依赖的用户洞察。",
+          "reason": "文章对照 Anthropic、Google 与 OpenAI 的 AI 原生开发流程，指出三者都把 UX 压缩成引导 AI 生成的背景上下文。",
+          "category": "opinion",
+          "tags": [
+            "观点/讨论",
+            "Agent",
+            "NN/g"
+          ],
+          "entities": [],
+          "itemType": "opinion_analysis",
+          "publishedAt": "2026-10-30T17:00:00+00:00",
+          "discoveredAt": "2026-10-31T04:29:44.259953+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "followup"
+        },
         {
           "id": "10efb16077cb40b3",
           "sourceId": "listen-labs",
@@ -120,97 +145,6 @@
           "itemType": "industry_event",
           "publishedAt": "2026-10-29T17:03:12+00:00",
           "discoveredAt": "2026-10-29T20:55:20.380326+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "count": 3,
-      "items": [
-        {
-          "id": "513d0bb28edb882c",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/",
-          "title": "Synthetic Respondent Platforms: How To Evaluate And Choose",
-          "titleZh": "Listen Labs 撰文介绍合成受访者平台的评估与选择方法",
-          "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文把合成受访者平台分为从零模拟、真实数据建模和样本扩充三类，并建议采购前做留出真人对比、核查答案可追溯性、检测 persona 漂移等验证。文中引用 Pew Research Center 2026 年 9 月 30 日的研究称 AI 生成结果与人类民调平均相差 12.4 个百分点，共和党倾向者平均误差最高为 16.1 个百分点；Science Advances 同月刊出的哥伦比亚大学领衔 19 项预注册研究则发现 LLM 数字孪生在 164 个结果中有 154 个组内方差低于所模拟的真人。文章同时推介 Listen Labs 自有的 50M+ 真人网络与 Listen Twins。",
-          "reason": "文章把合成受访者平台分为三类，引用已发表证据说明其准确性限制，并给出采购前的验证清单与场景匹配建议。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "合成用户",
-            "问卷/定量",
-            "市场研究"
-          ],
-          "entities": [
-            "listen-labs",
-            "qualtrics",
-            "delve"
-          ],
-          "itemType": "tutorial_explainer",
-          "publishedAt": "2026-10-28T05:10:50+00:00",
-          "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "dda520eafe7335c0",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/best-ai-persona-simulators-ad-testing/",
-          "title": "AI Persona Simulator for Ad Testing: Which Tools Work",
-          "titleZh": "Listen Labs 对比多款广告测试用 AI 合成用户模拟工具",
-          "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布广告测试用 AI 合成用户模拟工具对比，认为这类模拟只适合创意初筛，不能替代真人验证。文中引用 2026 年多项验证研究，合成工具的准确率为 47.8%–87.73%，Strat7 的 3,000 人样本显示合成受访者给出的支付意愿约高 16%，纯合成样本在一次价格排序中 68% 出现逻辑不一致。付费合成工具月费在 $29–$800，传统预测试为 $25k–$100k；Listen Labs 则以覆盖 45+ 国家、5000 万以上已验证受访者的 AI 主持访谈和 24 小时内出结果作为对照。",
-          "reason": "文中汇总了 2026 年多项合成受访者验证研究与各工具价格档位，可用来判断模拟测试适合放在创意筛选的哪一步。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "合成用户",
-            "市场研究"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "tutorial_explainer",
-          "publishedAt": "2026-10-28T05:10:43+00:00",
-          "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "70a5bbcfdf83daac",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/measure-emotional-response-to-ads/",
-          "title": "How To Measure Emotional Response To Ads: Methods Guide",
-          "titleZh": "Listen Labs 介绍测量广告情绪反应的六类方法",
-          "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布指南，将广告情绪反应测量归纳为自陈量表、生理与生物特征、面部编码、逐秒与内隐追踪、社交情绪分析、AI 主持多模态访谈六类方法。文章主张方法应跟随决策与预算选择，并指出单一方法的核心失效点在于 say-feel gap，相同的自陈得分可能掩盖不同的真实感受。文中引用数据包括 PAD 模型 Pleasure 子量表 Cronbach's alpha 约 .80–.93，一项 2026 年研究中 Arousal 的编码者一致性 Cohen's kappa 仅 0.28（Pleasure 为 0.85），完整生理测量的广告测试项目需 5 至 8 周、花费 $50,000 至 $100,000。",
-          "reason": "文章按决策场景梳理六类广告情绪测量方法及其成本与速度差异，并指出仅靠自陈量表会掩盖真实感受的失效点。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "AI 访谈",
-            "多模态",
-            "问卷/定量"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "tutorial_explainer",
-          "publishedAt": "2026-10-28T05:10:56+00:00",
-          "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
           "status": "selected",
           "dupOf": null,
           "relation": "different"

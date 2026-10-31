@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T20:28:25.805063+00:00",
+  "generatedAt": "2026-10-31T04:29:44.259953+00:00",
   "groups": [
     {
       "key": "company",
@@ -51,7 +51,7 @@
       "name": "Nielsen Norman Group",
       "group": "company",
       "definition": "NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。",
-      "count": 10
+      "count": 11
     },
     {
       "slug": "ipsos",

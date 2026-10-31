@@ -1,0 +1,26 @@
+{
+  "id": "48c9e720164ce250",
+  "sourceId": "nngroup",
+  "sourceName": "Nielsen Norman Group",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+  "title": "The Role of UX in Agentic Software Factories",
+  "titleZh": "NN/g 解读 UX 在 Anthropic 智能体软件工厂中的角色",
+  "summaryZh": "NN/g 分析 Anthropic 在 2026 年 8 月发布的 AI 原生软件开发生命周期（SDLC）构想，指出它把 UX 简化为引导 AI 生成的后台上下文。文章将其与 Google（2026 年 5 月）和 OpenAI（2025 年 11 月）的类似发布做对比，认为三者细节不同但都把 UX 边缘化。作者提出 UX 还负责发现用户需求、强化团队对构建内容的共同判断，以及在上线前后评估产出，照搬该模型的组织可能失去 AI 上下文所依赖的用户洞察。",
+  "reason": "文章对照 Anthropic、Google 与 OpenAI 的 AI 原生开发流程，指出三者都把 UX 压缩成引导 AI 生成的背景上下文。",
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "Agent",
+    "NN/g"
+  ],
+  "entities": [],
+  "itemType": "opinion_analysis",
+  "publishedAt": "2026-10-30T17:00:00+00:00",
+  "discoveredAt": "2026-10-31T04:29:44.259953+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "followup",
+  "related": []
+}

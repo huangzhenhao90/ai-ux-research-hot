@@ -15,6 +15,7 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [NN/g 解读 UX 在 Anthropic 智能体软件工厂中的角色](https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：NN/g 分析 Anthropic 在 2026 年 8 月发布的 AI 原生软件开发生命周期（SDLC）构想，指出它把 UX 简化为引导 AI 生成的后台上下文。文章将其与 Google（2026 年 5 月）和 OpenAI（2025…（Nielsen Norman Group，2026-10-30）
 - [Listen Labs 的初创公司快速信息测试七步流程](https://listenlabs.com/articles/fast-message-testing-startups-playbook/)：Listen Labs 增长负责人 Anish Rao 给出一套面向初创公司的快速信息测试七步流程，先用免费 LLM 粗筛文案，再用真实受访者验证。流程中间用 Lyssna 的五秒测试和 PickFu 的偏好测试把四个方向缩到两个，文中提…（Listen Labs，2026-10-30）
 - [Listen Labs 如何为概念测试招募难触达受众](https://listenlabs.com/articles/recruit-hard-to-reach-audiences/)：Listen Labs 增长负责人 Anish Rao 撰文，介绍概念测试中难触达受众的招募方法；该方法按低发生率、被把关、不信任、时间稀缺、缺席样本库五类成因分别匹配招募渠道。文中建议用行为甄别题、开放式验证题和虚构品牌排雷题筛掉职业答…（Listen Labs，2026-10-30）
 - [Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO](https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-0)：Ipsos 宣布任命 Mitch Barns 为美洲区董事长兼 CEO，自 2026 年 11 月 2 日起生效。他将担任 Ipsos 美国 CEO，并负责统筹 Ipsos 在加拿大和拉美地区的业务。任命消息于 2026 年 10 月 2…（Ipsos，2026-10-29）
@@ -44,6 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [arXiv 论文对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上无显著优势](https://arxiv.org/abs/2610.30568)：arXiv 论文（arXiv:2610.30568）用同一实验设置对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上没有显著优势。反复迭代修订可稳定提升想法质量；AI 评审的分数接近人类，但在想法排序上与人类不一致，其中一个…（arXiv cs.HC，2026-10-23）
 - [MeasuringU 与 UXPA 公布 2024 年 UX 薪资调查结果并更新薪资计算器](https://measuringu.com/user-experience-salaries-calculator-2026/?utm_source=rss&utm_medium=rss&utm_campaign=user-experience-salaries-calculator-2026)：MeasuringU 与 UXPA 汇总 2024 年 4 月至 10 月收集的 444 份、来自 37 个国家的问卷，UX 从业者薪资中位数为 12 万美元，名义上比 2022 年的 10.9 万美元高 10%。按同期 12% 的通胀折…（MeasuringU（Jeff Sauro），2026-10-22）
 - [MAXQDA 介绍 AI Assist 接入本地 AI 模型的设置与模型选型](https://www.maxqda.com/blogpost/local-ai-models-in-maxqda-ai-assist-with-full-control-over-your-data)：MAXQDA 说明 AI Assist 可接入运行在本地电脑或机构内网服务器上的语言模型，数据不离开本地网络，并在文中给出设置步骤与本地模型选型建议。该能力属于 AI Assist Premium，发往本地模型的请求不计入每日额度；原文提…（MAXQDA，2026-10-22）
-- [Listen Labs 的 6 步用户原型测试操作指南](https://listenlabs.com/articles/prototype-testing-with-users-playbook/)：Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–…（Listen Labs，2026-10-22）
 
-（更多 41 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 42 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
