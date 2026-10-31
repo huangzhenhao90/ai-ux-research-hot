@@ -24,7 +24,7 @@ from urllib.parse import urlsplit
 
 from uxhot.collect.dates import parse_tz
 from uxhot.config import REPO_ROOT, ConfigBundle
-from uxhot.models import Item, month_key
+from uxhot.models import Item, Status, month_key
 
 # 发布根目录（与 rss.xml / llms.txt 同级）
 PUBLIC_DIR = REPO_ROOT / "web" / "public"
@@ -310,6 +310,10 @@ def build_site_data(
 
     public_items = sort_items(dedupe_by_id(i for i in items if i.is_publishable))
     selected = [i for i in public_items if i.is_selected]
+    # 列表页（全部动态 / 分类 / 主题 / 搜索）不放判为重复的条目：同一件事在时间线上
+    # 出现两张几乎一样的卡片就是噪音。重复条目仍保留详情页，并作为「同一事件的其他
+    # 报道」挂在被保留的那条下面，旧链接不失效、信息也不丢。
+    listed_items = [i for i in public_items if i.status is not Status.DUPLICATE]
 
     # ── site.json：站点配置，前端 basePath / 文案都从这里取 ──────────────
     write_json(
@@ -355,9 +359,9 @@ def build_site_data(
         },
     )
 
-    # ── all/YYYY-MM.json：全部公开动态（含未精选）───────────────────────
+    # ── all/YYYY-MM.json：全部公开动态（含未精选，不含重复）───────────────────────
     by_month: dict[str, list[Item]] = {}
-    for item in public_items:
+    for item in listed_items:
         by_month.setdefault(month_key(item_time(item)), []).append(item)
     months = sorted(by_month, reverse=True)
     for month in months:
@@ -373,7 +377,7 @@ def build_site_data(
         data_dir / "all" / "index.json",
         {
             "generatedAt": stamp,
-            "total": len(public_items),
+            "total": len(listed_items),
             "months": [
                 {"month": m, "count": len(by_month[m]), "path": f"data/all/{m}.json"}
                 for m in months
@@ -391,7 +395,7 @@ def build_site_data(
 
     # ── categories/<key>.json：按分类（空分类也写，前端 generateStaticParams 要用）
     by_category: dict[str, list[Item]] = {}
-    for item in public_items:
+    for item in listed_items:
         if item.category:
             by_category.setdefault(item.category, []).append(item)
     category_index: list[dict[str, Any]] = []
@@ -425,7 +429,7 @@ def build_site_data(
     # ── topics/<slug>.json：主题页（实体页按 entityId，领域页按标签）──────
     topic_index: list[dict[str, Any]] = []
     for topic in config.topics.topics:
-        rows = sort_items(topic_items(topic, public_items, config))
+        rows = sort_items(topic_items(topic, listed_items, config))
         write_json(
             data_dir / "topics" / f"{topic.slug}.json",
             {
@@ -470,7 +474,7 @@ def build_site_data(
             "url": item.url,
             "publishedAt": iso_utc(item.publishedAt),
         }
-        for item in public_items
+        for item in listed_items
     ]
     write_json(
         data_dir / "search-index.json",

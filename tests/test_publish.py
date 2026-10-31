@@ -186,13 +186,26 @@ def test_all_month_keeps_non_selected(published: Path) -> None:
     doc = load_json(published / "data" / "all" / "2026-10.json")
     ids = {item["id"] for item in doc["items"]}
     # 8 号还没写出中文（NEW），不上页面（D16）
-    assert ids == {id_of(1), id_of(2), id_of(3), id_of(4), id_of(7)}
-    assert doc["count"] == 5
+    # 7 号是 1 号的重复（DUPLICATE），不上列表，只挂在 1 号详情页的「其他报道」里
+    assert ids == {id_of(1), id_of(2), id_of(3), id_of(4)}
+    assert doc["count"] == 4
     index = load_json(published / "data" / "all" / "index.json")
-    assert index["total"] == 5
+    assert index["total"] == 4
     assert index["months"] == [
-        {"month": "2026-10", "count": 5, "path": "data/all/2026-10.json"}
+        {"month": "2026-10", "count": 4, "path": "data/all/2026-10.json"}
     ]
+
+
+def test_duplicates_stay_off_list_pages(published: Path) -> None:
+    """判为重复的条目不进任何列表（全部动态 / 分类 / 主题 / 搜索），但详情页还在。"""
+    dup = id_of(7)
+    for sub in ("all", "categories", "topics"):
+        for path in sorted((published / "data" / sub).glob("*.json")):
+            for item in load_json(path).get("items", []):
+                assert item["id"] != dup, f"{path} 的列表里出现了重复条目"
+    search = load_json(published / "data" / "search-index.json")
+    assert dup not in {item["id"] for item in search["items"]}
+    assert (published / "data" / "items" / f"{dup}.json").is_file()
 
 
 def test_item_detail_matches_filename_and_lists_related(published: Path) -> None:
@@ -211,8 +224,8 @@ def test_categories_cover_all_keys_even_empty(cfg, published: Path) -> None:
     index = load_json(published / "data" / "categories" / "index.json")
     assert {row["key"] for row in index["categories"]} == set(cfg.taxonomy.category_keys)
     tools = load_json(published / "data" / "categories" / "tools.json")
-    # 条目 1（精选）与条目 7（同事件的其他报道）都在 tools 分类，按分数降序
-    assert [item["id"] for item in tools["items"]] == [id_of(1), id_of(7)]
+    # 条目 1（精选）在 tools 分类；条目 7 是它的重复，不进列表
+    assert [item["id"] for item in tools["items"]] == [id_of(1)]
     assert tools["label"] == "工具"
     empty = load_json(published / "data" / "categories" / "cases.json")
     assert empty["count"] == 0 and empty["items"] == []
@@ -224,22 +237,22 @@ def test_topics_match_entity_id_and_tags(cfg, published: Path) -> None:
     assert {group["key"] for group in index["groups"]} == {
         group.key for group in cfg.topics.groups
     }
-    # qualtrics 主题页按 entityId 命中（条目 1、7 的 entities 里都有 qualtrics）
+    # qualtrics 主题页按 entityId 命中（条目 7 也命中，但它是 1 的重复，不进列表）
     qualtrics = load_json(published / "data" / "topics" / "qualtrics.json")
-    assert [item["id"] for item in qualtrics["items"]] == [id_of(1), id_of(7)]
+    assert [item["id"] for item in qualtrics["items"]] == [id_of(1)]
     # synthetic-users 主题页按标签命中
     synth = load_json(published / "data" / "topics" / "synthetic-users.json")
     assert [item["id"] for item in synth["items"]] == [id_of(2)]
     # ai-interview 主题页按标签命中
     interview = load_json(published / "data" / "topics" / "ai-interview.json")
-    assert [item["id"] for item in interview["items"]] == [id_of(1), id_of(7)]
+    assert [item["id"] for item in interview["items"]] == [id_of(1)]
     # 没有命中条目的主题页也要有文件（前端 generateStaticParams 用）
     assert (published / "data" / "topics" / "ethics.json").is_file()
 
 
 def test_search_index_has_title_summary_tags(published: Path) -> None:
     doc = load_json(published / "data" / "search-index.json")
-    assert doc["count"] == len(doc["items"]) == 5
+    assert doc["count"] == len(doc["items"]) == 4  # 不含重复条目 7
     allowed = set(PUBLIC_FIELDS)
     for entry in doc["items"]:
         assert set(entry) <= allowed
@@ -274,7 +287,7 @@ def test_data_manifest_counts(published: Path) -> None:
         "months": 1,
         "categories": 6,
         "topics": 24,
-        "searchIndex": 5,
+        "searchIndex": 4,
     }
     assert doc["months"] == ["2026-10"]
     assert doc["latestDays"] == ["2026-10-22", "2026-10-21", "2026-10-20"]

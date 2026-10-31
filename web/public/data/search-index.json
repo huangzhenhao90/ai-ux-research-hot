@@ -1,5 +1,5 @@
 {
-  "count": 242,
+  "count": 238,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -452,23 +452,6 @@
       "publishedAt": "2026-10-25T05:04:34+00:00"
     },
     {
-      "id": "22b7705747551b92",
-      "title": "CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments",
-      "titleZh": "CogArena：评测多模态智能体在交互行为实验中的表现",
-      "summaryZh": "研究者提出 CogArena 基准，包含十个社会科学与行为科学实验范式，智能体需通过标准网页浏览器完成与在线参与者相同的视觉刺激和响应界面。三级评分分别检查智能体是否完成任务、完成得有多准确、其数据是否呈现该范式在人类身上稳定出现的行为特征。四个多模态模型每个任务各运行十次，结果显示完成实验与复现行为特征并不等同，多场会话未能完成，完成者对一些特征稳定复现、对另一些则完全没有。研究者公开了任务、评分代码与接受新提交的公开排行榜。",
-      "tags": [
-        "论文/研究",
-        "Agent",
-        "多模态",
-        "行为数据"
-      ],
-      "entities": [],
-      "category": "research",
-      "sourceName": "arXiv cs.HC",
-      "url": "https://arxiv.org/abs/2610.36484",
-      "publishedAt": "2026-10-28T04:00:00+00:00"
-    },
-    {
       "id": "98ae0612de392e43",
       "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
       "titleZh": "调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂",
@@ -556,23 +539,6 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/dovetail-connector-figma-make/",
       "publishedAt": "2026-02-16T13:00:00+00:00"
-    },
-    {
-      "id": "fbf0c41fde4cb4e8",
-      "title": "Ipsos appoints Mitch Barns as Chairman and CEO, Americas",
-      "titleZh": "Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO，11 月 2 日生效",
-      "summaryZh": "Ipsos 宣布任命 Mitch Barns 为美洲区董事长兼 CEO，自 2026 年 11 月 2 日起生效。他将担任 Ipsos 美国 CEO，并负责加拿大与拉丁美洲地区的业务。",
-      "tags": [
-        "行业动态",
-        "Ipsos"
-      ],
-      "entities": [
-        "ipsos"
-      ],
-      "category": "industry",
-      "sourceName": "Ipsos",
-      "url": "https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-1",
-      "publishedAt": "2026-10-29T17:03:26+00:00"
     },
     {
       "id": "a3087d5fd45ca8bc",
@@ -695,24 +661,6 @@
       "sourceName": "Sprig Blog",
       "url": "https://sprig.com/blog/mcp-capabilities-expansion",
       "publishedAt": "2026-10-25T16:00:00+00:00"
-    },
-    {
-      "id": "26b8ca5cbfcf5bae",
-      "title": "Organic growth of 2.0% in Q3",
-      "titleZh": "第三季度营收6.362亿欧元，有机增长2.0%",
-      "summaryZh": "公布2026年第三季度营收6.362亿欧元，有机增长2.0%，高于上半年的0.8%。增长主要由EMEA、中国以及Citizens业务的良好表现带动",
-      "tags": [
-        "行业动态",
-        "市场研究",
-        "Ipsos"
-      ],
-      "entities": [
-        "ipsos"
-      ],
-      "category": "industry",
-      "sourceName": "Ipsos",
-      "url": "https://www.ipsos.com/en/organic-growth-20-q3",
-      "publishedAt": "2026-10-23T05:51:34+00:00"
     },
     {
       "id": "02f24ca2aa4a8368",
@@ -2300,23 +2248,6 @@
       "sourceName": "International Journal of Market Research",
       "url": "https://journals.sagepub.com/doi/abs/10.1177/14707853261483762?ai=2b4&mi=ehikzz&af=R",
       "publishedAt": "2026-08-24T07:29:35+00:00"
-    },
-    {
-      "id": "a0cc3c52f6796f30",
-      "title": "The Human Advantage Conference 2026: Navigating a complex world through Behavioural Science, AI and Human Intelligence",
-      "titleZh": "Ipsos 支持的 Human Advantage Conference 2026：用行为科学、AI 与人类智能应对复杂世界",
-      "summaryZh": "Ipsos 支持的 Human Advantage Conference 2026 在巴黎举行，汇聚全球研究者、企业领导者和专家，进行两天现场讨论。会议聚焦行为科学、人类智能与 AI 如何帮助组织应对日益复杂的世界。",
-      "tags": [
-        "行业动态",
-        "市场研究"
-      ],
-      "entities": [
-        "ipsos"
-      ],
-      "category": "industry",
-      "sourceName": "Ipsos",
-      "url": "https://www.ipsos.com/en/human-advantage-conference-2026-navigating-complex-world-through-behavioural-science-ai-and-human-1",
-      "publishedAt": "2026-10-30T10:56:13+00:00"
     },
     {
       "id": "6403b83cf3f151f8",

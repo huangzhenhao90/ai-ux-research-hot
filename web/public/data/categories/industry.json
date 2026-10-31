@@ -3,61 +3,8 @@
   "label": "行业",
   "section": "行业动态",
   "commentary": false,
-  "count": 17,
+  "count": 14,
   "items": [
-    {
-      "id": "fbf0c41fde4cb4e8",
-      "sourceId": "ipsos",
-      "sourceName": "Ipsos",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-1",
-      "title": "Ipsos appoints Mitch Barns as Chairman and CEO, Americas",
-      "titleZh": "Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO，11 月 2 日生效",
-      "summaryZh": "Ipsos 宣布任命 Mitch Barns 为美洲区董事长兼 CEO，自 2026 年 11 月 2 日起生效。他将担任 Ipsos 美国 CEO，并负责加拿大与拉丁美洲地区的业务。",
-      "reason": "益普索任命 Mitch Barns 出任美洲区董事长兼 CEO，可据此观察大型调研机构的区域管理层布局。",
-      "category": "industry",
-      "tags": [
-        "行业动态",
-        "Ipsos"
-      ],
-      "entities": [
-        "ipsos"
-      ],
-      "itemType": "industry_event",
-      "publishedAt": "2026-10-29T17:03:26+00:00",
-      "discoveredAt": "2026-10-29T20:55:20.380326+00:00",
-      "status": "duplicate",
-      "dupOf": "a343873a779e028c",
-      "relation": null
-    },
-    {
-      "id": "26b8ca5cbfcf5bae",
-      "sourceId": "ipsos",
-      "sourceName": "Ipsos",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.ipsos.com/en/organic-growth-20-q3",
-      "title": "Organic growth of 2.0% in Q3",
-      "titleZh": "第三季度营收6.362亿欧元，有机增长2.0%",
-      "summaryZh": "公布2026年第三季度营收6.362亿欧元，有机增长2.0%，高于上半年的0.8%。增长主要由EMEA、中国以及Citizens业务的良好表现带动",
-      "reason": "财报给出营收与有机增长两项数字，可对照上半年0.8%观察研究行业的区域需求变化。",
-      "category": "industry",
-      "tags": [
-        "行业动态",
-        "市场研究",
-        "Ipsos"
-      ],
-      "entities": [
-        "ipsos"
-      ],
-      "itemType": "industry_event",
-      "publishedAt": "2026-10-23T05:51:34+00:00",
-      "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
-      "status": "duplicate",
-      "dupOf": "17782bd98c014cbd",
-      "relation": "same"
-    },
     {
       "id": "a343873a779e028c",
       "sourceId": "ipsos",
@@ -214,32 +161,6 @@
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
       "status": "listed",
       "dupOf": null,
-      "relation": null
-    },
-    {
-      "id": "a0cc3c52f6796f30",
-      "sourceId": "ipsos",
-      "sourceName": "Ipsos",
-      "venue": null,
-      "tier": "T1",
-      "url": "https://www.ipsos.com/en/human-advantage-conference-2026-navigating-complex-world-through-behavioural-science-ai-and-human-1",
-      "title": "The Human Advantage Conference 2026: Navigating a complex world through Behavioural Science, AI and Human Intelligence",
-      "titleZh": "Ipsos 支持的 Human Advantage Conference 2026：用行为科学、AI 与人类智能应对复杂世界",
-      "summaryZh": "Ipsos 支持的 Human Advantage Conference 2026 在巴黎举行，汇聚全球研究者、企业领导者和专家，进行两天现场讨论。会议聚焦行为科学、人类智能与 AI 如何帮助组织应对日益复杂的世界。",
-      "reason": null,
-      "category": "industry",
-      "tags": [
-        "行业动态",
-        "市场研究"
-      ],
-      "entities": [
-        "ipsos"
-      ],
-      "itemType": null,
-      "publishedAt": "2026-10-30T10:56:13+00:00",
-      "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
-      "status": "duplicate",
-      "dupOf": "1d487c1dfdb8913f",
       "relation": null
     },
     {

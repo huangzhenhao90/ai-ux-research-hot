@@ -317,7 +317,19 @@ def run_pipeline(
     if limit is not None:
         pending = pending[:limit]
 
-    # ── 4. 模型步骤 ────────────────────────────────────────────────────
+    # ── 4. 机械去重（模型步骤之前）────────────────────────────────────────
+    # 放在模型步骤前面：被判重复的条目不再预筛、评分、写作，省下 4–5 次调用。
+    # 也和已经处理过的条目比：同一篇换个 URL（如 Ipsos 的 …-0 / …-1）分两次进来也能拦下。
+    pending_ids = {i.id for i in pending}
+    dedupe.run(
+        pending,
+        threshold=cfg.selection.dedupe["titleSimilarity"],
+        window_hours=cfg.selection.dedupe["windowHours"],
+        existing=[i for i in all_items if i.id not in pending_ids],
+    )
+    result.steps["dedupe"] = dedupe.summary(pending)
+
+    # ── 5. 模型步骤 ────────────────────────────────────────────────────
     prefilter.run(pending, ctx)
     result.steps["prefilter"] = prefilter.summary(pending)
 
@@ -331,7 +343,6 @@ def run_pipeline(
     result.steps["write"] = write.summary(pending)
 
     # 补写：以前评过分、但当次额度用尽没写出中文的条目（只重跑写作，不重跑其他步骤）
-    pending_ids = {i.id for i in pending}
     retry = [i for i in all_items if i.needs_write_retry and i.id not in pending_ids]
     write.run(retry, ctx)
     result.steps["writeRetry"] = {
@@ -339,18 +350,11 @@ def run_pipeline(
         "written": sum(1 for i in retry if i.has_chinese),
     }
 
-    dedupe.run(
-        pending,
-        threshold=cfg.selection.dedupe["titleSimilarity"],
-        window_hours=cfg.selection.dedupe["windowHours"],
-    )
-    result.steps["dedupe"] = dedupe.summary(pending)
-
     recent = _recent_selected(all_items, reference)
     select.run(pending, ctx, recent_selected=recent)
     result.steps["select"] = select.summary(pending)
 
-    # ── 5. 回写 ────────────────────────────────────────────────────────
+    # ── 6. 回写 ────────────────────────────────────────────────────────
     # 先清掉已处理完成条目的正文：data/items 要提交进 public 仓库，
     # 不能含第三方文章全文（用户 2026-10-21 确认的策略）。
     stripped = strip_bodies(all_items)
@@ -365,7 +369,7 @@ def run_pipeline(
     save_state(state)
     budget.save()
 
-    # ── 6. 发布（写 web/public）─────────────────────────────────────────
+    # ── 7. 发布（写 web/public）─────────────────────────────────────────
     # 校验不通过会抛 PublishError，web/public 保持上一版不动（计划 §5.3）。
     if publish:
         try:

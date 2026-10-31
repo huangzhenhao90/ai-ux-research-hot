@@ -196,6 +196,39 @@ def test_dedupe_marks_near_duplicate_and_keeps_better_tier() -> None:
     assert t2.status is Status.DUPLICATE
 
 
+def test_dedupe_against_already_processed_items() -> None:
+    """同一篇换了 URL（Ipsos 的 …-0 / …-1）、后一次运行才进来，也要判成重复。"""
+    title = "The Human Advantage Conference 2026: Navigating a complex world"
+    earlier = _item(title, "https://ipsos.com/en/hac-0", status=Status.LISTED)
+    later = _item(title, "https://ipsos.com/en/hac-1")
+    dedupe.run([later], threshold=92, window_hours=72, existing=[earlier])
+
+    assert later.status is Status.DUPLICATE
+    assert later.dupOf == earlier.id
+    # 已处理的条目只当比较对象，不被改动
+    assert earlier.status is Status.LISTED and earlier.dupOf is None
+
+
+def test_dedupe_ignores_archived_existing_items() -> None:
+    """归档旧文不上页面，不能当「原件」把新条目吞掉。"""
+    title = "Same headline twice"
+    archived = _item(title, "https://a.com/1", status=Status.ARCHIVED)
+    fresh = _item(title, "https://a.com/2")
+    dedupe.run([fresh], threshold=92, window_hours=72, existing=[archived])
+    assert fresh.dupOf is None and fresh.status is Status.NEW
+
+
+def test_duplicate_skips_model_steps() -> None:
+    """去重在模型步骤之前：被判重复的条目不再花调用。"""
+    title = "Acme launches AI-moderated interview feature"
+    pair = [_item(title, "https://a.com/1"), _item(title, "https://a.com/2")]
+    dedupe.run(pair, threshold=92, window_hours=72)
+    (dup,) = [i for i in pair if i.dupOf]
+    assert dup.status is Status.DUPLICATE
+    assert not prefilter.should_prefilter(dup)
+    assert not score.should_score(dup)
+
+
 def test_dedupe_ignores_items_outside_window() -> None:
     old = _item("Same title here", "https://a.com/1", published=NOW - timedelta(days=10))
     new = _item("Same title here", "https://b.com/2", published=NOW)
@@ -673,12 +706,12 @@ def test_end_to_end_with_local_fixtures(cfg, tmp_path: Path) -> None:
 
     assert len(items) == 7
 
+    dedupe.run(items, threshold=cfg.selection.dedupe["titleSimilarity"],
+                window_hours=cfg.selection.dedupe["windowHours"])
     prefilter.run(items, ctx)
     score.run(items, ctx)
     structure.run(items, ctx)
     write.run(items, ctx)
-    dedupe.run(items, threshold=cfg.selection.dedupe["titleSimilarity"],
-                window_hours=cfg.selection.dedupe["windowHours"])
     select.run(items, ctx, recent_selected=[])
 
     # 新鲜条目应当走完全程并被选中
