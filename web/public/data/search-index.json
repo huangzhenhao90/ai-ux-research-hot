@@ -1,5 +1,5 @@
 {
-  "count": 244,
+  "count": 252,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -346,6 +346,23 @@
       "publishedAt": "2026-07-24T00:00:00+00:00"
     },
     {
+      "id": "ed58590e2894389a",
+      "title": "讲述并非看见：文本人物画像很少使视觉语言模型如被描述者般作答",
+      "titleZh": "14 个视觉语言模型测试显示文本人物画像难以复现被描述者的作答",
+      "summaryZh": "一项研究在 14 个视觉语言模型上检验低视力、色盲、听力损失等角色提示能否模拟真实人群，结果显示角色提示从未胜过实测用户和仅采用人格事实的简单规则，反而抹平了群体与个体差异。研究还发现，描述模糊不改变模型识别，实际模糊图像才降低其表现，表明模型能陈述影响机制却不能据此看见。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "多模态",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2610.39331v1",
+      "publishedAt": "2026-10-28T16:00:00+00:00"
+    },
+    {
       "id": "8951dc7351f470b0",
       "title": "Channels 2.0 in GA: one customer context layer for every team",
       "titleZh": "Channels 2.0 正式可用，为各团队提供统一的客户上下文层",
@@ -410,6 +427,21 @@
       "sourceName": "Nielsen Norman Group",
       "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "publishedAt": "2026-10-30T17:00:00+00:00"
+    },
+    {
+      "id": "719fb30a5a572df7",
+      "title": "LLMs能否无视其所知：基于人物画像的用户模拟知识泄漏测量",
+      "titleZh": "研究用真实题与虚构孪生题测量 LLM 人物画像模拟中的知识泄漏",
+      "summaryZh": "研究构建了由真实题目和经筛查降低先验知识的虚构孪生题组成的诊断量表，用于测量 LLM 在人物画像用户模拟中的知识泄漏。跨三种知识处理条件、五个 API 端点和两个模型家族，低知识及明确无知提示仍无法消除真实题的熟悉度偏差。不利题的泄漏方向还随领域改变，显示模型知识与角色知识难以分离。",
+      "tags": [
+        "论文/研究",
+        "合成用户"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2610.39939v1",
+      "publishedAt": "2026-10-28T16:00:00+00:00"
     },
     {
       "id": "042be7b6ee4ca9d0",
@@ -718,6 +750,23 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/",
       "publishedAt": "2026-10-28T05:10:50+00:00"
+    },
+    {
+      "id": "25f7859e3b8bcd71",
+      "title": "Frontiers：缩小LLMs与人类的差距：最优LLM样本校准",
+      "titleZh": "Frontiers：HuMCal 校准 LLM 样本以缩小与人类偏好的差距",
+      "summaryZh": "模型无关的后处理校准方法 HuMCal 通过人类基准数据学习跨提示词、角色和模型检查点的组合权重，以校准 LLM 样本、缩小其偏好与真人回答的差距。在消费交易与民意调查中，其一致性优于常规聚合，权重可跨时间、地域、行业及问题簇复用。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Marketing Science",
+      "url": "https://doi.org/10.1287/mksc.2024.0983",
+      "publishedAt": "2026-10-29T16:00:00+00:00"
     },
     {
       "id": "dae7ebe78faa683f",
@@ -1425,6 +1474,26 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/9-digital-twins-you-can-build-today/",
       "publishedAt": "2026-08-26T12:00:00+00:00"
+    },
+    {
+      "id": "b3ce22f1dc86ae83",
+      "title": "AI Personas For Virtual Focus Groups: A 2026 Decision Guide",
+      "titleZh": "Listen Labs 的 AI 虚拟焦点小组画像选型指南：合成画像与真人访谈如何取舍",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布 AI 虚拟焦点小组画像选型指南，把平台分为纯合成画像与基于真人访谈两类，主张合成画像只作筛查工具。文中引用 Pew 2026 年数字孪生测试，近 300 道题平均误差 12.4 个百分点；Bisbee 等 2024 年研究发现 48% 的回归系数与真实数据显著不同，其中 32% 符号反转。Listen Labs 自述以 50M+ 样本网络、45+ 国家和 120+ 语言开展 AI 主持访谈，24 小时内交付结果。",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "outset"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/ai-personas-virtual-focus-groups/",
+      "publishedAt": "2026-11-01T05:01:59+00:00"
     },
     {
       "id": "d887cd2ca73d5cf0",
@@ -2288,6 +2357,25 @@
       "publishedAt": "2026-07-09T16:21:19+00:00"
     },
     {
+      "id": "81a672a586112e5e",
+      "title": "How To Test B2B Messaging: Methods, Steps & Metrics",
+      "titleZh": "如何测试 B2B 信息：方法、步骤与指标",
+      "summaryZh": "Listen Labs 提出五步 B2B 信息测试法：定义决策与角色、主张配证据、按问题选方法、招募真实买家、按五项指标判断。Forrester 近 18,000 名全球买家数据显示，典型采购涉及 13 个内部利益相关者和 9 个外部影响者，须覆盖完整采购委员会。其 AI 主持定性访谈覆盖 50M+ 验证网络和 45+ 国家，24 小时内出结果。",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/message-testing-for-b2b-buyers/",
+      "publishedAt": "2026-11-01T05:00:33+00:00"
+    },
+    {
       "id": "6a904c74c3ee127f",
       "title": "Ignite Growth with Collective Innovation",
       "titleZh": "Ipsos 推出 Collective Innovation，帮助企业加速创新并提升成功率",
@@ -2636,6 +2724,26 @@
       "publishedAt": "2025-12-09T00:00:00+00:00"
     },
     {
+      "id": "c3cbad439cd104a1",
+      "title": "Best AI Digital Twin Software For Pricing Research: 2026",
+      "titleZh": "2026 年定价研究最佳 AI 数字孪生软件榜单：Listen Labs 居首",
+      "summaryZh": "Listen Labs 发布 2026 年定价研究 AI 数字孪生软件榜单，自家产品居首，MarketTwin、Outset.Ai 随后。合成受访者把支付意愿高估 86%，Strat7 测试中纯合成样本 68% 违反价格敏感度逻辑顺序。Listen Labs 从 50M+ 受访者、45+ 国家招募，24 小时内给出可追溯到真实访谈的需求与收入曲线。",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "outset"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-pricing-software/",
+      "publishedAt": "2026-11-01T05:04:39+00:00"
+    },
+    {
       "id": "ff1cb8b24682c85f",
       "title": "Message Testing Tools That Actually Own Their Panel",
       "titleZh": "Listen Labs 等真正拥有自有样本库的信息测试工具",
@@ -2930,6 +3038,25 @@
       "sourceName": "Behaviour & Information Technology",
       "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2623945?af=R",
       "publishedAt": "2026-02-03T12:24:32+00:00"
+    },
+    {
+      "id": "9e2958086ec8af75",
+      "title": "Best Dovetail Alternatives for UX Research Teams 2026",
+      "titleZh": "2026 年 UX 研究团队最佳 Dovetail 替代方案",
+      "summaryZh": "UX 研究团队的 Dovetail 替代方案盘点将 Listen Labs 列为首选，因其覆盖招募、AI 主持访谈、分析和交付全流程。其指标包括 50M+ 已验证受访者、120+ 种语言和不到 24 小时出结果。Dovetail 已停售自助 Professional 档，仅保留单项目 Free 档和报价制 Enterprise，且不招募或访谈。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-dovetail-ai-research-alternatives/",
+      "publishedAt": "2026-11-01T05:04:33+00:00"
     },
     {
       "id": "1d487c1dfdb8913f",
@@ -3229,6 +3356,29 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/bringing-shadow-ai-out-of-the-shadows/",
       "publishedAt": "2026-10-29T12:00:00+00:00"
+    },
+    {
+      "id": "6b5ac259bdcb68d3",
+      "title": "Multilingual Concept Testing Software: A Buyer’s Guide",
+      "titleZh": "多语言概念测试软件买家指南：Listen Labs、Qualtrics 等工具对比",
+      "summaryZh": "Listen Labs 在其多语言概念测试软件买家指南中将自身列为全球规模母语深度访谈首选，并对比 Qualtrics、SurveyMonkey 等工具。其 AI 主持视频访谈覆盖 120 多种语言、45 多个国家，依托 5000 万验证受访者，称回答长度约为平均的 3 倍，24 小时内交付分析。Qualtrics 与 SurveyMonkey 侧重多语言问卷投放，不负责解释跨市场得分差异。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "kantar",
+        "quantilope"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-multilingual-concept-testing-software/",
+      "publishedAt": "2026-11-01T05:00:27+00:00"
     },
     {
       "id": "6a05983bd3953bf5",

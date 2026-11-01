@@ -1,0 +1,30 @@
+{
+  "id": "b3ce22f1dc86ae83",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/ai-personas-virtual-focus-groups/",
+  "title": "AI Personas For Virtual Focus Groups: A 2026 Decision Guide",
+  "titleZh": "Listen Labs 的 AI 虚拟焦点小组画像选型指南：合成画像与真人访谈如何取舍",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布 AI 虚拟焦点小组画像选型指南，把平台分为纯合成画像与基于真人访谈两类，主张合成画像只作筛查工具。文中引用 Pew 2026 年数字孪生测试，近 300 道题平均误差 12.4 个百分点；Bisbee 等 2024 年研究发现 48% 的回归系数与真实数据显著不同，其中 32% 符号反转。Listen Labs 自述以 50M+ 样本网络、45+ 国家和 120+ 语言开展 AI 主持访谈，24 小时内交付结果。",
+  "reason": "文中汇总 Pew 与 Bisbee 等独立测试的误差与回归符号反转数据，可对照合成画像和真人访谈两类平台的适用边界。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "AI 访谈",
+    "定性分析"
+  ],
+  "entities": [
+    "listen-labs",
+    "outset"
+  ],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-11-01T05:01:59+00:00",
+  "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

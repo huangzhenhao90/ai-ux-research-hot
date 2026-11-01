@@ -1,0 +1,25 @@
+{
+  "id": "719fb30a5a572df7",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.39939v1",
+  "title": "LLMs能否无视其所知：基于人物画像的用户模拟知识泄漏测量",
+  "titleZh": "研究用真实题与虚构孪生题测量 LLM 人物画像模拟中的知识泄漏",
+  "summaryZh": "研究构建了由真实题目和经筛查降低先验知识的虚构孪生题组成的诊断量表，用于测量 LLM 在人物画像用户模拟中的知识泄漏。跨三种知识处理条件、五个 API 端点和两个模型家族，低知识及明确无知提示仍无法消除真实题的熟悉度偏差。不利题的泄漏方向还随领域改变，显示模型知识与角色知识难以分离。",
+  "reason": "研究把真实题与经筛查的虚构孪生题配成诊断量表，可作为检查合成用户模拟是否掺入模型自身知识的可复用办法。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-28T16:00:00+00:00",
+  "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

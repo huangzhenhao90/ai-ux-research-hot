@@ -3,7 +3,7 @@
   "label": "方法",
   "section": "方法与实践",
   "commentary": true,
-  "count": 93,
+  "count": 95,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -923,6 +923,35 @@
       "relation": "different"
     },
     {
+      "id": "b3ce22f1dc86ae83",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-personas-virtual-focus-groups/",
+      "title": "AI Personas For Virtual Focus Groups: A 2026 Decision Guide",
+      "titleZh": "Listen Labs 的 AI 虚拟焦点小组画像选型指南：合成画像与真人访谈如何取舍",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布 AI 虚拟焦点小组画像选型指南，把平台分为纯合成画像与基于真人访谈两类，主张合成画像只作筛查工具。文中引用 Pew 2026 年数字孪生测试，近 300 道题平均误差 12.4 个百分点；Bisbee 等 2024 年研究发现 48% 的回归系数与真实数据显著不同，其中 32% 符号反转。Listen Labs 自述以 50M+ 样本网络、45+ 国家和 120+ 语言开展 AI 主持访谈，24 小时内交付结果。",
+      "reason": "文中汇总 Pew 与 Bisbee 等独立测试的误差与回归符号反转数据，可对照合成画像和真人访谈两类平台的适用边界。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "outset"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-01T05:01:59+00:00",
+      "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "d887cd2ca73d5cf0",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1562,6 +1591,34 @@
       "itemType": null,
       "publishedAt": "2026-07-09T16:21:19+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "81a672a586112e5e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/message-testing-for-b2b-buyers/",
+      "title": "How To Test B2B Messaging: Methods, Steps & Metrics",
+      "titleZh": "如何测试 B2B 信息：方法、步骤与指标",
+      "summaryZh": "Listen Labs 提出五步 B2B 信息测试法：定义决策与角色、主张配证据、按问题选方法、招募真实买家、按五项指标判断。Forrester 近 18,000 名全球买家数据显示，典型采购涉及 13 个内部利益相关者和 9 个外部影响者，须覆盖完整采购委员会。其 AI 主持定性访谈覆盖 50M+ 验证网络和 45+ 国家，24 小时内出结果。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-01T05:00:33+00:00",
+      "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

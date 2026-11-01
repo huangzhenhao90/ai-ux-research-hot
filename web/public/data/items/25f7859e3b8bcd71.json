@@ -1,0 +1,27 @@
+{
+  "id": "25f7859e3b8bcd71",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "Marketing Science",
+  "venue": "Marketing Science",
+  "tier": "T2",
+  "url": "https://doi.org/10.1287/mksc.2024.0983",
+  "title": "Frontiers：缩小LLMs与人类的差距：最优LLM样本校准",
+  "titleZh": "Frontiers：HuMCal 校准 LLM 样本以缩小与人类偏好的差距",
+  "summaryZh": "模型无关的后处理校准方法 HuMCal 通过人类基准数据学习跨提示词、角色和模型检查点的组合权重，以校准 LLM 样本、缩小其偏好与真人回答的差距。在消费交易与民意调查中，其一致性优于常规聚合，权重可跨时间、地域、行业及问题簇复用。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "问卷/定量",
+    "市场研究"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-29T16:00:00+00:00",
+  "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

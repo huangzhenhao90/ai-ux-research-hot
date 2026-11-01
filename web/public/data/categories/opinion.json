@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 43,
+  "count": 46,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -427,6 +427,35 @@
       "relation": null
     },
     {
+      "id": "c3cbad439cd104a1",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-pricing-software/",
+      "title": "Best AI Digital Twin Software For Pricing Research: 2026",
+      "titleZh": "2026 年定价研究最佳 AI 数字孪生软件榜单：Listen Labs 居首",
+      "summaryZh": "Listen Labs 发布 2026 年定价研究 AI 数字孪生软件榜单，自家产品居首，MarketTwin、Outset.Ai 随后。合成受访者把支付意愿高估 86%，Strat7 测试中纯合成样本 68% 违反价格敏感度逻辑顺序。Listen Labs 从 50M+ 受访者、45+ 国家招募，24 小时内给出可追溯到真实访谈的需求与收入曲线。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "outset"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-01T05:04:39+00:00",
+      "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "2321c498c25b73a5",
       "sourceId": "dovetail-blog",
       "sourceName": "Dovetail Blog",
@@ -546,6 +575,34 @@
       "itemType": null,
       "publishedAt": "2026-10-25T05:04:25+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9e2958086ec8af75",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-dovetail-ai-research-alternatives/",
+      "title": "Best Dovetail Alternatives for UX Research Teams 2026",
+      "titleZh": "2026 年 UX 研究团队最佳 Dovetail 替代方案",
+      "summaryZh": "UX 研究团队的 Dovetail 替代方案盘点将 Listen Labs 列为首选，因其覆盖招募、AI 主持访谈、分析和交付全流程。其指标包括 50M+ 已验证受访者、120+ 种语言和不到 24 小时出结果。Dovetail 已停售自助 Professional 档，仅保留单项目 Free 档和报价制 Enterprise，且不招募或访谈。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-01T05:04:33+00:00",
+      "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -683,6 +740,38 @@
       "itemType": null,
       "publishedAt": "2026-10-29T12:00:00+00:00",
       "discoveredAt": "2026-10-30T04:45:04.954733+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6b5ac259bdcb68d3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-multilingual-concept-testing-software/",
+      "title": "Multilingual Concept Testing Software: A Buyer’s Guide",
+      "titleZh": "多语言概念测试软件买家指南：Listen Labs、Qualtrics 等工具对比",
+      "summaryZh": "Listen Labs 在其多语言概念测试软件买家指南中将自身列为全球规模母语深度访谈首选，并对比 Qualtrics、SurveyMonkey 等工具。其 AI 主持视频访谈覆盖 120 多种语言、45 多个国家，依托 5000 万验证受访者，称回答长度约为平均的 3 倍，24 小时内交付分析。Qualtrics 与 SurveyMonkey 侧重多语言问卷投放，不负责解释跨市场得分差异。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "kantar",
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-01T05:00:27+00:00",
+      "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

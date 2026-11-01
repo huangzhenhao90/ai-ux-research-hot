@@ -3,7 +3,7 @@
   "name": "SurveyMonkey",
   "group": "company",
   "definition": "SurveyMonkey 的问卷产品 AI 能力与自助研究工具更新。",
-  "count": 3,
+  "count": 4,
   "items": [
     {
       "id": "ff1cb8b24682c85f",
@@ -31,6 +31,38 @@
       "itemType": null,
       "publishedAt": "2026-10-31T05:16:46+00:00",
       "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6b5ac259bdcb68d3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-multilingual-concept-testing-software/",
+      "title": "Multilingual Concept Testing Software: A Buyer’s Guide",
+      "titleZh": "多语言概念测试软件买家指南：Listen Labs、Qualtrics 等工具对比",
+      "summaryZh": "Listen Labs 在其多语言概念测试软件买家指南中将自身列为全球规模母语深度访谈首选，并对比 Qualtrics、SurveyMonkey 等工具。其 AI 主持视频访谈覆盖 120 多种语言、45 多个国家，依托 5000 万验证受访者，称回答长度约为平均的 3 倍，24 小时内交付分析。Qualtrics 与 SurveyMonkey 侧重多语言问卷投放，不负责解释跨市场得分差异。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "kantar",
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-01T05:00:27+00:00",
+      "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

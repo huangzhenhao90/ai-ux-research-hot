@@ -1,0 +1,27 @@
+{
+  "id": "ed58590e2894389a",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.39331v1",
+  "title": "讲述并非看见：文本人物画像很少使视觉语言模型如被描述者般作答",
+  "titleZh": "14 个视觉语言模型测试显示文本人物画像难以复现被描述者的作答",
+  "summaryZh": "一项研究在 14 个视觉语言模型上检验低视力、色盲、听力损失等角色提示能否模拟真实人群，结果显示角色提示从未胜过实测用户和仅采用人格事实的简单规则，反而抹平了群体与个体差异。研究还发现，描述模糊不改变模型识别，实际模糊图像才降低其表现，表明模型能陈述影响机制却不能据此看见。",
+  "reason": "14 个视觉语言模型的对比显示，角色提示在还原残障用户回答上不及简单规则，可作为评估合成用户方法的参照。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "多模态",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-28T16:00:00+00:00",
+  "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

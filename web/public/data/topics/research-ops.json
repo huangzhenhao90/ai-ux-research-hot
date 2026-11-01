@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 42,
+  "count": 43,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -949,6 +949,34 @@
       "itemType": null,
       "publishedAt": "2026-10-21T05:02:59+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9e2958086ec8af75",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-dovetail-ai-research-alternatives/",
+      "title": "Best Dovetail Alternatives for UX Research Teams 2026",
+      "titleZh": "2026 年 UX 研究团队最佳 Dovetail 替代方案",
+      "summaryZh": "UX 研究团队的 Dovetail 替代方案盘点将 Listen Labs 列为首选，因其覆盖招募、AI 主持访谈、分析和交付全流程。其指标包括 50M+ 已验证受访者、120+ 种语言和不到 24 小时出结果。Dovetail 已停售自助 Professional 档，仅保留单项目 Free 档和报价制 Enterprise，且不招募或访谈。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-01T05:04:33+00:00",
+      "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

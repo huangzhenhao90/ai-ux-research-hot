@@ -1,0 +1,30 @@
+{
+  "id": "c3cbad439cd104a1",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-digital-twin-pricing-software/",
+  "title": "Best AI Digital Twin Software For Pricing Research: 2026",
+  "titleZh": "2026 年定价研究最佳 AI 数字孪生软件榜单：Listen Labs 居首",
+  "summaryZh": "Listen Labs 发布 2026 年定价研究 AI 数字孪生软件榜单，自家产品居首，MarketTwin、Outset.Ai 随后。合成受访者把支付意愿高估 86%，Strat7 测试中纯合成样本 68% 违反价格敏感度逻辑顺序。Listen Labs 从 50M+ 受访者、45+ 国家招募，24 小时内给出可追溯到真实访谈的需求与收入曲线。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "合成用户",
+    "AI 访谈",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs",
+    "outset"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-01T05:04:39+00:00",
+  "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

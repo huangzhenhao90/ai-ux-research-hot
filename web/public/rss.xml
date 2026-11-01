@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 04:49:41 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 14:48:09 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 的 AI 虚拟焦点小组画像选型指南：合成画像与真人访谈如何取舍</title>
+      <link>https://listenlabs.com/articles/ai-personas-virtual-focus-groups/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/ai-personas-virtual-focus-groups/</guid>
+      <pubDate>Sun, 01 Nov 2026 05:01:59 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 发布 AI 虚拟焦点小组画像选型指南，把平台分为纯合成画像与基于真人访谈两类，主张合成画像只作筛查工具。文中引用 Pew 2026 年数字孪生测试，近 300 道题平均误差 12.4 个百分点；Bisbee 等 2024 年研究发现 48% 的回归系数与真实数据显著不同，其中 32% 符号反转。Listen Labs 自述以 50M+ 样本网络、45+ 国家和 120+ 语言开展 AI 主持访谈，24 小时内交付结果。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界</title>
       <link>https://listenlabs.com/articles/best-ai-consumer-simulation-tools/</link>
@@ -79,6 +88,24 @@
       <description>Listen Labs 在决策指南中按概念测试、UX 流程测试、问卷预测试和定价四类任务，划分了合成用户样本库的适用与失效边界。指南指出合成受访者由大语言模型根据人设描述预测作答，只能产出假设而非决策级证据，可靠用途集中在问卷预测试、早期概念筛选和讨论提纲准备，不适合定价、可用性测试和最终决策。文中引用 Strat7 对 3,000 名真实受访者的对比，纯合成受访者在价格敏感度练习中 68% 打乱了逻辑顺序，价格比真人高约 16%，并引用 Kantar 发现 GPT-4 存在正向偏差。</description>
       <category>Listen Labs</category>
       <category>methods</category>
+    </item>
+    <item>
+      <title>14 个视觉语言模型测试显示文本人物画像难以复现被描述者的作答</title>
+      <link>https://arxiv.org/abs/2610.39331v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.39331v1</guid>
+      <pubDate>Wed, 28 Oct 2026 16:00:00 GMT</pubDate>
+      <description>一项研究在 14 个视觉语言模型上检验低视力、色盲、听力损失等角色提示能否模拟真实人群，结果显示角色提示从未胜过实测用户和仅采用人格事实的简单规则，反而抹平了群体与个体差异。研究还发现，描述模糊不改变模型识别，实际模糊图像才降低其表现，表明模型能陈述影响机制却不能据此看见。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>研究用真实题与虚构孪生题测量 LLM 人物画像模拟中的知识泄漏</title>
+      <link>https://arxiv.org/abs/2610.39939v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.39939v1</guid>
+      <pubDate>Wed, 28 Oct 2026 16:00:00 GMT</pubDate>
+      <description>研究构建了由真实题目和经筛查降低先验知识的虚构孪生题组成的诊断量表，用于测量 LLM 在人物画像用户模拟中的知识泄漏。跨三种知识处理条件、五个 API 端点和两个模型家族，低知识及明确无知提示仍无法消除真实题的熟悉度偏差。不利题的泄漏方向还随领域改变，显示模型知识与角色知识难以分离。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
     </item>
     <item>
       <title>Listen Labs 介绍测量广告情绪反应的六类方法</title>
@@ -428,33 +455,6 @@
       <description>AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实产品的可运行原型，从而更早、更频繁测试并据研究迭代。</description>
       <category>Nielsen Norman Group</category>
       <category>methods</category>
-    </item>
-    <item>
-      <title>Cint 发文分析 MCP 与 AI 智能体如何重塑市场洞察</title>
-      <link>https://www.cint.com/blog/mcps-market-research-esomar/</link>
-      <guid isPermaLink="true">https://www.cint.com/blog/mcps-market-research-esomar/</guid>
-      <pubDate>Thu, 10 Sep 2026 21:29:14 GMT</pubDate>
-      <description>Cint 发布文章，讨论 MCP 与 AI 智能体正在如何重塑市场洞察的工作方式。文章以行业分析视角展开，未在标题层面给出具体案例或数据。</description>
-      <category>Cint</category>
-      <category>opinion</category>
-    </item>
-    <item>
-      <title>定性研究中的可确认性：含义与建立方法</title>
-      <link>https://delvetool.com/blog/confirmability-in-qualitative-research/</link>
-      <guid isPermaLink="true">https://delvetool.com/blog/confirmability-in-qualitative-research/</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Delve 发文讲解定性研究中的可确认性，即如何证明研究发现来自数据本身。文章建议在编码过程中同步建立审计轨迹，由 Delve 集中保存记录。</description>
-      <category>Delve</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>用 AI 做 UX 工作：学习指南</title>
-      <link>https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
-      <guid isPermaLink="true">https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
-      <pubDate>Fri, 04 Sep 2026 17:00:00 GMT</pubDate>
-      <description>发布《用 AI 做 UX 工作：学习指南》，汇总其文章和视频，帮助团队找到将 AI 融入 UX 工作流的具体方式。指南指出，AI 目前还不能完全接管 UX 工作，但可用于辅助既有流程；从业者应把 AI 当作增强能力的“手套”，而非替代判断</description>
-      <category>Nielsen Norman Group</category>
-      <category>opinion</category>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
   "label": "论文",
   "section": "研究与证据",
   "commentary": false,
-  "count": 44,
+  "count": 47,
   "items": [
     {
       "id": "342f2af81bbbe547",
@@ -134,6 +134,32 @@
       "relation": "different"
     },
     {
+      "id": "ed58590e2894389a",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.39331v1",
+      "title": "讲述并非看见：文本人物画像很少使视觉语言模型如被描述者般作答",
+      "titleZh": "14 个视觉语言模型测试显示文本人物画像难以复现被描述者的作答",
+      "summaryZh": "一项研究在 14 个视觉语言模型上检验低视力、色盲、听力损失等角色提示能否模拟真实人群，结果显示角色提示从未胜过实测用户和仅采用人格事实的简单规则，反而抹平了群体与个体差异。研究还发现，描述模糊不改变模型识别，实际模糊图像才降低其表现，表明模型能陈述影响机制却不能据此看见。",
+      "reason": "14 个视觉语言模型的对比显示，角色提示在还原残障用户回答上不及简单规则，可作为评估合成用户方法的参照。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "多模态",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-28T16:00:00+00:00",
+      "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "1a72219b0e296b0c",
       "sourceId": "ur-ai-papers",
       "sourceName": "arXiv",
@@ -157,6 +183,30 @@
       "status": "selected",
       "dupOf": null,
       "relation": "same"
+    },
+    {
+      "id": "719fb30a5a572df7",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.39939v1",
+      "title": "LLMs能否无视其所知：基于人物画像的用户模拟知识泄漏测量",
+      "titleZh": "研究用真实题与虚构孪生题测量 LLM 人物画像模拟中的知识泄漏",
+      "summaryZh": "研究构建了由真实题目和经筛查降低先验知识的虚构孪生题组成的诊断量表，用于测量 LLM 在人物画像用户模拟中的知识泄漏。跨三种知识处理条件、五个 API 端点和两个模型家族，低知识及明确无知提示仍无法消除真实题的熟悉度偏差。不利题的泄漏方向还随领域改变，显示模型知识与角色知识难以分离。",
+      "reason": "研究把真实题与经筛查的虚构孪生题配成诊断量表，可作为检查合成用户模拟是否掺入模型自身知识的可复用办法。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-28T16:00:00+00:00",
+      "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "98ae0612de392e43",
@@ -258,6 +308,32 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "25f7859e3b8bcd71",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "Marketing Science",
+      "venue": "Marketing Science",
+      "tier": "T2",
+      "url": "https://doi.org/10.1287/mksc.2024.0983",
+      "title": "Frontiers：缩小LLMs与人类的差距：最优LLM样本校准",
+      "titleZh": "Frontiers：HuMCal 校准 LLM 样本以缩小与人类偏好的差距",
+      "summaryZh": "模型无关的后处理校准方法 HuMCal 通过人类基准数据学习跨提示词、角色和模型检查点的组合权重，以校准 LLM 样本、缩小其偏好与真人回答的差距。在消费交易与民意调查中，其一致性优于常规聚合，权重可跨时间、地域、行业及问题簇复用。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-29T16:00:00+00:00",
+      "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
     },
     {
       "id": "9cf2210cbf70c129",
