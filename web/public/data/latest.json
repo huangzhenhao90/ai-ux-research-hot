@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T20:16:35.306168+00:00",
+  "generatedAt": "2026-11-02T04:51:00.090865+00:00",
   "windowDays": 3,
   "editionHour": 8,
   "days": [
@@ -93,117 +93,6 @@
           "itemType": "tutorial_explainer",
           "publishedAt": "2026-10-31T05:16:28+00:00",
           "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "count": 4,
-      "items": [
-        {
-          "id": "48c9e720164ce250",
-          "sourceId": "nngroup",
-          "sourceName": "Nielsen Norman Group",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "title": "The Role of UX in Agentic Software Factories",
-          "titleZh": "NN/g 解读 UX 在 Anthropic 智能体软件工厂中的角色",
-          "summaryZh": "NN/g 分析 Anthropic 在 2026 年 8 月发布的 AI 原生软件开发生命周期（SDLC）构想，指出它把 UX 简化为引导 AI 生成的后台上下文。文章将其与 Google（2026 年 5 月）和 OpenAI（2025 年 11 月）的类似发布做对比，认为三者细节不同但都把 UX 边缘化。作者提出 UX 还负责发现用户需求、强化团队对构建内容的共同判断，以及在上线前后评估产出，照搬该模型的组织可能失去 AI 上下文所依赖的用户洞察。",
-          "reason": "文章对照 Anthropic、Google 与 OpenAI 的 AI 原生开发流程，指出三者都把 UX 压缩成引导 AI 生成的背景上下文。",
-          "category": "opinion",
-          "tags": [
-            "观点/讨论",
-            "Agent",
-            "NN/g"
-          ],
-          "entities": [],
-          "itemType": "opinion_analysis",
-          "publishedAt": "2026-10-30T17:00:00+00:00",
-          "discoveredAt": "2026-10-31T04:29:44.259953+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "followup"
-        },
-        {
-          "id": "10efb16077cb40b3",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/recruit-hard-to-reach-audiences/",
-          "title": "How to Recruit Hard-to-Reach Audiences for Concept Testing",
-          "titleZh": "Listen Labs 如何为概念测试招募难触达受众",
-          "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文，介绍概念测试中难触达受众的招募方法；该方法按低发生率、被把关、不信任、时间稀缺、缺席样本库五类成因分别匹配招募渠道。文中建议用行为甄别题、开放式验证题和虚构品牌排雷题筛掉职业答题者，并对时间稀缺人群按机会成本设分层激励、超额招募 20–30%。文章还称其 50M+ 验证样本网络与 Quality Guard 可在 24 小时内完成研究，并给出 45 分钟高管访谈 $150–$400、专家网络 24–72 小时安排等参照。",
-          "reason": "按难触达成因匹配招募渠道，再用行为甄别与超额招募控制样本质量，为概念测试的招募环节提供了一套可复用的流程。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "招募/样本",
-            "问卷/定量"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "method_or_template",
-          "publishedAt": "2026-10-30T05:11:50+00:00",
-          "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "e8eabdc0ab7d672c",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/fast-message-testing-startups-playbook/",
-          "title": "Fast Message Testing for Startups: A 7-Step Playbook",
-          "titleZh": "Listen Labs 的初创公司快速信息测试七步流程",
-          "summaryZh": "Listen Labs 增长负责人 Anish Rao 给出一套面向初创公司的快速信息测试七步流程，先用免费 LLM 粗筛文案，再用真实受访者验证。流程中间用 Lyssna 的五秒测试和 PickFu 的偏好测试把四个方向缩到两个，文中提示 60/40 的偏好比约需 50 名参与者，55/45 则接近 200 名。文中引用 Journal of Marketing Analytics 的研究称合成受访者把享乐型产品的支付意愿高估 37–86%，因此 LLM 只作早期过滤器；Listen Labs 从 50M+ 网络招募受访者，以 120+ 语言 AI 主持访谈在 24 小时内交付结果。",
-          "reason": "从免费的 LLM 粗筛到真实受访者验证，这套七步流程给出了低流量团队做信息测试的可迁移路径。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "AI 访谈",
-            "合成用户",
-            "招募/样本",
-            "市场研究"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "method_or_template",
-          "publishedAt": "2026-10-30T05:11:56+00:00",
-          "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "511d44f4a53ac4ba",
-          "sourceId": "strella-blog",
-          "sourceName": "Strella Blog",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://www.strella.io/blog/open-ended-questions-for-surveys-examples",
-          "title": "Open-Ended Survey Questions: Examples for Every Research Goal",
-          "titleZh": "面向不同研究目标的开放式问卷问题示例",
-          "summaryZh": "Strella 博客发布一篇开放式问卷问题示例文章，按不同研究目标整理提问示例。文章以示例形式呈现，供设计开放式问题时对照参考。",
-          "reason": "按不同研究目标整理开放式问卷的提问示例，可作为设计问卷时的具体参考，帮助对照研究目的选择提问方式。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "问卷/定量"
-          ],
-          "entities": [],
-          "itemType": "tutorial_explainer",
-          "publishedAt": "2026-10-30T16:00:00+00:00",
-          "discoveredAt": "2026-10-31T14:22:04.991442+00:00",
           "status": "selected",
           "dupOf": null,
           "relation": "different"
