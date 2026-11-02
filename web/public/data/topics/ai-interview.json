@@ -3,8 +3,35 @@
   "name": "AI 访谈",
   "group": "field",
   "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-  "count": 44,
+  "count": 47,
   "items": [
+    {
+      "id": "5f722c1201d4ecdd",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/concept-testing-figma-prototypes/",
+      "title": "How To Run Concept Testing With Figma Prototypes",
+      "titleZh": "Listen Labs 分享用 Figma 原型做概念测试的四个步骤",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文给出用 Figma 原型做概念测试的四个步骤，并区分概念验证与可用性测试各自要回答的问题。文中建议结构与流程类问题用低保真原型，高保真只在信任、微文案或情绪反应是研究重点时使用，并列出替换诱导性提问的脚本写法。作者称传统主持测试通常上限约 30–45 场，AI 主持访谈可并行数百场，并在 24 小时内返回分析结果。",
+      "reason": "文中把概念验证与可用性测试的目标拆开，并给出可直接粘贴使用的提问脚本与降低礼貌偏差的做法，便于复用。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-11-02T05:05:19+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
     {
       "id": "05374bec817f75e3",
       "sourceId": "dscout-people-nerds",
@@ -666,6 +693,37 @@
       "relation": null
     },
     {
+      "id": "e7f4fb463e4c840a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-software/",
+      "title": "Best AI Digital Twin Software for Concept Testing",
+      "titleZh": "概念测试最佳 AI 数字孪生软件榜单：Listen Labs 居首，Ipsos InnoTest 等 8 款入选",
+      "summaryZh": "Listen Labs 在概念测试最佳 AI 数字孪生软件盘点中排名第一，其 Listen Twins 由对每位真实受访者的 1:1 访谈构建，数秒内给出 100+ 条带推理与置信度的预测回答。Ipsos InnoTest 以游戏化选择任务生成 Trial Index，对标 20 万+ 创新，起价 $3,750/次，覆盖 61 个市场。Listen Labs 称 Twins 适用于筛查与假设生成，高风险发布仍应做完整真人研究。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos",
+        "outset",
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-02T05:05:41+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6ddbda8fa559856b",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -716,6 +774,36 @@
       "itemType": null,
       "publishedAt": "2026-11-01T05:00:33+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9a3eea96948f3892",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-kantar-alternatives-message-testing/",
+      "title": "Kantar Alternatives for Predictive Message Testing: 11 Tools",
+      "titleZh": "预测性信息测试的 Kantar 替代方案：11 款工具",
+      "summaryZh": "Listen Labs 盘点 11 款可替代 Kantar 做预测性信息测试的工具，并把 Listen Twins 列为首选。Listen Twins 从 50M+ 验证样本库招募真人做深度访谈、为每个人建模，秒级返回带推理、原话引用与置信度分数的答案。文中引用 Pew Research Center 2026 年 9 月的实验：AI 数字孪生在近 300 个问题上与真人平均相差 12.4 个百分点。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-02T05:05:25+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

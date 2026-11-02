@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 46,
+  "count": 49,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -400,6 +400,37 @@
       "relation": null
     },
     {
+      "id": "e7f4fb463e4c840a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-software/",
+      "title": "Best AI Digital Twin Software for Concept Testing",
+      "titleZh": "概念测试最佳 AI 数字孪生软件榜单：Listen Labs 居首，Ipsos InnoTest 等 8 款入选",
+      "summaryZh": "Listen Labs 在概念测试最佳 AI 数字孪生软件盘点中排名第一，其 Listen Twins 由对每位真实受访者的 1:1 访谈构建，数秒内给出 100+ 条带推理与置信度的预测回答。Ipsos InnoTest 以游戏化选择任务生成 Trial Index，对标 20 万+ 创新，起价 $3,750/次，覆盖 61 个市场。Listen Labs 称 Twins 适用于筛查与假设生成，高风险发布仍应做完整真人研究。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos",
+        "outset",
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-02T05:05:41+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6ddbda8fa559856b",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -422,6 +453,36 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:06+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9a3eea96948f3892",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-kantar-alternatives-message-testing/",
+      "title": "Kantar Alternatives for Predictive Message Testing: 11 Tools",
+      "titleZh": "预测性信息测试的 Kantar 替代方案：11 款工具",
+      "summaryZh": "Listen Labs 盘点 11 款可替代 Kantar 做预测性信息测试的工具，并把 Listen Twins 列为首选。Listen Twins 从 50M+ 验证样本库招募真人做深度访谈、为每个人建模，秒级返回带推理、原话引用与置信度分数的答案。文中引用 Pew Research Center 2026 年 9 月的实验：AI 数字孪生在近 300 个问题上与真人平均相差 12.4 个百分点。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-02T05:05:25+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -717,6 +778,29 @@
       "itemType": null,
       "publishedAt": "2026-05-19T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "06a612f5cbe49b70",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+      "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+      "titleZh": "UX Collective 周刊：Sparkle 按钮、自主性设计、UX 的 AI 清算、Figma 与 MCP",
+      "summaryZh": "UX Collective 新一期设计周刊汇总 Sparkle 按钮、AI 访谈、UX 的 AI 清算与 Figma with MCP 等文章。Figma with MCP 一文指向构建 AI-ready 设计系统库；AI 访谈一文收录参与者与怀疑者对 AI 访谈体验的反馈。其余内容还涉及自主性设计、Apple HomeView、设计软件工厂与 Decoy Font。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-02T10:22:22+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

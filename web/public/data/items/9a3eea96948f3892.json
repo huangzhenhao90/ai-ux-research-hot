@@ -1,0 +1,31 @@
+{
+  "id": "9a3eea96948f3892",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-kantar-alternatives-message-testing/",
+  "title": "Kantar Alternatives for Predictive Message Testing: 11 Tools",
+  "titleZh": "预测性信息测试的 Kantar 替代方案：11 款工具",
+  "summaryZh": "Listen Labs 盘点 11 款可替代 Kantar 做预测性信息测试的工具，并把 Listen Twins 列为首选。Listen Twins 从 50M+ 验证样本库招募真人做深度访谈、为每个人建模，秒级返回带推理、原话引用与置信度分数的答案。文中引用 Pew Research Center 2026 年 9 月的实验：AI 数字孪生在近 300 个问题上与真人平均相差 12.4 个百分点。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "合成用户",
+    "AI 访谈",
+    "市场研究",
+    "Kantar"
+  ],
+  "entities": [
+    "listen-labs",
+    "kantar"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-02T05:05:25+00:00",
+  "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

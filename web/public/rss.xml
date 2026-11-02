@@ -5,9 +5,27 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 02 Nov 2026 04:51:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 17:55:39 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 解析合成品牌认知测试的准确性与局限</title>
+      <link>https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/</guid>
+      <pubDate>Mon, 02 Nov 2026 05:05:32 GMT</pubDate>
+      <description>Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认知误差约 2–3 个百分点，但 16 个品牌的同比认知变化仅 19% 判断正确，变化方向仅 47% 判断正确。文章还列出 Verasight 对 1,500 名美国成年人的研究，子群平均绝对误差超过 10 个百分点，并给出六步验证框架，建议在预算投入前用真实受访者校验追踪指标。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Listen Labs 分享用 Figma 原型做概念测试的四个步骤</title>
+      <link>https://listenlabs.com/articles/concept-testing-figma-prototypes/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/concept-testing-figma-prototypes/</guid>
+      <pubDate>Mon, 02 Nov 2026 05:05:19 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 撰文给出用 Figma 原型做概念测试的四个步骤，并区分概念验证与可用性测试各自要回答的问题。文中建议结构与流程类问题用低保真原型，高保真只在信任、微文案或情绪反应是研究重点时使用，并列出替换诱导性提问的脚本写法。作者称传统主持测试通常上限约 30–45 场，AI 主持访谈可并行数百场，并在 24 小时内返回分析结果。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Listen Labs 的 AI 虚拟焦点小组画像选型指南：合成画像与真人访谈如何取舍</title>
       <link>https://listenlabs.com/articles/ai-personas-virtual-focus-groups/</link>
@@ -79,6 +97,15 @@
       <description>Ipsos 宣布任命 Mitch Barns 为美洲区董事长兼 CEO，自 2026 年 11 月 2 日起生效。他将担任 Ipsos 美国 CEO，并负责统筹 Ipsos 在加拿大和拉美地区的业务。任命消息于 2026 年 10 月 29 日在巴黎发布。</description>
       <category>Ipsos</category>
       <category>industry</category>
+    </item>
+    <item>
+      <title>AutoAnalysis 元分析纳入 420 篇论文，人机组合通常不及更优一方</title>
+      <link>https://arxiv.org/abs/2610.42001v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.42001v1</guid>
+      <pubDate>Thu, 29 Oct 2026 16:00:00 GMT</pubDate>
+      <description>AutoAnalysis 这项可自动汇总并持续更新的元分析纳入 420 篇论文和 1955 个效应量，发现人机组合显著优于人类单独工作。但人机组合通常不及人类与 AI 中表现更优的一方，作者据此指出「优于人类」并不等于实现人机协同。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
     </item>
     <item>
       <title>Listen Labs 解读合成用户样本库在产品测试中的适用与失效场景</title>
@@ -428,33 +455,6 @@
       <pubDate>Thu, 01 Oct 2026 16:00:00 GMT</pubDate>
       <description>文章指出研究中的多数「数字孪生」实际上就是换了名字的合成用户，并围绕这两个概念的区别展开讨论。这一区分关系到团队如何界定合成受访者方案的能力边界。</description>
       <category>Great Question Blog</category>
-    </item>
-    <item>
-      <title>解析 AI 智能体的 3 类上下文</title>
-      <link>https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
-      <guid isPermaLink="true">https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
-      <pubDate>Fri, 18 Sep 2026 17:00:00 GMT</pubDate>
-      <description>文章基于对 Claude 重度用户的近期研究，将 AI 智能体的上下文分为全局、局部和环境三类。参与者都建立了由文件、数据库和实时连接组成的上下文库，供 Claude 在提示词之外调用。文章认为，整理合适的上下文比写好提示词更重要</description>
-      <category>Nielsen Norman Group</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>Vistaly 为 1 个客户反馈做了 4 个新 eval 与 16 个实验变体</title>
-      <link>https://www.producttalk.org/4-new-evals-and-16-experiment-variants/</link>
-      <guid isPermaLink="true">https://www.producttalk.org/4-new-evals-and-16-experiment-variants/</guid>
-      <pubDate>Wed, 16 Sep 2026 13:00:36 GMT</pubDate>
-      <description>Teresa Torres 与 Vistaly 为修复一条客户反馈投入 4 个新 eval 与 16 个实验变体，该反馈指 AI 生成的机会解决方案树在一个分支上缺少层级。她先用代码断言的 tree-shape eval 统计父节点的子节点分布，再用 LLM-as-a-Judge 判断是否存在漏掉的子分组。在人工标注的校准集上，judge 的 recall 为 100%，specificity 只有 43.75%，会把没有漏分组的节点判成有。</description>
-      <category>Product Talk（Teresa Torres）</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>用 AI 原型制作更早测试复杂交互</title>
-      <link>https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
-      <guid isPermaLink="true">https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
-      <pubDate>Fri, 11 Sep 2026 17:00:00 GMT</pubDate>
-      <description>AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实产品的可运行原型，从而更早、更频繁测试并据研究迭代。</description>
-      <category>Nielsen Norman Group</category>
-      <category>methods</category>
     </item>
   </channel>
 </rss>

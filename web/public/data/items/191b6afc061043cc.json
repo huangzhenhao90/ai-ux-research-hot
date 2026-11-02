@@ -1,0 +1,25 @@
+{
+  "id": "191b6afc061043cc",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.42001",
+  "title": "AutoAnalysis: An automated, self-updating meta-analysis of human-AI collaboration",
+  "titleZh": "AutoAnalysis：自动、自我更新的人机协作元分析",
+  "summaryZh": "研究团队提出 AutoAnalysis，一个自动、自我更新的人机协作元分析工具；其最新运行综合 420 篇论文的 1,955 个效应量。结果显示，人机组合平均显著优于人类单独表现，但显著劣于人类或 AI 单独表现中更好的一方。研究强调，评估协作应同时对照人类与 AI 单独表现，AutoAnalysis 将随新研究持续整合证据。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-02T05:00:00+00:00",
+  "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

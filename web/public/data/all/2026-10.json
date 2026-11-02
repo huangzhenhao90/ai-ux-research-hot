@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "count": 142,
+  "count": 144,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -712,6 +712,29 @@
       "relation": "different"
     },
     {
+      "id": "683b6731c85935ad",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.42001v1",
+      "title": "AutoAnalysis：人机协作的自动化自我更新元分析",
+      "titleZh": "AutoAnalysis 元分析纳入 420 篇论文，人机组合通常不及更优一方",
+      "summaryZh": "AutoAnalysis 这项可自动汇总并持续更新的元分析纳入 420 篇论文和 1955 个效应量，发现人机组合显著优于人类单独工作。但人机组合通常不及人类与 AI 中表现更优的一方，作者据此指出「优于人类」并不等于实现人机协同。",
+      "reason": "420 篇论文与 1955 个效应量的汇总显示，人机组合通常不及其中更优一方，可作为判断人机分工边界的参照。",
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-29T16:00:00+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "fa0448f1e6aad392",
       "sourceId": "sprig-blog",
       "sourceName": "Sprig Blog",
@@ -1150,6 +1173,31 @@
       "publishedAt": "2026-10-20T20:46:56+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "284a77109350fe60",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.41793v1",
+      "title": "谁的价值、何种情境与何种信号：基于 Re3Culture 的文化价值对齐",
+      "titleZh": "谁的价值、何种情境与何种信号：基于 Re3Culture 的文化价值对齐",
+      "summaryZh": "Re3Culture 汇集四种文化 700 余名参与者的社区成员、自选情境及多类价值信号，分析文化价值对齐中应代表谁、在何处观察及如何识别价值。结果表明，仅靠抽象问卷或 LLM 模拟会产生群体偏差。价值目标需基于具代表性社区与具体情境。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-29T16:00:00+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },

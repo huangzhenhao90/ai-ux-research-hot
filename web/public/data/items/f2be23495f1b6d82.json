@@ -1,0 +1,30 @@
+{
+  "id": "f2be23495f1b6d82",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-quantitative-concept-testing-platforms/",
+  "title": "Quantitative Concept Testing Platforms for Ad Benchmarking",
+  "titleZh": "广告基准测试用定量概念测试平台盘点：Listen Labs 居首",
+  "summaryZh": "广告基准测试平台盘点把 Listen Labs 列为首选，因其以 MaxDiff、Gabor-Granger 加 AI 主持访谈，在 24 小时内从 50M+ 受访者网络返回带诊断的基准分数。文章建议固定 appeal、purchase intent、brand fit 等指标，且动画分镜不能对成片基准。System1 分析 264 个品牌、4,000+ 广告发现，情绪评分可把品牌增长预测力从 27% 提至 48%。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "问卷/定量",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs",
+    "surveymonkey",
+    "qualtrics"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-02T05:05:46+00:00",
+  "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

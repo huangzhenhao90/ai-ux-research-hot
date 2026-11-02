@@ -1,0 +1,26 @@
+{
+  "id": "284a77109350fe60",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.41793v1",
+  "title": "谁的价值、何种情境与何种信号：基于 Re3Culture 的文化价值对齐",
+  "titleZh": "谁的价值、何种情境与何种信号：基于 Re3Culture 的文化价值对齐",
+  "summaryZh": "Re3Culture 汇集四种文化 700 余名参与者的社区成员、自选情境及多类价值信号，分析文化价值对齐中应代表谁、在何处观察及如何识别价值。结果表明，仅靠抽象问卷或 LLM 模拟会产生群体偏差。价值目标需基于具代表性社区与具体情境。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "研究伦理"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-29T16:00:00+00:00",
+  "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "1b2c654978a75552",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/",
+  "title": "Synthetic Brand Awareness Testing: Accuracy & Limits",
+  "titleZh": "Listen Labs 解析合成品牌认知测试的准确性与局限",
+  "summaryZh": "Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认知误差约 2–3 个百分点，但 16 个品牌的同比认知变化仅 19% 判断正确，变化方向仅 47% 判断正确。文章还列出 Verasight 对 1,500 名美国成年人的研究，子群平均绝对误差超过 10 个百分点，并给出六步验证框架，建议在预算投入前用真实受访者校验追踪指标。",
+  "reason": "文章用四项研究说明合成数据在品牌认知各指标上的可用边界，便于判断它能否进入品牌追踪调研。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "问卷/定量",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-11-02T05:05:32+00:00",
+  "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

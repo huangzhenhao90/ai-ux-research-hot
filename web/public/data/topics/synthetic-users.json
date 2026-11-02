@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 37,
+  "count": 41,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -53,6 +53,34 @@
       "itemType": "research_paper",
       "publishedAt": "2026-10-27T04:00:00+00:00",
       "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "1b2c654978a75552",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/",
+      "title": "Synthetic Brand Awareness Testing: Accuracy & Limits",
+      "titleZh": "Listen Labs 解析合成品牌认知测试的准确性与局限",
+      "summaryZh": "Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认知误差约 2–3 个百分点，但 16 个品牌的同比认知变化仅 19% 判断正确，变化方向仅 47% 判断正确。文章还列出 Verasight 对 1,500 名美国成年人的研究，子群平均绝对误差超过 10 个百分点，并给出六步验证框架，建议在预算投入前用真实受访者校验追踪指标。",
+      "reason": "文章用四项研究说明合成数据在品牌认知各指标上的可用边界，便于判断它能否进入品牌追踪调研。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-02T05:05:32+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -459,6 +487,31 @@
       "relation": "different"
     },
     {
+      "id": "284a77109350fe60",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.41793v1",
+      "title": "谁的价值、何种情境与何种信号：基于 Re3Culture 的文化价值对齐",
+      "titleZh": "谁的价值、何种情境与何种信号：基于 Re3Culture 的文化价值对齐",
+      "summaryZh": "Re3Culture 汇集四种文化 700 余名参与者的社区成员、自选情境及多类价值信号，分析文化价值对齐中应代表谁、在何处观察及如何识别价值。结果表明，仅靠抽象问卷或 LLM 模拟会产生群体偏差。价值目标需基于具代表性社区与具体情境。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-10-29T16:00:00+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "cb120d2f6215ccd7",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -845,6 +898,67 @@
       "itemType": null,
       "publishedAt": "2026-10-26T05:02:19+00:00",
       "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e7f4fb463e4c840a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-software/",
+      "title": "Best AI Digital Twin Software for Concept Testing",
+      "titleZh": "概念测试最佳 AI 数字孪生软件榜单：Listen Labs 居首，Ipsos InnoTest 等 8 款入选",
+      "summaryZh": "Listen Labs 在概念测试最佳 AI 数字孪生软件盘点中排名第一，其 Listen Twins 由对每位真实受访者的 1:1 访谈构建，数秒内给出 100+ 条带推理与置信度的预测回答。Ipsos InnoTest 以游戏化选择任务生成 Trial Index，对标 20 万+ 创新，起价 $3,750/次，覆盖 61 个市场。Listen Labs 称 Twins 适用于筛查与假设生成，高风险发布仍应做完整真人研究。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos",
+        "outset",
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-02T05:05:41+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9a3eea96948f3892",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-kantar-alternatives-message-testing/",
+      "title": "Kantar Alternatives for Predictive Message Testing: 11 Tools",
+      "titleZh": "预测性信息测试的 Kantar 替代方案：11 款工具",
+      "summaryZh": "Listen Labs 盘点 11 款可替代 Kantar 做预测性信息测试的工具，并把 Listen Twins 列为首选。Listen Twins 从 50M+ 验证样本库招募真人做深度访谈、为每个人建模，秒级返回带推理、原话引用与置信度分数的答案。文中引用 Pew Research Center 2026 年 9 月的实验：AI 数字孪生在近 300 个问题上与真人平均相差 12.4 个百分点。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-02T05:05:25+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

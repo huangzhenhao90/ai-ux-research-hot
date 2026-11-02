@@ -1,0 +1,24 @@
+{
+  "id": "683b6731c85935ad",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2610.42001v1",
+  "title": "AutoAnalysis：人机协作的自动化自我更新元分析",
+  "titleZh": "AutoAnalysis 元分析纳入 420 篇论文，人机组合通常不及更优一方",
+  "summaryZh": "AutoAnalysis 这项可自动汇总并持续更新的元分析纳入 420 篇论文和 1955 个效应量，发现人机组合显著优于人类单独工作。但人机组合通常不及人类与 AI 中表现更优的一方，作者据此指出「优于人类」并不等于实现人机协同。",
+  "reason": "420 篇论文与 1955 个效应量的汇总显示，人机组合通常不及其中更优一方，可作为判断人机分工边界的参照。",
+  "category": "research",
+  "tags": [
+    "论文/研究"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-29T16:00:00+00:00",
+  "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

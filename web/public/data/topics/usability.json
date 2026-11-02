@@ -3,7 +3,7 @@
   "name": "可用性测试",
   "group": "field",
   "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-  "count": 10,
+  "count": 11,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -28,6 +28,33 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-26T05:07:24+00:00",
       "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "5f722c1201d4ecdd",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/concept-testing-figma-prototypes/",
+      "title": "How To Run Concept Testing With Figma Prototypes",
+      "titleZh": "Listen Labs 分享用 Figma 原型做概念测试的四个步骤",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文给出用 Figma 原型做概念测试的四个步骤，并区分概念验证与可用性测试各自要回答的问题。文中建议结构与流程类问题用低保真原型，高保真只在信任、微文案或情绪反应是研究重点时使用，并列出替换诱导性提问的脚本写法。作者称传统主持测试通常上限约 30–45 场，AI 主持访谈可并行数百场，并在 24 小时内返回分析结果。",
+      "reason": "文中把概念验证与可用性测试的目标拆开，并给出可直接粘贴使用的提问脚本与降低礼貌偏差的做法，便于复用。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-11-02T05:05:19+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"

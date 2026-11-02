@@ -1,7 +1,86 @@
 {
   "month": "2026-11",
-  "count": 5,
+  "count": 13,
   "items": [
+    {
+      "id": "1b2c654978a75552",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/",
+      "title": "Synthetic Brand Awareness Testing: Accuracy & Limits",
+      "titleZh": "Listen Labs 解析合成品牌认知测试的准确性与局限",
+      "summaryZh": "Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认知误差约 2–3 个百分点，但 16 个品牌的同比认知变化仅 19% 判断正确，变化方向仅 47% 判断正确。文章还列出 Verasight 对 1,500 名美国成年人的研究，子群平均绝对误差超过 10 个百分点，并给出六步验证框架，建议在预算投入前用真实受访者校验追踪指标。",
+      "reason": "文章用四项研究说明合成数据在品牌认知各指标上的可用边界，便于判断它能否进入品牌追踪调研。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-02T05:05:32+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "5f722c1201d4ecdd",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/concept-testing-figma-prototypes/",
+      "title": "How To Run Concept Testing With Figma Prototypes",
+      "titleZh": "Listen Labs 分享用 Figma 原型做概念测试的四个步骤",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文给出用 Figma 原型做概念测试的四个步骤，并区分概念验证与可用性测试各自要回答的问题。文中建议结构与流程类问题用低保真原型，高保真只在信任、微文案或情绪反应是研究重点时使用，并列出替换诱导性提问的脚本写法。作者称传统主持测试通常上限约 30–45 场，AI 主持访谈可并行数百场，并在 24 小时内返回分析结果。",
+      "reason": "文中把概念验证与可用性测试的目标拆开，并给出可直接粘贴使用的提问脚本与降低礼貌偏差的做法，便于复用。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-11-02T05:05:19+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "191b6afc061043cc",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2610.42001",
+      "title": "AutoAnalysis: An automated, self-updating meta-analysis of human-AI collaboration",
+      "titleZh": "AutoAnalysis：自动、自我更新的人机协作元分析",
+      "summaryZh": "研究团队提出 AutoAnalysis，一个自动、自我更新的人机协作元分析工具；其最新运行综合 420 篇论文的 1,955 个效应量。结果显示，人机组合平均显著优于人类单独表现，但显著劣于人类或 AI 单独表现中更好的一方。研究强调，评估协作应同时对照人类与 AI 单独表现，AutoAnalysis 将随新研究持续整合证据。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-02T05:00:00+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "b3ce22f1dc86ae83",
       "sourceId": "listen-labs",
@@ -32,6 +111,66 @@
       "relation": "different"
     },
     {
+      "id": "e7f4fb463e4c840a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-software/",
+      "title": "Best AI Digital Twin Software for Concept Testing",
+      "titleZh": "概念测试最佳 AI 数字孪生软件榜单：Listen Labs 居首，Ipsos InnoTest 等 8 款入选",
+      "summaryZh": "Listen Labs 在概念测试最佳 AI 数字孪生软件盘点中排名第一，其 Listen Twins 由对每位真实受访者的 1:1 访谈构建，数秒内给出 100+ 条带推理与置信度的预测回答。Ipsos InnoTest 以游戏化选择任务生成 Trial Index，对标 20 万+ 创新，起价 $3,750/次，覆盖 61 个市场。Listen Labs 称 Twins 适用于筛查与假设生成，高风险发布仍应做完整真人研究。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos",
+        "outset",
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-02T05:05:41+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f2be23495f1b6d82",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-quantitative-concept-testing-platforms/",
+      "title": "Quantitative Concept Testing Platforms for Ad Benchmarking",
+      "titleZh": "广告基准测试用定量概念测试平台盘点：Listen Labs 居首",
+      "summaryZh": "广告基准测试平台盘点把 Listen Labs 列为首选，因其以 MaxDiff、Gabor-Granger 加 AI 主持访谈，在 24 小时内从 50M+ 受访者网络返回带诊断的基准分数。文章建议固定 appeal、purchase intent、brand fit 等指标，且动画分镜不能对成片基准。System1 分析 264 个品牌、4,000+ 广告发现，情绪评分可把品牌增长预测力从 27% 提至 48%。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "surveymonkey",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-02T05:05:46+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "81a672a586112e5e",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -55,6 +194,36 @@
       "itemType": null,
       "publishedAt": "2026-11-01T05:00:33+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9a3eea96948f3892",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-kantar-alternatives-message-testing/",
+      "title": "Kantar Alternatives for Predictive Message Testing: 11 Tools",
+      "titleZh": "预测性信息测试的 Kantar 替代方案：11 款工具",
+      "summaryZh": "Listen Labs 盘点 11 款可替代 Kantar 做预测性信息测试的工具，并把 Listen Twins 列为首选。Listen Twins 从 50M+ 验证样本库招募真人做深度访谈、为每个人建模，秒级返回带推理、原话引用与置信度分数的答案。文中引用 Pew Research Center 2026 年 9 月的实验：AI 数字孪生在近 300 个问题上与真人平均相差 12.4 个百分点。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-02T05:05:25+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -117,6 +286,29 @@
       "relation": null
     },
     {
+      "id": "06a612f5cbe49b70",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+      "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+      "titleZh": "UX Collective 周刊：Sparkle 按钮、自主性设计、UX 的 AI 清算、Figma 与 MCP",
+      "summaryZh": "UX Collective 新一期设计周刊汇总 Sparkle 按钮、AI 访谈、UX 的 AI 清算与 Figma with MCP 等文章。Figma with MCP 一文指向构建 AI-ready 设计系统库；AI 访谈一文收录参与者与怀疑者对 AI 访谈体验的反馈。其余内容还涉及自主性设计、Apple HomeView、设计软件工厂与 Decoy Font。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-02T10:22:22+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6b5ac259bdcb68d3",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -144,6 +336,29 @@
       "itemType": null,
       "publishedAt": "2026-11-01T05:00:27+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "484d8a8ea3585791",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ipsos-update-november-2026",
+      "title": "Ipsos Update – November 2026",
+      "titleZh": "Ipsos Update 2026 年 11 月号：健康、福祉与工作",
+      "summaryZh": "Ipsos Update 2026 年 11 月号聚焦健康、福祉与工作，汇总其全球团队在这些关键议题上的最新研究与思考。",
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-02T08:00:00+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

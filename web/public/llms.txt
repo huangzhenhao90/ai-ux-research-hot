@@ -15,6 +15,8 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [Listen Labs 解析合成品牌认知测试的准确性与局限](https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/)：Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认…（Listen Labs，2026-11-02）
+- [Listen Labs 分享用 Figma 原型做概念测试的四个步骤](https://listenlabs.com/articles/concept-testing-figma-prototypes/)：Listen Labs 增长负责人 Anish Rao 撰文给出用 Figma 原型做概念测试的四个步骤，并区分概念验证与可用性测试各自要回答的问题。文中建议结构与流程类问题用低保真原型，高保真只在信任、微文案或情绪反应是研究重点时使用，…（Listen Labs，2026-11-02）
 - [Listen Labs 的 AI 虚拟焦点小组画像选型指南：合成画像与真人访谈如何取舍](https://listenlabs.com/articles/ai-personas-virtual-focus-groups/)：Listen Labs 增长负责人 Anish Rao 发布 AI 虚拟焦点小组画像选型指南，把平台分为纯合成画像与基于真人访谈两类，主张合成画像只作筛查工具。文中引用 Pew 2026 年数字孪生测试，近 300 道题平均误差 12.4…（Listen Labs，2026-11-01）
 - [Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界](https://listenlabs.com/articles/best-ai-consumer-simulation-tools/)：Listen Labs 发布按架构划分的 AI 消费者模拟工具决策指南，将其分为合成用户、人群模型和基于真人访谈的数字孪生三类。文中引用 Bisbee 等 2024 年发表于 Political Analysis 的研究，称合成受访者可匹…（Listen Labs，2026-10-31）
 - [Listen Labs 提供概念测试模板，含甄别问题、量化指标与 Go/Refine/Kill 规则](https://listenlabs.com/articles/concept-testing-template/)：Listen Labs 提供一套可直接复用的概念测试模板，按甄别、刺激展示、量化评分、开放题和 Go/Refine/Kill 规则五个步骤组织。模板用 5 点量表测量吸引力、相关性、独特性、可信度、购买意愿和价格感知，并以 top-2-b…（Listen Labs，2026-10-31）
@@ -23,6 +25,7 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [Listen Labs 的初创公司快速信息测试七步流程](https://listenlabs.com/articles/fast-message-testing-startups-playbook/)：Listen Labs 增长负责人 Anish Rao 给出一套面向初创公司的快速信息测试七步流程，先用免费 LLM 粗筛文案，再用真实受访者验证。流程中间用 Lyssna 的五秒测试和 PickFu 的偏好测试把四个方向缩到两个，文中提…（Listen Labs，2026-10-30）
 - [Listen Labs 如何为概念测试招募难触达受众](https://listenlabs.com/articles/recruit-hard-to-reach-audiences/)：Listen Labs 增长负责人 Anish Rao 撰文，介绍概念测试中难触达受众的招募方法；该方法按低发生率、被把关、不信任、时间稀缺、缺席样本库五类成因分别匹配招募渠道。文中建议用行为甄别题、开放式验证题和虚构品牌排雷题筛掉职业答…（Listen Labs，2026-10-30）
 - [Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO](https://www.ipsos.com/en/ipsos-appoints-mitch-barns-chairman-and-ceo-americas-0)：Ipsos 宣布任命 Mitch Barns 为美洲区董事长兼 CEO，自 2026 年 11 月 2 日起生效。他将担任 Ipsos 美国 CEO，并负责统筹 Ipsos 在加拿大和拉美地区的业务。任命消息于 2026 年 10 月 2…（Ipsos，2026-10-29）
+- [AutoAnalysis 元分析纳入 420 篇论文，人机组合通常不及更优一方](https://arxiv.org/abs/2610.42001v1)：AutoAnalysis 这项可自动汇总并持续更新的元分析纳入 420 篇论文和 1955 个效应量，发现人机组合显著优于人类单独工作。但人机组合通常不及人类与 AI 中表现更优的一方，作者据此指出「优于人类」并不等于实现人机协同。（ur-ai-papers（用户与交互 AI 论文库），2026-10-30）
 - [Listen Labs 解读合成用户样本库在产品测试中的适用与失效场景](https://listenlabs.com/articles/synthetic-user-panels-product-testing/)：Listen Labs 在决策指南中按概念测试、UX 流程测试、问卷预测试和定价四类任务，划分了合成用户样本库的适用与失效边界。指南指出合成受访者由大语言模型根据人设描述预测作答，只能产出假设而非决策级证据，可靠用途集中在问卷预测试、早期…（Listen Labs，2026-10-29）
 - [14 个视觉语言模型测试显示文本人物画像难以复现被描述者的作答](https://arxiv.org/abs/2610.39331v1)：一项研究在 14 个视觉语言模型上检验低视力、色盲、听力损失等角色提示能否模拟真实人群，结果显示角色提示从未胜过实测用户和仅采用人格事实的简单规则，反而抹平了群体与个体差异。研究还发现，描述模糊不改变模型识别，实际模糊图像才降低其表现，表…（ur-ai-papers（用户与交互 AI 论文库），2026-10-29）
 - [研究用真实题与虚构孪生题测量 LLM 人物画像模拟中的知识泄漏](https://arxiv.org/abs/2610.39939v1)：研究构建了由真实题目和经筛查降低先验知识的虚构孪生题组成的诊断量表，用于测量 LLM 在人物画像用户模拟中的知识泄漏。跨三种知识处理条件、五个 API 端点和两个模型家族，低知识及明确无知提示仍无法消除真实题的熟悉度偏差。不利题的泄漏方向…（ur-ai-papers（用户与交互 AI 论文库），2026-10-29）
@@ -42,8 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [研究指出交互式 LLM 评估不能只验证评分器整体准确率](https://arxiv.org/abs/2610.31678)：论文指出，在交互式 LLM 评估中只用整体准确率或 F1 验证自动评分器，会掩盖提示词层面的错误并扭曲提示词之间的比较结果。作者用 6 个模型、180 个虚构实体问题和 6 种提示词条件做检验，288 条平衡审计的整体 F1 为 .916…（arXiv cs.HC，2026-10-26）
 - [Sprig 扩展 MCP 能力，从创建研究延伸到完整工作流](https://sprig.com/blog/mcp-capabilities-expansion)：Sprig 宣布扩展其 MCP 能力，覆盖范围从创建单项研究延伸到完整工作流。原文把此前只能做研究创建的阶段与现在可串联多步骤流程的能力做了区分。（Sprig Blog，2026-10-26）
 - [AI 进入专业用户工作前，边界该划在哪里](https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4)：作者提出六个考量，用来判断对话式 AI 界面是在加速专家用户，还是在他们与熟悉的工作之间插进一个键盘。文中引用 METR 的随机试验，经验丰富的开源开发者在自己的代码库上使用 AI 工具反而慢 19%，却以为获得了提速；Dell'Acqu…（UX Collective，2026-10-25）
-- [Listen Labs 如何用 AI 复用研究洞察：五步指南](https://listenlabs.com/articles/reuse-research-insights-with-ai/)：Listen Labs 在分步指南中介绍如何用 AI 复用研究洞察，核心是把访谈转写和洞察整理成带来源、受访者与时间戳的可追溯记录。文章列出五步流程和一段提取提示词，要求逐字引用受访者，缺证据时写 not found，并建议用可查询知识库…（Listen Labs，2026-10-25）
-- [合成研究对创业公司的适用场景与局限](https://listenlabs.com/articles/synthetic-research-for-startups/)：Listen Labs 增长负责人 Anish Rao 撰文梳理合成研究对创业公司的用处与边界，援引 NIM 对 285 项合成与真人对照的回顾，其中 24.9% 结果相近、65.3% 出现偏离。他建议把合成受访者用于概念筛选、假设生成、…（Listen Labs，2026-10-25）
-- [Listen Labs 介绍落地页概念测试四阶段流程](https://listenlabs.com/articles/concept-testing-for-landing-pages/)：Listen Labs 增长负责人 Anish Rao 介绍落地页概念测试的四阶段流程，依次为问卷与偏好测试、AI 主持访谈、付费流量小测试和 A/B 优化。问卷阶段建议每个测试单元约 200 名受访者，Top 2 Box 差距在 9–1…（Listen Labs，2026-10-25）
 
-（更多 48 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 51 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

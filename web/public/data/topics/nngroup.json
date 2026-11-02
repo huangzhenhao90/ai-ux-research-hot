@@ -3,7 +3,7 @@
   "name": "Nielsen Norman Group",
   "group": "company",
   "definition": "NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。",
-  "count": 11,
+  "count": 12,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -265,6 +265,37 @@
       "itemType": null,
       "publishedAt": "2026-09-18T17:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e7f4fb463e4c840a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-software/",
+      "title": "Best AI Digital Twin Software for Concept Testing",
+      "titleZh": "概念测试最佳 AI 数字孪生软件榜单：Listen Labs 居首，Ipsos InnoTest 等 8 款入选",
+      "summaryZh": "Listen Labs 在概念测试最佳 AI 数字孪生软件盘点中排名第一，其 Listen Twins 由对每位真实受访者的 1:1 访谈构建，数秒内给出 100+ 条带推理与置信度的预测回答。Ipsos InnoTest 以游戏化选择任务生成 Trial Index，对标 20 万+ 创新，起价 $3,750/次，覆盖 61 个市场。Listen Labs 称 Twins 适用于筛查与假设生成，高风险发布仍应做完整真人研究。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos",
+        "outset",
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-02T05:05:41+00:00",
+      "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -1,5 +1,5 @@
 {
-  "count": 252,
+  "count": 262,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -207,6 +207,25 @@
       "publishedAt": "2026-10-27T04:00:00+00:00"
     },
     {
+      "id": "1b2c654978a75552",
+      "title": "Synthetic Brand Awareness Testing: Accuracy & Limits",
+      "titleZh": "Listen Labs 解析合成品牌认知测试的准确性与局限",
+      "summaryZh": "Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认知误差约 2–3 个百分点，但 16 个品牌的同比认知变化仅 19% 判断正确，变化方向仅 47% 判断正确。文章还列出 Verasight 对 1,500 名美国成年人的研究，子群平均绝对误差超过 10 个百分点，并给出六步验证框架，建议在预算投入前用真实受访者校验追踪指标。",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/",
+      "publishedAt": "2026-11-02T05:05:32+00:00"
+    },
+    {
       "id": "d18b16dfe61e7d9e",
       "title": "Beyond Behavioral Accuracy: Evaluating Individual-Level Fidelity in LLM Investor Simulation",
       "titleZh": "超越行为准确率：评估 LLM 投资者模拟中的个体层面保真度",
@@ -253,6 +272,24 @@
       "sourceName": "UX Collective",
       "url": "https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4",
       "publishedAt": "2026-10-27T11:13:03+00:00"
+    },
+    {
+      "id": "5f722c1201d4ecdd",
+      "title": "How To Run Concept Testing With Figma Prototypes",
+      "titleZh": "Listen Labs 分享用 Figma 原型做概念测试的四个步骤",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文给出用 Figma 原型做概念测试的四个步骤，并区分概念验证与可用性测试各自要回答的问题。文中建议结构与流程类问题用低保真原型，高保真只在信任、微文案或情绪反应是研究重点时使用，并列出替换诱导性提问的脚本写法。作者称传统主持测试通常上限约 30–45 场，AI 主持访谈可并行数百场，并在 24 小时内返回分析结果。",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/concept-testing-figma-prototypes/",
+      "publishedAt": "2026-11-02T05:05:19+00:00"
     },
     {
       "id": "dedfd59baa47acfd",
@@ -696,6 +733,20 @@
       "publishedAt": "2026-07-14T12:00:00+00:00"
     },
     {
+      "id": "683b6731c85935ad",
+      "title": "AutoAnalysis：人机协作的自动化自我更新元分析",
+      "titleZh": "AutoAnalysis 元分析纳入 420 篇论文，人机组合通常不及更优一方",
+      "summaryZh": "AutoAnalysis 这项可自动汇总并持续更新的元分析纳入 420 篇论文和 1955 个效应量，发现人机组合显著优于人类单独工作。但人机组合通常不及人类与 AI 中表现更优的一方，作者据此指出「优于人类」并不等于实现人机协同。",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2610.42001v1",
+      "publishedAt": "2026-10-29T16:00:00+00:00"
+    },
+    {
       "id": "fa0448f1e6aad392",
       "title": "Expanding Sprig MCP: From study creation to complete workflows",
       "titleZh": "Sprig 扩展 MCP 能力，从创建研究延伸到完整工作流",
@@ -1120,6 +1171,37 @@
       "sourceName": "Cint",
       "url": "https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/",
       "publishedAt": "2026-10-20T20:46:56+00:00"
+    },
+    {
+      "id": "191b6afc061043cc",
+      "title": "AutoAnalysis: An automated, self-updating meta-analysis of human-AI collaboration",
+      "titleZh": "AutoAnalysis：自动、自我更新的人机协作元分析",
+      "summaryZh": "研究团队提出 AutoAnalysis，一个自动、自我更新的人机协作元分析工具；其最新运行综合 420 篇论文的 1,955 个效应量。结果显示，人机组合平均显著优于人类单独表现，但显著劣于人类或 AI 单独表现中更好的一方。研究强调，评估协作应同时对照人类与 AI 单独表现，AutoAnalysis 将随新研究持续整合证据。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2610.42001",
+      "publishedAt": "2026-11-02T05:00:00+00:00"
+    },
+    {
+      "id": "284a77109350fe60",
+      "title": "谁的价值、何种情境与何种信号：基于 Re3Culture 的文化价值对齐",
+      "titleZh": "谁的价值、何种情境与何种信号：基于 Re3Culture 的文化价值对齐",
+      "summaryZh": "Re3Culture 汇集四种文化 700 余名参与者的社区成员、自选情境及多类价值信号，分析文化价值对齐中应代表谁、在何处观察及如何识别价值。结果表明，仅靠抽象问卷或 LLM 模拟会产生群体偏差。价值目标需基于具代表性社区与具体情境。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "研究伦理"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2610.41793v1",
+      "publishedAt": "2026-10-29T16:00:00+00:00"
     },
     {
       "id": "14d8ce91b045fd29",
@@ -2322,6 +2404,28 @@
       "publishedAt": "2026-03-31T01:00:00+00:00"
     },
     {
+      "id": "e7f4fb463e4c840a",
+      "title": "Best AI Digital Twin Software for Concept Testing",
+      "titleZh": "概念测试最佳 AI 数字孪生软件榜单：Listen Labs 居首，Ipsos InnoTest 等 8 款入选",
+      "summaryZh": "Listen Labs 在概念测试最佳 AI 数字孪生软件盘点中排名第一，其 Listen Twins 由对每位真实受访者的 1:1 访谈构建，数秒内给出 100+ 条带推理与置信度的预测回答。Ipsos InnoTest 以游戏化选择任务生成 Trial Index，对标 20 万+ 创新，起价 $3,750/次，覆盖 61 个市场。Listen Labs 称 Twins 适用于筛查与假设生成，高风险发布仍应做完整真人研究。",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos",
+        "outset",
+        "nngroup"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-software/",
+      "publishedAt": "2026-11-02T05:05:41+00:00"
+    },
+    {
       "id": "6ddbda8fa559856b",
       "title": "What Is an AI Interviewer? A Plain-Language Guide",
       "titleZh": "什么是 AI Interviewer？一份通俗指南",
@@ -2355,6 +2459,26 @@
       "sourceName": "Dynata",
       "url": "https://www.dynata.com/why-dynata/resources/blog/how-to-write-survey-questions/",
       "publishedAt": "2026-07-09T16:21:19+00:00"
+    },
+    {
+      "id": "f2be23495f1b6d82",
+      "title": "Quantitative Concept Testing Platforms for Ad Benchmarking",
+      "titleZh": "广告基准测试用定量概念测试平台盘点：Listen Labs 居首",
+      "summaryZh": "广告基准测试平台盘点把 Listen Labs 列为首选，因其以 MaxDiff、Gabor-Granger 加 AI 主持访谈，在 24 小时内从 50M+ 受访者网络返回带诊断的基准分数。文章建议固定 appeal、purchase intent、brand fit 等指标，且动画分镜不能对成片基准。System1 分析 264 个品牌、4,000+ 广告发现，情绪评分可把品牌增长预测力从 27% 提至 48%。",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "surveymonkey",
+        "qualtrics"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-quantitative-concept-testing-platforms/",
+      "publishedAt": "2026-11-02T05:05:46+00:00"
     },
     {
       "id": "81a672a586112e5e",
@@ -2407,6 +2531,27 @@
       "sourceName": "International Journal of Market Research",
       "url": "https://journals.sagepub.com/doi/abs/10.1177/14707853261483762?ai=2b4&mi=ehikzz&af=R",
       "publishedAt": "2026-08-24T07:29:35+00:00"
+    },
+    {
+      "id": "9a3eea96948f3892",
+      "title": "Kantar Alternatives for Predictive Message Testing: 11 Tools",
+      "titleZh": "预测性信息测试的 Kantar 替代方案：11 款工具",
+      "summaryZh": "Listen Labs 盘点 11 款可替代 Kantar 做预测性信息测试的工具，并把 Listen Twins 列为首选。Listen Twins 从 50M+ 验证样本库招募真人做深度访谈、为每个人建模，秒级返回带推理、原话引用与置信度分数的答案。文中引用 Pew Research Center 2026 年 9 月的实验：AI 数字孪生在近 300 个问题上与真人平均相差 12.4 个百分点。",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-kantar-alternatives-message-testing/",
+      "publishedAt": "2026-11-02T05:05:25+00:00"
     },
     {
       "id": "6403b83cf3f151f8",
@@ -3344,6 +3489,20 @@
       "publishedAt": "2025-11-06T10:39:34+00:00"
     },
     {
+      "id": "06a612f5cbe49b70",
+      "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+      "titleZh": "UX Collective 周刊：Sparkle 按钮、自主性设计、UX 的 AI 清算、Figma 与 MCP",
+      "summaryZh": "UX Collective 新一期设计周刊汇总 Sparkle 按钮、AI 访谈、UX 的 AI 清算与 Figma with MCP 等文章。Figma with MCP 一文指向构建 AI-ready 设计系统库；AI 访谈一文收录参与者与怀疑者对 AI 访谈体验的反馈。其余内容还涉及自主性设计、Apple HomeView、设计软件工厂与 Decoy Font。",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-11-02T10:22:22+00:00"
+    },
+    {
       "id": "d414e1a16c289ca5",
       "title": "Bringing shadow AI out of the shadows",
       "titleZh": "Dovetail 谈影子 AI：封禁为何失败，获准替代方案长什么样",
@@ -4067,6 +4226,20 @@
       "sourceName": "Ipsos",
       "url": "https://www.ipsos.com/en/linkedin-live-cx-global-insights-2026",
       "publishedAt": "2026-10-07T10:26:20+00:00"
+    },
+    {
+      "id": "484d8a8ea3585791",
+      "title": "Ipsos Update – November 2026",
+      "titleZh": "Ipsos Update 2026 年 11 月号：健康、福祉与工作",
+      "summaryZh": "Ipsos Update 2026 年 11 月号聚焦健康、福祉与工作，汇总其全球团队在这些关键议题上的最新研究与思考。",
+      "tags": [],
+      "entities": [
+        "ipsos"
+      ],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-update-november-2026",
+      "publishedAt": "2026-11-02T08:00:00+00:00"
     },
     {
       "id": "1c4309d5feb918a1",
