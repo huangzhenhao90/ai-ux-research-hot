@@ -1,5 +1,5 @@
 {
-  "count": 271,
+  "count": 272,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -1732,6 +1732,20 @@
       "sourceName": "Strella Blog",
       "url": "https://www.strella.io/blog/open-ended-questions-for-surveys-examples",
       "publishedAt": "2026-10-30T16:00:00+00:00"
+    },
+    {
+      "id": "b9868941df7f8e8f",
+      "title": "What AI Changes - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "titleZh": "Teresa Torres 与 Petra Wille 在 All Things Product Podcast 谈 AI 真正改变了什么",
+      "summaryZh": "Teresa Torres 与 Petra Wille 在播客中辩论“AI 改变一切”，区分新变化与旧事实。她们认为 AI 更多暴露团队原有的测试、流程与协作问题，故事化访谈仍依赖客户真实经历；AI 未杀死 SaaS，Airtable 与 Miro 的挫折源于产品失焦和过度融资，真正的新变化是 Notion 式超个性化。",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "url": "https://www.producttalk.org/what-ai-changes-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "publishedAt": "2026-11-03T14:00:00+00:00"
     },
     {
       "id": "17782bd98c014cbd",

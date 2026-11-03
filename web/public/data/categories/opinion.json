@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 50,
+  "count": 51,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -261,6 +261,29 @@
       "itemType": null,
       "publishedAt": "2026-09-15T13:00:58+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "b9868941df7f8e8f",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://www.producttalk.org/what-ai-changes-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "title": "What AI Changes - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "titleZh": "Teresa Torres 与 Petra Wille 在 All Things Product Podcast 谈 AI 真正改变了什么",
+      "summaryZh": "Teresa Torres 与 Petra Wille 在播客中辩论“AI 改变一切”，区分新变化与旧事实。她们认为 AI 更多暴露团队原有的测试、流程与协作问题，故事化访谈仍依赖客户真实经历；AI 未杀死 SaaS，Airtable 与 Miro 的挫折源于产品失焦和过度融资，真正的新变化是 Notion 式超个性化。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-03T14:00:00+00:00",
+      "discoveredAt": "2026-11-03T14:19:28.006181+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
