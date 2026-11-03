@@ -25,7 +25,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-03T05:05:53+00:00",
       "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": "different"
     },
@@ -53,7 +53,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-02T05:05:32+00:00",
       "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": "different"
     },
@@ -216,7 +216,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-01T05:01:59+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": "different"
     },

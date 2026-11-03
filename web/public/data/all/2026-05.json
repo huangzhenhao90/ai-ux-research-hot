@@ -26,7 +26,7 @@
       "itemType": "tool_launch",
       "publishedAt": "2026-05-11T14:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -52,7 +52,7 @@
       "itemType": null,
       "publishedAt": "2026-05-19T23:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },

@@ -5,9 +5,36 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 03 Nov 2026 14:35:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 14:49:41 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 详解合成受访者虚拟焦点小组的四类失效模式与五步验证流程</title>
+      <link>https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/</guid>
+      <pubDate>Tue, 03 Nov 2026 05:05:53 GMT</pubDate>
+      <description>Listen Labs 发布指南，拆解合成受访者虚拟焦点小组的三步运行方式、四类失效模式与五步验证流程。指南引用 Pew Research Center 2026 年 9 月 30 日的方法学研究，称 AI 数字孪生受访者在个体层面约 55% 的回答与真实样本库受访者一致，与真人调查估计平均相差约 12 个百分点；另引 Political Analysis 2024 年 Bisbee 等人的研究，48% 的合成回答回归系数与真人基准存在显著差异，其中 32% 符号相反。验证流程要求用同一刺激材料、10–20 名已验证真实受访者独立执行，比较偏好方向与用词，并在定价、发布等高风险决策前以真人样本重新验证。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Listen Labs 解析合成品牌认知测试的准确性与局限</title>
+      <link>https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/</guid>
+      <pubDate>Mon, 02 Nov 2026 05:05:32 GMT</pubDate>
+      <description>Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认知误差约 2–3 个百分点，但 16 个品牌的同比认知变化仅 19% 判断正确，变化方向仅 47% 判断正确。文章还列出 Verasight 对 1,500 名美国成年人的研究，子群平均绝对误差超过 10 个百分点，并给出六步验证框架，建议在预算投入前用真实受访者校验追踪指标。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Listen Labs 的 AI 虚拟焦点小组画像选型指南：合成画像与真人访谈如何取舍</title>
+      <link>https://listenlabs.com/articles/ai-personas-virtual-focus-groups/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/ai-personas-virtual-focus-groups/</guid>
+      <pubDate>Sun, 01 Nov 2026 05:01:59 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 发布 AI 虚拟焦点小组画像选型指南，把平台分为纯合成画像与基于真人访谈两类，主张合成画像只作筛查工具。文中引用 Pew 2026 年数字孪生测试，近 300 道题平均误差 12.4 个百分点；Bisbee 等 2024 年研究发现 48% 的回归系数与真实数据显著不同，其中 32% 符号反转。Listen Labs 自述以 50M+ 样本网络、45+ 国家和 120+ 语言开展 AI 主持访谈，24 小时内交付结果。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界</title>
       <link>https://listenlabs.com/articles/best-ai-consumer-simulation-tools/</link>
@@ -88,6 +115,33 @@
       <description>AutoAnalysis 这项可自动汇总并持续更新的元分析纳入 420 篇论文和 1955 个效应量，发现人机组合显著优于人类单独工作。但人机组合通常不及人类与 AI 中表现更优的一方，作者据此指出「优于人类」并不等于实现人机协同。</description>
       <category>ur-ai-papers（用户与交互 AI 论文库）</category>
       <category>research</category>
+    </item>
+    <item>
+      <title>Listen Labs 解读合成用户样本库在产品测试中的适用与失效场景</title>
+      <link>https://listenlabs.com/articles/synthetic-user-panels-product-testing/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-user-panels-product-testing/</guid>
+      <pubDate>Thu, 29 Oct 2026 05:03:34 GMT</pubDate>
+      <description>Listen Labs 在决策指南中按概念测试、UX 流程测试、问卷预测试和定价四类任务，划分了合成用户样本库的适用与失效边界。指南指出合成受访者由大语言模型根据人设描述预测作答，只能产出假设而非决策级证据，可靠用途集中在问卷预测试、早期概念筛选和讨论提纲准备，不适合定价、可用性测试和最终决策。文中引用 Strat7 对 3,000 名真实受访者的对比，纯合成受访者在价格敏感度练习中 68% 打乱了逻辑顺序，价格比真人高约 16%，并引用 Kantar 发现 GPT-4 存在正向偏差。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>14 个视觉语言模型测试显示文本人物画像难以复现被描述者的作答</title>
+      <link>https://arxiv.org/abs/2610.39331v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.39331v1</guid>
+      <pubDate>Wed, 28 Oct 2026 16:00:00 GMT</pubDate>
+      <description>一项研究在 14 个视觉语言模型上检验低视力、色盲、听力损失等角色提示能否模拟真实人群，结果显示角色提示从未胜过实测用户和仅采用人格事实的简单规则，反而抹平了群体与个体差异。研究还发现，描述模糊不改变模型识别，实际模糊图像才降低其表现，表明模型能陈述影响机制却不能据此看见。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>Listen Labs 撰文介绍合成受访者平台的评估与选择方法</title>
+      <link>https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/</guid>
+      <pubDate>Wed, 28 Oct 2026 05:10:50 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 撰文把合成受访者平台分为从零模拟、真实数据建模和样本扩充三类，并建议采购前做留出真人对比、核查答案可追溯性、检测 persona 漂移等验证。文中引用 Pew Research Center 2026 年 9 月 30 日的研究称 AI 生成结果与人类民调平均相差 12.4 个百分点，共和党倾向者平均误差最高为 16.1 个百分点；Science Advances 同月刊出的哥伦比亚大学领衔 19 项预注册研究则发现 LLM 数字孪生在 164 个结果中有 154 个组内方差低于所模拟的真人。文章同时推介 Listen Labs 自有的 50M+ 真人网络与 Listen Twins。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
     </item>
     <item>
       <title>为什么用 AI 生成用户画像与需求只是原地加速</title>
@@ -198,6 +252,33 @@
       <category>tools</category>
     </item>
     <item>
+      <title>AI 进入专业用户工作前，边界该划在哪里</title>
+      <link>https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4</link>
+      <guid isPermaLink="true">https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4</guid>
+      <pubDate>Sun, 25 Oct 2026 12:31:45 GMT</pubDate>
+      <description>作者提出六个考量，用来判断对话式 AI 界面是在加速专家用户，还是在他们与熟悉的工作之间插进一个键盘。文中引用 METR 的随机试验，经验丰富的开源开发者在自己的代码库上使用 AI 工具反而慢 19%，却以为获得了提速；Dell'Acqua、Mollick、Lakhani 等对 758 名顾问的研究中，AI 能力范围内的任务快 25.1% 且质量更高，超出范围时正确率低 19%。作者还以拥有 400 个已保存搜索的招聘人员或律师为例，指出自然语言输入把专家早已内化的字段名和状态码又变回表述问题。</description>
+      <category>UX Collective</category>
+      <category>opinion</category>
+    </item>
+    <item>
+      <title>Listen Labs 如何用 AI 复用研究洞察：五步指南</title>
+      <link>https://listenlabs.com/articles/reuse-research-insights-with-ai/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/reuse-research-insights-with-ai/</guid>
+      <pubDate>Sun, 25 Oct 2026 05:04:45 GMT</pubDate>
+      <description>Listen Labs 在分步指南中介绍如何用 AI 复用研究洞察，核心是把访谈转写和洞察整理成带来源、受访者与时间戳的可追溯记录。文章列出五步流程和一段提取提示词，要求逐字引用受访者，缺证据时写 not found，并建议用可查询知识库跨项目提问。文中还比较 Listen Labs Research Library 与 NotebookLM、Notion、Confluence、Dovetail 等工具在来源追溯和跨研究查询上的差异，并称 Listen Labs 已在 45+ 个国家、120+ 种语言完成 1M+ 场访谈。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂</title>
+      <link>https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
+      <guid isPermaLink="true">https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
+      <pubDate>Fri, 23 Oct 2026 17:00:00 GMT</pubDate>
+      <description>调查 521 名 UX 从业者后发现，AI 几乎在每项任务上节省时间，但多数人对其态度平淡，强制推行、输出不可靠和期望过高消耗了这些收益。调查显示超过 99% 的受访者在工作中可使用生成式 AI 工具，其中 59% 只能使用获批的工具集，仅 12% 能自由选择任意工具。AI 带来的收益因角色、任务和工作场所不同而差异明显，智能体的使用情况也不均衡</description>
+      <category>Nielsen Norman Group</category>
+      <category>research</category>
+    </item>
+    <item>
       <title>Ipsos 第三季度营收 6.362 亿欧元，有机增长 2.0%</title>
       <link>https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre</link>
       <guid isPermaLink="true">https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre</guid>
@@ -295,6 +376,85 @@
       <description>一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比。结果显示 LLM 整体优于基线，但随已知答案比例下降而性能下滑，在一份量表中甚至与基线持平。研究据此指出，数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强的效力有限。</description>
       <category>ur-ai-papers（用户与交互 AI 论文库）</category>
       <category>research</category>
+    </item>
+    <item>
+      <title>quantilope 推出 Category Twins 合成用户社区</title>
+      <link>https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins</link>
+      <guid isPermaLink="true">https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:03 GMT</pubDate>
+      <description>quantilope 推出 Category Twins，这是一个基于品牌自有数据构建数字孪生、可组成合成用户社区的解决方案，现已面向全球品牌开放。该方案与 10 个国家 30 个品牌共同开发，使用 Ehrenberg-Bass 框架及 Mental Availability、Category Entry Points 指标，可按类别和区域以固定费用单独购买。用户可通过文字、语音和图片与数字孪生对话，新的 Mental Availability 研究完成后数字孪生会自动更新。</description>
+      <category>quantilope</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>tvbeat 与 合作，为 TVNZ 和 Sky 推进新西兰 Total TV 受众测量</title>
+      <link>https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand</link>
+      <guid isPermaLink="true">https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand</guid>
+      <pubDate>Mon, 19 Oct 2026 10:12:34 GMT</pubDate>
+      <description>tvbeat 与 达成合作，将为 TVNZ 和 Sky 在新西兰推进 Total TV 受众测量。新的受众测量系统（Audience Measurement System）会把 TVNZ 和 Sky 的大规模一方观看数据与独立受众研究结合，为 Total TV 建立可信基础</description>
+      <category>Ipsos</category>
+      <category>industry</category>
+    </item>
+    <item>
+      <title>Maze 宣布更多市场研究可在平台内完成</title>
+      <link>https://maze.co/blog/ai-for-market-research/</link>
+      <guid isPermaLink="true">https://maze.co/blog/ai-for-market-research/</guid>
+      <pubDate>Thu, 08 Oct 2026 05:28:33 GMT</pubDate>
+      <description>Maze 发布博文称，更多市场研究现在可以在 Maze 内完成，指向平台对市场研究场景的进一步覆盖。</description>
+      <category>Maze Blog</category>
+    </item>
+    <item>
+      <title>合成用户与数字孪生：定义、风险与真实用例</title>
+      <link>https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases</link>
+      <guid isPermaLink="true">https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases</guid>
+      <pubDate>Tue, 06 Oct 2026 16:00:00 GMT</pubDate>
+      <description>dscout 的 People Nerds 梳理了合成用户与数字孪生的定义差异，并逐一说明两者的风险与真实使用场景。文章把这两个常被混用的概念分开，供研究团队判断各自适用的环节与边界。</description>
+      <category>dscout People Nerds</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>研究中的多数「数字孪生」其实就是换了名字的合成用户</title>
+      <link>https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins</link>
+      <guid isPermaLink="true">https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins</guid>
+      <pubDate>Thu, 01 Oct 2026 16:00:00 GMT</pubDate>
+      <description>文章指出研究中的多数「数字孪生」实际上就是换了名字的合成用户，并围绕这两个概念的区别展开讨论。这一区分关系到团队如何界定合成受访者方案的能力边界。</description>
+      <category>Great Question Blog</category>
+    </item>
+    <item>
+      <title>解析 AI 智能体的 3 类上下文</title>
+      <link>https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
+      <guid isPermaLink="true">https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
+      <pubDate>Fri, 18 Sep 2026 17:00:00 GMT</pubDate>
+      <description>文章基于对 Claude 重度用户的近期研究，将 AI 智能体的上下文分为全局、局部和环境三类。参与者都建立了由文件、数据库和实时连接组成的上下文库，供 Claude 在提示词之外调用。文章认为，整理合适的上下文比写好提示词更重要</description>
+      <category>Nielsen Norman Group</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Vistaly 为 1 个客户反馈做了 4 个新 eval 与 16 个实验变体</title>
+      <link>https://www.producttalk.org/4-new-evals-and-16-experiment-variants/</link>
+      <guid isPermaLink="true">https://www.producttalk.org/4-new-evals-and-16-experiment-variants/</guid>
+      <pubDate>Wed, 16 Sep 2026 13:00:36 GMT</pubDate>
+      <description>Teresa Torres 与 Vistaly 为修复一条客户反馈投入 4 个新 eval 与 16 个实验变体，该反馈指 AI 生成的机会解决方案树在一个分支上缺少层级。她先用代码断言的 tree-shape eval 统计父节点的子节点分布，再用 LLM-as-a-Judge 判断是否存在漏掉的子分组。在人工标注的校准集上，judge 的 recall 为 100%，specificity 只有 43.75%，会把没有漏分组的节点判成有。</description>
+      <category>Product Talk（Teresa Torres）</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>用 AI 原型制作更早测试复杂交互</title>
+      <link>https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
+      <guid isPermaLink="true">https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
+      <pubDate>Fri, 11 Sep 2026 17:00:00 GMT</pubDate>
+      <description>AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实产品的可运行原型，从而更早、更频繁测试并据研究迭代。</description>
+      <category>Nielsen Norman Group</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Cint 发文分析 MCP 与 AI 智能体如何重塑市场洞察</title>
+      <link>https://www.cint.com/blog/mcps-market-research-esomar/</link>
+      <guid isPermaLink="true">https://www.cint.com/blog/mcps-market-research-esomar/</guid>
+      <pubDate>Thu, 10 Sep 2026 21:29:14 GMT</pubDate>
+      <description>Cint 发布文章，讨论 MCP 与 AI 智能体正在如何重塑市场洞察的工作方式。文章以行业分析视角展开，未在标题层面给出具体案例或数据。</description>
+      <category>Cint</category>
+      <category>opinion</category>
     </item>
   </channel>
 </rss>

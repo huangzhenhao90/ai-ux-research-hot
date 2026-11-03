@@ -84,7 +84,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-29T05:03:34+00:00",
       "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": "different"
     },
@@ -108,7 +108,7 @@
       "itemType": "opinion_analysis",
       "publishedAt": "2026-10-25T12:31:45+00:00",
       "discoveredAt": "2026-10-25T15:41:00.844252+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": "different"
     },
@@ -133,7 +133,7 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-08-25T21:18:05+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -185,7 +185,7 @@
       "itemType": null,
       "publishedAt": "2026-09-11T17:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },

@@ -26,7 +26,7 @@
       "itemType": "tool_launch",
       "publishedAt": "2026-03-05T13:21:19+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -52,7 +52,7 @@
       "itemType": null,
       "publishedAt": "2026-03-27T01:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -79,7 +79,7 @@
       "itemType": null,
       "publishedAt": "2026-03-26T15:34:41+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -106,7 +106,7 @@
       "itemType": null,
       "publishedAt": "2026-03-17T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },

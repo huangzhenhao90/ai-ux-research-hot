@@ -1,6 +1,109 @@
 {
-  "generatedAt": "2026-11-03T14:35:23.825034+00:00",
+  "generatedAt": "2026-11-03T14:49:41.706628+00:00",
   "windowDays": 3,
   "editionHour": 0,
-  "days": []
+  "days": [
+    {
+      "date": "2026-11-03",
+      "count": 1,
+      "items": [
+        {
+          "id": "ba1ff72af3d0f43e",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/",
+          "title": "Virtual Focus Groups With Synthetic Respondents",
+          "titleZh": "Listen Labs 详解合成受访者虚拟焦点小组的四类失效模式与五步验证流程",
+          "summaryZh": "Listen Labs 发布指南，拆解合成受访者虚拟焦点小组的三步运行方式、四类失效模式与五步验证流程。指南引用 Pew Research Center 2026 年 9 月 30 日的方法学研究，称 AI 数字孪生受访者在个体层面约 55% 的回答与真实样本库受访者一致，与真人调查估计平均相差约 12 个百分点；另引 Political Analysis 2024 年 Bisbee 等人的研究，48% 的合成回答回归系数与真人基准存在显著差异，其中 32% 符号相反。验证流程要求用同一刺激材料、10–20 名已验证真实受访者独立执行，比较偏好方向与用词，并在定价、发布等高风险决策前以真人样本重新验证。",
+          "reason": "文中列出四类合成受访者失效模式与五步验证做法，并给出在高成本决策前改用真实受访者的判定条件。",
+          "category": "methods",
+          "tags": [
+            "方法/实践",
+            "合成用户",
+            "AI 访谈"
+          ],
+          "entities": [
+            "listen-labs"
+          ],
+          "itemType": "tutorial_explainer",
+          "publishedAt": "2026-11-03T05:05:53+00:00",
+          "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "count": 1,
+      "items": [
+        {
+          "id": "1b2c654978a75552",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/",
+          "title": "Synthetic Brand Awareness Testing: Accuracy & Limits",
+          "titleZh": "Listen Labs 解析合成品牌认知测试的准确性与局限",
+          "summaryZh": "Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认知误差约 2–3 个百分点，但 16 个品牌的同比认知变化仅 19% 判断正确，变化方向仅 47% 判断正确。文章还列出 Verasight 对 1,500 名美国成年人的研究，子群平均绝对误差超过 10 个百分点，并给出六步验证框架，建议在预算投入前用真实受访者校验追踪指标。",
+          "reason": "文章用四项研究说明合成数据在品牌认知各指标上的可用边界，便于判断它能否进入品牌追踪调研。",
+          "category": "methods",
+          "tags": [
+            "方法/实践",
+            "合成用户",
+            "问卷/定量",
+            "市场研究"
+          ],
+          "entities": [
+            "listen-labs"
+          ],
+          "itemType": "tutorial_explainer",
+          "publishedAt": "2026-11-02T05:05:32+00:00",
+          "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "count": 1,
+      "items": [
+        {
+          "id": "b3ce22f1dc86ae83",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/ai-personas-virtual-focus-groups/",
+          "title": "AI Personas For Virtual Focus Groups: A 2026 Decision Guide",
+          "titleZh": "Listen Labs 的 AI 虚拟焦点小组画像选型指南：合成画像与真人访谈如何取舍",
+          "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布 AI 虚拟焦点小组画像选型指南，把平台分为纯合成画像与基于真人访谈两类，主张合成画像只作筛查工具。文中引用 Pew 2026 年数字孪生测试，近 300 道题平均误差 12.4 个百分点；Bisbee 等 2024 年研究发现 48% 的回归系数与真实数据显著不同，其中 32% 符号反转。Listen Labs 自述以 50M+ 样本网络、45+ 国家和 120+ 语言开展 AI 主持访谈，24 小时内交付结果。",
+          "reason": "文中汇总 Pew 与 Bisbee 等独立测试的误差与回归符号反转数据，可对照合成画像和真人访谈两类平台的适用边界。",
+          "category": "methods",
+          "tags": [
+            "方法/实践",
+            "合成用户",
+            "AI 访谈",
+            "定性分析"
+          ],
+          "entities": [
+            "listen-labs",
+            "outset"
+          ],
+          "itemType": "tutorial_explainer",
+          "publishedAt": "2026-11-01T05:01:59+00:00",
+          "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        }
+      ]
+    }
+  ]
 }

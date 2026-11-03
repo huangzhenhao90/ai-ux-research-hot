@@ -51,7 +51,7 @@
       "itemType": "opinion_analysis",
       "publishedAt": "2026-10-25T12:31:45+00:00",
       "discoveredAt": "2026-10-25T15:41:00.844252+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": "different"
     },
@@ -131,7 +131,7 @@
       "itemType": "opinion_analysis",
       "publishedAt": "2026-09-10T21:29:14+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -158,7 +158,7 @@
       "itemType": null,
       "publishedAt": "2026-08-28T17:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
@@ -286,7 +286,7 @@
       "itemType": null,
       "publishedAt": "2026-09-04T17:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": null
     },
