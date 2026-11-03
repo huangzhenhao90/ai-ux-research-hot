@@ -29,9 +29,8 @@ def daily_selection(items: Iterable[Item], config: ConfigBundle) -> list[Item]:
     for sources in days.values():
         total = sum(len(group) for group in sources.values())
         for group in sources.values():
-            # 严格少于一半：本来源最多保留「其他来源合计 - 1」。
-            # 只有两个来源时，两者不可能同时达标，当天不出精选。
-            limit = max(0, total - len(group) - 1) if len(sources) >= 3 else 0
+            # 来源少时每个来源可留一篇。至少三个来源时，严格少于当天精选的一半。
+            limit = total - len(group) - 1 if len(sources) >= 3 else 1
             if len(group) > limit:
                 excluded.update(item.id for item in sort_items(group)[limit:])
 

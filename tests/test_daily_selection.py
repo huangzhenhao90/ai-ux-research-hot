@@ -17,7 +17,7 @@ def test_quota_uses_beijing_midnight_and_reconsiders_candidates():
             for i, (s, t) in enumerate([("A", before), ("B", before), ("C", before),
                                         ("A", after), ("A", after), ("B", after)])]
     cfg = load_config()
-    assert [r.is_selected for r in daily_selection(rows, cfg)] == [True] * 3 + [False] * 3
+    assert [r.is_selected for r in daily_selection(rows, cfg)] == [True] * 3 + [False, True, True]
     rows.append(make_item(6, sourceId="C", published=after))
     # 当天有了第三个来源，A 的两条中只保留得分更高的那条。
     assert [r.is_selected for r in daily_selection(rows, cfg)] == [True] * 3 + [False, True, True, True]
@@ -42,3 +42,15 @@ def test_arxiv_aliases_share_one_quota():
     for row, venue in zip(rows, ["arXiv", "arXiv cs.HC", "CHI", "UIST"]):
         row.venue = venue
     assert [r.is_selected for r in daily_selection(rows, load_config())] == [False, True, True, True]
+
+
+def test_single_source_keeps_one_qualified_item_per_day():
+    day = datetime(2026, 11, 1, 5, tzinfo=timezone.utc)
+    rows = [
+        make_item(i, sourceId="listen-labs", published=day + timedelta(days=offset), avgScore=score)
+        for i, (offset, score) in enumerate([(0, 70), (1, 80), (1, 75), (2, 72), (2, 85)])
+    ]
+    rows.append(make_item(5, published=day + timedelta(days=3), status=Status.LISTED))
+    assert [r.is_selected for r in daily_selection(rows, load_config())] == [
+        True, True, False, False, True, False,
+    ]
