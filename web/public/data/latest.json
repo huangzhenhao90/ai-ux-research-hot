@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T17:55:39.509478+00:00",
+  "generatedAt": "2026-11-03T02:02:31.636457+00:00",
   "windowDays": 3,
   "editionHour": 8,
   "days": [
@@ -93,67 +93,6 @@
           "itemType": "tutorial_explainer",
           "publishedAt": "2026-11-01T05:01:59+00:00",
           "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "count": 2,
-      "items": [
-        {
-          "id": "53ab599720369930",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/concept-testing-template/",
-          "title": "Concept Testing Template: Questions, Metrics & Rubric",
-          "titleZh": "Listen Labs 提供概念测试模板，含甄别问题、量化指标与 Go/Refine/Kill 规则",
-          "summaryZh": "Listen Labs 提供一套可直接复用的概念测试模板，按甄别、刺激展示、量化评分、开放题和 Go/Refine/Kill 规则五个步骤组织。模板用 5 点量表测量吸引力、相关性、独特性、可信度、购买意愿和价格感知，并以 top-2-box 作为主要 KPI。文章建议在测试 6 个以上概念或评分趋同时改用 MaxDiff，并用 AI 主持访谈追问每个评分背后的原因。",
-          "reason": "原文把概念测试拆成甄别、刺激展示、量化评分、开放题和 Go/Refine/Kill 规则，研究者可直接改写成问卷或交给研究伙伴执行。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "问卷/定量",
-            "AI 访谈",
-            "定性分析"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "method_or_template",
-          "publishedAt": "2026-10-31T05:11:39+00:00",
-          "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "5f4a190fc4907812",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/best-ai-consumer-simulation-tools/",
-          "title": "AI Consumer Simulation Tools: Decision Guide by Architecture",
-          "titleZh": "Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界",
-          "summaryZh": "Listen Labs 发布按架构划分的 AI 消费者模拟工具决策指南，将其分为合成用户、人群模型和基于真人访谈的数字孪生三类。文中引用 Bisbee 等 2024 年发表于 Political Analysis 的研究，称合成受访者可匹配真实调查均值，但方差明显偏低，48% 的回归系数出现显著偏差、32% 符号反转。作者称其 Listen Twins 由真人访谈构建，数秒内返回 100+ 条带推理、原话与置信度的预测答案，并引用 Park 等 2024 年针对 1,052 人的 Stanford 研究，指出访谈构建的智能体达到人类两周重测信度的 83–86%，仅按人口统计提示的为 74%。",
-          "reason": "文章按合成用户、人群模型与真人数字孪生三类架构拆解可信度边界，并给出各类研究任务的选择依据。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "合成用户",
-            "市场研究"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "tutorial_explainer",
-          "publishedAt": "2026-10-31T05:16:28+00:00",
-          "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
           "status": "selected",
           "dupOf": null,
           "relation": "different"

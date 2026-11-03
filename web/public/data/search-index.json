@@ -1,5 +1,5 @@
 {
-  "count": 262,
+  "count": 263,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -4126,6 +4126,23 @@
       "sourceName": "Behaviour & Information Technology",
       "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2024.2431631?af=R",
       "publishedAt": "2024-11-26T07:20:20+00:00"
+    },
+    {
+      "id": "7549da99ac2e8854",
+      "title": "How full-funnel outcomes measurement connects brand perception to sales",
+      "titleZh": "Cint 小组讨论：全漏斗成果测量如何连接品牌认知与销售",
+      "summaryZh": "Cint 的 Laura Manning 在 Advertising Week New York 与 Tubi、Teads、Zeta 高管讨论全漏斗成果测量，强调应追踪真实行为变化来连接品牌认知与销售。与会者认为品牌认知和销售长期分处不同孤岛，需沿消费者从情感到支出的非线性旅程平衡上下漏斗 KPI。面向美国客户的 Lucid Measurement by Cint 统一方案被提及，用于更快回答广告支出回报等商业问题。",
+      "tags": [
+        "观点/讨论",
+        "市场研究"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "category": "opinion",
+      "sourceName": "Cint",
+      "url": "https://www.cint.com/blog/how-full-funnel-outcomes-measurement-connects-brand-perception-to-sales/",
+      "publishedAt": "2026-11-02T22:39:08+00:00"
     },
     {
       "id": "0ba3bb39360603f5",
