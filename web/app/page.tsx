@@ -17,14 +17,8 @@ export default function HomePage() {
 
   return (
     <PageShell current="/">
-      <div className="page-head page-head--row">
-        <h1>精选</h1>
-        <span className="page-head__aside">
-          共 <span className="num">{items.length}</span> 条
-        </span>
-      </div>
-
       <FeedClient
+        featured
         items={items}
         categories={categories}
         reasonLabel={site.reasonLabel}
