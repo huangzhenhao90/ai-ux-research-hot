@@ -15,12 +15,18 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [Listen Labs 详解合成受访者虚拟焦点小组的四类失效模式与五步验证流程](https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/)：Listen Labs 发布指南，拆解合成受访者虚拟焦点小组的三步运行方式、四类失效模式与五步验证流程。指南引用 Pew Research Center 2026 年 9 月 30 日的方法学研究，称 AI 数字孪生受访者在个体层面约 5…（Listen Labs，2026-11-03）
+- [Listen Labs 如何用合成受众做持续品牌追踪](https://listenlabs.com/articles/synthetic-audiences-continuous-brand-tracking/)：Listen Labs 的 Anish Rao 撰文介绍如何用合成受众开展持续品牌追踪，并给出校准与验证流程。文中引用 Pew 2026 年 9 月实验称，GPT-5.1 与 Claude Opus 4.6 在相同问卷上的平均绝对误差分别…（Listen Labs，2026-11-03）
+- [Listen Labs 完整指南：如何测试新品类信息传达](https://listenlabs.com/articles/test-messaging-new-product-categories/)：Listen Labs 增长负责人 Anish Rao 发布指南，提出新品类信息测试应先通过理解度、相关性、差异性三道门槛，再测偏好。文中给出各问题的判断信号，例如受访者借用现有品类标签描述产品，说明品类框架没有建立，此时后续偏好数据无法…（Listen Labs，2026-11-03）
+- [AI 概念测试的准确度、局限与适用场景](https://listenlabs.com/articles/ai-concept-testing-accuracy/)：Listen Labs 的 Anish Rao 撰文解读 AI 概念测试的准确度与适用边界，建议先用 AI 工具大范围初筛，再用真人验证头部概念。文中引用 Pew 2026 年 9 月 30 日报告，合成受访者在近 300 道题上与真人结…（Listen Labs，2026-11-03）
 - [Listen Labs 解析合成品牌认知测试的准确性与局限](https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/)：Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认…（Listen Labs，2026-11-02）
 - [Listen Labs 分享用 Figma 原型做概念测试的四个步骤](https://listenlabs.com/articles/concept-testing-figma-prototypes/)：Listen Labs 增长负责人 Anish Rao 撰文给出用 Figma 原型做概念测试的四个步骤，并区分概念验证与可用性测试各自要回答的问题。文中建议结构与流程类问题用低保真原型，高保真只在信任、微文案或情绪反应是研究重点时使用，…（Listen Labs，2026-11-02）
 - [Listen Labs 的 AI 虚拟焦点小组画像选型指南：合成画像与真人访谈如何取舍](https://listenlabs.com/articles/ai-personas-virtual-focus-groups/)：Listen Labs 增长负责人 Anish Rao 发布 AI 虚拟焦点小组画像选型指南，把平台分为纯合成画像与基于真人访谈两类，主张合成画像只作筛查工具。文中引用 Pew 2026 年数字孪生测试，近 300 道题平均误差 12.4…（Listen Labs，2026-11-01）
 - [Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界](https://listenlabs.com/articles/best-ai-consumer-simulation-tools/)：Listen Labs 发布按架构划分的 AI 消费者模拟工具决策指南，将其分为合成用户、人群模型和基于真人访谈的数字孪生三类。文中引用 Bisbee 等 2024 年发表于 Political Analysis 的研究，称合成受访者可匹…（Listen Labs，2026-10-31）
 - [Listen Labs 提供概念测试模板，含甄别问题、量化指标与 Go/Refine/Kill 规则](https://listenlabs.com/articles/concept-testing-template/)：Listen Labs 提供一套可直接复用的概念测试模板，按甄别、刺激展示、量化评分、开放题和 Go/Refine/Kill 规则五个步骤组织。模板用 5 点量表测量吸引力、相关性、独特性、可信度、购买意愿和价格感知，并以 top-2-b…（Listen Labs，2026-10-31）
 - [NN/g 解读 UX 在 Anthropic 智能体软件工厂中的角色](https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：NN/g 分析 Anthropic 在 2026 年 8 月发布的 AI 原生软件开发生命周期（SDLC）构想，指出它把 UX 简化为引导 AI 生成的后台上下文。文章将其与 Google（2026 年 5 月）和 OpenAI（2025…（Nielsen Norman Group，2026-10-30）
+- [LLM 用户模拟研究：共享偏差不会被模拟器分歧发现](https://arxiv.org/abs/2611.01354v1)：一项研究以6个语言模型模拟器在GlobalOpinionQA的60题、12国数据上的分歧作为可靠性信号，检验LLM模拟用户对人类调查估计的可靠性。结果显示，分歧更能识别群组差异，而不能识别单组比例的无效估计，但多个模拟器共有的偏差不会被发…（ur-ai-papers（用户与交互 AI 论文库），2026-10-31）
+- [研究用人类实验数据构建语言模型行为画像以模拟分布外人类行为](https://arxiv.org/abs/2611.00661v1)：研究提出从既往人类实验数据中提取行为特征，为语言模型生成行为档案并筛选可预测特征，再用新参与者和新设计验证其对分布外人类行为的模拟。公共品、议价和金钱请求实验显示，单一有效特征优于无档案或使用通用人格，特征过多没有额外收益，跨博弈迁移有时…（ur-ai-papers（用户与交互 AI 论文库），2026-10-31）
 - [面向不同研究目标的开放式问卷问题示例](https://www.strella.io/blog/open-ended-questions-for-surveys-examples)：Strella 博客发布一篇开放式问卷问题示例文章，按不同研究目标整理提问示例。文章以示例形式呈现，供设计开放式问题时对照参考。（Strella Blog，2026-10-31）
 - [Listen Labs 的初创公司快速信息测试七步流程](https://listenlabs.com/articles/fast-message-testing-startups-playbook/)：Listen Labs 增长负责人 Anish Rao 给出一套面向初创公司的快速信息测试七步流程，先用免费 LLM 粗筛文案，再用真实受访者验证。流程中间用 Lyssna 的五秒测试和 PickFu 的偏好测试把四个方向缩到两个，文中提…（Listen Labs，2026-10-30）
 - [Listen Labs 如何为概念测试招募难触达受众](https://listenlabs.com/articles/recruit-hard-to-reach-audiences/)：Listen Labs 增长负责人 Anish Rao 撰文，介绍概念测试中难触达受众的招募方法；该方法按低发生率、被把关、不信任、时间稀缺、缺席样本库五类成因分别匹配招募渠道。文中建议用行为甄别题、开放式验证题和虚构品牌排雷题筛掉职业答…（Listen Labs，2026-10-30）
@@ -39,11 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [超越行为准确率：评估 LLM 投资者模拟中的个体层面保真度](https://arxiv.org/abs/2610.26524)：一项 80 人参与的纵向模拟交易研究检验 LLM 能否复现个体投资者的决策逻辑，发现没有评估中的 LLM 能在预测是否发生交易上稳定超过简单的近期活跃度基线。买卖结构与资产选择同样难以复现，且活动水平相近的模型也可能产生差异很大的组合轨迹…（arXiv cs.HC，2026-10-27）
 - [MeasuringU 与 UXPA 发布 2026 UX 薪资调查：中位数 $143K，附薪资计算器](https://measuringu.com/salary-survey2026/?utm_source=rss&utm_medium=rss&utm_campaign=salary-survey2026)：MeasuringU 与 UXPA 的 2026 UX 薪资调查共收集 24 个国家 383 份样本，UX 从业者薪资中位数为 $143K，较 2024 年的 $120K 高 19%。同期通胀为 6.3%，通胀调整后实际增幅约 12%；样…（MeasuringU（Jeff Sauro），2026-10-26）
 - [Channels 2.0 正式可用，为各团队提供统一的客户上下文层](https://dovetail.com/blog/channels-2-is-generally-available/)：宣布 Channels 2.0 正式可用（GA），把营收、产品与团队上下文叠加到每一条客户反馈上。官方称，这让每个团队都能基于证据做决策（Dovetail Blog，2026-10-26）
-- [如何用 AI persona 做可用性测试：Listen Labs 完整指南](https://listenlabs.com/articles/ai-personas-usability-testing/)：Listen Labs 在一份指南中把 AI persona 定位为可用性测试的假设生成与分诊工具，而非证据来源。指南主张用行为特征而非人口标签构建 persona，并用显式反迎合提示词让模型报告摩擦点而不是给出好评。文中引用 NN/g…（Listen Labs，2026-10-26）
-- [Listen Labs 分步讲解如何用 AI 模拟顾客反应](https://listenlabs.com/articles/simulate-customer-reactions-with-ai/)：Listen Labs 增长负责人 Anish Rao 撰文给出用 AI 模拟顾客反应的分步流程，包括定义决策与假设、选择分群、构建模拟基础、记录推理过程、用真人验证以及报告标注数据来源。文中引用 Park 等人（arXiv:2411.1…（Listen Labs，2026-10-26）
-- [Atlas of Human-AI Interaction 用 LLM 从 31,741 篇论文抽取 308,802 条论断构建交互知识图谱](https://arxiv.org/abs/2509.25499)：论文提出一套组织实证发现的框架，结合 LLM 驱动的论断抽取、实体消解、分类体系生成与知识图谱构建，并保留与研究情境和来源的链接。作者以 Atlas of Human-AI Interaction 实例化该框架，组织来自 31,741 篇…（arXiv cs.HC，2026-10-26）
-- [研究指出交互式 LLM 评估不能只验证评分器整体准确率](https://arxiv.org/abs/2610.31678)：论文指出，在交互式 LLM 评估中只用整体准确率或 F1 验证自动评分器，会掩盖提示词层面的错误并扭曲提示词之间的比较结果。作者用 6 个模型、180 个虚构实体问题和 6 种提示词条件做检验，288 条平衡审计的整体 F1 为 .916…（arXiv cs.HC，2026-10-26）
-- [Sprig 扩展 MCP 能力，从创建研究延伸到完整工作流](https://sprig.com/blog/mcp-capabilities-expansion)：Sprig 宣布扩展其 MCP 能力，覆盖范围从创建单项研究延伸到完整工作流。原文把此前只能做研究创建的阶段与现在可串联多步骤流程的能力做了区分。（Sprig Blog，2026-10-26）
-- [AI 进入专业用户工作前，边界该划在哪里](https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4)：作者提出六个考量，用来判断对话式 AI 界面是在加速专家用户，还是在他们与熟悉的工作之间插进一个键盘。文中引用 METR 的随机试验，经验丰富的开源开发者在自己的代码库上使用 AI 工具反而慢 19%，却以为获得了提速；Dell'Acqu…（UX Collective，2026-10-25）
 
-（更多 51 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 57 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

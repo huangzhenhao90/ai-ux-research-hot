@@ -1,5 +1,5 @@
 {
-  "count": 263,
+  "count": 271,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -191,6 +191,24 @@
       "publishedAt": "2025-10-08T15:00:00+00:00"
     },
     {
+      "id": "ba1ff72af3d0f43e",
+      "title": "Virtual Focus Groups With Synthetic Respondents",
+      "titleZh": "Listen Labs 详解合成受访者虚拟焦点小组的四类失效模式与五步验证流程",
+      "summaryZh": "Listen Labs 发布指南，拆解合成受访者虚拟焦点小组的三步运行方式、四类失效模式与五步验证流程。指南引用 Pew Research Center 2026 年 9 月 30 日的方法学研究，称 AI 数字孪生受访者在个体层面约 55% 的回答与真实样本库受访者一致，与真人调查估计平均相差约 12 个百分点；另引 Political Analysis 2024 年 Bisbee 等人的研究，48% 的合成回答回归系数与真人基准存在显著差异，其中 32% 符号相反。验证流程要求用同一刺激材料、10–20 名已验证真实受访者独立执行，比较偏好方向与用词，并在定价、发布等高风险决策前以真人样本重新验证。",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/",
+      "publishedAt": "2026-11-03T05:05:53+00:00"
+    },
+    {
       "id": "b80497b282a548ce",
       "title": "When Can You Trust Your Synthetic Users? Diagnostics and Corrections for LLM Consumer Panels",
       "titleZh": "研究提出判断 LLM 合成用户样本库何时可信的诊断与修正框架",
@@ -272,6 +290,25 @@
       "sourceName": "UX Collective",
       "url": "https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4",
       "publishedAt": "2026-10-27T11:13:03+00:00"
+    },
+    {
+      "id": "c3391f94467d3095",
+      "title": "AI Concept Testing: Accuracy, Limits & When It Works",
+      "titleZh": "AI 概念测试的准确度、局限与适用场景",
+      "summaryZh": "Listen Labs 的 Anish Rao 撰文解读 AI 概念测试的准确度与适用边界，建议先用 AI 工具大范围初筛，再用真人验证头部概念。文中引用 Pew 2026 年 9 月 30 日报告，合成受访者在近 300 道题上与真人结果平均相差约 12 个百分点，28% 的题目差距超过 15 个百分点。Sarstedt 等 2024 年在 Psychology & Marketing 综述 285 组硅基与人类对比，NIM 研究显示合成参与者的品牌选择与真人匹配约 79%，但在 7 点量表上平均高估 1.2 分且方差明显更小。",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/ai-concept-testing-accuracy/",
+      "publishedAt": "2026-11-03T05:05:29+00:00"
     },
     {
       "id": "5f722c1201d4ecdd",
@@ -363,6 +400,22 @@
       "sourceName": "dscout People Nerds",
       "url": "https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases",
       "publishedAt": "2026-10-06T16:00:00+00:00"
+    },
+    {
+      "id": "2c3589f8866e2765",
+      "title": "错误同频：用户模拟中的共享偏差",
+      "titleZh": "LLM 用户模拟研究：共享偏差不会被模拟器分歧发现",
+      "summaryZh": "一项研究以6个语言模型模拟器在GlobalOpinionQA的60题、12国数据上的分歧作为可靠性信号，检验LLM模拟用户对人类调查估计的可靠性。结果显示，分歧更能识别群组差异，而不能识别单组比例的无效估计，但多个模拟器共有的偏差不会被发现。估计并扣除共享偏差可降低误差，将高分歧比较转交人工复核也能改善判断。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.01354v1",
+      "publishedAt": "2026-10-30T16:00:00+00:00"
     },
     {
       "id": "1b9962ed79acf9f4",
@@ -521,6 +574,25 @@
       "publishedAt": "2026-10-25T05:04:34+00:00"
     },
     {
+      "id": "4e8f45dfecabdd91",
+      "title": "How To Use Synthetic Audiences for Continuous Brand Tracking",
+      "titleZh": "Listen Labs 如何用合成受众做持续品牌追踪",
+      "summaryZh": "Listen Labs 的 Anish Rao 撰文介绍如何用合成受众开展持续品牌追踪，并给出校准与验证流程。文中引用 Pew 2026 年 9 月实验称，GPT-5.1 与 Claude Opus 4.6 在相同问卷上的平均绝对误差分别为 13.3 和 11.4 个百分点，模型版本或提示词变化可能造成与真实态度变化无关的趋势断裂；Strat7 2026 年测试中合成问卷识别真实变化的成功率仅 47%。作者提出冻结模型版本、每波用真实样本重新校准、监测漂移、记录变更并重建基线等控制，并强调合成受众适合方向性探索，需要经受审视的报告趋势线应由真实受访者承担。",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/synthetic-audiences-continuous-brand-tracking/",
+      "publishedAt": "2026-11-03T05:05:40+00:00"
+    },
+    {
       "id": "98ae0612de392e43",
       "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
       "titleZh": "调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂",
@@ -538,6 +610,22 @@
       "sourceName": "Nielsen Norman Group",
       "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "publishedAt": "2026-10-23T17:00:00+00:00"
+    },
+    {
+      "id": "774145de1d8bfc44",
+      "title": "面向分布外人类行为模拟的语言模型行为画像设计",
+      "titleZh": "研究用人类实验数据构建语言模型行为画像以模拟分布外人类行为",
+      "summaryZh": "研究提出从既往人类实验数据中提取行为特征，为语言模型生成行为档案并筛选可预测特征，再用新参与者和新设计验证其对分布外人类行为的模拟。公共品、议价和金钱请求实验显示，单一有效特征优于无档案或使用通用人格，特征过多没有额外收益，跨博弈迁移有时反而降低准确性。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "行为数据"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.00661v1",
+      "publishedAt": "2026-10-30T16:00:00+00:00"
     },
     {
       "id": "b68c2c6b61048c5e",
@@ -917,6 +1005,24 @@
       "publishedAt": "2026-03-27T01:00:00+00:00"
     },
     {
+      "id": "9333b6722e25af5e",
+      "title": "How To Test New-Category Messaging: A Complete Guide",
+      "titleZh": "Listen Labs 完整指南：如何测试新品类信息传达",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布指南，提出新品类信息测试应先通过理解度、相关性、差异性三道门槛，再测偏好。文中给出各问题的判断信号，例如受访者借用现有品类标签描述产品，说明品类框架没有建立，此时后续偏好数据无法解读；5-second test 以 5–10 人可获得定性判断，需要可辩护的回忆率时使用 30–50 人。文末介绍 Listen Labs 用 AI 主持访谈扩展这一流程，提供动态追问，并称可在 24 小时内交付分析后的主题，样本网络覆盖 50M+ 受访者、45+ 国家和 120+ 语言，另引用 P&G 250+ 场新产品宣称访谈的案例。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/test-messaging-new-product-categories/",
+      "publishedAt": "2026-11-03T05:05:35+00:00"
+    },
+    {
       "id": "a343873a779e028c",
       "title": "Ipsos appoints Mitch Barns as Chairman and CEO, Americas",
       "titleZh": "Ipsos 任命 Mitch Barns 为美洲区董事长兼 CEO",
@@ -1101,6 +1207,21 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/quirkos-3-is-released-best-qualitative-software/",
       "publishedAt": "2025-01-23T10:27:25+00:00"
+    },
+    {
+      "id": "6f600c4420bdf0b3",
+      "title": "HiPaper：用于学术文献甄选与科研意义建构的人机协作系统",
+      "titleZh": "HiPaper：用于学术文献甄选与科研意义建构的人机协作系统",
+      "summaryZh": "HiPaper 是一个人机协作文献研读系统，把文献研读拆为检索、收集与综合三阶段，并借 Knowledge Pocket 公开可检查、修订和验证的中间 AI 结果。专家形成性研究与 14 名博士生实验显示，该分阶段协作能提升文献筛选、证据追溯和跨领域知识综合能力。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.00762v1",
+      "publishedAt": "2026-10-30T16:00:00+00:00"
     },
     {
       "id": "b657bf455c82f874",
@@ -2094,6 +2215,25 @@
       "sourceName": "SurveyCTO",
       "url": "https://www.surveycto.com/press-releases/hipaa-compliance/",
       "publishedAt": "2026-03-03T20:43:47+00:00"
+    },
+    {
+      "id": "7316a5b53891ade4",
+      "title": "AI Digital Twins for Brand Tracking: Tracker Owner Guide",
+      "titleZh": "Listen Labs：品牌追踪 AI 数字孪生指南（追踪负责人版）",
+      "summaryZh": "Listen Labs 的品牌追踪负责人指南提出，用 1:1 Listen Twins 解释 KPI 变化，头条指标仍由真实受访者提供。每个 Twin 基于 1 位真人的新访谈，信号不足时说“I don’t know”，并支持 1 键验证。Pew 近 300 题测试中，合成样本平均偏差 12 个百分点，约 28% 题目达 15 点以上。",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/ai-digital-twins-brand-tracking/",
+      "publishedAt": "2026-11-03T05:05:47+00:00"
     },
     {
       "id": "6c64ab94bbbdc193",

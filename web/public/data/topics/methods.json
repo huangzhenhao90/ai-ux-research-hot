@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 99,
+  "count": 104,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -132,6 +132,33 @@
       "relation": null
     },
     {
+      "id": "ba1ff72af3d0f43e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/",
+      "title": "Virtual Focus Groups With Synthetic Respondents",
+      "titleZh": "Listen Labs 详解合成受访者虚拟焦点小组的四类失效模式与五步验证流程",
+      "summaryZh": "Listen Labs 发布指南，拆解合成受访者虚拟焦点小组的三步运行方式、四类失效模式与五步验证流程。指南引用 Pew Research Center 2026 年 9 月 30 日的方法学研究，称 AI 数字孪生受访者在个体层面约 55% 的回答与真实样本库受访者一致，与真人调查估计平均相差约 12 个百分点；另引 Political Analysis 2024 年 Bisbee 等人的研究，48% 的合成回答回归系数与真人基准存在显著差异，其中 32% 符号相反。验证流程要求用同一刺激材料、10–20 名已验证真实受访者独立执行，比较偏好方向与用词，并在定价、发布等高风险决策前以真人样本重新验证。",
+      "reason": "文中列出四类合成受访者失效模式与五步验证做法，并给出在高成本决策前改用真实受访者的判定条件。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-03T05:05:53+00:00",
+      "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "1b2c654978a75552",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -155,6 +182,34 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-02T05:05:32+00:00",
       "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "c3391f94467d3095",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-concept-testing-accuracy/",
+      "title": "AI Concept Testing: Accuracy, Limits & When It Works",
+      "titleZh": "AI 概念测试的准确度、局限与适用场景",
+      "summaryZh": "Listen Labs 的 Anish Rao 撰文解读 AI 概念测试的准确度与适用边界，建议先用 AI 工具大范围初筛，再用真人验证头部概念。文中引用 Pew 2026 年 9 月 30 日报告，合成受访者在近 300 道题上与真人结果平均相差约 12 个百分点，28% 的题目差距超过 15 个百分点。Sarstedt 等 2024 年在 Psychology & Marketing 综述 285 组硅基与人类对比，NIM 研究显示合成参与者的品牌选择与真人匹配约 79%，但在 7 点量表上平均高估 1.2 分且方差明显更小。",
+      "reason": "文章把准确度拆成方向、相对与预测三层，并汇总三项实证研究，便于判断合成受访者能用到哪一步。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-03T05:05:29+00:00",
+      "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -294,6 +349,34 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-25T05:04:45+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "4e8f45dfecabdd91",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/synthetic-audiences-continuous-brand-tracking/",
+      "title": "How To Use Synthetic Audiences for Continuous Brand Tracking",
+      "titleZh": "Listen Labs 如何用合成受众做持续品牌追踪",
+      "summaryZh": "Listen Labs 的 Anish Rao 撰文介绍如何用合成受众开展持续品牌追踪，并给出校准与验证流程。文中引用 Pew 2026 年 9 月实验称，GPT-5.1 与 Claude Opus 4.6 在相同问卷上的平均绝对误差分别为 13.3 和 11.4 个百分点，模型版本或提示词变化可能造成与真实态度变化无关的趋势断裂；Strat7 2026 年测试中合成问卷识别真实变化的成功率仅 47%。作者提出冻结模型版本、每波用真实样本重新校准、监测漂移、记录变更并重建基线等控制，并强调合成受众适合方向性探索，需要经受审视的报告趋势线应由真实受访者承担。",
+      "reason": "文章把合成受众在品牌追踪中的漂移风险拆成可执行的校准与验证步骤，并给出何时改用真实受访者的决策边界。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-11-03T05:05:40+00:00",
+      "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -541,6 +624,33 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "9333b6722e25af5e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/test-messaging-new-product-categories/",
+      "title": "How To Test New-Category Messaging: A Complete Guide",
+      "titleZh": "Listen Labs 完整指南：如何测试新品类信息传达",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布指南，提出新品类信息测试应先通过理解度、相关性、差异性三道门槛，再测偏好。文中给出各问题的判断信号，例如受访者借用现有品类标签描述产品，说明品类框架没有建立，此时后续偏好数据无法解读；5-second test 以 5–10 人可获得定性判断，需要可辩护的回忆率时使用 30–50 人。文末介绍 Listen Labs 用 AI 主持访谈扩展这一流程，提供动态追问，并称可在 24 小时内交付分析后的主题，样本网络覆盖 50M+ 受访者、45+ 国家和 120+ 语言，另引用 P&G 250+ 场新产品宣称访谈的案例。",
+      "reason": "文中把理解度、相关性与差异性拆成三道带门槛的提问，并给出定性工具的样本量建议，可直接迁移到新品类信息测试流程。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-11-03T05:05:35+00:00",
+      "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "93522d31daf7320e",
@@ -1446,6 +1556,34 @@
       "itemType": null,
       "publishedAt": "2026-10-28T04:00:00+00:00",
       "discoveredAt": "2026-10-28T04:28:31.660351+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7316a5b53891ade4",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-digital-twins-brand-tracking/",
+      "title": "AI Digital Twins for Brand Tracking: Tracker Owner Guide",
+      "titleZh": "Listen Labs：品牌追踪 AI 数字孪生指南（追踪负责人版）",
+      "summaryZh": "Listen Labs 的品牌追踪负责人指南提出，用 1:1 Listen Twins 解释 KPI 变化，头条指标仍由真实受访者提供。每个 Twin 基于 1 位真人的新访谈，信号不足时说“I don’t know”，并支持 1 键验证。Pew 近 300 题测试中，合成样本平均偏差 12 个百分点，约 28% 题目达 15 点以上。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-03T05:05:47+00:00",
+      "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

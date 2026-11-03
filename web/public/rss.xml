@@ -5,9 +5,45 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 03 Nov 2026 02:02:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 11:40:56 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 详解合成受访者虚拟焦点小组的四类失效模式与五步验证流程</title>
+      <link>https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/</guid>
+      <pubDate>Tue, 03 Nov 2026 05:05:53 GMT</pubDate>
+      <description>Listen Labs 发布指南，拆解合成受访者虚拟焦点小组的三步运行方式、四类失效模式与五步验证流程。指南引用 Pew Research Center 2026 年 9 月 30 日的方法学研究，称 AI 数字孪生受访者在个体层面约 55% 的回答与真实样本库受访者一致，与真人调查估计平均相差约 12 个百分点；另引 Political Analysis 2024 年 Bisbee 等人的研究，48% 的合成回答回归系数与真人基准存在显著差异，其中 32% 符号相反。验证流程要求用同一刺激材料、10–20 名已验证真实受访者独立执行，比较偏好方向与用词，并在定价、发布等高风险决策前以真人样本重新验证。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Listen Labs 如何用合成受众做持续品牌追踪</title>
+      <link>https://listenlabs.com/articles/synthetic-audiences-continuous-brand-tracking/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-audiences-continuous-brand-tracking/</guid>
+      <pubDate>Tue, 03 Nov 2026 05:05:40 GMT</pubDate>
+      <description>Listen Labs 的 Anish Rao 撰文介绍如何用合成受众开展持续品牌追踪，并给出校准与验证流程。文中引用 Pew 2026 年 9 月实验称，GPT-5.1 与 Claude Opus 4.6 在相同问卷上的平均绝对误差分别为 13.3 和 11.4 个百分点，模型版本或提示词变化可能造成与真实态度变化无关的趋势断裂；Strat7 2026 年测试中合成问卷识别真实变化的成功率仅 47%。作者提出冻结模型版本、每波用真实样本重新校准、监测漂移、记录变更并重建基线等控制，并强调合成受众适合方向性探索，需要经受审视的报告趋势线应由真实受访者承担。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Listen Labs 完整指南：如何测试新品类信息传达</title>
+      <link>https://listenlabs.com/articles/test-messaging-new-product-categories/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/test-messaging-new-product-categories/</guid>
+      <pubDate>Tue, 03 Nov 2026 05:05:35 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 发布指南，提出新品类信息测试应先通过理解度、相关性、差异性三道门槛，再测偏好。文中给出各问题的判断信号，例如受访者借用现有品类标签描述产品，说明品类框架没有建立，此时后续偏好数据无法解读；5-second test 以 5–10 人可获得定性判断，需要可辩护的回忆率时使用 30–50 人。文末介绍 Listen Labs 用 AI 主持访谈扩展这一流程，提供动态追问，并称可在 24 小时内交付分析后的主题，样本网络覆盖 50M+ 受访者、45+ 国家和 120+ 语言，另引用 P&amp;G 250+ 场新产品宣称访谈的案例。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>AI 概念测试的准确度、局限与适用场景</title>
+      <link>https://listenlabs.com/articles/ai-concept-testing-accuracy/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/ai-concept-testing-accuracy/</guid>
+      <pubDate>Tue, 03 Nov 2026 05:05:29 GMT</pubDate>
+      <description>Listen Labs 的 Anish Rao 撰文解读 AI 概念测试的准确度与适用边界，建议先用 AI 工具大范围初筛，再用真人验证头部概念。文中引用 Pew 2026 年 9 月 30 日报告，合成受访者在近 300 道题上与真人结果平均相差约 12 个百分点，28% 的题目差距超过 15 个百分点。Sarstedt 等 2024 年在 Psychology &amp; Marketing 综述 285 组硅基与人类对比，NIM 研究显示合成参与者的品牌选择与真人匹配约 79%，但在 7 点量表上平均高估 1.2 分且方差明显更小。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Listen Labs 解析合成品牌认知测试的准确性与局限</title>
       <link>https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/</link>
@@ -61,6 +97,24 @@
       <description>NN/g 分析 Anthropic 在 2026 年 8 月发布的 AI 原生软件开发生命周期（SDLC）构想，指出它把 UX 简化为引导 AI 生成的后台上下文。文章将其与 Google（2026 年 5 月）和 OpenAI（2025 年 11 月）的类似发布做对比，认为三者细节不同但都把 UX 边缘化。作者提出 UX 还负责发现用户需求、强化团队对构建内容的共同判断，以及在上线前后评估产出，照搬该模型的组织可能失去 AI 上下文所依赖的用户洞察。</description>
       <category>Nielsen Norman Group</category>
       <category>opinion</category>
+    </item>
+    <item>
+      <title>LLM 用户模拟研究：共享偏差不会被模拟器分歧发现</title>
+      <link>https://arxiv.org/abs/2611.01354v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.01354v1</guid>
+      <pubDate>Fri, 30 Oct 2026 16:00:00 GMT</pubDate>
+      <description>一项研究以6个语言模型模拟器在GlobalOpinionQA的60题、12国数据上的分歧作为可靠性信号，检验LLM模拟用户对人类调查估计的可靠性。结果显示，分歧更能识别群组差异，而不能识别单组比例的无效估计，但多个模拟器共有的偏差不会被发现。估计并扣除共享偏差可降低误差，将高分歧比较转交人工复核也能改善判断。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>研究用人类实验数据构建语言模型行为画像以模拟分布外人类行为</title>
+      <link>https://arxiv.org/abs/2611.00661v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.00661v1</guid>
+      <pubDate>Fri, 30 Oct 2026 16:00:00 GMT</pubDate>
+      <description>研究提出从既往人类实验数据中提取行为特征，为语言模型生成行为档案并筛选可预测特征，再用新参与者和新设计验证其对分布外人类行为的模拟。公共品、议价和金钱请求实验显示，单一有效特征优于无档案或使用通用人格，特征过多没有额外收益，跨博弈迁移有时反而降低准确性。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
     </item>
     <item>
       <title>面向不同研究目标的开放式问卷问题示例</title>
@@ -403,58 +457,6 @@
       <description>Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。</description>
       <category>Cint</category>
       <category>opinion</category>
-    </item>
-    <item>
-      <title>LLM 作为调查受访者：与简单语义基线的比较</title>
-      <link>https://arxiv.org/abs/2610.29645v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.29645v1</guid>
-      <pubDate>Tue, 20 Oct 2026 16:00:00 GMT</pubDate>
-      <description>一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比。结果显示 LLM 整体优于基线，但随已知答案比例下降而性能下滑，在一份量表中甚至与基线持平。研究据此指出，数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强的效力有限。</description>
-      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
-      <category>research</category>
-    </item>
-    <item>
-      <title>quantilope 推出 Category Twins 合成用户社区</title>
-      <link>https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins</link>
-      <guid isPermaLink="true">https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins</guid>
-      <pubDate>Tue, 20 Oct 2026 12:00:03 GMT</pubDate>
-      <description>quantilope 推出 Category Twins，这是一个基于品牌自有数据构建数字孪生、可组成合成用户社区的解决方案，现已面向全球品牌开放。该方案与 10 个国家 30 个品牌共同开发，使用 Ehrenberg-Bass 框架及 Mental Availability、Category Entry Points 指标，可按类别和区域以固定费用单独购买。用户可通过文字、语音和图片与数字孪生对话，新的 Mental Availability 研究完成后数字孪生会自动更新。</description>
-      <category>quantilope</category>
-      <category>tools</category>
-    </item>
-    <item>
-      <title>tvbeat 与 合作，为 TVNZ 和 Sky 推进新西兰 Total TV 受众测量</title>
-      <link>https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand</link>
-      <guid isPermaLink="true">https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand</guid>
-      <pubDate>Mon, 19 Oct 2026 10:12:34 GMT</pubDate>
-      <description>tvbeat 与 达成合作，将为 TVNZ 和 Sky 在新西兰推进 Total TV 受众测量。新的受众测量系统（Audience Measurement System）会把 TVNZ 和 Sky 的大规模一方观看数据与独立受众研究结合，为 Total TV 建立可信基础</description>
-      <category>Ipsos</category>
-      <category>industry</category>
-    </item>
-    <item>
-      <title>Maze 宣布更多市场研究可在平台内完成</title>
-      <link>https://maze.co/blog/ai-for-market-research/</link>
-      <guid isPermaLink="true">https://maze.co/blog/ai-for-market-research/</guid>
-      <pubDate>Thu, 08 Oct 2026 05:28:33 GMT</pubDate>
-      <description>Maze 发布博文称，更多市场研究现在可以在 Maze 内完成，指向平台对市场研究场景的进一步覆盖。</description>
-      <category>Maze Blog</category>
-    </item>
-    <item>
-      <title>合成用户与数字孪生：定义、风险与真实用例</title>
-      <link>https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases</link>
-      <guid isPermaLink="true">https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases</guid>
-      <pubDate>Tue, 06 Oct 2026 16:00:00 GMT</pubDate>
-      <description>dscout 的 People Nerds 梳理了合成用户与数字孪生的定义差异，并逐一说明两者的风险与真实使用场景。文章把这两个常被混用的概念分开，供研究团队判断各自适用的环节与边界。</description>
-      <category>dscout People Nerds</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>研究中的多数「数字孪生」其实就是换了名字的合成用户</title>
-      <link>https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins</link>
-      <guid isPermaLink="true">https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins</guid>
-      <pubDate>Thu, 01 Oct 2026 16:00:00 GMT</pubDate>
-      <description>文章指出研究中的多数「数字孪生」实际上就是换了名字的合成用户，并围绕这两个概念的区别展开讨论。这一区分关系到团队如何界定合成受访者方案的能力边界。</description>
-      <category>Great Question Blog</category>
     </item>
   </channel>
 </rss>

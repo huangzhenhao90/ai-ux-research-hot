@@ -1,0 +1,26 @@
+{
+  "id": "774145de1d8bfc44",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.00661v1",
+  "title": "面向分布外人类行为模拟的语言模型行为画像设计",
+  "titleZh": "研究用人类实验数据构建语言模型行为画像以模拟分布外人类行为",
+  "summaryZh": "研究提出从既往人类实验数据中提取行为特征，为语言模型生成行为档案并筛选可预测特征，再用新参与者和新设计验证其对分布外人类行为的模拟。公共品、议价和金钱请求实验显示，单一有效特征优于无档案或使用通用人格，特征过多没有额外收益，跨博弈迁移有时反而降低准确性。",
+  "reason": "研究用人类实验数据为 LLM 生成行为档案，并给出特征数量与跨博弈迁移的取舍，可供设计合成用户时参考。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "行为数据"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-30T16:00:00+00:00",
+  "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "same",
+  "related": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "4e8f45dfecabdd91",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/synthetic-audiences-continuous-brand-tracking/",
+  "title": "How To Use Synthetic Audiences for Continuous Brand Tracking",
+  "titleZh": "Listen Labs 如何用合成受众做持续品牌追踪",
+  "summaryZh": "Listen Labs 的 Anish Rao 撰文介绍如何用合成受众开展持续品牌追踪，并给出校准与验证流程。文中引用 Pew 2026 年 9 月实验称，GPT-5.1 与 Claude Opus 4.6 在相同问卷上的平均绝对误差分别为 13.3 和 11.4 个百分点，模型版本或提示词变化可能造成与真实态度变化无关的趋势断裂；Strat7 2026 年测试中合成问卷识别真实变化的成功率仅 47%。作者提出冻结模型版本、每波用真实样本重新校准、监测漂移、记录变更并重建基线等控制，并强调合成受众适合方向性探索，需要经受审视的报告趋势线应由真实受访者承担。",
+  "reason": "文章把合成受众在品牌追踪中的漂移风险拆成可执行的校准与验证步骤，并给出何时改用真实受访者的决策边界。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "市场研究",
+    "问卷/定量"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-11-03T05:05:40+00:00",
+  "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "6f600c4420bdf0b3",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.00762v1",
+  "title": "HiPaper：用于学术文献甄选与科研意义建构的人机协作系统",
+  "titleZh": "HiPaper：用于学术文献甄选与科研意义建构的人机协作系统",
+  "summaryZh": "HiPaper 是一个人机协作文献研读系统，把文献研读拆为检索、收集与综合三阶段，并借 Knowledge Pocket 公开可检查、修订和验证的中间 AI 结果。专家形成性研究与 14 名博士生实验显示，该分阶段协作能提升文献筛选、证据追溯和跨领域知识综合能力。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-10-30T16:00:00+00:00",
+  "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

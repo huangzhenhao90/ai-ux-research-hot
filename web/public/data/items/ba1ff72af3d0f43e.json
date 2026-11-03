@@ -1,0 +1,28 @@
+{
+  "id": "ba1ff72af3d0f43e",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/",
+  "title": "Virtual Focus Groups With Synthetic Respondents",
+  "titleZh": "Listen Labs 详解合成受访者虚拟焦点小组的四类失效模式与五步验证流程",
+  "summaryZh": "Listen Labs 发布指南，拆解合成受访者虚拟焦点小组的三步运行方式、四类失效模式与五步验证流程。指南引用 Pew Research Center 2026 年 9 月 30 日的方法学研究，称 AI 数字孪生受访者在个体层面约 55% 的回答与真实样本库受访者一致，与真人调查估计平均相差约 12 个百分点；另引 Political Analysis 2024 年 Bisbee 等人的研究，48% 的合成回答回归系数与真人基准存在显著差异，其中 32% 符号相反。验证流程要求用同一刺激材料、10–20 名已验证真实受访者独立执行，比较偏好方向与用词，并在定价、发布等高风险决策前以真人样本重新验证。",
+  "reason": "文中列出四类合成受访者失效模式与五步验证做法，并给出在高成本决策前改用真实受访者的判定条件。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "AI 访谈"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-11-03T05:05:53+00:00",
+  "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

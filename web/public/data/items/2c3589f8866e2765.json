@@ -1,0 +1,26 @@
+{
+  "id": "2c3589f8866e2765",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.01354v1",
+  "title": "错误同频：用户模拟中的共享偏差",
+  "titleZh": "LLM 用户模拟研究：共享偏差不会被模拟器分歧发现",
+  "summaryZh": "一项研究以6个语言模型模拟器在GlobalOpinionQA的60题、12国数据上的分歧作为可靠性信号，检验LLM模拟用户对人类调查估计的可靠性。结果显示，分歧更能识别群组差异，而不能识别单组比例的无效估计，但多个模拟器共有的偏差不会被发现。估计并扣除共享偏差可降低误差，将高分歧比较转交人工复核也能改善判断。",
+  "reason": "研究用6个语言模型在GlobalOpinionQA的60题、12国数据上的分歧检验调查估计，并指出多个模拟器共有的偏差不会被分歧发现。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "问卷/定量"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-10-30T16:00:00+00:00",
+  "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "same",
+  "related": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "c3391f94467d3095",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/ai-concept-testing-accuracy/",
+  "title": "AI Concept Testing: Accuracy, Limits & When It Works",
+  "titleZh": "AI 概念测试的准确度、局限与适用场景",
+  "summaryZh": "Listen Labs 的 Anish Rao 撰文解读 AI 概念测试的准确度与适用边界，建议先用 AI 工具大范围初筛，再用真人验证头部概念。文中引用 Pew 2026 年 9 月 30 日报告，合成受访者在近 300 道题上与真人结果平均相差约 12 个百分点，28% 的题目差距超过 15 个百分点。Sarstedt 等 2024 年在 Psychology & Marketing 综述 285 组硅基与人类对比，NIM 研究显示合成参与者的品牌选择与真人匹配约 79%，但在 7 点量表上平均高估 1.2 分且方差明显更小。",
+  "reason": "文章把准确度拆成方向、相对与预测三层，并汇总三项实证研究，便于判断合成受访者能用到哪一步。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "AI 访谈",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-11-03T05:05:29+00:00",
+  "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "7316a5b53891ade4",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/ai-digital-twins-brand-tracking/",
+  "title": "AI Digital Twins for Brand Tracking: Tracker Owner Guide",
+  "titleZh": "Listen Labs：品牌追踪 AI 数字孪生指南（追踪负责人版）",
+  "summaryZh": "Listen Labs 的品牌追踪负责人指南提出，用 1:1 Listen Twins 解释 KPI 变化，头条指标仍由真实受访者提供。每个 Twin 基于 1 位真人的新访谈，信号不足时说“I don’t know”，并支持 1 键验证。Pew 近 300 题测试中，合成样本平均偏差 12 个百分点，约 28% 题目达 15 点以上。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "市场研究",
+    "AI 访谈"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-03T05:05:47+00:00",
+  "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

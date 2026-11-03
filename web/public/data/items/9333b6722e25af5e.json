@@ -1,0 +1,28 @@
+{
+  "id": "9333b6722e25af5e",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/test-messaging-new-product-categories/",
+  "title": "How To Test New-Category Messaging: A Complete Guide",
+  "titleZh": "Listen Labs 完整指南：如何测试新品类信息传达",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布指南，提出新品类信息测试应先通过理解度、相关性、差异性三道门槛，再测偏好。文中给出各问题的判断信号，例如受访者借用现有品类标签描述产品，说明品类框架没有建立，此时后续偏好数据无法解读；5-second test 以 5–10 人可获得定性判断，需要可辩护的回忆率时使用 30–50 人。文末介绍 Listen Labs 用 AI 主持访谈扩展这一流程，提供动态追问，并称可在 24 小时内交付分析后的主题，样本网络覆盖 50M+ 受访者、45+ 国家和 120+ 语言，另引用 P&G 250+ 场新产品宣称访谈的案例。",
+  "reason": "文中把理解度、相关性与差异性拆成三道带门槛的提问，并给出定性工具的样本量建议，可直接迁移到新品类信息测试流程。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "AI 访谈"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-11-03T05:05:35+00:00",
+  "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}
