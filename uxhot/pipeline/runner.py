@@ -373,9 +373,9 @@ def run_pipeline(
     # 校验不通过会抛 PublishError，web/public 保持上一版不动（计划 §5.3）。
     if publish:
         try:
-            from uxhot.publish import PublishError, build_and_validate
+            from uxhot.publish import PublishError, publish_candidates
 
-            pub = build_and_validate(all_items, cfg, now=reference)
+            pub = publish_candidates(all_items, cfg, now=reference)
             result.steps["publish"] = {
                 "counts": getattr(pub, "counts", None),
                 "replaced": getattr(pub, "replaced", None),

@@ -1,10 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
 import { groupByDay, monthDay, weekdayLong } from "@/lib/format";
-import { balanceFeatured } from "@/lib/featured";
 import { track } from "@/lib/track";
 import type { PublicItem } from "@/lib/types";
 
@@ -56,11 +54,7 @@ export function FeedClient({
     [items, active],
   );
   // 整个筛选结果按天分好组（组内、组间都从新到旧）
-  function prepareDays(pool: PublicItem[]) {
-    const days = groupByDay(pool);
-    return featured ? balanceFeatured(days, pageSize) : days;
-  }
-  const allDays = useMemo(() => prepareDays(filtered), [filtered, featured, pageSize]);
+  const allDays = useMemo(() => groupByDay(filtered), [filtered]);
   const total = allDays.reduce((sum, day) => sum + day.items.length, 0);
 
   // 按天顺序取前 `visible` 条；跨过的那一天只显示已取到的部分
@@ -69,12 +63,13 @@ export function FeedClient({
     let left = visible;
     for (const group of allDays) {
       if (left <= 0) break;
-      out.push({ day: group.day, items: group.items.slice(0, left) });
+      // 精选按整天展开，避免分页把同一天的不同来源拆开。
+      out.push(featured ? group : { day: group.day, items: group.items.slice(0, left) });
       left -= group.items.length;
     }
     return out;
-  }, [allDays, visible]);
-  const rest = Math.max(0, total - visible);
+  }, [allDays, visible, featured]);
+  const rest = total - shownDays.reduce((count, day) => count + day.items.length, 0);
   const refYear = allDays.find((group) => group.day)?.day.slice(0, 4);
 
   function writeQuery(key: string, value: string | null) {
@@ -104,8 +99,7 @@ export function FeedClient({
       if (group.day === day) break;
     }
     // 多展开一批：目标日期下面要有内容，它才能滚到屏幕顶端
-    const target = featured ? Math.ceil(needed / pageSize) * pageSize : needed;
-    setVisible((value) => Math.max(value, target + pageSize));
+    setVisible((value) => Math.max(value, needed + pageSize));
     setPendingJump(day);
   }
 
@@ -118,7 +112,7 @@ export function FeedClient({
     const day = params.get("date");
     if (day) {
       const pool = category ? items.filter((item) => item.category === category) : items;
-      const days = prepareDays(pool);
+      const days = groupByDay(pool);
       if (days.some((group) => group.day === day)) jumpTo(day, days);
     }
     // 只在首次挂载时读一次链接，之后由用户操作改写
@@ -198,9 +192,7 @@ export function FeedClient({
       </div>
 
       {shownDays.length === 0 ? (
-        <p className="empty">{featured && filtered.length > 0
-          ? <>当前来源不足以组成精选列表。<Link href="/all/">查看全部动态</Link></>
-          : active === null ? emptyText : "这个分类下还没有内容。"}</p>
+        <p className="empty">{active === null ? emptyText : "这个分类下还没有内容。"}</p>
       ) : (
         <div className="days">
           {shownDays.map((group) => (
@@ -228,7 +220,7 @@ export function FeedClient({
             className="pill-button"
             onClick={() => {
               track("load_more", { tab: "feed" });
-              setVisible((value) => value + pageSize);
+              setVisible(total - rest + pageSize);
             }}
           >
             加载更多（还有 {rest} 条）

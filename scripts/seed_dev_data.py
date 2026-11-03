@@ -27,7 +27,7 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from uxhot.config import ConfigError, load_config  # noqa: E402
 from uxhot.models import Status, load_items, write_items  # noqa: E402
-from uxhot.publish import PublishError, build_and_validate  # noqa: E402
+from uxhot.publish import PublishError, publish_candidates  # noqa: E402
 
 DATA_DIR = REPO_ROOT / "data"
 ITEMS_DIR = DATA_DIR / "items"
@@ -122,7 +122,7 @@ def main() -> int:
 
     # ── 发布 ──────────────────────────────────────────────────────────
     try:
-        result = build_and_validate(items, cfg, now=now)
+        result = publish_candidates(items, cfg, now=now)
         print(f"发布完成：{result.counts}（replaced={result.replaced}）")
     except PublishError as exc:
         print(f"✗ 发布校验失败：{exc}")

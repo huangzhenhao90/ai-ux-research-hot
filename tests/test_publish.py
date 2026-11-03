@@ -163,23 +163,17 @@ def test_avg_score_only_when_show_score(cfg, public_dir: Path) -> None:
 # ── 结构：latest / all / items / categories / topics / search ───────────
 
 
-def test_latest_covers_three_edition_days(published: Path) -> None:
-    """首页三天窗口按出刊日（北京 08:00 边界）切，不是自然日。"""
+def test_latest_covers_three_calendar_days(published: Path) -> None:
+    """最新精选与首页的每日来源上限使用相同的北京自然日。"""
     doc = load_json(published / "data" / "latest.json")
     assert doc["windowDays"] == 3
-    assert doc["editionHour"] == 8
-    # 出刊日 = 包含该条目的窗口右端点：10-21 09:00 北京落在 [10-21 08:00, 10-22 08:00)
-    assert [day["date"] for day in doc["days"]] == [
-        "2026-10-22",
-        "2026-10-21",
-        "2026-10-20",
-    ]
+    assert doc["editionHour"] == 0
+    assert [day["date"] for day in doc["days"]] == ["2026-10-21", "2026-10-19"]
     ids = [item["id"] for day in doc["days"] for item in day["items"]]
     assert ids == [id_of(1), id_of(2), id_of(3)]
     assert all(item["status"] == "selected" for day in doc["days"] for item in day["items"])
     assert id_of(4) not in ids, "四天前的条目不该进首页"
-    # 北京时间 10-21 07:00 发布的那条属于 10-20 那一期
-    assert id_of(2) in [item["id"] for item in doc["days"][1]["items"]]
+    assert [item["id"] for item in doc["days"][0]["items"]] == [id_of(1), id_of(2)]
 
 
 def test_all_month_keeps_non_selected(published: Path) -> None:
@@ -290,7 +284,7 @@ def test_data_manifest_counts(published: Path) -> None:
         "searchIndex": 4,
     }
     assert doc["months"] == ["2026-10"]
-    assert doc["latestDays"] == ["2026-10-22", "2026-10-21", "2026-10-20"]
+    assert doc["latestDays"] == ["2026-10-21", "2026-10-19"]
 
 
 # ── 日期 ───────────────────────────────────────────────────────────────

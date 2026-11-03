@@ -36,6 +36,7 @@ from uxhot.publish.build_site_data import (
     PUBLIC_FIELDS,
     build_site_data,
 )
+from uxhot.publish.daily_selection import daily_selection
 from uxhot.publish.llms_txt import write_llms_txt
 from uxhot.publish.rss_out import RSS_FILE, write_rss_files
 
@@ -506,6 +507,20 @@ def publish_atomic(
         if stage.exists():
             shutil.rmtree(stage, ignore_errors=True)
     return PublishResult(out_dir=out, counts=dict(counts), replaced=replaced)
+
+
+def publish_candidates(
+    items: Iterable[Item], config: ConfigBundle, *, public_dir: Path | str | None = None,
+    now: datetime | None = None,
+) -> PublishResult:
+    """发布整库候选，以同一份逐日精选结果生成所有公开产物。"""
+    rows = list(items)
+    # 先检查候选，避免降为 listed 后缺少中文的异常数据被静默过滤。
+    missing = [f"精选候选 {item.id} 缺中文标题或摘要" for item in rows
+               if item.is_selected and not item.has_chinese]
+    if missing:
+        raise PublishError(missing)
+    return build_and_validate(daily_selection(rows, config), config, public_dir=public_dir, now=now)
 
 
 def build_and_validate(

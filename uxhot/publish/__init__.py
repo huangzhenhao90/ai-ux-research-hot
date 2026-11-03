@@ -7,7 +7,7 @@
 - `llms_txt`：`web/public/llms.txt`
 - `validate`：产物校验 + 「先写临时目录、校验通过才替换」的原子发布
 
-入口通常是 `build_and_validate(items, config)`：一次写入、一次校验、一次替换；
+入口通常是 `publish_candidates(items, config)`：一次写入、一次校验、一次替换；
 校验不通过抛 `PublishError`，`web/public` 保持上一版不动。
 """
 
@@ -36,6 +36,7 @@ from uxhot.publish.validate import (
     PublishResult,
     build_and_validate,
     publish_atomic,
+    publish_candidates,
     validate_publish_dir,
 )
 
@@ -49,6 +50,7 @@ __all__ = [
     # 校验与发布
     "validate_publish_dir",
     "publish_atomic",
+    "publish_candidates",
     "build_and_validate",
     "PublishError",
     "PublishResult",

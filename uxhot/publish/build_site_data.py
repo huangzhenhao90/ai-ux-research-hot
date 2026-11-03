@@ -10,8 +10,7 @@
    再兜一次底，两道都拦。另外**没写出中文标题与摘要的不上页面**（`Item.is_publishable`，
    D16）：归档旧文、热度信号源、还在流水线里或写作失败的条目，写好后自然出现。
 
-时间：内部一律 UTC，输出 ISO 8601 带时区。`latest.json` 的「天」按 `site.timezone` 的
-**出刊日**切分（08:00 分界，所以 10-21 那一期覆盖 10-20 08:00 – 10-21 08:00）。
+时间：内部一律 UTC，输出 ISO 8601 带时区。最新精选与首页均使用站点时区的自然日。
 """
 
 from __future__ import annotations
@@ -300,7 +299,6 @@ def build_site_data(
     stamp = iso_utc(reference)
     site = config.site
     tz = parse_tz(site.timezone)
-    hour = edition_hour(config)
     show_score = site.showScore
     names = source_name_map(config)
 
@@ -337,12 +335,12 @@ def build_site_data(
         },
     )
 
-    # ── latest.json：近 3 期（出刊日）精选，首页直接读这个 ────────────────
-    today = edition_day(reference, tz, hour)
+    # ── latest.json：近三个自然日的公开精选 ────────────────
+    today = reference.astimezone(tz).date()
     window = {today - timedelta(days=n) for n in range(LATEST_WINDOW_DAYS)}
     by_day: dict[date, list[Item]] = {}
     for item in selected:
-        day = edition_day(item_time(item), tz, hour)
+        day = item_time(item).astimezone(tz).date()
         if day in window and day <= today:
             by_day.setdefault(day, []).append(item)
     days = [
@@ -354,7 +352,7 @@ def build_site_data(
         {
             "generatedAt": stamp,
             "windowDays": LATEST_WINDOW_DAYS,
-            "editionHour": hour,
+            "editionHour": 0,
             "days": days,
         },
     )
