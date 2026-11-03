@@ -53,7 +53,7 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-09-16T13:00:36+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -78,7 +78,7 @@
       "itemType": "tool_launch",
       "publishedAt": "2026-09-02T13:05:45+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -106,7 +106,7 @@
       "itemType": "tool_launch",
       "publishedAt": "2026-03-05T13:21:19+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -160,7 +160,7 @@
       "itemType": "tool_launch",
       "publishedAt": "2026-05-11T14:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -188,7 +188,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-06T16:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -215,7 +215,7 @@
       "itemType": "tool_launch",
       "publishedAt": "2026-07-24T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -240,7 +240,7 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-08-25T21:18:05+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -270,7 +270,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-25T05:04:45+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -347,7 +347,7 @@
       "itemType": null,
       "publishedAt": "2026-02-10T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -374,7 +374,7 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-11-03T05:05:35+00:00",
       "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -402,7 +402,7 @@
       "itemType": null,
       "publishedAt": "2026-08-04T00:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -429,7 +429,7 @@
       "itemType": null,
       "publishedAt": "2025-01-23T10:27:25+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -481,7 +481,7 @@
       "itemType": null,
       "publishedAt": "2026-03-26T15:34:41+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -508,7 +508,7 @@
       "itemType": null,
       "publishedAt": "2026-09-08T00:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -563,7 +563,7 @@
       "itemType": null,
       "publishedAt": "2026-08-28T17:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -590,7 +590,7 @@
       "itemType": null,
       "publishedAt": "2026-03-17T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -617,7 +617,7 @@
       "itemType": null,
       "publishedAt": "2025-05-09T09:46:24+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -645,7 +645,7 @@
       "itemType": null,
       "publishedAt": "2026-08-04T00:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -675,7 +675,7 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-10-25T05:04:18+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -704,7 +704,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-01T05:01:59+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },

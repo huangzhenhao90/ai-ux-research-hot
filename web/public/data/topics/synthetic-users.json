@@ -55,7 +55,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-03T05:05:53+00:00",
       "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -108,7 +108,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-02T05:05:32+00:00",
       "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -187,7 +187,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-03T05:05:29+00:00",
       "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -216,7 +216,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-29T05:03:34+00:00",
       "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -244,7 +244,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-06T16:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -295,7 +295,7 @@
       "itemType": "research_paper",
       "publishedAt": "2026-10-28T16:00:00+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -344,7 +344,7 @@
       "itemType": "research_paper",
       "publishedAt": "2026-10-28T16:00:00+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -372,7 +372,7 @@
       "itemType": "opinion_analysis",
       "publishedAt": "2026-10-25T05:04:34+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -400,7 +400,7 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-11-03T05:05:40+00:00",
       "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -479,7 +479,7 @@
       "itemType": "opinion_analysis",
       "publishedAt": "2026-10-01T16:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -509,7 +509,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-28T05:10:50+00:00",
       "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -615,7 +615,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-28T05:10:43+00:00",
       "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -694,7 +694,7 @@
       "itemType": null,
       "publishedAt": "2026-08-28T17:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -723,7 +723,7 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-10-30T05:11:56+00:00",
       "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -750,7 +750,7 @@
       "itemType": "tool_launch",
       "publishedAt": "2026-10-20T12:00:03+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "same"
     },
@@ -778,7 +778,7 @@
       "itemType": null,
       "publishedAt": "2026-08-26T12:00:00+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -807,7 +807,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-01T05:01:59+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },

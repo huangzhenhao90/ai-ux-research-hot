@@ -5,72 +5,9 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 03 Nov 2026 14:19:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 14:35:23 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
-    <item>
-      <title>Listen Labs 详解合成受访者虚拟焦点小组的四类失效模式与五步验证流程</title>
-      <link>https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/</guid>
-      <pubDate>Tue, 03 Nov 2026 05:05:53 GMT</pubDate>
-      <description>Listen Labs 发布指南，拆解合成受访者虚拟焦点小组的三步运行方式、四类失效模式与五步验证流程。指南引用 Pew Research Center 2026 年 9 月 30 日的方法学研究，称 AI 数字孪生受访者在个体层面约 55% 的回答与真实样本库受访者一致，与真人调查估计平均相差约 12 个百分点；另引 Political Analysis 2024 年 Bisbee 等人的研究，48% 的合成回答回归系数与真人基准存在显著差异，其中 32% 符号相反。验证流程要求用同一刺激材料、10–20 名已验证真实受访者独立执行，比较偏好方向与用词，并在定价、发布等高风险决策前以真人样本重新验证。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>Listen Labs 如何用合成受众做持续品牌追踪</title>
-      <link>https://listenlabs.com/articles/synthetic-audiences-continuous-brand-tracking/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-audiences-continuous-brand-tracking/</guid>
-      <pubDate>Tue, 03 Nov 2026 05:05:40 GMT</pubDate>
-      <description>Listen Labs 的 Anish Rao 撰文介绍如何用合成受众开展持续品牌追踪，并给出校准与验证流程。文中引用 Pew 2026 年 9 月实验称，GPT-5.1 与 Claude Opus 4.6 在相同问卷上的平均绝对误差分别为 13.3 和 11.4 个百分点，模型版本或提示词变化可能造成与真实态度变化无关的趋势断裂；Strat7 2026 年测试中合成问卷识别真实变化的成功率仅 47%。作者提出冻结模型版本、每波用真实样本重新校准、监测漂移、记录变更并重建基线等控制，并强调合成受众适合方向性探索，需要经受审视的报告趋势线应由真实受访者承担。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>Listen Labs 完整指南：如何测试新品类信息传达</title>
-      <link>https://listenlabs.com/articles/test-messaging-new-product-categories/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/test-messaging-new-product-categories/</guid>
-      <pubDate>Tue, 03 Nov 2026 05:05:35 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 发布指南，提出新品类信息测试应先通过理解度、相关性、差异性三道门槛，再测偏好。文中给出各问题的判断信号，例如受访者借用现有品类标签描述产品，说明品类框架没有建立，此时后续偏好数据无法解读；5-second test 以 5–10 人可获得定性判断，需要可辩护的回忆率时使用 30–50 人。文末介绍 Listen Labs 用 AI 主持访谈扩展这一流程，提供动态追问，并称可在 24 小时内交付分析后的主题，样本网络覆盖 50M+ 受访者、45+ 国家和 120+ 语言，另引用 P&amp;G 250+ 场新产品宣称访谈的案例。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>AI 概念测试的准确度、局限与适用场景</title>
-      <link>https://listenlabs.com/articles/ai-concept-testing-accuracy/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/ai-concept-testing-accuracy/</guid>
-      <pubDate>Tue, 03 Nov 2026 05:05:29 GMT</pubDate>
-      <description>Listen Labs 的 Anish Rao 撰文解读 AI 概念测试的准确度与适用边界，建议先用 AI 工具大范围初筛，再用真人验证头部概念。文中引用 Pew 2026 年 9 月 30 日报告，合成受访者在近 300 道题上与真人结果平均相差约 12 个百分点，28% 的题目差距超过 15 个百分点。Sarstedt 等 2024 年在 Psychology &amp; Marketing 综述 285 组硅基与人类对比，NIM 研究显示合成参与者的品牌选择与真人匹配约 79%，但在 7 点量表上平均高估 1.2 分且方差明显更小。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>Listen Labs 解析合成品牌认知测试的准确性与局限</title>
-      <link>https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/</guid>
-      <pubDate>Mon, 02 Nov 2026 05:05:32 GMT</pubDate>
-      <description>Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认知误差约 2–3 个百分点，但 16 个品牌的同比认知变化仅 19% 判断正确，变化方向仅 47% 判断正确。文章还列出 Verasight 对 1,500 名美国成年人的研究，子群平均绝对误差超过 10 个百分点，并给出六步验证框架，建议在预算投入前用真实受访者校验追踪指标。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>Listen Labs 分享用 Figma 原型做概念测试的四个步骤</title>
-      <link>https://listenlabs.com/articles/concept-testing-figma-prototypes/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/concept-testing-figma-prototypes/</guid>
-      <pubDate>Mon, 02 Nov 2026 05:05:19 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 撰文给出用 Figma 原型做概念测试的四个步骤，并区分概念验证与可用性测试各自要回答的问题。文中建议结构与流程类问题用低保真原型，高保真只在信任、微文案或情绪反应是研究重点时使用，并列出替换诱导性提问的脚本写法。作者称传统主持测试通常上限约 30–45 场，AI 主持访谈可并行数百场，并在 24 小时内返回分析结果。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>Listen Labs 的 AI 虚拟焦点小组画像选型指南：合成画像与真人访谈如何取舍</title>
-      <link>https://listenlabs.com/articles/ai-personas-virtual-focus-groups/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/ai-personas-virtual-focus-groups/</guid>
-      <pubDate>Sun, 01 Nov 2026 05:01:59 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 发布 AI 虚拟焦点小组画像选型指南，把平台分为纯合成画像与基于真人访谈两类，主张合成画像只作筛查工具。文中引用 Pew 2026 年数字孪生测试，近 300 道题平均误差 12.4 个百分点；Bisbee 等 2024 年研究发现 48% 的回归系数与真实数据显著不同，其中 32% 符号反转。Listen Labs 自述以 50M+ 样本网络、45+ 国家和 120+ 语言开展 AI 主持访谈，24 小时内交付结果。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
     <item>
       <title>Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界</title>
       <link>https://listenlabs.com/articles/best-ai-consumer-simulation-tools/</link>
@@ -126,15 +63,6 @@
       <category>methods</category>
     </item>
     <item>
-      <title>Listen Labs 的初创公司快速信息测试七步流程</title>
-      <link>https://listenlabs.com/articles/fast-message-testing-startups-playbook/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/fast-message-testing-startups-playbook/</guid>
-      <pubDate>Fri, 30 Oct 2026 05:11:56 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 给出一套面向初创公司的快速信息测试七步流程，先用免费 LLM 粗筛文案，再用真实受访者验证。流程中间用 Lyssna 的五秒测试和 PickFu 的偏好测试把四个方向缩到两个，文中提示 60/40 的偏好比约需 50 名参与者，55/45 则接近 200 名。文中引用 Journal of Marketing Analytics 的研究称合成受访者把享乐型产品的支付意愿高估 37–86%，因此 LLM 只作早期过滤器；Listen Labs 从 50M+ 网络招募受访者，以 120+ 语言 AI 主持访谈在 24 小时内交付结果。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
       <title>Listen Labs 如何为概念测试招募难触达受众</title>
       <link>https://listenlabs.com/articles/recruit-hard-to-reach-audiences/</link>
       <guid isPermaLink="true">https://listenlabs.com/articles/recruit-hard-to-reach-audiences/</guid>
@@ -160,60 +88,6 @@
       <description>AutoAnalysis 这项可自动汇总并持续更新的元分析纳入 420 篇论文和 1955 个效应量，发现人机组合显著优于人类单独工作。但人机组合通常不及人类与 AI 中表现更优的一方，作者据此指出「优于人类」并不等于实现人机协同。</description>
       <category>ur-ai-papers（用户与交互 AI 论文库）</category>
       <category>research</category>
-    </item>
-    <item>
-      <title>Listen Labs 解读合成用户样本库在产品测试中的适用与失效场景</title>
-      <link>https://listenlabs.com/articles/synthetic-user-panels-product-testing/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-user-panels-product-testing/</guid>
-      <pubDate>Thu, 29 Oct 2026 05:03:34 GMT</pubDate>
-      <description>Listen Labs 在决策指南中按概念测试、UX 流程测试、问卷预测试和定价四类任务，划分了合成用户样本库的适用与失效边界。指南指出合成受访者由大语言模型根据人设描述预测作答，只能产出假设而非决策级证据，可靠用途集中在问卷预测试、早期概念筛选和讨论提纲准备，不适合定价、可用性测试和最终决策。文中引用 Strat7 对 3,000 名真实受访者的对比，纯合成受访者在价格敏感度练习中 68% 打乱了逻辑顺序，价格比真人高约 16%，并引用 Kantar 发现 GPT-4 存在正向偏差。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>14 个视觉语言模型测试显示文本人物画像难以复现被描述者的作答</title>
-      <link>https://arxiv.org/abs/2610.39331v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.39331v1</guid>
-      <pubDate>Wed, 28 Oct 2026 16:00:00 GMT</pubDate>
-      <description>一项研究在 14 个视觉语言模型上检验低视力、色盲、听力损失等角色提示能否模拟真实人群，结果显示角色提示从未胜过实测用户和仅采用人格事实的简单规则，反而抹平了群体与个体差异。研究还发现，描述模糊不改变模型识别，实际模糊图像才降低其表现，表明模型能陈述影响机制却不能据此看见。</description>
-      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
-      <category>research</category>
-    </item>
-    <item>
-      <title>研究用真实题与虚构孪生题测量 LLM 人物画像模拟中的知识泄漏</title>
-      <link>https://arxiv.org/abs/2610.39939v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.39939v1</guid>
-      <pubDate>Wed, 28 Oct 2026 16:00:00 GMT</pubDate>
-      <description>研究构建了由真实题目和经筛查降低先验知识的虚构孪生题组成的诊断量表，用于测量 LLM 在人物画像用户模拟中的知识泄漏。跨三种知识处理条件、五个 API 端点和两个模型家族，低知识及明确无知提示仍无法消除真实题的熟悉度偏差。不利题的泄漏方向还随领域改变，显示模型知识与角色知识难以分离。</description>
-      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
-      <category>research</category>
-    </item>
-    <item>
-      <title>Listen Labs 介绍测量广告情绪反应的六类方法</title>
-      <link>https://listenlabs.com/articles/measure-emotional-response-to-ads/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/measure-emotional-response-to-ads/</guid>
-      <pubDate>Wed, 28 Oct 2026 05:10:56 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 发布指南，将广告情绪反应测量归纳为自陈量表、生理与生物特征、面部编码、逐秒与内隐追踪、社交情绪分析、AI 主持多模态访谈六类方法。文章主张方法应跟随决策与预算选择，并指出单一方法的核心失效点在于 say-feel gap，相同的自陈得分可能掩盖不同的真实感受。文中引用数据包括 PAD 模型 Pleasure 子量表 Cronbach's alpha 约 .80–.93，一项 2026 年研究中 Arousal 的编码者一致性 Cohen's kappa 仅 0.28（Pleasure 为 0.85），完整生理测量的广告测试项目需 5 至 8 周、花费 $50,000 至 $100,000。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>Listen Labs 撰文介绍合成受访者平台的评估与选择方法</title>
-      <link>https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/</guid>
-      <pubDate>Wed, 28 Oct 2026 05:10:50 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 撰文把合成受访者平台分为从零模拟、真实数据建模和样本扩充三类，并建议采购前做留出真人对比、核查答案可追溯性、检测 persona 漂移等验证。文中引用 Pew Research Center 2026 年 9 月 30 日的研究称 AI 生成结果与人类民调平均相差 12.4 个百分点，共和党倾向者平均误差最高为 16.1 个百分点；Science Advances 同月刊出的哥伦比亚大学领衔 19 项预注册研究则发现 LLM 数字孪生在 164 个结果中有 154 个组内方差低于所模拟的真人。文章同时推介 Listen Labs 自有的 50M+ 真人网络与 Listen Twins。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>Listen Labs 对比多款广告测试用 AI 合成用户模拟工具</title>
-      <link>https://listenlabs.com/articles/best-ai-persona-simulators-ad-testing/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/best-ai-persona-simulators-ad-testing/</guid>
-      <pubDate>Wed, 28 Oct 2026 05:10:43 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 发布广告测试用 AI 合成用户模拟工具对比，认为这类模拟只适合创意初筛，不能替代真人验证。文中引用 2026 年多项验证研究，合成工具的准确率为 47.8%–87.73%，Strat7 的 3,000 人样本显示合成受访者给出的支付意愿约高 16%，纯合成样本在一次价格排序中 68% 出现逻辑不一致。付费合成工具月费在 $29–$800，传统预测试为 $25k–$100k；Listen Labs 则以覆盖 45+ 国家、5000 万以上已验证受访者的 AI 主持访谈和 24 小时内出结果作为对照。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
     </item>
     <item>
       <title>为什么用 AI 生成用户画像与需求只是原地加速</title>
@@ -324,51 +198,6 @@
       <category>tools</category>
     </item>
     <item>
-      <title>AI 进入专业用户工作前，边界该划在哪里</title>
-      <link>https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4</link>
-      <guid isPermaLink="true">https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4</guid>
-      <pubDate>Sun, 25 Oct 2026 12:31:45 GMT</pubDate>
-      <description>作者提出六个考量，用来判断对话式 AI 界面是在加速专家用户，还是在他们与熟悉的工作之间插进一个键盘。文中引用 METR 的随机试验，经验丰富的开源开发者在自己的代码库上使用 AI 工具反而慢 19%，却以为获得了提速；Dell'Acqua、Mollick、Lakhani 等对 758 名顾问的研究中，AI 能力范围内的任务快 25.1% 且质量更高，超出范围时正确率低 19%。作者还以拥有 400 个已保存搜索的招聘人员或律师为例，指出自然语言输入把专家早已内化的字段名和状态码又变回表述问题。</description>
-      <category>UX Collective</category>
-      <category>opinion</category>
-    </item>
-    <item>
-      <title>Listen Labs 如何用 AI 复用研究洞察：五步指南</title>
-      <link>https://listenlabs.com/articles/reuse-research-insights-with-ai/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/reuse-research-insights-with-ai/</guid>
-      <pubDate>Sun, 25 Oct 2026 05:04:45 GMT</pubDate>
-      <description>Listen Labs 在分步指南中介绍如何用 AI 复用研究洞察，核心是把访谈转写和洞察整理成带来源、受访者与时间戳的可追溯记录。文章列出五步流程和一段提取提示词，要求逐字引用受访者，缺证据时写 not found，并建议用可查询知识库跨项目提问。文中还比较 Listen Labs Research Library 与 NotebookLM、Notion、Confluence、Dovetail 等工具在来源追溯和跨研究查询上的差异，并称 Listen Labs 已在 45+ 个国家、120+ 种语言完成 1M+ 场访谈。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>合成研究对创业公司的适用场景与局限</title>
-      <link>https://listenlabs.com/articles/synthetic-research-for-startups/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-research-for-startups/</guid>
-      <pubDate>Sun, 25 Oct 2026 05:04:34 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 撰文梳理合成研究对创业公司的用处与边界，援引 NIM 对 285 项合成与真人对照的回顾，其中 24.9% 结果相近、65.3% 出现偏离。他建议把合成受访者用于概念筛选、假设生成、小众 B2B 人群探索、真人访谈前预验证和问卷与甄别问卷预测试五类场景，定价、上市承诺与品牌定位等高风险决策仍需真人数据确认。文中还引用覆盖 2,058 名美国受访者、500 个问题的 Twin-2K-500 数据集，约 45% 真人拒绝了假设疫苗，而对应的数字孪生仅 4% 拒绝。</description>
-      <category>Listen Labs</category>
-      <category>opinion</category>
-    </item>
-    <item>
-      <title>Listen Labs 介绍落地页概念测试四阶段流程</title>
-      <link>https://listenlabs.com/articles/concept-testing-for-landing-pages/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/concept-testing-for-landing-pages/</guid>
-      <pubDate>Sun, 25 Oct 2026 05:04:18 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 介绍落地页概念测试的四阶段流程，依次为问卷与偏好测试、AI 主持访谈、付费流量小测试和 A/B 优化。问卷阶段建议每个测试单元约 200 名受访者，Top 2 Box 差距在 9–10 个百分点以内通常落在统计噪声中。AI 主持访谈用于解释分数背后的原因，Listen Labs 称可在 24 小时内交付分析结果，并覆盖 50M+ 已验证受访者。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂</title>
-      <link>https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
-      <guid isPermaLink="true">https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
-      <pubDate>Fri, 23 Oct 2026 17:00:00 GMT</pubDate>
-      <description>调查 521 名 UX 从业者后发现，AI 几乎在每项任务上节省时间，但多数人对其态度平淡，强制推行、输出不可靠和期望过高消耗了这些收益。调查显示超过 99% 的受访者在工作中可使用生成式 AI 工具，其中 59% 只能使用获批的工具集，仅 12% 能自由选择任意工具。AI 带来的收益因角色、任务和工作场所不同而差异明显，智能体的使用情况也不均衡</description>
-      <category>Nielsen Norman Group</category>
-      <category>research</category>
-    </item>
-    <item>
       <title>Ipsos 第三季度营收 6.362 亿欧元，有机增长 2.0%</title>
       <link>https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre</link>
       <guid isPermaLink="true">https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre</guid>
@@ -457,6 +286,15 @@
       <description>Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。</description>
       <category>Cint</category>
       <category>opinion</category>
+    </item>
+    <item>
+      <title>LLM 作为调查受访者：与简单语义基线的比较</title>
+      <link>https://arxiv.org/abs/2610.29645v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.29645v1</guid>
+      <pubDate>Tue, 20 Oct 2026 16:00:00 GMT</pubDate>
+      <description>一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比。结果显示 LLM 整体优于基线，但随已知答案比例下降而性能下滑，在一份量表中甚至与基线持平。研究据此指出，数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强的效力有限。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
     </item>
   </channel>
 </rss>

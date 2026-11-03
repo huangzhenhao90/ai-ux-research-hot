@@ -80,7 +80,7 @@
       "itemType": "research_paper",
       "publishedAt": "2026-10-23T17:00:00+00:00",
       "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -107,7 +107,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-09-18T17:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -134,7 +134,7 @@
       "itemType": null,
       "publishedAt": "2026-08-28T17:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -161,7 +161,7 @@
       "itemType": null,
       "publishedAt": "2026-08-28T17:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -187,7 +187,7 @@
       "itemType": null,
       "publishedAt": "2026-08-21T17:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -212,7 +212,7 @@
       "itemType": null,
       "publishedAt": "2026-09-04T17:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
-      "status": "selected",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
