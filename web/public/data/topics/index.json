@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T11:54:10.721486+00:00",
+  "generatedAt": "2026-11-04T19:27:47.438075+00:00",
   "groups": [
     {
       "key": "company",
@@ -44,7 +44,7 @@
       "name": "Maze",
       "group": "company",
       "definition": "Maze 的快速研究平台、AI 功能与研究方法内容。",
-      "count": 6
+      "count": 7
     },
     {
       "slug": "nngroup",
@@ -58,7 +58,7 @@
       "name": "Ipsos",
       "group": "company",
       "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-      "count": 22
+      "count": 23
     },
     {
       "slug": "surveymonkey",

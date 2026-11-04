@@ -3,8 +3,34 @@
   "name": "Maze",
   "group": "company",
   "definition": "Maze 的快速研究平台、AI 功能与研究方法内容。",
-  "count": 6,
+  "count": 7,
   "items": [
+    {
+      "id": "ddda8effcf446274",
+      "sourceId": "maze-blog",
+      "sourceName": "Maze Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://maze.co/blog/maze-mcp-create-research-studies/",
+      "title": "New in Maze MCP: Create research studies without leaving your AI tools",
+      "titleZh": "Maze MCP 支持在 AI 工具内直接创建研究项目",
+      "summaryZh": "Maze 在其 MCP 中新增能力，研究者无需离开所用的 AI 工具即可创建研究项目。",
+      "reason": "Maze 把研究创建接入 MCP，读者可以据此判断这项能力会如何影响从对话到建研究的流程。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "Agent"
+      ],
+      "entities": [
+        "maze"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-11-04T15:11:21.879000+00:00",
+      "discoveredAt": "2026-11-04T19:27:47.438075+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
     {
       "id": "04536d291010d65c",
       "sourceId": "maze-blog",

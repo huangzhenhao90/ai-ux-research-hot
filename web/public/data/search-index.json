@@ -1,5 +1,5 @@
 {
-  "count": 281,
+  "count": 283,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -138,6 +138,23 @@
       "sourceName": "MeasuringU（Jeff Sauro）",
       "url": "https://measuringu.com/do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators/?utm_source=rss&utm_medium=rss&utm_campaign=do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators",
       "publishedAt": "2026-11-04T02:06:39+00:00"
+    },
+    {
+      "id": "ddda8effcf446274",
+      "title": "New in Maze MCP: Create research studies without leaving your AI tools",
+      "titleZh": "Maze MCP 支持在 AI 工具内直接创建研究项目",
+      "summaryZh": "Maze 在其 MCP 中新增能力，研究者无需离开所用的 AI 工具即可创建研究项目。",
+      "tags": [
+        "工具发布",
+        "Agent"
+      ],
+      "entities": [
+        "maze"
+      ],
+      "category": "tools",
+      "sourceName": "Maze Blog",
+      "url": "https://maze.co/blog/maze-mcp-create-research-studies/",
+      "publishedAt": "2026-11-04T15:11:21.879000+00:00"
     },
     {
       "id": "3c513246b7a31682",
@@ -4076,6 +4093,23 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2024.2392494?af=R",
       "publishedAt": "2024-10-04T05:36:52+00:00"
+    },
+    {
+      "id": "ae2f1f37dd7e3e4a",
+      "title": "Ipsos Launches Reputation Essentials for Rapid Reputation Intelligence",
+      "titleZh": "（）发布 Reputation Essentials，最快 24 小时提供声誉基准与可执行洞察",
+      "summaryZh": "（）发布 Reputation Essentials，提供声誉基准与可执行洞察，最快 24 小时交付",
+      "tags": [
+        "工具发布",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "tools",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-launches-reputation-essentials-rapid-reputation-intelligence",
+      "publishedAt": "2026-11-04T12:00:21+00:00"
     },
     {
       "id": "acedb04574d226cc",

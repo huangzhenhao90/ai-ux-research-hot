@@ -5,15 +5,33 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 04 Nov 2026 11:54:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 19:27:47 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Maze MCP 支持在 AI 工具内直接创建研究项目</title>
+      <link>https://maze.co/blog/maze-mcp-create-research-studies/</link>
+      <guid isPermaLink="true">https://maze.co/blog/maze-mcp-create-research-studies/</guid>
+      <pubDate>Wed, 04 Nov 2026 15:11:21 GMT</pubDate>
+      <description>Maze 在其 MCP 中新增能力，研究者无需离开所用的 AI 工具即可创建研究项目。</description>
+      <category>Maze Blog</category>
+      <category>tools</category>
+    </item>
     <item>
       <title>Listen Labs 详解如何用 AI 做定性编码的六步流程</title>
       <link>https://listenlabs.com/articles/ai-qualitative-coding-customer-research/</link>
       <guid isPermaLink="true">https://listenlabs.com/articles/ai-qualitative-coding-customer-research/</guid>
       <pubDate>Wed, 04 Nov 2026 05:10:44 GMT</pubDate>
       <description>Listen Labs 增长负责人 Anish Rao 发布一份 AI 定性编码操作指南，把流程拆成转写清洗、编码本构建、演绎编码、归纳编码、主题聚类与逐条溯源六步，并规定由人工负责编码本定稿和结果核验。文中列出编码本六要素，包括定义、纳入与排除标准、正反例、浅层层级和版本日志，建议抽样 10% 的编码片段对照原始录音核查。文章引用 2026 年多项研究，例如 Brown University 研究中 LLM 对描述性编码的归类正确率为 80.6%（29/36），对解释性编码为 36.4%（20/55），并列出了过度概括、编造引文和自造编码三类失败模式的应对办法。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Listen Labs 解读 AI 生成人物画像的可靠性与构建方法</title>
+      <link>https://listenlabs.com/articles/ai-generated-personas-market-research/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/ai-generated-personas-market-research/</guid>
+      <pubDate>Wed, 04 Nov 2026 05:10:39 GMT</pubDate>
+      <description>Listen Labs 梳理多项研究指出，基于真实访谈构建的 AI 人物画像可用于假设生成与方案探索，但不适合定价等高风险决策。Stanford 的 Park 等人用 1,052 名美国人的两小时访谈构建智能体，达到参与者自身重测一致性的 83%，仅按人口统计特征构建的为 74%；Ipsos 在 260 次产品测试验证中，人类加合成样本在 92% 的情况下与全人类样本得出同一预设决策。文章还归纳谄媚、刻板印象坍缩与言行差距三种失败模式，并给出从行为数据划分人群到用留出样本验证的五步构建流程。</description>
       <category>Listen Labs</category>
       <category>methods</category>
     </item>
@@ -438,23 +456,6 @@
       <pubDate>Thu, 08 Oct 2026 05:28:33 GMT</pubDate>
       <description>Maze 发布博文称，更多市场研究现在可以在 Maze 内完成，指向平台对市场研究场景的进一步覆盖。</description>
       <category>Maze Blog</category>
-    </item>
-    <item>
-      <title>合成用户与数字孪生：定义、风险与真实用例</title>
-      <link>https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases</link>
-      <guid isPermaLink="true">https://dscout.com/people-nerds/synthetic-users-digital-twins-definitions-risks-use-cases</guid>
-      <pubDate>Tue, 06 Oct 2026 16:00:00 GMT</pubDate>
-      <description>dscout 的 People Nerds 梳理了合成用户与数字孪生的定义差异，并逐一说明两者的风险与真实使用场景。文章把这两个常被混用的概念分开，供研究团队判断各自适用的环节与边界。</description>
-      <category>dscout People Nerds</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>研究中的多数「数字孪生」其实就是换了名字的合成用户</title>
-      <link>https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins</link>
-      <guid isPermaLink="true">https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins</guid>
-      <pubDate>Thu, 01 Oct 2026 16:00:00 GMT</pubDate>
-      <description>文章指出研究中的多数「数字孪生」实际上就是换了名字的合成用户，并围绕这两个概念的区别展开讨论。这一区分关系到团队如何界定合成受访者方案的能力边界。</description>
-      <category>Great Question Blog</category>
     </item>
   </channel>
 </rss>

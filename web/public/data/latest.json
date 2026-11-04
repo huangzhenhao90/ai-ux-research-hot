@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-04T11:54:10.721486+00:00",
+  "generatedAt": "2026-11-04T19:27:47.438075+00:00",
   "windowDays": 3,
   "editionHour": 0,
   "days": [
     {
       "date": "2026-11-04",
-      "count": 3,
+      "count": 5,
       "items": [
         {
           "id": "1dcf3578a582d301",
@@ -32,6 +32,32 @@
           "status": "selected",
           "dupOf": null,
           "relation": "followup"
+        },
+        {
+          "id": "ddda8effcf446274",
+          "sourceId": "maze-blog",
+          "sourceName": "Maze Blog",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://maze.co/blog/maze-mcp-create-research-studies/",
+          "title": "New in Maze MCP: Create research studies without leaving your AI tools",
+          "titleZh": "Maze MCP 支持在 AI 工具内直接创建研究项目",
+          "summaryZh": "Maze 在其 MCP 中新增能力，研究者无需离开所用的 AI 工具即可创建研究项目。",
+          "reason": "Maze 把研究创建接入 MCP，读者可以据此判断这项能力会如何影响从对话到建研究的流程。",
+          "category": "tools",
+          "tags": [
+            "工具发布",
+            "Agent"
+          ],
+          "entities": [
+            "maze"
+          ],
+          "itemType": "tool_launch",
+          "publishedAt": "2026-11-04T15:11:21.879000+00:00",
+          "discoveredAt": "2026-11-04T19:27:47.438075+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
         },
         {
           "id": "ea93290a084b8a06",
@@ -82,6 +108,35 @@
           "itemType": "opinion_analysis",
           "publishedAt": "2026-11-03T22:36:33+00:00",
           "discoveredAt": "2026-11-04T00:26:13.123578+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        },
+        {
+          "id": "dfc4bbf66f66afd9",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/ai-generated-personas-market-research/",
+          "title": "AI-Generated Personas: Are They Reliable for Research?",
+          "titleZh": "Listen Labs 解读 AI 生成人物画像的可靠性与构建方法",
+          "summaryZh": "Listen Labs 梳理多项研究指出，基于真实访谈构建的 AI 人物画像可用于假设生成与方案探索，但不适合定价等高风险决策。Stanford 的 Park 等人用 1,052 名美国人的两小时访谈构建智能体，达到参与者自身重测一致性的 83%，仅按人口统计特征构建的为 74%；Ipsos 在 260 次产品测试验证中，人类加合成样本在 92% 的情况下与全人类样本得出同一预设决策。文章还归纳谄媚、刻板印象坍缩与言行差距三种失败模式，并给出从行为数据划分人群到用留出样本验证的五步构建流程。",
+          "reason": "文章把 Stanford、NN/g、Ipsos 等来源的结论并列，并给出可复用的五步人物画像构建流程。",
+          "category": "methods",
+          "tags": [
+            "方法/实践",
+            "合成用户",
+            "AI 访谈",
+            "NN/g",
+            "Ipsos"
+          ],
+          "entities": [
+            "listen-labs"
+          ],
+          "itemType": "tutorial_explainer",
+          "publishedAt": "2026-11-04T05:10:39+00:00",
+          "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
           "status": "selected",
           "dupOf": null,
           "relation": "different"
@@ -140,40 +195,6 @@
           "itemType": "research_paper",
           "publishedAt": "2026-11-02T16:00:00+00:00",
           "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "count": 1,
-      "items": [
-        {
-          "id": "1b2c654978a75552",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/",
-          "title": "Synthetic Brand Awareness Testing: Accuracy & Limits",
-          "titleZh": "Listen Labs 解析合成品牌认知测试的准确性与局限",
-          "summaryZh": "Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认知误差约 2–3 个百分点，但 16 个品牌的同比认知变化仅 19% 判断正确，变化方向仅 47% 判断正确。文章还列出 Verasight 对 1,500 名美国成年人的研究，子群平均绝对误差超过 10 个百分点，并给出六步验证框架，建议在预算投入前用真实受访者校验追踪指标。",
-          "reason": "文章用四项研究说明合成数据在品牌认知各指标上的可用边界，便于判断它能否进入品牌追踪调研。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "合成用户",
-            "问卷/定量",
-            "市场研究"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "tutorial_explainer",
-          "publishedAt": "2026-11-02T05:05:32+00:00",
-          "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
           "status": "selected",
           "dupOf": null,
           "relation": "different"

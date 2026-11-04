@@ -3,7 +3,7 @@
   "label": "工具",
   "section": "工具发布/更新",
   "commentary": false,
-  "count": 31,
+  "count": 33,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -85,6 +85,32 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "ddda8effcf446274",
+      "sourceId": "maze-blog",
+      "sourceName": "Maze Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://maze.co/blog/maze-mcp-create-research-studies/",
+      "title": "New in Maze MCP: Create research studies without leaving your AI tools",
+      "titleZh": "Maze MCP 支持在 AI 工具内直接创建研究项目",
+      "summaryZh": "Maze 在其 MCP 中新增能力，研究者无需离开所用的 AI 工具即可创建研究项目。",
+      "reason": "Maze 把研究创建接入 MCP，读者可以据此判断这项能力会如何影响从对话到建研究的流程。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "Agent"
+      ],
+      "entities": [
+        "maze"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-11-04T15:11:21.879000+00:00",
+      "discoveredAt": "2026-11-04T19:27:47.438075+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "46fe5ae344a21995",
@@ -807,6 +833,32 @@
       "itemType": null,
       "publishedAt": "2026-04-22T11:00:59+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ae2f1f37dd7e3e4a",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ipsos-launches-reputation-essentials-rapid-reputation-intelligence",
+      "title": "Ipsos Launches Reputation Essentials for Rapid Reputation Intelligence",
+      "titleZh": "（）发布 Reputation Essentials，最快 24 小时提供声誉基准与可执行洞察",
+      "summaryZh": "（）发布 Reputation Essentials，提供声誉基准与可执行洞察，最快 24 小时交付",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-04T12:00:21+00:00",
+      "discoveredAt": "2026-11-04T19:27:47.438075+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

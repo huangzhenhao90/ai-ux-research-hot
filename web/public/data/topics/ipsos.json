@@ -3,7 +3,7 @@
   "name": "Ipsos",
   "group": "company",
   "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-  "count": 22,
+  "count": 23,
   "items": [
     {
       "id": "dfc4bbf66f66afd9",
@@ -30,7 +30,7 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-04T05:10:39+00:00",
       "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
-      "status": "listed",
+      "status": "selected",
       "dupOf": null,
       "relation": "different"
     },
@@ -382,6 +382,32 @@
       "itemType": null,
       "publishedAt": "2026-10-23T15:11:46+00:00",
       "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ae2f1f37dd7e3e4a",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ipsos-launches-reputation-essentials-rapid-reputation-intelligence",
+      "title": "Ipsos Launches Reputation Essentials for Rapid Reputation Intelligence",
+      "titleZh": "（）发布 Reputation Essentials，最快 24 小时提供声誉基准与可执行洞察",
+      "summaryZh": "（）发布 Reputation Essentials，提供声誉基准与可执行洞察，最快 24 小时交付",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-04T12:00:21+00:00",
+      "discoveredAt": "2026-11-04T19:27:47.438075+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
