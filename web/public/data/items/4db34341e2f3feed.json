@@ -1,0 +1,24 @@
+{
+  "id": "4db34341e2f3feed",
+  "sourceId": "uxdesign-cc",
+  "sourceName": "UX Collective",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://uxdesign.cc/i-let-ai-build-i-dont-let-ai-decide-b3892a87feb3?source=rss----138adf9c44c---4",
+  "title": "I let AI build. I don’t let AI decide.",
+  "titleZh": "Patrick Neeman：我让 AI 构建，但不让 AI 决策",
+  "summaryZh": "Patrick Neeman 在 UX 设计文章中划定“AI 可构建、不可决策”的边界，把写作初稿、代码原型和重复流程交给模型。他引用 BCG 实验称，使用 GPT-4 的顾问完成任务多 12.2%、快 25.1%、质量高 40%，但超出模型能力时表现更差。其标准是结果能否在外部快速核验，最终判断与财务等高风险决策仍由人保留。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-03T22:37:40+00:00",
+  "discoveredAt": "2026-11-04T00:26:13.123578+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

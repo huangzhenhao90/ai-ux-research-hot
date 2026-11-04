@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T19:12:02.424929+00:00",
+  "generatedAt": "2026-11-04T00:26:13.123578+00:00",
   "groups": [
     {
       "key": "company",
@@ -128,7 +128,7 @@
       "name": "可用性测试",
       "group": "field",
       "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-      "count": 11
+      "count": 12
     },
     {
       "slug": "research-ops",

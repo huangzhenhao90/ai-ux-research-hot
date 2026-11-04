@@ -1,8 +1,39 @@
 {
-  "generatedAt": "2026-11-03T19:12:02.424929+00:00",
+  "generatedAt": "2026-11-04T00:26:13.123578+00:00",
   "windowDays": 3,
   "editionHour": 0,
   "days": [
+    {
+      "date": "2026-11-04",
+      "count": 1,
+      "items": [
+        {
+          "id": "d85548166c7e9d68",
+          "sourceId": "uxdesign-cc",
+          "sourceName": "UX Collective",
+          "venue": null,
+          "tier": "T2",
+          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "title": "Agents struggle with the same bad UX we do",
+          "titleZh": "智能体卡在人类同样会绕过的糟糕 UX 上",
+          "summaryZh": "在 Deck 负责计算机使用智能体的作者根据数千次智能体运行记录提出，智能体卡住的地方几乎都是人也卡住的地方，只是人会用猜测、重试和问同事把它掩盖过去。失败集中在标签含糊、状态隐藏、弹窗打断、会话超时和成功没有提示这几类，与屏幕阅读器等辅助技术所需的修复方向一致。作者据此给出可用于设计评审的自查问题，例如不会猜测的人能否走完流程、成功是否会明确告知。",
+          "reason": "作者以数千次智能体运行记录说明，智能体卡住的地方往往也是人类默默绕过的设计缺陷，可迁移到可用性评审。",
+          "category": "opinion",
+          "tags": [
+            "观点/讨论",
+            "可用性测试",
+            "Agent"
+          ],
+          "entities": [],
+          "itemType": "opinion_analysis",
+          "publishedAt": "2026-11-03T22:36:33+00:00",
+          "discoveredAt": "2026-11-04T00:26:13.123578+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        }
+      ]
+    },
     {
       "date": "2026-11-03",
       "count": 1,

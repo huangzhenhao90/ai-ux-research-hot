@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 03 Nov 2026 19:12:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 00:26:13 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>智能体卡在人类同样会绕过的糟糕 UX 上</title>
+      <link>https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4</link>
+      <guid isPermaLink="true">https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4</guid>
+      <pubDate>Tue, 03 Nov 2026 22:36:33 GMT</pubDate>
+      <description>在 Deck 负责计算机使用智能体的作者根据数千次智能体运行记录提出，智能体卡住的地方几乎都是人也卡住的地方，只是人会用猜测、重试和问同事把它掩盖过去。失败集中在标签含糊、状态隐藏、弹窗打断、会话超时和成功没有提示这几类，与屏幕阅读器等辅助技术所需的修复方向一致。作者据此给出可用于设计评审的自查问题，例如不会猜测的人能否走完流程、成功是否会明确告知。</description>
+      <category>UX Collective</category>
+      <category>opinion</category>
+    </item>
     <item>
       <title>Listen Labs 详解合成受访者虚拟焦点小组的四类失效模式与五步验证流程</title>
       <link>https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/</link>
@@ -446,15 +455,6 @@
       <description>AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实产品的可运行原型，从而更早、更频繁测试并据研究迭代。</description>
       <category>Nielsen Norman Group</category>
       <category>methods</category>
-    </item>
-    <item>
-      <title>Cint 发文分析 MCP 与 AI 智能体如何重塑市场洞察</title>
-      <link>https://www.cint.com/blog/mcps-market-research-esomar/</link>
-      <guid isPermaLink="true">https://www.cint.com/blog/mcps-market-research-esomar/</guid>
-      <pubDate>Thu, 10 Sep 2026 21:29:14 GMT</pubDate>
-      <description>Cint 发布文章，讨论 MCP 与 AI 智能体正在如何重塑市场洞察的工作方式。文章以行业分析视角展开，未在标题层面给出具体案例或数据。</description>
-      <category>Cint</category>
-      <category>opinion</category>
     </item>
   </channel>
 </rss>
