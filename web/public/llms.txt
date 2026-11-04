@@ -15,8 +15,11 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [Listen Labs 详解如何用 AI 做定性编码的六步流程](https://listenlabs.com/articles/ai-qualitative-coding-customer-research/)：Listen Labs 增长负责人 Anish Rao 发布一份 AI 定性编码操作指南，把流程拆成转写清洗、编码本构建、演绎编码、归纳编码、主题聚类与逐条溯源六步，并规定由人工负责编码本定稿和结果核验。文中列出编码本六要素，包括定义、纳…（Listen Labs，2026-11-04）
+- [MeasuringU 实验对比 AI 与人类主持访谈的主题覆盖](https://measuringu.com/do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators/?utm_source=rss&utm_medium=rss&utm_campaign=do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators)：MeasuringU 的 20 人随机对照实验显示，基于 Gemini 3 Flash 搭建的 AI 主持访谈在主题覆盖上整体不及人类主持。AI 主持的场次短 37%，参与者每分钟说出的词数少 45%（54 vs. 98）；在 8 个主题…（MeasuringU（Jeff Sauro），2026-11-04）
 - [智能体卡在人类同样会绕过的糟糕 UX 上](https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4)：在 Deck 负责计算机使用智能体的作者根据数千次智能体运行记录提出，智能体卡住的地方几乎都是人也卡住的地方，只是人会用猜测、重试和问同事把它掩盖过去。失败集中在标签含糊、状态隐藏、弹窗打断、会话超时和成功没有提示这几类，与屏幕阅读器等辅…（UX Collective，2026-11-03）
 - [Listen Labs 详解合成受访者虚拟焦点小组的四类失效模式与五步验证流程](https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/)：Listen Labs 发布指南，拆解合成受访者虚拟焦点小组的三步运行方式、四类失效模式与五步验证流程。指南引用 Pew Research Center 2026 年 9 月 30 日的方法学研究，称 AI 数字孪生受访者在个体层面约 5…（Listen Labs，2026-11-03）
+- [LLM 合成人群研究：人物角色并非人，身份是状态而非属性](https://arxiv.org/abs/2611.05292v1)：一篇聚焦 LLM 合成人群的研究指出，固定人格模拟难以复现具体情境中的群体行为，并提出以人在情境中为核心的评估标准与设计方法。研究区分稳定特质、情境唤起的身份与情境本身，并在 Reddit 语料及临床试验招募调查上验证。（ur-ai-papers（用户与交互 AI 论文库），2026-11-03）
 - [Listen Labs 解析合成品牌认知测试的准确性与局限](https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/)：Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认…（Listen Labs，2026-11-02）
 - [Listen Labs 的 AI 虚拟焦点小组画像选型指南：合成画像与真人访谈如何取舍](https://listenlabs.com/articles/ai-personas-virtual-focus-groups/)：Listen Labs 增长负责人 Anish Rao 发布 AI 虚拟焦点小组画像选型指南，把平台分为纯合成画像与基于真人访谈两类，主张合成画像只作筛查工具。文中引用 Pew 2026 年数字孪生测试，近 300 道题平均误差 12.4…（Listen Labs，2026-11-01）
 - [Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界](https://listenlabs.com/articles/best-ai-consumer-simulation-tools/)：Listen Labs 发布按架构划分的 AI 消费者模拟工具决策指南，将其分为合成用户、人群模型和基于真人访谈的数字孪生三类。文中引用 Bisbee 等 2024 年发表于 Political Analysis 的研究，称合成受访者可匹…（Listen Labs，2026-10-31）
@@ -42,8 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [Listen Labs 分步讲解如何用 AI 模拟顾客反应](https://listenlabs.com/articles/simulate-customer-reactions-with-ai/)：Listen Labs 增长负责人 Anish Rao 撰文给出用 AI 模拟顾客反应的分步流程，包括定义决策与假设、选择分群、构建模拟基础、记录推理过程、用真人验证以及报告标注数据来源。文中引用 Park 等人（arXiv:2411.1…（Listen Labs，2026-10-26）
 - [Atlas of Human-AI Interaction 用 LLM 从 31,741 篇论文抽取 308,802 条论断构建交互知识图谱](https://arxiv.org/abs/2509.25499)：论文提出一套组织实证发现的框架，结合 LLM 驱动的论断抽取、实体消解、分类体系生成与知识图谱构建，并保留与研究情境和来源的链接。作者以 Atlas of Human-AI Interaction 实例化该框架，组织来自 31,741 篇…（arXiv cs.HC，2026-10-26）
 - [研究指出交互式 LLM 评估不能只验证评分器整体准确率](https://arxiv.org/abs/2610.31678)：论文指出，在交互式 LLM 评估中只用整体准确率或 F1 验证自动评分器，会掩盖提示词层面的错误并扭曲提示词之间的比较结果。作者用 6 个模型、180 个虚构实体问题和 6 种提示词条件做检验，288 条平衡审计的整体 F1 为 .916…（arXiv cs.HC，2026-10-26）
-- [Sprig 扩展 MCP 能力，从创建研究延伸到完整工作流](https://sprig.com/blog/mcp-capabilities-expansion)：Sprig 宣布扩展其 MCP 能力，覆盖范围从创建单项研究延伸到完整工作流。原文把此前只能做研究创建的阶段与现在可串联多步骤流程的能力做了区分。（Sprig Blog，2026-10-26）
-- [AI 进入专业用户工作前，边界该划在哪里](https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4)：作者提出六个考量，用来判断对话式 AI 界面是在加速专家用户，还是在他们与熟悉的工作之间插进一个键盘。文中引用 METR 的随机试验，经验丰富的开源开发者在自己的代码库上使用 AI 工具反而慢 19%，却以为获得了提速；Dell'Acqu…（UX Collective，2026-10-25）
-- [Listen Labs 如何用 AI 复用研究洞察：五步指南](https://listenlabs.com/articles/reuse-research-insights-with-ai/)：Listen Labs 在分步指南中介绍如何用 AI 复用研究洞察，核心是把访谈转写和洞察整理成带来源、受访者与时间戳的可追溯记录。文章列出五步流程和一段提取提示词，要求逐字引用受访者，缺证据时写 not found，并建议用可查询知识库…（Listen Labs，2026-10-25）
 
-（更多 46 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 49 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

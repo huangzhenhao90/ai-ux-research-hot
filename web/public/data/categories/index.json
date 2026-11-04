@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T00:26:13.123578+00:00",
+  "generatedAt": "2026-11-04T11:54:10.721486+00:00",
   "categories": [
     {
       "key": "tools",
@@ -13,14 +13,14 @@
       "label": "方法",
       "section": "方法与实践",
       "commentary": true,
-      "count": 103
+      "count": 108
     },
     {
       "key": "research",
       "label": "论文",
       "section": "研究与证据",
       "commentary": false,
-      "count": 53
+      "count": 55
     },
     {
       "key": "industry",

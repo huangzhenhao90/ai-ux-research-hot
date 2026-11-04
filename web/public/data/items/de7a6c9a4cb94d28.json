@@ -1,0 +1,26 @@
+{
+  "id": "de7a6c9a4cb94d28",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.05292v1",
+  "title": "人物角色并非人：身份是状态而非属性",
+  "titleZh": "LLM 合成人群研究：人物角色并非人，身份是状态而非属性",
+  "summaryZh": "一篇聚焦 LLM 合成人群的研究指出，固定人格模拟难以复现具体情境中的群体行为，并提出以人在情境中为核心的评估标准与设计方法。研究区分稳定特质、情境唤起的身份与情境本身，并在 Reddit 语料及临床试验招募调查上验证。",
+  "reason": "该研究区分稳定特质与情境唤起的身份，为评估 LLM 合成人群在具体情境中的行为效度提供了框架。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "问卷/定量"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-02T16:00:00+00:00",
+  "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

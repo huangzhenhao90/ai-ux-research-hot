@@ -1,0 +1,29 @@
+{
+  "id": "ea93290a084b8a06",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/ai-qualitative-coding-customer-research/",
+  "title": "How To Use AI for Qualitative Coding: A Complete Guide",
+  "titleZh": "Listen Labs 详解如何用 AI 做定性编码的六步流程",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布一份 AI 定性编码操作指南，把流程拆成转写清洗、编码本构建、演绎编码、归纳编码、主题聚类与逐条溯源六步，并规定由人工负责编码本定稿和结果核验。文中列出编码本六要素，包括定义、纳入与排除标准、正反例、浅层层级和版本日志，建议抽样 10% 的编码片段对照原始录音核查。文章引用 2026 年多项研究，例如 Brown University 研究中 LLM 对描述性编码的归类正确率为 80.6%（29/36），对解释性编码为 36.4%（20/55），并列出了过度概括、编造引文和自造编码三类失败模式的应对办法。",
+  "reason": "文中给出编码本六要素与 10% 抽样核对的做法，可作为搭建 AI 定性编码流程时的操作参照。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "转写/编码",
+    "AI 访谈"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-11-04T05:10:44+00:00",
+  "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

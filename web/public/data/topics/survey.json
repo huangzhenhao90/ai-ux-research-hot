@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 56,
+  "count": 59,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -132,6 +132,31 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-02T05:05:32+00:00",
       "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "de7a6c9a4cb94d28",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.05292v1",
+      "title": "人物角色并非人：身份是状态而非属性",
+      "titleZh": "LLM 合成人群研究：人物角色并非人，身份是状态而非属性",
+      "summaryZh": "一篇聚焦 LLM 合成人群的研究指出，固定人格模拟难以复现具体情境中的群体行为，并提出以人在情境中为核心的评估标准与设计方法。研究区分稳定特质、情境唤起的身份与情境本身，并在 Reddit 语料及临床试验招募调查上验证。",
+      "reason": "该研究区分稳定特质与情境唤起的身份，为评估 LLM 合成人群在具体情境中的行为效度提供了框架。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-02T16:00:00+00:00",
+      "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -1229,6 +1254,37 @@
       "relation": null
     },
     {
+      "id": "ee69c92fcfef5d17",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-message-testing-tools-marketers/",
+      "title": "The 9 Best Message Testing Tools for Product Marketers",
+      "titleZh": "产品营销人员最佳 9 款信息测试工具：Listen Labs 居首",
+      "summaryZh": "Listen Labs 盘点了面向产品营销人员的 9 款信息测试工具，并将自家 AI 主持访谈平台列为定位验证首选。该平台从 50M+ 验证网络、45+ 国家和 120+ 语言招募真实买家，24 小时内返回结果，并用 MaxDiff 排序声明后追问原因。其余工具按任务归类，如 Maze 测理解度，Wynter 覆盖 86,000+ B2B 样本库。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "maze",
+        "usertesting",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-04T05:10:49+00:00",
+      "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6b5ac259bdcb68d3",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1284,6 +1340,35 @@
       "itemType": null,
       "publishedAt": "2026-10-27T20:30:03+00:00",
       "discoveredAt": "2026-10-28T04:28:31.660351+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "acedb04574d226cc",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-creative-testing-platform/",
+      "title": "Best Creative Testing Platform In 2026: Decision-First Guide",
+      "titleZh": "2026 年最佳创意测试平台决策指南：Listen Labs、Pencil、Motion 等怎么选",
+      "summaryZh": "2026 创意测试平台决策指南将 Listen Labs 列为投放前验证首选，并按“投放前/后”和“生成/判断”两条问题分流选型。Listen Labs 用 AI 主持视频访谈，覆盖 50M+ 验证受访者、45+ 国家与 120+ 语言，24 小时内返回分析；Pencil、Creatify 做批量生成，Motion Starter 为 $999/月。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-04T05:10:30+00:00",
+      "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

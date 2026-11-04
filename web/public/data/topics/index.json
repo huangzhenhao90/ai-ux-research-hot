@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T00:26:13.123578+00:00",
+  "generatedAt": "2026-11-04T11:54:10.721486+00:00",
   "groups": [
     {
       "key": "company",
@@ -23,7 +23,7 @@
       "name": "Qualtrics",
       "group": "company",
       "definition": "Qualtrics 的 XM 平台与 XM Institute 研究，以及体验管理产品的 AI 能力更新。",
-      "count": 11
+      "count": 12
     },
     {
       "slug": "dovetail",
@@ -37,28 +37,28 @@
       "name": "UserTesting",
       "group": "company",
       "definition": "UserTesting（含 UserZoom）的可用性测试与 AI 分析能力更新。",
-      "count": 5
+      "count": 7
     },
     {
       "slug": "maze",
       "name": "Maze",
       "group": "company",
       "definition": "Maze 的快速研究平台、AI 功能与研究方法内容。",
-      "count": 5
+      "count": 6
     },
     {
       "slug": "nngroup",
       "name": "Nielsen Norman Group",
       "group": "company",
       "definition": "NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。",
-      "count": 12
+      "count": 13
     },
     {
       "slug": "ipsos",
       "name": "Ipsos",
       "group": "company",
       "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-      "count": 21
+      "count": 22
     },
     {
       "slug": "surveymonkey",
@@ -79,7 +79,7 @@
       "name": "Listen Labs",
       "group": "company",
       "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-      "count": 75
+      "count": 80
     },
     {
       "slug": "dscout",
@@ -93,28 +93,28 @@
       "name": "AI 访谈",
       "group": "field",
       "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-      "count": 51
+      "count": 57
     },
     {
       "slug": "synthetic-users",
       "name": "合成用户",
       "group": "field",
       "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-      "count": 47
+      "count": 49
     },
     {
       "slug": "survey",
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 56
+      "count": 59
     },
     {
       "slug": "qual-analysis",
       "name": "定性分析",
       "group": "field",
       "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-      "count": 68
+      "count": 70
     },
     {
       "slug": "voc",
@@ -156,14 +156,14 @@
       "name": "论文",
       "group": "genre",
       "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-      "count": 50
+      "count": 52
     },
     {
       "slug": "methods",
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 104
+      "count": 109
     },
     {
       "slug": "prompts",

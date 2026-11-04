@@ -3,7 +3,7 @@
   "name": "Maze",
   "group": "company",
   "definition": "Maze 的快速研究平台、AI 功能与研究方法内容。",
-  "count": 5,
+  "count": 6,
   "items": [
     {
       "id": "04536d291010d65c",
@@ -89,6 +89,37 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:01:46+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ee69c92fcfef5d17",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-message-testing-tools-marketers/",
+      "title": "The 9 Best Message Testing Tools for Product Marketers",
+      "titleZh": "产品营销人员最佳 9 款信息测试工具：Listen Labs 居首",
+      "summaryZh": "Listen Labs 盘点了面向产品营销人员的 9 款信息测试工具，并将自家 AI 主持访谈平台列为定位验证首选。该平台从 50M+ 验证网络、45+ 国家和 120+ 语言招募真实买家，24 小时内返回结果，并用 MaxDiff 排序声明后追问原因。其余工具按任务归类，如 Maze 测理解度，Wynter 覆盖 86,000+ B2B 样本库。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "maze",
+        "usertesting",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-04T05:10:49+00:00",
+      "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

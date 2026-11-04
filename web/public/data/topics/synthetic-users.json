@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 47,
+  "count": 49,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -188,6 +188,31 @@
       "publishedAt": "2026-11-03T05:05:29+00:00",
       "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
       "status": "listed",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "de7a6c9a4cb94d28",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.05292v1",
+      "title": "人物角色并非人：身份是状态而非属性",
+      "titleZh": "LLM 合成人群研究：人物角色并非人，身份是状态而非属性",
+      "summaryZh": "一篇聚焦 LLM 合成人群的研究指出，固定人格模拟难以复现具体情境中的群体行为，并提出以人在情境中为核心的评估标准与设计方法。研究区分稳定特质、情境唤起的身份与情境本身，并在 Reddit 语料及临床试验招募调查上验证。",
+      "reason": "该研究区分稳定特质与情境唤起的身份，为评估 LLM 合成人群在具体情境中的行为效度提供了框架。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-02T16:00:00+00:00",
+      "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
+      "status": "selected",
       "dupOf": null,
       "relation": "different"
     },
@@ -454,6 +479,35 @@
       "publishedAt": "2026-10-26T05:07:15+00:00",
       "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "dfc4bbf66f66afd9",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-generated-personas-market-research/",
+      "title": "AI-Generated Personas: Are They Reliable for Research?",
+      "titleZh": "Listen Labs 解读 AI 生成人物画像的可靠性与构建方法",
+      "summaryZh": "Listen Labs 梳理多项研究指出，基于真实访谈构建的 AI 人物画像可用于假设生成与方案探索，但不适合定价等高风险决策。Stanford 的 Park 等人用 1,052 名美国人的两小时访谈构建智能体，达到参与者自身重测一致性的 83%，仅按人口统计特征构建的为 74%；Ipsos 在 260 次产品测试验证中，人类加合成样本在 92% 的情况下与全人类样本得出同一预设决策。文章还归纳谄媚、刻板印象坍缩与言行差距三种失败模式，并给出从行为数据划分人群到用留出样本验证的五步构建流程。",
+      "reason": "文章把 Stanford、NN/g、Ipsos 等来源的结论并列，并给出可复用的五步人物画像构建流程。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈",
+        "NN/g",
+        "Ipsos"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-04T05:10:39+00:00",
+      "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },

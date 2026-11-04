@@ -1,0 +1,27 @@
+{
+  "id": "1dcf3578a582d301",
+  "sourceId": "measuringu",
+  "sourceName": "MeasuringU（Jeff Sauro）",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://measuringu.com/do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators/?utm_source=rss&utm_medium=rss&utm_campaign=do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators",
+  "title": "Do AI Moderators Uncover as Much as Human Moderators?",
+  "titleZh": "MeasuringU 实验对比 AI 与人类主持访谈的主题覆盖",
+  "summaryZh": "MeasuringU 的 20 人随机对照实验显示，基于 Gemini 3 Flash 搭建的 AI 主持访谈在主题覆盖上整体不及人类主持。AI 主持的场次短 37%，参与者每分钟说出的词数少 45%（54 vs. 98）；在 8 个主题中，人类主持在 7 个主题上的出现比例更高，仅 sleep climate 在三位编码者中均达到统计显著（p < .01）。",
+  "reason": "20 人随机对照实验对比 AI 与人类主持访谈，并给出主题覆盖和编码者一致性数据，可供评估 AI 主持的适用边界。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "AI 访谈",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-04T02:06:39+00:00",
+  "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "followup",
+  "related": []
+}

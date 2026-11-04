@@ -3,7 +3,7 @@
   "name": "Nielsen Norman Group",
   "group": "company",
   "definition": "NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。",
-  "count": 12,
+  "count": 13,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -110,6 +110,35 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "dfc4bbf66f66afd9",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-generated-personas-market-research/",
+      "title": "AI-Generated Personas: Are They Reliable for Research?",
+      "titleZh": "Listen Labs 解读 AI 生成人物画像的可靠性与构建方法",
+      "summaryZh": "Listen Labs 梳理多项研究指出，基于真实访谈构建的 AI 人物画像可用于假设生成与方案探索，但不适合定价等高风险决策。Stanford 的 Park 等人用 1,052 名美国人的两小时访谈构建智能体，达到参与者自身重测一致性的 83%，仅按人口统计特征构建的为 74%；Ipsos 在 260 次产品测试验证中，人类加合成样本在 92% 的情况下与全人类样本得出同一预设决策。文章还归纳谄媚、刻板印象坍缩与言行差距三种失败模式，并给出从行为数据划分人群到用留出样本验证的五步构建流程。",
+      "reason": "文章把 Stanford、NN/g、Ipsos 等来源的结论并列，并给出可复用的五步人物画像构建流程。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈",
+        "NN/g",
+        "Ipsos"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-04T05:10:39+00:00",
+      "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "821d7c7df70ddb3f",

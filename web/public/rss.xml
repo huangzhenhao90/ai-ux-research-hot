@@ -5,9 +5,27 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 04 Nov 2026 00:26:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 11:54:10 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 详解如何用 AI 做定性编码的六步流程</title>
+      <link>https://listenlabs.com/articles/ai-qualitative-coding-customer-research/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/ai-qualitative-coding-customer-research/</guid>
+      <pubDate>Wed, 04 Nov 2026 05:10:44 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 发布一份 AI 定性编码操作指南，把流程拆成转写清洗、编码本构建、演绎编码、归纳编码、主题聚类与逐条溯源六步，并规定由人工负责编码本定稿和结果核验。文中列出编码本六要素，包括定义、纳入与排除标准、正反例、浅层层级和版本日志，建议抽样 10% 的编码片段对照原始录音核查。文章引用 2026 年多项研究，例如 Brown University 研究中 LLM 对描述性编码的归类正确率为 80.6%（29/36），对解释性编码为 36.4%（20/55），并列出了过度概括、编造引文和自造编码三类失败模式的应对办法。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>MeasuringU 实验对比 AI 与人类主持访谈的主题覆盖</title>
+      <link>https://measuringu.com/do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators</link>
+      <guid isPermaLink="true">https://measuringu.com/do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators</guid>
+      <pubDate>Wed, 04 Nov 2026 02:06:39 GMT</pubDate>
+      <description>MeasuringU 的 20 人随机对照实验显示，基于 Gemini 3 Flash 搭建的 AI 主持访谈在主题覆盖上整体不及人类主持。AI 主持的场次短 37%，参与者每分钟说出的词数少 45%（54 vs. 98）；在 8 个主题中，人类主持在 7 个主题上的出现比例更高，仅 sleep climate 在三位编码者中均达到统计显著（p &lt; .01）。</description>
+      <category>MeasuringU（Jeff Sauro）</category>
+      <category>research</category>
+    </item>
     <item>
       <title>智能体卡在人类同样会绕过的糟糕 UX 上</title>
       <link>https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4</link>
@@ -25,6 +43,15 @@
       <description>Listen Labs 发布指南，拆解合成受访者虚拟焦点小组的三步运行方式、四类失效模式与五步验证流程。指南引用 Pew Research Center 2026 年 9 月 30 日的方法学研究，称 AI 数字孪生受访者在个体层面约 55% 的回答与真实样本库受访者一致，与真人调查估计平均相差约 12 个百分点；另引 Political Analysis 2024 年 Bisbee 等人的研究，48% 的合成回答回归系数与真人基准存在显著差异，其中 32% 符号相反。验证流程要求用同一刺激材料、10–20 名已验证真实受访者独立执行，比较偏好方向与用词，并在定价、发布等高风险决策前以真人样本重新验证。</description>
       <category>Listen Labs</category>
       <category>methods</category>
+    </item>
+    <item>
+      <title>LLM 合成人群研究：人物角色并非人，身份是状态而非属性</title>
+      <link>https://arxiv.org/abs/2611.05292v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.05292v1</guid>
+      <pubDate>Mon, 02 Nov 2026 16:00:00 GMT</pubDate>
+      <description>一篇聚焦 LLM 合成人群的研究指出，固定人格模拟难以复现具体情境中的群体行为，并提出以人在情境中为核心的评估标准与设计方法。研究区分稳定特质、情境唤起的身份与情境本身，并在 Reddit 语料及临床试验招募调查上验证。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
     </item>
     <item>
       <title>Listen Labs 解析合成品牌认知测试的准确性与局限</title>
@@ -428,33 +455,6 @@
       <pubDate>Thu, 01 Oct 2026 16:00:00 GMT</pubDate>
       <description>文章指出研究中的多数「数字孪生」实际上就是换了名字的合成用户，并围绕这两个概念的区别展开讨论。这一区分关系到团队如何界定合成受访者方案的能力边界。</description>
       <category>Great Question Blog</category>
-    </item>
-    <item>
-      <title>解析 AI 智能体的 3 类上下文</title>
-      <link>https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
-      <guid isPermaLink="true">https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
-      <pubDate>Fri, 18 Sep 2026 17:00:00 GMT</pubDate>
-      <description>文章基于对 Claude 重度用户的近期研究，将 AI 智能体的上下文分为全局、局部和环境三类。参与者都建立了由文件、数据库和实时连接组成的上下文库，供 Claude 在提示词之外调用。文章认为，整理合适的上下文比写好提示词更重要</description>
-      <category>Nielsen Norman Group</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>Vistaly 为 1 个客户反馈做了 4 个新 eval 与 16 个实验变体</title>
-      <link>https://www.producttalk.org/4-new-evals-and-16-experiment-variants/</link>
-      <guid isPermaLink="true">https://www.producttalk.org/4-new-evals-and-16-experiment-variants/</guid>
-      <pubDate>Wed, 16 Sep 2026 13:00:36 GMT</pubDate>
-      <description>Teresa Torres 与 Vistaly 为修复一条客户反馈投入 4 个新 eval 与 16 个实验变体，该反馈指 AI 生成的机会解决方案树在一个分支上缺少层级。她先用代码断言的 tree-shape eval 统计父节点的子节点分布，再用 LLM-as-a-Judge 判断是否存在漏掉的子分组。在人工标注的校准集上，judge 的 recall 为 100%，specificity 只有 43.75%，会把没有漏分组的节点判成有。</description>
-      <category>Product Talk（Teresa Torres）</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>用 AI 原型制作更早测试复杂交互</title>
-      <link>https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
-      <guid isPermaLink="true">https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
-      <pubDate>Fri, 11 Sep 2026 17:00:00 GMT</pubDate>
-      <description>AI 原型工具让团队能在设计早期构建高保真、可交互的复杂界面原型，并提前开展用户测试。面对过滤器、仪表盘和对话式 AI 等状态繁多的界面，过去手工原型通常只能覆盖少数顺利路径，需等开发完成后才观察真实交互。如今设计师可在一天内做出接近真实产品的可运行原型，从而更早、更频繁测试并据研究迭代。</description>
-      <category>Nielsen Norman Group</category>
-      <category>methods</category>
     </item>
   </channel>
 </rss>

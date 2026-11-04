@@ -1,0 +1,29 @@
+{
+  "id": "62b079ae4edb045e",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-b2b-copy-testing-tools/",
+  "title": "B2B Copy Testing Tools for Buyer Feedback: What To Use",
+  "titleZh": "B2B 文案测试工具怎么选：Listen Labs、Wynter 等买家反馈工具指南",
+  "summaryZh": "Listen Labs 在 B2B 文案测试工具指南中把 AI 主持买家访谈列为发布前首选，称可从 50M+ 网络招募 45+ 国家、120+ 语言的核实受访者，并在 24 小时内交付结果。指南区分样本库评分、AI 主持访谈与上线后 A/B 实验三类，并建议按买家角色分别解读反馈。Wynter 用 86,000+ LinkedIn 验证的 B2B 专业人士样本库做快速信息测试，结果多在 24–48 小时返回。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs",
+    "usertesting"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-04T05:10:35+00:00",
+  "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
