@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 53,
+  "count": 54,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -1236,6 +1236,32 @@
       "itemType": null,
       "publishedAt": "2026-04-23T14:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fb5c3f668c746143",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/on-stage-with-adage-why-your-brand-cant-grow-without-this-key-analysis",
+      "title": "On Stage with Ad Age: Why Your Brand Can’t Grow Without This Key Analysis",
+      "titleZh": "Ad Age 峰会：quantilope 与 Kettle & Fire 谈品牌增长为何离不开 Mental Availability",
+      "summaryZh": "在 Ad Age 的 Business of Brands 峰会上，quantilope 与 Kettle & Fire 高管指出，高品牌知名度不等于被购买，Mental Availability 才是增长关键。Kettle & Fire 用传统追踪看到知名度同比提升，但与 quantilope 合作追踪 Mental Availability 后，发现竞争空白和提升家庭渗透率的机会。识别出的优先 Category Entry Points 还用于代理商创意、影响者简报与产品创新。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-04T21:09:35+00:00",
+      "discoveredAt": "2026-11-05T00:45:58.482362+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
