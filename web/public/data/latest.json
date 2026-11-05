@@ -1,8 +1,41 @@
 {
-  "generatedAt": "2026-11-05T11:56:25.802047+00:00",
+  "generatedAt": "2026-11-05T19:42:20.545393+00:00",
   "windowDays": 3,
   "editionHour": 0,
   "days": [
+    {
+      "date": "2026-11-06",
+      "count": 1,
+      "items": [
+        {
+          "id": "595b6795fbc69cd7",
+          "sourceId": "dovetail-blog",
+          "sourceName": "Dovetail Blog",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://dovetail.com/blog/introducing-dovetail-one/",
+          "title": "Introducing Dovetail One: one platform for customer context across every team",
+          "titleZh": "Dovetail 推出统一客户上下文平台 Dovetail One",
+          "summaryZh": "Dovetail 发布 Dovetail One，把 VoC、产品与设计、用户研究和收入智能整合到同一个客户上下文平台上。按其描述，该平台面向各类团队共用同一份客户上下文。",
+          "reason": "原文列出四类团队数据的整合范围，可供研究者判断洞察库是否会从用研专属走向跨团队共用。",
+          "category": "tools",
+          "tags": [
+            "工具发布",
+            "洞察库/ResearchOps",
+            "Dovetail"
+          ],
+          "entities": [
+            "dovetail"
+          ],
+          "itemType": "tool_launch",
+          "publishedAt": "2026-11-05T17:00:00+00:00",
+          "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        }
+      ]
+    },
     {
       "date": "2026-11-05",
       "count": 2,
@@ -195,64 +228,6 @@
           ],
           "itemType": "tutorial_explainer",
           "publishedAt": "2026-11-04T05:10:39+00:00",
-          "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "count": 2,
-      "items": [
-        {
-          "id": "ba1ff72af3d0f43e",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/",
-          "title": "Virtual Focus Groups With Synthetic Respondents",
-          "titleZh": "Listen Labs 详解合成受访者虚拟焦点小组的四类失效模式与五步验证流程",
-          "summaryZh": "Listen Labs 发布指南，拆解合成受访者虚拟焦点小组的三步运行方式、四类失效模式与五步验证流程。指南引用 Pew Research Center 2026 年 9 月 30 日的方法学研究，称 AI 数字孪生受访者在个体层面约 55% 的回答与真实样本库受访者一致，与真人调查估计平均相差约 12 个百分点；另引 Political Analysis 2024 年 Bisbee 等人的研究，48% 的合成回答回归系数与真人基准存在显著差异，其中 32% 符号相反。验证流程要求用同一刺激材料、10–20 名已验证真实受访者独立执行，比较偏好方向与用词，并在定价、发布等高风险决策前以真人样本重新验证。",
-          "reason": "文中列出四类合成受访者失效模式与五步验证做法，并给出在高成本决策前改用真实受访者的判定条件。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "合成用户",
-            "AI 访谈"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "tutorial_explainer",
-          "publishedAt": "2026-11-03T05:05:53+00:00",
-          "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "de7a6c9a4cb94d28",
-          "sourceId": "ur-ai-papers",
-          "sourceName": "arXiv",
-          "venue": "arXiv",
-          "tier": "T2",
-          "url": "https://arxiv.org/abs/2611.05292v1",
-          "title": "人物角色并非人：身份是状态而非属性",
-          "titleZh": "LLM 合成人群研究：人物角色并非人，身份是状态而非属性",
-          "summaryZh": "一篇聚焦 LLM 合成人群的研究指出，固定人格模拟难以复现具体情境中的群体行为，并提出以人在情境中为核心的评估标准与设计方法。研究区分稳定特质、情境唤起的身份与情境本身，并在 Reddit 语料及临床试验招募调查上验证。",
-          "reason": "该研究区分稳定特质与情境唤起的身份，为评估 LLM 合成人群在具体情境中的行为效度提供了框架。",
-          "category": "research",
-          "tags": [
-            "论文/研究",
-            "合成用户",
-            "问卷/定量"
-          ],
-          "entities": [],
-          "itemType": "research_paper",
-          "publishedAt": "2026-11-02T16:00:00+00:00",
           "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
           "status": "selected",
           "dupOf": null,

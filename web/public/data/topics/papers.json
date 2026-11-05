@@ -3,7 +3,7 @@
   "name": "论文",
   "group": "genre",
   "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-  "count": 61,
+  "count": 62,
   "items": [
     {
       "id": "342f2af81bbbe547",
@@ -1225,6 +1225,34 @@
       "itemType": null,
       "publishedAt": "2026-10-02T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "19a71996d15eeb58",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/blog/insights/scrolling-into-balance-what-social-media-really-does-to-gen-z-health-paradox/",
+      "title": "Scrolling Into Balance: What Social Media Really Does to Gen Z’s Health Paradox",
+      "titleZh": "Prodege 与 First & First Consulting 研究：社交媒体到底如何影响 Z 世代健康悖论",
+      "summaryZh": "Prodege 与 First & First Consulting 调查 3,000 名美国成年人发现，Z 世代日均使用社交媒体不足 1 小时的净心理健康得分为 43%，低于 1–2 小时的 62%，7 小时以上为 55%，重度使用未线性恶化。5 小时以上 Z 世代中 66% 每周多次线下社交，26% 认为健康与放纵的矛盾更像审美而非妥协。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "市场研究",
+        "问卷/定量",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T17:13:34+00:00",
+      "discoveredAt": "2026-11-05T19:42:20.545393+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
