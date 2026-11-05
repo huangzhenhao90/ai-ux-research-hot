@@ -1,0 +1,27 @@
+{
+  "id": "33fa417d4ecf662a",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.06572v1",
+  "title": "人格是否具有说服力：探究LLM中的人格特质提示与说服",
+  "titleZh": "人格是否具有说服力：探究 LLM 中的人格特质提示与说服",
+  "summaryZh": "一项32人研究用IPIP-NEO-120评估LLM人格特质提示的可控性与说服效果，并让参与者与不同人格配置的LLM智能体讨论道德困境。人格可被一定程度诱导，但人格一致性未显著改变说服、立场或信心。更高的AI说服素养与较少信心变化相关。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "问卷/定量",
+    "学术 HCI",
+    "Agent"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-03T16:00:00+00:00",
+  "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

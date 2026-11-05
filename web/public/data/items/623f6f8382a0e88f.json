@@ -1,0 +1,26 @@
+{
+  "id": "623f6f8382a0e88f",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.05553v1",
+  "title": "决策模型作为可扩展的经济代理模型：捕捉人类差异",
+  "titleZh": "研究对比10种决策模型与8种LLM作为经济人类替身的效度",
+  "summaryZh": "一项研究在消费调查、经济博弈和劳动力市场实验中，比较了10种决策模型与8种LLM作为经济人类替身的效度。前沿决策模型更能复现人类行为差异，可捕捉消费调查中的典型反应，速度约快10倍、成本最高低逾百倍，但在博弈中对众数的模拟弱于LLM。",
+  "reason": "原文用消费调查与博弈实验比较10种决策模型和8种LLM模拟人类行为的效度，给出速度与成本的量化对照。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "行为数据"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-02T16:00:00+00:00",
+  "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": "same",
+  "related": []
+}

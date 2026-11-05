@@ -1,0 +1,27 @@
+{
+  "id": "839f7def4fb3d520",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.05954",
+  "title": "Robots in the City: Persona-Based Perceptions of Urban Robots",
+  "titleZh": "城市中的机器人：基于 Persona 的城市机器人安全感知研究",
+  "summaryZh": "一项 arXiv 研究用 18 张首尔街景图，让 Qwen3.8-27B 和 Gemma4-26B 各以 500 个合成 Persona 为条件，与 25 名人类受访者完成同一组两两安全感知选择。两个模型都更偏好无机器人的街道，也更倾向配送机器人而非人形机器人，并与人类一样在夜间更常选择有机器人的画面。但模型选人形机器人的比例远低于人类，Gemma 对人形机器人的夜间效应约为人类的三倍。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "多模态",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-05T05:00:00+00:00",
+  "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

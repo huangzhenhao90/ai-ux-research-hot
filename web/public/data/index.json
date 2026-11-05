@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-05T00:45:58.482362+00:00",
+  "generatedAt": "2026-11-05T11:56:25.802047+00:00",
   "counts": {
-    "public": 288,
-    "selected": 81,
+    "public": 303,
+    "selected": 84,
     "months": 26,
     "categories": 6,
     "topics": 24,
-    "searchIndex": 284
+    "searchIndex": 299
   },
   "months": [
     "2026-11",
@@ -37,6 +37,7 @@
     "2020-07"
   ],
   "latestDays": [
+    "2026-11-05",
     "2026-11-04",
     "2026-11-03"
   ]

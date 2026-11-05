@@ -1,0 +1,27 @@
+{
+  "id": "c04d4c11af5400bd",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.06696",
+  "title": "You Know What You Will Like: People Predict Their Own Ratings Better Than Recommender Systems",
+  "titleZh": "MovieLens 研究：人们对自身评分的预测准确度高于推荐系统",
+  "summaryZh": "MovieLens Beliefs 数据集研究显示，人们对自身电影评分的预测比平台预测和协同过滤模型更准，相关系数 0.69，对比 0.34 和 0.54–0.59。26,020 条预期评分中仅 551 条（来自 277 名成员）在至少一天后得到实际评分，把预期并入机器预测后样本外均方误差降低 26%。在成员自己影片的排序上，训练模型与本人表现无统计差异。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "问卷/定量",
+    "行为数据",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-05T05:00:00+00:00",
+  "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -5,9 +5,36 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 05 Nov 2026 00:45:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 11:56:25 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Dovetail 推出统一客户上下文平台 Dovetail One</title>
+      <link>https://dovetail.com/blog/introducing-dovetail-one/</link>
+      <guid isPermaLink="true">https://dovetail.com/blog/introducing-dovetail-one/</guid>
+      <pubDate>Thu, 05 Nov 2026 17:00:00 GMT</pubDate>
+      <description>Dovetail 发布 Dovetail One，把 VoC、产品与设计、用户研究和收入智能整合到同一个客户上下文平台上。按其描述，该平台面向各类团队共用同一份客户上下文。</description>
+      <category>Dovetail Blog</category>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>Listen Labs 盘点 AI 数字孪生案例：测了什么、哪些站得住</title>
+      <link>https://listenlabs.com/articles/ai-digital-twin-case-studies/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/ai-digital-twin-case-studies/</guid>
+      <pubDate>Thu, 05 Nov 2026 05:09:03 GMT</pubDate>
+      <description>Listen Labs 盘点了 6 个 AI 数字孪生案例，并按通用人设、人群混合模型、消费者数字孪生、已验证数字孪生四层分类标注各自的验证方式。文中引用 Columbia Business School 团队 19 项预注册研究，Science Advances 的“funhouse mirrors”研究报告孪生与真人在个体层面的平均相关性仅 r = 0.20，全人设孪生为 0.748，仅含人口统计信息的孪生为 0.746，两者差异不具统计显著性。MarketTwin、Delve AI 等方法的结果由厂商自报，未经独立验证，作者建议只作方向性参考。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>TACT：用 AI 委员会做大规模定性主题分析的实用流程</title>
+      <link>https://arxiv.org/abs/2611.05702</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.05702</guid>
+      <pubDate>Thu, 05 Nov 2026 05:00:00 GMT</pubDate>
+      <description>论文提出 TACT（Traceable AI Council for Thematic analysis），用 AI 委员会在规模上完成定性主题分析，同时让团队保留对解读与判断的控制。TACT-Lite 为核心流程，TACT-Full 额外加入来自其他模型族的对抗模型，以及标出高不确定性编码的判定模型。在 256 条由其他研究者编码的 Stack Overflow 帖子数据集上，候选码本 F1 为 0.75-0.77，最终编码 F1 为 0.71-0.72；留出样本上作者人工编码与 TACT 编码的 Cohen's κ 为 0.79-0.85；每 100 条帖子的模型调用成本为 $13.77（TACT-Lite）至 $33.59（TACT-Full）。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
     <item>
       <title>Maze MCP 支持在 AI 工具内直接创建研究项目</title>
       <link>https://maze.co/blog/maze-mcp-create-research-studies/</link>
@@ -430,32 +457,6 @@
       <description>一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比。结果显示 LLM 整体优于基线，但随已知答案比例下降而性能下滑，在一份量表中甚至与基线持平。研究据此指出，数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强的效力有限。</description>
       <category>ur-ai-papers（用户与交互 AI 论文库）</category>
       <category>research</category>
-    </item>
-    <item>
-      <title>quantilope 推出 Category Twins 合成用户社区</title>
-      <link>https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins</link>
-      <guid isPermaLink="true">https://www.quantilope.com/resources/category-twins-build-your-synthetic-community-of-digital-twins</guid>
-      <pubDate>Tue, 20 Oct 2026 12:00:03 GMT</pubDate>
-      <description>quantilope 推出 Category Twins，这是一个基于品牌自有数据构建数字孪生、可组成合成用户社区的解决方案，现已面向全球品牌开放。该方案与 10 个国家 30 个品牌共同开发，使用 Ehrenberg-Bass 框架及 Mental Availability、Category Entry Points 指标，可按类别和区域以固定费用单独购买。用户可通过文字、语音和图片与数字孪生对话，新的 Mental Availability 研究完成后数字孪生会自动更新。</description>
-      <category>quantilope</category>
-      <category>tools</category>
-    </item>
-    <item>
-      <title>tvbeat 与 合作，为 TVNZ 和 Sky 推进新西兰 Total TV 受众测量</title>
-      <link>https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand</link>
-      <guid isPermaLink="true">https://www.ipsos.com/en/tvbeat-and-ipsos-partner-advance-total-tv-audience-measurement-tvnz-and-sky-new-zealand</guid>
-      <pubDate>Mon, 19 Oct 2026 10:12:34 GMT</pubDate>
-      <description>tvbeat 与 达成合作，将为 TVNZ 和 Sky 在新西兰推进 Total TV 受众测量。新的受众测量系统（Audience Measurement System）会把 TVNZ 和 Sky 的大规模一方观看数据与独立受众研究结合，为 Total TV 建立可信基础</description>
-      <category>Ipsos</category>
-      <category>industry</category>
-    </item>
-    <item>
-      <title>Maze 宣布更多市场研究可在平台内完成</title>
-      <link>https://maze.co/blog/ai-for-market-research/</link>
-      <guid isPermaLink="true">https://maze.co/blog/ai-for-market-research/</guid>
-      <pubDate>Thu, 08 Oct 2026 05:28:33 GMT</pubDate>
-      <description>Maze 发布博文称，更多市场研究现在可以在 Maze 内完成，指向平台对市场研究场景的进一步覆盖。</description>
-      <category>Maze Blog</category>
     </item>
   </channel>
 </rss>

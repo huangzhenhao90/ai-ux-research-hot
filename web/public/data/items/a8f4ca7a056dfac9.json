@@ -1,0 +1,26 @@
+{
+  "id": "a8f4ca7a056dfac9",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.05761",
+  "title": "BobFlow: Towards Human-Agent Collaborative Data Science Using Dataflows",
+  "titleZh": "BobFlow：迈向基于数据流的人与智能体协作数据科学",
+  "summaryZh": "BobFlow 将数据流抽象与 ReAct 范式结合，让 AI 智能体迭代构建并执行数据流，分析师可检查分析并反馈。用户研究表明，它帮助分析师理解、检查和验证智能体生成的分析。在专有与开放权重 LLM 上的实验显示，它以基于脚本的 ReAct 智能体 1/3 略多的推理成本，换来最高 18.6 分的准确率提升。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "Agent",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-05T05:00:00+00:00",
+  "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

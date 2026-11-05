@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 54,
+  "count": 56,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -413,6 +413,35 @@
       "itemType": null,
       "publishedAt": "2026-10-20T21:30:52+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "dcfdbb3ff630b67f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-synthetic-user-ai-tools/",
+      "title": "AI Interview Tools: A Decision Guide To The Best Options",
+      "titleZh": "AI 访谈工具决策指南：Listen Labs、Synthetic Users 等方案怎么选",
+      "summaryZh": "Listen Labs 的 AI 访谈工具决策指南将方案分为真实 AI 主持访谈与 LLM 合成用户，并推荐前者。网络覆盖 50M+ 参与者、45+ 国家，24 小时内交付；Synthetic Users 年费 $12,500 起。NN/g 对比 120 名模拟受访者与 604 名真人，发现模拟回答标签仅约十几种。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "NN/g"
+      ],
+      "entities": [
+        "listen-labs",
+        "nngroup",
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:08:56+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1102,6 +1131,35 @@
       "itemType": null,
       "publishedAt": "2026-04-28T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ec2e75f65a9ea8af",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-qualtrics-alternatives-message-testing/",
+      "title": "Qualtrics Alternatives for Message Testing: 2026 Guide",
+      "titleZh": "Qualtrics 的信息测试替代方案：2026 工具指南",
+      "summaryZh": "信息测试工具指南将 Listen Labs 列为首选 Qualtrics 替代方案：其 AI 主持访谈依托 50M+ 验证受访者，覆盖 45+ 国家。其成本约为传统研究的三分之一，24 小时内可出结果。文章还按场景列出 Wynter、PickFu、Maze、Lyssna、Attest 与 Perspective AI 等替代工具。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:08:51+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

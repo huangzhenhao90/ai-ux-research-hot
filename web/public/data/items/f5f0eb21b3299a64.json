@@ -1,0 +1,26 @@
+{
+  "id": "f5f0eb21b3299a64",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.05954v1",
+  "title": "城市中的机器人：人格化视角下对城市机器人的感知",
+  "titleZh": "城市中的机器人：多模态大模型与25名人类在500种合成人格下的安全感判断比较",
+  "summaryZh": "一项研究用首尔街道图像比较无机器人、配送机器人和人形机器人的安全感判断：两个多模态大模型在500种合成人格条件下与25名人类完成成对选择。模型和人类都偏好无机器人街道，夜间更愿选择机器人，但模型低估了人类对人形机器人的相对偏好，说明其只能部分模拟人类感知。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "多模态"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-03T16:00:00+00:00",
+  "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

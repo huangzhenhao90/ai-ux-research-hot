@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 109,
+  "count": 112,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -488,6 +488,33 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-10-31T05:11:39+00:00",
       "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "c933a99ac1c835ad",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-digital-twin-case-studies/",
+      "title": "AI Digital Twin Case Studies: What Was Tested, What Held Up",
+      "titleZh": "Listen Labs 盘点 AI 数字孪生案例：测了什么、哪些站得住",
+      "summaryZh": "Listen Labs 盘点了 6 个 AI 数字孪生案例，并按通用人设、人群混合模型、消费者数字孪生、已验证数字孪生四层分类标注各自的验证方式。文中引用 Columbia Business School 团队 19 项预注册研究，Science Advances 的“funhouse mirrors”研究报告孪生与真人在个体层面的平均相关性仅 r = 0.20，全人设孪生为 0.748，仅含人口统计信息的孪生为 0.746，两者差异不具统计显著性。MarketTwin、Delve AI 等方法的结果由厂商自报，未经独立验证，作者建议只作方向性参考。",
+      "reason": "文章用四层分类逐条标注各数字孪生案例的验证方式，让研究者能区分厂商自报结果与独立验证之间的距离。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-05T05:09:03+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -1252,6 +1279,34 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "c6d7a31d63ea8a4f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-digital-twin-insights-platform/",
+      "title": "AI Digital Twin Consumer Insights Platform: Buyer’s Guide",
+      "titleZh": "Listen Labs 的 AI 数字孪生消费者洞察平台购买指南：1:1 真人数字孪生与合成受访者之辨",
+      "summaryZh": "Listen Labs 的 AI 数字孪生消费者洞察平台购买指南主张，优先选真人一对一访谈构建的 1:1 数字孪生，而非合成受访者。其引用 2026 年 benchmark 称，测试模型在跨文化价值观上比人口统计查表低 11 到 22 个百分点；Listen Twins 的受访者来自超 5000 万验证参与者网络，答案附置信分数与可追溯推理，支持一键真人验证。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈",
+        "研究伦理"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:09:09+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
     },
     {
       "id": "ec18d5dbcedfb9cf",
@@ -2714,6 +2769,36 @@
       "itemType": null,
       "publishedAt": "2026-07-28T00:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a6e0a3a44fdeb133",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-conjoint-analysis-tools/",
+      "title": "Best Conjoint Analysis Tools for Concept Testing",
+      "titleZh": "概念测试最佳 Conjoint Analysis 工具：Listen Labs 位列端到端首选",
+      "summaryZh": "Listen Labs 在面向概念测试的 Conjoint Analysis 工具盘点中被列为端到端首选，覆盖设计、招募、AI 主持访谈、分析和交付。其 50M+ 验证受访者覆盖 45+ 国家，完整结果不到 24 小时交付；Sawtooth Software 仍是 CBC、ACBC 等设计及 HB 估计的方法学参考，但需另配样本库和定性供应商。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:08:46+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

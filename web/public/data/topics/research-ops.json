@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 43,
+  "count": 44,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -304,6 +304,33 @@
       "itemType": "tool_launch",
       "publishedAt": "2026-10-25T16:00:00+00:00",
       "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "595b6795fbc69cd7",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/introducing-dovetail-one/",
+      "title": "Introducing Dovetail One: one platform for customer context across every team",
+      "titleZh": "Dovetail 推出统一客户上下文平台 Dovetail One",
+      "summaryZh": "Dovetail 发布 Dovetail One，把 VoC、产品与设计、用户研究和收入智能整合到同一个客户上下文平台上。按其描述，该平台面向各类团队共用同一份客户上下文。",
+      "reason": "原文列出四类团队数据的整合范围，可供研究者判断洞察库是否会从用研专属走向跨团队共用。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-11-05T17:00:00+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"

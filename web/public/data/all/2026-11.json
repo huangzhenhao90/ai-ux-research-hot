@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "count": 32,
+  "count": 47,
   "items": [
     {
       "id": "1dcf3578a582d301",
@@ -218,6 +218,32 @@
       "relation": "different"
     },
     {
+      "id": "d35a45d8c6d0d356",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.05702",
+      "title": "TACT: A Pragmatic Approach to Qualitative Analysis with an AI Council",
+      "titleZh": "TACT：用 AI 委员会做大规模定性主题分析的实用流程",
+      "summaryZh": "论文提出 TACT（Traceable AI Council for Thematic analysis），用 AI 委员会在规模上完成定性主题分析，同时让团队保留对解读与判断的控制。TACT-Lite 为核心流程，TACT-Full 额外加入来自其他模型族的对抗模型，以及标出高不确定性编码的判定模型。在 256 条由其他研究者编码的 Stack Overflow 帖子数据集上，候选码本 F1 为 0.75-0.77，最终编码 F1 为 0.71-0.72；留出样本上作者人工编码与 TACT 编码的 Cohen's κ 为 0.79-0.85；每 100 条帖子的模型调用成本为 $13.77（TACT-Lite）至 $33.59（TACT-Full）。",
+      "reason": "论文给出 TACT 的双档设计、256 条帖子上的 F1 与每条成本，团队可据此估量 AI 委员会式定性编码的投入产出。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "定性分析",
+        "转写/编码",
+        "文本分析/VOC"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-05T05:00:00+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "de7a6c9a4cb94d28",
       "sourceId": "ur-ai-papers",
       "sourceName": "arXiv",
@@ -241,6 +267,31 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "623f6f8382a0e88f",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.05553v1",
+      "title": "决策模型作为可扩展的经济代理模型：捕捉人类差异",
+      "titleZh": "研究对比10种决策模型与8种LLM作为经济人类替身的效度",
+      "summaryZh": "一项研究在消费调查、经济博弈和劳动力市场实验中，比较了10种决策模型与8种LLM作为经济人类替身的效度。前沿决策模型更能复现人类行为差异，可捕捉消费调查中的典型反应，速度约快10倍、成本最高低逾百倍，但在博弈中对众数的模拟弱于LLM。",
+      "reason": "原文用消费调查与博弈实验比较10种决策模型和8种LLM模拟人类行为的效度，给出速度与成本的量化对照。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "行为数据"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-02T16:00:00+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "same"
     },
     {
       "id": "4e8f45dfecabdd91",
@@ -271,6 +322,33 @@
       "relation": "different"
     },
     {
+      "id": "c933a99ac1c835ad",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-digital-twin-case-studies/",
+      "title": "AI Digital Twin Case Studies: What Was Tested, What Held Up",
+      "titleZh": "Listen Labs 盘点 AI 数字孪生案例：测了什么、哪些站得住",
+      "summaryZh": "Listen Labs 盘点了 6 个 AI 数字孪生案例，并按通用人设、人群混合模型、消费者数字孪生、已验证数字孪生四层分类标注各自的验证方式。文中引用 Columbia Business School 团队 19 项预注册研究，Science Advances 的“funhouse mirrors”研究报告孪生与真人在个体层面的平均相关性仅 r = 0.20，全人设孪生为 0.748，仅含人口统计信息的孪生为 0.746，两者差异不具统计显著性。MarketTwin、Delve AI 等方法的结果由厂商自报，未经独立验证，作者建议只作方向性参考。",
+      "reason": "文章用四层分类逐条标注各数字孪生案例的验证方式，让研究者能区分厂商自报结果与独立验证之间的距离。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-05T05:09:03+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "dfc4bbf66f66afd9",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -295,6 +373,59 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-04T05:10:39+00:00",
       "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "bda1b6ca9d39f999",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2602.22710",
+      "title": "Same Words, Different Judgments: How Preferences Vary Across Modalities",
+      "titleZh": "arXiv 论文比较文本与音频偏好标注：同一批 100 条提示词的判断差异",
+      "summaryZh": "一篇 arXiv 论文用 ICC 对比同一批 100 条提示词在文本与音频下的偏好标注，发现两种模态的评分者一致性差异明显，音频 ICC(2,k) 约 0.81、文本约 0.74，达到该水平约需 9 名评分者。音频评分者决策阈值更窄、长度偏差更小、更偏向以用户为中心的评估标准，而跨模态一致性接近随机水平。作者据此认为音频偏好数据的评测协议需要按模态单独设计，而非直接沿用文本方案，并指出合成评分可用于预测评分者一致性、作为刺激材料筛选的早期信号；代码、数据和音频语料已在 Hugging Face 公开。",
+      "reason": "同一批 100 条提示词在文本与音频下的偏好判断差异明显，为评测协议是否需按模态分别设计提供了比较依据。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "多模态",
+        "问卷/定量",
+        "合成用户"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-05T05:00:00+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "595b6795fbc69cd7",
+      "sourceId": "dovetail-blog",
+      "sourceName": "Dovetail Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://dovetail.com/blog/introducing-dovetail-one/",
+      "title": "Introducing Dovetail One: one platform for customer context across every team",
+      "titleZh": "Dovetail 推出统一客户上下文平台 Dovetail One",
+      "summaryZh": "Dovetail 发布 Dovetail One，把 VoC、产品与设计、用户研究和收入智能整合到同一个客户上下文平台上。按其描述，该平台面向各类团队共用同一份客户上下文。",
+      "reason": "原文列出四类团队数据的整合范围，可供研究者判断洞察库是否会从用研专属走向跨团队共用。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "dovetail"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-11-05T17:00:00+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -345,6 +476,31 @@
       "itemType": null,
       "publishedAt": "2026-11-03T22:37:40+00:00",
       "discoveredAt": "2026-11-04T00:26:13.123578+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a8f4ca7a056dfac9",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.05761",
+      "title": "BobFlow: Towards Human-Agent Collaborative Data Science Using Dataflows",
+      "titleZh": "BobFlow：迈向基于数据流的人与智能体协作数据科学",
+      "summaryZh": "BobFlow 将数据流抽象与 ReAct 范式结合，让 AI 智能体迭代构建并执行数据流，分析师可检查分析并反馈。用户研究表明，它帮助分析师理解、检查和验证智能体生成的分析。在专有与开放权重 LLM 上的实验显示，它以基于脚本的 ReAct 智能体 1/3 略多的推理成本，换来最高 18.6 分的准确率提升。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "Agent",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:00:00+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -403,6 +559,30 @@
       "relation": "different"
     },
     {
+      "id": "f960e9756785f2f5",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.05761v1",
+      "title": "BobFlow：利用数据流实现人机协作数据科学",
+      "titleZh": "BobFlow：利用数据流实现人机协作数据科学",
+      "summaryZh": "BobFlow 用数据流作为共享抽象，结合 ReAct 让智能体迭代构建、执行分析并接受人类检查与反馈。用户研究显示，它提升了分析师对分析的理解、检查与验证能力。多模型实验中准确率最多提高 18.6 分，推理成本略高于脚本式 ReAct 智能体的三分之一。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-03T16:00:00+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "b9868941df7f8e8f",
       "sourceId": "producttalk",
       "sourceName": "Product Talk（Teresa Torres）",
@@ -421,6 +601,86 @@
       "itemType": null,
       "publishedAt": "2026-11-03T14:00:00+00:00",
       "discoveredAt": "2026-11-03T14:19:28.006181+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "c6d7a31d63ea8a4f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-digital-twin-insights-platform/",
+      "title": "AI Digital Twin Consumer Insights Platform: Buyer’s Guide",
+      "titleZh": "Listen Labs 的 AI 数字孪生消费者洞察平台购买指南：1:1 真人数字孪生与合成受访者之辨",
+      "summaryZh": "Listen Labs 的 AI 数字孪生消费者洞察平台购买指南主张，优先选真人一对一访谈构建的 1:1 数字孪生，而非合成受访者。其引用 2026 年 benchmark 称，测试模型在跨文化价值观上比人口统计查表低 11 到 22 个百分点；Listen Twins 的受访者来自超 5000 万验证参与者网络，答案附置信分数与可追溯推理，支持一键真人验证。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈",
+        "研究伦理"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:09:09+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "33fa417d4ecf662a",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.06572v1",
+      "title": "人格是否具有说服力：探究LLM中的人格特质提示与说服",
+      "titleZh": "人格是否具有说服力：探究 LLM 中的人格特质提示与说服",
+      "summaryZh": "一项32人研究用IPIP-NEO-120评估LLM人格特质提示的可控性与说服效果，并让参与者与不同人格配置的LLM智能体讨论道德困境。人格可被一定程度诱导，但人格一致性未显著改变说服、立场或信心。更高的AI说服素养与较少信心变化相关。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "学术 HCI",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-03T16:00:00+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "c04d4c11af5400bd",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.06696",
+      "title": "You Know What You Will Like: People Predict Their Own Ratings Better Than Recommender Systems",
+      "titleZh": "MovieLens 研究：人们对自身评分的预测准确度高于推荐系统",
+      "summaryZh": "MovieLens Beliefs 数据集研究显示，人们对自身电影评分的预测比平台预测和协同过滤模型更准，相关系数 0.69，对比 0.34 和 0.54–0.59。26,020 条预期评分中仅 551 条（来自 277 名成员）在至少一天后得到实际评分，把预期并入机器预测后样本外均方误差降低 26%。在成员自己影片的排序上，训练模型与本人表现无统计差异。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "行为数据",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:00:00+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -449,6 +709,61 @@
       "itemType": null,
       "publishedAt": "2026-11-03T05:05:47+00:00",
       "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "dcfdbb3ff630b67f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-synthetic-user-ai-tools/",
+      "title": "AI Interview Tools: A Decision Guide To The Best Options",
+      "titleZh": "AI 访谈工具决策指南：Listen Labs、Synthetic Users 等方案怎么选",
+      "summaryZh": "Listen Labs 的 AI 访谈工具决策指南将方案分为真实 AI 主持访谈与 LLM 合成用户，并推荐前者。网络覆盖 50M+ 参与者、45+ 国家，24 小时内交付；Synthetic Users 年费 $12,500 起。NN/g 对比 120 名模拟受访者与 604 名真人，发现模拟回答标签仅约十几种。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "NN/g"
+      ],
+      "entities": [
+        "listen-labs",
+        "nngroup",
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:08:56+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "839f7def4fb3d520",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.05954",
+      "title": "Robots in the City: Persona-Based Perceptions of Urban Robots",
+      "titleZh": "城市中的机器人：基于 Persona 的城市机器人安全感知研究",
+      "summaryZh": "一项 arXiv 研究用 18 张首尔街景图，让 Qwen3.8-27B 和 Gemma4-26B 各以 500 个合成 Persona 为条件，与 25 名人类受访者完成同一组两两安全感知选择。两个模型都更偏好无机器人的街道，也更倾向配送机器人而非人形机器人，并与人类一样在夜间更常选择有机器人的画面。但模型选人形机器人的比例远低于人类，Gemma 对人形机器人的夜间效应约为人类的三倍。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "多模态",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:00:00+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -537,6 +852,31 @@
       "itemType": null,
       "publishedAt": "2026-11-01T05:00:33+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f5f0eb21b3299a64",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.05954v1",
+      "title": "城市中的机器人：人格化视角下对城市机器人的感知",
+      "titleZh": "城市中的机器人：多模态大模型与25名人类在500种合成人格下的安全感判断比较",
+      "summaryZh": "一项研究用首尔街道图像比较无机器人、配送机器人和人形机器人的安全感判断：两个多模态大模型在500种合成人格条件下与25名人类完成成对选择。模型和人类都偏好无机器人街道，夜间更愿选择机器人，但模型低估了人类对人形机器人的相对偏好，说明其只能部分模拟人类感知。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "多模态"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-03T16:00:00+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -743,6 +1083,36 @@
       "relation": null
     },
     {
+      "id": "a6e0a3a44fdeb133",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-conjoint-analysis-tools/",
+      "title": "Best Conjoint Analysis Tools for Concept Testing",
+      "titleZh": "概念测试最佳 Conjoint Analysis 工具：Listen Labs 位列端到端首选",
+      "summaryZh": "Listen Labs 在面向概念测试的 Conjoint Analysis 工具盘点中被列为端到端首选，覆盖设计、招募、AI 主持访谈、分析和交付。其 50M+ 验证受访者覆盖 45+ 国家，完整结果不到 24 小时交付；Sawtooth Software 仍是 CBC、ACBC 等设计及 HB 估计的方法学参考，但需另配样本库和定性供应商。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:08:46+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "ae2f1f37dd7e3e4a",
       "sourceId": "ipsos",
       "sourceName": "Ipsos",
@@ -793,6 +1163,35 @@
       "itemType": null,
       "publishedAt": "2026-11-04T05:10:30+00:00",
       "discoveredAt": "2026-11-04T11:54:10.721486+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ec2e75f65a9ea8af",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-qualtrics-alternatives-message-testing/",
+      "title": "Qualtrics Alternatives for Message Testing: 2026 Guide",
+      "titleZh": "Qualtrics 的信息测试替代方案：2026 工具指南",
+      "summaryZh": "信息测试工具指南将 Listen Labs 列为首选 Qualtrics 替代方案：其 AI 主持访谈依托 50M+ 验证受访者，覆盖 45+ 国家。其成本约为传统研究的三分之一，24 小时内可出结果。文章还按场景列出 Wynter、PickFu、Maze、Lyssna、Attest 与 Perspective AI 等替代工具。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:08:51+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

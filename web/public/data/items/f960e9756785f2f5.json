@@ -1,0 +1,25 @@
+{
+  "id": "f960e9756785f2f5",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.05761v1",
+  "title": "BobFlow：利用数据流实现人机协作数据科学",
+  "titleZh": "BobFlow：利用数据流实现人机协作数据科学",
+  "summaryZh": "BobFlow 用数据流作为共享抽象，结合 ReAct 让智能体迭代构建、执行分析并接受人类检查与反馈。用户研究显示，它提升了分析师对分析的理解、检查与验证能力。多模型实验中准确率最多提高 18.6 分，推理成本略高于脚本式 ReAct 智能体的三分之一。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "Agent"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-03T16:00:00+00:00",
+  "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

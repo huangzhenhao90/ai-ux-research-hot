@@ -3,7 +3,7 @@
   "name": "Nielsen Norman Group",
   "group": "company",
   "definition": "NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。",
-  "count": 13,
+  "count": 14,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -294,6 +294,35 @@
       "itemType": null,
       "publishedAt": "2026-09-18T17:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "dcfdbb3ff630b67f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-synthetic-user-ai-tools/",
+      "title": "AI Interview Tools: A Decision Guide To The Best Options",
+      "titleZh": "AI 访谈工具决策指南：Listen Labs、Synthetic Users 等方案怎么选",
+      "summaryZh": "Listen Labs 的 AI 访谈工具决策指南将方案分为真实 AI 主持访谈与 LLM 合成用户，并推荐前者。网络覆盖 50M+ 参与者、45+ 国家，24 小时内交付；Synthetic Users 年费 $12,500 起。NN/g 对比 120 名模拟受访者与 604 名真人，发现模拟回答标签仅约十几种。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "NN/g"
+      ],
+      "entities": [
+        "listen-labs",
+        "nngroup",
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:08:56+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -3,7 +3,7 @@
   "name": "AI 访谈",
   "group": "field",
   "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-  "count": 57,
+  "count": 60,
   "items": [
     {
       "id": "1dcf3578a582d301",
@@ -565,6 +565,34 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "c6d7a31d63ea8a4f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-digital-twin-insights-platform/",
+      "title": "AI Digital Twin Consumer Insights Platform: Buyer’s Guide",
+      "titleZh": "Listen Labs 的 AI 数字孪生消费者洞察平台购买指南：1:1 真人数字孪生与合成受访者之辨",
+      "summaryZh": "Listen Labs 的 AI 数字孪生消费者洞察平台购买指南主张，优先选真人一对一访谈构建的 1:1 数字孪生，而非合成受访者。其引用 2026 年 benchmark 称，测试模型在跨文化价值观上比人口统计查表低 11 到 22 个百分点；Listen Twins 的受访者来自超 5000 万验证参与者网络，答案附置信分数与可追溯推理，支持一键真人验证。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈",
+        "研究伦理"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:09:09+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
     },
     {
       "id": "6365b13a764297dc",
@@ -1534,6 +1562,36 @@
       "relation": null
     },
     {
+      "id": "a6e0a3a44fdeb133",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-conjoint-analysis-tools/",
+      "title": "Best Conjoint Analysis Tools for Concept Testing",
+      "titleZh": "概念测试最佳 Conjoint Analysis 工具：Listen Labs 位列端到端首选",
+      "summaryZh": "Listen Labs 在面向概念测试的 Conjoint Analysis 工具盘点中被列为端到端首选，覆盖设计、招募、AI 主持访谈、分析和交付。其 50M+ 验证受访者覆盖 45+ 国家，完整结果不到 24 小时交付；Sawtooth Software 仍是 CBC、ACBC 等设计及 HB 估计的方法学参考，但需另配样本库和定性供应商。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:08:46+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "acedb04574d226cc",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1591,6 +1649,35 @@
       "itemType": null,
       "publishedAt": "2026-10-21T05:03:24+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ec2e75f65a9ea8af",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-qualtrics-alternatives-message-testing/",
+      "title": "Qualtrics Alternatives for Message Testing: 2026 Guide",
+      "titleZh": "Qualtrics 的信息测试替代方案：2026 工具指南",
+      "summaryZh": "信息测试工具指南将 Listen Labs 列为首选 Qualtrics 替代方案：其 AI 主持访谈依托 50M+ 验证受访者，覆盖 45+ 国家。其成本约为传统研究的三分之一，24 小时内可出结果。文章还按场景列出 Wynter、PickFu、Maze、Lyssna、Attest 与 Perspective AI 等替代工具。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T05:08:51+00:00",
+      "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
