@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "count": 48,
+  "count": 52,
   "items": [
     {
       "id": "1dcf3578a582d301",
@@ -431,6 +431,29 @@
       "relation": "different"
     },
     {
+      "id": "3d35935d746faf8a",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
+      "title": "Berrypicking still beats the single answer for search, even in the world of AI",
+      "titleZh": "AI 搜索时代，Berrypicking 仍胜过单一答案",
+      "summaryZh": "Marcia Bates 的 Berrypicking 模型仍适用于 AI 搜索：需求在搜集与阅读中演化，单一答案难以覆盖碎片化过程。2025年一项超过200,000段模拟对话的研究显示，任务分批给出时，六个任务上顶级模型平均下降39%。Bates 的 29 种搜索策略和 0-4 级自动化分工可指导界面设计。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-06T04:13:24+00:00",
+      "discoveredAt": "2026-11-06T11:52:20.230505+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "9333b6722e25af5e",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -655,6 +678,31 @@
       "itemType": null,
       "publishedAt": "2026-11-03T16:00:00+00:00",
       "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "363e277fa93d5ec5",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.07489",
+      "title": "ReviewMap: Mapping Evaluative Acts and Automation Boundaries in Peer-Review Comments",
+      "titleZh": "ReviewMap：区分同行评审评论中的评价行为与自动化边界",
+      "summaryZh": "研究团队提出 ReviewMap 框架，把同行评审评论分为评估学术标准与校准贡献价值两类评价行为。在 500 篇 ICLR 2026 论文上，多模型 LLM 共识使行为层达到模型间 κ ≥ 0.75，属性层仍需人工监督，划出自动化边界。17% 的审稿人-论文实例无校准编码，Strengths 的校准占比近 Weaknesses 的 3 倍。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "文本分析/VOC",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-06T05:00:00+00:00",
+      "discoveredAt": "2026-11-06T11:52:20.230505+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -964,6 +1012,32 @@
       "itemType": null,
       "publishedAt": "2026-11-05T17:13:34+00:00",
       "discoveredAt": "2026-11-05T19:42:20.545393+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2a20f394cd54844a",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.08006",
+      "title": "Automatic keyphrase extraction and annotation: modern theoretical approaches and practical solutions for text and speech",
+      "titleZh": "自动关键词提取与标注：文本与语音的现代理论方法与实用方案综述",
+      "summaryZh": "一篇综述系统梳理文本与语音模态下的自动关键词提取（KE），将统计、混合、机器学习、结构化方法及 LLM 关键词生成纳入统一框架。文章比较基于转录文本和端到端声学的语音 KE 路线，并概述自动语料标注的方法与挑战；结论认为领域正走向更集成、上下文感知的范式，未来需应对低资源语言数据稀缺、多模态融合和生成式 KE 评测。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "文本分析/VOC",
+        "转写/编码",
+        "多模态"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-06T05:00:00+00:00",
+      "discoveredAt": "2026-11-06T11:52:20.230505+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1295,6 +1369,29 @@
       "itemType": null,
       "publishedAt": "2026-11-02T08:00:00+00:00",
       "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "00a5c1db9a7ab893",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/introducing-ipsos-newly-updated-cx-maturity-assessment-and-cx-roadmap-now-including-cx-maturity",
+      "title": "Build the capabilities that drive customer-led growth",
+      "titleZh": "Ipsos CX Maturity Assessment：创建 CX 卓越路线图，构建客户主导增长能力",
+      "summaryZh": "Ipsos 的 CX Maturity Assessment 用于创建 CX 卓越路线图，并构建以客户为主导的增长能力。该评估聚焦 CX 成熟度。",
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T16:07:56+00:00",
+      "discoveredAt": "2026-11-06T11:52:20.230505+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

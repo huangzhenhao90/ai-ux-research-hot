@@ -1,0 +1,26 @@
+{
+  "id": "363e277fa93d5ec5",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.07489",
+  "title": "ReviewMap: Mapping Evaluative Acts and Automation Boundaries in Peer-Review Comments",
+  "titleZh": "ReviewMap：区分同行评审评论中的评价行为与自动化边界",
+  "summaryZh": "研究团队提出 ReviewMap 框架，把同行评审评论分为评估学术标准与校准贡献价值两类评价行为。在 500 篇 ICLR 2026 论文上，多模型 LLM 共识使行为层达到模型间 κ ≥ 0.75，属性层仍需人工监督，划出自动化边界。17% 的审稿人-论文实例无校准编码，Strengths 的校准占比近 Weaknesses 的 3 倍。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "文本分析/VOC",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-06T05:00:00+00:00",
+  "discoveredAt": "2026-11-06T11:52:20.230505+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

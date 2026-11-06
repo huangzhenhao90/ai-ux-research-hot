@@ -3,7 +3,7 @@
   "name": "Ipsos",
   "group": "company",
   "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-  "count": 23,
+  "count": 24,
   "items": [
     {
       "id": "dfc4bbf66f66afd9",
@@ -566,6 +566,29 @@
       "itemType": null,
       "publishedAt": "2026-10-29T12:53:51+00:00",
       "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "00a5c1db9a7ab893",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/introducing-ipsos-newly-updated-cx-maturity-assessment-and-cx-roadmap-now-including-cx-maturity",
+      "title": "Build the capabilities that drive customer-led growth",
+      "titleZh": "Ipsos CX Maturity Assessment：创建 CX 卓越路线图，构建客户主导增长能力",
+      "summaryZh": "Ipsos 的 CX Maturity Assessment 用于创建 CX 卓越路线图，并构建以客户为主导的增长能力。该评估聚焦 CX 成熟度。",
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-05T16:07:56+00:00",
+      "discoveredAt": "2026-11-06T11:52:20.230505+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

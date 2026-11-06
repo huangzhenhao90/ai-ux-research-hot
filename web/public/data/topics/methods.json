@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 112,
+  "count": 113,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -2438,6 +2438,32 @@
       "itemType": null,
       "publishedAt": "2026-07-14T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2a20f394cd54844a",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.08006",
+      "title": "Automatic keyphrase extraction and annotation: modern theoretical approaches and practical solutions for text and speech",
+      "titleZh": "自动关键词提取与标注：文本与语音的现代理论方法与实用方案综述",
+      "summaryZh": "一篇综述系统梳理文本与语音模态下的自动关键词提取（KE），将统计、混合、机器学习、结构化方法及 LLM 关键词生成纳入统一框架。文章比较基于转录文本和端到端声学的语音 KE 路线，并概述自动语料标注的方法与挑战；结论认为领域正走向更集成、上下文感知的范式，未来需应对低资源语言数据稀缺、多模态融合和生成式 KE 评测。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "文本分析/VOC",
+        "转写/编码",
+        "多模态"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-06T05:00:00+00:00",
+      "discoveredAt": "2026-11-06T11:52:20.230505+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
