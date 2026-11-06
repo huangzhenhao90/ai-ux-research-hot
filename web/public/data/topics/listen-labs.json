@@ -3,7 +3,7 @@
   "name": "Listen Labs",
   "group": "company",
   "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-  "count": 85,
+  "count": 89,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -1108,6 +1108,36 @@
       "relation": null
     },
     {
+      "id": "9d138256869b06d0",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-feedback/",
+      "title": "Best AI Digital Twin Platforms for Fast Customer Feedback",
+      "titleZh": "面向快速客户反馈的最佳 AI 数字孪生平台：Listen Labs 居首",
+      "summaryZh": "Listen Labs 在快速客户反馈 AI 数字孪生平台排名中居首，称 24 小时内可从 50M+ 验证受访者网络返回结果。每个 Listen Twin 基于 1 位真人的新访谈构建，答案附推理、原始引述和 confidence score，并支持一键真人验证。Pew Research Center 实验显示 AI 生成受访者与真人平均相差 12.4 个百分点。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究",
+        "Dovetail"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-06T07:27:21+00:00",
+      "discoveredAt": "2026-11-06T18:58:55.026284+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "7316a5b53891ade4",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1392,6 +1422,38 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:06+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5f49b945165a85f5",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-circana-concept-testing-alternatives/",
+      "title": "Circana Concept Testing Alternatives: A Decision Framework",
+      "titleZh": "Circana 概念测试替代方案：决策框架",
+      "summaryZh": "Listen Labs 给出 Circana 概念测试替代方案决策框架，按敏捷筛选、销量预测、AI 主持定性研究和自助问卷四类匹配任务。Circana 用 50 万已验证购买者做预测，称 90% 成功率、误差 ±10%，但未经独立审计；Listen Labs 则以 50M+ 受访者、45+ 国家和 120+ 语言在 24 小时内补 AI 主持访谈的定性深度。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "市场研究",
+        "Qualtrics",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-06T07:27:27+00:00",
+      "discoveredAt": "2026-11-06T18:58:55.026284+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1879,6 +1941,67 @@
       "itemType": null,
       "publishedAt": "2026-10-22T05:04:06+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5beb6de812872b41",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-toluna-alternatives-concept-testing/",
+      "title": "Toluna Alternatives for Concept Testing: A Buyer’s Shortlist",
+      "titleZh": "Toluna 替代方案：概念测试平台买家候选清单",
+      "summaryZh": "Listen Labs 发布概念测试场景下的 Toluna 替代方案清单，按定性深度、定量规模、速度与成本分组列出候选平台，并主推自家 AI 主持访谈。清单称 Toluna Start 覆盖 100+ 国家、81M+ 消费者，但问卷只给评分、难解释概念成败；Listen Labs 则称其 AI 主持访谈可在 24 小时内出结果，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "usertesting",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-06T07:26:44+00:00",
+      "discoveredAt": "2026-11-06T18:58:55.026284+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8735d76355f9442b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-message-testing-tools-cpg/",
+      "title": "Message Testing Tools for CPG: Claims, Taglines & Pack Copy",
+      "titleZh": "CPG 信息测试工具：Claims、Taglines 与 Pack Copy",
+      "summaryZh": "Listen Labs 在 CPG 信息测试工具盘点中综合排名第一，主打 AI 主持访谈与 MaxDiff 结合。它从 50M+ 验证受访者网络招募品类买家，24 小时内交付，成本约传统研究三分之一，P&G、Nestlé 在平台上开展 CPG 研究。NielsenIQ BASES 单概念单市场约 $50,000–$75,000、需六到十二周；Qualtrics Strategic Research 起价 $5,040/年。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-06T07:26:49+00:00",
+      "discoveredAt": "2026-11-06T18:58:55.026284+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

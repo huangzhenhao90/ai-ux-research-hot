@@ -3,7 +3,7 @@
   "name": "Maze",
   "group": "company",
   "definition": "Maze 的快速研究平台、AI 功能与研究方法内容。",
-  "count": 7,
+  "count": 8,
   "items": [
     {
       "id": "ddda8effcf446274",
@@ -115,6 +115,37 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:01:46+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5beb6de812872b41",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-toluna-alternatives-concept-testing/",
+      "title": "Toluna Alternatives for Concept Testing: A Buyer’s Shortlist",
+      "titleZh": "Toluna 替代方案：概念测试平台买家候选清单",
+      "summaryZh": "Listen Labs 发布概念测试场景下的 Toluna 替代方案清单，按定性深度、定量规模、速度与成本分组列出候选平台，并主推自家 AI 主持访谈。清单称 Toluna Start 覆盖 100+ 国家、81M+ 消费者，但问卷只给评分、难解释概念成败；Listen Labs 则称其 AI 主持访谈可在 24 小时内出结果，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "usertesting",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-06T07:26:44+00:00",
+      "discoveredAt": "2026-11-06T18:58:55.026284+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -3,7 +3,7 @@
   "name": "Dovetail",
   "group": "company",
   "definition": "Dovetail 的洞察库与研究分析产品更新，以及其对研究流程自动化的做法。",
-  "count": 24,
+  "count": 25,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -329,6 +329,36 @@
       "publishedAt": "2026-06-14T23:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9d138256869b06d0",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-feedback/",
+      "title": "Best AI Digital Twin Platforms for Fast Customer Feedback",
+      "titleZh": "面向快速客户反馈的最佳 AI 数字孪生平台：Listen Labs 居首",
+      "summaryZh": "Listen Labs 在快速客户反馈 AI 数字孪生平台排名中居首，称 24 小时内可从 50M+ 验证受访者网络返回结果。每个 Listen Twin 基于 1 位真人的新访谈构建，答案附推理、原始引述和 confidence score，并支持一键真人验证。Pew Research Center 实验显示 AI 生成受访者与真人平均相差 12.4 个百分点。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究",
+        "Dovetail"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-06T07:27:21+00:00",
+      "discoveredAt": "2026-11-06T18:58:55.026284+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },

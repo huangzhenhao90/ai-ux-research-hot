@@ -1,5 +1,5 @@
 {
-  "count": 304,
+  "count": 308,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -2550,6 +2550,27 @@
       "publishedAt": "2026-03-03T20:43:47+00:00"
     },
     {
+      "id": "9d138256869b06d0",
+      "title": "Best AI Digital Twin Platforms for Fast Customer Feedback",
+      "titleZh": "面向快速客户反馈的最佳 AI 数字孪生平台：Listen Labs 居首",
+      "summaryZh": "Listen Labs 在快速客户反馈 AI 数字孪生平台排名中居首，称 24 小时内可从 50M+ 验证受访者网络返回结果。每个 Listen Twin 基于 1 位真人的新访谈构建，答案附推理、原始引述和 confidence score，并支持一键真人验证。Pew Research Center 实验显示 AI 生成受访者与真人平均相差 12.4 个百分点。",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究",
+        "Dovetail"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-feedback/",
+      "publishedAt": "2026-11-06T07:27:21+00:00"
+    },
+    {
       "id": "7316a5b53891ade4",
       "title": "AI Digital Twins for Brand Tracking: Tracker Owner Guide",
       "titleZh": "Listen Labs：品牌追踪 AI 数字孪生指南（追踪负责人版）",
@@ -2969,6 +2990,29 @@
       "sourceName": "Dynata",
       "url": "https://www.dynata.com/why-dynata/resources/blog/how-to-write-survey-questions/",
       "publishedAt": "2026-07-09T16:21:19+00:00"
+    },
+    {
+      "id": "5f49b945165a85f5",
+      "title": "Circana Concept Testing Alternatives: A Decision Framework",
+      "titleZh": "Circana 概念测试替代方案：决策框架",
+      "summaryZh": "Listen Labs 给出 Circana 概念测试替代方案决策框架，按敏捷筛选、销量预测、AI 主持定性研究和自助问卷四类匹配任务。Circana 用 50 万已验证购买者做预测，称 90% 成功率、误差 ±10%，但未经独立审计；Listen Labs 则以 50M+ 受访者、45+ 国家和 120+ 语言在 24 小时内补 AI 主持访谈的定性深度。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "市场研究",
+        "Qualtrics",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "kantar"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-circana-concept-testing-alternatives/",
+      "publishedAt": "2026-11-06T07:27:27+00:00"
     },
     {
       "id": "f2be23495f1b6d82",
@@ -3876,6 +3920,28 @@
       "publishedAt": "2025-01-07T13:37:33+00:00"
     },
     {
+      "id": "5beb6de812872b41",
+      "title": "Toluna Alternatives for Concept Testing: A Buyer’s Shortlist",
+      "titleZh": "Toluna 替代方案：概念测试平台买家候选清单",
+      "summaryZh": "Listen Labs 发布概念测试场景下的 Toluna 替代方案清单，按定性深度、定量规模、速度与成本分组列出候选平台，并主推自家 AI 主持访谈。清单称 Toluna Start 覆盖 100+ 国家、81M+ 消费者，但问卷只给评分、难解释概念成败；Listen Labs 则称其 AI 主持访谈可在 24 小时内出结果，成本约为传统研究的三分之一。",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "usertesting",
+        "maze"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-toluna-alternatives-concept-testing/",
+      "publishedAt": "2026-11-06T07:26:44+00:00"
+    },
+    {
       "id": "ce322cd5b0fcbef8",
       "title": "Technology Acceptance Model in video-sharing platforms: comparisons between TikTok and YouTube",
       "titleZh": "视频分享平台中的技术接受模型（TAM）：TikTok 与 YouTube 对比",
@@ -3925,6 +3991,27 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/manual-coding-vs-qualitative-coding-software/",
       "publishedAt": "2026-03-31T00:00:00+00:00"
+    },
+    {
+      "id": "8735d76355f9442b",
+      "title": "Message Testing Tools for CPG: Claims, Taglines & Pack Copy",
+      "titleZh": "CPG 信息测试工具：Claims、Taglines 与 Pack Copy",
+      "summaryZh": "Listen Labs 在 CPG 信息测试工具盘点中综合排名第一，主打 AI 主持访谈与 MaxDiff 结合。它从 50M+ 验证受访者网络招募品类买家，24 小时内交付，成本约传统研究三分之一，P&G、Nestlé 在平台上开展 CPG 研究。NielsenIQ BASES 单概念单市场约 $50,000–$75,000、需六到十二周；Qualtrics Strategic Research 起价 $5,040/年。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-message-testing-tools-cpg/",
+      "publishedAt": "2026-11-06T07:26:49+00:00"
     },
     {
       "id": "62b079ae4edb045e",

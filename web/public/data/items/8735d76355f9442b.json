@@ -1,0 +1,31 @@
+{
+  "id": "8735d76355f9442b",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-message-testing-tools-cpg/",
+  "title": "Message Testing Tools for CPG: Claims, Taglines & Pack Copy",
+  "titleZh": "CPG 信息测试工具：Claims、Taglines 与 Pack Copy",
+  "summaryZh": "Listen Labs 在 CPG 信息测试工具盘点中综合排名第一，主打 AI 主持访谈与 MaxDiff 结合。它从 50M+ 验证受访者网络招募品类买家，24 小时内交付，成本约传统研究三分之一，P&G、Nestlé 在平台上开展 CPG 研究。NielsenIQ BASES 单概念单市场约 $50,000–$75,000、需六到十二周；Qualtrics Strategic Research 起价 $5,040/年。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "问卷/定量",
+    "定性分析"
+  ],
+  "entities": [
+    "listen-labs",
+    "qualtrics",
+    "surveymonkey"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-06T07:26:49+00:00",
+  "discoveredAt": "2026-11-06T18:58:55.026284+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
