@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 59,
+  "count": 60,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -159,6 +159,34 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "acc411c1672044ac",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/synthetic-audiences-concept-testing/",
+      "title": "Digital Twins for Concept Testing: Don’t Get Fooled",
+      "titleZh": "Listen Labs 分析概念测试数字孪生的偏差风险与验证方法",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文分析概念测试中的数字孪生与合成样本库，认为它们更适合早期快速筛选，需要对照真人结果才能用于决策。文中引用的对照显示，PyMC Labs 与 Colgate-Palmolive 在 57 项真实调研上达到约 90% 的人类重测信度，而 Navy Federal Credit Union 与 Qualtrics 的试点均值差异虽小于 0.25%，41% 的真人提到害怕被拒绝，合成回答仅占 21%。作者给出用 3–5 个已测概念做盲测回测的验证步骤，并称 Listen Labs 由 5000 万+ 样本库中的真人 AI 主持访谈支撑，24 小时内交付结果。",
+      "reason": "文中给出盲测回测与合成加真人的验证步骤，可用来判断合成受访者的排名与异议是否可信。",
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-11-07T05:02:17+00:00",
+      "discoveredAt": "2026-11-07T14:44:00.123322+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "3d35935d746faf8a",

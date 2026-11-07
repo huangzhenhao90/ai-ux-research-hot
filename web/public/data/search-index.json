@@ -1,5 +1,5 @@
 {
-  "count": 309,
+  "count": 314,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -223,6 +223,26 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/2025-fall-launch/",
       "publishedAt": "2025-10-08T15:00:00+00:00"
+    },
+    {
+      "id": "c6d5793f702bb40a",
+      "title": "Best AI Survey Tools: A Buyer’s Comparison Guide",
+      "titleZh": "Listen Labs 盘点 AI 问卷工具并给出采购验证清单",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰写 AI 问卷工具选购对比指南，把 Listen Labs 列为首选，并引用 Pew Research 2026 年 9 月 30 日的独立基准作为依据。Pew 让一个 AI 模型套用真实 American Trends Panel 成员的人设回答 2026 年上半年三轮调查近 300 道题，合成估算与真人平均相差 12 个百分点，约 28% 的题目差距超过 15 个百分点，个体层面匹配率约 55%。文中还给出六项采购验证清单，涉及真人数据基础、个体层面输出与答案可追溯性，并对比了 PersonaPanels 与 Delve AI。",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "delve"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-survey-tools-synthetic-respondents/",
+      "publishedAt": "2026-11-07T05:04:34+00:00"
     },
     {
       "id": "ba1ff72af3d0f43e",
@@ -871,6 +891,25 @@
       "publishedAt": "2026-11-05T05:09:03+00:00"
     },
     {
+      "id": "acc411c1672044ac",
+      "title": "Digital Twins for Concept Testing: Don’t Get Fooled",
+      "titleZh": "Listen Labs 分析概念测试数字孪生的偏差风险与验证方法",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文分析概念测试中的数字孪生与合成样本库，认为它们更适合早期快速筛选，需要对照真人结果才能用于决策。文中引用的对照显示，PyMC Labs 与 Colgate-Palmolive 在 57 项真实调研上达到约 90% 的人类重测信度，而 Navy Federal Credit Union 与 Qualtrics 的试点均值差异虽小于 0.25%，41% 的真人提到害怕被拒绝，合成回答仅占 21%。作者给出用 3–5 个已测概念做盲测回测的验证步骤，并称 Listen Labs 由 5000 万+ 样本库中的真人 AI 主持访谈支撑，24 小时内交付结果。",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/synthetic-audiences-concept-testing/",
+      "publishedAt": "2026-11-07T05:02:17+00:00"
+    },
+    {
       "id": "dfc4bbf66f66afd9",
       "title": "AI-Generated Personas: Are They Reliable for Research?",
       "titleZh": "Listen Labs 解读 AI 生成人物画像的可靠性与构建方法",
@@ -1459,6 +1498,26 @@
       "sourceName": "Ipsos",
       "url": "https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre",
       "publishedAt": "2026-10-23T05:50:34+00:00"
+    },
+    {
+      "id": "63963c4304b270ba",
+      "title": "Digital Twin Examples in Consumer Research: Validated",
+      "titleZh": "Listen Labs 梳理消费研究数字孪生案例，区分 1:1 孪生与合成受访者",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 按五个用例类别梳理消费研究中的数字孪生案例，并区分基于真人访谈的 1:1 孪生与混合分群的合成受访者。文中引用斯坦福 1,052 人研究，访谈构建的智能体达到受访者自身两周重测一致性基准的 83–86%，仅用人口统计数据的智能体为 74%。Walmart、CVS 与 Ipsos 等零售和概念测试案例多属方向性结论，未披露量化验证指标；文中称 Listen Twins 是所列案例中唯一披露逐人盲测的，可用真人一键验证结论。",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/digital-twin-examples-consumer-research/",
+      "publishedAt": "2026-11-07T05:04:29+00:00"
     },
     {
       "id": "2aed3e29d232db91",
@@ -2795,6 +2854,26 @@
       "publishedAt": "2025-09-09T00:00:00+00:00"
     },
     {
+      "id": "b97e6f256c387fd3",
+      "title": "What Is Better Than A/B Testing For Message Testing?",
+      "titleZh": "Listen Labs 列出六种比 A/B 测试更适合信息测试的替代方法",
+      "summaryZh": "Listen Labs 列出六种替代 A/B 测试的信息测试方法，包括定性访谈、MaxDiff 和单因子测试。A/B 测试无法解释原因，检测 10% 相对提升约需每变体 30,400 名用户，74.2% 的测试无显著差异。其 AI 主持访谈覆盖 50M+ 受访者、45+ 国家和 120+ 语言，24 小时内出结果；Wynter 起价 $899/测试。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-alternatives-to-ab-testing/",
+      "publishedAt": "2026-11-07T05:01:14+00:00"
+    },
+    {
       "id": "f98f06e0afe96498",
       "title": "AI Digital Twin Vendors For Enterprise Consumer Insights",
       "titleZh": "面向企业消费者洞察的 AI 数字孪生供应商：合成人设、人工验证研究孪生与 1:1 真人孪生",
@@ -3724,6 +3803,29 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/queer-theory-and-qualitative-methods-an-unlikely-marriage/",
       "publishedAt": "2025-07-16T16:36:00+00:00"
+    },
+    {
+      "id": "2e11ea7f6ba2c9bc",
+      "title": "Research Ops Tools For Prototype Testing: 2026 Guide",
+      "titleZh": "2026 原型测试 ResearchOps 工具指南：Listen Labs、Maze、Useberry、Dovetail 分阶段对比",
+      "summaryZh": "Listen Labs 发布了一份按计划、招募、测试、分析、存储五个阶段梳理原型测试 ResearchOps 工具的指南。其自述平台覆盖全部五阶段，可从 45+ 国家、120+ 语言的 50M+ 受访者网络招募，并把典型 4–6 周周期压缩到 24 小时内。指南还指出 Maze 的 AI Moderator 属单独的高价附加项、Useberry 需公开 Figma 原型。",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本",
+        "洞察库/ResearchOps",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "maze",
+        "dovetail",
+        "user-interviews"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/research-ops-tools-prototype-testing/",
+      "publishedAt": "2026-11-07T05:01:08+00:00"
     },
     {
       "id": "f2094553e5f9ba08",

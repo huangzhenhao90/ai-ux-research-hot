@@ -3,7 +3,7 @@
   "name": "AI 访谈",
   "group": "field",
   "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-  "count": 64,
+  "count": 67,
   "items": [
     {
       "id": "1dcf3578a582d301",
@@ -30,6 +30,35 @@
       "status": "selected",
       "dupOf": null,
       "relation": "followup"
+    },
+    {
+      "id": "c6d5793f702bb40a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-survey-tools-synthetic-respondents/",
+      "title": "Best AI Survey Tools: A Buyer’s Comparison Guide",
+      "titleZh": "Listen Labs 盘点 AI 问卷工具并给出采购验证清单",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰写 AI 问卷工具选购对比指南，把 Listen Labs 列为首选，并引用 Pew Research 2026 年 9 月 30 日的独立基准作为依据。Pew 让一个 AI 模型套用真实 American Trends Panel 成员的人设回答 2026 年上半年三轮调查近 300 道题，合成估算与真人平均相差 12 个百分点，约 28% 的题目差距超过 15 个百分点，个体层面匹配率约 55%。文中还给出六项采购验证清单，涉及真人数据基础、个体层面输出与答案可追溯性，并对比了 PersonaPanels 与 Delve AI。",
+      "reason": "文中汇总了 Pew 的独立基准与六项采购验证清单，可用于评估合成受访者工具在定价与高风险决策中的适用边界。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "delve"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-07T05:04:34+00:00",
+      "discoveredAt": "2026-11-07T14:44:00.123322+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "ba1ff72af3d0f43e",
@@ -252,6 +281,34 @@
       "publishedAt": "2026-10-31T05:11:39+00:00",
       "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "acc411c1672044ac",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/synthetic-audiences-concept-testing/",
+      "title": "Digital Twins for Concept Testing: Don’t Get Fooled",
+      "titleZh": "Listen Labs 分析概念测试数字孪生的偏差风险与验证方法",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文分析概念测试中的数字孪生与合成样本库，认为它们更适合早期快速筛选，需要对照真人结果才能用于决策。文中引用的对照显示，PyMC Labs 与 Colgate-Palmolive 在 57 项真实调研上达到约 90% 的人类重测信度，而 Navy Federal Credit Union 与 Qualtrics 的试点均值差异虽小于 0.25%，41% 的真人提到害怕被拒绝，合成回答仅占 21%。作者给出用 3–5 个已测概念做盲测回测的验证步骤，并称 Listen Labs 由 5000 万+ 样本库中的真人 AI 主持访谈支撑，24 小时内交付结果。",
+      "reason": "文中给出盲测回测与合成加真人的验证步骤，可用来判断合成受访者的排名与异议是否可信。",
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-11-07T05:02:17+00:00",
+      "discoveredAt": "2026-11-07T14:44:00.123322+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -939,6 +996,35 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:01:46+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "b97e6f256c387fd3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-alternatives-to-ab-testing/",
+      "title": "What Is Better Than A/B Testing For Message Testing?",
+      "titleZh": "Listen Labs 列出六种比 A/B 测试更适合信息测试的替代方法",
+      "summaryZh": "Listen Labs 列出六种替代 A/B 测试的信息测试方法，包括定性访谈、MaxDiff 和单因子测试。A/B 测试无法解释原因，检测 10% 相对提升约需每变体 30,400 名用户，74.2% 的测试无显著差异。其 AI 主持访谈覆盖 50M+ 受访者、45+ 国家和 120+ 语言，24 小时内出结果；Wynter 起价 $899/测试。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-07T05:01:14+00:00",
+      "discoveredAt": "2026-11-07T14:44:00.123322+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

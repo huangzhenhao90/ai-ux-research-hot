@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 05:46:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 14:44:00 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 盘点 AI 问卷工具并给出采购验证清单</title>
+      <link>https://listenlabs.com/articles/best-ai-survey-tools-synthetic-respondents/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/best-ai-survey-tools-synthetic-respondents/</guid>
+      <pubDate>Sat, 07 Nov 2026 05:04:34 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 撰写 AI 问卷工具选购对比指南，把 Listen Labs 列为首选，并引用 Pew Research 2026 年 9 月 30 日的独立基准作为依据。Pew 让一个 AI 模型套用真实 American Trends Panel 成员的人设回答 2026 年上半年三轮调查近 300 道题，合成估算与真人平均相差 12 个百分点，约 28% 的题目差距超过 15 个百分点，个体层面匹配率约 55%。文中还给出六项采购验证清单，涉及真人数据基础、个体层面输出与答案可追溯性，并对比了 PersonaPanels 与 Delve AI。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Dovetail 推出统一客户上下文平台 Dovetail One</title>
       <link>https://dovetail.com/blog/introducing-dovetail-one/</link>
@@ -448,15 +457,6 @@
       <description>Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。</description>
       <category>Cint</category>
       <category>opinion</category>
-    </item>
-    <item>
-      <title>LLM 作为调查受访者：与简单语义基线的比较</title>
-      <link>https://arxiv.org/abs/2610.29645v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.29645v1</guid>
-      <pubDate>Tue, 20 Oct 2026 16:00:00 GMT</pubDate>
-      <description>一项研究让三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，并与基于嵌入相似度的简单基线对比。结果显示 LLM 整体优于基线，但随已知答案比例下降而性能下滑，在一份量表中甚至与基线持平。研究据此指出，数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强的效力有限。</description>
-      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
-      <category>research</category>
     </item>
   </channel>
 </rss>

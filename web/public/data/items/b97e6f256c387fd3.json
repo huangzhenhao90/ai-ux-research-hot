@@ -1,0 +1,30 @@
+{
+  "id": "b97e6f256c387fd3",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-alternatives-to-ab-testing/",
+  "title": "What Is Better Than A/B Testing For Message Testing?",
+  "titleZh": "Listen Labs 列出六种比 A/B 测试更适合信息测试的替代方法",
+  "summaryZh": "Listen Labs 列出六种替代 A/B 测试的信息测试方法，包括定性访谈、MaxDiff 和单因子测试。A/B 测试无法解释原因，检测 10% 相对提升约需每变体 30,400 名用户，74.2% 的测试无显著差异。其 AI 主持访谈覆盖 50M+ 受访者、45+ 国家和 120+ 语言，24 小时内出结果；Wynter 起价 $899/测试。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "问卷/定量",
+    "定性分析",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-07T05:01:14+00:00",
+  "discoveredAt": "2026-11-07T14:44:00.123322+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

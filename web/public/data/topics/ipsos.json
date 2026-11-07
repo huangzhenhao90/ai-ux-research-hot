@@ -3,7 +3,7 @@
   "name": "Ipsos",
   "group": "company",
   "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-  "count": 24,
+  "count": 25,
   "items": [
     {
       "id": "dfc4bbf66f66afd9",
@@ -84,6 +84,35 @@
       "publishedAt": "2026-10-23T05:50:34+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "63963c4304b270ba",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/digital-twin-examples-consumer-research/",
+      "title": "Digital Twin Examples in Consumer Research: Validated",
+      "titleZh": "Listen Labs 梳理消费研究数字孪生案例，区分 1:1 孪生与合成受访者",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 按五个用例类别梳理消费研究中的数字孪生案例，并区分基于真人访谈的 1:1 孪生与混合分群的合成受访者。文中引用斯坦福 1,052 人研究，访谈构建的智能体达到受访者自身两周重测一致性基准的 83–86%，仅用人口统计数据的智能体为 74%。Walmart、CVS 与 Ipsos 等零售和概念测试案例多属方向性结论，未披露量化验证指标；文中称 Listen Twins 是所列案例中唯一披露逐人盲测的，可用真人一键验证结论。",
+      "reason": "文章按 1:1 数字孪生与合成受访者两类构建方式梳理多个消费研究案例，并逐一点出各自的验证披露程度。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "listen-labs",
+        "ipsos"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-07T05:04:29+00:00",
+      "discoveredAt": "2026-11-07T14:44:00.123322+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },

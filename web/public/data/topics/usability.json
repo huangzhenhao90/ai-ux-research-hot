@@ -3,7 +3,7 @@
   "name": "可用性测试",
   "group": "field",
   "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-  "count": 13,
+  "count": 14,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -291,6 +291,38 @@
       "itemType": null,
       "publishedAt": "2026-11-06T18:00:00+00:00",
       "discoveredAt": "2026-11-06T23:58:41.543673+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2e11ea7f6ba2c9bc",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/research-ops-tools-prototype-testing/",
+      "title": "Research Ops Tools For Prototype Testing: 2026 Guide",
+      "titleZh": "2026 原型测试 ResearchOps 工具指南：Listen Labs、Maze、Useberry、Dovetail 分阶段对比",
+      "summaryZh": "Listen Labs 发布了一份按计划、招募、测试、分析、存储五个阶段梳理原型测试 ResearchOps 工具的指南。其自述平台覆盖全部五阶段，可从 45+ 国家、120+ 语言的 50M+ 受访者网络招募，并把典型 4–6 周周期压缩到 24 小时内。指南还指出 Maze 的 AI Moderator 属单独的高价附加项、Useberry 需公开 Figma 原型。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本",
+        "洞察库/ResearchOps",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "maze",
+        "dovetail",
+        "user-interviews"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-07T05:01:08+00:00",
+      "discoveredAt": "2026-11-07T14:44:00.123322+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
