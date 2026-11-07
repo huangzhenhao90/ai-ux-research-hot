@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T14:44:00.123322+00:00",
+  "generatedAt": "2026-11-07T19:56:50.609997+00:00",
   "windowDays": 3,
   "editionHour": 0,
   "days": [
@@ -64,65 +64,6 @@
           ],
           "itemType": "tool_launch",
           "publishedAt": "2026-11-05T17:00:00+00:00",
-          "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "count": 2,
-      "items": [
-        {
-          "id": "d35a45d8c6d0d356",
-          "sourceId": "arxiv-cs-hc",
-          "sourceName": "arXiv cs.HC",
-          "venue": null,
-          "tier": "T2",
-          "url": "https://arxiv.org/abs/2611.05702",
-          "title": "TACT: A Pragmatic Approach to Qualitative Analysis with an AI Council",
-          "titleZh": "TACT：用 AI 委员会做大规模定性主题分析的实用流程",
-          "summaryZh": "论文提出 TACT（Traceable AI Council for Thematic analysis），用 AI 委员会在规模上完成定性主题分析，同时让团队保留对解读与判断的控制。TACT-Lite 为核心流程，TACT-Full 额外加入来自其他模型族的对抗模型，以及标出高不确定性编码的判定模型。在 256 条由其他研究者编码的 Stack Overflow 帖子数据集上，候选码本 F1 为 0.75-0.77，最终编码 F1 为 0.71-0.72；留出样本上作者人工编码与 TACT 编码的 Cohen's κ 为 0.79-0.85；每 100 条帖子的模型调用成本为 $13.77（TACT-Lite）至 $33.59（TACT-Full）。",
-          "reason": "论文给出 TACT 的双档设计、256 条帖子上的 F1 与每条成本，团队可据此估量 AI 委员会式定性编码的投入产出。",
-          "category": "research",
-          "tags": [
-            "论文/研究",
-            "定性分析",
-            "转写/编码",
-            "文本分析/VOC"
-          ],
-          "entities": [],
-          "itemType": "research_paper",
-          "publishedAt": "2026-11-05T05:00:00+00:00",
-          "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "c933a99ac1c835ad",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/ai-digital-twin-case-studies/",
-          "title": "AI Digital Twin Case Studies: What Was Tested, What Held Up",
-          "titleZh": "Listen Labs 盘点 AI 数字孪生案例：测了什么、哪些站得住",
-          "summaryZh": "Listen Labs 盘点了 6 个 AI 数字孪生案例，并按通用人设、人群混合模型、消费者数字孪生、已验证数字孪生四层分类标注各自的验证方式。文中引用 Columbia Business School 团队 19 项预注册研究，Science Advances 的“funhouse mirrors”研究报告孪生与真人在个体层面的平均相关性仅 r = 0.20，全人设孪生为 0.748，仅含人口统计信息的孪生为 0.746，两者差异不具统计显著性。MarketTwin、Delve AI 等方法的结果由厂商自报，未经独立验证，作者建议只作方向性参考。",
-          "reason": "文章用四层分类逐条标注各数字孪生案例的验证方式，让研究者能区分厂商自报结果与独立验证之间的距离。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "合成用户",
-            "市场研究"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "tutorial_explainer",
-          "publishedAt": "2026-11-05T05:09:03+00:00",
           "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
           "status": "selected",
           "dupOf": null,
