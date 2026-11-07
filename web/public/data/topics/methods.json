@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 115,
+  "count": 116,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -2363,6 +2363,32 @@
       "itemType": null,
       "publishedAt": "2026-10-29T05:03:45+00:00",
       "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "84bf03764f8c27a6",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Usability 101: Introduction to Usability",
+      "titleZh": "Usability 101：可用性入门",
+      "summaryZh": "Usability 101 将可用性定义为人们使用界面成功完成任务的容易程度，并称其有 5 个重要组成部分。提升可用性要尽早并反复观察代表性用户执行真实任务；该文替代 Jakob Nielsen 2012 年的原版，原版保留作历史参考。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-06T18:00:00+00:00",
+      "discoveredAt": "2026-11-06T23:58:41.543673+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

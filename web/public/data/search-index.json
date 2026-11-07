@@ -1,5 +1,5 @@
 {
-  "count": 308,
+  "count": 309,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -3653,6 +3653,23 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/best-qda-software-support-qualitative-research/",
       "publishedAt": "2025-08-28T00:00:00+00:00"
+    },
+    {
+      "id": "84bf03764f8c27a6",
+      "title": "Usability 101: Introduction to Usability",
+      "titleZh": "Usability 101：可用性入门",
+      "summaryZh": "Usability 101 将可用性定义为人们使用界面成功完成任务的容易程度，并称其有 5 个重要组成部分。提升可用性要尽早并反复观察代表性用户执行真实任务；该文替代 Jakob Nielsen 2012 年的原版，原版保留作历史参考。",
+      "tags": [
+        "方法/实践",
+        "可用性测试"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "category": "methods",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-11-06T18:00:00+00:00"
     },
     {
       "id": "10f9cc0e7897a987",
