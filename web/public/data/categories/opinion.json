@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 60,
+  "count": 61,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -312,6 +312,34 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "2206421a65f5da3e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-consumer-research/",
+      "title": "Best AI Digital Twin Platforms for Consumer Research: Ranked",
+      "titleZh": "Listen Labs 盘点消费研究 AI 数字孪生平台，将自家 Listen Twins 列第一",
+      "summaryZh": "Listen Labs 增长负责人撰文盘点消费研究类 AI 数字孪生平台，按底层数据分成合成受众、人格提示词和一对一访谈驱动三类，并把自家 Listen Twins 列为首位。文中引用 NN/g 2026 年 10 月的对比称合成受访者收敛到十余个标签而人类受访者超过 50 个，并称 Pew、NN/g 与 AAPOR 的 2026 年研究显示合成受访者与真人平均相差 12 个百分点。作者建议采购前用已知研究跑通平台、比对完整分布并检查可追溯性与稳定性。",
+      "reason": "文章把数字孪生平台按底层数据分为三类，并给出购买前用已知研究验证的清单，可作选型对照框架。",
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-11-08T05:08:51+00:00",
+      "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "afef6f29d225306e",

@@ -1,0 +1,30 @@
+{
+  "id": "c765b6270b28c63a",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-synthetic-research-tools-insights/",
+  "title": "AI Interview Tools for Consumer Insights: A Comparison Guide",
+  "titleZh": "Listen Labs 对比三类 AI 访谈工具在消费者洞察中的适用场景",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布消费者洞察 AI 访谈工具对比指南，将市场分为全合成人格、基于数据的合成受访者与真人参与的 AI 主持访谈三类。指南按概念筛选、定价与细分等决策类型给出选型建议，并引用一项研究指出约 45% 真实参与者拒绝了假设中的疫苗，而其数字孪生只有 4% 拒绝。文中把 Listen Labs 自家的 50M+ 验证受访者网络、45+ 国家和 120+ 语言、24 小时内出结果列为适合高风险决策的理由。",
+  "reason": "把 AI 访谈工具按数据基础分成三类，并对照定价、细分等决策场景说明各路线在方差与代表性上的风险。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "合成用户",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs",
+    "delve"
+  ],
+  "itemType": "tutorial_explainer",
+  "publishedAt": "2026-11-08T05:08:46+00:00",
+  "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

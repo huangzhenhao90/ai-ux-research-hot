@@ -3,7 +3,7 @@
   "name": "AI 访谈",
   "group": "field",
   "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-  "count": 67,
+  "count": 69,
   "items": [
     {
       "id": "1dcf3578a582d301",
@@ -451,6 +451,34 @@
       "relation": "different"
     },
     {
+      "id": "2206421a65f5da3e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-consumer-research/",
+      "title": "Best AI Digital Twin Platforms for Consumer Research: Ranked",
+      "titleZh": "Listen Labs 盘点消费研究 AI 数字孪生平台，将自家 Listen Twins 列第一",
+      "summaryZh": "Listen Labs 增长负责人撰文盘点消费研究类 AI 数字孪生平台，按底层数据分成合成受众、人格提示词和一对一访谈驱动三类，并把自家 Listen Twins 列为首位。文中引用 NN/g 2026 年 10 月的对比称合成受访者收敛到十余个标签而人类受访者超过 50 个，并称 Pew、NN/g 与 AAPOR 的 2026 年研究显示合成受访者与真人平均相差 12 个百分点。作者建议采购前用已知研究跑通平台、比对完整分布并检查可追溯性与稳定性。",
+      "reason": "文章把数字孪生平台按底层数据分为三类，并给出购买前用已知研究验证的清单，可作选型对照框架。",
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-11-08T05:08:51+00:00",
+      "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "70a5bbcfdf83daac",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -561,6 +589,35 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-10-25T05:04:18+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "c765b6270b28c63a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-synthetic-research-tools-insights/",
+      "title": "AI Interview Tools for Consumer Insights: A Comparison Guide",
+      "titleZh": "Listen Labs 对比三类 AI 访谈工具在消费者洞察中的适用场景",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布消费者洞察 AI 访谈工具对比指南，将市场分为全合成人格、基于数据的合成受访者与真人参与的 AI 主持访谈三类。指南按概念筛选、定价与细分等决策类型给出选型建议，并引用一项研究指出约 45% 真实参与者拒绝了假设中的疫苗，而其数字孪生只有 4% 拒绝。文中把 Listen Labs 自家的 50M+ 验证受访者网络、45+ 国家和 120+ 语言、24 小时内出结果列为适合高风险决策的理由。",
+      "reason": "把 AI 访谈工具按数据基础分成三类，并对照定价、细分等决策场景说明各路线在方差与代表性上的风险。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "delve"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-08T05:08:46+00:00",
+      "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": "different"

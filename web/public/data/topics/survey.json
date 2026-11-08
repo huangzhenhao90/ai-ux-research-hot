@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 68,
+  "count": 69,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -1306,6 +1306,35 @@
       "itemType": null,
       "publishedAt": "2026-11-05T17:13:34+00:00",
       "discoveredAt": "2026-11-05T19:42:20.545393+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "60afa0573423cefd",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-pairwise-comparison-tools-message-testing/",
+      "title": "Best Pairwise Comparison Tools for Message Testing",
+      "titleZh": "用于信息测试的最佳成对比较工具",
+      "summaryZh": "Listen Labs 在面向信息测试的成对比较工具盘点中排名第一，组合 Head-to-Head 胜率、无并列 MaxDiff 排名和 AI 主持追问给出选择理由。其 50M+ 验证样本库覆盖 45+ 国家和 120+ 语言，24 小时内出结果；文章还列出 OpinionX 免费版限 25 人、Analyze $900/年，并建议超过约 10–12 条信息后改用 MaxDiff。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "surveymonkey",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-08T05:00:54+00:00",
+      "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

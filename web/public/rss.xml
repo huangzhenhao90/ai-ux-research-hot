@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Nov 2026 04:52:32 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 14:49:39 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 梳理三类数字孪生平台并给出六步盲测验证法</title>
+      <link>https://listenlabs.com/articles/best-digital-twin-platforms-qualitative/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/best-digital-twin-platforms-qualitative/</guid>
+      <pubDate>Sun, 08 Nov 2026 05:08:57 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 撰文把定性研究数字孪生平台分为人本数字孪生、合成人设与 AI 主持真人访谈三类，并提出六步盲测验证法。文中引用 Science Advances 的 19 项预注册研究、1,784 名个体与 164 项结果，称孪生与本人答案的平均相关约为 r = 0.20；Pew 2026 年 9 月研究在近 300 道题上录得平均绝对误差 12.4 个百分点，共和党倾向者与黑人成年人的误差更高。文章主张只有可追溯到具体真人的孪生才能支撑高风险决策，并称 Listen Twins 依托 50M+ 验证样本库、覆盖 45+ 国家、端到端交付在 24 小时内完成。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Listen Labs 盘点 AI 问卷工具并给出采购验证清单</title>
       <link>https://listenlabs.com/articles/best-ai-survey-tools-synthetic-respondents/</link>
@@ -448,15 +457,6 @@
       <description>作者提出按任务而非职位评估 AI 暴露度，用能否两句话描述最终结果、能否更快核验两问给一周任务打分，再按工时加权，并给出可直接粘贴到 Claude 的五步提示词。文中引用 2023 年 GPTs are GPTs 的估计，80% 美国劳动者至少一成任务会受影响，约 19% 至少一半，而 Anthropic 用 2026 年 3 月使用数据发现 Claude 覆盖约 33% 的计算机与数学任务。作者还引用 Stanford Digital Economy Lab 2026 年 8 月的分析，22 至 25 岁在暴露职业中的就业水平比与低暴露同行同步时应有的水平低 19%。</description>
       <category>UX Collective</category>
       <category>methods</category>
-    </item>
-    <item>
-      <title>Cint 谈为何消费者洞察的未来依赖 AI 主持的混合研究</title>
-      <link>https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/</link>
-      <guid isPermaLink="true">https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/</guid>
-      <pubDate>Tue, 20 Oct 2026 20:46:56 GMT</pubDate>
-      <description>Cint 发布观点文章，论述消费者洞察的未来依赖 AI 主持的混合研究这一判断。</description>
-      <category>Cint</category>
-      <category>opinion</category>
     </item>
   </channel>
 </rss>

@@ -15,6 +15,7 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [Listen Labs 梳理三类数字孪生平台并给出六步盲测验证法](https://listenlabs.com/articles/best-digital-twin-platforms-qualitative/)：Listen Labs 增长负责人 Anish Rao 撰文把定性研究数字孪生平台分为人本数字孪生、合成人设与 AI 主持真人访谈三类，并提出六步盲测验证法。文中引用 Science Advances 的 19 项预注册研究、1,784…（Listen Labs，2026-11-08）
 - [Listen Labs 盘点 AI 问卷工具并给出采购验证清单](https://listenlabs.com/articles/best-ai-survey-tools-synthetic-respondents/)：Listen Labs 增长负责人 Anish Rao 撰写 AI 问卷工具选购对比指南，把 Listen Labs 列为首选，并引用 Pew Research 2026 年 9 月 30 日的独立基准作为依据。Pew 让一个 AI 模型…（Listen Labs，2026-11-07）
 - [Dovetail 推出统一客户上下文平台 Dovetail One](https://dovetail.com/blog/introducing-dovetail-one/)：Dovetail 发布 Dovetail One，把 VoC、产品与设计、用户研究和收入智能整合到同一个客户上下文平台上。按其描述，该平台面向各类团队共用同一份客户上下文。（Dovetail Blog，2026-11-05）
 - [Listen Labs 盘点 AI 数字孪生案例：测了什么、哪些站得住](https://listenlabs.com/articles/ai-digital-twin-case-studies/)：Listen Labs 盘点了 6 个 AI 数字孪生案例，并按通用人设、人群混合模型、消费者数字孪生、已验证数字孪生四层分类标注各自的验证方式。文中引用 Columbia Business School 团队 19 项预注册研究，Sci…（Listen Labs，2026-11-05）
@@ -44,6 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [Listen Labs 如何用六步诊断流程和 AI 主持访谈查明 NPS 下滑原因](https://listenlabs.com/articles/best-ai-tools-nps-drop/)：Listen Labs 增长负责人 Anish Rao 发布一份六步诊断指南，讲解如何用 AI 主持访谈查明 NPS 下滑的原因。文中指出只有约 10% 的 NPS 受访者会留下开放题文本，一轮 5000 账户、12–25% 回收率的调研…（Listen Labs，2026-10-27）
 - [Listen Labs 拆解预测式营销信息测试的 7 种方法与对应指标](https://listenlabs.com/articles/predictive-message-testing-examples/)：Listen Labs 增长负责人 Anish Rao 撰文拆解 7 种预测式营销信息测试方法，并说明各自评分方式与失效边界。文中以 Listen Twins 数字孪生预筛为例，称其基于 1 位真实受访者的访谈构建，可在数秒返回 100+…（Listen Labs，2026-10-27）
 - [研究提出判断 LLM 合成用户样本库何时可信的诊断与修正框架](https://arxiv.org/abs/2609.13148)：该论文提出一套框架，用来判断 LLM 合成消费者样本库何时可信任、可修正或应弃用；框架用协变量重叠、条件校准与跨模型稳定性做诊断。修正需要完整的邀请名单、所有受邀者的应答指示和受访者的真人结果，并要求数据随机缺失且满足正值性假设。在 AN…（arXiv cs.HC，2026-10-27）
-- [超越行为准确率：评估 LLM 投资者模拟中的个体层面保真度](https://arxiv.org/abs/2610.26524)：一项 80 人参与的纵向模拟交易研究检验 LLM 能否复现个体投资者的决策逻辑，发现没有评估中的 LLM 能在预测是否发生交易上稳定超过简单的近期活跃度基线。买卖结构与资产选择同样难以复现，且活动水平相近的模型也可能产生差异很大的组合轨迹…（arXiv cs.HC，2026-10-27）
 
-（更多 55 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 56 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

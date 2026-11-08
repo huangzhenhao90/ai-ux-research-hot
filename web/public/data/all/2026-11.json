@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "count": 62,
+  "count": 67,
   "items": [
     {
       "id": "1dcf3578a582d301",
@@ -351,6 +351,34 @@
       "relation": "different"
     },
     {
+      "id": "7bc61666802f927a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-digital-twin-platforms-qualitative/",
+      "title": "Best Digital Twin Platforms for Qualitative Research 2026",
+      "titleZh": "Listen Labs 梳理三类数字孪生平台并给出六步盲测验证法",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文把定性研究数字孪生平台分为人本数字孪生、合成人设与 AI 主持真人访谈三类，并提出六步盲测验证法。文中引用 Science Advances 的 19 项预注册研究、1,784 名个体与 164 项结果，称孪生与本人答案的平均相关约为 r = 0.20；Pew 2026 年 9 月研究在近 300 道题上录得平均绝对误差 12.4 个百分点，共和党倾向者与黑人成年人的误差更高。文章主张只有可追溯到具体真人的孪生才能支撑高风险决策，并称 Listen Twins 依托 50M+ 验证样本库、覆盖 45+ 国家、端到端交付在 24 小时内完成。",
+      "reason": "文章把数字孪生平台分成三类，并给出可照做的盲测验证步骤，便于研究团队在采购前用自有访谈样本检验供应商说法。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "定性分析",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-08T05:08:57+00:00",
+      "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "c933a99ac1c835ad",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -456,6 +484,33 @@
       "itemType": "research_paper",
       "publishedAt": "2026-11-05T05:00:00+00:00",
       "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "32449a76f4e70ddd",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/test-brand-messaging-with-ai/",
+      "title": "How To Test Brand Messaging With AI: A 5-Step Process",
+      "titleZh": "Listen Labs 如何用 AI 测试品牌信息：五步流程",
+      "summaryZh": "Listen Labs 介绍一套用 AI 测试品牌信息的五步流程，从品牌上下文文档、细分的怀疑型人设、四类结构化测试，到提取重复模式和用真实受访者做最终验证。文章给出 Claim Clarity、Objection Discovery、Hook And Angle Variation、Consistency Audit 四类测试的提示词，并强调 AI 人设只适合方向性筛查，不能产出购买意向、情绪反应或统计显著性。",
+      "reason": "五步流程和四类测试提示词可直接复用，文中也明确划出 AI 合成用户在购买意向与统计显著性上的适用边界。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-11-08T05:00:48+00:00",
+      "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": "different"
@@ -637,6 +692,63 @@
       "status": "listed",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "2206421a65f5da3e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-consumer-research/",
+      "title": "Best AI Digital Twin Platforms for Consumer Research: Ranked",
+      "titleZh": "Listen Labs 盘点消费研究 AI 数字孪生平台，将自家 Listen Twins 列第一",
+      "summaryZh": "Listen Labs 增长负责人撰文盘点消费研究类 AI 数字孪生平台，按底层数据分成合成受众、人格提示词和一对一访谈驱动三类，并把自家 Listen Twins 列为首位。文中引用 NN/g 2026 年 10 月的对比称合成受访者收敛到十余个标签而人类受访者超过 50 个，并称 Pew、NN/g 与 AAPOR 的 2026 年研究显示合成受访者与真人平均相差 12 个百分点。作者建议采购前用已知研究跑通平台、比对完整分布并检查可追溯性与稳定性。",
+      "reason": "文章把数字孪生平台按底层数据分为三类，并给出购买前用已知研究验证的清单，可作选型对照框架。",
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-11-08T05:08:51+00:00",
+      "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "c765b6270b28c63a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-synthetic-research-tools-insights/",
+      "title": "AI Interview Tools for Consumer Insights: A Comparison Guide",
+      "titleZh": "Listen Labs 对比三类 AI 访谈工具在消费者洞察中的适用场景",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 发布消费者洞察 AI 访谈工具对比指南，将市场分为全合成人格、基于数据的合成受访者与真人参与的 AI 主持访谈三类。指南按概念筛选、定价与细分等决策类型给出选型建议，并引用一项研究指出约 45% 真实参与者拒绝了假设中的疫苗，而其数字孪生只有 4% 拒绝。文中把 Listen Labs 自家的 50M+ 验证受访者网络、45+ 国家和 120+ 语言、24 小时内出结果列为适合高风险决策的理由。",
+      "reason": "把 AI 访谈工具按数据基础分成三类，并对照定价、细分等决策场景说明各路线在方差与代表性上的风险。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "delve"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-08T05:08:46+00:00",
+      "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "b3ce22f1dc86ae83",
@@ -1215,6 +1327,35 @@
       "itemType": null,
       "publishedAt": "2026-11-06T18:00:00+00:00",
       "discoveredAt": "2026-11-06T23:58:41.543673+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "60afa0573423cefd",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-pairwise-comparison-tools-message-testing/",
+      "title": "Best Pairwise Comparison Tools for Message Testing",
+      "titleZh": "用于信息测试的最佳成对比较工具",
+      "summaryZh": "Listen Labs 在面向信息测试的成对比较工具盘点中排名第一，组合 Head-to-Head 胜率、无并列 MaxDiff 排名和 AI 主持追问给出选择理由。其 50M+ 验证样本库覆盖 45+ 国家和 120+ 语言，24 小时内出结果；文章还列出 OpinionX 免费版限 25 人、Analyze $900/年，并建议超过约 10–12 条信息后改用 MaxDiff。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "surveymonkey",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-08T05:00:54+00:00",
+      "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

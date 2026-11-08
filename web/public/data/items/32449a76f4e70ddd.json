@@ -1,0 +1,28 @@
+{
+  "id": "32449a76f4e70ddd",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/test-brand-messaging-with-ai/",
+  "title": "How To Test Brand Messaging With AI: A 5-Step Process",
+  "titleZh": "Listen Labs 如何用 AI 测试品牌信息：五步流程",
+  "summaryZh": "Listen Labs 介绍一套用 AI 测试品牌信息的五步流程，从品牌上下文文档、细分的怀疑型人设、四类结构化测试，到提取重复模式和用真实受访者做最终验证。文章给出 Claim Clarity、Objection Discovery、Hook And Angle Variation、Consistency Audit 四类测试的提示词，并强调 AI 人设只适合方向性筛查，不能产出购买意向、情绪反应或统计显著性。",
+  "reason": "五步流程和四类测试提示词可直接复用，文中也明确划出 AI 合成用户在购买意向与统计显著性上的适用边界。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "合成用户",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-11-08T05:00:48+00:00",
+  "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}
