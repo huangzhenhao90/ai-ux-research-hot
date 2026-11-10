@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T02:35:05.243115+00:00",
+  "generatedAt": "2026-11-10T12:14:19.339820+00:00",
   "groups": [
     {
       "key": "company",
@@ -37,14 +37,14 @@
       "name": "UserTesting",
       "group": "company",
       "definition": "UserTesting（含 UserZoom）的可用性测试与 AI 分析能力更新。",
-      "count": 8
+      "count": 9
     },
     {
       "slug": "maze",
       "name": "Maze",
       "group": "company",
       "definition": "Maze 的快速研究平台、AI 功能与研究方法内容。",
-      "count": 9
+      "count": 10
     },
     {
       "slug": "nngroup",
@@ -58,14 +58,14 @@
       "name": "Ipsos",
       "group": "company",
       "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-      "count": 25
+      "count": 28
     },
     {
       "slug": "surveymonkey",
       "name": "SurveyMonkey",
       "group": "company",
       "definition": "SurveyMonkey 的问卷产品 AI 能力与自助研究工具更新。",
-      "count": 8
+      "count": 9
     },
     {
       "slug": "medallia",
@@ -79,7 +79,7 @@
       "name": "Listen Labs",
       "group": "company",
       "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-      "count": 104
+      "count": 109
     },
     {
       "slug": "dscout",
@@ -93,21 +93,21 @@
       "name": "AI 访谈",
       "group": "field",
       "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-      "count": 73
+      "count": 77
     },
     {
       "slug": "synthetic-users",
       "name": "合成用户",
       "group": "field",
       "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-      "count": 68
+      "count": 77
     },
     {
       "slug": "survey",
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 74
+      "count": 76
     },
     {
       "slug": "qual-analysis",
@@ -156,14 +156,14 @@
       "name": "论文",
       "group": "genre",
       "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-      "count": 67
+      "count": 73
     },
     {
       "slug": "methods",
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 127
+      "count": 129
     },
     {
       "slug": "prompts",

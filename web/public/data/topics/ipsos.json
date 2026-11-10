@@ -3,7 +3,7 @@
   "name": "Ipsos",
   "group": "company",
   "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-  "count": 25,
+  "count": 28,
   "items": [
     {
       "id": "dfc4bbf66f66afd9",
@@ -338,6 +338,36 @@
       "relation": null
     },
     {
+      "id": "0f4ca44b003884c1",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-research-platforms/",
+      "title": "Global Consumer Research Platforms for AI Digital Twins",
+      "titleZh": "AI 数字孪生全球消费者研究平台排名：Listen Labs 居首",
+      "summaryZh": "Listen Labs 在 AI 数字孪生全球消费者研究平台排名中将 Listen Twins 列第一，称其用真人一对一访谈构建。其网络覆盖 50M+ 验证受访者、45+ 国家、120+ 语言，可在数秒内给出 100+ 条带推理、原话和置信分的答案，并支持一键真人验证。榜单还包括 Native AI、Outset AI 等平台，哥伦比亚商学院研究提示数字孪生仍有五类系统性偏差。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "outset",
+        "delve",
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T05:02:59+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "4409ceae0729c220",
       "sourceId": "ipsos",
       "sourceName": "Ipsos",
@@ -385,6 +415,37 @@
       "itemType": null,
       "publishedAt": "2026-10-30T10:53:59+00:00",
       "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5e0c4c442ae269b8",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-digital-twin-research-tools/",
+      "title": "Digital Twin Research Tools for Brand Teams: 2026 Guide",
+      "titleZh": "面向品牌团队的数字孪生研究工具：2026 指南",
+      "summaryZh": "Listen Labs 的《面向品牌团队的数字孪生研究工具：2026 指南》按定位、创意测试、分群、包装和旅程模拟等场景梳理工具。其 Listen Twins 基于真实受访者一对一访谈构建数字孪生，受访者来自 50M+ 已验证受访者网络、覆盖 45+ 国家和 120+ 语言，可秒级给出 100+ 条带推理、原始引语和置信度评分的预测，并支持一键用真实受访者验证。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "AI 访谈",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "listen-labs",
+        "quantilope",
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T05:03:10+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -570,6 +631,32 @@
       "itemType": null,
       "publishedAt": "2026-11-02T08:00:00+00:00",
       "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1a440d4575f1c25b",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/context-advantage-winning-moments-matter",
+      "title": "The Context Advantage: Winning the moments that matter",
+      "titleZh": "：情境优势——Contextual Brand Equity 如何揭示隐藏增长机会",
+      "summaryZh": "刊发《The Context Advantage》，讨论 Contextual Brand Equity 如何揭示隐藏增长机会。文章同时聚焦品牌如何赢得关键时刻",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T08:50:30+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

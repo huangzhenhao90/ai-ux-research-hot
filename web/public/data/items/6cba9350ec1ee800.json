@@ -1,0 +1,25 @@
+{
+  "id": "6cba9350ec1ee800",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.10715v1",
+  "title": "从用户行为到满意度判断：推理用户对 AI Overviews 的满意度",
+  "titleZh": "STaRS：从用户行为推理 AI Overviews 用户满意度",
+  "summaryZh": "STaRS 让 LLM 先解释单项行为信号，再综合推断 AI Overviews 用户满意度，并用强化学习与奖励塑形优化稀疏奖励下的推理。该方法面向搜索场景中现有满意度评估未充分利用用户行为的问题。在两个真实数据集上，其预测表现优于对比方法。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "行为数据"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-06T16:00:00+00:00",
+  "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "db8699fd127e2408",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-pickfu-alternatives-concept-testing/",
+  "title": "PickFu Alternatives for Concept Testing: Beyond a Vote",
+  "titleZh": "PickFu 替代方案：概念测试不止于投票",
+  "summaryZh": "Listen Labs 对比 PickFu 的概念测试替代方案，主张用 AI 主持访谈追问偏好背后的原因。其平台覆盖 50M+ 验证受访者与 45+ 国家，24 小时内返回完整分析。PickFu 标准 50 名美国受访者投票起价 $50、数分钟出结果，但缺乏自适应追问。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "合成用户",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-10T05:01:47+00:00",
+  "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

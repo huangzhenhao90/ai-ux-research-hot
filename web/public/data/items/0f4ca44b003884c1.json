@@ -1,0 +1,31 @@
+{
+  "id": "0f4ca44b003884c1",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-digital-twin-research-platforms/",
+  "title": "Global Consumer Research Platforms for AI Digital Twins",
+  "titleZh": "AI 数字孪生全球消费者研究平台排名：Listen Labs 居首",
+  "summaryZh": "Listen Labs 在 AI 数字孪生全球消费者研究平台排名中将 Listen Twins 列第一，称其用真人一对一访谈构建。其网络覆盖 50M+ 验证受访者、45+ 国家、120+ 语言，可在数秒内给出 100+ 条带推理、原话和置信分的答案，并支持一键真人验证。榜单还包括 Native AI、Outset AI 等平台，哥伦比亚商学院研究提示数字孪生仍有五类系统性偏差。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "合成用户",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs",
+    "outset",
+    "delve",
+    "ipsos"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-10T05:02:59+00:00",
+  "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

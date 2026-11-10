@@ -1,0 +1,25 @@
+{
+  "id": "943741570c2c43e3",
+  "sourceId": "frontiers-cs",
+  "sourceName": "Frontiers in Computer Science",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1940035",
+  "title": "Personality without a person: measuring personality in generative AI",
+  "titleZh": "没有人的个性：测量生成式 AI 中的人格",
+  "summaryZh": "研究团队用自我报告和游戏化行为测量，在开箱即用条件及三种基于提示词的人格设定下评估四款 LLM 的人格，发现重测信度很高。与以往研究相反，LLM 的人格分数随提示词人格可预测地变化，但自我报告与行为测量的一致性因模型和人格条件而异。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-10T00:00:00+00:00",
+  "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

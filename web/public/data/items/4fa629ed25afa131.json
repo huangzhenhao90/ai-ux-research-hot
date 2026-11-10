@@ -1,0 +1,25 @@
+{
+  "id": "4fa629ed25afa131",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.11679v1",
+  "title": "平均患者：模拟精神科患者的回答是否与真实患者相似？",
+  "titleZh": "《平均患者》研究用8组真人样本检验17个模型模拟精神科患者的逼真度",
+  "summaryZh": "一项研究以「信息预算」和「平均患者」假设检验17个模型模拟精神科患者的逼真度，对照8组真人样本发现模型变异低1.5—11倍。模型常将多数症状评为中等，也较少回答「无症状」，提示词、人格、模型规模与推理只能减弱这一模式。由此，AI治疗师对无症状的识别能力缺乏有效检验。",
+  "reason": "用17个模型对照8组真人样本，量化了模拟患者回答变异偏小、少报无症状的偏差，可作为合成用户校验的参照。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-07T16:00:00+00:00",
+  "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

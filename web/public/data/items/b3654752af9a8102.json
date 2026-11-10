@@ -1,0 +1,25 @@
+{
+  "id": "b3654752af9a8102",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.11897v1",
+  "title": "ShopMind：用于个性化且逼真的电子商务用户模拟的心理世界模型",
+  "titleZh": "ShopMind：用于个性化且逼真的电子商务用户模拟的心理世界模型",
+  "summaryZh": "ShopMind 构建了以信念、不确定性和意图为核心的电商用户心理世界模型，并用合成行为—心理状态数据训练 MSR 推断潜在状态。相比最强基线，其个性化与行为真实性分别提升 18.0% 和 19.6%。研究使用 LLM 仿真电商用户行为，无真人研究。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-08T16:00:00+00:00",
+  "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

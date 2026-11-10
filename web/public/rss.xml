@@ -5,7 +5,7 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 10 Nov 2026 02:35:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 12:14:19 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
     <item>
@@ -18,6 +18,15 @@
       <category>methods</category>
     </item>
     <item>
+      <title>《平均患者》研究用8组真人样本检验17个模型模拟精神科患者的逼真度</title>
+      <link>https://arxiv.org/abs/2611.11679v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.11679v1</guid>
+      <pubDate>Sat, 07 Nov 2026 16:00:00 GMT</pubDate>
+      <description>一项研究以「信息预算」和「平均患者」假设检验17个模型模拟精神科患者的逼真度，对照8组真人样本发现模型变异低1.5—11倍。模型常将多数症状评为中等，也较少回答「无症状」，提示词、人格、模型规模与推理只能减弱这一模式。由此，AI治疗师对无症状的识别能力缺乏有效检验。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
+    </item>
+    <item>
       <title>Listen Labs 盘点 AI 问卷工具并给出采购验证清单</title>
       <link>https://listenlabs.com/articles/best-ai-survey-tools-synthetic-respondents/</link>
       <guid isPermaLink="true">https://listenlabs.com/articles/best-ai-survey-tools-synthetic-respondents/</guid>
@@ -25,6 +34,15 @@
       <description>Listen Labs 增长负责人 Anish Rao 撰写 AI 问卷工具选购对比指南，把 Listen Labs 列为首选，并引用 Pew Research 2026 年 9 月 30 日的独立基准作为依据。Pew 让一个 AI 模型套用真实 American Trends Panel 成员的人设回答 2026 年上半年三轮调查近 300 道题，合成估算与真人平均相差 12 个百分点，约 28% 的题目差距超过 15 个百分点，个体层面匹配率约 55%。文中还给出六项采购验证清单，涉及真人数据基础、个体层面输出与答案可追溯性，并对比了 PersonaPanels 与 Delve AI。</description>
       <category>Listen Labs</category>
       <category>methods</category>
+    </item>
+    <item>
+      <title>研究评估LLM人格模拟中的分级认知多样性</title>
+      <link>https://arxiv.org/abs/2611.10508v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.10508v1</guid>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>一项研究检验LLM人格模拟能否复现人类认知差异，并以473名成年人作为对照。团队用认知反思、认知需求与大五人格设定代理，让模型完成同一套测验；模型能再现自陈人格分布，却难以反映推理任务和行为差异。Claude Sonnet 4.6无论人格设定均获CRT满分，显著偏离人类。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
     </item>
     <item>
       <title>Dovetail 推出统一客户上下文平台 Dovetail One</title>
@@ -439,24 +457,6 @@
       <description>基于 PRISM 数据集的研究（1,396 名参与者、21 个 LLM、29,347 条回答）对比了用户对 AI 回答属性的陈述偏好与实际评分行为，发现陈述优先项无法直接预测实际奖励权重。未问及的特征（长度、格式、拒答语言）对评分的影响不亚于已调查属性，历史对话中要求短或长回答的反馈更具预测力。用户之间对具体特征权重存在稳定差异，但中位数仅 6 次对话导致估计精度不足。</description>
       <category>ur-ai-papers（用户与交互 AI 论文库）</category>
       <category>research</category>
-    </item>
-    <item>
-      <title>Listen Labs 的 Voice of Customer 软件功能指南：七类核心能力各自做什么</title>
-      <link>https://listenlabs.com/articles/voice-of-customer-software-features/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/voice-of-customer-software-features/</guid>
-      <pubDate>Wed, 21 Oct 2026 05:03:33 GMT</pubDate>
-      <description>Listen Labs 的 Voice of Customer 软件功能指南拆解七类核心能力。文章引用 Transformer 情感系统在真实反馈约 79%、规则词库约 44% 的准确率对比，并强调指标要能追溯到原话和源片段。Listen Labs 的 AI 主持访谈可从 50M+ 验证受访者网络、45+ 国家招募，并在 24 小时内交付分析和成果。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>AI 暴露度不看职位看任务：用 Claude 测算的五步法</title>
-      <link>https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4</link>
-      <guid isPermaLink="true">https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4</guid>
-      <pubDate>Tue, 20 Oct 2026 21:29:28 GMT</pubDate>
-      <description>作者提出按任务而非职位评估 AI 暴露度，用能否两句话描述最终结果、能否更快核验两问给一周任务打分，再按工时加权，并给出可直接粘贴到 Claude 的五步提示词。文中引用 2023 年 GPTs are GPTs 的估计，80% 美国劳动者至少一成任务会受影响，约 19% 至少一半，而 Anthropic 用 2026 年 3 月使用数据发现 Claude 覆盖约 33% 的计算机与数学任务。作者还引用 Stanford Digital Economy Lab 2026 年 8 月的分析，22 至 25 岁在暴露职业中的就业水平比与低暴露同行同步时应有的水平低 19%。</description>
-      <category>UX Collective</category>
-      <category>methods</category>
     </item>
   </channel>
 </rss>

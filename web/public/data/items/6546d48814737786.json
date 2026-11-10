@@ -1,0 +1,32 @@
+{
+  "id": "6546d48814737786",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-kantar-alternatives-concept-testing/",
+  "title": "Kantar Alternatives for Concept Testing: A 2026 Framework",
+  "titleZh": "概念测试的 Kantar 替代方案：2026 框架",
+  "summaryZh": "Listen Labs 在《概念测试的 Kantar 替代方案：2026 框架》中将自身列为最佳整体替代方案，称其用真实参与者开展大规模 AI 主持定性访谈，覆盖 50M+ 验证样本，并在 24 小时内交付分析与成果。文章列出 Kantar ConceptEvaluate 起价 $2,830，并强调替代品需保留评分维度、品类基准与解释概念表现的能力。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "AI 访谈",
+    "市场研究",
+    "Kantar"
+  ],
+  "entities": [
+    "listen-labs",
+    "kantar",
+    "conveo",
+    "outset"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-10T05:03:04+00:00",
+  "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

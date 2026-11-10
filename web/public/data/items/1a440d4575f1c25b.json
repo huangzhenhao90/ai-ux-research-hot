@@ -1,0 +1,27 @@
+{
+  "id": "1a440d4575f1c25b",
+  "sourceId": "ipsos",
+  "sourceName": "Ipsos",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.ipsos.com/en/context-advantage-winning-moments-matter",
+  "title": "The Context Advantage: Winning the moments that matter",
+  "titleZh": "：情境优势——Contextual Brand Equity 如何揭示隐藏增长机会",
+  "summaryZh": "刊发《The Context Advantage》，讨论 Contextual Brand Equity 如何揭示隐藏增长机会。文章同时聚焦品牌如何赢得关键时刻",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "市场研究"
+  ],
+  "entities": [
+    "ipsos"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-10T08:50:30+00:00",
+  "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

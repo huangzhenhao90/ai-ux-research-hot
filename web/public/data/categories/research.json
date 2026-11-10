@@ -3,7 +3,7 @@
   "label": "论文",
   "section": "研究与证据",
   "commentary": false,
-  "count": 70,
+  "count": 76,
   "items": [
     {
       "id": "342f2af81bbbe547",
@@ -57,6 +57,55 @@
       "status": "selected",
       "dupOf": null,
       "relation": "followup"
+    },
+    {
+      "id": "b84125256011e29d",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.10508v1",
+      "title": "不完美中的不完美：评估LLM人格模拟中的分级认知多样性",
+      "titleZh": "研究评估LLM人格模拟中的分级认知多样性",
+      "summaryZh": "一项研究检验LLM人格模拟能否复现人类认知差异，并以473名成年人作为对照。团队用认知反思、认知需求与大五人格设定代理，让模型完成同一套测验；模型能再现自陈人格分布，却难以反映推理任务和行为差异。Claude Sonnet 4.6无论人格设定均获CRT满分，显著偏离人类。",
+      "reason": "研究用473名成人对照LLM人格模拟，指出模型能复现自陈人格却难还原推理与行为差异，可供评估合成用户时参考。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-06T16:00:00+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "4fa629ed25afa131",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.11679v1",
+      "title": "平均患者：模拟精神科患者的回答是否与真实患者相似？",
+      "titleZh": "《平均患者》研究用8组真人样本检验17个模型模拟精神科患者的逼真度",
+      "summaryZh": "一项研究以「信息预算」和「平均患者」假设检验17个模型模拟精神科患者的逼真度，对照8组真人样本发现模型变异低1.5—11倍。模型常将多数症状评为中等，也较少回答「无症状」，提示词、人格、模型规模与推理只能减弱这一模式。由此，AI治疗师对无症状的识别能力缺乏有效检验。",
+      "reason": "用17个模型对照8组真人样本，量化了模拟患者回答变异偏小、少报无症状的偏差，可作为合成用户校验的参照。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-07T16:00:00+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "8bedb525d881c60a",
@@ -664,6 +713,30 @@
       "relation": null
     },
     {
+      "id": "943741570c2c43e3",
+      "sourceId": "frontiers-cs",
+      "sourceName": "Frontiers in Computer Science",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1940035",
+      "title": "Personality without a person: measuring personality in generative AI",
+      "titleZh": "没有人的个性：测量生成式 AI 中的人格",
+      "summaryZh": "研究团队用自我报告和游戏化行为测量，在开箱即用条件及三种基于提示词的人格设定下评估四款 LLM 的人格，发现重测信度很高。与以往研究相反，LLM 的人格分数随提示词人格可预测地变化，但自我报告与行为测量的一致性因模型和人格条件而异。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-10T00:00:00+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6f600c4420bdf0b3",
       "sourceId": "ur-ai-papers",
       "sourceName": "arXiv",
@@ -906,6 +979,30 @@
       "itemType": null,
       "publishedAt": "2026-10-21T00:00:00+00:00",
       "discoveredAt": "2026-10-22T02:48:12.603494+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6cba9350ec1ee800",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.10715v1",
+      "title": "从用户行为到满意度判断：推理用户对 AI Overviews 的满意度",
+      "titleZh": "STaRS：从用户行为推理 AI Overviews 用户满意度",
+      "summaryZh": "STaRS 让 LLM 先解释单项行为信号，再综合推断 AI Overviews 用户满意度，并用强化学习与奖励塑形优化稀疏奖励下的推理。该方法面向搜索场景中现有满意度评估未充分利用用户行为的问题。在两个真实数据集上，其预测表现优于对比方法。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "行为数据"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-06T16:00:00+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1210,6 +1307,31 @@
       "relation": null
     },
     {
+      "id": "bc4a5f4f297f2b47",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.10412v1",
+      "title": "TurnFlow：通过场景引导的用户模拟评测多轮LLM智能体用户状态推理",
+      "titleZh": "TurnFlow：通过场景引导的用户模拟评测多轮 LLM 智能体用户状态推理",
+      "summaryZh": "TurnFlow 结合自适应用户模拟与可验证评判，以 490 个场景检验 9 种 LLM 的多轮用户状态推理，总体通过率为 42.86%—59.59%。模型虽擅长多约束遵循，却在范围蔓延与目标转移上明显失效。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-06T16:00:00+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "f5f0eb21b3299a64",
       "sourceId": "ur-ai-papers",
       "sourceName": "arXiv",
@@ -1303,6 +1425,30 @@
       "itemType": null,
       "publishedAt": "2026-02-12T09:40:49+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "b3654752af9a8102",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.11897v1",
+      "title": "ShopMind：用于个性化且逼真的电子商务用户模拟的心理世界模型",
+      "titleZh": "ShopMind：用于个性化且逼真的电子商务用户模拟的心理世界模型",
+      "summaryZh": "ShopMind 构建了以信念、不确定性和意图为核心的电商用户心理世界模型，并用合成行为—心理状态数据训练 MSR 推断潜在状态。相比最强基线，其个性化与行为真实性分别提升 18.0% 和 19.6%。研究使用 LLM 仿真电商用户行为，无真人研究。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-08T16:00:00+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

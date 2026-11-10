@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 65,
+  "count": 69,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -441,6 +441,39 @@
       "relation": null
     },
     {
+      "id": "50253980458a8a3a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-message-testing-tools/",
+      "title": "AI User Research Tools for Message Testing: Which Wins?",
+      "titleZh": "AI 信息测试用研工具横评：Listen Labs 为何胜出？",
+      "summaryZh": "Listen Labs 在 AI 信息测试用研工具对比中排名第一，凭借真实认证受访者、AI 主持访谈和不到 24 小时出结果。其样本库覆盖 50M+ 认证受访者、45+ 国家和 120+ 种语言；合成受众仅适合初筛，定量问卷用于规模化排序。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "合成用户",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "outset",
+        "maze",
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T05:01:52+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6365b13a764297dc",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -697,6 +730,36 @@
       "relation": null
     },
     {
+      "id": "0f4ca44b003884c1",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-research-platforms/",
+      "title": "Global Consumer Research Platforms for AI Digital Twins",
+      "titleZh": "AI 数字孪生全球消费者研究平台排名：Listen Labs 居首",
+      "summaryZh": "Listen Labs 在 AI 数字孪生全球消费者研究平台排名中将 Listen Twins 列第一，称其用真人一对一访谈构建。其网络覆盖 50M+ 验证受访者、45+ 国家、120+ 语言，可在数秒内给出 100+ 条带推理、原话和置信分的答案，并支持一键真人验证。榜单还包括 Native AI、Outset AI 等平台，哥伦比亚商学院研究提示数字孪生仍有五类系统性偏差。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "outset",
+        "delve",
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T05:02:59+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "b6f70ecc9330276b",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -720,6 +783,37 @@
       "itemType": null,
       "publishedAt": "2026-11-09T05:04:56+00:00",
       "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6546d48814737786",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-kantar-alternatives-concept-testing/",
+      "title": "Kantar Alternatives for Concept Testing: A 2026 Framework",
+      "titleZh": "概念测试的 Kantar 替代方案：2026 框架",
+      "summaryZh": "Listen Labs 在《概念测试的 Kantar 替代方案：2026 框架》中将自身列为最佳整体替代方案，称其用真实参与者开展大规模 AI 主持定性访谈，覆盖 50M+ 验证样本，并在 24 小时内交付分析与成果。文章列出 Kantar ConceptEvaluate 起价 $2,830，并强调替代品需保留评分维度、品类基准与解释概念表现的能力。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar",
+        "conveo",
+        "outset"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T05:03:04+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1705,6 +1799,32 @@
       "itemType": null,
       "publishedAt": "2026-10-27T09:00:00+00:00",
       "discoveredAt": "2026-10-27T14:04:13.481977+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1a440d4575f1c25b",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/context-advantage-winning-moments-matter",
+      "title": "The Context Advantage: Winning the moments that matter",
+      "titleZh": "：情境优势——Contextual Brand Equity 如何揭示隐藏增长机会",
+      "summaryZh": "刊发《The Context Advantage》，讨论 Contextual Brand Equity 如何揭示隐藏增长机会。文章同时聚焦品牌如何赢得关键时刻",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T08:50:30+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

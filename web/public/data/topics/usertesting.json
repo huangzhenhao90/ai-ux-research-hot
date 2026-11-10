@@ -3,8 +3,41 @@
   "name": "UserTesting",
   "group": "company",
   "definition": "UserTesting（含 UserZoom）的可用性测试与 AI 分析能力更新。",
-  "count": 8,
+  "count": 9,
   "items": [
+    {
+      "id": "50253980458a8a3a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-message-testing-tools/",
+      "title": "AI User Research Tools for Message Testing: Which Wins?",
+      "titleZh": "AI 信息测试用研工具横评：Listen Labs 为何胜出？",
+      "summaryZh": "Listen Labs 在 AI 信息测试用研工具对比中排名第一，凭借真实认证受访者、AI 主持访谈和不到 24 小时出结果。其样本库覆盖 50M+ 认证受访者、45+ 国家和 120+ 种语言；合成受众仅适合初筛，定量问卷用于规模化排序。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "合成用户",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "outset",
+        "maze",
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T05:01:52+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
     {
       "id": "0fa25d0069aa4836",
       "sourceId": "listen-labs",

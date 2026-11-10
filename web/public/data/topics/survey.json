@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 74,
+  "count": 76,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -55,6 +55,31 @@
       "status": "selected",
       "dupOf": null,
       "relation": "same"
+    },
+    {
+      "id": "b84125256011e29d",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.10508v1",
+      "title": "不完美中的不完美：评估LLM人格模拟中的分级认知多样性",
+      "titleZh": "研究评估LLM人格模拟中的分级认知多样性",
+      "summaryZh": "一项研究检验LLM人格模拟能否复现人类认知差异，并以473名成年人作为对照。团队用认知反思、认知需求与大五人格设定代理，让模型完成同一套测验；模型能再现自陈人格分布，却难以反映推理任务和行为差异。Claude Sonnet 4.6无论人格设定均获CRT满分，显著偏离人类。",
+      "reason": "研究用473名成人对照LLM人格模拟，指出模型能复现自陈人格却难还原推理与行为差异，可供评估合成用户时参考。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-06T16:00:00+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "8bedb525d881c60a",
@@ -831,6 +856,39 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "50253980458a8a3a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-message-testing-tools/",
+      "title": "AI User Research Tools for Message Testing: Which Wins?",
+      "titleZh": "AI 信息测试用研工具横评：Listen Labs 为何胜出？",
+      "summaryZh": "Listen Labs 在 AI 信息测试用研工具对比中排名第一，凭借真实认证受访者、AI 主持访谈和不到 24 小时出结果。其样本库覆盖 50M+ 认证受访者、45+ 国家和 120+ 种语言；合成受众仅适合初筛，定量问卷用于规模化排序。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "合成用户",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "outset",
+        "maze",
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T05:01:52+00:00",
+      "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
     },
     {
       "id": "ec18d5dbcedfb9cf",

@@ -1,0 +1,26 @@
+{
+  "id": "bc4a5f4f297f2b47",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.10412v1",
+  "title": "TurnFlow：通过场景引导的用户模拟评测多轮LLM智能体用户状态推理",
+  "titleZh": "TurnFlow：通过场景引导的用户模拟评测多轮 LLM 智能体用户状态推理",
+  "summaryZh": "TurnFlow 结合自适应用户模拟与可验证评判，以 490 个场景检验 9 种 LLM 的多轮用户状态推理，总体通过率为 42.86%—59.59%。模型虽擅长多约束遵循，却在范围蔓延与目标转移上明显失效。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "Agent"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-06T16:00:00+00:00",
+  "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
