@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "count": 67,
+  "count": 78,
   "items": [
     {
       "id": "1dcf3578a582d301",
@@ -516,6 +516,32 @@
       "relation": "different"
     },
     {
+      "id": "da814f075ac36eca",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2510.27126",
+      "title": "AURA: A Reinforcement Learning Framework for AI-Driven Adaptive Conversational Surveys",
+      "titleZh": "AURA：面向 AI 驱动自适应对话式问卷的强化学习框架",
+      "summaryZh": "AURA 提出一个强化学习框架，用于 AI 驱动的自适应对话式问卷，受控评估中回答质量平均提升 +0.076。它用 LSDE 指标评估回答，并基于 96 段既往校园氛围对话（467 次交流）初始化策略。AURA 还显著优于非自适应基线（p=0.044，d=0.66），并将 specification prompts 减少 63%。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:00:00+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "595b6795fbc69cd7",
       "sourceId": "dovetail-blog",
       "sourceName": "Dovetail Blog",
@@ -611,6 +637,32 @@
       "itemType": null,
       "publishedAt": "2026-11-03T22:37:40+00:00",
       "discoveredAt": "2026-11-04T00:26:13.123578+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2f69de9fa15668d7",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.08840v1",
+      "title": "LLM角色模拟的关键因素：冷启动电商广告中的信号形式",
+      "titleZh": "LLM角色模拟的关键因素：冷启动电商广告中的信号形式",
+      "summaryZh": "研究在真实广告活动中比较冷启动电商广告缺少历史数据时的 LLM 用户画像模拟配置，发现最小人口描述、相对定性盲测信号及提示措辞效果最佳。其 MAE 较最佳非 LLM 基线降低 51.3%。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-05T16:00:00+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -932,6 +984,31 @@
       "relation": null
     },
     {
+      "id": "b3dd26c8f303e771",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2605.05921",
+      "title": "Intentmaking and Sensemaking: Human Interaction with AI-Guided Mathematical Discovery",
+      "titleZh": "AlphaEvolve 研究：人类与 AI 引导数学发现中的意图构建和意义建构",
+      "summaryZh": "一项针对 11 位数学专家使用进化编码智能体 AlphaEvolve 的研究，在三个月、逾 2,300 次实验中识别出“意图构建”过程。数学家会在引导搜索空间（意图构建）与提取数学洞察（意义建构）之间交替。研究据此主张把 AI 科学发现工具设计为协作工具，而非问答模型或黑箱神谕。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:00:00+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "9d138256869b06d0",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -985,6 +1062,35 @@
       "itemType": null,
       "publishedAt": "2026-11-03T05:05:47+00:00",
       "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "52dbd9f788fb5745",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-synthetic-respondent-platforms-compared/",
+      "title": "Synthetic Respondent Platforms Compared: A Buyer’s Framework",
+      "titleZh": "合成受访者平台对比：Listen Labs 的买方框架",
+      "summaryZh": "Listen Labs 按底层数据源把合成受访者平台分为四类，并提出真人基准、分群准确度、问题敏感性、可重复性和预测效度五项验证清单。其 Listen Twins 从 50M+ 验证网络的真人访谈构建 1:1 数字分身，可秒级返回 100+ 条带推理、引语和置信分的预测答案。纯 LLM 人设因缺乏真人锚定而误差高、分群差距被放大 2–4 倍且重复运行不稳定。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "问卷/定量",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:03:27+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1249,6 +1355,34 @@
       "relation": null
     },
     {
+      "id": "b6f70ecc9330276b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-panel-alternatives/",
+      "title": "Customer Research Panel Alternatives for AI Digital Twins",
+      "titleZh": "客户研究样本库的四类 AI 替代方案：Listen Labs 数字孪生与合成受访者对比",
+      "summaryZh": "客户研究样本库有四类 AI 替代方案：合成受访者、数据驱动数字孪生、智能体群体模拟与人机混合，Listen Labs 以 50M+ 验证受访者网络建 1:1 数字孪生。Nielsen Norman Group 综合三项研究称，基于访谈的数字孪生在个体层面预测准确率超 80%，其 2026 年研究显示合成受访者坍缩到约十几个标签，真人使用 50+ 词。Synthetic Users 年费 $12,500 起，Qualtrics Edge Audiences 仅限美国一般人群英文。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:04:56+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "c3cbad439cd104a1",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1332,6 +1466,31 @@
       "relation": null
     },
     {
+      "id": "81d71caa65314487",
+      "sourceId": "rosenfeldmedia",
+      "sourceName": "Rosenfeld Media",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://rosenfeldmedia.com/starting-ux-researcher-must-watch-sessions/",
+      "title": "Starting as a UX Researcher? 3 sessions you must watch",
+      "titleZh": "UX 研究新手入门：Rosenfeld 的 3 场必看讲座",
+      "summaryZh": "Rosenfeld 推荐了三场面向 UX 研究新手的讲座，覆盖 AI 辅助定性分析、职业能力与正式研究之外的技能价值。主讲人包括 Maria Rosala、James Lang 和 Feyikemi Akinwolemiwa。James Lang 的场次基于 50 多篇文章和 100 多位 UX 研究者与科技从业者的洞察。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-09T12:03:21+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "60afa0573423cefd",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1356,6 +1515,33 @@
       "itemType": null,
       "publishedAt": "2026-11-08T05:00:54+00:00",
       "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "82710b8b3a26bee2",
+      "sourceId": "cint",
+      "sourceName": "Cint",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.cint.com/blog/consumer-trust-ai-advertising/",
+      "title": "How brands earn and keep consumer trust in the age of AI advertising",
+      "titleZh": "Cint 与 Advertising Week：AI 广告时代品牌如何赢得并保持消费者信任",
+      "summaryZh": "Cint 与 Advertising Week 在 Advertising Week New York 2026 的会议上分享 1,000 名美国受访者调研，聚焦 AI 广告中的消费者信任。80% 在个人生活中使用 AI，但 80% 担忧 AI 制作广告；93% 称品牌信任影响购买决策。75% 认为品牌应披露 AI 使用，43% 称未披露 AI 或合成媒体是品牌彻底失去信任的最大原因。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T19:48:08+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1388,6 +1574,58 @@
       "itemType": null,
       "publishedAt": "2026-11-07T05:01:08+00:00",
       "discoveredAt": "2026-11-07T14:44:00.123322+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2466cfaf73cf9f83",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/test-testimonial-page-messaging/",
+      "title": "How to Test Testimonial Page Messaging That Converts",
+      "titleZh": "Listen Labs：如何测试能提升转化的客户证言页面信息",
+      "summaryZh": "Listen Labs 提出一套先定性、后 A/B 的五步客户证言页面测试流程，用 AI 主持访谈在投入流量前验证证言主题与证明点。流程围绕说话者权威、结果钩子、位置和格式四个变量逐一测试，并依托 50M+ 已验证受访者网络，在 24 小时内交付结果。CXL Institute 眼动研究显示，带照片证言的识别准确率为 61%。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:02:45+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8cba24b27e6a14a8",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2607.12736",
+      "title": "A\\\"ira: Rethinking AI Research Assistants for Interdisciplinary Science",
+      "titleZh": "a\"ira：重新思考面向跨学科科学的 AI 研究助手",
+      "summaryZh": "a\"ira 是一款面向跨学科团队而非个人工作流的 AI 研究助手，论文以 vision paper 形式给出其设计原则与系统架构，并用跨学科研究会议场景展示输出。它不只做文献摘要或问答，还会识别学科视角、转译术语、标注假设并综合协作研究机会，作者同时列出后续研究方向。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:00:00+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1590,6 +1828,37 @@
       "relation": null
     },
     {
+      "id": "c1b42d1d7394c282",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-conveo-alternatives-concept-testing/",
+      "title": "Conveo Alternatives for Concept Testing: By Use Case",
+      "titleZh": "Conveo 概念测试替代方案：按用例对比 8 家平台",
+      "summaryZh": "Listen Labs 按用例列出 8 个 Conveo 替代平台，并将自己列为大规模定性概念测试的首选。其称 Listen Labs 覆盖 50M+ 验证受访者、45+ 国家与 120+ 语言，研究周期从 4–6 周压缩到 24 小时内，并持有 SOC 2 Type II、ISO 27001、ISO 42001 与 GDPR 合规。Conveo 支持 50+ 语言、持有 SOC 2 Type II 与 GDPR，分析按访谈分钟计费。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "招募/样本",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "conveo",
+        "outset",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:02:40+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6b5ac259bdcb68d3",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1617,6 +1886,37 @@
       "itemType": null,
       "publishedAt": "2026-11-01T05:00:27+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "45ee443f15478c10",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-sightx-alternatives-concept-testing/",
+      "title": "SightX Alternatives for Concept Testing: 9 Platforms Ranked",
+      "titleZh": "SightX 概念测试替代品：9 个平台排名",
+      "summaryZh": "Listen Labs 的 Anish Rao 将 SightX 概念测试替代品整理为 9 个平台排名，并在需要解释概念成败原因时把 Listen Labs 列为首选。SightX 擅长 conjoint、MaxDiff、TURF 等定量评分，但缺少深度定性访谈分析。Listen Labs 覆盖 50M+ 受访者、45+ 国家和 120+ 语言，可在 24 小时内出结果。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "conveo",
+        "nielsen"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:05:01+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -3,7 +3,7 @@
   "name": "论文",
   "group": "genre",
   "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-  "count": 63,
+  "count": 67,
   "items": [
     {
       "id": "342f2af81bbbe547",
@@ -537,6 +537,32 @@
       "relation": null
     },
     {
+      "id": "da814f075ac36eca",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2510.27126",
+      "title": "AURA: A Reinforcement Learning Framework for AI-Driven Adaptive Conversational Surveys",
+      "titleZh": "AURA：面向 AI 驱动自适应对话式问卷的强化学习框架",
+      "summaryZh": "AURA 提出一个强化学习框架，用于 AI 驱动的自适应对话式问卷，受控评估中回答质量平均提升 +0.076。它用 LSDE 指标评估回答，并基于 96 段既往校园氛围对话（467 次交流）初始化策略。AURA 还显著优于非自适应基线（p=0.044，d=0.66），并将 specification prompts 减少 63%。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:00:00+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "9cf2210cbf70c129",
       "sourceId": "ijmr",
       "sourceName": "International Journal of Market Research",
@@ -607,6 +633,32 @@
       "itemType": null,
       "publishedAt": "2026-10-21T16:00:00+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2f69de9fa15668d7",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.08840v1",
+      "title": "LLM角色模拟的关键因素：冷启动电商广告中的信号形式",
+      "titleZh": "LLM角色模拟的关键因素：冷启动电商广告中的信号形式",
+      "summaryZh": "研究在真实广告活动中比较冷启动电商广告缺少历史数据时的 LLM 用户画像模拟配置，发现最小人口描述、相对定性盲测信号及提示措辞效果最佳。其 MAE 较最佳非 LLM 基线降低 51.3%。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-05T16:00:00+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1010,6 +1062,31 @@
       "relation": null
     },
     {
+      "id": "b3dd26c8f303e771",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2605.05921",
+      "title": "Intentmaking and Sensemaking: Human Interaction with AI-Guided Mathematical Discovery",
+      "titleZh": "AlphaEvolve 研究：人类与 AI 引导数学发现中的意图构建和意义建构",
+      "summaryZh": "一项针对 11 位数学专家使用进化编码智能体 AlphaEvolve 的研究，在三个月、逾 2,300 次实验中识别出“意图构建”过程。数学家会在引导搜索空间（意图构建）与提取数学洞察（意义建构）之间交替。研究据此主张把 AI 科学发现工具设计为协作工具，而非问答模型或黑箱神谕。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:00:00+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "b0739a940291a9a9",
       "sourceId": "ur-ai-papers",
       "sourceName": "arXiv",
@@ -1301,6 +1378,33 @@
       "itemType": null,
       "publishedAt": "2026-02-17T03:22:27+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "82710b8b3a26bee2",
+      "sourceId": "cint",
+      "sourceName": "Cint",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.cint.com/blog/consumer-trust-ai-advertising/",
+      "title": "How brands earn and keep consumer trust in the age of AI advertising",
+      "titleZh": "Cint 与 Advertising Week：AI 广告时代品牌如何赢得并保持消费者信任",
+      "summaryZh": "Cint 与 Advertising Week 在 Advertising Week New York 2026 的会议上分享 1,000 名美国受访者调研，聚焦 AI 广告中的消费者信任。80% 在个人生活中使用 AI，但 80% 担忧 AI 制作广告；93% 称品牌信任影响购买决策。75% 认为品牌应披露 AI 使用，43% 称未披露 AI 或合成媒体是品牌彻底失去信任的最大原因。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T19:48:08+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

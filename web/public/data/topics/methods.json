@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 124,
+  "count": 127,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -1899,6 +1899,35 @@
       "relation": null
     },
     {
+      "id": "52dbd9f788fb5745",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-synthetic-respondent-platforms-compared/",
+      "title": "Synthetic Respondent Platforms Compared: A Buyer’s Framework",
+      "titleZh": "合成受访者平台对比：Listen Labs 的买方框架",
+      "summaryZh": "Listen Labs 按底层数据源把合成受访者平台分为四类，并提出真人基准、分群准确度、问题敏感性、可重复性和预测效度五项验证清单。其 Listen Twins 从 50M+ 验证网络的真人访谈构建 1:1 数字分身，可秒级返回 100+ 条带推理、引语和置信分的预测答案。纯 LLM 人设因缺乏真人锚定而误差高、分群差距被放大 2–4 倍且重复运行不稳定。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "问卷/定量",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:03:27+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "12b9385b5bfcc24b",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2592,6 +2621,31 @@
       "relation": null
     },
     {
+      "id": "81d71caa65314487",
+      "sourceId": "rosenfeldmedia",
+      "sourceName": "Rosenfeld Media",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://rosenfeldmedia.com/starting-ux-researcher-must-watch-sessions/",
+      "title": "Starting as a UX Researcher? 3 sessions you must watch",
+      "titleZh": "UX 研究新手入门：Rosenfeld 的 3 场必看讲座",
+      "summaryZh": "Rosenfeld 推荐了三场面向 UX 研究新手的讲座，覆盖 AI 辅助定性分析、职业能力与正式研究之外的技能价值。主讲人包括 Maria Rosala、James Lang 和 Feyikemi Akinwolemiwa。James Lang 的场次基于 50 多篇文章和 100 多位 UX 研究者与科技从业者的洞察。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-09T12:03:21+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "60afa0573423cefd",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2728,6 +2782,34 @@
       "itemType": null,
       "publishedAt": "2026-07-14T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2466cfaf73cf9f83",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/test-testimonial-page-messaging/",
+      "title": "How to Test Testimonial Page Messaging That Converts",
+      "titleZh": "Listen Labs：如何测试能提升转化的客户证言页面信息",
+      "summaryZh": "Listen Labs 提出一套先定性、后 A/B 的五步客户证言页面测试流程，用 AI 主持访谈在投入流量前验证证言主题与证明点。流程围绕说话者权威、结果钩子、位置和格式四个变量逐一测试，并依托 50M+ 已验证受访者网络，在 24 小时内交付结果。CXL Institute 眼动研究显示，带照片证言的识别准确率为 61%。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:02:45+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

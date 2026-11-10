@@ -1,0 +1,32 @@
+{
+  "id": "c1b42d1d7394c282",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-conveo-alternatives-concept-testing/",
+  "title": "Conveo Alternatives for Concept Testing: By Use Case",
+  "titleZh": "Conveo 概念测试替代方案：按用例对比 8 家平台",
+  "summaryZh": "Listen Labs 按用例列出 8 个 Conveo 替代平台，并将自己列为大规模定性概念测试的首选。其称 Listen Labs 覆盖 50M+ 验证受访者、45+ 国家与 120+ 语言，研究周期从 4–6 周压缩到 24 小时内，并持有 SOC 2 Type II、ISO 27001、ISO 42001 与 GDPR 合规。Conveo 支持 50+ 语言、持有 SOC 2 Type II 与 GDPR，分析按访谈分钟计费。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "AI 访谈",
+    "招募/样本",
+    "Qualtrics"
+  ],
+  "entities": [
+    "listen-labs",
+    "conveo",
+    "outset",
+    "qualtrics"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-09T05:02:40+00:00",
+  "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

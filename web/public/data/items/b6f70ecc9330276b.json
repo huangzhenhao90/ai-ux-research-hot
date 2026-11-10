@@ -1,0 +1,29 @@
+{
+  "id": "b6f70ecc9330276b",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-digital-twin-panel-alternatives/",
+  "title": "Customer Research Panel Alternatives for AI Digital Twins",
+  "titleZh": "客户研究样本库的四类 AI 替代方案：Listen Labs 数字孪生与合成受访者对比",
+  "summaryZh": "客户研究样本库有四类 AI 替代方案：合成受访者、数据驱动数字孪生、智能体群体模拟与人机混合，Listen Labs 以 50M+ 验证受访者网络建 1:1 数字孪生。Nielsen Norman Group 综合三项研究称，基于访谈的数字孪生在个体层面预测准确率超 80%，其 2026 年研究显示合成受访者坍缩到约十几个标签，真人使用 50+ 词。Synthetic Users 年费 $12,500 起，Qualtrics Edge Audiences 仅限美国一般人群英文。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "合成用户",
+    "招募/样本"
+  ],
+  "entities": [
+    "listen-labs",
+    "qualtrics"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-09T05:04:56+00:00",
+  "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

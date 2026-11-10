@@ -1,0 +1,32 @@
+{
+  "id": "45ee443f15478c10",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-sightx-alternatives-concept-testing/",
+  "title": "SightX Alternatives for Concept Testing: 9 Platforms Ranked",
+  "titleZh": "SightX 概念测试替代品：9 个平台排名",
+  "summaryZh": "Listen Labs 的 Anish Rao 将 SightX 概念测试替代品整理为 9 个平台排名，并在需要解释概念成败原因时把 Listen Labs 列为首选。SightX 擅长 conjoint、MaxDiff、TURF 等定量评分，但缺少深度定性访谈分析。Listen Labs 覆盖 50M+ 受访者、45+ 国家和 120+ 语言，可在 24 小时内出结果。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "AI 访谈",
+    "问卷/定量",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs",
+    "qualtrics",
+    "conveo",
+    "nielsen"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-09T05:05:01+00:00",
+  "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

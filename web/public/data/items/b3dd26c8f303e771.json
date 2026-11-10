@@ -1,0 +1,26 @@
+{
+  "id": "b3dd26c8f303e771",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2605.05921",
+  "title": "Intentmaking and Sensemaking: Human Interaction with AI-Guided Mathematical Discovery",
+  "titleZh": "AlphaEvolve 研究：人类与 AI 引导数学发现中的意图构建和意义建构",
+  "summaryZh": "一项针对 11 位数学专家使用进化编码智能体 AlphaEvolve 的研究，在三个月、逾 2,300 次实验中识别出“意图构建”过程。数学家会在引导搜索空间（意图构建）与提取数学洞察（意义建构）之间交替。研究据此主张把 AI 科学发现工具设计为协作工具，而非问答模型或黑箱神谕。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "学术 HCI",
+    "Agent"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-09T05:00:00+00:00",
+  "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

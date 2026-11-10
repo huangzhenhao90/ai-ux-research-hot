@@ -1,0 +1,27 @@
+{
+  "id": "da814f075ac36eca",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2510.27126",
+  "title": "AURA: A Reinforcement Learning Framework for AI-Driven Adaptive Conversational Surveys",
+  "titleZh": "AURA：面向 AI 驱动自适应对话式问卷的强化学习框架",
+  "summaryZh": "AURA 提出一个强化学习框架，用于 AI 驱动的自适应对话式问卷，受控评估中回答质量平均提升 +0.076。它用 LSDE 指标评估回答，并基于 96 段既往校园氛围对话（467 次交流）初始化策略。AURA 还显著优于非自适应基线（p=0.044，d=0.66），并将 specification prompts 减少 63%。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "问卷/定量",
+    "AI 访谈",
+    "定性分析"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-09T05:00:00+00:00",
+  "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

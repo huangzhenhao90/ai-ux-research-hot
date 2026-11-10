@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 76,
+  "count": 79,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -431,6 +431,32 @@
       "itemType": null,
       "publishedAt": "2026-10-28T23:24:01+00:00",
       "discoveredAt": "2026-10-29T03:46:48.732266+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "da814f075ac36eca",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2510.27126",
+      "title": "AURA: A Reinforcement Learning Framework for AI-Driven Adaptive Conversational Surveys",
+      "titleZh": "AURA：面向 AI 驱动自适应对话式问卷的强化学习框架",
+      "summaryZh": "AURA 提出一个强化学习框架，用于 AI 驱动的自适应对话式问卷，受控评估中回答质量平均提升 +0.076。它用 LSDE 指标评估回答，并基于 96 段既往校园氛围对话（467 次交流）初始化策略。AURA 还显著优于非自适应基线（p=0.044，d=0.66），并将 specification prompts 减少 63%。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:00:00+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1511,6 +1537,31 @@
       "relation": null
     },
     {
+      "id": "81d71caa65314487",
+      "sourceId": "rosenfeldmedia",
+      "sourceName": "Rosenfeld Media",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://rosenfeldmedia.com/starting-ux-researcher-must-watch-sessions/",
+      "title": "Starting as a UX Researcher? 3 sessions you must watch",
+      "titleZh": "UX 研究新手入门：Rosenfeld 的 3 场必看讲座",
+      "summaryZh": "Rosenfeld 推荐了三场面向 UX 研究新手的讲座，覆盖 AI 辅助定性分析、职业能力与正式研究之外的技能价值。主讲人包括 Maria Rosala、James Lang 和 Feyikemi Akinwolemiwa。James Lang 的场次基于 50 多篇文章和 100 多位 UX 研究者与科技从业者的洞察。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-09T12:03:21+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "2422378ea48b1eec",
       "sourceId": "quirkos",
       "sourceName": "Quirkos",
@@ -1618,6 +1669,34 @@
       "itemType": null,
       "publishedAt": "2026-07-14T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2466cfaf73cf9f83",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/test-testimonial-page-messaging/",
+      "title": "How to Test Testimonial Page Messaging That Converts",
+      "titleZh": "Listen Labs：如何测试能提升转化的客户证言页面信息",
+      "summaryZh": "Listen Labs 提出一套先定性、后 A/B 的五步客户证言页面测试流程，用 AI 主持访谈在投入流量前验证证言主题与证明点。流程围绕说话者权威、结果钩子、位置和格式四个变量逐一测试，并依托 50M+ 已验证受访者网络，在 24 小时内交付结果。CXL Institute 眼动研究显示，带照片证言的识别准确率为 61%。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:02:45+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

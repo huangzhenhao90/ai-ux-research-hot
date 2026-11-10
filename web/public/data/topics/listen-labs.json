@@ -3,7 +3,7 @@
   "name": "Listen Labs",
   "group": "company",
   "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-  "count": 99,
+  "count": 104,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -1420,6 +1420,35 @@
       "relation": null
     },
     {
+      "id": "52dbd9f788fb5745",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-synthetic-respondent-platforms-compared/",
+      "title": "Synthetic Respondent Platforms Compared: A Buyer’s Framework",
+      "titleZh": "合成受访者平台对比：Listen Labs 的买方框架",
+      "summaryZh": "Listen Labs 按底层数据源把合成受访者平台分为四类，并提出真人基准、分群准确度、问题敏感性、可重复性和预测效度五项验证清单。其 Listen Twins 从 50M+ 验证网络的真人访谈构建 1:1 数字分身，可秒级返回 100+ 条带推理、引语和置信分的预测答案。纯 LLM 人设因缺乏真人锚定而误差高、分群差距被放大 2–4 倍且重复运行不稳定。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "问卷/定量",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:03:27+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "dcfdbb3ff630b67f",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1857,6 +1886,34 @@
       "relation": null
     },
     {
+      "id": "b6f70ecc9330276b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-panel-alternatives/",
+      "title": "Customer Research Panel Alternatives for AI Digital Twins",
+      "titleZh": "客户研究样本库的四类 AI 替代方案：Listen Labs 数字孪生与合成受访者对比",
+      "summaryZh": "客户研究样本库有四类 AI 替代方案：合成受访者、数据驱动数字孪生、智能体群体模拟与人机混合，Listen Labs 以 50M+ 验证受访者网络建 1:1 数字孪生。Nielsen Norman Group 综合三项研究称，基于访谈的数字孪生在个体层面预测准确率超 80%，其 2026 年研究显示合成受访者坍缩到约十几个标签，真人使用 50+ 词。Synthetic Users 年费 $12,500 起，Qualtrics Edge Audiences 仅限美国一般人群英文。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:04:56+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "31c9dfb2162f9420",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2141,6 +2198,34 @@
       "itemType": null,
       "publishedAt": "2026-10-21T05:02:59+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2466cfaf73cf9f83",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/test-testimonial-page-messaging/",
+      "title": "How to Test Testimonial Page Messaging That Converts",
+      "titleZh": "Listen Labs：如何测试能提升转化的客户证言页面信息",
+      "summaryZh": "Listen Labs 提出一套先定性、后 A/B 的五步客户证言页面测试流程，用 AI 主持访谈在投入流量前验证证言主题与证明点。流程围绕说话者权威、结果钩子、位置和格式四个变量逐一测试，并依托 50M+ 已验证受访者网络，在 24 小时内交付结果。CXL Institute 眼动研究显示，带照片证言的识别准确率为 61%。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:02:45+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2440,6 +2525,37 @@
       "relation": null
     },
     {
+      "id": "c1b42d1d7394c282",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-conveo-alternatives-concept-testing/",
+      "title": "Conveo Alternatives for Concept Testing: By Use Case",
+      "titleZh": "Conveo 概念测试替代方案：按用例对比 8 家平台",
+      "summaryZh": "Listen Labs 按用例列出 8 个 Conveo 替代平台，并将自己列为大规模定性概念测试的首选。其称 Listen Labs 覆盖 50M+ 验证受访者、45+ 国家与 120+ 语言，研究周期从 4–6 周压缩到 24 小时内，并持有 SOC 2 Type II、ISO 27001、ISO 42001 与 GDPR 合规。Conveo 支持 50+ 语言、持有 SOC 2 Type II 与 GDPR，分析按访谈分钟计费。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "招募/样本",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "conveo",
+        "outset",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:02:40+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6b5ac259bdcb68d3",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2619,6 +2735,37 @@
       "itemType": null,
       "publishedAt": "2026-10-22T05:00:45+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "45ee443f15478c10",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-sightx-alternatives-concept-testing/",
+      "title": "SightX Alternatives for Concept Testing: 9 Platforms Ranked",
+      "titleZh": "SightX 概念测试替代品：9 个平台排名",
+      "summaryZh": "Listen Labs 的 Anish Rao 将 SightX 概念测试替代品整理为 9 个平台排名，并在需要解释概念成败原因时把 Listen Labs 列为首选。SightX 擅长 conjoint、MaxDiff、TURF 等定量评分，但缺少深度定性访谈分析。Listen Labs 覆盖 50M+ 受访者、45+ 国家和 120+ 语言，可在 24 小时内出结果。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "conveo",
+        "nielsen"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:05:01+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

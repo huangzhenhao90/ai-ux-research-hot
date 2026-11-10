@@ -1,0 +1,29 @@
+{
+  "id": "2466cfaf73cf9f83",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/test-testimonial-page-messaging/",
+  "title": "How to Test Testimonial Page Messaging That Converts",
+  "titleZh": "Listen Labs：如何测试能提升转化的客户证言页面信息",
+  "summaryZh": "Listen Labs 提出一套先定性、后 A/B 的五步客户证言页面测试流程，用 AI 主持访谈在投入流量前验证证言主题与证明点。流程围绕说话者权威、结果钩子、位置和格式四个变量逐一测试，并依托 50M+ 已验证受访者网络，在 24 小时内交付结果。CXL Institute 眼动研究显示，带照片证言的识别准确率为 61%。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "定性分析",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-09T05:02:45+00:00",
+  "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

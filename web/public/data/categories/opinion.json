@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 61,
+  "count": 65,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -697,6 +697,34 @@
       "relation": null
     },
     {
+      "id": "b6f70ecc9330276b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-digital-twin-panel-alternatives/",
+      "title": "Customer Research Panel Alternatives for AI Digital Twins",
+      "titleZh": "客户研究样本库的四类 AI 替代方案：Listen Labs 数字孪生与合成受访者对比",
+      "summaryZh": "客户研究样本库有四类 AI 替代方案：合成受访者、数据驱动数字孪生、智能体群体模拟与人机混合，Listen Labs 以 50M+ 验证受访者网络建 1:1 数字孪生。Nielsen Norman Group 综合三项研究称，基于访谈的数字孪生在个体层面预测准确率超 80%，其 2026 年研究显示合成受访者坍缩到约十几个标签，真人使用 50+ 词。Synthetic Users 年费 $12,500 起，Qualtrics Edge Audiences 仅限美国一般人群英文。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:04:56+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "c3cbad439cd104a1",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -845,6 +873,30 @@
       "itemType": null,
       "publishedAt": "2026-10-25T05:04:25+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8cba24b27e6a14a8",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2607.12736",
+      "title": "A\\\"ira: Rethinking AI Research Assistants for Interdisciplinary Science",
+      "titleZh": "a\"ira：重新思考面向跨学科科学的 AI 研究助手",
+      "summaryZh": "a\"ira 是一款面向跨学科团队而非个人工作流的 AI 研究助手，论文以 vision paper 形式给出其设计原则与系统架构，并用跨学科研究会议场景展示输出。它不只做文献摘要或问答，还会识别学科视角、转译术语、标注假设并综合协作研究机会，作者同时列出后续研究方向。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:00:00+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1069,6 +1121,37 @@
       "relation": null
     },
     {
+      "id": "c1b42d1d7394c282",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-conveo-alternatives-concept-testing/",
+      "title": "Conveo Alternatives for Concept Testing: By Use Case",
+      "titleZh": "Conveo 概念测试替代方案：按用例对比 8 家平台",
+      "summaryZh": "Listen Labs 按用例列出 8 个 Conveo 替代平台，并将自己列为大规模定性概念测试的首选。其称 Listen Labs 覆盖 50M+ 验证受访者、45+ 国家与 120+ 语言，研究周期从 4–6 周压缩到 24 小时内，并持有 SOC 2 Type II、ISO 27001、ISO 42001 与 GDPR 合规。Conveo 支持 50+ 语言、持有 SOC 2 Type II 与 GDPR，分析按访谈分钟计费。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "招募/样本",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "conveo",
+        "outset",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:02:40+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6b5ac259bdcb68d3",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1215,6 +1298,37 @@
       "itemType": null,
       "publishedAt": "2026-10-22T05:00:45+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "45ee443f15478c10",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-sightx-alternatives-concept-testing/",
+      "title": "SightX Alternatives for Concept Testing: 9 Platforms Ranked",
+      "titleZh": "SightX 概念测试替代品：9 个平台排名",
+      "summaryZh": "Listen Labs 的 Anish Rao 将 SightX 概念测试替代品整理为 9 个平台排名，并在需要解释概念成败原因时把 Listen Labs 列为首选。SightX 擅长 conjoint、MaxDiff、TURF 等定量评分，但缺少深度定性访谈分析。Listen Labs 覆盖 50M+ 受访者、45+ 国家和 120+ 语言，可在 24 小时内出结果。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "conveo",
+        "nielsen"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-09T05:05:01+00:00",
+      "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

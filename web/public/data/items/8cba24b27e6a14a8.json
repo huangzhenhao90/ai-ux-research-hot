@@ -1,0 +1,25 @@
+{
+  "id": "8cba24b27e6a14a8",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2607.12736",
+  "title": "A\\\"ira: Rethinking AI Research Assistants for Interdisciplinary Science",
+  "titleZh": "a\"ira：重新思考面向跨学科科学的 AI 研究助手",
+  "summaryZh": "a\"ira 是一款面向跨学科团队而非个人工作流的 AI 研究助手，论文以 vision paper 形式给出其设计原则与系统架构，并用跨学科研究会议场景展示输出。它不只做文献摘要或问答，还会识别学科视角、转译术语、标注假设并综合协作研究机会，作者同时列出后续研究方向。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-09T05:00:00+00:00",
+  "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
