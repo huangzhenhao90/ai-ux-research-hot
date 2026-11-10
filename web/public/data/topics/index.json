@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T12:14:19.339820+00:00",
+  "generatedAt": "2026-11-10T21:40:45.145663+00:00",
   "groups": [
     {
       "key": "company",
@@ -23,7 +23,7 @@
       "name": "Qualtrics",
       "group": "company",
       "definition": "Qualtrics 的 XM 平台与 XM Institute 研究，以及体验管理产品的 AI 能力更新。",
-      "count": 22
+      "count": 23
     },
     {
       "slug": "dovetail",
@@ -72,7 +72,7 @@
       "name": "Medallia",
       "group": "company",
       "definition": "Medallia 的体验与反馈分析产品更新。",
-      "count": 2
+      "count": 3
     },
     {
       "slug": "listen-labs",
@@ -107,7 +107,7 @@
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 76
+      "count": 78
     },
     {
       "slug": "qual-analysis",
@@ -135,7 +135,7 @@
       "name": "洞察库与 ResearchOps",
       "group": "field",
       "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-      "count": 48
+      "count": 50
     },
     {
       "slug": "ethics",
@@ -156,7 +156,7 @@
       "name": "论文",
       "group": "genre",
       "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-      "count": 73
+      "count": 75
     },
     {
       "slug": "methods",

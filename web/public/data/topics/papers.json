@@ -3,7 +3,7 @@
   "name": "论文",
   "group": "genre",
   "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-  "count": 73,
+  "count": 75,
   "items": [
     {
       "id": "342f2af81bbbe547",
@@ -1478,6 +1478,34 @@
       "relation": null
     },
     {
+      "id": "9994aea493402597",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/blog/insights/how-tiktok-is-reshaping-gen-zs-supplement-habit/",
+      "title": "Pink Packaging, Real Money: How TikTok Is Reshaping Gen Z’s Supplement Habit",
+      "titleZh": "粉色包装与真金白银：TikTok 如何重塑 Z 世代保健品消费习惯",
+      "summaryZh": "Prodege 与 First & First Consulting 的联合研究发现，TikTok Shop 已为保健品行业带来超 $1 billion 收入，Z 世代保健品消费高度依赖该平台与创作者。研究调查 3,000 名 21-80 岁美国成年人，并分析 78,000 条公开帖子和 KaloData 的 TikTok Shop 销售数据；65% 的 Z 世代保健品使用者使用 TikTok，42% 从网红处而非医生获取健康建议（非使用者为 28%）。但医生仍是他们最信任的权威，仅 32% 会先找医生、29% 使用 AI 聊天机器人。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "市场研究",
+        "问卷/定量",
+        "行为数据"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T15:33:09+00:00",
+      "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "19a71996d15eeb58",
       "sourceId": "prodege",
       "sourceName": "Prodege",
@@ -1744,6 +1772,29 @@
       "itemType": null,
       "publishedAt": "2025-04-09T03:32:18+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "41f61aa05b189419",
+      "sourceId": "bit",
+      "sourceName": "Behaviour & Information Technology",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2752035?af=R",
+      "title": "From complex myth to easy-peasy: unveiling factors driving mainstream user re-use intention of generative AI-chatbots systems",
+      "titleZh": "从复杂神话到易如反掌：揭示驱动主流用户复用生成式 AI 聊天机器人系统的因素",
+      "summaryZh": "研究揭示驱动主流用户复用生成式 AI 聊天机器人系统的因素，并把这一过程概括为从“复杂神话”到“易如反掌”。它关注普通用户再次使用这类系统的意图。原文未提供具体模型、样本量、效应量或可用性信息。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-10T05:49:12+00:00",
+      "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

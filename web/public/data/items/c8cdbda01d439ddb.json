@@ -1,0 +1,27 @@
+{
+  "id": "c8cdbda01d439ddb",
+  "sourceId": "medallia",
+  "sourceName": "Medallia",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.medallia.com/blog/the-experience-command-center/",
+  "title": "The Experience Command Center",
+  "titleZh": "的 Experience Command Center：企业如何超越孤岛运营",
+  "summaryZh": "的《The Experience Command Center》提出，企业可借助体验指挥中心超越孤岛，把体验智能持续转化为业务成果和利润影响",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "medallia"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-10T14:04:57+00:00",
+  "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

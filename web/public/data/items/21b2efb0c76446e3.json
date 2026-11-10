@@ -1,0 +1,26 @@
+{
+  "id": "21b2efb0c76446e3",
+  "sourceId": "dynata",
+  "sourceName": "Dynata",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.dynata.com/why-dynata/resources/blog/the-score-youre-not-measuring-but-your-respondents-are/",
+  "title": "The score you’re not measuring (but your respondents are)",
+  "titleZh": "Dynata：受访者也在给问卷打分，而你尚未测量",
+  "summaryZh": "Dynata 指出每份问卷会被调研方和受访者各打一次分：前者看完成量、发生率、成本与数据质量，后者看耗时、无关问题与甄别问卷体验。两套评分很少一致，通常只有调研方的那张被记录下来。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "问卷/定量",
+    "招募/样本"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-10T15:42:33+00:00",
+  "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

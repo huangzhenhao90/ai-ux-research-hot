@@ -1,65 +1,6 @@
 {
-  "generatedAt": "2026-11-10T12:14:19.339820+00:00",
+  "generatedAt": "2026-11-10T21:40:45.145663+00:00",
   "windowDays": 3,
   "editionHour": 0,
-  "days": [
-    {
-      "date": "2026-11-08",
-      "count": 2,
-      "items": [
-        {
-          "id": "4fa629ed25afa131",
-          "sourceId": "ur-ai-papers",
-          "sourceName": "arXiv",
-          "venue": "arXiv",
-          "tier": "T2",
-          "url": "https://arxiv.org/abs/2611.11679v1",
-          "title": "平均患者：模拟精神科患者的回答是否与真实患者相似？",
-          "titleZh": "《平均患者》研究用8组真人样本检验17个模型模拟精神科患者的逼真度",
-          "summaryZh": "一项研究以「信息预算」和「平均患者」假设检验17个模型模拟精神科患者的逼真度，对照8组真人样本发现模型变异低1.5—11倍。模型常将多数症状评为中等，也较少回答「无症状」，提示词、人格、模型规模与推理只能减弱这一模式。由此，AI治疗师对无症状的识别能力缺乏有效检验。",
-          "reason": "用17个模型对照8组真人样本，量化了模拟患者回答变异偏小、少报无症状的偏差，可作为合成用户校验的参照。",
-          "category": "research",
-          "tags": [
-            "论文/研究",
-            "合成用户"
-          ],
-          "entities": [],
-          "itemType": "research_paper",
-          "publishedAt": "2026-11-07T16:00:00+00:00",
-          "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "7bc61666802f927a",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/best-digital-twin-platforms-qualitative/",
-          "title": "Best Digital Twin Platforms for Qualitative Research 2026",
-          "titleZh": "Listen Labs 梳理三类数字孪生平台并给出六步盲测验证法",
-          "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文把定性研究数字孪生平台分为人本数字孪生、合成人设与 AI 主持真人访谈三类，并提出六步盲测验证法。文中引用 Science Advances 的 19 项预注册研究、1,784 名个体与 164 项结果，称孪生与本人答案的平均相关约为 r = 0.20；Pew 2026 年 9 月研究在近 300 道题上录得平均绝对误差 12.4 个百分点，共和党倾向者与黑人成年人的误差更高。文章主张只有可追溯到具体真人的孪生才能支撑高风险决策，并称 Listen Twins 依托 50M+ 验证样本库、覆盖 45+ 国家、端到端交付在 24 小时内完成。",
-          "reason": "文章把数字孪生平台分成三类，并给出可照做的盲测验证步骤，便于研究团队在采购前用自有访谈样本检验供应商说法。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "合成用户",
-            "定性分析",
-            "市场研究"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "tutorial_explainer",
-          "publishedAt": "2026-11-08T05:08:57+00:00",
-          "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        }
-      ]
-    }
-  ]
+  "days": []
 }

@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "count": 90,
+  "count": 96,
   "items": [
     {
       "id": "1dcf3578a582d301",
@@ -1063,6 +1063,29 @@
       "relation": null
     },
     {
+      "id": "3ad0c6ad6c2c25fb",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "title": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "titleZh": "Teresa Torres 与 Petra Wille 谈持续发现与四大产品风险",
+      "summaryZh": "Teresa Torres 与 Petra Wille 在 All Things Product Podcast 中把持续发现习惯当作产品，用四大产品风险检验其产品市场契合度。结论是这些习惯在个人和团队层面有效，但组织层面难以持续；商业可行性不是问题，意愿和组织结构才是主要风险。董事会奖励可预测的向上结果、高管被激励去确定并指定方案，使持续发现依赖的信任难以维持。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-10T14:00:00+00:00",
+      "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "363e277fa93d5ec5",
       "sourceId": "arxiv-cs-hc",
       "sourceName": "arXiv cs.HC",
@@ -1620,6 +1643,34 @@
       "relation": null
     },
     {
+      "id": "9994aea493402597",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/blog/insights/how-tiktok-is-reshaping-gen-zs-supplement-habit/",
+      "title": "Pink Packaging, Real Money: How TikTok Is Reshaping Gen Z’s Supplement Habit",
+      "titleZh": "粉色包装与真金白银：TikTok 如何重塑 Z 世代保健品消费习惯",
+      "summaryZh": "Prodege 与 First & First Consulting 的联合研究发现，TikTok Shop 已为保健品行业带来超 $1 billion 收入，Z 世代保健品消费高度依赖该平台与创作者。研究调查 3,000 名 21-80 岁美国成年人，并分析 78,000 条公开帖子和 KaloData 的 TikTok Shop 销售数据；65% 的 Z 世代保健品使用者使用 TikTok，42% 从网红处而非医生获取健康建议（非使用者为 28%）。但医生仍是他们最信任的权威，仅 32% 会先找医生、29% 使用 AI 聊天机器人。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "市场研究",
+        "问卷/定量",
+        "行为数据"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T15:33:09+00:00",
+      "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6546d48814737786",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1842,6 +1893,31 @@
       "itemType": null,
       "publishedAt": "2026-11-07T05:01:08+00:00",
       "discoveredAt": "2026-11-07T14:44:00.123322+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "21b2efb0c76446e3",
+      "sourceId": "dynata",
+      "sourceName": "Dynata",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.dynata.com/why-dynata/resources/blog/the-score-youre-not-measuring-but-your-respondents-are/",
+      "title": "The score you’re not measuring (but your respondents are)",
+      "titleZh": "Dynata：受访者也在给问卷打分，而你尚未测量",
+      "summaryZh": "Dynata 指出每份问卷会被调研方和受访者各打一次分：前者看完成量、发生率、成本与数据质量，后者看耗时、无关问题与甄别问卷体验。两套评分很少一致，通常只有调研方的那张被记录下来。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "问卷/定量",
+        "招募/样本"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-10T15:42:33+00:00",
+      "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2387,6 +2463,55 @@
       "relation": null
     },
     {
+      "id": "c8cdbda01d439ddb",
+      "sourceId": "medallia",
+      "sourceName": "Medallia",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.medallia.com/blog/the-experience-command-center/",
+      "title": "The Experience Command Center",
+      "titleZh": "的 Experience Command Center：企业如何超越孤岛运营",
+      "summaryZh": "的《The Experience Command Center》提出，企业可借助体验指挥中心超越孤岛，把体验智能持续转化为业务成果和利润影响",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "medallia"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T14:04:57+00:00",
+      "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "41f61aa05b189419",
+      "sourceId": "bit",
+      "sourceName": "Behaviour & Information Technology",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2752035?af=R",
+      "title": "From complex myth to easy-peasy: unveiling factors driving mainstream user re-use intention of generative AI-chatbots systems",
+      "titleZh": "从复杂神话到易如反掌：揭示驱动主流用户复用生成式 AI 聊天机器人系统的因素",
+      "summaryZh": "研究揭示驱动主流用户复用生成式 AI 聊天机器人系统的因素，并把这一过程概括为从“复杂神话”到“易如反掌”。它关注普通用户再次使用这类系统的意图。原文未提供具体模型、样本量、效应量或可用性信息。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-10T05:49:12+00:00",
+      "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "484d8a8ea3585791",
       "sourceId": "ipsos",
       "sourceName": "Ipsos",
@@ -2431,6 +2556,32 @@
       "itemType": null,
       "publishedAt": "2026-11-10T08:50:30+00:00",
       "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "919cabc3a4545f0b",
+      "sourceId": "qualtrics",
+      "sourceName": "Qualtrics",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.qualtrics.com/resources/events/xm-webinar-virtual-event-v2-evolving-measuring-experience-shaping-it/",
+      "title": "XM Webinar & Virtual Event V2: Evolving from measuring experience to shaping it",
+      "titleZh": "Qualtrics XM Institute 网络研讨会与虚拟活动 V2：从衡量体验转向塑造体验",
+      "summaryZh": "Qualtrics XM Institute 将举办网络研讨会，讨论体验团队如何从衡量体验转向在体验发生前塑造自动化系统、合作伙伴与 AI 智能体的决策。活动由 Isabelle Zdatny 与 Global Payments 的 Allison Shields 主讲，涵盖 3 个关键角色、5 项技能及 XM 专家实践建议。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "Qualtrics"
+      ],
+      "entities": [
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T16:52:00+00:00",
+      "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

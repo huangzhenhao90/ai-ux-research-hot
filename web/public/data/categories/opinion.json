@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 69,
+  "count": 73,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -530,6 +530,29 @@
       "relation": null
     },
     {
+      "id": "3ad0c6ad6c2c25fb",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "title": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "titleZh": "Teresa Torres 与 Petra Wille 谈持续发现与四大产品风险",
+      "summaryZh": "Teresa Torres 与 Petra Wille 在 All Things Product Podcast 中把持续发现习惯当作产品，用四大产品风险检验其产品市场契合度。结论是这些习惯在个人和团队层面有效，但组织层面难以持续；商业可行性不是问题，意愿和组织结构才是主要风险。董事会奖励可预测的向上结果、高管被激励去确定并指定方案，使持续发现依赖的信任难以维持。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-10T14:00:00+00:00",
+      "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "9d138256869b06d0",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -967,6 +990,31 @@
       "itemType": null,
       "publishedAt": "2026-10-25T05:04:25+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "21b2efb0c76446e3",
+      "sourceId": "dynata",
+      "sourceName": "Dynata",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.dynata.com/why-dynata/resources/blog/the-score-youre-not-measuring-but-your-respondents-are/",
+      "title": "The score you’re not measuring (but your respondents are)",
+      "titleZh": "Dynata：受访者也在给问卷打分，而你尚未测量",
+      "summaryZh": "Dynata 指出每份问卷会被调研方和受访者各打一次分：前者看完成量、发生率、成本与数据质量，后者看耗时、无关问题与甄别问卷体验。两套评分很少一致，通常只有调研方的那张被记录下来。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "问卷/定量",
+        "招募/样本"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-10T15:42:33+00:00",
+      "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1804,6 +1852,32 @@
       "relation": null
     },
     {
+      "id": "c8cdbda01d439ddb",
+      "sourceId": "medallia",
+      "sourceName": "Medallia",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.medallia.com/blog/the-experience-command-center/",
+      "title": "The Experience Command Center",
+      "titleZh": "的 Experience Command Center：企业如何超越孤岛运营",
+      "summaryZh": "的《The Experience Command Center》提出，企业可借助体验指挥中心超越孤岛，把体验智能持续转化为业务成果和利润影响",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "medallia"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T14:04:57+00:00",
+      "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "1a440d4575f1c25b",
       "sourceId": "ipsos",
       "sourceName": "Ipsos",
@@ -1848,6 +1922,32 @@
       "itemType": null,
       "publishedAt": "2026-10-26T11:20:17+00:00",
       "discoveredAt": "2026-10-26T18:23:03.103858+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "919cabc3a4545f0b",
+      "sourceId": "qualtrics",
+      "sourceName": "Qualtrics",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.qualtrics.com/resources/events/xm-webinar-virtual-event-v2-evolving-measuring-experience-shaping-it/",
+      "title": "XM Webinar & Virtual Event V2: Evolving from measuring experience to shaping it",
+      "titleZh": "Qualtrics XM Institute 网络研讨会与虚拟活动 V2：从衡量体验转向塑造体验",
+      "summaryZh": "Qualtrics XM Institute 将举办网络研讨会，讨论体验团队如何从衡量体验转向在体验发生前塑造自动化系统、合作伙伴与 AI 智能体的决策。活动由 Isabelle Zdatny 与 Global Payments 的 Allison Shields 主讲，涵盖 3 个关键角色、5 项技能及 XM 专家实践建议。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "Qualtrics"
+      ],
+      "entities": [
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-10T16:52:00+00:00",
+      "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

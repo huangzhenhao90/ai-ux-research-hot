@@ -1,0 +1,27 @@
+{
+  "id": "919cabc3a4545f0b",
+  "sourceId": "qualtrics",
+  "sourceName": "Qualtrics",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.qualtrics.com/resources/events/xm-webinar-virtual-event-v2-evolving-measuring-experience-shaping-it/",
+  "title": "XM Webinar & Virtual Event V2: Evolving from measuring experience to shaping it",
+  "titleZh": "Qualtrics XM Institute 网络研讨会与虚拟活动 V2：从衡量体验转向塑造体验",
+  "summaryZh": "Qualtrics XM Institute 将举办网络研讨会，讨论体验团队如何从衡量体验转向在体验发生前塑造自动化系统、合作伙伴与 AI 智能体的决策。活动由 Isabelle Zdatny 与 Global Payments 的 Allison Shields 主讲，涵盖 3 个关键角色、5 项技能及 XM 专家实践建议。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "Qualtrics"
+  ],
+  "entities": [
+    "qualtrics"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-10T16:52:00+00:00",
+  "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
