@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 129,
+  "count": 130,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -1476,6 +1476,31 @@
       "itemType": null,
       "publishedAt": "2026-10-24T05:04:39+00:00",
       "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7d5d4ac44453cbc1",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.13042",
+      "title": "Trust, but verify, audit and attribute: a human-in-the-loop framework for checking AI-produced research results",
+      "titleZh": "Trust, but verify, audit and attribute：核查 AI 产出研究结果的人在回路框架",
+      "summaryZh": "研究提出一个领域无关的人在回路框架，用于核查 AI 产出的研究结果：工具检查、审计检查是否忠实于原始主张，人类在固定节点决策并记录人机贡献。工具层有数学（Wolfram Language、MATLAB、Lean）和统计（Python、R）两套自动实现，数学版在双主张示例上运行。歧义主张被拆成两种读法，一种被反驳、一种被证明。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "Agent",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-11T05:00:00+00:00",
+      "discoveredAt": "2026-11-11T05:02:06.331745+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

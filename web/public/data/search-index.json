@@ -1,5 +1,5 @@
 {
-  "count": 348,
+  "count": 350,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -1130,6 +1130,21 @@
       "sourceName": "Great Question Blog",
       "url": "https://www.greatquestion.com/blog/synthetic-users-vs-digital-twins",
       "publishedAt": "2026-10-01T16:00:00+00:00"
+    },
+    {
+      "id": "6417fac3bac5e26e",
+      "title": "Characterising divergence between heuristic and language-model ratings of mobile user interface quality",
+      "titleZh": "启发式评分器与语言模型在移动 UI 质量评分上的差异刻画",
+      "summaryZh": "一项研究用 RICO 的 15,000 屏语料，比较启发式评分器与三个开放权重语言模型在两种输入表示下的 270,000 条移动 UI 质量评分，发现原始一致性普遍很弱。18 个模型—表示—维度组合中有 17 个线性加权 Cohen's kappa 低于 0.15，但 15 个可统计区分于零，偏移校正后 5 个超过 0.15，差异更像系统偏差叠加弱共变。",
+      "tags": [
+        "论文/研究",
+        "多模态"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2609.05423",
+      "publishedAt": "2026-11-11T05:00:00+00:00"
     },
     {
       "id": "32449a76f4e70ddd",
@@ -2477,6 +2492,22 @@
       "sourceName": "UX Collective",
       "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
       "publishedAt": "2026-10-20T21:30:52+00:00"
+    },
+    {
+      "id": "7d5d4ac44453cbc1",
+      "title": "Trust, but verify, audit and attribute: a human-in-the-loop framework for checking AI-produced research results",
+      "titleZh": "Trust, but verify, audit and attribute：核查 AI 产出研究结果的人在回路框架",
+      "summaryZh": "研究提出一个领域无关的人在回路框架，用于核查 AI 产出的研究结果：工具检查、审计检查是否忠实于原始主张，人类在固定节点决策并记录人机贡献。工具层有数学（Wolfram Language、MATLAB、Lean）和统计（Python、R）两套自动实现，数学版在双主张示例上运行。歧义主张被拆成两种读法，一种被反驳、一种被证明。",
+      "tags": [
+        "方法/实践",
+        "Agent",
+        "研究伦理"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.13042",
+      "publishedAt": "2026-11-11T05:00:00+00:00"
     },
     {
       "id": "66bedcdc83b6e13d",

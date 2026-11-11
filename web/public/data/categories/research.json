@@ -3,7 +3,7 @@
   "label": "论文",
   "section": "研究与证据",
   "commentary": false,
-  "count": 78,
+  "count": 79,
   "items": [
     {
       "id": "342f2af81bbbe547",
@@ -558,6 +558,30 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "6417fac3bac5e26e",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2609.05423",
+      "title": "Characterising divergence between heuristic and language-model ratings of mobile user interface quality",
+      "titleZh": "启发式评分器与语言模型在移动 UI 质量评分上的差异刻画",
+      "summaryZh": "一项研究用 RICO 的 15,000 屏语料，比较启发式评分器与三个开放权重语言模型在两种输入表示下的 270,000 条移动 UI 质量评分，发现原始一致性普遍很弱。18 个模型—表示—维度组合中有 17 个线性加权 Cohen's kappa 低于 0.15，但 15 个可统计区分于零，偏移校正后 5 个超过 0.15，差异更像系统偏差叠加弱共变。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "多模态"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-11T05:00:00+00:00",
+      "discoveredAt": "2026-11-11T05:02:06.331745+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
     },
     {
       "id": "25f7859e3b8bcd71",
