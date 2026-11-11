@@ -3,8 +3,33 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 73,
+  "count": 77,
   "items": [
+    {
+      "id": "89444ee16d42e6a8",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://measuringu.com/pew-research-finds-the-same-problem-we-did-with-digital-twins/?utm_source=rss&utm_medium=rss&utm_campaign=pew-research-finds-the-same-problem-we-did-with-digital-twins",
+      "title": "Pew Research Finds the Same Problem We Did with Digital Twins",
+      "titleZh": "Pew 研究发现数字孪生存在与 MeasuringU 研究相同的问题",
+      "summaryZh": "Pew Research Center 用数字孪生完成近 300 道 ATP 调查题，平均绝对误差为 12 个百分点，结论是 AI 模型不足以替代真实人群调查。表现最好的配置为 Claude Opus 4.6 加扩展画像与专家反思，仍有约 28% 的题目误差超过 15 个百分点。MeasuringU 的两项 SUS 数字孪生实验也发现孪生系统性高估分数，其商业软件研究分别高估 10.6 和 10.4 分。",
+      "reason": "文章对比 Pew 与 MeasuringU 的数字孪生实验，呈现合成用户在问卷作答中的系统性偏差和模型差异。",
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-11-11T13:44:15+00:00",
+      "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "followup"
+    },
     {
       "id": "ac5699bdf639bad5",
       "sourceId": "uxdesign-cc",
@@ -966,6 +991,34 @@
       "relation": null
     },
     {
+      "id": "7784b5075833e34e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-case-studies/",
+      "title": "Kantar Brand Tracking Case Studies: What They Prove and Miss",
+      "titleZh": "Kantar 品牌追踪案例研究：证明了什么，又遗漏了什么",
+      "summaryZh": "Kantar 的四个品牌追踪案例研究显示，追踪能暴露区域品牌健康差异、支撑衰退期媒介预算，并把认知度与购买挂钩；其中 675 个数字展示广告系列的认知度最高升 12%，品牌感知仅变 2%。这些案例只报告指标变化、不解释原因，Listen Labs Pulse 则在同一波次把 KPI 与开放式对话配对，持续分析数万条回答并回溯原话和片段。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-11T05:03:59+00:00",
+      "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "10f9cc0e7897a987",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1098,6 +1151,33 @@
       "itemType": null,
       "publishedAt": "2026-10-22T05:04:06+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "b5b2f76971ce2fbd",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/travel-shopper-insights/",
+      "title": "Travel Shopper Insights: Key Trends to Know in 2026",
+      "titleZh": "Listen Labs：2026 旅行购物者洞察关键趋势",
+      "summaryZh": "Listen Labs 汇总 2026 旅行购物者洞察，指出 AI 已占旅行灵感触点的 21%，但预订环节仅 6%。其通过 AI 主持访谈与 50M+ 验证受访者网络覆盖 45+ 国家，称可在 24 小时内交付洞察。96% 旅行者会为显著更简便、更快的体验更换偏好品牌。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-11T05:03:54+00:00",
+      "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1637,6 +1717,34 @@
       "itemType": null,
       "publishedAt": "2026-06-22T23:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "c470ed4f548b77f5",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-real-time-ai-brand-monitoring/",
+      "title": "Real-Time AI Brand Monitoring Tools: What They Track",
+      "titleZh": "实时 AI 品牌监测工具追踪什么：Listen Labs Pulse、Brand24 与 Profound 等",
+      "summaryZh": "Listen Labs 对比实时 AI 品牌监测工具，分为社交聆听与 AI 搜索可见性追踪器，称 Listen Labs Pulse 能解释指标变动。Brand24 覆盖 2500 万+ 来源，Chatbeat 以 $99/月追踪 4 个 AI 平台；Otterly 以 $29/月支持 15 个提示词和 4 个引擎。多数工具只报告指标变动，不解释原因，刷新从分钟级到按日/按月不等。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "文本分析/VOC",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-11T05:04:04+00:00",
+      "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

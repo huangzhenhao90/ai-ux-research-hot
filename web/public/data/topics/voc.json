@@ -3,7 +3,7 @@
   "name": "文本分析 / VOC",
   "group": "field",
   "definition": "用 AI 分析用户反馈、评论、开放题与客服文本。",
-  "count": 13,
+  "count": 14,
   "items": [
     {
       "id": "791883e6a4cafac0",
@@ -347,6 +347,34 @@
       "itemType": null,
       "publishedAt": "2026-06-22T23:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "c470ed4f548b77f5",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-real-time-ai-brand-monitoring/",
+      "title": "Real-Time AI Brand Monitoring Tools: What They Track",
+      "titleZh": "实时 AI 品牌监测工具追踪什么：Listen Labs Pulse、Brand24 与 Profound 等",
+      "summaryZh": "Listen Labs 对比实时 AI 品牌监测工具，分为社交聆听与 AI 搜索可见性追踪器，称 Listen Labs Pulse 能解释指标变动。Brand24 覆盖 2500 万+ 来源，Chatbeat 以 $99/月追踪 4 个 AI 平台；Otterly 以 $29/月支持 15 个提示词和 4 个引擎。多数工具只报告指标变动，不解释原因，刷新从分钟级到按日/按月不等。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "文本分析/VOC",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-11T05:04:04+00:00",
+      "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

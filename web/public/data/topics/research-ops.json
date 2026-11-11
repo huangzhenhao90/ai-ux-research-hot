@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 50,
+  "count": 51,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -606,6 +606,32 @@
       "itemType": null,
       "publishedAt": "2026-10-30T05:12:09+00:00",
       "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5e7eee6baa3cb693",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-interviewer-customer-research/",
+      "title": "AI Interviewer for Customer Research: 2026 Guide",
+      "titleZh": "Listen Labs 客户研究 AI 访谈员 2026 指南",
+      "summaryZh": "Listen Labs 客户研究 AI 访谈员指南称，其 AI 主持访谈可并行运行数百场带追问的视频访谈，24 小时内交付分析。平台覆盖 50M+ 已验证受访者、45+ 国家与 120+ 语言，成本约为传统定性研究的三分之一。3,160 人随机对照试验显示，AI 主持访谈的原始材料约为书面开放题的 4.8 倍。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-11T05:03:39+00:00",
+      "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 11 Nov 2026 05:02:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 15:54:36 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Pew 研究发现数字孪生存在与 MeasuringU 研究相同的问题</title>
+      <link>https://measuringu.com/pew-research-finds-the-same-problem-we-did-with-digital-twins/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=pew-research-finds-the-same-problem-we-did-with-digital-twins</link>
+      <guid isPermaLink="true">https://measuringu.com/pew-research-finds-the-same-problem-we-did-with-digital-twins/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=pew-research-finds-the-same-problem-we-did-with-digital-twins</guid>
+      <pubDate>Wed, 11 Nov 2026 13:44:15 GMT</pubDate>
+      <description>Pew Research Center 用数字孪生完成近 300 道 ATP 调查题，平均绝对误差为 12 个百分点，结论是 AI 模型不足以替代真实人群调查。表现最好的配置为 Claude Opus 4.6 加扩展画像与专家反思，仍有约 28% 的题目误差超过 15 个百分点。MeasuringU 的两项 SUS 数字孪生实验也发现孪生系统性高估分数，其商业软件研究分别高估 10.6 和 10.4 分。</description>
+      <category>MeasuringU（Jeff Sauro）</category>
+      <category>opinion</category>
+    </item>
     <item>
       <title>Listen Labs 梳理三类数字孪生平台并给出六步盲测验证法</title>
       <link>https://listenlabs.com/articles/best-digital-twin-platforms-qualitative/</link>
@@ -448,15 +457,6 @@
       <description>Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–4 人，量化指标则需 NN/g 建议的 20+ 用户。作者还称 AI 主持访谈可在 50–100+ 场次上同时观察屏幕行为并实时追问矛盾。</description>
       <category>Listen Labs</category>
       <category>methods</category>
-    </item>
-    <item>
-      <title>PRISM 数据集研究对比用户对 AI 回答的陈述偏好与实际评分</title>
-      <link>https://arxiv.org/abs/2610.30763v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.30763v1</guid>
-      <pubDate>Wed, 21 Oct 2026 16:00:00 GMT</pubDate>
-      <description>基于 PRISM 数据集的研究（1,396 名参与者、21 个 LLM、29,347 条回答）对比了用户对 AI 回答属性的陈述偏好与实际评分行为，发现陈述优先项无法直接预测实际奖励权重。未问及的特征（长度、格式、拒答语言）对评分的影响不亚于已调查属性，历史对话中要求短或长回答的反馈更具预测力。用户之间对具体特征权重存在稳定差异，但中位数仅 6 次对话导致估计精度不足。</description>
-      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
-      <category>research</category>
     </item>
   </channel>
 </rss>

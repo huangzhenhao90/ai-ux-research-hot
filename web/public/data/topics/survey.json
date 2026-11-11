@@ -3,8 +3,33 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 78,
+  "count": 80,
   "items": [
+    {
+      "id": "89444ee16d42e6a8",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://measuringu.com/pew-research-finds-the-same-problem-we-did-with-digital-twins/?utm_source=rss&utm_medium=rss&utm_campaign=pew-research-finds-the-same-problem-we-did-with-digital-twins",
+      "title": "Pew Research Finds the Same Problem We Did with Digital Twins",
+      "titleZh": "Pew 研究发现数字孪生存在与 MeasuringU 研究相同的问题",
+      "summaryZh": "Pew Research Center 用数字孪生完成近 300 道 ATP 调查题，平均绝对误差为 12 个百分点，结论是 AI 模型不足以替代真实人群调查。表现最好的配置为 Claude Opus 4.6 加扩展画像与专家反思，仍有约 28% 的题目误差超过 15 个百分点。MeasuringU 的两项 SUS 数字孪生实验也发现孪生系统性高估分数，其商业软件研究分别高估 10.6 和 10.4 分。",
+      "reason": "文章对比 Pew 与 MeasuringU 的数字孪生实验，呈现合成用户在问卷作答中的系统性偏差和模型差异。",
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-11-11T13:44:15+00:00",
+      "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "followup"
+    },
     {
       "id": "efc712223f56320e",
       "sourceId": "measuringu",
@@ -1502,6 +1527,36 @@
       "itemType": null,
       "publishedAt": "2026-11-08T05:00:54+00:00",
       "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2094c4e46bbab34b",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-behavioral-science-ad-testing/",
+      "title": "Behavioral Science Ad Testing Tools: What They Measure",
+      "titleZh": "行为科学广告测试工具：它们测量什么",
+      "summaryZh": "Listen Labs 的评测梳理了行为科学广告测试的五类信号：注意力、情绪反应、内隐联想、记忆编码和认知负荷，并指出每种方法都有测量上限。按“能否解释广告为何有效、对谁有效”排序，Listen Labs 以 AI 主持视频访谈结合 Emotional Intelligence 列第一，覆盖 50+ 语言、不到 24 小时交付；Kantar LINK AI 基于 300,000+ 广告测试，约 1/4 广告与调查区间不匹配。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "市场研究",
+        "问卷/定量",
+        "Kantar"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-11T05:03:34+00:00",
+      "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

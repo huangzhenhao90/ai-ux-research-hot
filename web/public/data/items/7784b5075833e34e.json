@@ -1,0 +1,29 @@
+{
+  "id": "7784b5075833e34e",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/kantar-brand-tracking-case-studies/",
+  "title": "Kantar Brand Tracking Case Studies: What They Prove and Miss",
+  "titleZh": "Kantar 品牌追踪案例研究：证明了什么，又遗漏了什么",
+  "summaryZh": "Kantar 的四个品牌追踪案例研究显示，追踪能暴露区域品牌健康差异、支撑衰退期媒介预算，并把认知度与购买挂钩；其中 675 个数字展示广告系列的认知度最高升 12%，品牌感知仅变 2%。这些案例只报告指标变化、不解释原因，Listen Labs Pulse 则在同一波次把 KPI 与开放式对话配对，持续分析数万条回答并回溯原话和片段。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "市场研究",
+    "Kantar"
+  ],
+  "entities": [
+    "kantar",
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-11T05:03:59+00:00",
+  "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-11-11T05:02:06.331745+00:00",
+  "generatedAt": "2026-11-11T15:54:36.387675+00:00",
   "windowDays": 3,
   "editionHour": 0,
-  "days": []
+  "days": [
+    {
+      "date": "2026-11-11",
+      "count": 1,
+      "items": [
+        {
+          "id": "89444ee16d42e6a8",
+          "sourceId": "measuringu",
+          "sourceName": "MeasuringU（Jeff Sauro）",
+          "venue": null,
+          "tier": "T2",
+          "url": "https://measuringu.com/pew-research-finds-the-same-problem-we-did-with-digital-twins/?utm_source=rss&utm_medium=rss&utm_campaign=pew-research-finds-the-same-problem-we-did-with-digital-twins",
+          "title": "Pew Research Finds the Same Problem We Did with Digital Twins",
+          "titleZh": "Pew 研究发现数字孪生存在与 MeasuringU 研究相同的问题",
+          "summaryZh": "Pew Research Center 用数字孪生完成近 300 道 ATP 调查题，平均绝对误差为 12 个百分点，结论是 AI 模型不足以替代真实人群调查。表现最好的配置为 Claude Opus 4.6 加扩展画像与专家反思，仍有约 28% 的题目误差超过 15 个百分点。MeasuringU 的两项 SUS 数字孪生实验也发现孪生系统性高估分数，其商业软件研究分别高估 10.6 和 10.4 分。",
+          "reason": "文章对比 Pew 与 MeasuringU 的数字孪生实验，呈现合成用户在问卷作答中的系统性偏差和模型差异。",
+          "category": "opinion",
+          "tags": [
+            "观点/讨论",
+            "合成用户",
+            "问卷/定量"
+          ],
+          "entities": [],
+          "itemType": "opinion_analysis",
+          "publishedAt": "2026-11-11T13:44:15+00:00",
+          "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "followup"
+        }
+      ]
+    }
+  ]
 }
