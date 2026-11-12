@@ -1,0 +1,31 @@
+{
+  "id": "4515863abb08c1ea",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-market-research-tools/",
+  "title": "The Best Customer Research Tools in 2026: Expert Picks",
+  "titleZh": "2026 年最佳客户研究工具：Listen Labs 专家推荐",
+  "summaryZh": "Listen Labs 发布 2026 年最佳客户研究工具推荐，按研究目标分为市场、问卷、竞品、社交聆听与访谈。Listen Labs 称 50M+ 验证受访者覆盖 45+ 国家，AI 主持视频访谈支持 120+ 语言，研究周期可压到 24 小时内。Statista、Qualtrics 与 SurveyMonkey 分别对应市场数据、企业问卷和快速问卷。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "市场研究",
+    "定性分析",
+    "Qualtrics"
+  ],
+  "entities": [
+    "listen-labs",
+    "qualtrics",
+    "surveymonkey"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-12T05:00:35+00:00",
+  "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

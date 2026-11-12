@@ -3,7 +3,7 @@
   "name": "行业报告",
   "group": "genre",
   "definition": "调研公司报告、行业协会规范与市场结构变化。",
-  "count": 17,
+  "count": 18,
   "items": [
     {
       "id": "a343873a779e028c",
@@ -348,6 +348,33 @@
       "itemType": null,
       "publishedAt": "2026-10-29T10:58:22+00:00",
       "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2cbc48e3d21b0b1a",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ai-pack-sprint-combining-ai-speed-expert-insight-more-confident-pack-decisions",
+      "title": "AI Pack Sprint: combining AI speed with expert insight for more confident pack decisions",
+      "titleZh": "AI Pack Sprint：以 AI 速度结合 PRS IN VIVO 包装专家洞察，提升包装决策信心",
+      "summaryZh": "AI Pack Sprint 将预测性 AI 与 PRS IN VIVO 资深包装专业知识结合，提供快速、可执行的指导，帮助包装达到 Retail-Ready。它旨在让包装决策更有信心。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T15:32:16+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

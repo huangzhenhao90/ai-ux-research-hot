@@ -1,5 +1,5 @@
 {
-  "count": 356,
+  "count": 363,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -2844,6 +2844,20 @@
       "publishedAt": "2026-11-09T05:00:00+00:00"
     },
     {
+      "id": "6e6aa5c01c894c2d",
+      "title": "追踪大型语言模型中的心理测量推断",
+      "titleZh": "追踪大型语言模型中的心理测量推断：Llama 3 与 Qwen 2.5 变体研究",
+      "summaryZh": "基于272名大学生心理量表数据和14个Llama 3、Qwen 2.5变体，研究显示大模型能复现并放大跨量表相关。较大指令模型的内部几何结构与人类结构更一致。但探针斜率低于行为斜率，提示存在读出衰减及探测偏差。",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.12937v1",
+      "publishedAt": "2026-11-05T16:00:00+00:00"
+    },
+    {
       "id": "4d7c2b7e72ec3ae5",
       "title": "B2B Message Testing Tools: Which Method & Vendor to Pick",
       "titleZh": "B2B 信息测试工具怎么选：Listen Labs、Wynter、Articos 等方法与厂商对比",
@@ -3340,6 +3354,28 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/new-dovetail-experience/",
       "publishedAt": "2026-03-31T01:00:00+00:00"
+    },
+    {
+      "id": "ef0f2f9c6ade5305",
+      "title": "Remote User Testing Platforms in 2026: Which Should You Buy?",
+      "titleZh": "2026 年远程用户测试平台怎么选：Listen Labs、UserTesting、Maze 等 8 款对比",
+      "summaryZh": "Listen Labs 发布 2026 年远程用户测试平台选购对比，按主持方式将 Listen Labs、UserTesting、Maze 等 8 款平台分为 AI 主持、人工主持与非主持三类。其称 AI 主持访谈可在 24 小时内交付分析，覆盖 50M+ 受访者、45+ 国家与 120+ 语言；MeasuringU 2026 年一项 20 人随机对照试验则显示，AI 主持场次短 37%、跑题主题更少。UserTesting 合同中位数为 $41,200/年，Listen Labs 采用订阅制加受访者 credit 计费。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "可用性测试",
+        "招募/样本",
+        "合成用户"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-remote-user-testing-platforms/",
+      "publishedAt": "2026-11-12T05:01:45+00:00"
     },
     {
       "id": "e7f4fb463e4c840a",
@@ -4248,6 +4284,30 @@
       "publishedAt": "2025-12-09T00:00:00+00:00"
     },
     {
+      "id": "f1c2c170b903ae1a",
+      "title": "Free VoC Tool Trial: What You Actually Get (2026)",
+      "titleZh": "Listen Labs 等 7 款 VoC 工具免费试用实际包含什么（2026）",
+      "summaryZh": "Listen Labs 在 7 款 VoC 工具免费试用中居首，按 VoC 工作流覆盖度排序。Listen Labs 对 100 人以上公司提供 demo 与 pilot，小团队可自助使用，内置 30M+ 受访者、120+ 语言 AI 主持访谈，24 小时内交付；Typeform 免费版每月限 10 份回复。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "dovetail",
+        "usertesting",
+        "contentsquare"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-free-voc-tool-trials/",
+      "publishedAt": "2026-11-12T05:01:50+00:00"
+    },
+    {
       "id": "81d71caa65314487",
       "title": "Starting as a UX Researcher? 3 sessions you must watch",
       "titleZh": "UX 研究新手入门：Rosenfeld 的 3 场必看讲座",
@@ -4298,6 +4358,25 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/queer-theory-and-qualitative-methods-an-unlikely-marriage/",
       "publishedAt": "2025-07-16T16:36:00+00:00"
+    },
+    {
+      "id": "35ffa20b7e88da36",
+      "title": "Best AI Research Tools In 2026: Academic Vs. Customer",
+      "titleZh": "2026 年最佳 AI 研究工具盘点：Consensus、Elicit 等学术文献工具 vs. Listen Labs 客户研究平台",
+      "summaryZh": "Listen Labs 发布 2026 年 AI 研究工具盘点，将工具分为学术文献与客户研究两类。学术侧列出 Consensus、Elicit、SciSpace 等文献检索与综述工具，其中 Consensus Pro 年付 $12/月，Elicit 可检索 1.38 亿+ 论文。客户研究侧主推 Listen Labs，称其从 50M+ 验证样本网络、45+ 国家招募，AI 主持访谈覆盖 120+ 语言，24 小时内交付分析。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "招募/样本",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-research-tools/",
+      "publishedAt": "2026-11-12T05:01:37+00:00"
     },
     {
       "id": "2094c4e46bbab34b",
@@ -4712,6 +4791,51 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/manual-coding-vs-qualitative-coding-software/",
       "publishedAt": "2026-03-31T00:00:00+00:00"
+    },
+    {
+      "id": "4515863abb08c1ea",
+      "title": "The Best Customer Research Tools in 2026: Expert Picks",
+      "titleZh": "2026 年最佳客户研究工具：Listen Labs 专家推荐",
+      "summaryZh": "Listen Labs 发布 2026 年最佳客户研究工具推荐，按研究目标分为市场、问卷、竞品、社交聆听与访谈。Listen Labs 称 50M+ 验证受访者覆盖 45+ 国家，AI 主持视频访谈支持 120+ 语言，研究周期可压到 24 小时内。Statista、Qualtrics 与 SurveyMonkey 分别对应市场数据、企业问卷和快速问卷。",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "定性分析",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-market-research-tools/",
+      "publishedAt": "2026-11-12T05:00:35+00:00"
+    },
+    {
+      "id": "195803b4369809be",
+      "title": "Qualitative Customer Insights Tools: 11-Platform Shortlist",
+      "titleZh": "11 款定性客户洞察工具盘点：Listen Labs 居首，UserTesting、Maze、Dovetail 在列",
+      "summaryZh": "Listen Labs 发布 11 款定性客户洞察工具 shortlist，将自家平台列为唯一端到端选项，覆盖招募、AI 主持访谈到交付。其称流程可在 24 小时内完成、成本为传统机构研究的三分之一，后者需 4–6 周、$15,000–$40,000。其余入选者含 UserTesting（7M+ 参与者、34 国）、Maze、Remesh 与 Dovetail（30+ 集成）。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze",
+        "dovetail",
+        "qualtrics",
+        "user-interviews"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-qualitative-customer-insights-tools/",
+      "publishedAt": "2026-11-12T05:00:30+00:00"
     },
     {
       "id": "8735d76355f9442b",
@@ -5669,6 +5793,24 @@
       "sourceName": "Ipsos",
       "url": "https://www.ipsos.com/en/context-changes-everything",
       "publishedAt": "2026-10-26T16:25:27+00:00"
+    },
+    {
+      "id": "2cbc48e3d21b0b1a",
+      "title": "AI Pack Sprint: combining AI speed with expert insight for more confident pack decisions",
+      "titleZh": "AI Pack Sprint：以 AI 速度结合 PRS IN VIVO 包装专家洞察，提升包装决策信心",
+      "summaryZh": "AI Pack Sprint 将预测性 AI 与 PRS IN VIVO 资深包装专业知识结合，提供快速、可执行的指导，帮助包装达到 Retail-Ready。它旨在让包装决策更有信心。",
+      "tags": [
+        "行业动态",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "industry",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ai-pack-sprint-combining-ai-speed-expert-insight-more-confident-pack-decisions",
+      "publishedAt": "2026-11-12T15:32:16+00:00"
     },
     {
       "id": "443e6c9089eaf32a",

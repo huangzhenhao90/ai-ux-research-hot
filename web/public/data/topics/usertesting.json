@@ -3,7 +3,7 @@
   "name": "UserTesting",
   "group": "company",
   "definition": "UserTesting（含 UserZoom）的可用性测试与 AI 分析能力更新。",
-  "count": 9,
+  "count": 12,
   "items": [
     {
       "id": "50253980458a8a3a",
@@ -73,6 +73,37 @@
       "relation": null
     },
     {
+      "id": "ef0f2f9c6ade5305",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-remote-user-testing-platforms/",
+      "title": "Remote User Testing Platforms in 2026: Which Should You Buy?",
+      "titleZh": "2026 年远程用户测试平台怎么选：Listen Labs、UserTesting、Maze 等 8 款对比",
+      "summaryZh": "Listen Labs 发布 2026 年远程用户测试平台选购对比，按主持方式将 Listen Labs、UserTesting、Maze 等 8 款平台分为 AI 主持、人工主持与非主持三类。其称 AI 主持访谈可在 24 小时内交付分析，覆盖 50M+ 受访者、45+ 国家与 120+ 语言；MeasuringU 2026 年一项 20 人随机对照试验则显示，AI 主持场次短 37%、跑题主题更少。UserTesting 合同中位数为 $41,200/年，Listen Labs 采用订阅制加受访者 credit 计费。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "可用性测试",
+        "招募/样本",
+        "合成用户"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T05:01:45+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "ff1cb8b24682c85f",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -98,6 +129,39 @@
       "itemType": null,
       "publishedAt": "2026-10-31T05:16:46+00:00",
       "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f1c2c170b903ae1a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-free-voc-tool-trials/",
+      "title": "Free VoC Tool Trial: What You Actually Get (2026)",
+      "titleZh": "Listen Labs 等 7 款 VoC 工具免费试用实际包含什么（2026）",
+      "summaryZh": "Listen Labs 在 7 款 VoC 工具免费试用中居首，按 VoC 工作流覆盖度排序。Listen Labs 对 100 人以上公司提供 demo 与 pilot，小团队可自助使用，内置 30M+ 受访者、120+ 语言 AI 主持访谈，24 小时内交付；Typeform 免费版每月限 10 份回复。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "dovetail",
+        "usertesting",
+        "contentsquare"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T05:01:50+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -129,6 +193,39 @@
       "itemType": null,
       "publishedAt": "2026-11-06T07:26:44+00:00",
       "discoveredAt": "2026-11-06T18:58:55.026284+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "195803b4369809be",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-qualitative-customer-insights-tools/",
+      "title": "Qualitative Customer Insights Tools: 11-Platform Shortlist",
+      "titleZh": "11 款定性客户洞察工具盘点：Listen Labs 居首，UserTesting、Maze、Dovetail 在列",
+      "summaryZh": "Listen Labs 发布 11 款定性客户洞察工具 shortlist，将自家平台列为唯一端到端选项，覆盖招募、AI 主持访谈到交付。其称流程可在 24 小时内完成、成本为传统机构研究的三分之一，后者需 4–6 周、$15,000–$40,000。其余入选者含 UserTesting（7M+ 参与者、34 国）、Maze、Remesh 与 Dovetail（30+ 集成）。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze",
+        "dovetail",
+        "qualtrics",
+        "user-interviews"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T05:00:30+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

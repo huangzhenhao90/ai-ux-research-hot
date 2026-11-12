@@ -3,7 +3,7 @@
   "name": "可用性测试",
   "group": "field",
   "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-  "count": 14,
+  "count": 15,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -265,6 +265,37 @@
       "itemType": null,
       "publishedAt": "2026-10-24T05:04:45+00:00",
       "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ef0f2f9c6ade5305",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-remote-user-testing-platforms/",
+      "title": "Remote User Testing Platforms in 2026: Which Should You Buy?",
+      "titleZh": "2026 年远程用户测试平台怎么选：Listen Labs、UserTesting、Maze 等 8 款对比",
+      "summaryZh": "Listen Labs 发布 2026 年远程用户测试平台选购对比，按主持方式将 Listen Labs、UserTesting、Maze 等 8 款平台分为 AI 主持、人工主持与非主持三类。其称 AI 主持访谈可在 24 小时内交付分析，覆盖 50M+ 受访者、45+ 国家与 120+ 语言；MeasuringU 2026 年一项 20 人随机对照试验则显示，AI 主持场次短 37%、跑题主题更少。UserTesting 合同中位数为 $41,200/年，Listen Labs 采用订阅制加受访者 credit 计费。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "可用性测试",
+        "招募/样本",
+        "合成用户"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T05:01:45+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

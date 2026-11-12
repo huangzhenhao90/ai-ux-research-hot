@@ -3,7 +3,7 @@
   "label": "论文",
   "section": "研究与证据",
   "commentary": false,
-  "count": 79,
+  "count": 80,
   "items": [
     {
       "id": "342f2af81bbbe547",
@@ -1203,6 +1203,29 @@
       "itemType": null,
       "publishedAt": "2026-11-09T05:00:00+00:00",
       "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6e6aa5c01c894c2d",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.12937v1",
+      "title": "追踪大型语言模型中的心理测量推断",
+      "titleZh": "追踪大型语言模型中的心理测量推断：Llama 3 与 Qwen 2.5 变体研究",
+      "summaryZh": "基于272名大学生心理量表数据和14个Llama 3、Qwen 2.5变体，研究显示大模型能复现并放大跨量表相关。较大指令模型的内部几何结构与人类结构更一致。但探针斜率低于行为斜率，提示存在读出衰减及探测偏差。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-05T16:00:00+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

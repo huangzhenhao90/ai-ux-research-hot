@@ -3,7 +3,7 @@
   "name": "Qualtrics",
   "group": "company",
   "definition": "Qualtrics 的 XM 平台与 XM Institute 研究，以及体验管理产品的 AI 能力更新。",
-  "count": 23,
+  "count": 26,
   "items": [
     {
       "id": "513d0bb28edb882c",
@@ -299,6 +299,39 @@
       "relation": null
     },
     {
+      "id": "f1c2c170b903ae1a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-free-voc-tool-trials/",
+      "title": "Free VoC Tool Trial: What You Actually Get (2026)",
+      "titleZh": "Listen Labs 等 7 款 VoC 工具免费试用实际包含什么（2026）",
+      "summaryZh": "Listen Labs 在 7 款 VoC 工具免费试用中居首，按 VoC 工作流覆盖度排序。Listen Labs 对 100 人以上公司提供 demo 与 pilot，小团队可自助使用，内置 30M+ 受访者、120+ 语言 AI 主持访谈，24 小时内交付；Typeform 免费版每月限 10 份回复。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "dovetail",
+        "usertesting",
+        "contentsquare"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T05:01:50+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "60afa0573423cefd",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -354,6 +387,69 @@
       "itemType": null,
       "publishedAt": "2026-11-06T07:26:44+00:00",
       "discoveredAt": "2026-11-06T18:58:55.026284+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4515863abb08c1ea",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-market-research-tools/",
+      "title": "The Best Customer Research Tools in 2026: Expert Picks",
+      "titleZh": "2026 年最佳客户研究工具：Listen Labs 专家推荐",
+      "summaryZh": "Listen Labs 发布 2026 年最佳客户研究工具推荐，按研究目标分为市场、问卷、竞品、社交聆听与访谈。Listen Labs 称 50M+ 验证受访者覆盖 45+ 国家，AI 主持视频访谈支持 120+ 语言，研究周期可压到 24 小时内。Statista、Qualtrics 与 SurveyMonkey 分别对应市场数据、企业问卷和快速问卷。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "定性分析",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T05:00:35+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "195803b4369809be",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-qualitative-customer-insights-tools/",
+      "title": "Qualitative Customer Insights Tools: 11-Platform Shortlist",
+      "titleZh": "11 款定性客户洞察工具盘点：Listen Labs 居首，UserTesting、Maze、Dovetail 在列",
+      "summaryZh": "Listen Labs 发布 11 款定性客户洞察工具 shortlist，将自家平台列为唯一端到端选项，覆盖招募、AI 主持访谈到交付。其称流程可在 24 小时内完成、成本为传统机构研究的三分之一，后者需 4–6 周、$15,000–$40,000。其余入选者含 UserTesting（7M+ 参与者、34 国）、Maze、Remesh 与 Dovetail（30+ 集成）。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze",
+        "dovetail",
+        "qualtrics",
+        "user-interviews"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T05:00:30+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

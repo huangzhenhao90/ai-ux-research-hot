@@ -1,0 +1,29 @@
+{
+  "id": "35ffa20b7e88da36",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-research-tools/",
+  "title": "Best AI Research Tools In 2026: Academic Vs. Customer",
+  "titleZh": "2026 年最佳 AI 研究工具盘点：Consensus、Elicit 等学术文献工具 vs. Listen Labs 客户研究平台",
+  "summaryZh": "Listen Labs 发布 2026 年 AI 研究工具盘点，将工具分为学术文献与客户研究两类。学术侧列出 Consensus、Elicit、SciSpace 等文献检索与综述工具，其中 Consensus Pro 年付 $12/月，Elicit 可检索 1.38 亿+ 论文。客户研究侧主推 Listen Labs，称其从 50M+ 验证样本网络、45+ 国家招募，AI 主持访谈覆盖 120+ 语言，24 小时内交付分析。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "AI 访谈",
+    "招募/样本",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-12T05:01:37+00:00",
+  "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

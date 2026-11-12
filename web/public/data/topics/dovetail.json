@@ -3,7 +3,7 @@
   "name": "Dovetail",
   "group": "company",
   "definition": "Dovetail 的洞察库与研究分析产品更新，以及其对研究流程自动化的做法。",
-  "count": 26,
+  "count": 28,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -504,6 +504,39 @@
       "relation": null
     },
     {
+      "id": "f1c2c170b903ae1a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-free-voc-tool-trials/",
+      "title": "Free VoC Tool Trial: What You Actually Get (2026)",
+      "titleZh": "Listen Labs 等 7 款 VoC 工具免费试用实际包含什么（2026）",
+      "summaryZh": "Listen Labs 在 7 款 VoC 工具免费试用中居首，按 VoC 工作流覆盖度排序。Listen Labs 对 100 人以上公司提供 demo 与 pilot，小团队可自助使用，内置 30M+ 受访者、120+ 语言 AI 主持访谈，24 小时内交付；Typeform 免费版每月限 10 份回复。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "dovetail",
+        "usertesting",
+        "contentsquare"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T05:01:50+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "2e11ea7f6ba2c9bc",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -559,6 +592,39 @@
       "itemType": null,
       "publishedAt": "2026-11-01T05:04:33+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "195803b4369809be",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-qualitative-customer-insights-tools/",
+      "title": "Qualitative Customer Insights Tools: 11-Platform Shortlist",
+      "titleZh": "11 款定性客户洞察工具盘点：Listen Labs 居首，UserTesting、Maze、Dovetail 在列",
+      "summaryZh": "Listen Labs 发布 11 款定性客户洞察工具 shortlist，将自家平台列为唯一端到端选项，覆盖招募、AI 主持访谈到交付。其称流程可在 24 小时内完成、成本为传统机构研究的三分之一，后者需 4–6 周、$15,000–$40,000。其余入选者含 UserTesting（7M+ 参与者、34 国）、Maze、Remesh 与 Dovetail（30+ 集成）。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze",
+        "dovetail",
+        "qualtrics",
+        "user-interviews"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T05:00:30+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

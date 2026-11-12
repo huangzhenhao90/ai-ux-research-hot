@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 131,
+  "count": 133,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -2180,6 +2180,37 @@
       "relation": null
     },
     {
+      "id": "ef0f2f9c6ade5305",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-remote-user-testing-platforms/",
+      "title": "Remote User Testing Platforms in 2026: Which Should You Buy?",
+      "titleZh": "2026 年远程用户测试平台怎么选：Listen Labs、UserTesting、Maze 等 8 款对比",
+      "summaryZh": "Listen Labs 发布 2026 年远程用户测试平台选购对比，按主持方式将 Listen Labs、UserTesting、Maze 等 8 款平台分为 AI 主持、人工主持与非主持三类。其称 AI 主持访谈可在 24 小时内交付分析，覆盖 50M+ 受访者、45+ 国家与 120+ 语言；MeasuringU 2026 年一项 20 人随机对照试验则显示，AI 主持场次短 37%、跑题主题更少。UserTesting 合同中位数为 $41,200/年，Listen Labs 采用订阅制加受访者 credit 计费。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "可用性测试",
+        "招募/样本",
+        "合成用户"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T05:01:45+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "f1b4d765faec550a",
       "sourceId": "dynata",
       "sourceName": "Dynata",
@@ -3053,6 +3084,36 @@
       "itemType": null,
       "publishedAt": "2026-03-31T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4515863abb08c1ea",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-market-research-tools/",
+      "title": "The Best Customer Research Tools in 2026: Expert Picks",
+      "titleZh": "2026 年最佳客户研究工具：Listen Labs 专家推荐",
+      "summaryZh": "Listen Labs 发布 2026 年最佳客户研究工具推荐，按研究目标分为市场、问卷、竞品、社交聆听与访谈。Listen Labs 称 50M+ 验证受访者覆盖 45+ 国家，AI 主持视频访谈支持 120+ 语言，研究周期可压到 24 小时内。Statista、Qualtrics 与 SurveyMonkey 分别对应市场数据、企业问卷和快速问卷。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "定性分析",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T05:00:35+00:00",
+      "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
