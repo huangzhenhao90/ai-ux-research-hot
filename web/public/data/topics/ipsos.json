@@ -3,7 +3,7 @@
   "name": "Ipsos",
   "group": "company",
   "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-  "count": 29,
+  "count": 30,
   "items": [
     {
       "id": "dfc4bbf66f66afd9",
@@ -415,6 +415,36 @@
       "itemType": null,
       "publishedAt": "2026-10-30T10:53:59+00:00",
       "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "36669c41600dddee",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/blog/insights/emi-research-solutions-alternatives/",
+      "title": "Best EMI Research Solutions Alternatives for Brand Tracking in 2026",
+      "titleZh": "2026 年品牌追踪最佳 EMI Research Solutions 替代方案",
+      "summaryZh": "Prodege 发布指南，评估 EMI Research Solutions 关停后的品牌追踪替代方案，并把自家列为首选。指南称 Prodege 自有样本库覆盖 100+ 国家、1.2 亿消费者与 350+ 属性，可复制 EMI 的多样本库配比以延续历史趋势线。其余候选包括 Pollfish、Kantar、Ipsos、Dynata、YouGov 与 Tracksuit。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "prodege",
+        "kantar",
+        "ipsos",
+        "dynata"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-12T18:20:50+00:00",
+      "discoveredAt": "2026-11-13T00:55:30.864522+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
