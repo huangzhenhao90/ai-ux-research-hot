@@ -1,5 +1,5 @@
 {
-  "count": 365,
+  "count": 370,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -901,6 +901,27 @@
       "sourceName": "arXiv",
       "url": "https://arxiv.org/abs/2610.30763v1",
       "publishedAt": "2026-10-21T16:00:00+00:00"
+    },
+    {
+      "id": "df5fef817f85e317",
+      "title": "How to Validate a Product Concept Without a Research Team",
+      "titleZh": "没有研究团队时如何用七项测试验证产品概念",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文给出在没有研究团队时验证产品概念的七项测试序列，按成本与证据强度从低到高排列。前四项几乎不需预算并可在两天内完成，后三项只在早期信号支持时追加投入；文中为过去行为访谈、堆叠排序问卷、假门落地页、预售或定金、可点击原型、绿野仙踪礼宾测试和规模化真实客户访谈列出脚本与决策规则。文章同时称 Listen Labs 可在 24 小时内完成招募、主持与分析。",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "定性分析",
+        "可用性测试",
+        "招募/样本",
+        "行为数据"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/validate-product-concept-without-team/",
+      "publishedAt": "2026-11-13T05:00:23+00:00"
     },
     {
       "id": "89c56ba372b9678d",
@@ -1995,6 +2016,26 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/do-i-have-too-many-codes-in-my-qualitative-analysis/",
       "publishedAt": "2025-05-09T09:46:24+00:00"
+    },
+    {
+      "id": "58ed5db709425bda",
+      "title": "The Startup Customer Research Checklist (5 Phases)",
+      "titleZh": "Listen Labs 给出创业公司客户研究五阶段清单",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 总结了一份创业公司客户研究五阶段清单，按决策顺序覆盖问题验证、ICP 定义、市场测算、竞品拆解和定价验证。清单建议先用 10–15 次简短客户访谈验证问题，并用能否在 48 小时内找到 10 名目标客户检验 ICP。市场测算部分推荐使用 U.S. Census Bureau、BLS、Google Trends 等免费数据做自下而上估算，文章还称 Listen Labs 可在 45+ 国家招募并以 AI 主持访谈把访谈与分析压缩到 24 小时内。",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "定性分析",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/startup-market-research-checklist/",
+      "publishedAt": "2026-11-13T05:07:04+00:00"
     },
     {
       "id": "426a8df1b267258a",
@@ -3528,6 +3569,26 @@
       "sourceName": "International Journal of Market Research",
       "url": "https://journals.sagepub.com/doi/abs/10.1177/14707853261483762?ai=2b4&mi=ehikzz&af=R",
       "publishedAt": "2026-08-24T07:29:35+00:00"
+    },
+    {
+      "id": "d85abbbb014d3d0e",
+      "title": "How To Reduce Telecom Research Cycle Time in 7 Steps",
+      "titleZh": "Listen Labs：如何用 7 步缩短电信研究周期",
+      "summaryZh": "Listen Labs 给出 7 步框架，用于缩短电信用户研究周期，并把原本 4-6 周的研究压缩到数天、部分在 24 小时内完成。该框架覆盖研究设计、全球招募、AI 主持访谈、自动化分析与一键交付，平台可从 50M+ 网络招募 45+ 国家、120+ 语言的受访者。团队还可追踪阶段耗时、自动化比例和研究复用率等指标。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "洞察库/ResearchOps",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/reduce-telecom-research-cycle-time/",
+      "publishedAt": "2026-11-13T05:06:58+00:00"
     },
     {
       "id": "bc4a5f4f297f2b47",
@@ -5403,6 +5464,32 @@
       "publishedAt": "2024-10-04T05:36:52+00:00"
     },
     {
+      "id": "a5b48ff12dfdf829",
+      "title": "Self-Serve Qualitative Research Tools: Run the Whole Study",
+      "titleZh": "自助式定性研究工具按生命周期排序：Listen Labs 覆盖全流程",
+      "summaryZh": "Listen Labs 在一份按研究生命周期覆盖度排序的自助式定性研究工具榜单中居首，称其覆盖设计、招募、AI 主持访谈、分析与交付全流程。其招募来自 50M+ 验证受访者网络，AI 访谈支持 120+ 语言，Research Agent 不到 1 分钟生成交付物。Great Question 自助计划为 $129/席位/月（最多 5 席），AI 主持访谈属 Enterprise 附加项。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "AI 访谈",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "conveo",
+        "great-question",
+        "maze",
+        "dscout",
+        "usertesting",
+        "dovetail"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-self-serve-qualitative-tools/",
+      "publishedAt": "2026-11-13T05:00:17+00:00"
+    },
+    {
       "id": "a6e0a3a44fdeb133",
       "title": "Best Conjoint Analysis Tools for Concept Testing",
       "titleZh": "概念测试最佳 Conjoint Analysis 工具：Listen Labs 位列端到端首选",
@@ -5631,6 +5718,28 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/voc-program-fragmentation-problem/",
       "publishedAt": "2026-06-22T23:00:00+00:00"
+    },
+    {
+      "id": "7daf22f7064f11de",
+      "title": "Financial Services Customer Research: A Buyer’s Guide",
+      "titleZh": "金融服务客户研究：买家指南",
+      "summaryZh": "Listen Labs 在《金融服务客户研究买家指南》中把供应商分为辛迪加报告、定制研究机构和 AI 主持访谈平台三类。其 AI 平台称 24 小时内完成访谈，成本约为传统研究的三分之一，并从 45+ 国家的 5000 万+ 验证受访者网络招募，支持 120+ 语言。指南称合规审查是采购前的门槛。",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "招募/样本",
+        "AI 访谈",
+        "研究伦理"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "dovetail"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-financial-services-research-providers/",
+      "publishedAt": "2026-11-13T05:06:53+00:00"
     },
     {
       "id": "c470ed4f548b77f5",

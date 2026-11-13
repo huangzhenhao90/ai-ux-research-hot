@@ -3,7 +3,7 @@
   "name": "AI 访谈",
   "group": "field",
   "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-  "count": 84,
+  "count": 88,
   "items": [
     {
       "id": "1dcf3578a582d301",
@@ -559,6 +559,35 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "58ed5db709425bda",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/startup-market-research-checklist/",
+      "title": "The Startup Customer Research Checklist (5 Phases)",
+      "titleZh": "Listen Labs 给出创业公司客户研究五阶段清单",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 总结了一份创业公司客户研究五阶段清单，按决策顺序覆盖问题验证、ICP 定义、市场测算、竞品拆解和定价验证。清单建议先用 10–15 次简短客户访谈验证问题，并用能否在 48 小时内找到 10 名目标客户检验 ICP。市场测算部分推荐使用 U.S. Census Bureau、BLS、Google Trends 等免费数据做自下而上估算，文章还称 Listen Labs 可在 45+ 国家招募并以 AI 主持访谈把访谈与分析压缩到 24 小时内。",
+      "reason": "清单按决策顺序拆出五个阶段，并给出完成标准与时间预算，便于套用到早期客户研究。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "定性分析",
+        "市场研究",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-11-13T05:07:04+00:00",
+      "discoveredAt": "2026-11-13T11:55:09.288756+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "e8eabdc0ab7d672c",
@@ -1318,6 +1347,35 @@
       "itemType": null,
       "publishedAt": "2026-11-01T05:00:33+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "d85abbbb014d3d0e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/reduce-telecom-research-cycle-time/",
+      "title": "How To Reduce Telecom Research Cycle Time in 7 Steps",
+      "titleZh": "Listen Labs：如何用 7 步缩短电信研究周期",
+      "summaryZh": "Listen Labs 给出 7 步框架，用于缩短电信用户研究周期，并把原本 4-6 周的研究压缩到数天、部分在 24 小时内完成。该框架覆盖研究设计、全球招募、AI 主持访谈、自动化分析与一键交付，平台可从 50M+ 网络招募 45+ 国家、120+ 语言的受访者。团队还可追踪阶段耗时、自动化比例和研究复用率等指标。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "洞察库/ResearchOps",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-13T05:06:58+00:00",
+      "discoveredAt": "2026-11-13T11:55:09.288756+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2249,6 +2307,41 @@
       "relation": null
     },
     {
+      "id": "a5b48ff12dfdf829",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-self-serve-qualitative-tools/",
+      "title": "Self-Serve Qualitative Research Tools: Run the Whole Study",
+      "titleZh": "自助式定性研究工具按生命周期排序：Listen Labs 覆盖全流程",
+      "summaryZh": "Listen Labs 在一份按研究生命周期覆盖度排序的自助式定性研究工具榜单中居首，称其覆盖设计、招募、AI 主持访谈、分析与交付全流程。其招募来自 50M+ 验证受访者网络，AI 访谈支持 120+ 语言，Research Agent 不到 1 分钟生成交付物。Great Question 自助计划为 $129/席位/月（最多 5 席），AI 主持访谈属 Enterprise 附加项。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "AI 访谈",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "conveo",
+        "great-question",
+        "maze",
+        "dscout",
+        "usertesting",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-13T05:00:17+00:00",
+      "discoveredAt": "2026-11-13T11:55:09.288756+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "a6e0a3a44fdeb133",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2397,6 +2490,37 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:12+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7daf22f7064f11de",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-financial-services-research-providers/",
+      "title": "Financial Services Customer Research: A Buyer’s Guide",
+      "titleZh": "金融服务客户研究：买家指南",
+      "summaryZh": "Listen Labs 在《金融服务客户研究买家指南》中把供应商分为辛迪加报告、定制研究机构和 AI 主持访谈平台三类。其 AI 平台称 24 小时内完成访谈，成本约为传统研究的三分之一，并从 45+ 国家的 5000 万+ 验证受访者网络招募，支持 120+ 语言。指南称合规审查是采购前的门槛。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "招募/样本",
+        "AI 访谈",
+        "研究伦理"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-13T05:06:53+00:00",
+      "discoveredAt": "2026-11-13T11:55:09.288756+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

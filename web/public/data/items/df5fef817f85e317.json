@@ -1,0 +1,31 @@
+{
+  "id": "df5fef817f85e317",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/validate-product-concept-without-team/",
+  "title": "How to Validate a Product Concept Without a Research Team",
+  "titleZh": "没有研究团队时如何用七项测试验证产品概念",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文给出在没有研究团队时验证产品概念的七项测试序列，按成本与证据强度从低到高排列。前四项几乎不需预算并可在两天内完成，后三项只在早期信号支持时追加投入；文中为过去行为访谈、堆叠排序问卷、假门落地页、预售或定金、可点击原型、绿野仙踪礼宾测试和规模化真实客户访谈列出脚本与决策规则。文章同时称 Listen Labs 可在 24 小时内完成招募、主持与分析。",
+  "reason": "文章按成本与证据强度排出七项产品概念验证测试，并给出可直接套用的访谈脚本与决策规则，适合没有研究团队的小团队参考。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "问卷/定量",
+    "定性分析",
+    "可用性测试",
+    "招募/样本",
+    "行为数据"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-11-13T05:00:23+00:00",
+  "discoveredAt": "2026-11-13T11:55:09.288756+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

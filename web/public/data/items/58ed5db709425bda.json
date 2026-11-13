@@ -1,0 +1,30 @@
+{
+  "id": "58ed5db709425bda",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/startup-market-research-checklist/",
+  "title": "The Startup Customer Research Checklist (5 Phases)",
+  "titleZh": "Listen Labs 给出创业公司客户研究五阶段清单",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 总结了一份创业公司客户研究五阶段清单，按决策顺序覆盖问题验证、ICP 定义、市场测算、竞品拆解和定价验证。清单建议先用 10–15 次简短客户访谈验证问题，并用能否在 48 小时内找到 10 名目标客户检验 ICP。市场测算部分推荐使用 U.S. Census Bureau、BLS、Google Trends 等免费数据做自下而上估算，文章还称 Listen Labs 可在 45+ 国家招募并以 AI 主持访谈把访谈与分析压缩到 24 小时内。",
+  "reason": "清单按决策顺序拆出五个阶段，并给出完成标准与时间预算，便于套用到早期客户研究。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "招募/样本",
+    "定性分析",
+    "市场研究",
+    "AI 访谈"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-11-13T05:07:04+00:00",
+  "discoveredAt": "2026-11-13T11:55:09.288756+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

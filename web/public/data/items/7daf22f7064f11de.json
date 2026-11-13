@@ -1,0 +1,32 @@
+{
+  "id": "7daf22f7064f11de",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-financial-services-research-providers/",
+  "title": "Financial Services Customer Research: A Buyer’s Guide",
+  "titleZh": "金融服务客户研究：买家指南",
+  "summaryZh": "Listen Labs 在《金融服务客户研究买家指南》中把供应商分为辛迪加报告、定制研究机构和 AI 主持访谈平台三类。其 AI 平台称 24 小时内完成访谈，成本约为传统研究的三分之一，并从 45+ 国家的 5000 万+ 验证受访者网络招募，支持 120+ 语言。指南称合规审查是采购前的门槛。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "市场研究",
+    "招募/样本",
+    "AI 访谈",
+    "研究伦理"
+  ],
+  "entities": [
+    "listen-labs",
+    "usertesting",
+    "dovetail"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-13T05:06:53+00:00",
+  "discoveredAt": "2026-11-13T11:55:09.288756+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 Nov 2026 00:55:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 11:55:09 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>没有研究团队时如何用七项测试验证产品概念</title>
+      <link>https://listenlabs.com/articles/validate-product-concept-without-team/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/validate-product-concept-without-team/</guid>
+      <pubDate>Fri, 13 Nov 2026 05:00:23 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 撰文给出在没有研究团队时验证产品概念的七项测试序列，按成本与证据强度从低到高排列。前四项几乎不需预算并可在两天内完成，后三项只在早期信号支持时追加投入；文中为过去行为访谈、堆叠排序问卷、假门落地页、预售或定金、可点击原型、绿野仙踪礼宾测试和规模化真实客户访谈列出脚本与决策规则。文章同时称 Listen Labs 可在 24 小时内完成招募、主持与分析。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Pew 研究发现数字孪生存在与 MeasuringU 研究相同的问题</title>
       <link>https://measuringu.com/pew-research-finds-the-same-problem-we-did-with-digital-twins/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=pew-research-finds-the-same-problem-we-did-with-digital-twins</link>
@@ -447,15 +456,6 @@
       <pubDate>Thu, 22 Oct 2026 08:32:30 GMT</pubDate>
       <description>MAXQDA 说明 AI Assist 可接入运行在本地电脑或机构内网服务器上的语言模型，数据不离开本地网络，并在文中给出设置步骤与本地模型选型建议。该能力属于 AI Assist Premium，发往本地模型的请求不计入每日额度；原文提示本地模型结果通常不如云端准确，响应也更慢。选型部分按 AI Chat、AI Summaries、AI Coding 分级说明模型要求，建议显存预留约 20%、量化选 Q4 及以上、默认响应超时为 3 分钟，并可通过兼容 OpenAI API 的模型服务器接入。</description>
       <category>MAXQDA</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>Listen Labs 的 6 步用户原型测试操作指南</title>
-      <link>https://listenlabs.com/articles/prototype-testing-with-users-playbook/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/prototype-testing-with-users-playbook/</guid>
-      <pubDate>Thu, 22 Oct 2026 05:00:54 GMT</pubDate>
-      <description>Listen Labs 发布一份 6 步用户原型测试指南，依次覆盖设定假设与决策、匹配原型保真度、选择主持或非主持形式、招募代表样本、撰写任务提示词和行为分析。文中指出 5 用户规则只适用于同质人群的早期定性发现，多细分产品需每组各 3–4 人，量化指标则需 NN/g 建议的 20+ 用户。作者还称 AI 主持访谈可在 50–100+ 场次上同时观察屏幕行为并实时追问矛盾。</description>
-      <category>Listen Labs</category>
       <category>methods</category>
     </item>
   </channel>

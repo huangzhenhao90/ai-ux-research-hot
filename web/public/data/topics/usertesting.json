@@ -3,7 +3,7 @@
   "name": "UserTesting",
   "group": "company",
   "definition": "UserTesting（含 UserZoom）的可用性测试与 AI 分析能力更新。",
-  "count": 12,
+  "count": 14,
   "items": [
     {
       "id": "50253980458a8a3a",
@@ -329,6 +329,41 @@
       "relation": null
     },
     {
+      "id": "a5b48ff12dfdf829",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-self-serve-qualitative-tools/",
+      "title": "Self-Serve Qualitative Research Tools: Run the Whole Study",
+      "titleZh": "自助式定性研究工具按生命周期排序：Listen Labs 覆盖全流程",
+      "summaryZh": "Listen Labs 在一份按研究生命周期覆盖度排序的自助式定性研究工具榜单中居首，称其覆盖设计、招募、AI 主持访谈、分析与交付全流程。其招募来自 50M+ 验证受访者网络，AI 访谈支持 120+ 语言，Research Agent 不到 1 分钟生成交付物。Great Question 自助计划为 $129/席位/月（最多 5 席），AI 主持访谈属 Enterprise 附加项。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "AI 访谈",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "conveo",
+        "great-question",
+        "maze",
+        "dscout",
+        "usertesting",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-13T05:00:17+00:00",
+      "discoveredAt": "2026-11-13T11:55:09.288756+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "263b215d53519328",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -389,6 +424,37 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:12+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7daf22f7064f11de",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-financial-services-research-providers/",
+      "title": "Financial Services Customer Research: A Buyer’s Guide",
+      "titleZh": "金融服务客户研究：买家指南",
+      "summaryZh": "Listen Labs 在《金融服务客户研究买家指南》中把供应商分为辛迪加报告、定制研究机构和 AI 主持访谈平台三类。其 AI 平台称 24 小时内完成访谈，成本约为传统研究的三分之一，并从 45+ 国家的 5000 万+ 验证受访者网络招募，支持 120+ 语言。指南称合规审查是采购前的门槛。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "招募/样本",
+        "AI 访谈",
+        "研究伦理"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-13T05:06:53+00:00",
+      "discoveredAt": "2026-11-13T11:55:09.288756+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

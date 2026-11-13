@@ -1,0 +1,30 @@
+{
+  "id": "d85abbbb014d3d0e",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/reduce-telecom-research-cycle-time/",
+  "title": "How To Reduce Telecom Research Cycle Time in 7 Steps",
+  "titleZh": "Listen Labs：如何用 7 步缩短电信研究周期",
+  "summaryZh": "Listen Labs 给出 7 步框架，用于缩短电信用户研究周期，并把原本 4-6 周的研究压缩到数天、部分在 24 小时内完成。该框架覆盖研究设计、全球招募、AI 主持访谈、自动化分析与一键交付，平台可从 50M+ 网络招募 45+ 国家、120+ 语言的受访者。团队还可追踪阶段耗时、自动化比例和研究复用率等指标。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "招募/样本",
+    "洞察库/ResearchOps",
+    "定性分析"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-13T05:06:58+00:00",
+  "discoveredAt": "2026-11-13T11:55:09.288756+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
