@@ -1,5 +1,5 @@
 {
-  "count": 379,
+  "count": 380,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -3673,6 +3673,22 @@
       "sourceName": "Nielsen Norman Group",
       "url": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "publishedAt": "2026-11-13T18:00:00+00:00"
+    },
+    {
+      "id": "68f8e0cf3e932c28",
+      "title": "UX Roundup: No More Web | Social Knowledge Work | Auto-Logout | Agents in the Field | Agentic Training Video | Unused Research | Synthetic Users | Onboarding | AI Restraint",
+      "titleZh": "UX Roundup：智能体将终结网页设计？",
+      "summaryZh": "Jakob Nielsen 在 UX Roundup 中预测，个人 AI 智能体将让网页设计在未来 10 年走向消亡，企业需转向为智能体设计“体验提示”。他估计智能体到 2030 年才会在电商销售中过半，主要网站的人类直接访问要到 2036 年才降至 10% 以下。文中还提到合成用户仍不能替代真实用户，但可用于试点测试。",
+      "tags": [
+        "观点/讨论",
+        "Agent",
+        "合成用户"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "Jakob Nielsen on UX",
+      "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20261113",
+      "publishedAt": "2026-11-13T12:21:28+00:00"
     },
     {
       "id": "d85abbbb014d3d0e",
