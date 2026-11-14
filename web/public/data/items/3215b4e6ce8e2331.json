@@ -1,0 +1,27 @@
+{
+  "id": "3215b4e6ce8e2331",
+  "sourceId": "nngroup",
+  "sourceName": "Nielsen Norman Group",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+  "title": "Journey Mapping 101",
+  "titleZh": "Journey Mapping 101：用户旅程地图入门",
+  "summaryZh": "Journey Mapping 101 解释用户旅程地图是可视化用户为达成目标所经历过程的工具。其基本做法是把一系列用户动作编成时间线，再加入想法与情绪形成体验叙事，最后浓缩为旅程地图。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析"
+  ],
+  "entities": [
+    "nngroup"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-13T18:00:00+00:00",
+  "discoveredAt": "2026-11-14T00:43:56.816867+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

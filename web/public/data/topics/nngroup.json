@@ -3,7 +3,7 @@
   "name": "Nielsen Norman Group",
   "group": "company",
   "definition": "NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。",
-  "count": 15,
+  "count": 17,
   "items": [
     {
       "id": "ac5699bdf639bad5",
@@ -221,6 +221,30 @@
       "relation": null
     },
     {
+      "id": "6f448cafbd485871",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+      "titleZh": "研究在环：UXR 如何适应 AI 提速的开发",
+      "summaryZh": "NN/g 发文讨论 AI 智能体写出更多代码后 UXR 如何调整研究方式。文章提出研究可明确每次发布要测量什么，以及能帮助团队发现什么，并以摄影从胶片到数字的转变类比成本降低后学习更多发生在拍摄之后。",
+      "reason": "借摄影从胶片到数字的类比，呈现 UXR 在 AI 提速开发中从前期把关转向发布后持续学习的研究思路。",
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "NN/g"
+      ],
+      "entities": [],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-11-13T18:00:00+00:00",
+      "discoveredAt": "2026-11-14T00:43:56.816867+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "f9c6fab30e34f392",
       "sourceId": "nngroup",
       "sourceName": "Nielsen Norman Group",
@@ -354,6 +378,32 @@
       "itemType": null,
       "publishedAt": "2026-11-02T05:05:41+00:00",
       "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3215b4e6ce8e2331",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Journey Mapping 101",
+      "titleZh": "Journey Mapping 101：用户旅程地图入门",
+      "summaryZh": "Journey Mapping 101 解释用户旅程地图是可视化用户为达成目标所经历过程的工具。其基本做法是把一系列用户动作编成时间线，再加入想法与情绪形成体验叙事，最后浓缩为旅程地图。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-13T18:00:00+00:00",
+      "discoveredAt": "2026-11-14T00:43:56.816867+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

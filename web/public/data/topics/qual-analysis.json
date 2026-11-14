@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 86,
+  "count": 87,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -1351,6 +1351,32 @@
       "itemType": null,
       "publishedAt": "2026-11-01T05:00:33+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3215b4e6ce8e2331",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Journey Mapping 101",
+      "titleZh": "Journey Mapping 101：用户旅程地图入门",
+      "summaryZh": "Journey Mapping 101 解释用户旅程地图是可视化用户为达成目标所经历过程的工具。其基本做法是把一系列用户动作编成时间线，再加入想法与情绪形成体验叙事，最后浓缩为旅程地图。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-13T18:00:00+00:00",
+      "discoveredAt": "2026-11-14T00:43:56.816867+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

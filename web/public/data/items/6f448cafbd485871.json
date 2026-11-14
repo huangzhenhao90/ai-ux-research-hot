@@ -1,0 +1,25 @@
+{
+  "id": "6f448cafbd485871",
+  "sourceId": "nngroup",
+  "sourceName": "Nielsen Norman Group",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+  "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+  "titleZh": "研究在环：UXR 如何适应 AI 提速的开发",
+  "summaryZh": "NN/g 发文讨论 AI 智能体写出更多代码后 UXR 如何调整研究方式。文章提出研究可明确每次发布要测量什么，以及能帮助团队发现什么，并以摄影从胶片到数字的转变类比成本降低后学习更多发生在拍摄之后。",
+  "reason": "借摄影从胶片到数字的类比，呈现 UXR 在 AI 提速开发中从前期把关转向发布后持续学习的研究思路。",
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "NN/g"
+  ],
+  "entities": [],
+  "itemType": "opinion_analysis",
+  "publishedAt": "2026-11-13T18:00:00+00:00",
+  "discoveredAt": "2026-11-14T00:43:56.816867+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

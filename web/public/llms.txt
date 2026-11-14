@@ -15,6 +15,7 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [研究在环：UXR 如何适应 AI 提速的开发](https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：NN/g 发文讨论 AI 智能体写出更多代码后 UXR 如何调整研究方式。文章提出研究可明确每次发布要测量什么，以及能帮助团队发现什么，并以摄影从胶片到数字的转变类比成本降低后学习更多发生在拍摄之后。（Nielsen Norman Group，2026-11-13）
 - [没有研究团队时如何用七项测试验证产品概念](https://listenlabs.com/articles/validate-product-concept-without-team/)：Listen Labs 增长负责人 Anish Rao 撰文给出在没有研究团队时验证产品概念的七项测试序列，按成本与证据强度从低到高排列。前四项几乎不需预算并可在两天内完成，后三项只在早期信号支持时追加投入；文中为过去行为访谈、堆叠排序问…（Listen Labs，2026-11-13）
 - [Pew 研究发现数字孪生存在与 MeasuringU 研究相同的问题](https://measuringu.com/pew-research-finds-the-same-problem-we-did-with-digital-twins/?utm_source=rss&utm_medium=rss&utm_campaign=pew-research-finds-the-same-problem-we-did-with-digital-twins)：Pew Research Center 用数字孪生完成近 300 道 ATP 调查题，平均绝对误差为 12 个百分点，结论是 AI 模型不足以替代真实人群调查。表现最好的配置为 Claude Opus 4.6 加扩展画像与专家反思，仍有约…（MeasuringU（Jeff Sauro），2026-11-11）
 - [Listen Labs 梳理三类数字孪生平台并给出六步盲测验证法](https://listenlabs.com/articles/best-digital-twin-platforms-qualitative/)：Listen Labs 增长负责人 Anish Rao 撰文把定性研究数字孪生平台分为人本数字孪生、合成人设与 AI 主持真人访谈三类，并提出六步盲测验证法。文中引用 Science Advances 的 19 项预注册研究、1,784…（Listen Labs，2026-11-08）
@@ -44,6 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [AutoAnalysis 元分析纳入 420 篇论文，人机组合通常不及更优一方](https://arxiv.org/abs/2610.42001v1)：AutoAnalysis 这项可自动汇总并持续更新的元分析纳入 420 篇论文和 1955 个效应量，发现人机组合显著优于人类单独工作。但人机组合通常不及人类与 AI 中表现更优的一方，作者据此指出「优于人类」并不等于实现人机协同。（ur-ai-papers（用户与交互 AI 论文库），2026-10-30）
 - [Listen Labs 解读合成用户样本库在产品测试中的适用与失效场景](https://listenlabs.com/articles/synthetic-user-panels-product-testing/)：Listen Labs 在决策指南中按概念测试、UX 流程测试、问卷预测试和定价四类任务，划分了合成用户样本库的适用与失效边界。指南指出合成受访者由大语言模型根据人设描述预测作答，只能产出假设而非决策级证据，可靠用途集中在问卷预测试、早期…（Listen Labs，2026-10-29）
 - [14 个视觉语言模型测试显示文本人物画像难以复现被描述者的作答](https://arxiv.org/abs/2610.39331v1)：一项研究在 14 个视觉语言模型上检验低视力、色盲、听力损失等角色提示能否模拟真实人群，结果显示角色提示从未胜过实测用户和仅采用人格事实的简单规则，反而抹平了群体与个体差异。研究还发现，描述模糊不改变模型识别，实际模糊图像才降低其表现，表…（ur-ai-papers（用户与交互 AI 论文库），2026-10-29）
-- [Listen Labs 撰文介绍合成受访者平台的评估与选择方法](https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/)：Listen Labs 增长负责人 Anish Rao 撰文把合成受访者平台分为从零模拟、真实数据建模和样本扩充三类，并建议采购前做留出真人对比、核查答案可追溯性、检测 persona 漂移等验证。文中引用 Pew Research Ce…（Listen Labs，2026-10-28）
 
-（更多 60 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 61 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

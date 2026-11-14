@@ -3,7 +3,7 @@
   "name": "行业报告",
   "group": "genre",
   "definition": "调研公司报告、行业协会规范与市场结构变化。",
-  "count": 18,
+  "count": 19,
   "items": [
     {
       "id": "a343873a779e028c",
@@ -321,6 +321,33 @@
       "itemType": null,
       "publishedAt": "2026-10-08T09:52:41+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "cd5f8eb4da903514",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/ebook/insights/the-gen-z-health-paradox/",
+      "title": "The Gen Z Health Paradox: Green Juice in One Hand, A Vape in the Other",
+      "titleZh": "Prodege 与 First & First Consulting 报告：Z 世代健康悖论——一手绿色果汁，一手电子烟",
+      "summaryZh": "Prodege 与 First & First Consulting 的定制研究用“一手绿色果汁、一手电子烟”概括 Z 世代健康悖论：他们追踪睡眠、参加跑步俱乐部、购买补充剂和功能性饮品，同时也吸电子烟、长时间看屏幕并追随 looksmaxxing 等趋势。报告进一步拆解健身、补充剂、功能性食品饮料、外观与健康趋势背后的动机、压力、取舍与合理化，并划分不同的 Z 世代群体。相关 eBook 可下载。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "行业报告",
+        "市场研究"
+      ],
+      "entities": [
+        "prodege"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-13T21:23:22+00:00",
+      "discoveredAt": "2026-11-14T00:43:56.816867+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

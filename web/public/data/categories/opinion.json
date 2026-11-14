@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 81,
+  "count": 83,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -394,6 +394,30 @@
       "relation": null
     },
     {
+      "id": "6f448cafbd485871",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+      "titleZh": "研究在环：UXR 如何适应 AI 提速的开发",
+      "summaryZh": "NN/g 发文讨论 AI 智能体写出更多代码后 UXR 如何调整研究方式。文章提出研究可明确每次发布要测量什么，以及能帮助团队发现什么，并以摄影从胶片到数字的转变类比成本降低后学习更多发生在拍摄之后。",
+      "reason": "借摄影从胶片到数字的类比，呈现 UXR 在 AI 提速开发中从前期把关转向发布后持续学习的研究思路。",
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "NN/g"
+      ],
+      "entities": [],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-11-13T18:00:00+00:00",
+      "discoveredAt": "2026-11-14T00:43:56.816867+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "3ee3a9c9fb1d9093",
       "sourceId": "producttalk",
       "sourceName": "Product Talk（Teresa Torres）",
@@ -523,6 +547,29 @@
       "itemType": null,
       "publishedAt": "2026-10-27T06:16:39+00:00",
       "discoveredAt": "2026-10-27T20:28:37.686022+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "cb5129a7fea265a9",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/decision-theatre-or-decision-design-f1604f178685?source=rss----138adf9c44c---4",
+      "title": "Decision theatre or decision design?",
+      "titleZh": "AI 让信息易得，却没让决策变简单：决策剧场还是决策设计？",
+      "summaryZh": "AI 让信息生产更快，却没有让决策更简单：2025 年调查中 40% 美国桌面工作者称上月收到“workslop”，每次处理平均近两小时。文章以 DIKW 金字塔说明更多信息不等于智慧，并引用 Vectara 2026 年幻觉榜的 1.8%–24.2% 摘要无依据陈述率，强调 EU AI Act 第 26(2) 条要求的人类监督与责任归属。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-13T23:51:42+00:00",
+      "discoveredAt": "2026-11-14T00:43:56.816867+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
