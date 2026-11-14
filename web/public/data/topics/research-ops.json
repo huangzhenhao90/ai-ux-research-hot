@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 61,
+  "count": 63,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -138,6 +138,35 @@
       "itemType": "tool_launch",
       "publishedAt": "2026-10-26T12:00:00+00:00",
       "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "6351ee1e8263ba02",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/food-beverage-focus-groups-playbook/",
+      "title": "How To Run Food And Beverage Focus Groups: A Playbook",
+      "titleZh": "如何开展食品饮料焦点小组：一份七步操作手册",
+      "summaryZh": "Listen Labs 发布一份食品饮料焦点小组操作手册，给出七步执行流程，并区分焦点小组、训练有素的感官 panel 与 CLT 各自适用的研究问题。手册要求使用随机三位数盲码、平衡上样顺序、清水或青苹果等清口物，并在讨论开始前完成独立评分，以规避从众压力与残留风味的 carry-over 效应。文中称传统 F&B 焦点小组研究成本在 $50,000 以上、从启动到交付需数周，并介绍 Listen Labs 的 AI 主持 1:1 访谈覆盖 45+ 国家、24 小时内完成、成本约为传统研究的三分之一。",
+      "reason": "文章区分焦点小组、感官 panel 与 CLT 各自适用的问题，并列出七步执行流程，便于对照现有研究设计。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "招募/样本",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-11-14T05:17:57+00:00",
+      "discoveredAt": "2026-11-14T11:15:08.397838+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -1475,6 +1504,39 @@
       "itemType": null,
       "publishedAt": "2026-08-27T13:47:47+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4e04fd36f8f28cf3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-self-serve-research-tools/",
+      "title": "Best Self-Serve User Research Tools Compared",
+      "titleZh": "Listen Labs 对比：最佳自助式用户研究工具",
+      "summaryZh": "Listen Labs 对比自助式用户研究工具，称其平台唯一独立覆盖设计、招募、主持、分析、报告五阶段，并在 24 小时内交付结果。其 Listen Atlas 样本库覆盖 50M+ 验证受访者、45+ 国家和 120+ 语言，UserTesting 则有 7M+ 参与者、34 个国家。文中还称 21% 的团队已用 AI 主持访谈提升速度与样本量。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "可用性测试",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "user-interviews",
+        "surveymonkey",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-14T05:06:31+00:00",
+      "discoveredAt": "2026-11-14T11:15:08.397838+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

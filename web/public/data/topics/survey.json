@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 82,
+  "count": 84,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -913,6 +913,35 @@
       "relation": "different"
     },
     {
+      "id": "7559b1c560b67a59",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-report/",
+      "title": "Kantar Brand Tracking Report: What It Covers, Costs & Gaps",
+      "titleZh": "Listen Labs 解读 Kantar 品牌追踪报告涵盖的指标、费用与局限",
+      "summaryZh": "Listen Labs 梳理了 Kantar 品牌追踪报告包含的指标、交付方式、费用驱动因素和读报告顺序。报告涵盖无提示与提示知名度、考虑度、品牌漏斗、MDS 与 Power 指标、广告回忆和 NPS，通过 BrandDynamics、BrandZ 与 Kantar Marketplace 交付，其中 BrandZ 基于 54 个市场逾 460 万次消费者访谈。文章称 Kantar 不公开定制项目价目，第三方估算全案年费约 $100,000 至 $500,000+，并指出该报告能显示哪个数字发生变化，但不解释变化原因。",
+      "reason": "文章拆解了 Kantar 品牌追踪报告的指标构成和预算驱动项，可用来判断自建品牌追踪时的样本与波次取舍。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "问卷/定量",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-14T05:18:08+00:00",
+      "discoveredAt": "2026-11-14T11:15:08.397838+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "50253980458a8a3a",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1338,6 +1367,33 @@
       "itemType": null,
       "publishedAt": "2026-11-02T05:05:46+00:00",
       "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f2532b20b4e33d4f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/retail-market-research-case-studies/",
+      "title": "Retail Consumer Research Case Studies & Examples",
+      "titleZh": "Listen Labs：零售消费者研究案例与示例",
+      "summaryZh": "Listen Labs 汇总 Zevia、Weetabix 等品牌的零售消费者研究案例。案例按挑战、方法、结果、可复制点和局限五部分展开，覆盖 TURF、Gabor-Granger 等。Zevia Cherry Lime 在 Walmart.com 四周内售罄；Listen Labs 称 4–6 周流程可压缩至 24 小时内。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-14T05:06:35+00:00",
+      "discoveredAt": "2026-11-14T11:15:08.397838+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

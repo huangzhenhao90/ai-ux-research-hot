@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T19:59:22+08:00",
+ "updatedAt": "2026-11-14T19:19:05+08:00",
  "window": {
   "admitDays": 30,
   "keepDays": 90
@@ -10,7 +10,7 @@
    "name": "腾讯",
    "careers": "https://careers.tencent.com/",
    "ok": true,
-   "lastOkAt": "2026-11-13T19:59:22+08:00",
+   "lastOkAt": "2026-11-14T19:19:05+08:00",
    "jobCount": 3
   },
   {
@@ -18,7 +18,7 @@
    "name": "字节跳动",
    "careers": "https://jobs.bytedance.com/experienced/position",
    "ok": true,
-   "lastOkAt": "2026-11-13T19:59:22+08:00",
+   "lastOkAt": "2026-11-14T19:19:05+08:00",
    "jobCount": 1
   },
   {
@@ -26,7 +26,7 @@
    "name": "阿里巴巴",
    "careers": "https://talent.alibaba.com/off-campus/position-list",
    "ok": true,
-   "lastOkAt": "2026-11-13T19:59:22+08:00",
+   "lastOkAt": "2026-11-14T19:19:05+08:00",
    "jobCount": 5
   },
   {
@@ -34,7 +34,7 @@
    "name": "百度",
    "careers": "https://talent.baidu.com/jobs/social-list",
    "ok": true,
-   "lastOkAt": "2026-11-13T19:59:22+08:00",
+   "lastOkAt": "2026-11-14T19:19:05+08:00",
    "jobCount": 0
   },
   {
@@ -42,7 +42,7 @@
    "name": "美团",
    "careers": "https://zhaopin.meituan.com/web/social",
    "ok": true,
-   "lastOkAt": "2026-11-13T19:59:22+08:00",
+   "lastOkAt": "2026-11-14T19:19:05+08:00",
    "jobCount": 2
   },
   {
@@ -50,7 +50,7 @@
    "name": "网易",
    "careers": "https://hr.163.com/job-list.html",
    "ok": true,
-   "lastOkAt": "2026-11-13T19:59:22+08:00",
+   "lastOkAt": "2026-11-14T19:19:05+08:00",
    "jobCount": 18
   },
   {
@@ -58,7 +58,7 @@
    "name": "小米",
    "careers": "https://xiaomi.jobs.f.mioffice.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-11-13T19:59:22+08:00",
+   "lastOkAt": "2026-11-14T19:19:05+08:00",
    "jobCount": 1
   },
   {
@@ -66,7 +66,7 @@
    "name": "蔚来",
    "careers": "https://nio.jobs.feishu.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-11-13T19:59:22+08:00",
+   "lastOkAt": "2026-11-14T19:19:05+08:00",
    "jobCount": 0
   },
   {
@@ -74,7 +74,7 @@
    "name": "理想汽车",
    "careers": "https://li.jobs.feishu.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-11-13T19:59:22+08:00",
+   "lastOkAt": "2026-11-14T19:19:05+08:00",
    "jobCount": 0
   },
   {
@@ -82,7 +82,7 @@
    "name": "小鹏汽车",
    "careers": "https://xiaopeng.jobs.feishu.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-11-13T19:59:22+08:00",
+   "lastOkAt": "2026-11-14T19:19:05+08:00",
    "jobCount": 0
   },
   {
@@ -90,7 +90,7 @@
    "name": "得物",
    "careers": "https://poizon.jobs.feishu.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-11-13T19:59:22+08:00",
+   "lastOkAt": "2026-11-14T19:19:05+08:00",
    "jobCount": 0
   }
  ],
@@ -175,7 +175,7 @@
     "official"
    ],
    "dateKind": "update",
-   "postedAt": "2026-11-13",
+   "postedAt": "2026-11-14",
    "since": "2026-10-28",
    "firstSeen": "2026-10-28",
    "duty": "1）参与骑手生态体验维度的定义与拆解，能将感知转化为可度量的框架输入，产出不止于描述性结论，需落到触发条件、比较基准、颗粒度等结构化信息。\n\n2）开展骑手体验专项研究，通过深度访谈、实地观察、进线对话语义分析等方式获取骑手真实感知，校准体系中的分类框架与判断结构。\n\n3）参与定量侧的指标设计工作，包括体验水位度量、子层基线制定与波动归因，将定性发现落到可测量的指标中。\n\n4）将AI工具融入用研各环节，提升产出质量与效率，如基于大模型的进线对话批量归类与洞察提炼、调研编码自动化、报告生成等。",

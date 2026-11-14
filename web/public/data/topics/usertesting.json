@@ -3,7 +3,7 @@
   "name": "UserTesting",
   "group": "company",
   "definition": "UserTesting（含 UserZoom）的可用性测试与 AI 分析能力更新。",
-  "count": 14,
+  "count": 15,
   "items": [
     {
       "id": "50253980458a8a3a",
@@ -324,6 +324,39 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:01:31+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4e04fd36f8f28cf3",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-self-serve-research-tools/",
+      "title": "Best Self-Serve User Research Tools Compared",
+      "titleZh": "Listen Labs 对比：最佳自助式用户研究工具",
+      "summaryZh": "Listen Labs 对比自助式用户研究工具，称其平台唯一独立覆盖设计、招募、主持、分析、报告五阶段，并在 24 小时内交付结果。其 Listen Atlas 样本库覆盖 50M+ 验证受访者、45+ 国家和 120+ 语言，UserTesting 则有 7M+ 参与者、34 个国家。文中还称 21% 的团队已用 AI 主持访谈提升速度与样本量。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "可用性测试",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "user-interviews",
+        "surveymonkey",
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-14T05:06:31+00:00",
+      "discoveredAt": "2026-11-14T11:15:08.397838+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

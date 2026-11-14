@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:43:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:15:08 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>如何开展食品饮料焦点小组：一份七步操作手册</title>
+      <link>https://listenlabs.com/articles/food-beverage-focus-groups-playbook/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/food-beverage-focus-groups-playbook/</guid>
+      <pubDate>Sat, 14 Nov 2026 05:17:57 GMT</pubDate>
+      <description>Listen Labs 发布一份食品饮料焦点小组操作手册，给出七步执行流程，并区分焦点小组、训练有素的感官 panel 与 CLT 各自适用的研究问题。手册要求使用随机三位数盲码、平衡上样顺序、清水或青苹果等清口物，并在讨论开始前完成独立评分，以规避从众压力与残留风味的 carry-over 效应。文中称传统 F&amp;B 焦点小组研究成本在 $50,000 以上、从启动到交付需数周，并介绍 Listen Labs 的 AI 主持 1:1 访谈覆盖 45+ 国家、24 小时内完成、成本约为传统研究的三分之一。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>研究在环：UXR 如何适应 AI 提速的开发</title>
       <link>https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
@@ -447,15 +456,6 @@
       <pubDate>Fri, 23 Oct 2026 04:00:00 GMT</pubDate>
       <description>arXiv 论文（arXiv:2610.30568）用同一实验设置对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上没有显著优势。反复迭代修订可稳定提升想法质量；AI 评审的分数接近人类，但在想法排序上与人类不一致，其中一个 AI 评审更偏好 AI 辅助方案，而人类评审并无对应的偏好。研究还发现协作来源只能被部分识别，人机与人人产出的科学成果存在大量重叠，并且亲身参与 AI 协作的人认为其更有用，但效率提升小于预期。</description>
       <category>arXiv cs.HC</category>
-      <category>research</category>
-    </item>
-    <item>
-      <title>MeasuringU 与 UXPA 公布 2024 年 UX 薪资调查结果并更新薪资计算器</title>
-      <link>https://measuringu.com/user-experience-salaries-calculator-2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=user-experience-salaries-calculator-2026</link>
-      <guid isPermaLink="true">https://measuringu.com/user-experience-salaries-calculator-2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=user-experience-salaries-calculator-2026</guid>
-      <pubDate>Thu, 22 Oct 2026 18:42:59 GMT</pubDate>
-      <description>MeasuringU 与 UXPA 汇总 2024 年 4 月至 10 月收集的 444 份、来自 37 个国家的问卷，UX 从业者薪资中位数为 12 万美元，名义上比 2022 年的 10.9 万美元高 10%。按同期 12% 的通胀折算为不变美元后，2024 年实际中位薪资比 2022 年低 2%。薪资驱动因素的回归模型解释 72% 的差异，其中所在国家或美国地区占 50%，职位层级占 11%，美国中位薪资为 14.2 万美元；薪资计算器此次合并了 User Interviews 2024 年的数据，样本量扩大到 1,063 份。</description>
-      <category>MeasuringU（Jeff Sauro）</category>
       <category>research</category>
     </item>
   </channel>

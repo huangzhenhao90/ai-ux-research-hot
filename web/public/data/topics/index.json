@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T00:43:56.816867+00:00",
+  "generatedAt": "2026-11-14T11:15:08.397838+00:00",
   "groups": [
     {
       "key": "company",
@@ -37,14 +37,14 @@
       "name": "UserTesting",
       "group": "company",
       "definition": "UserTesting（含 UserZoom）的可用性测试与 AI 分析能力更新。",
-      "count": 14
+      "count": 15
     },
     {
       "slug": "maze",
       "name": "Maze",
       "group": "company",
       "definition": "Maze 的快速研究平台、AI 功能与研究方法内容。",
-      "count": 13
+      "count": 14
     },
     {
       "slug": "nngroup",
@@ -65,7 +65,7 @@
       "name": "SurveyMonkey",
       "group": "company",
       "definition": "SurveyMonkey 的问卷产品 AI 能力与自助研究工具更新。",
-      "count": 11
+      "count": 12
     },
     {
       "slug": "medallia",
@@ -79,7 +79,7 @@
       "name": "Listen Labs",
       "group": "company",
       "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-      "count": 124
+      "count": 129
     },
     {
       "slug": "dscout",
@@ -93,7 +93,7 @@
       "name": "AI 访谈",
       "group": "field",
       "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-      "count": 88
+      "count": 91
     },
     {
       "slug": "synthetic-users",
@@ -107,14 +107,14 @@
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 82
+      "count": 84
     },
     {
       "slug": "qual-analysis",
       "name": "定性分析",
       "group": "field",
       "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-      "count": 87
+      "count": 89
     },
     {
       "slug": "voc",
@@ -128,14 +128,14 @@
       "name": "可用性测试",
       "group": "field",
       "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-      "count": 16
+      "count": 17
     },
     {
       "slug": "research-ops",
       "name": "洞察库与 ResearchOps",
       "group": "field",
       "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-      "count": 61
+      "count": 63
     },
     {
       "slug": "ethics",
@@ -163,7 +163,7 @@
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 139
+      "count": 144
     },
     {
       "slug": "prompts",
