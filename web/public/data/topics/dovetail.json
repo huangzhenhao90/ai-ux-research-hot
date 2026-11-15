@@ -3,7 +3,7 @@
   "name": "Dovetail",
   "group": "company",
   "definition": "Dovetail 的洞察库与研究分析产品更新，以及其对研究流程自动化的做法。",
-  "count": 30,
+  "count": 32,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -451,6 +451,34 @@
       "relation": null
     },
     {
+      "id": "a7889ae6819a9577",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-customer-insights-platform-transcription/",
+      "title": "Customer Insights Platforms With Transcription: Top Picks",
+      "titleZh": "带转录的客户洞察平台精选：Listen Labs 居首",
+      "summaryZh": "Listen Labs 在带转录的客户洞察平台盘点中居首，其 AI 主持访谈可原生转录 120+ 语言，并从 50M+ 验证受访者网络招募。DAI-ASR-I18N benchmark 显示英语词错率 4.20%，泰米尔语 25.62%，泰卢固语 28.83%；榜单另列 Dovetail、unitQ 等工具。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "转写/编码",
+        "Dovetail"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-15T05:02:43+00:00",
+      "discoveredAt": "2026-11-15T15:25:39.347496+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "002442d71426528e",
       "sourceId": "dovetail-blog",
       "sourceName": "Dovetail Blog",
@@ -592,6 +620,37 @@
       "itemType": null,
       "publishedAt": "2026-11-01T05:04:33+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f723b756206abefb",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-qualitative-research-tools-comparison/",
+      "title": "Best AI Qualitative Research Tools In 2026",
+      "titleZh": "2026 年最佳 AI 定性研究工具：Listen Labs 居端到端平台首位",
+      "summaryZh": "Listen Labs 在 2026 年最佳 AI 定性研究工具盘点中位列端到端平台首位，称其把 4–6 周研究周期压缩到 24 小时内。该平台整合 50M+ 验证受访者网络、120+ 语言 AI 主持访谈和自动化分析交付，已运行超 100 万次 AI 访谈。ATLAS.ti 等 CAQDAS 属分析型工具，Dovetail 等属研究仓库，ATLAS.ti 商业席位 $628/年。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "合成用户",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail",
+        "maxqda"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-15T05:03:51+00:00",
+      "discoveredAt": "2026-11-15T15:25:39.347496+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

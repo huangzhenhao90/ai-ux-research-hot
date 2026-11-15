@@ -1,0 +1,32 @@
+{
+  "id": "f723b756206abefb",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-qualitative-research-tools-comparison/",
+  "title": "Best AI Qualitative Research Tools In 2026",
+  "titleZh": "2026 年最佳 AI 定性研究工具：Listen Labs 居端到端平台首位",
+  "summaryZh": "Listen Labs 在 2026 年最佳 AI 定性研究工具盘点中位列端到端平台首位，称其把 4–6 周研究周期压缩到 24 小时内。该平台整合 50M+ 验证受访者网络、120+ 语言 AI 主持访谈和自动化分析交付，已运行超 100 万次 AI 访谈。ATLAS.ti 等 CAQDAS 属分析型工具，Dovetail 等属研究仓库，ATLAS.ti 商业席位 $628/年。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "AI 访谈",
+    "合成用户",
+    "定性分析",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "listen-labs",
+    "dovetail",
+    "maxqda"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-15T05:03:51+00:00",
+  "discoveredAt": "2026-11-15T15:25:39.347496+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

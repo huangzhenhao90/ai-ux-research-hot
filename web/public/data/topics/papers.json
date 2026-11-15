@@ -3,7 +3,7 @@
   "name": "论文",
   "group": "genre",
   "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-  "count": 78,
+  "count": 79,
   "items": [
     {
       "id": "342f2af81bbbe547",
@@ -1178,6 +1178,31 @@
       "itemType": null,
       "publishedAt": "2025-11-26T05:49:55+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6bd3ef4be4d07313",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.16028v1",
+      "title": "利用多元主体扩大AI政策公众参与规模",
+      "titleZh": "利用多元 AI 智能体扩大 AI 政策公众参与规模",
+      "summaryZh": "一项 746 人预注册实验让代表不同利益者的 AI 智能体参与政策讨论，以扩大公众意见代表性，发现智能体能按角色偏好影响政策，但作用受提示措辞和系统设计影响。参与者认为其有用、公平，却更愿亲自参与。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-10T16:00:00+00:00",
+      "discoveredAt": "2026-11-15T15:25:39.347496+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

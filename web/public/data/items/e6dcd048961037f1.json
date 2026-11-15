@@ -1,0 +1,28 @@
+{
+  "id": "e6dcd048961037f1",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-voice-of-customer-practices/",
+  "title": "Voice of Customer Best Practices: A Practitioner’s Model",
+  "titleZh": "VoC 最佳实践：Listen Labs 的五步运营模型",
+  "summaryZh": "Listen Labs 的 Anish Rao 撰文提出 VoC 五步运营模型，以具名负责人和决策日志完成闭环。其平台用 AI 主持访谈兼顾深度与规模，从 50M+ 验证受访者网络招募，覆盖 45+ 国家、120+ 语言，24 小时内完成分析与交付。Anthropic 研究团队称原需跑 5–6 项研究的时间现可跑 100 项。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "文本分析/VOC",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-15T05:03:57+00:00",
+  "discoveredAt": "2026-11-15T15:25:39.347496+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,5 +1,5 @@
 {
-  "count": 380,
+  "count": 386,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -2744,6 +2744,26 @@
       "publishedAt": "2026-09-18T17:00:00+00:00"
     },
     {
+      "id": "4bed1e75c02ae436",
+      "title": "Startup Customer Research Pricing And Free Trials",
+      "titleZh": "创业公司客户研究定价与免费试用：SurveyMonkey、Listen Labs 等方案对比",
+      "summaryZh": "Listen Labs 梳理创业公司客户研究的免费与付费，称 AI 主持访谈成本为机构的 1/3、24 小时内交付结果。免费有联邦数据、评论挖掘和 10–15 次 DIY 访谈，问卷工具免费限 40–100 份回复、付费档 $7–$39/月；Listen Labs 覆盖 50M+ 受访者、45+ 国家、120+ 语言。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "surveymonkey"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/startup-research-pricing-free-trials/",
+      "publishedAt": "2026-11-15T05:04:02+00:00"
+    },
+    {
       "id": "363e277fa93d5ec5",
       "title": "ReviewMap: Mapping Evaluative Acts and Automation Boundaries in Peer-Review Comments",
       "titleZh": "ReviewMap：区分同行评审评论中的评价行为与自动化边界",
@@ -2938,6 +2958,22 @@
       "publishedAt": "2025-11-26T05:49:55+00:00"
     },
     {
+      "id": "6bd3ef4be4d07313",
+      "title": "利用多元主体扩大AI政策公众参与规模",
+      "titleZh": "利用多元 AI 智能体扩大 AI 政策公众参与规模",
+      "summaryZh": "一项 746 人预注册实验让代表不同利益者的 AI 智能体参与政策讨论，以扩大公众意见代表性，发现智能体能按角色偏好影响政策，但作用受提示措辞和系统设计影响。参与者认为其有用、公平，却更愿亲自参与。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "Agent"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.16028v1",
+      "publishedAt": "2026-11-10T16:00:00+00:00"
+    },
+    {
       "id": "b3dd26c8f303e771",
       "title": "Intentmaking and Sensemaking: Human Interaction with AI-Guided Mathematical Discovery",
       "titleZh": "AlphaEvolve 研究：人类与 AI 引导数学发现中的意图构建和意义建构",
@@ -3020,6 +3056,24 @@
       "sourceName": "SurveyCTO",
       "url": "https://www.surveycto.com/press-releases/hipaa-compliance/",
       "publishedAt": "2026-03-03T20:43:47+00:00"
+    },
+    {
+      "id": "e6dcd048961037f1",
+      "title": "Voice of Customer Best Practices: A Practitioner’s Model",
+      "titleZh": "VoC 最佳实践：Listen Labs 的五步运营模型",
+      "summaryZh": "Listen Labs 的 Anish Rao 撰文提出 VoC 五步运营模型，以具名负责人和决策日志完成闭环。其平台用 AI 主持访谈兼顾深度与规模，从 50M+ 验证受访者网络招募，覆盖 45+ 国家、120+ 语言，24 小时内完成分析与交付。Anthropic 研究团队称原需跑 5–6 项研究的时间现可跑 100 项。",
+      "tags": [
+        "方法/实践",
+        "文本分析/VOC",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-voice-of-customer-practices/",
+      "publishedAt": "2026-11-15T05:03:57+00:00"
     },
     {
       "id": "9d138256869b06d0",
@@ -3464,6 +3518,25 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/new-dovetail-experience/",
       "publishedAt": "2026-03-31T01:00:00+00:00"
+    },
+    {
+      "id": "a7889ae6819a9577",
+      "title": "Customer Insights Platforms With Transcription: Top Picks",
+      "titleZh": "带转录的客户洞察平台精选：Listen Labs 居首",
+      "summaryZh": "Listen Labs 在带转录的客户洞察平台盘点中居首，其 AI 主持访谈可原生转录 120+ 语言，并从 50M+ 验证受访者网络招募。DAI-ASR-I18N benchmark 显示英语词错率 4.20%，泰米尔语 25.62%，泰卢固语 28.83%；榜单另列 Dovetail、unitQ 等工具。",
+      "tags": [
+        "其他",
+        "转写/编码",
+        "Dovetail"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail"
+      ],
+      "category": "tools",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-customer-insights-platform-transcription/",
+      "publishedAt": "2026-11-15T05:02:43+00:00"
     },
     {
       "id": "ef0f2f9c6ade5305",
@@ -4974,6 +5047,28 @@
       "publishedAt": "2026-03-31T00:00:00+00:00"
     },
     {
+      "id": "f723b756206abefb",
+      "title": "Best AI Qualitative Research Tools In 2026",
+      "titleZh": "2026 年最佳 AI 定性研究工具：Listen Labs 居端到端平台首位",
+      "summaryZh": "Listen Labs 在 2026 年最佳 AI 定性研究工具盘点中位列端到端平台首位，称其把 4–6 周研究周期压缩到 24 小时内。该平台整合 50M+ 验证受访者网络、120+ 语言 AI 主持访谈和自动化分析交付，已运行超 100 万次 AI 访谈。ATLAS.ti 等 CAQDAS 属分析型工具，Dovetail 等属研究仓库，ATLAS.ti 商业席位 $628/年。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "合成用户",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail",
+        "maxqda"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-qualitative-research-tools-comparison/",
+      "publishedAt": "2026-11-15T05:03:51+00:00"
+    },
+    {
       "id": "4515863abb08c1ea",
       "title": "The Best Customer Research Tools in 2026: Expert Picks",
       "titleZh": "2026 年最佳客户研究工具：Listen Labs 专家推荐",
@@ -5181,6 +5276,28 @@
       "sourceName": "Journal of Mixed Methods Research",
       "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898251396763?ai=2b4&mi=ehikzz&af=R",
       "publishedAt": "2025-11-06T10:39:34+00:00"
+    },
+    {
+      "id": "8df713c134a68f94",
+      "title": "Best AI Customer Interview Tools For CPG: 2026 List",
+      "titleZh": "CPG 最佳 AI 客户访谈工具：2026 年清单",
+      "summaryZh": "Listen Labs 发布 CPG 最佳 AI 客户访谈工具清单，把自家平台列为首选。其称覆盖 45+ 国家、50M+ 验证受访者，24 小时内出结果、成本为传统研究的三分之一，P&G 已用其完成 250+ 场访谈。文章强调宣称与包装测试等高风险决策仍需真实消费者，合成受访者只适合早期构思。",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "合成用户"
+      ],
+      "entities": [
+        "listen-labs",
+        "conveo",
+        "outset",
+        "dscout",
+        "user-interviews"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-interview-tools-cpg/",
+      "publishedAt": "2026-11-15T05:02:49+00:00"
     },
     {
       "id": "36669c41600dddee",

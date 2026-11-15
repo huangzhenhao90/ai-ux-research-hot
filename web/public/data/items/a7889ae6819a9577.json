@@ -1,0 +1,29 @@
+{
+  "id": "a7889ae6819a9577",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-customer-insights-platform-transcription/",
+  "title": "Customer Insights Platforms With Transcription: Top Picks",
+  "titleZh": "带转录的客户洞察平台精选：Listen Labs 居首",
+  "summaryZh": "Listen Labs 在带转录的客户洞察平台盘点中居首，其 AI 主持访谈可原生转录 120+ 语言，并从 50M+ 验证受访者网络招募。DAI-ASR-I18N benchmark 显示英语词错率 4.20%，泰米尔语 25.62%，泰卢固语 28.83%；榜单另列 Dovetail、unitQ 等工具。",
+  "reason": null,
+  "category": "tools",
+  "tags": [
+    "其他",
+    "转写/编码",
+    "Dovetail"
+  ],
+  "entities": [
+    "listen-labs",
+    "dovetail"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-15T05:02:43+00:00",
+  "discoveredAt": "2026-11-15T15:25:39.347496+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

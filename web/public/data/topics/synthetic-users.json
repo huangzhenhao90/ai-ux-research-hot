@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 80,
+  "count": 83,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -1411,6 +1411,31 @@
       "relation": null
     },
     {
+      "id": "6bd3ef4be4d07313",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.16028v1",
+      "title": "利用多元主体扩大AI政策公众参与规模",
+      "titleZh": "利用多元 AI 智能体扩大 AI 政策公众参与规模",
+      "summaryZh": "一项 746 人预注册实验让代表不同利益者的 AI 智能体参与政策讨论，以扩大公众意见代表性，发现智能体能按角色偏好影响政策，但作用受提示措辞和系统设计影响。参与者认为其有用、公平，却更愿亲自参与。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-10T16:00:00+00:00",
+      "discoveredAt": "2026-11-15T15:25:39.347496+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "4d7c2b7e72ec3ae5",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2053,6 +2078,37 @@
       "relation": null
     },
     {
+      "id": "f723b756206abefb",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-qualitative-research-tools-comparison/",
+      "title": "Best AI Qualitative Research Tools In 2026",
+      "titleZh": "2026 年最佳 AI 定性研究工具：Listen Labs 居端到端平台首位",
+      "summaryZh": "Listen Labs 在 2026 年最佳 AI 定性研究工具盘点中位列端到端平台首位，称其把 4–6 周研究周期压缩到 24 小时内。该平台整合 50M+ 验证受访者网络、120+ 语言 AI 主持访谈和自动化分析交付，已运行超 100 万次 AI 访谈。ATLAS.ti 等 CAQDAS 属分析型工具，Dovetail 等属研究仓库，ATLAS.ti 商业席位 $628/年。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "合成用户",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail",
+        "maxqda"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-15T05:03:51+00:00",
+      "discoveredAt": "2026-11-15T15:25:39.347496+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "70097db50ef4dc5d",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2079,6 +2135,37 @@
       "itemType": null,
       "publishedAt": "2026-10-25T05:04:40+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8df713c134a68f94",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-interview-tools-cpg/",
+      "title": "Best AI Customer Interview Tools For CPG: 2026 List",
+      "titleZh": "CPG 最佳 AI 客户访谈工具：2026 年清单",
+      "summaryZh": "Listen Labs 发布 CPG 最佳 AI 客户访谈工具清单，把自家平台列为首选。其称覆盖 45+ 国家、50M+ 验证受访者，24 小时内出结果、成本为传统研究的三分之一，P&G 已用其完成 250+ 场访谈。文章强调宣称与包装测试等高风险决策仍需真实消费者，合成受访者只适合早期构思。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "合成用户"
+      ],
+      "entities": [
+        "listen-labs",
+        "conveo",
+        "outset",
+        "dscout",
+        "user-interviews"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-15T05:02:49+00:00",
+      "discoveredAt": "2026-11-15T15:25:39.347496+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
