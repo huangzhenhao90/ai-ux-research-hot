@@ -3,7 +3,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -57,16 +57,16 @@
     "etag": "\"eee822f1d11e815f8946b475c37fbb34-gzip\"",
     "lastModified": "Thu, 12 Nov 2026 13:57:46 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "quirkos": {
-    "etag": "W/\"50923-5LTx11XwdhLinxzueM0A4y1LHE8\"",
+    "etag": "W/\"50923-aCgZIQO/YMjymqDL6grYL1y9BeM\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -81,10 +81,10 @@
     "extra": {}
   },
   "surveycto": {
-    "etag": "\"d8ff530088c4fdfebc8fce6924e96a4c\"",
-    "lastModified": "Sun, 15 Nov 2026 20:51:42 GMT",
+    "etag": "\"1f81acc86fd7794e598e839a3a5b70c3\"",
+    "lastModified": "Mon, 16 Nov 2026 05:12:41 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -93,7 +93,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -102,7 +102,7 @@
     "etag": "W/\"7b33ebacf822a35a96fd47c5b3b62afb\"",
     "lastModified": "Tue, 10 Nov 2026 20:53:40 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -111,7 +111,7 @@
     "etag": "\"893c8e763e362f7f10e6c300296dfb86-gzip\"",
     "lastModified": "Thu, 12 Nov 2026 14:56:28 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -174,16 +174,16 @@
     "etag": "\"63a683b88b1f3258d2b7892b1a4cec00-gzip\"",
     "lastModified": "Wed, 11 Nov 2026 10:51:31 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "arxiv-cs-hc": {
-    "etag": "35d1a77ebe6e435184b070d3d39b107be5c30e636599bb267a6a204ac446bfcc",
+    "etag": "ddf8fef72131c50f2885013b6fec3d617f7956bc51fa5e78abf44540c05cdeb9",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T05:15:26.827441+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -192,7 +192,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -208,9 +208,9 @@
   },
   "hci-journal": {
     "etag": null,
-    "lastModified": "Fri, 30 Oct 2026 09:30:36 GMT",
+    "lastModified": "Sun, 15 Nov 2026 17:30:49 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-10-30T14:53:27.331676+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -237,16 +237,16 @@
     "etag": "W/\"cc25f5713295c74dd958ad295fcb8cef\"",
     "lastModified": "Wed, 11 Nov 2026 17:35:29 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "producttalk": {
-    "etag": "W/\"29317-r3bjCdTCuKUM67zFGm6rVW19hXc\"",
+    "etag": "W/\"29325-xVj6XPww/3I1NcTlZ7BN3BNE1f4\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -255,7 +255,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -270,10 +270,10 @@
     "extra": {}
   },
   "jakobnielsenphd": {
-    "etag": "W/\"583b3c-NBHk/0Fn81mzEUNRgvqSZ5wxXC0\"",
+    "etag": "W/\"583b3c-TqhzqVet9HHl3lOXEeMjrwvdE4E\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -300,7 +300,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -310,15 +310,15 @@
     "lastModified": "Fri, 18 Sep 2026 14:58:09 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
     "lastFetchAt": "2026-10-23T00:55:48.549189+00:00",
-    "consecutiveFailures": 48,
+    "consecutiveFailures": 49,
     "lastError": "HTTP 502",
     "extra": {}
   },
   "usertesting-blog": {
-    "etag": "\"1794684623-gzip\"",
-    "lastModified": "Sat, 14 Nov 2026 19:30:23 GMT",
+    "etag": "\"1794787576-gzip\"",
+    "lastModified": "Mon, 16 Nov 2026 00:06:16 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-14T23:41:30.216394+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -327,25 +327,25 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "optimalworkshop-blog": {
     "etag": null,
-    "lastModified": "Fri, 13 Nov 2026 09:16:50 GMT",
+    "lastModified": "Sun, 15 Nov 2026 21:45:11 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-13T11:55:09.288756+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "greatquestion-blog": {
-    "etag": "W/\"91667391adf646b9a43352e5daec3fe2\"",
+    "etag": "W/\"d41b21a9f5dc7dff4cb2a81dceb40c97\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-13T19:19:13.612407+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -390,7 +390,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-15T20:51:35.860027+00:00",
+    "lastFetchAt": "2026-11-16T05:12:34.791030+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
