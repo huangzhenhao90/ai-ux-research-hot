@@ -1,66 +1,6 @@
 {
-  "generatedAt": "2026-11-16T05:12:34.791030+00:00",
+  "generatedAt": "2026-11-16T18:00:18.388128+00:00",
   "windowDays": 3,
   "editionHour": 0,
-  "days": [
-    {
-      "date": "2026-11-14",
-      "count": 2,
-      "items": [
-        {
-          "id": "6351ee1e8263ba02",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/food-beverage-focus-groups-playbook/",
-          "title": "How To Run Food And Beverage Focus Groups: A Playbook",
-          "titleZh": "如何开展食品饮料焦点小组：一份七步操作手册",
-          "summaryZh": "Listen Labs 发布一份食品饮料焦点小组操作手册，给出七步执行流程，并区分焦点小组、训练有素的感官 panel 与 CLT 各自适用的研究问题。手册要求使用随机三位数盲码、平衡上样顺序、清水或青苹果等清口物，并在讨论开始前完成独立评分，以规避从众压力与残留风味的 carry-over 效应。文中称传统 F&B 焦点小组研究成本在 $50,000 以上、从启动到交付需数周，并介绍 Listen Labs 的 AI 主持 1:1 访谈覆盖 45+ 国家、24 小时内完成、成本约为传统研究的三分之一。",
-          "reason": "文章区分焦点小组、感官 panel 与 CLT 各自适用的问题，并列出七步执行流程，便于对照现有研究设计。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "定性分析",
-            "招募/样本",
-            "AI 访谈",
-            "市场研究"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "method_or_template",
-          "publishedAt": "2026-11-14T05:17:57+00:00",
-          "discoveredAt": "2026-11-14T11:15:08.397838+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "6f448cafbd485871",
-          "sourceId": "nngroup",
-          "sourceName": "Nielsen Norman Group",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
-          "titleZh": "研究在环：UXR 如何适应 AI 提速的开发",
-          "summaryZh": "NN/g 发文讨论 AI 智能体写出更多代码后 UXR 如何调整研究方式。文章提出研究可明确每次发布要测量什么，以及能帮助团队发现什么，并以摄影从胶片到数字的转变类比成本降低后学习更多发生在拍摄之后。",
-          "reason": "借摄影从胶片到数字的类比，呈现 UXR 在 AI 提速开发中从前期把关转向发布后持续学习的研究思路。",
-          "category": "opinion",
-          "tags": [
-            "观点/讨论",
-            "NN/g"
-          ],
-          "entities": [],
-          "itemType": "opinion_analysis",
-          "publishedAt": "2026-11-13T18:00:00+00:00",
-          "discoveredAt": "2026-11-14T00:43:56.816867+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        }
-      ]
-    }
-  ]
+  "days": []
 }

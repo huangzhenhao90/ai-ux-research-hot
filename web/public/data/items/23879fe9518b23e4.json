@@ -1,0 +1,29 @@
+{
+  "id": "23879fe9518b23e4",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/banking-market-research-turnaround-time/",
+  "title": "Banking Customer Research Turnaround Time: How To Beat It",
+  "titleZh": "银行客户研究周转时间：如何缩短",
+  "summaryZh": "Listen Labs 称其 AI 主持访谈平台能把银行客户研究的完整周期从 4–6 周压缩到 24 小时内。标准银行研究通常需 4–8 周，复杂多市场或合规项目需 10–16 周，延迟主要来自合规法务审核、银行高管与高净值受访者招募、多市场法规和董事会级报告。其平台还覆盖 50M+ 验证受访者、45+ 国家，并自动交付顾问级报告。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "市场研究",
+    "招募/样本"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-16T05:04:32+00:00",
+  "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

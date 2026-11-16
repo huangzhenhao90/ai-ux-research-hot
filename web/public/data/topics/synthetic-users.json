@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 83,
+  "count": 84,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -1741,6 +1741,33 @@
       "itemType": null,
       "publishedAt": "2026-11-10T05:01:47+00:00",
       "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "626dbdf74182d630",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/qualitative-research-automation-cpg/",
+      "title": "Qualitative Research Automation for CPG: The Complete Guide",
+      "titleZh": "Listen Labs：CPG 定性研究自动化完全指南",
+      "summaryZh": "Listen Labs 的 CPG 定性研究自动化指南覆盖 AI 主持访谈与分析交付。其 AI 主持访谈通过自适应追问带来约 3 倍更长回答，Research Agent 在 5,196 条回答数据集上把分析时间从 255 小时降至 88 小时。平台称 24 小时内交付报告，样本库 30M+，成本约为传统研究三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-16T05:04:26+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -1,0 +1,24 @@
+{
+  "id": "d1354f5802c5db75",
+  "sourceId": "producttalk",
+  "sourceName": "Product Talk（Teresa Torres）",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://www.producttalk.org/ch-11-measuring-impact/",
+  "title": "Ch. 11: Measuring Impact",
+  "titleZh": "Continuous Discovery Habits 读书会第 11 章导读：衡量影响",
+  "summaryZh": "Product Talk 发布《Continuous Discovery Habits》五周年读书会第 11 章导读，聚焦衡量影响，预计阅读约 18 分钟。章节建议从小处开始埋点，只测量评估假设测试所需的数据，并追踪对产品结果的真实影响，配套 45 分钟与 60 分钟团队练习。文中以 AfterCollege 为例，其“学生找到工作”这一难测量指标的响应率从 5% 提升到 37%。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-16T14:00:00+00:00",
+  "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

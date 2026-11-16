@@ -1,0 +1,29 @@
+{
+  "id": "7f66c968b9a16907",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/food-beverage-market-research-methods/",
+  "title": "Food & Beverage Market Research: Methods & Tools",
+  "titleZh": "Listen Labs：食品饮料市场研究方法与工具指南",
+  "summaryZh": "Listen Labs 梳理食品饮料市场研究的定性、定量与竞争分析方法，并推荐用 AI 主持访谈补足“为什么购买”的洞察。其平台可从 50M+ 验证样本网络中招募，覆盖 45+ 国家和 120+ 语言，并把传统 4–6 周周期压缩至 24 小时内交付。平台已进行超过 100 万次 AI 客户访谈，费用约为传统研究的三分之一。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "问卷/定量",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-16T05:04:40+00:00",
+  "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

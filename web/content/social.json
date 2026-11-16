@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T23:30:53+08:00",
+ "updatedAt": "2026-11-17T02:06:35+08:00",
  "window": {
   "admitDays": 30,
   "keepDays": 90
@@ -10,7 +10,7 @@
    "name": "腾讯",
    "careers": "https://careers.tencent.com/",
    "ok": true,
-   "lastOkAt": "2026-11-15T23:30:53+08:00",
+   "lastOkAt": "2026-11-17T02:06:35+08:00",
    "jobCount": 3
   },
   {
@@ -18,15 +18,15 @@
    "name": "字节跳动",
    "careers": "https://jobs.bytedance.com/experienced/position",
    "ok": true,
-   "lastOkAt": "2026-11-15T23:30:53+08:00",
-   "jobCount": 1
+   "lastOkAt": "2026-11-17T02:06:35+08:00",
+   "jobCount": 2
   },
   {
    "key": "alibaba",
    "name": "阿里巴巴",
    "careers": "https://talent.alibaba.com/off-campus/position-list",
    "ok": true,
-   "lastOkAt": "2026-11-15T23:30:53+08:00",
+   "lastOkAt": "2026-11-17T02:06:35+08:00",
    "jobCount": 5
   },
   {
@@ -34,7 +34,7 @@
    "name": "百度",
    "careers": "https://talent.baidu.com/jobs/social-list",
    "ok": true,
-   "lastOkAt": "2026-11-15T23:30:53+08:00",
+   "lastOkAt": "2026-11-17T02:06:35+08:00",
    "jobCount": 0
   },
   {
@@ -42,7 +42,7 @@
    "name": "美团",
    "careers": "https://zhaopin.meituan.com/web/social",
    "ok": true,
-   "lastOkAt": "2026-11-15T23:30:53+08:00",
+   "lastOkAt": "2026-11-17T02:06:35+08:00",
    "jobCount": 2
   },
   {
@@ -50,7 +50,7 @@
    "name": "网易",
    "careers": "https://hr.163.com/job-list.html",
    "ok": true,
-   "lastOkAt": "2026-11-15T23:30:53+08:00",
+   "lastOkAt": "2026-11-17T02:06:35+08:00",
    "jobCount": 18
   },
   {
@@ -58,7 +58,7 @@
    "name": "小米",
    "careers": "https://xiaomi.jobs.f.mioffice.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-11-15T23:30:53+08:00",
+   "lastOkAt": "2026-11-17T02:06:35+08:00",
    "jobCount": 1
   },
   {
@@ -66,7 +66,7 @@
    "name": "蔚来",
    "careers": "https://nio.jobs.feishu.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-11-15T23:30:53+08:00",
+   "lastOkAt": "2026-11-17T02:06:35+08:00",
    "jobCount": 0
   },
   {
@@ -74,7 +74,7 @@
    "name": "理想汽车",
    "careers": "https://li.jobs.feishu.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-11-15T23:30:53+08:00",
+   "lastOkAt": "2026-11-17T02:06:35+08:00",
    "jobCount": 0
   },
   {
@@ -82,7 +82,7 @@
    "name": "小鹏汽车",
    "careers": "https://xiaopeng.jobs.feishu.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-11-15T23:30:53+08:00",
+   "lastOkAt": "2026-11-17T02:06:35+08:00",
    "jobCount": 0
   },
   {
@@ -90,11 +90,34 @@
    "name": "得物",
    "careers": "https://poizon.jobs.feishu.cn/index/",
    "ok": true,
-   "lastOkAt": "2026-11-15T23:30:53+08:00",
+   "lastOkAt": "2026-11-17T02:06:35+08:00",
    "jobCount": 0
   }
  ],
  "jobs": [
+  {
+   "id": "bytedance-7706836708545005877",
+   "company": "字节跳动",
+   "title": "AI产品经理-用户研究Agent",
+   "url": "https://jobs.bytedance.com/experienced/position/7706836708545005877/detail",
+   "cities": [
+    "北京",
+    "深圳",
+    "上海"
+   ],
+   "department": null,
+   "experience": null,
+   "salary": null,
+   "origins": [
+    "official"
+   ],
+   "dateKind": "publish",
+   "postedAt": "2026-11-11",
+   "since": "2026-11-11",
+   "firstSeen": "2026-11-17",
+   "duty": "1、从用户和产品出发发现机会：深入企业客户用户研究的真实工作场景理解需求，持续追踪/调研国际化前沿产品，判断哪些问题值得解决、哪些能力值得构建，最终推向市场完成商业化验证；\n2、一起定义并构建产品：我们正在建设用户研究工作Copilot，以AI访谈员为核心能力，辅助研究准备、insight洞察直至报告产物；也在探索虚拟样本系统，模拟用户需求和市场反应，帮助企业检验决策，参与产品定义、工作流和交互设计，把有价值的想法做出来；\n3、亲手搭建，快速验证：你需要动手把想法做出可运行的交互Demo和效果体验，拿到真实用户反馈，与研发、设计一起推进产品化；\n4、把效果做扎实：判断研究结果是否有依据、洞察是否对业务产生有效价值、模拟预测在哪些场景可信，从真实案例中找到问题并形成标准持续打磨。",
+   "requirement": "1、你是一个AInativer：主动探索新模型、新工具，习惯用AI解决问题，对它能做什么、哪里还不可靠，有亲手尝试后的判断；\n2、你有动手实践：用代码、API、Agent框架或AI编程工具做过原型或小工具，能说清解决了什么问题、如何验证效果；个人作品也算，不要求成熟产品经历；\n3、你享受从无到有造东西：对新事物、新系统有热情，能把模糊问题想清楚、做出取舍，愿意主动尝试，也愿意根据反馈改变想法；\n4、你有产品判断，也希望积累行业和商业knowhow：能把用户需求和技术可能性结合起来，愿意深入研究与业务现场，协同销售团队甚至需要深入一线客户场景作为售前角色推进客户成功；\n5、本科学历及以上，心理学类、统计学类、计算机科学类学科更佳，工作年限不限。"
+  },
   {
    "id": "netease-79876",
    "company": "网易",
@@ -175,7 +198,7 @@
     "official"
    ],
    "dateKind": "update",
-   "postedAt": "2026-11-15",
+   "postedAt": "2026-11-16",
    "since": "2026-10-28",
    "firstSeen": "2026-10-28",
    "duty": "1）参与骑手生态体验维度的定义与拆解，能将感知转化为可度量的框架输入，产出不止于描述性结论，需落到触发条件、比较基准、颗粒度等结构化信息。\n\n2）开展骑手体验专项研究，通过深度访谈、实地观察、进线对话语义分析等方式获取骑手真实感知，校准体系中的分类框架与判断结构。\n\n3）参与定量侧的指标设计工作，包括体验水位度量、子层基线制定与波动归因，将定性发现落到可测量的指标中。\n\n4）将AI工具融入用研各环节，提升产出质量与效率，如基于大模型的进线对话批量归类与洞察提炼、调研编码自动化、报告生成等。",

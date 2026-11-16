@@ -1,0 +1,28 @@
+{
+  "id": "ba88b6b161537c1c",
+  "sourceId": "quantilope",
+  "sourceName": "quantilope",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.quantilope.com/resources/ad-testing-explained-what-to-measure-for-improved-campaigns",
+  "title": "Ad Testing Explained: What to Measure for Improved Campaigns",
+  "titleZh": "quantilope 详解广告测试：为改进广告活动该测哪些指标",
+  "summaryZh": "quantilope 详解广告测试：A/B 测试通常采用单组（monadic）设计，每组只看一个版本以避免对比偏差。核心指标涵盖注意力与回忆、品牌联想、信息理解、情绪反应、品类进入点（CEP）对齐和购买意向。其 Ad Optimizer 可逐帧扫描画面定位广告失去注意的位置，AI 研究伙伴 quinn 能按自然语言提示起草整套测试研究。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "市场研究",
+    "问卷/定量"
+  ],
+  "entities": [
+    "quantilope"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-16T16:23:35+00:00",
+  "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 91,
+  "count": 95,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -1357,6 +1357,33 @@
       "relation": null
     },
     {
+      "id": "626dbdf74182d630",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/qualitative-research-automation-cpg/",
+      "title": "Qualitative Research Automation for CPG: The Complete Guide",
+      "titleZh": "Listen Labs：CPG 定性研究自动化完全指南",
+      "summaryZh": "Listen Labs 的 CPG 定性研究自动化指南覆盖 AI 主持访谈与分析交付。其 AI 主持访谈通过自适应追问带来约 3 倍更长回答，Research Agent 在 5,196 条回答数据集上把分析时间从 255 小时降至 88 小时。平台称 24 小时内交付报告，样本库 30M+，成本约为传统研究三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-16T05:04:26+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "a7889ae6819a9577",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1652,6 +1679,34 @@
       "itemType": null,
       "publishedAt": "2025-12-09T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7f66c968b9a16907",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/food-beverage-market-research-methods/",
+      "title": "Food & Beverage Market Research: Methods & Tools",
+      "titleZh": "Listen Labs：食品饮料市场研究方法与工具指南",
+      "summaryZh": "Listen Labs 梳理食品饮料市场研究的定性、定量与竞争分析方法，并推荐用 AI 主持访谈补足“为什么购买”的洞察。其平台可从 50M+ 验证样本网络中招募，覆盖 45+ 国家和 120+ 语言，并把传统 4–6 周周期压缩至 24 小时内交付。平台已进行超过 100 万次 AI 客户访谈，费用约为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-16T05:04:40+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2401,6 +2456,34 @@
       "relation": null
     },
     {
+      "id": "688334dd1c53e1ad",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/enterprise-telecom-consumer-insights-ai/",
+      "title": "Telecom Consumer Insights AI: What Carriers Need",
+      "titleZh": "电信消费者洞察 AI：运营商需要什么",
+      "summaryZh": "Listen Labs 分析电信运营商部署消费者洞察 AI 所需六项能力，强调 AI 主持访谈补足行为数据背后的“为什么”。其平台称可从 45+ 国家、50M+ 网络招募验证受访者，以 120+ 语言开展 AI 主持访谈并在 24 小时内交付分析。PwC 2026 研究调查 1,217 名高管，71% 电信高管用专有数据开发 AI 应用。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-16T05:04:44+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "4e863eccc2fccb69",
       "sourceId": "delve",
       "sourceName": "Delve",
@@ -2451,6 +2534,37 @@
       "itemType": null,
       "publishedAt": "2026-10-22T05:04:01+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "d372ae444f65b633",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/easiest-qualitative-research-platform/",
+      "title": "The Easiest Qualitative Research Platform in 2026",
+      "titleZh": "2026 年最易用的定性研究平台：Listen Labs 端到端覆盖六个工作流阶段",
+      "summaryZh": "Listen Labs 称其是 2026 年最易用的定性研究平台，端到端覆盖设计、招募、主持、分析、综合与复用六个阶段。其 50M+ 验证受访者网络覆盖 45+ 国家和 120+ 种语言，称可把传统 4-6 周研究周期压缩到 24 小时内。文中指出 Dovetail 只做分析与洞察库，Delve 不覆盖招募与主持环节。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "定性分析",
+        "Dovetail"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail",
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-16T05:04:20+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

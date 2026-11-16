@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "count": 134,
+  "count": 142,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -1324,6 +1324,33 @@
       "relation": null
     },
     {
+      "id": "ba88b6b161537c1c",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/ad-testing-explained-what-to-measure-for-improved-campaigns",
+      "title": "Ad Testing Explained: What to Measure for Improved Campaigns",
+      "titleZh": "quantilope 详解广告测试：为改进广告活动该测哪些指标",
+      "summaryZh": "quantilope 详解广告测试：A/B 测试通常采用单组（monadic）设计，每组只看一个版本以避免对比偏差。核心指标涵盖注意力与回忆、品牌联想、信息理解、情绪反应、品类进入点（CEP）对齐和购买意向。其 Ad Optimizer 可逐帧扫描画面定位广告失去注意的位置，AI 研究伙伴 quinn 能按自然语言提示起草整套测试研究。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-16T16:23:35+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "4bed1e75c02ae436",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1724,6 +1751,33 @@
       "itemType": null,
       "publishedAt": "2026-11-10T05:01:47+00:00",
       "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "626dbdf74182d630",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/qualitative-research-automation-cpg/",
+      "title": "Qualitative Research Automation for CPG: The Complete Guide",
+      "titleZh": "Listen Labs：CPG 定性研究自动化完全指南",
+      "summaryZh": "Listen Labs 的 CPG 定性研究自动化指南覆盖 AI 主持访谈与分析交付。其 AI 主持访谈通过自适应追问带来约 3 倍更长回答，Research Agent 在 5,196 条回答数据集上把分析时间从 255 小时降至 88 小时。平台称 24 小时内交付报告，样本库 30M+，成本约为传统研究三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "合成用户",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-16T05:04:26+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2236,6 +2290,34 @@
       "relation": null
     },
     {
+      "id": "7f66c968b9a16907",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/food-beverage-market-research-methods/",
+      "title": "Food & Beverage Market Research: Methods & Tools",
+      "titleZh": "Listen Labs：食品饮料市场研究方法与工具指南",
+      "summaryZh": "Listen Labs 梳理食品饮料市场研究的定性、定量与竞争分析方法，并推荐用 AI 主持访谈补足“为什么购买”的洞察。其平台可从 50M+ 验证样本网络中招募，覆盖 45+ 国家和 120+ 语言，并把传统 4–6 周周期压缩至 24 小时内交付。平台已进行超过 100 万次 AI 客户访谈，费用约为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-16T05:04:40+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "c3cbad439cd104a1",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2347,6 +2429,34 @@
       "relation": null
     },
     {
+      "id": "23879fe9518b23e4",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/banking-market-research-turnaround-time/",
+      "title": "Banking Customer Research Turnaround Time: How To Beat It",
+      "titleZh": "银行客户研究周转时间：如何缩短",
+      "summaryZh": "Listen Labs 称其 AI 主持访谈平台能把银行客户研究的完整周期从 4–6 周压缩到 24 小时内。标准银行研究通常需 4–8 周，复杂多市场或合规项目需 10–16 周，延迟主要来自合规法务审核、银行高管与高净值受访者招募、多市场法规和董事会级报告。其平台还覆盖 50M+ 验证受访者、45+ 国家，并自动交付顾问级报告。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-16T05:04:32+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "f1c2c170b903ae1a",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2429,6 +2539,29 @@
       "itemType": null,
       "publishedAt": "2026-11-08T05:00:54+00:00",
       "discoveredAt": "2026-11-08T14:49:39.191826+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "d1354f5802c5db75",
+      "sourceId": "producttalk",
+      "sourceName": "Product Talk（Teresa Torres）",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://www.producttalk.org/ch-11-measuring-impact/",
+      "title": "Ch. 11: Measuring Impact",
+      "titleZh": "Continuous Discovery Habits 读书会第 11 章导读：衡量影响",
+      "summaryZh": "Product Talk 发布《Continuous Discovery Habits》五周年读书会第 11 章导读，聚焦衡量影响，预计阅读约 18 分钟。章节建议从小处开始埋点，只测量评估假设测试所需的数据，并追踪对产品结果的真实影响，配套 45 分钟与 60 分钟团队练习。文中以 AfterCollege 为例，其“学生找到工作”这一难测量指标的响应率从 5% 提升到 37%。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-16T14:00:00+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -3285,6 +3418,34 @@
       "relation": null
     },
     {
+      "id": "688334dd1c53e1ad",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/enterprise-telecom-consumer-insights-ai/",
+      "title": "Telecom Consumer Insights AI: What Carriers Need",
+      "titleZh": "电信消费者洞察 AI：运营商需要什么",
+      "summaryZh": "Listen Labs 分析电信运营商部署消费者洞察 AI 所需六项能力，强调 AI 主持访谈补足行为数据背后的“为什么”。其平台称可从 45+ 国家、50M+ 网络招募验证受访者，以 120+ 语言开展 AI 主持访谈并在 24 小时内交付分析。PwC 2026 研究调查 1,217 名高管，71% 电信高管用专有数据开发 AI 应用。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-16T05:04:44+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "ec2e75f65a9ea8af",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -3506,6 +3667,37 @@
       "relation": null
     },
     {
+      "id": "d372ae444f65b633",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/easiest-qualitative-research-platform/",
+      "title": "The Easiest Qualitative Research Platform in 2026",
+      "titleZh": "2026 年最易用的定性研究平台：Listen Labs 端到端覆盖六个工作流阶段",
+      "summaryZh": "Listen Labs 称其是 2026 年最易用的定性研究平台，端到端覆盖设计、招募、主持、分析、综合与复用六个阶段。其 50M+ 验证受访者网络覆盖 45+ 国家和 120+ 种语言，称可把传统 4-6 周研究周期压缩到 24 小时内。文中指出 Dovetail 只做分析与洞察库，Delve 不覆盖招募与主持环节。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "定性分析",
+        "Dovetail"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail",
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-16T05:04:20+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "c8cdbda01d439ddb",
       "sourceId": "medallia",
       "sourceName": "Medallia",
@@ -3573,6 +3765,31 @@
       "itemType": null,
       "publishedAt": "2026-11-02T08:00:00+00:00",
       "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "12a06e8c7f0162bb",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
+      "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
+      "titleZh": "UX Collective 周报：发布 Wrapped 前、Schrödinger’s Nvidia 与 Infinite tokens",
+      "summaryZh": "UX Collective 本周周报汇集 Maze 的 State of Market Research Report 等资源，该报告基于 200+ 专业人士的洞察，分析 AI 如何改变用研与市场研究工作。Maze 报告同时提到，用研与市场研究角色正因需求增长、资源紧张而边界模糊。其他条目包括 Schrödinger’s Nvidia、Wrapped 发布建议与 Infinite tokens。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [
+        "maze"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-16T12:17:08+00:00",
+      "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
