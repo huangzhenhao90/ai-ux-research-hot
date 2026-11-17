@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 86,
+  "count": 89,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -484,6 +484,31 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "9307cc4f11c48089",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.14700v1",
+      "title": "上线前推演假设世界：面向现实决策的角色模拟",
+      "titleZh": "研究提出角色模拟框架，用 AI 模拟用户在上线前推演设计假设",
+      "summaryZh": "一项研究提出用户画像模拟框架与执行基础设施，可将真实行业问题转化为受控的假设情境实验。该框架按目标人群、刺激和指标批量运行问卷、网页、聊天机器人及操作系统应用测试，并汇总可审计结果。12个跨领域案例显示，模拟人群能快速形成可检验的设计假设；画像属性及其消融会显著改变服务结果，说明结论高度依赖人群设定。",
+      "reason": "论文给出把行业问题转成受控模拟实验的框架，并用12个跨领域案例说明画像设定会改变结论，可供设计合成用户实验参考。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-09T16:00:00+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "same"
     },
     {
       "id": "10efb16077cb40b3",
@@ -1000,6 +1025,33 @@
       "itemType": null,
       "publishedAt": "2026-10-24T05:04:39+00:00",
       "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "957f9b37af1d1818",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-moderated-interviews-retail-brands/",
+      "title": "AI Moderated Interviews for Retail Brands at Scale",
+      "titleZh": "Listen Labs：零售品牌如何规模化开展 AI 主持访谈",
+      "summaryZh": "Listen Labs 介绍零售品牌如何用 AI 主持访谈，可从 50M+ 验证受访者网络、45+ 国家、120+ 语言招募，并在 24 小时内交付分析，而非 4–6 周。单场访谈可结合 Likert、NPS 与 MaxDiff，回答长度约为平均的 3 倍。Sweetgreen 借此把数月研究周期缩至数天，覆盖 300+ 美国门店，成本降至三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-17T05:07:09+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1529,6 +1581,35 @@
       "itemType": null,
       "publishedAt": "2026-10-26T05:02:13+00:00",
       "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "95df49965f1bec7c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-software-guide/",
+      "title": "Kantar Brand Tracking Software: Buyer’s Evaluation Guide",
+      "titleZh": "Kantar 品牌追踪软件：买家评估指南",
+      "summaryZh": "Kantar 品牌追踪软件买家评估指南梳理 BrandDynamics、Kantar Marketplace、BrandZ 及 MDS 框架。BrandDynamics 不公布标价、按需定制；Marketplace 概念测试约 $2,830 起，credit 按需付费。指南称传统波次追踪只报 KPI、难解释原因。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "问卷/定量",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-17T05:07:29+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

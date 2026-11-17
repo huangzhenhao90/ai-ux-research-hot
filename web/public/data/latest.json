@@ -1,12 +1,67 @@
 {
-  "generatedAt": "2026-11-17T02:48:24.978046+00:00",
+  "generatedAt": "2026-11-17T12:50:23.835182+00:00",
   "windowDays": 3,
   "editionHour": 0,
   "days": [
     {
       "date": "2026-11-17",
-      "count": 1,
+      "count": 3,
       "items": [
+        {
+          "id": "7863554bbd864674",
+          "sourceId": "ipsos",
+          "sourceName": "Ipsos",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://www.ipsos.com/en/ipsos-announced-it-filed-complaint-regarding-breach-one-its-internal-systems",
+          "title": "Ipsos announced that it filed a complaint on Wednesday, 11 November regarding a breach on one of its internal information systems",
+          "titleZh": "Ipsos 就内部信息系统遭入侵提交投诉",
+          "summaryZh": "Ipsos 宣布，已就旗下一个内部信息系统遭入侵一事提交投诉，投诉于 11 月 11 日（周三）提出。该消息以 Ipsos 新闻稿形式发布，原文未披露入侵细节、影响范围或投诉受理方。",
+          "reason": "Ipsos 就内部信息系统遭入侵提交投诉发布声明，可了解该事件本身及机构的公开应对动作。",
+          "category": "industry",
+          "tags": [
+            "行业动态",
+            "Ipsos"
+          ],
+          "entities": [
+            "ipsos"
+          ],
+          "itemType": "industry_event",
+          "publishedAt": "2026-11-17T09:52:09+00:00",
+          "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        },
+        {
+          "id": "5640a687a298fdf6",
+          "sourceId": "listen-labs",
+          "sourceName": "Listen Labs",
+          "venue": null,
+          "tier": "T1",
+          "url": "https://listenlabs.com/articles/user-testing-mobile-apps-playbook/",
+          "title": "How To Do User Testing for Mobile Apps: A 6-Step Playbook",
+          "titleZh": "Listen Labs 分享移动应用用户测试六步流程",
+          "summaryZh": "Listen Labs 在博客中给出移动应用用户测试的六步流程，强调按设备与 OS 分组招募并让任务贴合真实手势。文中建议每个平台各招募 5 到 6 人，首轮移动测试通常需要 10 到 12 人，并用 iOS 或 Android 原生录屏同步行为与口述数据。文章还称 Listen Labs 的 AI 主持访谈可在 iOS 上直接录屏，并从 50M+ 验证样本库、45+ 个国家和 120+ 种语言招募，24 小时内交付分析。",
+          "reason": "文章把移动端测试拆成可执行的六步，并补充 iOS 与 Android 分组招募和手势任务写法，方便团队据此设计首轮测试。",
+          "category": "methods",
+          "tags": [
+            "方法/实践",
+            "可用性测试",
+            "招募/样本",
+            "AI 访谈",
+            "NN/g"
+          ],
+          "entities": [
+            "listen-labs"
+          ],
+          "itemType": "tutorial_explainer",
+          "publishedAt": "2026-11-17T05:07:03+00:00",
+          "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        },
         {
           "id": "ec8af255513a683a",
           "sourceId": "optimalworkshop-blog",

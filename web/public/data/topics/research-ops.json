@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 68,
+  "count": 70,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -257,6 +257,35 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "5640a687a298fdf6",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/user-testing-mobile-apps-playbook/",
+      "title": "How To Do User Testing for Mobile Apps: A 6-Step Playbook",
+      "titleZh": "Listen Labs 分享移动应用用户测试六步流程",
+      "summaryZh": "Listen Labs 在博客中给出移动应用用户测试的六步流程，强调按设备与 OS 分组招募并让任务贴合真实手势。文中建议每个平台各招募 5 到 6 人，首轮移动测试通常需要 10 到 12 人，并用 iOS 或 Android 原生录屏同步行为与口述数据。文章还称 Listen Labs 的 AI 主持访谈可在 iOS 上直接录屏，并从 50M+ 验证样本库、45+ 个国家和 120+ 种语言招募，24 小时内交付分析。",
+      "reason": "文章把移动端测试拆成可执行的六步，并补充 iOS 与 Android 分组招募和手势任务写法，方便团队据此设计首轮测试。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本",
+        "AI 访谈",
+        "NN/g"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-17T05:07:03+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "10efb16077cb40b3",
@@ -636,6 +665,33 @@
       "itemType": null,
       "publishedAt": "2026-10-24T05:04:39+00:00",
       "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "957f9b37af1d1818",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-moderated-interviews-retail-brands/",
+      "title": "AI Moderated Interviews for Retail Brands at Scale",
+      "titleZh": "Listen Labs：零售品牌如何规模化开展 AI 主持访谈",
+      "summaryZh": "Listen Labs 介绍零售品牌如何用 AI 主持访谈，可从 50M+ 验证受访者网络、45+ 国家、120+ 语言招募，并在 24 小时内交付分析，而非 4–6 周。单场访谈可结合 Likert、NPS 与 MaxDiff，回答长度约为平均的 3 倍。Sweetgreen 借此把数月研究周期缩至数天，覆盖 300+ 美国门店，成本降至三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-17T05:07:09+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

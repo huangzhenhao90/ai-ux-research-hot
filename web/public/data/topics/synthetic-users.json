@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 84,
+  "count": 86,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -637,6 +637,31 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "9307cc4f11c48089",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.14700v1",
+      "title": "上线前推演假设世界：面向现实决策的角色模拟",
+      "titleZh": "研究提出角色模拟框架，用 AI 模拟用户在上线前推演设计假设",
+      "summaryZh": "一项研究提出用户画像模拟框架与执行基础设施，可将真实行业问题转化为受控的假设情境实验。该框架按目标人群、刺激和指标批量运行问卷、网页、聊天机器人及操作系统应用测试，并汇总可审计结果。12个跨领域案例显示，模拟人群能快速形成可检验的设计假设；画像属性及其消融会显著改变服务结果，说明结论高度依赖人群设定。",
+      "reason": "论文给出把行业问题转成受控模拟实验的框架，并用12个跨领域案例说明画像设定会改变结论，可供设计合成用户实验参考。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-09T16:00:00+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "same"
     },
     {
       "id": "c933a99ac1c835ad",
@@ -1460,6 +1485,31 @@
       "itemType": null,
       "publishedAt": "2026-10-28T05:09:02+00:00",
       "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7b310e2333d59bf3",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.21095v1",
+      "title": "SWE-WhatIf：从录制会话中模拟编码智能体的真实用户",
+      "titleZh": "SWE-WhatIf：从录制会话中模拟编码智能体的真实用户",
+      "summaryZh": "SWE-WhatIf 构建基于用户意图、验收标准与触发条件的自适应用户模拟器，用录制的编码智能体会话来评测新型编码智能体。在89个真实会话中，其回复与真人最相似；扰动智能体行为后，避免用户反对行为的成功率达66.3%。重放自身会话还改变了14名参与者的模型排序及后续使用判断。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-15T16:00:00+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

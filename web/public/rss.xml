@@ -5,9 +5,27 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Nov 2026 02:48:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 12:50:23 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Ipsos 就内部信息系统遭入侵提交投诉</title>
+      <link>https://www.ipsos.com/en/ipsos-announced-it-filed-complaint-regarding-breach-one-its-internal-systems</link>
+      <guid isPermaLink="true">https://www.ipsos.com/en/ipsos-announced-it-filed-complaint-regarding-breach-one-its-internal-systems</guid>
+      <pubDate>Tue, 17 Nov 2026 09:52:09 GMT</pubDate>
+      <description>Ipsos 宣布，已就旗下一个内部信息系统遭入侵一事提交投诉，投诉于 11 月 11 日（周三）提出。该消息以 Ipsos 新闻稿形式发布，原文未披露入侵细节、影响范围或投诉受理方。</description>
+      <category>Ipsos</category>
+      <category>industry</category>
+    </item>
+    <item>
+      <title>Listen Labs 分享移动应用用户测试六步流程</title>
+      <link>https://listenlabs.com/articles/user-testing-mobile-apps-playbook/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/user-testing-mobile-apps-playbook/</guid>
+      <pubDate>Tue, 17 Nov 2026 05:07:03 GMT</pubDate>
+      <description>Listen Labs 在博客中给出移动应用用户测试的六步流程，强调按设备与 OS 分组招募并让任务贴合真实手势。文中建议每个平台各招募 5 到 6 人，首轮移动测试通常需要 10 到 12 人，并用 iOS 或 Android 原生录屏同步行为与口述数据。文章还称 Listen Labs 的 AI 主持访谈可在 iOS 上直接录屏，并从 50M+ 验证样本库、45+ 个国家和 120+ 种语言招募，24 小时内交付分析。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Optimal Workshop 解读用户研究中的 AI 访谈员与 AI 主持</title>
       <link>https://www.optimalworkshop.com/blog/understanding-ai-interviewers-and-ai-moderation-in-user-research</link>
@@ -52,6 +70,15 @@
       <description>Pew Research Center 用数字孪生完成近 300 道 ATP 调查题，平均绝对误差为 12 个百分点，结论是 AI 模型不足以替代真实人群调查。表现最好的配置为 Claude Opus 4.6 加扩展画像与专家反思，仍有约 28% 的题目误差超过 15 个百分点。MeasuringU 的两项 SUS 数字孪生实验也发现孪生系统性高估分数，其商业软件研究分别高估 10.6 和 10.4 分。</description>
       <category>MeasuringU（Jeff Sauro）</category>
       <category>opinion</category>
+    </item>
+    <item>
+      <title>研究提出角色模拟框架，用 AI 模拟用户在上线前推演设计假设</title>
+      <link>https://arxiv.org/abs/2611.14700v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.14700v1</guid>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>一项研究提出用户画像模拟框架与执行基础设施，可将真实行业问题转化为受控的假设情境实验。该框架按目标人群、刺激和指标批量运行问卷、网页、聊天机器人及操作系统应用测试，并汇总可审计结果。12个跨领域案例显示，模拟人群能快速形成可检验的设计假设；画像属性及其消融会显著改变服务结果，说明结论高度依赖人群设定。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
     </item>
     <item>
       <title>Listen Labs 梳理三类数字孪生平台并给出六步盲测验证法</title>
@@ -428,33 +455,6 @@
       <guid isPermaLink="true">https://listenlabs.com/articles/reuse-research-insights-with-ai/</guid>
       <pubDate>Sun, 25 Oct 2026 05:04:45 GMT</pubDate>
       <description>Listen Labs 在分步指南中介绍如何用 AI 复用研究洞察，核心是把访谈转写和洞察整理成带来源、受访者与时间戳的可追溯记录。文章列出五步流程和一段提取提示词，要求逐字引用受访者，缺证据时写 not found，并建议用可查询知识库跨项目提问。文中还比较 Listen Labs Research Library 与 NotebookLM、Notion、Confluence、Dovetail 等工具在来源追溯和跨研究查询上的差异，并称 Listen Labs 已在 45+ 个国家、120+ 种语言完成 1M+ 场访谈。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>调查 521 名 UX 从业者：AI 让工作更快，但从业者态度复杂</title>
-      <link>https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</link>
-      <guid isPermaLink="true">https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss-syndication</guid>
-      <pubDate>Fri, 23 Oct 2026 17:00:00 GMT</pubDate>
-      <description>调查 521 名 UX 从业者后发现，AI 几乎在每项任务上节省时间，但多数人对其态度平淡，强制推行、输出不可靠和期望过高消耗了这些收益。调查显示超过 99% 的受访者在工作中可使用生成式 AI 工具，其中 59% 只能使用获批的工具集，仅 12% 能自由选择任意工具。AI 带来的收益因角色、任务和工作场所不同而差异明显，智能体的使用情况也不均衡</description>
-      <category>Nielsen Norman Group</category>
-      <category>research</category>
-    </item>
-    <item>
-      <title>Ipsos 第三季度营收 6.362 亿欧元，有机增长 2.0%</title>
-      <link>https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre</link>
-      <guid isPermaLink="true">https://www.ipsos.com/en/croissance-organique-de-20-au-troisieme-trimestre</guid>
-      <pubDate>Fri, 23 Oct 2026 05:50:34 GMT</pubDate>
-      <description>Ipsos 公布第三季度营收 6.362 亿欧元，有机增长 2.0%，高于上半年的 0.8%。这一增长主要来自 EMEA、中国以及面向公众（citizens）业务的表现。</description>
-      <category>Ipsos</category>
-      <category>industry</category>
-    </item>
-    <item>
-      <title>初创公司如何做客户研究：Listen Labs 的 14 天操作手册</title>
-      <link>https://listenlabs.com/articles/startup-market-research-guide/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/startup-market-research-guide/</guid>
-      <pubDate>Fri, 23 Oct 2026 05:08:42 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 发布一份 14 天初创客户研究手册，把流程拆成假设、免费二手数据、一手访谈、自下而上测算市场与付费意愿验证五步，并列出每步的交付物和时限。手册要求先写 3–5 条可证伪假设，到 data.census.gov、sba.gov、Google Trends 与公开竞品 10-K 中各提取一个具体数字，形成需求信号备忘录。文中引用 Hennink 等人关于定性饱和的研究，称编码饱和约需 9 场访谈、意义饱和需 16–24 场，并附 7 个问题的访谈问题库和追问示例。</description>
       <category>Listen Labs</category>
       <category>methods</category>
     </item>

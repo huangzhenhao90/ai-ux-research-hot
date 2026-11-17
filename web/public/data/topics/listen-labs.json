@@ -3,7 +3,7 @@
   "name": "Listen Labs",
   "group": "company",
   "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-  "count": 139,
+  "count": 144,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -453,6 +453,35 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-11-13T05:00:23+00:00",
       "discoveredAt": "2026-11-13T11:55:09.288756+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "5640a687a298fdf6",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/user-testing-mobile-apps-playbook/",
+      "title": "How To Do User Testing for Mobile Apps: A 6-Step Playbook",
+      "titleZh": "Listen Labs 分享移动应用用户测试六步流程",
+      "summaryZh": "Listen Labs 在博客中给出移动应用用户测试的六步流程，强调按设备与 OS 分组招募并让任务贴合真实手势。文中建议每个平台各招募 5 到 6 人，首轮移动测试通常需要 10 到 12 人，并用 iOS 或 Android 原生录屏同步行为与口述数据。文章还称 Listen Labs 的 AI 主持访谈可在 iOS 上直接录屏，并从 50M+ 验证样本库、45+ 个国家和 120+ 种语言招募，24 小时内交付分析。",
+      "reason": "文章把移动端测试拆成可执行的六步，并补充 iOS 与 Android 分组招募和手势任务写法，方便团队据此设计首轮测试。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本",
+        "AI 访谈",
+        "NN/g"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-17T05:07:03+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -1197,6 +1226,33 @@
       "relation": null
     },
     {
+      "id": "957f9b37af1d1818",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-moderated-interviews-retail-brands/",
+      "title": "AI Moderated Interviews for Retail Brands at Scale",
+      "titleZh": "Listen Labs：零售品牌如何规模化开展 AI 主持访谈",
+      "summaryZh": "Listen Labs 介绍零售品牌如何用 AI 主持访谈，可从 50M+ 验证受访者网络、45+ 国家、120+ 语言招募，并在 24 小时内交付分析，而非 4–6 周。单场访谈可结合 Likert、NPS 与 MaxDiff，回答长度约为平均的 3 倍。Sweetgreen 借此把数月研究周期缩至数天，覆盖 300+ 美国门店，成本降至三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-17T05:07:09+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "6365b13a764297dc",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1422,6 +1478,32 @@
       "itemType": null,
       "publishedAt": "2026-10-28T05:08:53+00:00",
       "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "198bc8d9fb6738b0",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/travel-concept-validation-guide/",
+      "title": "Travel Concept Validation: Prove Demand and Move Fast",
+      "titleZh": "Listen Labs：旅游概念验证如何证明真实需求并快速推进",
+      "summaryZh": "Listen Labs 提出，旅游概念验证应以可退款定金、预订单和意向书等承诺信号判断真实需求，而非问卷兴趣。其建议按问题访谈、概念测试、5–10 名客户礼宾式 MVP、定价、供应商及运营可行性验证；AI 主持访谈可在 24 小时内交付分析，McKinsey 调查 1,000 多名旅行者显示 78% 预订后仍继续规划。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-17T05:07:15+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2461,6 +2543,35 @@
       "relation": null
     },
     {
+      "id": "95df49965f1bec7c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-software-guide/",
+      "title": "Kantar Brand Tracking Software: Buyer’s Evaluation Guide",
+      "titleZh": "Kantar 品牌追踪软件：买家评估指南",
+      "summaryZh": "Kantar 品牌追踪软件买家评估指南梳理 BrandDynamics、Kantar Marketplace、BrandZ 及 MDS 框架。BrandDynamics 不公布标价、按需定制；Marketplace 概念测试约 $2,830 起，credit 按需付费。指南称传统波次追踪只报 KPI、难解释原因。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "问卷/定量",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-17T05:07:29+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "7f66c968b9a16907",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -3248,6 +3359,33 @@
       "itemType": null,
       "publishedAt": "2026-10-24T05:04:50+00:00",
       "discoveredAt": "2026-10-24T15:31:22.793456+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4b39e9c685d717cf",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-retail-consumer-insights/",
+      "title": "AI in Retail Consumer Insights: Top Tools & Trends 2026",
+      "titleZh": "2026 年零售消费者洞察中的 AI：顶级工具与趋势",
+      "summaryZh": "Listen Labs 梳理 2026 年零售消费者洞察 AI 工具与趋势，称其平台可在 24 小时内、以传统研究三分之一成本完成招募到交付。McKinsey 对 11 个市场约 21,000 名消费者的调查发现，53% 过去三个月曾用 AI 购物。对比涉及 First Insight、Qualtrics，并提示合成用户、隐私、模型偏见与言行差距限制。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-17T05:07:23+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

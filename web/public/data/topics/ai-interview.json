@@ -3,7 +3,7 @@
   "name": "AI 访谈",
   "group": "field",
   "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-  "count": 97,
+  "count": 98,
   "items": [
     {
       "id": "1dcf3578a582d301",
@@ -309,6 +309,35 @@
       "itemType": "method_or_template",
       "publishedAt": "2026-10-31T05:11:39+00:00",
       "discoveredAt": "2026-10-31T09:57:33.428944+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "5640a687a298fdf6",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/user-testing-mobile-apps-playbook/",
+      "title": "How To Do User Testing for Mobile Apps: A 6-Step Playbook",
+      "titleZh": "Listen Labs 分享移动应用用户测试六步流程",
+      "summaryZh": "Listen Labs 在博客中给出移动应用用户测试的六步流程，强调按设备与 OS 分组招募并让任务贴合真实手势。文中建议每个平台各招募 5 到 6 人，首轮移动测试通常需要 10 到 12 人，并用 iOS 或 Android 原生录屏同步行为与口述数据。文章还称 Listen Labs 的 AI 主持访谈可在 iOS 上直接录屏，并从 50M+ 验证样本库、45+ 个国家和 120+ 种语言招募，24 小时内交付分析。",
+      "reason": "文章把移动端测试拆成可执行的六步，并补充 iOS 与 Android 分组招募和手势任务写法，方便团队据此设计首轮测试。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本",
+        "AI 访谈",
+        "NN/g"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-17T05:07:03+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"

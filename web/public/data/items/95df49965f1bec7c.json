@@ -1,0 +1,30 @@
+{
+  "id": "95df49965f1bec7c",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/kantar-brand-tracking-software-guide/",
+  "title": "Kantar Brand Tracking Software: Buyer’s Evaluation Guide",
+  "titleZh": "Kantar 品牌追踪软件：买家评估指南",
+  "summaryZh": "Kantar 品牌追踪软件买家评估指南梳理 BrandDynamics、Kantar Marketplace、BrandZ 及 MDS 框架。BrandDynamics 不公布标价、按需定制；Marketplace 概念测试约 $2,830 起，credit 按需付费。指南称传统波次追踪只报 KPI、难解释原因。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "市场研究",
+    "问卷/定量",
+    "Kantar"
+  ],
+  "entities": [
+    "kantar",
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-17T05:07:29+00:00",
+  "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "7b310e2333d59bf3",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.21095v1",
+  "title": "SWE-WhatIf：从录制会话中模拟编码智能体的真实用户",
+  "titleZh": "SWE-WhatIf：从录制会话中模拟编码智能体的真实用户",
+  "summaryZh": "SWE-WhatIf 构建基于用户意图、验收标准与触发条件的自适应用户模拟器，用录制的编码智能体会话来评测新型编码智能体。在89个真实会话中，其回复与真人最相似；扰动智能体行为后，避免用户反对行为的成功率达66.3%。重放自身会话还改变了14名参与者的模型排序及后续使用判断。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "Agent"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-15T16:00:00+00:00",
+  "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

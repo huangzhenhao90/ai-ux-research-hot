@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 86,
+  "count": 88,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -939,6 +939,35 @@
       "relation": null
     },
     {
+      "id": "95df49965f1bec7c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-software-guide/",
+      "title": "Kantar Brand Tracking Software: Buyer’s Evaluation Guide",
+      "titleZh": "Kantar 品牌追踪软件：买家评估指南",
+      "summaryZh": "Kantar 品牌追踪软件买家评估指南梳理 BrandDynamics、Kantar Marketplace、BrandZ 及 MDS 框架。BrandDynamics 不公布标价、按需定制；Marketplace 概念测试约 $2,830 起，credit 按需付费。指南称传统波次追踪只报 KPI、难解释原因。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "问卷/定量",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-17T05:07:29+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "c3cbad439cd104a1",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1489,6 +1518,33 @@
       "itemType": null,
       "publishedAt": "2026-05-19T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4b39e9c685d717cf",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-retail-consumer-insights/",
+      "title": "AI in Retail Consumer Insights: Top Tools & Trends 2026",
+      "titleZh": "2026 年零售消费者洞察中的 AI：顶级工具与趋势",
+      "summaryZh": "Listen Labs 梳理 2026 年零售消费者洞察 AI 工具与趋势，称其平台可在 24 小时内、以传统研究三分之一成本完成招募到交付。McKinsey 对 11 个市场约 21,000 名消费者的调查发现，53% 过去三个月曾用 AI 购物。对比涉及 First Insight、Qualtrics，并提示合成用户、隐私、模型偏见与言行差距限制。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-17T05:07:23+00:00",
+      "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

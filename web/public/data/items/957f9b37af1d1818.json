@@ -1,0 +1,28 @@
+{
+  "id": "957f9b37af1d1818",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/ai-moderated-interviews-retail-brands/",
+  "title": "AI Moderated Interviews for Retail Brands at Scale",
+  "titleZh": "Listen Labs：零售品牌如何规模化开展 AI 主持访谈",
+  "summaryZh": "Listen Labs 介绍零售品牌如何用 AI 主持访谈，可从 50M+ 验证受访者网络、45+ 国家、120+ 语言招募，并在 24 小时内交付分析，而非 4–6 周。单场访谈可结合 Likert、NPS 与 MaxDiff，回答长度约为平均的 3 倍。Sweetgreen 借此把数月研究周期缩至数天，覆盖 300+ 美国门店，成本降至三分之一。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "招募/样本",
+    "问卷/定量"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-17T05:07:09+00:00",
+  "discoveredAt": "2026-11-17T12:50:23.835182+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
