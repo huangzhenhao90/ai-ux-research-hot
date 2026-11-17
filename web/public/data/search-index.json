@@ -1,5 +1,5 @@
 {
-  "count": 394,
+  "count": 395,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -2092,6 +2092,21 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/exploratory-sequential-research-design-delvetool/",
       "publishedAt": "2026-08-04T00:00:00+00:00"
+    },
+    {
+      "id": "ec8af255513a683a",
+      "title": "Understanding AI Interviewers and AI Moderation in User Research",
+      "titleZh": "Optimal Workshop 解读用户研究中的 AI 访谈员与 AI 主持",
+      "summaryZh": "Optimal Workshop 发布文章，解释用户研究中的 AI 访谈员与 AI 主持这两个概念。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Optimal Workshop Blog",
+      "url": "https://www.optimalworkshop.com/blog/understanding-ai-interviewers-and-ai-moderation-in-user-research",
+      "publishedAt": "2026-11-16T16:00:00+00:00"
     },
     {
       "id": "e8eabdc0ab7d672c",

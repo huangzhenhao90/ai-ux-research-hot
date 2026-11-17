@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 16 Nov 2026 18:00:18 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 02:48:24 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Optimal Workshop 解读用户研究中的 AI 访谈员与 AI 主持</title>
+      <link>https://www.optimalworkshop.com/blog/understanding-ai-interviewers-and-ai-moderation-in-user-research</link>
+      <guid isPermaLink="true">https://www.optimalworkshop.com/blog/understanding-ai-interviewers-and-ai-moderation-in-user-research</guid>
+      <pubDate>Mon, 16 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Optimal Workshop 发布文章，解释用户研究中的 AI 访谈员与 AI 主持这两个概念。</description>
+      <category>Optimal Workshop Blog</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>如何开展食品饮料焦点小组：一份七步操作手册</title>
       <link>https://listenlabs.com/articles/food-beverage-focus-groups-playbook/</link>
@@ -448,15 +457,6 @@
       <description>Listen Labs 增长负责人 Anish Rao 发布一份 14 天初创客户研究手册，把流程拆成假设、免费二手数据、一手访谈、自下而上测算市场与付费意愿验证五步，并列出每步的交付物和时限。手册要求先写 3–5 条可证伪假设，到 data.census.gov、sba.gov、Google Trends 与公开竞品 10-K 中各提取一个具体数字，形成需求信号备忘录。文中引用 Hennink 等人关于定性饱和的研究，称编码饱和约需 9 场访谈、意义饱和需 16–24 场，并附 7 个问题的访谈问题库和追问示例。</description>
       <category>Listen Labs</category>
       <category>methods</category>
-    </item>
-    <item>
-      <title>arXiv 论文对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上无显著优势</title>
-      <link>https://arxiv.org/abs/2610.30568</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.30568</guid>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 GMT</pubDate>
-      <description>arXiv 论文（arXiv:2610.30568）用同一实验设置对比人机与人际科研团队，发现 AI 协作在人类评审的想法质量上没有显著优势。反复迭代修订可稳定提升想法质量；AI 评审的分数接近人类，但在想法排序上与人类不一致，其中一个 AI 评审更偏好 AI 辅助方案，而人类评审并无对应的偏好。研究还发现协作来源只能被部分识别，人机与人人产出的科学成果存在大量重叠，并且亲身参与 AI 协作的人认为其更有用，但效率提升小于预期。</description>
-      <category>arXiv cs.HC</category>
-      <category>research</category>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 154,
+  "count": 155,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -1339,6 +1339,30 @@
       "status": "listed",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "ec8af255513a683a",
+      "sourceId": "optimalworkshop-blog",
+      "sourceName": "Optimal Workshop Blog",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.optimalworkshop.com/blog/understanding-ai-interviewers-and-ai-moderation-in-user-research",
+      "title": "Understanding AI Interviewers and AI Moderation in User Research",
+      "titleZh": "Optimal Workshop 解读用户研究中的 AI 访谈员与 AI 主持",
+      "summaryZh": "Optimal Workshop 发布文章，解释用户研究中的 AI 访谈员与 AI 主持这两个概念。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈"
+      ],
+      "entities": [],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-16T16:00:00+00:00",
+      "discoveredAt": "2026-11-17T02:48:24.978046+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "e8eabdc0ab7d672c",

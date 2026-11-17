@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T18:00:18.388128+00:00",
+  "generatedAt": "2026-11-17T02:48:24.978046+00:00",
   "groups": [
     {
       "key": "company",
@@ -93,7 +93,7 @@
       "name": "AI 访谈",
       "group": "field",
       "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-      "count": 96
+      "count": 97
     },
     {
       "slug": "synthetic-users",
@@ -163,7 +163,7 @@
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 154
+      "count": 155
     },
     {
       "slug": "prompts",
