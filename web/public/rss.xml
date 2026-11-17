@@ -5,7 +5,7 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Nov 2026 12:50:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 23:23:08 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
     <item>
@@ -34,6 +34,15 @@
       <description>Optimal Workshop 发布文章，解释用户研究中的 AI 访谈员与 AI 主持这两个概念。</description>
       <category>Optimal Workshop Blog</category>
       <category>methods</category>
+    </item>
+    <item>
+      <title>Jakob Nielsen UX Roundup：420 项研究显示人机团队未带来协同增益</title>
+      <link>https://jakobnielsenphd.substack.com/p/ux-roundup-20261116</link>
+      <guid isPermaLink="true">https://jakobnielsenphd.substack.com/p/ux-roundup-20261116</guid>
+      <pubDate>Mon, 16 Nov 2026 12:21:32 GMT</pubDate>
+      <description>Jakob Nielsen 在最新一期 UX Roundup 中解读 AutoAnalysis 对 420 项研究的元分析，认为人机协作未产生协同增益。该分析由哈佛商学院 Michelle Vaccaro 与 MIT 合著者完成，合并 1,955 个效应量，其中仅 171 个同时单独测量了 AI；AI 在这一对一对决中胜出 68%，人机团队平均不敌表现更强的单独一方。研究中 AI agents 筛选 15,495 条记录、审阅 2,403 篇论文后筛出 420 项合格研究，结果在 auto-analysis.dev 按月更新。</description>
+      <category>Jakob Nielsen on UX</category>
+      <category>opinion</category>
     </item>
     <item>
       <title>如何开展食品饮料焦点小组：一份七步操作手册</title>
@@ -448,15 +457,6 @@
       <description>作者提出六个考量，用来判断对话式 AI 界面是在加速专家用户，还是在他们与熟悉的工作之间插进一个键盘。文中引用 METR 的随机试验，经验丰富的开源开发者在自己的代码库上使用 AI 工具反而慢 19%，却以为获得了提速；Dell'Acqua、Mollick、Lakhani 等对 758 名顾问的研究中，AI 能力范围内的任务快 25.1% 且质量更高，超出范围时正确率低 19%。作者还以拥有 400 个已保存搜索的招聘人员或律师为例，指出自然语言输入把专家早已内化的字段名和状态码又变回表述问题。</description>
       <category>UX Collective</category>
       <category>opinion</category>
-    </item>
-    <item>
-      <title>Listen Labs 如何用 AI 复用研究洞察：五步指南</title>
-      <link>https://listenlabs.com/articles/reuse-research-insights-with-ai/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/reuse-research-insights-with-ai/</guid>
-      <pubDate>Sun, 25 Oct 2026 05:04:45 GMT</pubDate>
-      <description>Listen Labs 在分步指南中介绍如何用 AI 复用研究洞察，核心是把访谈转写和洞察整理成带来源、受访者与时间戳的可追溯记录。文章列出五步流程和一段提取提示词，要求逐字引用受访者，缺证据时写 not found，并建议用可查询知识库跨项目提问。文中还比较 Listen Labs Research Library 与 NotebookLM、Notion、Confluence、Dovetail 等工具在来源追溯和跨研究查询上的差异，并称 Listen Labs 已在 45+ 个国家、120+ 种语言完成 1M+ 场访谈。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
     </item>
   </channel>
 </rss>

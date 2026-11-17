@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "count": 151,
+  "count": 152,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -26,6 +26,30 @@
       "status": "selected",
       "dupOf": null,
       "relation": "followup"
+    },
+    {
+      "id": "44e9a0508523dc3d",
+      "sourceId": "jakobnielsenphd",
+      "sourceName": "Jakob Nielsen on UX",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20261116",
+      "title": "UX Roundup: Death of AI–Human Synergy | AI Answers Design Briefs | Norse vs. Greek Gods | Obviousness | Accelerating Science | Toggle Groups | Inconsistency | Seamful Design | Input Format Flexibility",
+      "titleZh": "Jakob Nielsen UX Roundup：420 项研究显示人机团队未带来协同增益",
+      "summaryZh": "Jakob Nielsen 在最新一期 UX Roundup 中解读 AutoAnalysis 对 420 项研究的元分析，认为人机协作未产生协同增益。该分析由哈佛商学院 Michelle Vaccaro 与 MIT 合著者完成，合并 1,955 个效应量，其中仅 171 个同时单独测量了 AI；AI 在这一对一对决中胜出 68%，人机团队平均不敌表现更强的单独一方。研究中 AI agents 筛选 15,495 条记录、审阅 2,403 篇论文后筛出 420 项合格研究，结果在 auto-analysis.dev 按月更新。",
+      "reason": "元分析给出人机团队平均不敌更强一方的数据，并附上三臂对照测试等判断该用人的操作建议。",
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "Agent"
+      ],
+      "entities": [],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-11-16T12:21:32+00:00",
+      "discoveredAt": "2026-11-17T23:23:08.044755+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "1dcf3578a582d301",
