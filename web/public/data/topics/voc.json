@@ -3,7 +3,7 @@
   "name": "文本分析 / VOC",
   "group": "field",
   "definition": "用 AI 分析用户反馈、评论、开放题与客服文本。",
-  "count": 15,
+  "count": 16,
   "items": [
     {
       "id": "791883e6a4cafac0",
@@ -108,6 +108,32 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "9c7813c60b632dca",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.22006",
+      "title": "Supporting Researcher Control in AI-Assisted Social Media Analysis: A Mixed-Methods Study of AI4OSN",
+      "titleZh": "AI4OSN：在 AI 辅助社交媒体分析中支持研究者控制的混合方法研究",
+      "summaryZh": "研究团队提出混合主动式平台 AI4OSN，让研究者在数据收集、相关性标注和意义建构中保持控制，并将 AI 辅助作为可检查的咨询资源。基于 X/Twitter 数据的系统用户研究（N=18）显示，平均 SUS 得分 79.7，LLM 辅助标注与分析信心提升，AI 支持意义建构的认知负荷较低。新手对 AI 输出的对齐和认同描述性高于有经验者，提示需支持差异化验证。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "文本分析/VOC",
+        "学术 HCI",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-18T05:00:00+00:00",
+      "discoveredAt": "2026-11-18T06:18:27.541236+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
     },
     {
       "id": "1afcb1a1360dc91a",

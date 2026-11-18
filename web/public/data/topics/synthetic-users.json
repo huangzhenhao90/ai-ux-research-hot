@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 86,
+  "count": 88,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -29,6 +29,32 @@
       "status": "selected",
       "dupOf": null,
       "relation": "followup"
+    },
+    {
+      "id": "fb5f5b4c25f7223f",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2411.10109",
+      "title": "AI Simulations Grounded in Rich Self-Reports Increase Accuracy and Reduce Distortion",
+      "titleZh": "AI 语音访谈研究：丰富自述数据把 AI 模拟准确率从 60.4% 提升至 72.8%",
+      "summaryZh": "研究团队开发 AI 语音访谈工具，按 American Voices Project 流程对 1,052 名美国成年人进行两小时访谈，并让其完成问卷与行为实验，比较不同提示方式的模拟准确率。在 GSS 条目上，仅用人口统计学提示的模拟准确率为 60.4%，用访谈或问卷分别达 69.4% 和 69.3%，两者结合为 72.8%，参与者两周重测一致性为 79.5%。结合访谈与问卷的模拟把八项样本层面统计失真缺口中位数缩小 53.5%，在目标问题上用其他参与者自述微调的开放权重模型达 75.2% 并缩小 69.3%，但两类模型都未减少经济博弈中的超理性。",
+      "reason": "研究用 1,052 名受访者的访谈与问卷对比人口统计学提示，给出合成用户准确率与八类失真的量化差异。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-18T05:00:00+00:00",
+      "discoveredAt": "2026-11-18T06:18:27.541236+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "3c513246b7a31682",
@@ -1092,6 +1118,32 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "924c8912ccc95395",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
+      "title": "What is a researcher’s worth?",
+      "titleZh": "研究者的价值是什么？AI 与合成用户为何替代不了人类摩擦",
+      "summaryZh": "研究者价值之争不是技术故事，而是机构如何处理不便真相。在 2026 年，AI 让组织能绕开与真人摩擦，用合成用户和 LLM 摘要低成本背书已定决策。LLM agents 替代边缘群体并不等于纳入他们；基于历史平均与合成数据的模型还会丢失分布尾部，AI 是有趣工具，却不是好的社会科学家。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "研究伦理",
+        "岗位/职业"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-17T23:26:24+00:00",
+      "discoveredAt": "2026-11-18T06:18:27.541236+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
     },
     {
       "id": "2206421a65f5da3e",

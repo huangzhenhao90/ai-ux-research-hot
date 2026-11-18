@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 89,
+  "count": 90,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -359,6 +359,32 @@
       "publishedAt": "2026-10-20T20:46:56+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "924c8912ccc95395",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
+      "title": "What is a researcher’s worth?",
+      "titleZh": "研究者的价值是什么？AI 与合成用户为何替代不了人类摩擦",
+      "summaryZh": "研究者价值之争不是技术故事，而是机构如何处理不便真相。在 2026 年，AI 让组织能绕开与真人摩擦，用合成用户和 LLM 摘要低成本背书已定决策。LLM agents 替代边缘群体并不等于纳入他们；基于历史平均与合成数据的模型还会丢失分布尾部，AI 是有趣工具，却不是好的社会科学家。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "合成用户",
+        "研究伦理",
+        "岗位/职业"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-17T23:26:24+00:00",
+      "discoveredAt": "2026-11-18T06:18:27.541236+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },

@@ -15,6 +15,8 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [AI 语音访谈研究：丰富自述数据把 AI 模拟准确率从 60.4% 提升至 72.8%](https://arxiv.org/abs/2411.10109)：研究团队开发 AI 语音访谈工具，按 American Voices Project 流程对 1,052 名美国成年人进行两小时访谈，并让其完成问卷与行为实验，比较不同提示方式的模拟准确率。在 GSS 条目上，仅用人口统计学提示的模拟准确…（arXiv cs.HC，2026-11-18）
+- [MeasuringU 研究：AI 与人类主持访谈能否挖出相同的事实](https://measuringu.com/do-ai-and-human-moderators-uncover-the-same-facts/?utm_source=rss&utm_medium=rss&utm_campaign=do-ai-and-human-moderators-uncover-the-same-facts)：MeasuringU 用 20 名参与者做随机对照实验，人类主持访谈平均检出 35% 的甄别问卷事实，AI 主持访谈为 21%，16 个百分点的差距统计显著（t(17.1)=3.51，p = .003）。平均每场人类会话检出 4.5 条事…（MeasuringU（Jeff Sauro），2026-11-17）
 - [Ipsos 就内部信息系统遭入侵提交投诉](https://www.ipsos.com/en/ipsos-announced-it-filed-complaint-regarding-breach-one-its-internal-systems)：Ipsos 宣布，已就旗下一个内部信息系统遭入侵一事提交投诉，投诉于 11 月 11 日（周三）提出。该消息以 Ipsos 新闻稿形式发布，原文未披露入侵细节、影响范围或投诉受理方。（Ipsos，2026-11-17）
 - [Listen Labs 分享移动应用用户测试六步流程](https://listenlabs.com/articles/user-testing-mobile-apps-playbook/)：Listen Labs 在博客中给出移动应用用户测试的六步流程，强调按设备与 OS 分组招募并让任务贴合真实手势。文中建议每个平台各招募 5 到 6 人，首轮移动测试通常需要 10 到 12 人，并用 iOS 或 Android 原生录屏…（Listen Labs，2026-11-17）
 - [Optimal Workshop 解读用户研究中的 AI 访谈员与 AI 主持](https://www.optimalworkshop.com/blog/understanding-ai-interviewers-and-ai-moderation-in-user-research)：Optimal Workshop 发布文章，解释用户研究中的 AI 访谈员与 AI 主持这两个概念。（Optimal Workshop Blog，2026-11-17）
@@ -43,7 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [Listen Labs 按三种架构梳理 AI 消费者模拟工具的选型与可信度边界](https://listenlabs.com/articles/best-ai-consumer-simulation-tools/)：Listen Labs 发布按架构划分的 AI 消费者模拟工具决策指南，将其分为合成用户、人群模型和基于真人访谈的数字孪生三类。文中引用 Bisbee 等 2024 年发表于 Political Analysis 的研究，称合成受访者可匹…（Listen Labs，2026-10-31）
 - [Listen Labs 提供概念测试模板，含甄别问题、量化指标与 Go/Refine/Kill 规则](https://listenlabs.com/articles/concept-testing-template/)：Listen Labs 提供一套可直接复用的概念测试模板，按甄别、刺激展示、量化评分、开放题和 Go/Refine/Kill 规则五个步骤组织。模板用 5 点量表测量吸引力、相关性、独特性、可信度、购买意愿和价格感知，并以 top-2-b…（Listen Labs，2026-10-31）
 - [NN/g 解读 UX 在 Anthropic 智能体软件工厂中的角色](https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：NN/g 分析 Anthropic 在 2026 年 8 月发布的 AI 原生软件开发生命周期（SDLC）构想，指出它把 UX 简化为引导 AI 生成的后台上下文。文章将其与 Google（2026 年 5 月）和 OpenAI（2025…（Nielsen Norman Group，2026-10-30）
-- [LLM 用户模拟研究：共享偏差不会被模拟器分歧发现](https://arxiv.org/abs/2611.01354v1)：一项研究以6个语言模型模拟器在GlobalOpinionQA的60题、12国数据上的分歧作为可靠性信号，检验LLM模拟用户对人类调查估计的可靠性。结果显示，分歧更能识别群组差异，而不能识别单组比例的无效估计，但多个模拟器共有的偏差不会被发…（ur-ai-papers（用户与交互 AI 论文库），2026-10-31）
-- [研究用人类实验数据构建语言模型行为画像以模拟分布外人类行为](https://arxiv.org/abs/2611.00661v1)：研究提出从既往人类实验数据中提取行为特征，为语言模型生成行为档案并筛选可预测特征，再用新参与者和新设计验证其对分布外人类行为的模拟。公共品、议价和金钱请求实验显示，单一有效特征优于无档案或使用通用人格，特征过多没有额外收益，跨博弈迁移有时…（ur-ai-papers（用户与交互 AI 论文库），2026-10-31）
 
-（更多 67 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 69 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

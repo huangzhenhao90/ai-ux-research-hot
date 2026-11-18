@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 95,
+  "count": 97,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -31,6 +31,31 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "794570fd08c38fec",
+      "sourceId": "measuringu",
+      "sourceName": "MeasuringU（Jeff Sauro）",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://measuringu.com/do-ai-and-human-moderators-uncover-the-same-facts/?utm_source=rss&utm_medium=rss&utm_campaign=do-ai-and-human-moderators-uncover-the-same-facts",
+      "title": "Do AI and Human Moderators Uncover the Same Facts?",
+      "titleZh": "MeasuringU 研究：AI 与人类主持访谈能否挖出相同的事实",
+      "summaryZh": "MeasuringU 用 20 名参与者做随机对照实验，人类主持访谈平均检出 35% 的甄别问卷事实，AI 主持访谈为 21%，16 个百分点的差距统计显著（t(17.1)=3.51，p = .003）。平均每场人类会话检出 4.5 条事实，AI 会话 2.6 条，10 场 AI 会话中只有 1 场超过人类平均水平。AI 主持由 Gemini 3 Flash 与两位 MeasuringU 研究员的写实虚拟形象和声音构成，双方使用同一份五个提示词的讨论指南，且都不知道甄别问卷内容。",
+      "reason": "随机对照实验把 AI 与人类主持访谈的事实检出率放在同一把尺子上比较，为评估 AI 主持访谈的覆盖度提供了具体参照。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-17T23:46:31+00:00",
+      "discoveredAt": "2026-11-18T06:18:27.541236+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "followup"
     },
     {
       "id": "a16bc157b306b9dd",
@@ -675,6 +700,32 @@
       "publishedAt": "2026-03-26T15:34:41+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9c7813c60b632dca",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.22006",
+      "title": "Supporting Researcher Control in AI-Assisted Social Media Analysis: A Mixed-Methods Study of AI4OSN",
+      "titleZh": "AI4OSN：在 AI 辅助社交媒体分析中支持研究者控制的混合方法研究",
+      "summaryZh": "研究团队提出混合主动式平台 AI4OSN，让研究者在数据收集、相关性标注和意义建构中保持控制，并将 AI 辅助作为可检查的咨询资源。基于 X/Twitter 数据的系统用户研究（N=18）显示，平均 SUS 得分 79.7，LLM 辅助标注与分析信心提升，AI 支持意义建构的认知负荷较低。新手对 AI 输出的对齐和认同描述性高于有经验者，提示需支持差异化验证。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "文本分析/VOC",
+        "学术 HCI",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-18T05:00:00+00:00",
+      "discoveredAt": "2026-11-18T06:18:27.541236+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
