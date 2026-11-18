@@ -1,0 +1,29 @@
+{
+  "id": "124636d9b09a0816",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-transcription-tools-research/",
+  "title": "Best AI Transcription Tools for Qualitative Research",
+  "titleZh": "定性研究最佳 AI 转录工具：Listen Labs、Otter.ai 等入选",
+  "summaryZh": "Listen Labs 发布定性研究最佳 AI 转录工具榜单，将自家列为端到端首选。平台可从 50M+ 验证受访者中招募，覆盖 45+ 国家、120+ 语言，Research Agent 在 24 小时内产出幻灯片和备忘录。Otter.ai 主打 Zoom、Teams 实时转录，免费档在美国处理数据并用去标识录音训练 AI。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "转写/编码",
+    "伦理/隐私",
+    "定性分析"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-18T05:09:20+00:00",
+  "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

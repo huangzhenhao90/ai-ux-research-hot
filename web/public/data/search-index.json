@@ -1,5 +1,5 @@
 {
-  "count": 408,
+  "count": 414,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -2441,6 +2441,24 @@
       "publishedAt": "2026-10-30T16:00:00+00:00"
     },
     {
+      "id": "a6c4c0a5817a306b",
+      "title": "How To Do Startup Customer Research on a Budget",
+      "titleZh": "Listen Labs 介绍如何在有限预算下开展初创公司客户研究",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文介绍一套有限预算下的初创公司客户研究流程，主张先写清要做的决策，再匹配成本最低的可信方法，并预先设定停止标准。文章列出 US Census Business Builder、BLS、SBA、Google Trends、Keyword Planner 和 Meta Ad Library 等免费来源，用于市场规模测算、竞品定位和需求信号，称竞品拆解可在一下午完成，自建方案现实总预算约 $0–$100。文章也指出 DIY 方法在样本质量、主持深度和欺诈风险上有上限，并推广 Listen Labs 的 50M+ 已验证受访者网络、45+ 国家和 24 小时交付能力。",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/startup-market-research-on-budget/",
+      "publishedAt": "2026-11-18T05:09:30+00:00"
+    },
+    {
       "id": "7559b1c560b67a59",
       "title": "Kantar Brand Tracking Report: What It Covers, Costs & Gaps",
       "titleZh": "Listen Labs 解读 Kantar 品牌追踪报告涵盖的指标、费用与局限",
@@ -3560,6 +3578,29 @@
       "publishedAt": "2025-09-09T00:00:00+00:00"
     },
     {
+      "id": "b674ce6693988718",
+      "title": "Customer Insights Platform Export Options Explained",
+      "titleZh": "客户洞察平台导出选项解析：Listen Labs、Qualtrics 与 Medallia 对比",
+      "summaryZh": "Listen Labs 解析客户洞察平台导出选项，将导出方式分为文件、自动同步和 API/Webhook 三类，并称完整导出需包含原始回答、逐字引述、时间戳视频和受访者元数据。Qualtrics 的 dashboard 导出仅限聚合可视化数据，API 访问受套餐限制，workflow-task 单次导出上限 1 MB；Medallia 的 Customer API 只返回配置拉取结构中的字段。",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps",
+        "定性分析",
+        "问卷/定量",
+        "Qualtrics",
+        "Medallia"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "medallia"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-export-options/",
+      "publishedAt": "2026-11-18T05:08:30+00:00"
+    },
+    {
       "id": "b97e6f256c387fd3",
       "title": "What Is Better Than A/B Testing For Message Testing?",
       "titleZh": "Listen Labs 列出六种比 A/B 测试更适合信息测试的替代方法",
@@ -3853,6 +3894,24 @@
       "sourceName": "Dynata",
       "url": "https://www.dynata.com/why-dynata/resources/blog/how-to-write-survey-questions/",
       "publishedAt": "2026-07-09T16:21:19+00:00"
+    },
+    {
+      "id": "3d8aec565ca87dd2",
+      "title": "Human-computer interaction for recursive prompt and image generation on media narratives of violence in Mexico",
+      "titleZh": "墨西哥暴力媒体叙事的递归提示词与图像生成人机交互研究",
+      "summaryZh": "一项研究用混合人机交互工作流分析墨西哥暴力媒体叙事，基于105条新闻的计算摘要，15名参与者在五轮迭代中递归优化提示词并生成AI图像。计算摘要使选定的语义差异显式化，参与者和专家补充语境解释。该流程最终整合出信息图与视频，体现人类主导的混合主动设计。",
+      "tags": [
+        "论文/研究",
+        "多模态",
+        "文本分析/VOC",
+        "定性分析",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "Frontiers in Computer Science",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1877314",
+      "publishedAt": "2026-11-18T00:00:00+00:00"
     },
     {
       "id": "5f49b945165a85f5",
@@ -5956,6 +6015,25 @@
       "publishedAt": "2026-04-22T11:00:59+00:00"
     },
     {
+      "id": "124636d9b09a0816",
+      "title": "Best AI Transcription Tools for Qualitative Research",
+      "titleZh": "定性研究最佳 AI 转录工具：Listen Labs、Otter.ai 等入选",
+      "summaryZh": "Listen Labs 发布定性研究最佳 AI 转录工具榜单，将自家列为端到端首选。平台可从 50M+ 验证受访者中招募，覆盖 45+ 国家、120+ 语言，Research Agent 在 24 小时内产出幻灯片和备忘录。Otter.ai 主打 Zoom、Teams 实时转录，免费档在美国处理数据并用去标识录音训练 AI。",
+      "tags": [
+        "方法/实践",
+        "转写/编码",
+        "伦理/隐私",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-transcription-tools-research/",
+      "publishedAt": "2026-11-18T05:09:20+00:00"
+    },
+    {
       "id": "af1f75f5d52cf9d0",
       "title": "Best Qualitative Research Software in 2026: CAQDAS vs. AI",
       "titleZh": "2026 年最佳定性研究软件：CAQDAS 与 AI 平台对比",
@@ -6518,6 +6596,23 @@
       "publishedAt": "2025-06-10T17:33:58+00:00"
     },
     {
+      "id": "cc0080c37ca29a91",
+      "title": "Verint VoC: What It Is, Trust Issues & Better Alternatives",
+      "titleZh": "Verint VoC 是什么：信任争议与更优替代方案",
+      "summaryZh": "Listen Labs 将自家 AI 用研平台列为 Verint VoC 替代方案，主打决策级“为什么”。Verint VoC 以客服中心语音、文本和数字行为分析见长，有 FedRAMP Moderate 资质，但难解释购买、切换或流失动机，所有权变动与监控报道也引发争议。Listen Labs 覆盖 50M+ 验证受访者、120+ 语言，24 小时内交付顾问级分析。",
+      "tags": [
+        "观点/讨论",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/verint-voc-alternatives/",
+      "publishedAt": "2026-11-18T05:09:25+00:00"
+    },
+    {
       "id": "fb5c3f668c746143",
       "title": "On Stage with Ad Age: Why Your Brand Can’t Grow Without This Key Analysis",
       "titleZh": "Ad Age 峰会：quantilope 与 Kettle & Fire 谈品牌增长为何离不开 Mental Availability",
@@ -6683,6 +6778,25 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/how-top-brands-collect-customer-intelligence/",
       "publishedAt": "2025-12-18T14:00:00+00:00"
+    },
+    {
+      "id": "dbac17bad21a5c3e",
+      "title": "Survey Software for Customer Insights: Which Platform Wins",
+      "titleZh": "客户洞察调研软件对比：Listen Labs、Qualtrics、SurveyMonkey 等平台哪款胜出",
+      "summaryZh": "Listen Labs 发布客户洞察调研软件对比指南，把自身列为需要定量与定性结合的团队的首选。其平台结合 Likert、MaxDiff 与 AI 主持访谈，每月限 3 项研究，24 小时内交付。Qualtrics Strategic Research 为 $420/月，SurveyMonkey Premier 为 $139/月（按年计费）。",
+      "tags": [
+        "观点/讨论",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-survey-software-customer-insights/",
+      "publishedAt": "2026-11-18T05:08:35+00:00"
     },
     {
       "id": "d372ae444f65b633",

@@ -3,7 +3,7 @@
   "name": "论文",
   "group": "genre",
   "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-  "count": 84,
+  "count": 85,
   "items": [
     {
       "id": "fb5f5b4c25f7223f",
@@ -1477,6 +1477,33 @@
       "itemType": null,
       "publishedAt": "2026-02-17T07:50:21+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3d8aec565ca87dd2",
+      "sourceId": "frontiers-cs",
+      "sourceName": "Frontiers in Computer Science",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1877314",
+      "title": "Human-computer interaction for recursive prompt and image generation on media narratives of violence in Mexico",
+      "titleZh": "墨西哥暴力媒体叙事的递归提示词与图像生成人机交互研究",
+      "summaryZh": "一项研究用混合人机交互工作流分析墨西哥暴力媒体叙事，基于105条新闻的计算摘要，15名参与者在五轮迭代中递归优化提示词并生成AI图像。计算摘要使选定的语义差异显式化，参与者和专家补充语境解释。该流程最终整合出信息图与视频，体现人类主导的混合主动设计。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "多模态",
+        "文本分析/VOC",
+        "定性分析",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-18T00:00:00+00:00",
+      "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -1,0 +1,28 @@
+{
+  "id": "a6c4c0a5817a306b",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/startup-market-research-on-budget/",
+  "title": "How To Do Startup Customer Research on a Budget",
+  "titleZh": "Listen Labs 介绍如何在有限预算下开展初创公司客户研究",
+  "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文介绍一套有限预算下的初创公司客户研究流程，主张先写清要做的决策，再匹配成本最低的可信方法，并预先设定停止标准。文章列出 US Census Business Builder、BLS、SBA、Google Trends、Keyword Planner 和 Meta Ad Library 等免费来源，用于市场规模测算、竞品定位和需求信号，称竞品拆解可在一下午完成，自建方案现实总预算约 $0–$100。文章也指出 DIY 方法在样本质量、主持深度和欺诈风险上有上限，并推广 Listen Labs 的 50M+ 已验证受访者网络、45+ 国家和 24 小时交付能力。",
+  "reason": "文章把决策问题、最省成本的方法和停止标准串成一套流程，并列出免费数据源与竞品拆解字段，适合预算有限的团队照着执行。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "市场研究",
+    "招募/样本"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-11-18T05:09:30+00:00",
+  "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

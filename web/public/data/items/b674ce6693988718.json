@@ -1,0 +1,33 @@
+{
+  "id": "b674ce6693988718",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/customer-insights-platform-export-options/",
+  "title": "Customer Insights Platform Export Options Explained",
+  "titleZh": "客户洞察平台导出选项解析：Listen Labs、Qualtrics 与 Medallia 对比",
+  "summaryZh": "Listen Labs 解析客户洞察平台导出选项，将导出方式分为文件、自动同步和 API/Webhook 三类，并称完整导出需包含原始回答、逐字引述、时间戳视频和受访者元数据。Qualtrics 的 dashboard 导出仅限聚合可视化数据，API 访问受套餐限制，workflow-task 单次导出上限 1 MB；Medallia 的 Customer API 只返回配置拉取结构中的字段。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "洞察库/ResearchOps",
+    "定性分析",
+    "问卷/定量",
+    "Qualtrics",
+    "Medallia"
+  ],
+  "entities": [
+    "listen-labs",
+    "qualtrics",
+    "medallia"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-18T05:08:30+00:00",
+  "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

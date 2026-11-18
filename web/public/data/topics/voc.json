@@ -3,7 +3,7 @@
   "name": "文本分析 / VOC",
   "group": "field",
   "definition": "用 AI 分析用户反馈、评论、开放题与客服文本。",
-  "count": 16,
+  "count": 18,
   "items": [
     {
       "id": "791883e6a4cafac0",
@@ -326,6 +326,33 @@
       "relation": null
     },
     {
+      "id": "3d8aec565ca87dd2",
+      "sourceId": "frontiers-cs",
+      "sourceName": "Frontiers in Computer Science",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1877314",
+      "title": "Human-computer interaction for recursive prompt and image generation on media narratives of violence in Mexico",
+      "titleZh": "墨西哥暴力媒体叙事的递归提示词与图像生成人机交互研究",
+      "summaryZh": "一项研究用混合人机交互工作流分析墨西哥暴力媒体叙事，基于105条新闻的计算摘要，15名参与者在五轮迭代中递归优化提示词并生成AI图像。计算摘要使选定的语义差异显式化，参与者和专家补充语境解释。该流程最终整合出信息图与视频，体现人类主导的混合主动设计。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "多模态",
+        "文本分析/VOC",
+        "定性分析",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-18T00:00:00+00:00",
+      "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "19a71996d15eeb58",
       "sourceId": "prodege",
       "sourceName": "Prodege",
@@ -428,6 +455,32 @@
       "itemType": null,
       "publishedAt": "2026-11-11T05:04:04+00:00",
       "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "cc0080c37ca29a91",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/verint-voc-alternatives/",
+      "title": "Verint VoC: What It Is, Trust Issues & Better Alternatives",
+      "titleZh": "Verint VoC 是什么：信任争议与更优替代方案",
+      "summaryZh": "Listen Labs 将自家 AI 用研平台列为 Verint VoC 替代方案，主打决策级“为什么”。Verint VoC 以客服中心语音、文本和数字行为分析见长，有 FedRAMP Moderate 资质，但难解释购买、切换或流失动机，所有权变动与监控报道也引发争议。Listen Labs 覆盖 50M+ 验证受访者、120+ 语言，24 小时内交付顾问级分析。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-18T05:09:25+00:00",
+      "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

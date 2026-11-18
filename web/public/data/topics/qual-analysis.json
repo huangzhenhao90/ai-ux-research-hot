@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 97,
+  "count": 100,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -1298,6 +1298,38 @@
       "relation": null
     },
     {
+      "id": "b674ce6693988718",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-export-options/",
+      "title": "Customer Insights Platform Export Options Explained",
+      "titleZh": "客户洞察平台导出选项解析：Listen Labs、Qualtrics 与 Medallia 对比",
+      "summaryZh": "Listen Labs 解析客户洞察平台导出选项，将导出方式分为文件、自动同步和 API/Webhook 三类，并称完整导出需包含原始回答、逐字引述、时间戳视频和受访者元数据。Qualtrics 的 dashboard 导出仅限聚合可视化数据，API 访问受套餐限制，workflow-task 单次导出上限 1 MB；Medallia 的 Customer API 只返回配置拉取结构中的字段。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "洞察库/ResearchOps",
+        "定性分析",
+        "问卷/定量",
+        "Qualtrics",
+        "Medallia"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "medallia"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-18T05:08:30+00:00",
+      "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "b97e6f256c387fd3",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1458,6 +1490,33 @@
       "itemType": null,
       "publishedAt": "2026-11-15T05:02:43+00:00",
       "discoveredAt": "2026-11-15T15:25:39.347496+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3d8aec565ca87dd2",
+      "sourceId": "frontiers-cs",
+      "sourceName": "Frontiers in Computer Science",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://www.frontiersin.org/articles/10.3389/fcomp.2026.1877314",
+      "title": "Human-computer interaction for recursive prompt and image generation on media narratives of violence in Mexico",
+      "titleZh": "墨西哥暴力媒体叙事的递归提示词与图像生成人机交互研究",
+      "summaryZh": "一项研究用混合人机交互工作流分析墨西哥暴力媒体叙事，基于105条新闻的计算摘要，15名参与者在五轮迭代中递归优化提示词并生成AI图像。计算摘要使选定的语义差异显式化，参与者和专家补充语境解释。该流程最终整合出信息图与视频，体现人类主导的混合主动设计。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "多模态",
+        "文本分析/VOC",
+        "定性分析",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-18T00:00:00+00:00",
+      "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2346,6 +2405,34 @@
       "itemType": null,
       "publishedAt": "2026-04-22T11:00:59+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "124636d9b09a0816",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-transcription-tools-research/",
+      "title": "Best AI Transcription Tools for Qualitative Research",
+      "titleZh": "定性研究最佳 AI 转录工具：Listen Labs、Otter.ai 等入选",
+      "summaryZh": "Listen Labs 发布定性研究最佳 AI 转录工具榜单，将自家列为端到端首选。平台可从 50M+ 验证受访者中招募，覆盖 45+ 国家、120+ 语言，Research Agent 在 24 小时内产出幻灯片和备忘录。Otter.ai 主打 Zoom、Teams 实时转录，免费档在美国处理数据并用去标识录音训练 AI。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "转写/编码",
+        "伦理/隐私",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-18T05:09:20+00:00",
+      "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

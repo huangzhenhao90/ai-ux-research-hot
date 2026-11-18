@@ -1,0 +1,36 @@
+{
+  "id": "e92f96553964ff4f",
+  "sourceId": "surveymonkey",
+  "sourceName": "SurveyMonkey",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.surveymonkey.com/curiosity/surveymonkey-gemini-integration/?ut_source=rss",
+  "title": "Create and analyze SurveyMonkey surveys directly in Gemini",
+  "titleZh": "SurveyMonkey 问卷可在 Gemini 中直接创建与分析",
+  "summaryZh": "SurveyMonkey 宣布用户可在 Gemini 中直接创建并分析 SurveyMonkey 问卷。该集成把问卷的创建与分析环节接入 Gemini，减少在对话工具与调研平台之间的来回切换。",
+  "reason": "这项集成把问卷创建与分析放进 Gemini 的对话流程，研究者可据此判断日常调研是否还需要在工具间切换。",
+  "category": "tools",
+  "tags": [
+    "工具发布",
+    "问卷/定量"
+  ],
+  "entities": [
+    "surveymonkey"
+  ],
+  "itemType": "tool_launch",
+  "publishedAt": "2026-11-18T07:00:18+00:00",
+  "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+  "status": "duplicate",
+  "dupOf": "ec8af255513a683a",
+  "relation": "same",
+  "related": [
+    {
+      "id": "ec8af255513a683a",
+      "title": "Understanding AI Interviewers and AI Moderation in User Research",
+      "titleZh": "Optimal Workshop 解读用户研究中的 AI 访谈员与 AI 主持",
+      "sourceName": "Optimal Workshop Blog",
+      "url": "https://www.optimalworkshop.com/blog/understanding-ai-interviewers-and-ai-moderation-in-user-research",
+      "publishedAt": "2026-11-16T16:00:00+00:00"
+    }
+  ]
+}

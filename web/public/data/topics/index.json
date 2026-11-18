@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T06:18:27.541236+00:00",
+  "generatedAt": "2026-11-18T16:59:22.262524+00:00",
   "groups": [
     {
       "key": "company",
@@ -23,7 +23,7 @@
       "name": "Qualtrics",
       "group": "company",
       "definition": "Qualtrics 的 XM 平台与 XM Institute 研究，以及体验管理产品的 AI 能力更新。",
-      "count": 27
+      "count": 29
     },
     {
       "slug": "dovetail",
@@ -65,21 +65,21 @@
       "name": "SurveyMonkey",
       "group": "company",
       "definition": "SurveyMonkey 的问卷产品 AI 能力与自助研究工具更新。",
-      "count": 13
+      "count": 14
     },
     {
       "slug": "medallia",
       "name": "Medallia",
       "group": "company",
       "definition": "Medallia 的体验与反馈分析产品更新。",
-      "count": 3
+      "count": 4
     },
     {
       "slug": "listen-labs",
       "name": "Listen Labs",
       "group": "company",
       "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-      "count": 144
+      "count": 149
     },
     {
       "slug": "dscout",
@@ -107,21 +107,21 @@
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 90
+      "count": 92
     },
     {
       "slug": "qual-analysis",
       "name": "定性分析",
       "group": "field",
       "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-      "count": 97
+      "count": 100
     },
     {
       "slug": "voc",
       "name": "文本分析 / VOC",
       "group": "field",
       "definition": "用 AI 分析用户反馈、评论、开放题与客服文本。",
-      "count": 16
+      "count": 18
     },
     {
       "slug": "usability",
@@ -135,7 +135,7 @@
       "name": "洞察库与 ResearchOps",
       "group": "field",
       "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-      "count": 70
+      "count": 72
     },
     {
       "slug": "ethics",
@@ -156,14 +156,14 @@
       "name": "论文",
       "group": "genre",
       "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-      "count": 84
+      "count": 85
     },
     {
       "slug": "methods",
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 158
+      "count": 161
     },
     {
       "slug": "prompts",

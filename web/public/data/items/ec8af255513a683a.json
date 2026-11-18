@@ -21,5 +21,14 @@
   "status": "selected",
   "dupOf": null,
   "relation": "different",
-  "related": []
+  "related": [
+    {
+      "id": "e92f96553964ff4f",
+      "title": "Create and analyze SurveyMonkey surveys directly in Gemini",
+      "titleZh": "SurveyMonkey 问卷可在 Gemini 中直接创建与分析",
+      "sourceName": "SurveyMonkey",
+      "url": "https://www.surveymonkey.com/curiosity/surveymonkey-gemini-integration/?ut_source=rss",
+      "publishedAt": "2026-11-18T07:00:18+00:00"
+    }
+  ]
 }

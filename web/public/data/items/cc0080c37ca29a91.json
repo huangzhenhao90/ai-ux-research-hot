@@ -1,0 +1,27 @@
+{
+  "id": "cc0080c37ca29a91",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/verint-voc-alternatives/",
+  "title": "Verint VoC: What It Is, Trust Issues & Better Alternatives",
+  "titleZh": "Verint VoC 是什么：信任争议与更优替代方案",
+  "summaryZh": "Listen Labs 将自家 AI 用研平台列为 Verint VoC 替代方案，主打决策级“为什么”。Verint VoC 以客服中心语音、文本和数字行为分析见长，有 FedRAMP Moderate 资质，但难解释购买、切换或流失动机，所有权变动与监控报道也引发争议。Listen Labs 覆盖 50M+ 验证受访者、120+ 语言，24 小时内交付顾问级分析。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "文本分析/VOC"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-18T05:09:25+00:00",
+  "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

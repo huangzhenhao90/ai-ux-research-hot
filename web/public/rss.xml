@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Nov 2026 06:18:27 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 16:59:22 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 介绍如何在有限预算下开展初创公司客户研究</title>
+      <link>https://listenlabs.com/articles/startup-market-research-on-budget/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/startup-market-research-on-budget/</guid>
+      <pubDate>Wed, 18 Nov 2026 05:09:30 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 撰文介绍一套有限预算下的初创公司客户研究流程，主张先写清要做的决策，再匹配成本最低的可信方法，并预先设定停止标准。文章列出 US Census Business Builder、BLS、SBA、Google Trends、Keyword Planner 和 Meta Ad Library 等免费来源，用于市场规模测算、竞品定位和需求信号，称竞品拆解可在一下午完成，自建方案现实总预算约 $0–$100。文章也指出 DIY 方法在样本质量、主持深度和欺诈风险上有上限，并推广 Listen Labs 的 50M+ 已验证受访者网络、45+ 国家和 24 小时交付能力。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>AI 语音访谈研究：丰富自述数据把 AI 模拟准确率从 60.4% 提升至 72.8%</title>
       <link>https://arxiv.org/abs/2411.10109</link>
@@ -446,15 +455,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2509.25499</guid>
       <pubDate>Mon, 26 Oct 2026 04:00:00 GMT</pubDate>
       <description>论文提出一套组织实证发现的框架，结合 LLM 驱动的论断抽取、实体消解、分类体系生成与知识图谱构建，并保留与研究情境和来源的链接。作者以 Atlas of Human-AI Interaction 实例化该框架，组织来自 31,741 篇论文的 308,802 条论断，并提供交互界面用于浏览构念与已报告关系、核查证据。论文还给出描述性语料分析与一项探索性用户研究，考察这一表示如何支持研究者的意义建构，并指出改进空间。</description>
-      <category>arXiv cs.HC</category>
-      <category>research</category>
-    </item>
-    <item>
-      <title>研究指出交互式 LLM 评估不能只验证评分器整体准确率</title>
-      <link>https://arxiv.org/abs/2610.31678</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.31678</guid>
-      <pubDate>Mon, 26 Oct 2026 04:00:00 GMT</pubDate>
-      <description>论文指出，在交互式 LLM 评估中只用整体准确率或 F1 验证自动评分器，会掩盖提示词层面的错误并扭曲提示词之间的比较结果。作者用 6 个模型、180 个虚构实体问题和 6 种提示词条件做检验，288 条平衡审计的整体 F1 为 .916，但评分器将 2.6%-33.3% 被主要评分者判为不含无依据事实主张的回答标为有问题，且各提示词下的估计并不确定。第二次审计中，评分器与两个独立 LLM 评分者评估同一批 300 个模型-问题案例，原本 9.3 个百分点的提升在两位评分者下都降到 2.3 个百分点且主要评分者区间包含零；作者建议审计计划报告的那个差值本身，并把评分者不确定性纳入最终结果。</description>
       <category>arXiv cs.HC</category>
       <category>research</category>
     </item>

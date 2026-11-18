@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 90,
+  "count": 92,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -2136,6 +2136,32 @@
       "relation": null
     },
     {
+      "id": "cc0080c37ca29a91",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/verint-voc-alternatives/",
+      "title": "Verint VoC: What It Is, Trust Issues & Better Alternatives",
+      "titleZh": "Verint VoC 是什么：信任争议与更优替代方案",
+      "summaryZh": "Listen Labs 将自家 AI 用研平台列为 Verint VoC 替代方案，主打决策级“为什么”。Verint VoC 以客服中心语音、文本和数字行为分析见长，有 FedRAMP Moderate 资质，但难解释购买、切换或流失动机，所有权变动与监控报道也引发争议。Listen Labs 覆盖 50M+ 验证受访者、120+ 语言，24 小时内交付顾问级分析。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-18T05:09:25+00:00",
+      "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "fb5c3f668c746143",
       "sourceId": "quantilope",
       "sourceName": "quantilope",
@@ -2234,6 +2260,34 @@
       "itemType": null,
       "publishedAt": "2026-08-04T13:50:40+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "dbac17bad21a5c3e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-survey-software-customer-insights/",
+      "title": "Survey Software for Customer Insights: Which Platform Wins",
+      "titleZh": "客户洞察调研软件对比：Listen Labs、Qualtrics、SurveyMonkey 等平台哪款胜出",
+      "summaryZh": "Listen Labs 发布客户洞察调研软件对比指南，把自身列为需要定量与定性结合的团队的首选。其平台结合 Likert、MaxDiff 与 AI 主持访谈，每月限 3 项研究，24 小时内交付。Qualtrics Strategic Research 为 $420/月，SurveyMonkey Premier 为 $139/月（按年计费）。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-18T05:08:35+00:00",
+      "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

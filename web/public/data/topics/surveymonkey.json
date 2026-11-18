@@ -3,7 +3,7 @@
   "name": "SurveyMonkey",
   "group": "company",
   "definition": "SurveyMonkey 的问卷产品 AI 能力与自助研究工具更新。",
-  "count": 13,
+  "count": 14,
   "items": [
     {
       "id": "50253980458a8a3a",
@@ -412,6 +412,34 @@
       "itemType": null,
       "publishedAt": "2026-10-21T05:03:24+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "dbac17bad21a5c3e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-survey-software-customer-insights/",
+      "title": "Survey Software for Customer Insights: Which Platform Wins",
+      "titleZh": "客户洞察调研软件对比：Listen Labs、Qualtrics、SurveyMonkey 等平台哪款胜出",
+      "summaryZh": "Listen Labs 发布客户洞察调研软件对比指南，把自身列为需要定量与定性结合的团队的首选。其平台结合 Likert、MaxDiff 与 AI 主持访谈，每月限 3 项研究，24 小时内交付。Qualtrics Strategic Research 为 $420/月，SurveyMonkey Premier 为 $139/月（按年计费）。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-18T05:08:35+00:00",
+      "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
