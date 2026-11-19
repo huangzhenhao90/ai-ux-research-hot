@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "count": 162,
+  "count": 163,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -4226,6 +4226,32 @@
       "itemType": null,
       "publishedAt": "2026-11-16T05:04:20+00:00",
       "discoveredAt": "2026-11-16T18:00:18.388128+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1a98f9daa9aa0c2b",
+      "sourceId": "medallia",
+      "sourceName": "Medallia",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.medallia.com/blog/choosing-cx-platform/",
+      "title": "Choosing a CX Platform? Look Here First.",
+      "titleZh": "选择 CX 平台先看 Medallia：Forrester Wave 客户反馈管理与分析 Q3 2026 唯一领导者",
+      "summaryZh": "Forrester 在 Q3 2026 的 Forrester Wave™ for Customer Feedback Management and Analytics Solutions 评估中，将 Medallia 评为唯一领导者。Medallia 是本次评估中唯一获得 Leader 评级的厂商。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "Medallia"
+      ],
+      "entities": [
+        "medallia"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-18T19:04:44+00:00",
+      "discoveredAt": "2026-11-19T01:45:19.546599+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

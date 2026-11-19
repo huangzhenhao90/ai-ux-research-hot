@@ -3,7 +3,7 @@
   "name": "行业报告",
   "group": "genre",
   "definition": "调研公司报告、行业协会规范与市场结构变化。",
-  "count": 20,
+  "count": 21,
   "items": [
     {
       "id": "7863554bbd864674",
@@ -455,6 +455,32 @@
       "itemType": null,
       "publishedAt": "2026-10-07T10:26:20+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1a98f9daa9aa0c2b",
+      "sourceId": "medallia",
+      "sourceName": "Medallia",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.medallia.com/blog/choosing-cx-platform/",
+      "title": "Choosing a CX Platform? Look Here First.",
+      "titleZh": "选择 CX 平台先看 Medallia：Forrester Wave 客户反馈管理与分析 Q3 2026 唯一领导者",
+      "summaryZh": "Forrester 在 Q3 2026 的 Forrester Wave™ for Customer Feedback Management and Analytics Solutions 评估中，将 Medallia 评为唯一领导者。Medallia 是本次评估中唯一获得 Leader 评级的厂商。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "Medallia"
+      ],
+      "entities": [
+        "medallia"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-18T19:04:44+00:00",
+      "discoveredAt": "2026-11-19T01:45:19.546599+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
