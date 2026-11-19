@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 92,
+  "count": 93,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -1361,6 +1361,31 @@
       "itemType": null,
       "publishedAt": "2026-11-18T05:08:30+00:00",
       "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f570d4b699b433f1",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.21809v1",
+      "title": "利用生成式心理测量学评估音乐生成模型的评价方法",
+      "titleZh": "利用生成式心理测量学评估音乐生成模型的评价方法",
+      "summaryZh": "研究用生成式心理测量学梳理 2020—2025 年 ISMIR 音乐生成论文的主观评价题项，提炼出六个稳定质量维度。流程包括 LLM 抽取与人工校验、语义嵌入去冗余，以及用探索性图分析检验结构。六维为节奏、旋律、音频、作曲、结构与歌词，为可复现、可比较的用户评价协议提供基础。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-15T16:00:00+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

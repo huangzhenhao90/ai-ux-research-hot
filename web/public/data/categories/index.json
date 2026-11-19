@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T01:45:19.546599+00:00",
+  "generatedAt": "2026-11-19T12:34:34.245349+00:00",
   "categories": [
     {
       "key": "tools",
@@ -13,21 +13,21 @@
       "label": "方法",
       "section": "方法与实践",
       "commentary": true,
-      "count": 160
+      "count": 163
     },
     {
       "key": "research",
       "label": "论文",
       "section": "研究与证据",
       "commentary": false,
-      "count": 88
+      "count": 92
     },
     {
       "key": "industry",
       "label": "行业",
       "section": "行业动态",
       "commentary": false,
-      "count": 17
+      "count": 18
     },
     {
       "key": "cases",
@@ -41,7 +41,7 @@
       "label": "观点",
       "section": "观点与讨论",
       "commentary": true,
-      "count": 92
+      "count": 95
     }
   ]
 }

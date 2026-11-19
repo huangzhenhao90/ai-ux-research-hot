@@ -1,0 +1,29 @@
+{
+  "id": "5d964cfb887684a4",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/ai-customer-interviews-retail-insights/",
+  "title": "AI Customer Interviews for Retail Teams & Shopper Insights",
+  "titleZh": "Listen Labs：面向零售团队的 AI 主持客户访谈与购物者洞察",
+  "summaryZh": "Listen Labs 的 AI 主持客户访谈面向零售团队，能实时追问并自动分析，在 24 小时内交付购物者洞察。其 Visual Insights 可观察屏幕行为，捕捉“说与做”矛盾；平台从 50M+ 验证受访者网络招募，覆盖 45+ 国家和 120+ 语言。自适应追问的洞察深度是开放式问卷问题的 4.8 倍；传统焦点小组 90 分钟一场需 $4,000-$12,000、耗时三到五周。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "市场研究",
+    "行为数据"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-19T05:01:55+00:00",
+  "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

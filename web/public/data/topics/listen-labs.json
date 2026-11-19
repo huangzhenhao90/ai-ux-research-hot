@@ -3,7 +3,7 @@
   "name": "Listen Labs",
   "group": "company",
   "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-  "count": 149,
+  "count": 154,
   "items": [
     {
       "id": "3c513246b7a31682",
@@ -2026,6 +2026,34 @@
       "relation": null
     },
     {
+      "id": "5d964cfb887684a4",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/ai-customer-interviews-retail-insights/",
+      "title": "AI Customer Interviews for Retail Teams & Shopper Insights",
+      "titleZh": "Listen Labs：面向零售团队的 AI 主持客户访谈与购物者洞察",
+      "summaryZh": "Listen Labs 的 AI 主持客户访谈面向零售团队，能实时追问并自动分析，在 24 小时内交付购物者洞察。其 Visual Insights 可观察屏幕行为，捕捉“说与做”矛盾；平台从 50M+ 验证受访者网络招募，覆盖 45+ 国家和 120+ 语言。自适应追问的洞察深度是开放式问卷问题的 4.8 倍；传统焦点小组 90 分钟一场需 $4,000-$12,000、耗时三到五周。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "市场研究",
+        "行为数据"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-19T05:01:55+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "626dbdf74182d630",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2893,6 +2921,35 @@
       "relation": null
     },
     {
+      "id": "fb8bcf893c545691",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/scaling-telecom-qualitative-research/",
+      "title": "Scaling Telecom Qualitative Research: A 4-Pillar Guide",
+      "titleZh": "Listen Labs：扩展电信定性研究的 4 支柱指南",
+      "summaryZh": "Listen Labs 提出用常驻样本库、AI 主持访谈、跨市场可比性和集中洞察治理四支柱扩展电信定性研究，将 4–6 周周期压到 24 小时内。其样本库按网络遥测和行为信号分层，Quality Guard 限制参与者每月最多参与 3 次研究；AI 主持访谈用自适应追问让回答长度达到平均的 3 倍。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-19T05:02:09+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "35ffa20b7e88da36",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -3423,6 +3480,38 @@
       "relation": null
     },
     {
+      "id": "7a2af23fcf12b944",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-cpg-market-research-companies/",
+      "title": "Best CPG Consumer Insights Companies In 2026: How To Choose",
+      "titleZh": "2026 年最佳 CPG 消费者洞察公司：如何选择",
+      "summaryZh": "Listen Labs 把 CPG 消费者洞察公司分为六类，并将自己列为规模化快速定性研究的首选。其 AI 主持一对一视频访谈已累计超过 100 万次，网络覆盖 50M+ 验证受访者、45+ 国家和 120+ 语言，称 24 小时内交付、成本约为传统研究的 1/3。零售测量企业订阅每年 7.5 万至 50 万美元以上。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "nielsen",
+        "quantilope",
+        "ipsos",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-19T05:01:49+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "4b39e9c685d717cf",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -3781,6 +3870,36 @@
       "itemType": null,
       "publishedAt": "2026-10-22T05:00:45+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7590dfb511c24ddc",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-fast-ux-research-tools/",
+      "title": "Fast UX Research Tools That Save You Time in 2026",
+      "titleZh": "Listen Labs 盘点 2026 年快速 UX 研究工具：从招募到 AI 主持访谈与分析",
+      "summaryZh": "Listen Labs 在 2026 快速 UX 研究工具盘点中，把 AI 辅助设计、50M+ 验证样本库招募、AI 主持访谈与自动分析整合为一体化平台，并称 24 小时内交付报告。Maze、User Interviews、Dovetail 分别只加速无主持原型测试、招募和综合分析，仍需跨工具交接。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "可用性测试"
+      ],
+      "entities": [
+        "listen-labs",
+        "maze",
+        "usertesting",
+        "user-interviews",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-19T05:01:42+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -4202,6 +4321,32 @@
       "itemType": null,
       "publishedAt": "2026-11-18T05:09:25+00:00",
       "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5f94bb672df5d514",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/financial-services-market-analysis-guide/",
+      "title": "Financial Services Customer Insights: 2026 Guide",
+      "titleZh": "Listen Labs《2026 金融服务客户洞察指南》",
+      "summaryZh": "Listen Labs 的《2026 金融服务客户洞察指南》梳理银行、投资与财富管理、保险、支付与金融科技四大板块。指南称 2025 年金融保险占美国 GDP 8.7%，2026 年 10 月美国商业银行总资产约 26.1 万亿美元。其 AI 主持定性访谈覆盖 45+ 国家、5000 万+ 验证受访者，称可在 24 小时内交付洞察。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-19T05:02:03+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

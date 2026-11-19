@@ -1,0 +1,25 @@
+{
+  "id": "ff5e817db3ebd6cf",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2509.13323",
+  "title": "AI Behavioral Science: A Framework and Agenda",
+  "titleZh": "AI 行为科学：框架与研究议程",
+  "summaryZh": "arXiv 论文提出“AI 行为科学”框架，围绕评估 AI 行为、AI 改变人类行为研究方式及分析复杂人机交互系统列出研究议程。作者主张借鉴社会科学评估人类行为的工具，建模并推断 AI 的偏见、倾向与启发式。AI 还可用于模拟、推断、预测和分析人类行为，人机交互分析需覆盖个体、系统及社会层面的经济与政治结果。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-19T05:00:00+00:00",
+  "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

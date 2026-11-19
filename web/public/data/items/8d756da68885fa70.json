@@ -1,0 +1,28 @@
+{
+  "id": "8d756da68885fa70",
+  "sourceId": "maxqda",
+  "sourceName": "MAXQDA",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.maxqda.com/blogpost/mastering-large-projects-with-maxqda",
+  "title": "Mastering Large Projects with MAXQDA: How to Stay on Top of Large Volumes of Data",
+  "titleZh": "MAXQDA 如何驾驭大型项目中的海量数据",
+  "summaryZh": "MAXQDA 通过单项目文件、文档组/文档集/变量和激活机制，管理数百份文档、数万条编码片段的大型定性项目。它支持将调查数据导入为独立文档、对焦点小组转录自动编码，并用 Code Matrix Browser、Code Relations Browser、Crosstab 等查看编码模式。MAXQDA 是 Windows/macOS 桌面软件，内置 Teamwork 协作，TeamCloud 为付费附加组件。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [
+    "maxqda"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-17T14:21:39+00:00",
+  "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

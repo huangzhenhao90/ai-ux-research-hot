@@ -3,7 +3,7 @@
   "name": "行业报告",
   "group": "genre",
   "definition": "调研公司报告、行业协会规范与市场结构变化。",
-  "count": 21,
+  "count": 22,
   "items": [
     {
       "id": "7863554bbd864674",
@@ -401,6 +401,32 @@
       "itemType": null,
       "publishedAt": "2026-10-29T10:58:22+00:00",
       "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5f94bb672df5d514",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/financial-services-market-analysis-guide/",
+      "title": "Financial Services Customer Insights: 2026 Guide",
+      "titleZh": "Listen Labs《2026 金融服务客户洞察指南》",
+      "summaryZh": "Listen Labs 的《2026 金融服务客户洞察指南》梳理银行、投资与财富管理、保险、支付与金融科技四大板块。指南称 2025 年金融保险占美国 GDP 8.7%，2026 年 10 月美国商业银行总资产约 26.1 万亿美元。其 AI 主持定性访谈覆盖 45+ 国家、5000 万+ 验证受访者，称可在 24 小时内交付洞察。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-19T05:02:03+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

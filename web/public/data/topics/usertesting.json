@@ -3,7 +3,7 @@
   "name": "UserTesting",
   "group": "company",
   "definition": "UserTesting（含 UserZoom）的可用性测试与 AI 分析能力更新。",
-  "count": 15,
+  "count": 16,
   "items": [
     {
       "id": "50253980458a8a3a",
@@ -324,6 +324,36 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:01:31+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7590dfb511c24ddc",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-fast-ux-research-tools/",
+      "title": "Fast UX Research Tools That Save You Time in 2026",
+      "titleZh": "Listen Labs 盘点 2026 年快速 UX 研究工具：从招募到 AI 主持访谈与分析",
+      "summaryZh": "Listen Labs 在 2026 快速 UX 研究工具盘点中，把 AI 辅助设计、50M+ 验证样本库招募、AI 主持访谈与自动分析整合为一体化平台，并称 24 小时内交付报告。Maze、User Interviews、Dovetail 分别只加速无主持原型测试、招募和综合分析，仍需跨工具交接。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "可用性测试"
+      ],
+      "entities": [
+        "listen-labs",
+        "maze",
+        "usertesting",
+        "user-interviews",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-19T05:01:42+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

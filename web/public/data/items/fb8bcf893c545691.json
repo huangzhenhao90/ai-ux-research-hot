@@ -1,0 +1,30 @@
+{
+  "id": "fb8bcf893c545691",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/scaling-telecom-qualitative-research/",
+  "title": "Scaling Telecom Qualitative Research: A 4-Pillar Guide",
+  "titleZh": "Listen Labs：扩展电信定性研究的 4 支柱指南",
+  "summaryZh": "Listen Labs 提出用常驻样本库、AI 主持访谈、跨市场可比性和集中洞察治理四支柱扩展电信定性研究，将 4–6 周周期压到 24 小时内。其样本库按网络遥测和行为信号分层，Quality Guard 限制参与者每月最多参与 3 次研究；AI 主持访谈用自适应追问让回答长度达到平均的 3 倍。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "定性分析",
+    "招募/样本",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-19T05:02:09+00:00",
+  "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

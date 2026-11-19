@@ -1,5 +1,5 @@
 {
-  "count": 415,
+  "count": 426,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -475,6 +475,22 @@
       "sourceName": "UX Collective",
       "url": "https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4",
       "publishedAt": "2026-10-27T11:13:03+00:00"
+    },
+    {
+      "id": "e9b4f62a38c35c8e",
+      "title": "A Foundation Model to Measure and Predict Human Behaviour",
+      "titleZh": "研究提出 Chiron 基础模型，测量并预测人类行为",
+      "summaryZh": "研究团队提出 Chiron 基础模型，通过对 LLM 联合微调来表征心理构念、预测个体行为并对齐群体响应分布。训练与评估数据覆盖 36 个行为领域、78 个社会科学实验，含 288,307 条个人记录、1,411,750 条原子行为决策和 99,953 份心理测量评估，涉及 109 个心理构念。作者报告其个体行为预测较前沿 LLM 最高相对提升 28.4%，在社会科学实验仿真中的效应量估计误差降低 82.2%–94.3%。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "行为数据"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.24830",
+      "publishedAt": "2026-11-19T05:00:00+00:00"
     },
     {
       "id": "c3391f94467d3095",
@@ -1740,6 +1756,23 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/quirkos-3-is-released-best-qualitative-software/",
       "publishedAt": "2025-01-23T10:27:25+00:00"
+    },
+    {
+      "id": "7284c34ab7d8ac94",
+      "title": "支持研究者掌控AI辅助社交媒体分析：AI4OSN混合方法研究",
+      "titleZh": "AI4OSN 混合方法研究：支持研究者掌控 AI 辅助社交媒体分析",
+      "summaryZh": "AI4OSN 开发了保留研究者主导数据采集、相关性标注与解释流程的 AI 辅助社交媒体分析系统，将大模型作为可审查的建议资源。N=18 混合方法用户研究显示，其可用性高、认知负担低并增强标注信心；新手与 AI 一致度更高，提示应按专业水平设计核验机制。",
+      "tags": [
+        "论文/研究",
+        "文本分析/VOC",
+        "定性分析",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.22006v1",
+      "publishedAt": "2026-11-15T16:00:00+00:00"
     },
     {
       "id": "943741570c2c43e3",
@@ -3425,6 +3458,24 @@
       "publishedAt": "2026-10-08T13:12:29+00:00"
     },
     {
+      "id": "8d756da68885fa70",
+      "title": "Mastering Large Projects with MAXQDA: How to Stay on Top of Large Volumes of Data",
+      "titleZh": "MAXQDA 如何驾驭大型项目中的海量数据",
+      "summaryZh": "MAXQDA 通过单项目文件、文档组/文档集/变量和激活机制，管理数百份文档、数万条编码片段的大型定性项目。它支持将调查数据导入为独立文档、对焦点小组转录自动编码，并用 Code Matrix Browser、Code Relations Browser、Crosstab 等查看编码模式。MAXQDA 是 Windows/macOS 桌面软件，内置 Teamwork 协作，TeamCloud 为付费附加组件。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [
+        "maxqda"
+      ],
+      "category": "methods",
+      "sourceName": "MAXQDA",
+      "url": "https://www.maxqda.com/blogpost/mastering-large-projects-with-maxqda",
+      "publishedAt": "2026-11-17T14:21:39+00:00"
+    },
+    {
       "id": "52dbd9f788fb5745",
       "title": "Synthetic Respondent Platforms Compared: A Buyer’s Framework",
       "titleZh": "合成受访者平台对比：Listen Labs 的买方框架",
@@ -3599,6 +3650,22 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/customer-insights-platform-export-options/",
       "publishedAt": "2026-11-18T05:08:30+00:00"
+    },
+    {
+      "id": "f570d4b699b433f1",
+      "title": "利用生成式心理测量学评估音乐生成模型的评价方法",
+      "titleZh": "利用生成式心理测量学评估音乐生成模型的评价方法",
+      "summaryZh": "研究用生成式心理测量学梳理 2020—2025 年 ISMIR 音乐生成论文的主观评价题项，提炼出六个稳定质量维度。流程包括 LLM 抽取与人工校验、语义嵌入去冗余，以及用探索性图分析检验结构。六维为节奏、旋律、音频、作曲、结构与歌词，为可复现、可比较的用户评价协议提供基础。",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.21809v1",
+      "publishedAt": "2026-11-15T16:00:00+00:00"
     },
     {
       "id": "b97e6f256c387fd3",
@@ -3778,6 +3845,42 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/new-dovetail-experience/",
       "publishedAt": "2026-03-31T01:00:00+00:00"
+    },
+    {
+      "id": "5d964cfb887684a4",
+      "title": "AI Customer Interviews for Retail Teams & Shopper Insights",
+      "titleZh": "Listen Labs：面向零售团队的 AI 主持客户访谈与购物者洞察",
+      "summaryZh": "Listen Labs 的 AI 主持客户访谈面向零售团队，能实时追问并自动分析，在 24 小时内交付购物者洞察。其 Visual Insights 可观察屏幕行为，捕捉“说与做”矛盾；平台从 50M+ 验证受访者网络招募，覆盖 45+ 国家和 120+ 语言。自适应追问的洞察深度是开放式问卷问题的 4.8 倍；传统焦点小组 90 分钟一场需 $4,000-$12,000、耗时三到五周。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "市场研究",
+        "行为数据"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/ai-customer-interviews-retail-insights/",
+      "publishedAt": "2026-11-19T05:01:55+00:00"
+    },
+    {
+      "id": "fcbfb1baed83cc8a",
+      "title": "激活引导能否替代 LLM 数字孪生中的提示词情感预激活？",
+      "titleZh": "激活引导能否替代 Llama-3.1-8B 数字孪生中的提示词情感预激活？",
+      "summaryZh": "研究在 Llama-3.1-8B 数字孪生中比较真实情感提示与从人类写作提取的激活引导，检验后者能否替代写作式情感启动，结果显示替代效果依赖测量指标。注入效应随强度变化，在感恩场景某一强度可匹配提示，但会过冲且在控制感方向不对称。研究采用人类情感启动范式，对比人格化 LLM 的判断效应。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "提示词/模板",
+        "定性分析"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.22738v1",
+      "publishedAt": "2026-11-16T16:00:00+00:00"
     },
     {
       "id": "626dbdf74182d630",
@@ -4333,6 +4436,21 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/pixel-fing-the-new-chat-library/",
       "publishedAt": "2026-06-14T23:00:00+00:00"
+    },
+    {
+      "id": "ff5e817db3ebd6cf",
+      "title": "AI Behavioral Science: A Framework and Agenda",
+      "titleZh": "AI 行为科学：框架与研究议程",
+      "summaryZh": "arXiv 论文提出“AI 行为科学”框架，围绕评估 AI 行为、AI 改变人类行为研究方式及分析复杂人机交互系统列出研究议程。作者主张借鉴社会科学评估人类行为的工具，建模并推断 AI 的偏见、倾向与启发式。AI 还可用于模拟、推断、预测和分析人类行为，人机交互分析需覆盖个体、系统及社会层面的经济与政治结果。",
+      "tags": [
+        "观点/讨论",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2509.13323",
+      "publishedAt": "2026-11-19T05:00:00+00:00"
     },
     {
       "id": "0f4ca44b003884c1",
@@ -4966,6 +5084,26 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/queer-theory-and-qualitative-methods-an-unlikely-marriage/",
       "publishedAt": "2025-07-16T16:36:00+00:00"
+    },
+    {
+      "id": "fb8bcf893c545691",
+      "title": "Scaling Telecom Qualitative Research: A 4-Pillar Guide",
+      "titleZh": "Listen Labs：扩展电信定性研究的 4 支柱指南",
+      "summaryZh": "Listen Labs 提出用常驻样本库、AI 主持访谈、跨市场可比性和集中洞察治理四支柱扩展电信定性研究，将 4–6 周周期压到 24 小时内。其样本库按网络遥测和行为信号分层，Quality Guard 限制参与者每月最多参与 3 次研究；AI 主持访谈用自适应追问让回答长度达到平均的 3 倍。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/scaling-telecom-qualitative-research/",
+      "publishedAt": "2026-11-19T05:02:09+00:00"
     },
     {
       "id": "d1354f5802c5db75",
@@ -5646,6 +5784,29 @@
       "publishedAt": "2025-11-06T10:39:34+00:00"
     },
     {
+      "id": "7a2af23fcf12b944",
+      "title": "Best CPG Consumer Insights Companies In 2026: How To Choose",
+      "titleZh": "2026 年最佳 CPG 消费者洞察公司：如何选择",
+      "summaryZh": "Listen Labs 把 CPG 消费者洞察公司分为六类，并将自己列为规模化快速定性研究的首选。其 AI 主持一对一视频访谈已累计超过 100 万次，网络覆盖 50M+ 验证受访者、45+ 国家和 120+ 语言，称 24 小时内交付、成本约为传统研究的 1/3。零售测量企业订阅每年 7.5 万至 50 万美元以上。",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "nielsen",
+        "quantilope",
+        "ipsos",
+        "kantar"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-cpg-market-research-companies/",
+      "publishedAt": "2026-11-19T05:01:49+00:00"
+    },
+    {
       "id": "4b39e9c685d717cf",
       "title": "AI in Retail Consumer Insights: Top Tools & Trends 2026",
       "titleZh": "2026 年零售消费者洞察中的 AI：顶级工具与趋势",
@@ -6051,6 +6212,27 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/best-qualitative-research-software/",
       "publishedAt": "2026-10-22T05:00:45+00:00"
+    },
+    {
+      "id": "7590dfb511c24ddc",
+      "title": "Fast UX Research Tools That Save You Time in 2026",
+      "titleZh": "Listen Labs 盘点 2026 年快速 UX 研究工具：从招募到 AI 主持访谈与分析",
+      "summaryZh": "Listen Labs 在 2026 快速 UX 研究工具盘点中，把 AI 辅助设计、50M+ 验证样本库招募、AI 主持访谈与自动分析整合为一体化平台，并称 24 小时内交付报告。Maze、User Interviews、Dovetail 分别只加速无主持原型测试、招募和综合分析，仍需跨工具交接。",
+      "tags": [
+        "观点/讨论",
+        "可用性测试"
+      ],
+      "entities": [
+        "listen-labs",
+        "maze",
+        "usertesting",
+        "user-interviews",
+        "dovetail"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-fast-ux-research-tools/",
+      "publishedAt": "2026-11-19T05:01:42+00:00"
     },
     {
       "id": "4e04fd36f8f28cf3",
@@ -6661,6 +6843,23 @@
       "sourceName": "Ipsos",
       "url": "https://www.ipsos.com/en/context-changes-everything",
       "publishedAt": "2026-10-26T16:25:27+00:00"
+    },
+    {
+      "id": "5f94bb672df5d514",
+      "title": "Financial Services Customer Insights: 2026 Guide",
+      "titleZh": "Listen Labs《2026 金融服务客户洞察指南》",
+      "summaryZh": "Listen Labs 的《2026 金融服务客户洞察指南》梳理银行、投资与财富管理、保险、支付与金融科技四大板块。指南称 2025 年金融保险占美国 GDP 8.7%，2026 年 10 月美国商业银行总资产约 26.1 万亿美元。其 AI 主持定性访谈覆盖 45+ 国家、5000 万+ 验证受访者，称可在 24 小时内交付洞察。",
+      "tags": [
+        "行业报告",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "industry",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/financial-services-market-analysis-guide/",
+      "publishedAt": "2026-11-19T05:02:03+00:00"
     },
     {
       "id": "2cbc48e3d21b0b1a",

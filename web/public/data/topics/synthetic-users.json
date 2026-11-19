@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 88,
+  "count": 90,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -288,6 +288,31 @@
       "itemType": "opinion_analysis",
       "publishedAt": "2026-10-27T11:13:03+00:00",
       "discoveredAt": "2026-10-27T14:04:13.481977+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "e9b4f62a38c35c8e",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.24830",
+      "title": "A Foundation Model to Measure and Predict Human Behaviour",
+      "titleZh": "研究提出 Chiron 基础模型，测量并预测人类行为",
+      "summaryZh": "研究团队提出 Chiron 基础模型，通过对 LLM 联合微调来表征心理构念、预测个体行为并对齐群体响应分布。训练与评估数据覆盖 36 个行为领域、78 个社会科学实验，含 288,307 条个人记录、1,411,750 条原子行为决策和 99,953 份心理测量评估，涉及 109 个心理构念。作者报告其个体行为预测较前沿 LLM 最高相对提升 28.4%，在社会科学实验仿真中的效应量估计误差降低 82.2%–94.3%。",
+      "reason": "论文把心理测量、个体行为预测与群体实验仿真统一到一个模型里，并给出相对前沿 LLM 的误差对比。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "行为数据"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-19T05:00:00+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -1843,6 +1868,32 @@
       "itemType": null,
       "publishedAt": "2026-11-10T05:01:47+00:00",
       "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fcbfb1baed83cc8a",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.22738v1",
+      "title": "激活引导能否替代 LLM 数字孪生中的提示词情感预激活？",
+      "titleZh": "激活引导能否替代 Llama-3.1-8B 数字孪生中的提示词情感预激活？",
+      "summaryZh": "研究在 Llama-3.1-8B 数字孪生中比较真实情感提示与从人类写作提取的激活引导，检验后者能否替代写作式情感启动，结果显示替代效果依赖测量指标。注入效应随强度变化，在感恩场景某一强度可匹配提示，但会过冲且在控制感方向不对称。研究采用人类情感启动范式，对比人格化 LLM 的判断效应。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "提示词/模板",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-16T16:00:00+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 92,
+  "count": 95,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -900,6 +900,30 @@
       "relation": null
     },
     {
+      "id": "ff5e817db3ebd6cf",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2509.13323",
+      "title": "AI Behavioral Science: A Framework and Agenda",
+      "titleZh": "AI 行为科学：框架与研究议程",
+      "summaryZh": "arXiv 论文提出“AI 行为科学”框架，围绕评估 AI 行为、AI 改变人类行为研究方式及分析复杂人机交互系统列出研究议程。作者主张借鉴社会科学评估人类行为的工具，建模并推断 AI 的偏见、倾向与启发式。AI 还可用于模拟、推断、预测和分析人类行为，人机交互分析需覆盖个体、系统及社会层面的经济与政治结果。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-19T05:00:00+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "0f4ca44b003884c1",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1573,6 +1597,38 @@
       "relation": null
     },
     {
+      "id": "7a2af23fcf12b944",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-cpg-market-research-companies/",
+      "title": "Best CPG Consumer Insights Companies In 2026: How To Choose",
+      "titleZh": "2026 年最佳 CPG 消费者洞察公司：如何选择",
+      "summaryZh": "Listen Labs 把 CPG 消费者洞察公司分为六类，并将自己列为规模化快速定性研究的首选。其 AI 主持一对一视频访谈已累计超过 100 万次，网络覆盖 50M+ 验证受访者、45+ 国家和 120+ 语言，称 24 小时内交付、成本约为传统研究的 1/3。零售测量企业订阅每年 7.5 万至 50 万美元以上。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "nielsen",
+        "quantilope",
+        "ipsos",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-19T05:01:49+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "4b39e9c685d717cf",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1853,6 +1909,36 @@
       "itemType": null,
       "publishedAt": "2026-10-22T05:00:45+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "7590dfb511c24ddc",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-fast-ux-research-tools/",
+      "title": "Fast UX Research Tools That Save You Time in 2026",
+      "titleZh": "Listen Labs 盘点 2026 年快速 UX 研究工具：从招募到 AI 主持访谈与分析",
+      "summaryZh": "Listen Labs 在 2026 快速 UX 研究工具盘点中，把 AI 辅助设计、50M+ 验证样本库招募、AI 主持访谈与自动分析整合为一体化平台，并称 24 小时内交付报告。Maze、User Interviews、Dovetail 分别只加速无主持原型测试、招募和综合分析，仍需跨工具交接。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "可用性测试"
+      ],
+      "entities": [
+        "listen-labs",
+        "maze",
+        "usertesting",
+        "user-interviews",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-19T05:01:42+00:00",
+      "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

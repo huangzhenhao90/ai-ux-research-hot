@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Nov 2026 01:45:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 12:34:34 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>研究提出 Chiron 基础模型，测量并预测人类行为</title>
+      <link>https://arxiv.org/abs/2611.24830</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.24830</guid>
+      <pubDate>Thu, 19 Nov 2026 05:00:00 GMT</pubDate>
+      <description>研究团队提出 Chiron 基础模型，通过对 LLM 联合微调来表征心理构念、预测个体行为并对齐群体响应分布。训练与评估数据覆盖 36 个行为领域、78 个社会科学实验，含 288,307 条个人记录、1,411,750 条原子行为决策和 99,953 份心理测量评估，涉及 109 个心理构念。作者报告其个体行为预测较前沿 LLM 最高相对提升 28.4%，在社会科学实验仿真中的效应量估计误差降低 82.2%–94.3%。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
     <item>
       <title>Listen Labs 介绍如何在有限预算下开展初创公司客户研究</title>
       <link>https://listenlabs.com/articles/startup-market-research-on-budget/</link>
@@ -448,15 +457,6 @@
       <description>Listen Labs 增长负责人 Anish Rao 撰文给出用 AI 模拟顾客反应的分步流程，包括定义决策与假设、选择分群、构建模拟基础、记录推理过程、用真人验证以及报告标注数据来源。文中引用 Park 等人（arXiv:2411.10109）对 1,052 名美国人的研究，基于两小时访谈构建的智能体达到受访者自身两周重测一致性的 83%，仅按人口统计特征构建的智能体为 74%。ShopCART 基准基于 31,865 次真实购物会话发现，纯提示词的 LLM 智能体在真实购物动作上的精确匹配率仅 11.86%，过度购买比例为 25.2%，而真人为 3.3%。</description>
       <category>Listen Labs</category>
       <category>methods</category>
-    </item>
-    <item>
-      <title>Atlas of Human-AI Interaction 用 LLM 从 31,741 篇论文抽取 308,802 条论断构建交互知识图谱</title>
-      <link>https://arxiv.org/abs/2509.25499</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2509.25499</guid>
-      <pubDate>Mon, 26 Oct 2026 04:00:00 GMT</pubDate>
-      <description>论文提出一套组织实证发现的框架，结合 LLM 驱动的论断抽取、实体消解、分类体系生成与知识图谱构建，并保留与研究情境和来源的链接。作者以 Atlas of Human-AI Interaction 实例化该框架，组织来自 31,741 篇论文的 308,802 条论断，并提供交互界面用于浏览构念与已报告关系、核查证据。论文还给出描述性语料分析与一项探索性用户研究，考察这一表示如何支持研究者的意义建构，并指出改进空间。</description>
-      <category>arXiv cs.HC</category>
-      <category>research</category>
     </item>
   </channel>
 </rss>

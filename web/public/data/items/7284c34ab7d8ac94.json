@@ -1,0 +1,27 @@
+{
+  "id": "7284c34ab7d8ac94",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.22006v1",
+  "title": "支持研究者掌控AI辅助社交媒体分析：AI4OSN混合方法研究",
+  "titleZh": "AI4OSN 混合方法研究：支持研究者掌控 AI 辅助社交媒体分析",
+  "summaryZh": "AI4OSN 开发了保留研究者主导数据采集、相关性标注与解释流程的 AI 辅助社交媒体分析系统，将大模型作为可审查的建议资源。N=18 混合方法用户研究显示，其可用性高、认知负担低并增强标注信心；新手与 AI 一致度更高，提示应按专业水平设计核验机制。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "文本分析/VOC",
+    "定性分析",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-15T16:00:00+00:00",
+  "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
