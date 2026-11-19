@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-19T12:34:34.245349+00:00",
+  "generatedAt": "2026-11-19T22:56:09.093449+00:00",
   "categories": [
     {
       "key": "tools",
       "label": "工具",
       "section": "工具发布/更新",
       "commentary": false,
-      "count": 36
+      "count": 37
     },
     {
       "key": "methods",

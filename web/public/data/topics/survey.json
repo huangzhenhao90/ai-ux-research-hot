@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 93,
+  "count": 94,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -799,6 +799,33 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "1e3bc1afc02c69fd",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/quinns-evolution-to-fully-agentic-survey-creation",
+      "title": "quinn’s Evolution To Fully Agentic Survey Creation",
+      "titleZh": "quantilope 宣布 quinn 进化为全智能体问卷搭建引擎",
+      "summaryZh": "quantilope 宣布其 AI 研究伙伴 quinn 从辅助助手进化为全智能体引擎，用户只需给出业务目标，quinn 即可自主设计并搭建可直接投放的研究。文中列出自动配置的范围，包括受众甄别、复杂路由与逻辑自检、循环与分组管理、答案带入逻辑、品牌视觉嵌入和多国翻译设置。官方称客户任务完成时间已从一整个工作日缩短到几分钟，研究者仍可自行修改或要求 quinn 调整。",
+      "reason": "原文列出智能体自动完成甄别、路由与多国设置的具体环节，可供评估问卷搭建流程中哪些步骤可以交给 AI。",
+      "category": "tools",
+      "tags": [
+        "工具发布",
+        "问卷/定量",
+        "Agent"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": "tool_launch",
+      "publishedAt": "2026-11-19T19:30:50+00:00",
+      "discoveredAt": "2026-11-19T22:56:09.093449+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "followup"
     },
     {
       "id": "194a20915ff0389b",

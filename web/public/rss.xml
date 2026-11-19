@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Nov 2026 12:34:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 22:56:09 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>quantilope 宣布 quinn 进化为全智能体问卷搭建引擎</title>
+      <link>https://www.quantilope.com/resources/quinns-evolution-to-fully-agentic-survey-creation</link>
+      <guid isPermaLink="true">https://www.quantilope.com/resources/quinns-evolution-to-fully-agentic-survey-creation</guid>
+      <pubDate>Thu, 19 Nov 2026 19:30:50 GMT</pubDate>
+      <description>quantilope 宣布其 AI 研究伙伴 quinn 从辅助助手进化为全智能体引擎，用户只需给出业务目标，quinn 即可自主设计并搭建可直接投放的研究。文中列出自动配置的范围，包括受众甄别、复杂路由与逻辑自检、循环与分组管理、答案带入逻辑、品牌视觉嵌入和多国翻译设置。官方称客户任务完成时间已从一整个工作日缩短到几分钟，研究者仍可自行修改或要求 quinn 调整。</description>
+      <category>quantilope</category>
+      <category>tools</category>
+    </item>
     <item>
       <title>研究提出 Chiron 基础模型，测量并预测人类行为</title>
       <link>https://arxiv.org/abs/2611.24830</link>
@@ -446,15 +455,6 @@
       <guid isPermaLink="true">https://listenlabs.com/articles/ai-personas-usability-testing/</guid>
       <pubDate>Mon, 26 Oct 2026 05:07:24 GMT</pubDate>
       <description>Listen Labs 在一份指南中把 AI persona 定位为可用性测试的假设生成与分诊工具，而非证据来源。指南主张用行为特征而非人口标签构建 persona，并用显式反迎合提示词让模型报告摩擦点而不是给出好评。文中引用 NN/g 对比 120 名合成受访者与 604 名真人的结果，指出合成受访者的观点多样性明显更低；另引 Nogueira 等人的研究称多轮间接提问下迎合率中位数从 50% 升至 79%。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
-    </item>
-    <item>
-      <title>Listen Labs 分步讲解如何用 AI 模拟顾客反应</title>
-      <link>https://listenlabs.com/articles/simulate-customer-reactions-with-ai/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/simulate-customer-reactions-with-ai/</guid>
-      <pubDate>Mon, 26 Oct 2026 05:07:15 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 撰文给出用 AI 模拟顾客反应的分步流程，包括定义决策与假设、选择分群、构建模拟基础、记录推理过程、用真人验证以及报告标注数据来源。文中引用 Park 等人（arXiv:2411.10109）对 1,052 名美国人的研究，基于两小时访谈构建的智能体达到受访者自身两周重测一致性的 83%，仅按人口统计特征构建的智能体为 74%。ShopCART 基准基于 31,865 次真实购物会话发现，纯提示词的 LLM 智能体在真实购物动作上的精确匹配率仅 11.86%，过度购买比例为 25.2%，而真人为 3.3%。</description>
       <category>Listen Labs</category>
       <category>methods</category>
     </item>

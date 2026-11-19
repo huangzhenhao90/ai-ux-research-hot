@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T12:34:34.245349+00:00",
+  "generatedAt": "2026-11-19T22:56:09.093449+00:00",
   "groups": [
     {
       "key": "company",
@@ -107,7 +107,7 @@
       "name": "问卷与定量",
       "group": "field",
       "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-      "count": 93
+      "count": 94
     },
     {
       "slug": "qual-analysis",
