@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Nov 2026 22:56:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 06:04:03 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Squoosh Bench 用 318 个历史网站 A/B 测试评测 UX-1</title>
+      <link>https://arxiv.org/abs/2611.25200</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.25200</guid>
+      <pubDate>Fri, 20 Nov 2026 05:00:00 GMT</pubDate>
+      <description>研究团队用 318 个历史网站 A/B 测试评测模拟购物者模型 Squoosh UX-1，其正确分类 267 个结果（84.0%，95% Wilson 区间 79.5-87.6%），Qwen3 Next 80B 为 196 个（61.6%）。UX-1 判定变体胜出的 126 个实验中，118 个变体在线上获胜（93.7%），4 个失败、4 个结果不确定。评测从 412 个历史 A/B 测试中筛选出运行超过 21 天的 318 个，推理时屏蔽页面角色并隐藏实际结果。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
     <item>
       <title>quantilope 宣布 quinn 进化为全智能体问卷搭建引擎</title>
       <link>https://www.quantilope.com/resources/quinns-evolution-to-fully-agentic-survey-creation</link>
@@ -448,15 +457,6 @@
       <description>宣布 Channels 2.0 正式可用（GA），把营收、产品与团队上下文叠加到每一条客户反馈上。官方称，这让每个团队都能基于证据做决策</description>
       <category>Dovetail Blog</category>
       <category>tools</category>
-    </item>
-    <item>
-      <title>如何用 AI persona 做可用性测试：Listen Labs 完整指南</title>
-      <link>https://listenlabs.com/articles/ai-personas-usability-testing/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/ai-personas-usability-testing/</guid>
-      <pubDate>Mon, 26 Oct 2026 05:07:24 GMT</pubDate>
-      <description>Listen Labs 在一份指南中把 AI persona 定位为可用性测试的假设生成与分诊工具，而非证据来源。指南主张用行为特征而非人口标签构建 persona，并用显式反迎合提示词让模型报告摩擦点而不是给出好评。文中引用 NN/g 对比 120 名合成受访者与 604 名真人的结果，指出合成受访者的观点多样性明显更低；另引 Nogueira 等人的研究称多轮间接提问下迎合率中位数从 50% 升至 79%。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
     </item>
   </channel>
 </rss>

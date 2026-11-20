@@ -1,5 +1,5 @@
 {
-  "count": 427,
+  "count": 431,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -860,6 +860,22 @@
       "publishedAt": "2026-10-25T05:04:34+00:00"
     },
     {
+      "id": "90ba6109cbd277d7",
+      "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+      "titleZh": "Squoosh Bench 用 318 个历史网站 A/B 测试评测 UX-1",
+      "summaryZh": "研究团队用 318 个历史网站 A/B 测试评测模拟购物者模型 Squoosh UX-1，其正确分类 267 个结果（84.0%，95% Wilson 区间 79.5-87.6%），Qwen3 Next 80B 为 196 个（61.6%）。UX-1 判定变体胜出的 126 个实验中，118 个变体在线上获胜（93.7%），4 个失败、4 个结果不确定。评测从 412 个历史 A/B 测试中筛选出运行超过 21 天的 318 个，推理时屏蔽页面角色并隐藏实际结果。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "行为数据"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.25200",
+      "publishedAt": "2026-11-20T05:00:00+00:00"
+    },
+    {
       "id": "4e8f45dfecabdd91",
       "title": "How To Use Synthetic Audiences for Continuous Brand Tracking",
       "titleZh": "Listen Labs 如何用合成受众做持续品牌追踪",
@@ -1002,6 +1018,22 @@
       "sourceName": "arXiv",
       "url": "https://arxiv.org/abs/2610.30763v1",
       "publishedAt": "2026-10-21T16:00:00+00:00"
+    },
+    {
+      "id": "5b6a37fb7cc8f451",
+      "title": "Does AI Assistance Preserve or Collapse Disagreement? A Study of Pre-Annotations in Ambiguous Video Labeling",
+      "titleZh": "一项 arXiv 研究考察 AI 预标注会保留还是压缩模糊视频标注中的分歧",
+      "summaryZh": "一项 arXiv 预印本研究用 18 名标注者、180 次标注会话的对照试点，考察 CLIP 预标注引擎在模糊时序视频标注中的影响。固定 CLIP 预标注引擎使平均标注时间减少 23.11%，72% 的标注者在有辅助时更快，人均中位提升 35%。辅助提升了标注者间一致性和 CLIP 空间标准化，语义标签熵总体仅小幅变化，六名标注者的人工共识诊断显示两种条件下 AMI≈0.64，作者称该诊断自我包含、应作描述性解读。",
+      "tags": [
+        "论文/研究",
+        "多模态",
+        "转写/编码"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2510.21798",
+      "publishedAt": "2026-11-20T05:00:00+00:00"
     },
     {
       "id": "df5fef817f85e317",
@@ -1391,6 +1423,24 @@
       "sourceName": "UX Collective",
       "url": "https://uxdesign.cc/how-i-stopped-dreading-ai-and-started-studying-it-full-time-fee7afc2b967?source=rss----138adf9c44c---4",
       "publishedAt": "2026-10-28T23:24:01+00:00"
+    },
+    {
+      "id": "129e22b2618f759a",
+      "title": "Sycamore: Grounded Synthetic Evaluation for Visualization Systems",
+      "titleZh": "Sycamore：用基于访谈证据的合成用户评估可视化系统",
+      "summaryZh": "Sycamore 以受访谈证据约束的合成用户评估可视化系统，要求每条主张附参与者引用，检索不到相关证据时弃答。在多模态基因组学可视化搜索引擎 Geranium 上实例化，7 名基于既有访谈的评估者评估系统，产出多轮转录供定性编码。转录揭示源数据未出现的新需求，并与先前人类用户研究初步比较；合成评估者不能替代人类评估。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "定性分析",
+        "可用性测试",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2605.08630",
+      "publishedAt": "2026-11-20T05:00:00+00:00"
     },
     {
       "id": "da814f075ac36eca",
@@ -5478,6 +5528,23 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/how-to-cite-quirkos-materials/",
       "publishedAt": "2025-01-07T13:37:33+00:00"
+    },
+    {
+      "id": "88877e2ea09ab16f",
+      "title": "Modeling Learner-Technology Interaction Through Multilevel Gaze Transition Dynamics to Inform Usability in Online Learning",
+      "titleZh": "通过多层级注视转移动态建模学习者—技术交互，为在线学习可用性提供依据",
+      "summaryZh": "一项探索性多方法研究整合兴趣区转移、注视熵、幻灯片级导航与网络表示，分析 7 份高中生使用 AI 支持在线生物课的眼动记录，并辅以 3 场干预后焦点小组。结果显示学习者的幻灯片内注视分配与切换存在个体差异，虽共享导航路径，但回访和即时返回行为不同。焦点小组肯定互动材料与 AI 生成反馈，同时提出导航、界面清晰度和评估指引方面的可用性担忧。",
+      "tags": [
+        "论文/研究",
+        "可用性测试",
+        "行为数据",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.25294",
+      "publishedAt": "2026-11-20T05:00:00+00:00"
     },
     {
       "id": "b5b2f76971ce2fbd",

@@ -1,12 +1,37 @@
 {
-  "generatedAt": "2026-11-19T22:56:09.093449+00:00",
+  "generatedAt": "2026-11-20T06:04:03.653199+00:00",
   "windowDays": 3,
   "editionHour": 0,
   "days": [
     {
       "date": "2026-11-20",
-      "count": 1,
+      "count": 2,
       "items": [
+        {
+          "id": "90ba6109cbd277d7",
+          "sourceId": "arxiv-cs-hc",
+          "sourceName": "arXiv cs.HC",
+          "venue": null,
+          "tier": "T2",
+          "url": "https://arxiv.org/abs/2611.25200",
+          "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+          "titleZh": "Squoosh Bench 用 318 个历史网站 A/B 测试评测 UX-1",
+          "summaryZh": "研究团队用 318 个历史网站 A/B 测试评测模拟购物者模型 Squoosh UX-1，其正确分类 267 个结果（84.0%，95% Wilson 区间 79.5-87.6%），Qwen3 Next 80B 为 196 个（61.6%）。UX-1 判定变体胜出的 126 个实验中，118 个变体在线上获胜（93.7%），4 个失败、4 个结果不确定。评测从 412 个历史 A/B 测试中筛选出运行超过 21 天的 318 个，推理时屏蔽页面角色并隐藏实际结果。",
+          "reason": "研究以 318 个历史 A/B 测试比较模拟购物者模型与通用大模型的结果分类准确率，可供参考测试优先级的判定思路。",
+          "category": "research",
+          "tags": [
+            "论文/研究",
+            "合成用户",
+            "行为数据"
+          ],
+          "entities": [],
+          "itemType": "research_paper",
+          "publishedAt": "2026-11-20T05:00:00+00:00",
+          "discoveredAt": "2026-11-20T06:04:03.653199+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "followup"
+        },
         {
           "id": "1e3bc1afc02c69fd",
           "sourceId": "quantilope",

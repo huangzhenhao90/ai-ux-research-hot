@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 106,
+  "count": 108,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -465,6 +465,31 @@
       "relation": "different"
     },
     {
+      "id": "5b6a37fb7cc8f451",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2510.21798",
+      "title": "Does AI Assistance Preserve or Collapse Disagreement? A Study of Pre-Annotations in Ambiguous Video Labeling",
+      "titleZh": "一项 arXiv 研究考察 AI 预标注会保留还是压缩模糊视频标注中的分歧",
+      "summaryZh": "一项 arXiv 预印本研究用 18 名标注者、180 次标注会话的对照试点，考察 CLIP 预标注引擎在模糊时序视频标注中的影响。固定 CLIP 预标注引擎使平均标注时间减少 23.11%，72% 的标注者在有辅助时更快，人均中位提升 35%。辅助提升了标注者间一致性和 CLIP 空间标准化，语义标签熵总体仅小幅变化，六名标注者的人工共识诊断显示两种条件下 AMI≈0.64，作者称该诊断自我包含、应作描述性解读。",
+      "reason": "论文用 18 名标注者的对照试点分离多项指标，为判断 AI 预标注是否压缩标注分歧提供了可复用的审计协议。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "多模态",
+        "转写/编码"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-20T05:00:00+00:00",
+      "discoveredAt": "2026-11-20T06:04:03.653199+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "df5fef817f85e317",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -515,6 +540,33 @@
       "itemType": null,
       "publishedAt": "2026-10-28T23:24:01+00:00",
       "discoveredAt": "2026-10-29T03:46:48.732266+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "129e22b2618f759a",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2605.08630",
+      "title": "Sycamore: Grounded Synthetic Evaluation for Visualization Systems",
+      "titleZh": "Sycamore：用基于访谈证据的合成用户评估可视化系统",
+      "summaryZh": "Sycamore 以受访谈证据约束的合成用户评估可视化系统，要求每条主张附参与者引用，检索不到相关证据时弃答。在多模态基因组学可视化搜索引擎 Geranium 上实例化，7 名基于既有访谈的评估者评估系统，产出多轮转录供定性编码。转录揭示源数据未出现的新需求，并与先前人类用户研究初步比较；合成评估者不能替代人类评估。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "定性分析",
+        "可用性测试",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-20T05:00:00+00:00",
+      "discoveredAt": "2026-11-20T06:04:03.653199+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
