@@ -1,0 +1,29 @@
+{
+  "id": "30978e82ecbd7191",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-retail-consumer-insights-practices/",
+  "title": "Retail Consumer Insights Best Practices That Drive Action",
+  "titleZh": "Listen Labs：驱动行动的零售消费者洞察最佳实践",
+  "summaryZh": "Listen Labs 的零售消费者洞察最佳实践主张：研究要持续执行、绑定具名决策并按决策选方法。其引用的元分析发现，陈述支付意愿比真实支付高约 21%，conjoint 等间接方法高估更多，定价前需用交易数据验证。Listen Labs 组合优化案例中，得分最高的三个选项赢得 51% 购物者，优化组合赢得 87%。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "市场研究",
+    "问卷/定量"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-20T05:02:01+00:00",
+  "discoveredAt": "2026-11-20T16:45:54.869086+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "c871f7fbdc551d2c",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/kantar-brand-tracking-analysis/",
+  "title": "Kantar Brand Tracking Analysis: What It Measures & Misses",
+  "titleZh": "Kantar 品牌追踪分析：测量什么、遗漏什么",
+  "summaryZh": "Listen Labs 指出 Kantar 追踪 KPI 与 MDS 只记录变化、不解释原因，Pulse 用 KPI 加开放式对话补足诊断。MDS 含 Meaningful、Different、Salient，Meaningful Difference 贡献 94% 定价能力，needs-based salience 预测市场份额比无提示认知好 30%。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "市场研究",
+    "定性分析",
+    "问卷/定量"
+  ],
+  "entities": [
+    "listen-labs",
+    "kantar"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-20T05:02:09+00:00",
+  "discoveredAt": "2026-11-20T16:45:54.869086+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 20 Nov 2026 06:04:03 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 16:45:54 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 梳理受访者报酬区间与支付实践</title>
+      <link>https://listenlabs.com/articles/user-testing-participant-incentives/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/user-testing-participant-incentives/</guid>
+      <pubDate>Fri, 20 Nov 2026 05:01:43 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 撰写指南，汇总不同研究类型与受众的受访者报酬区间，并梳理支付方式和缺席预留预算。文中列出的区间包括短时非主持式任务 $5–$75、主持式消费者访谈 $60–$125/小时，以及 B2B 或高管访谈 $100–$600/小时，并建议按目标完成数多招募 19–25% 以覆盖缺席。支付方式上，数字礼品卡是北美默认选项，DACH 和 Benelux 市场常预期银行转账；国际支付还会带来额外费用、货币转换成本和税务预扣要求。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Squoosh Bench 用 318 个历史网站 A/B 测试评测 UX-1</title>
       <link>https://arxiv.org/abs/2611.25200</link>
@@ -448,15 +457,6 @@
       <description>MeasuringU 与 UXPA 的 2026 UX 薪资调查共收集 24 个国家 383 份样本，UX 从业者薪资中位数为 $143K，较 2024 年的 $120K 高 19%。同期通胀为 6.3%，通胀调整后实际增幅约 12%；样本中美国占比由 67% 升至 82%，也抬高了整体中位数。关键驱动因素的回归模型解释了 73% 的薪资差异，地区影响最大，美国中位数 $153K，英国 $100K、加拿大 $81K、德国 $68K；页面附薪资计算器。</description>
       <category>MeasuringU（Jeff Sauro）</category>
       <category>research</category>
-    </item>
-    <item>
-      <title>Channels 2.0 正式可用，为各团队提供统一的客户上下文层</title>
-      <link>https://dovetail.com/blog/channels-2-is-generally-available/</link>
-      <guid isPermaLink="true">https://dovetail.com/blog/channels-2-is-generally-available/</guid>
-      <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
-      <description>宣布 Channels 2.0 正式可用（GA），把营收、产品与团队上下文叠加到每一条客户反馈上。官方称，这让每个团队都能基于证据做决策</description>
-      <category>Dovetail Blog</category>
-      <category>tools</category>
     </item>
   </channel>
 </rss>

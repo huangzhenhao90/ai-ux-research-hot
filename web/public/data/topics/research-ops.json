@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 73,
+  "count": 74,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -473,6 +473,36 @@
       "status": "listed",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "2bcd97f71b517682",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/user-testing-participant-incentives/",
+      "title": "Research Participant Incentives: Rates & Best Practices",
+      "titleZh": "Listen Labs 梳理受访者报酬区间与支付实践",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰写指南，汇总不同研究类型与受众的受访者报酬区间，并梳理支付方式和缺席预留预算。文中列出的区间包括短时非主持式任务 $5–$75、主持式消费者访谈 $60–$125/小时，以及 B2B 或高管访谈 $100–$600/小时，并建议按目标完成数多招募 19–25% 以覆盖缺席。支付方式上，数字礼品卡是北美默认选项，DACH 和 Benelux 市场常预期银行转账；国际支付还会带来额外费用、货币转换成本和税务预扣要求。",
+      "reason": "原文汇总不同研究类型与受众的受访者报酬区间及支付方式，并给出缺席预留的预算口径供团队核算招募成本。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "conveo",
+        "user-interviews",
+        "great-question"
+      ],
+      "itemType": "tutorial_explainer",
+      "publishedAt": "2026-11-20T05:01:43+00:00",
+      "discoveredAt": "2026-11-20T16:45:54.869086+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "d8770b9635a8b9b8",

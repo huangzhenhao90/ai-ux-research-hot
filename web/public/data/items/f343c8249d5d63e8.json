@@ -1,0 +1,28 @@
+{
+  "id": "f343c8249d5d63e8",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/food-beverage-customer-surveys-guide/",
+  "title": "Food And Beverage Customer Surveys: A Decision-First Guide",
+  "titleZh": "Listen Labs 餐饮顾客调研指南：从决策出发设计问卷",
+  "summaryZh": "Listen Labs 提出决策优先的餐饮顾客调研方法：先明确问卷要服务的菜单调整、服务速度、价格价值、门店表现四类决策，再倒推题目。指南按食品质量、服务与速度、价格与价值等五类问题给出题面，建议问卷控制在 3–5 道评分题加一个开放评论框。Intouch Insight 对 1,831 名北美消费者的调查显示，奖励是完成问卷首要原因（66%），即时触达为 46%。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "问卷/定量",
+    "市场研究"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-20T05:01:49+00:00",
+  "discoveredAt": "2026-11-20T16:45:54.869086+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

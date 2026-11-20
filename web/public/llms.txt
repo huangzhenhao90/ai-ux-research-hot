@@ -15,6 +15,7 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 
 ## 最新精选
 
+- [Listen Labs 梳理受访者报酬区间与支付实践](https://listenlabs.com/articles/user-testing-participant-incentives/)：Listen Labs 增长负责人 Anish Rao 撰写指南，汇总不同研究类型与受众的受访者报酬区间，并梳理支付方式和缺席预留预算。文中列出的区间包括短时非主持式任务 $5–$75、主持式消费者访谈 $60–$125/小时，以及 B2…（Listen Labs，2026-11-20）
 - [Squoosh Bench 用 318 个历史网站 A/B 测试评测 UX-1](https://arxiv.org/abs/2611.25200)：研究团队用 318 个历史网站 A/B 测试评测模拟购物者模型 Squoosh UX-1，其正确分类 267 个结果（84.0%，95% Wilson 区间 79.5-87.6%），Qwen3 Next 80B 为 196 个（61.6%…（arXiv cs.HC，2026-11-20）
 - [quantilope 宣布 quinn 进化为全智能体问卷搭建引擎](https://www.quantilope.com/resources/quinns-evolution-to-fully-agentic-survey-creation)：quantilope 宣布其 AI 研究伙伴 quinn 从辅助助手进化为全智能体引擎，用户只需给出业务目标，quinn 即可自主设计并搭建可直接投放的研究。文中列出自动配置的范围，包括受众甄别、复杂路由与逻辑自检、循环与分组管理、答案带…（quantilope，2026-11-19）
 - [研究提出 Chiron 基础模型，测量并预测人类行为](https://arxiv.org/abs/2611.24830)：研究团队提出 Chiron 基础模型，通过对 LLM 联合微调来表征心理构念、预测个体行为并对齐群体响应分布。训练与评估数据覆盖 36 个行为领域、78 个社会科学实验，含 288,307 条个人记录、1,411,750 条原子行为决策和…（arXiv cs.HC，2026-11-19）
@@ -44,6 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [智能体卡在人类同样会绕过的糟糕 UX 上](https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4)：在 Deck 负责计算机使用智能体的作者根据数千次智能体运行记录提出，智能体卡住的地方几乎都是人也卡住的地方，只是人会用猜测、重试和问同事把它掩盖过去。失败集中在标签含糊、状态隐藏、弹窗打断、会话超时和成功没有提示这几类，与屏幕阅读器等辅…（UX Collective，2026-11-03）
 - [Listen Labs 详解合成受访者虚拟焦点小组的四类失效模式与五步验证流程](https://listenlabs.com/articles/virtual-focus-groups-synthetic-respondents/)：Listen Labs 发布指南，拆解合成受访者虚拟焦点小组的三步运行方式、四类失效模式与五步验证流程。指南引用 Pew Research Center 2026 年 9 月 30 日的方法学研究，称 AI 数字孪生受访者在个体层面约 5…（Listen Labs，2026-11-03）
 - [LLM 合成人群研究：人物角色并非人，身份是状态而非属性](https://arxiv.org/abs/2611.05292v1)：一篇聚焦 LLM 合成人群的研究指出，固定人格模拟难以复现具体情境中的群体行为，并提出以人在情境中为核心的评估标准与设计方法。研究区分稳定特质、情境唤起的身份与情境本身，并在 Reddit 语料及临床试验招募调查上验证。（ur-ai-papers（用户与交互 AI 论文库），2026-11-03）
-- [Listen Labs 解析合成品牌认知测试的准确性与局限](https://listenlabs.com/articles/synthetic-research-brand-awareness-testing/)：Listen Labs 发文解析合成品牌认知测试，结论是合成数据只在聚合层面近似辅助认知和熟悉度，不能可靠测量无提示回忆、首选认知和跨时间认知变化。文章引用 STRAT7 2026 年对约 3,000 名英国受访者的基准测试称，总体品牌认…（Listen Labs，2026-11-02）
 
-（更多 73 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 74 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
