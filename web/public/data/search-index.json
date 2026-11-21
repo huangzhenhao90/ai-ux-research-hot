@@ -1,5 +1,5 @@
 {
-  "count": 446,
+  "count": 447,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -7196,6 +7196,18 @@
       "sourceName": "Ipsos",
       "url": "https://www.ipsos.com/en/context-changes-everything",
       "publishedAt": "2026-10-26T16:25:27+00:00"
+    },
+    {
+      "id": "efbf2c88b2353581",
+      "title": "The judge used to be the user",
+      "titleZh": "评判者曾经是用户：AI 压缩了模型构建的缓慢中段",
+      "summaryZh": "AI 压缩了模型构建过程中原本缓慢的中间环节，那些曾经界定「什么算正确」的人也随这一环节一同退场。UX Collective 的评论文章《评判者曾经是用户》聚焦这一角色变化。",
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-11-21T14:34:16+00:00"
     },
     {
       "id": "5f94bb672df5d514",
