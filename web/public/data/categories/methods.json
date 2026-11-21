@@ -3,7 +3,7 @@
   "label": "方法",
   "section": "方法与实践",
   "commentary": true,
-  "count": 168,
+  "count": 170,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -902,6 +902,29 @@
       "itemType": null,
       "publishedAt": "2026-10-27T04:00:00+00:00",
       "discoveredAt": "2026-10-27T04:02:06.317224+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "bad31994bad0bf76",
+      "sourceId": "jmmr",
+      "sourceName": "Journal of Mixed Methods Research",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261506807?ai=2b4&mi=ehikzz&af=R",
+      "title": "The Advanced Mixed Methods Research Notation System (MMR-NS): A Framework for Transparent Reporting of Mixed Methods Research Incorporating Big Data and Machine Learning",
+      "titleZh": "高级混合方法研究符号系统（MMR-NS）：面向大数据与机器学习的透明报告框架",
+      "summaryZh": "MMR-NS 是一套用于纳入大数据与机器学习的混合方法研究透明报告的符号系统框架，相关文章已在《Journal of Mixed Methods Research》Ahead of Print 刊出。文章指出，大数据使用给混合方法研究者带来严谨性与诚信挑战，效度风险直接涉及过拟合、欠拟合和黑箱问题。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-20T09:13:59+00:00",
+      "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2740,6 +2763,33 @@
       "itemType": null,
       "publishedAt": "2026-07-09T16:21:19+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "053f38f47f1520ad",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Qualitative User-Research Methods: An Overview",
+      "titleZh": "定性用户研究方法概览",
+      "summaryZh": "的定性用户研究方法概览梳理了可用性测试、用户访谈、田野研究（含情境调查）和日记研究 4 种常用方法。文章与《定量用户研究方法概览》配套，并对每种方法的成本和难度给出粗略、相对估计。实际成本取决于工具、参与者和方法适配方式",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "可用性测试"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-20T18:00:00+00:00",
+      "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

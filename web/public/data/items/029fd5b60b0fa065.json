@@ -1,0 +1,29 @@
+{
+  "id": "029fd5b60b0fa065",
+  "sourceId": "cint",
+  "sourceName": "Cint",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.cint.com/blog/what-happens-when-your-biggest-customer-is-an-ai-agent/",
+  "title": "What happens when your biggest customer is an AI agent?",
+  "titleZh": "Cint 谈当最大客户是 AI 智能体：市场研究购买方式如何变化",
+  "summaryZh": "Cint的Lindsay Fordham在Insight Platforms网络研讨会上讨论AI智能体成为研究买家，称95%的Cint客户常用AI。其agentic sampling workflow在beta，MCP可让Claude接入CRM等数据，将投标与项目设置从数小时/数天缩短到数分钟，但上线前需人工审核。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "Agent",
+    "市场研究",
+    "招募/样本"
+  ],
+  "entities": [
+    "cint"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-20T21:49:45+00:00",
+  "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

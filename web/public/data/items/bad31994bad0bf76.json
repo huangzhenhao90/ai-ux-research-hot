@@ -1,0 +1,24 @@
+{
+  "id": "bad31994bad0bf76",
+  "sourceId": "jmmr",
+  "sourceName": "Journal of Mixed Methods Research",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261506807?ai=2b4&mi=ehikzz&af=R",
+  "title": "The Advanced Mixed Methods Research Notation System (MMR-NS): A Framework for Transparent Reporting of Mixed Methods Research Incorporating Big Data and Machine Learning",
+  "titleZh": "高级混合方法研究符号系统（MMR-NS）：面向大数据与机器学习的透明报告框架",
+  "summaryZh": "MMR-NS 是一套用于纳入大数据与机器学习的混合方法研究透明报告的符号系统框架，相关文章已在《Journal of Mixed Methods Research》Ahead of Print 刊出。文章指出，大数据使用给混合方法研究者带来严谨性与诚信挑战，效度风险直接涉及过拟合、欠拟合和黑箱问题。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-20T09:13:59+00:00",
+  "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T16:45:54.869086+00:00",
+  "generatedAt": "2026-11-21T01:08:12.511089+00:00",
   "groups": [
     {
       "key": "company",
@@ -51,7 +51,7 @@
       "name": "Nielsen Norman Group",
       "group": "company",
       "definition": "NN/g 的 UX 研究方法文章与 AI 对设计研究影响的判断。",
-      "count": 18
+      "count": 20
     },
     {
       "slug": "ipsos",
@@ -114,7 +114,7 @@
       "name": "定性分析",
       "group": "field",
       "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-      "count": 110
+      "count": 111
     },
     {
       "slug": "voc",
@@ -128,14 +128,14 @@
       "name": "可用性测试",
       "group": "field",
       "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-      "count": 21
+      "count": 22
     },
     {
       "slug": "research-ops",
       "name": "洞察库与 ResearchOps",
       "group": "field",
       "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-      "count": 74
+      "count": 75
     },
     {
       "slug": "ethics",
@@ -156,14 +156,14 @@
       "name": "论文",
       "group": "genre",
       "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-      "count": 93
+      "count": 94
     },
     {
       "slug": "methods",
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 169
+      "count": 171
     },
     {
       "slug": "prompts",

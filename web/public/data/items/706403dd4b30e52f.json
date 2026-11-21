@@ -1,0 +1,27 @@
+{
+  "id": "706403dd4b30e52f",
+  "sourceId": "nngroup",
+  "sourceName": "Nielsen Norman Group",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+  "title": "Can AI Generate Good Designs from Raw User Data?",
+  "titleZh": "研究 AI 仅凭原始用户评论能否生成好设计",
+  "summaryZh": "让 AI 模型完成两个设计任务，比较把原始用户评论与整合后的发现和建议作为研究上下文时，哪种情况下生成的设计更好，结果发现后者更好。两个任务分别是重新预订已取消航班的一页表单和在线商店的多步骤结账流程；每个任务的提示词和设计系统信息保持不变，只改变提供的研究上下文类型",
+  "reason": "NN/g 的最新研究用两个设计任务比较原始用户评论与整合后的发现和建议，后者让 AI 生成的界面设计更好。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "NN/g"
+  ],
+  "entities": [
+    "nngroup"
+  ],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-20T18:00:00+00:00",
+  "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

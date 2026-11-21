@@ -1,0 +1,28 @@
+{
+  "id": "053f38f47f1520ad",
+  "sourceId": "nngroup",
+  "sourceName": "Nielsen Norman Group",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+  "title": "Qualitative User-Research Methods: An Overview",
+  "titleZh": "定性用户研究方法概览",
+  "summaryZh": "的定性用户研究方法概览梳理了可用性测试、用户访谈、田野研究（含情境调查）和日记研究 4 种常用方法。文章与《定量用户研究方法概览》配套，并对每种方法的成本和难度给出粗略、相对估计。实际成本取决于工具、参与者和方法适配方式",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "可用性测试"
+  ],
+  "entities": [
+    "nngroup"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-20T18:00:00+00:00",
+  "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

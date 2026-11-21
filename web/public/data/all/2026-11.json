@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "count": 184,
+  "count": 189,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -1033,6 +1033,29 @@
       "relation": "different"
     },
     {
+      "id": "bad31994bad0bf76",
+      "sourceId": "jmmr",
+      "sourceName": "Journal of Mixed Methods Research",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/15586898261506807?ai=2b4&mi=ehikzz&af=R",
+      "title": "The Advanced Mixed Methods Research Notation System (MMR-NS): A Framework for Transparent Reporting of Mixed Methods Research Incorporating Big Data and Machine Learning",
+      "titleZh": "高级混合方法研究符号系统（MMR-NS）：面向大数据与机器学习的透明报告框架",
+      "summaryZh": "MMR-NS 是一套用于纳入大数据与机器学习的混合方法研究透明报告的符号系统框架，相关文章已在《Journal of Mixed Methods Research》Ahead of Print 刊出。文章指出，大数据使用给混合方法研究者带来严谨性与诚信挑战，效度风险直接涉及过拟合、欠拟合和黑箱问题。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-20T09:13:59+00:00",
+      "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "4db34341e2f3feed",
       "sourceId": "uxdesign-cc",
       "sourceName": "UX Collective",
@@ -1054,6 +1077,32 @@
       "status": "listed",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "706403dd4b30e52f",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Can AI Generate Good Designs from Raw User Data?",
+      "titleZh": "研究 AI 仅凭原始用户评论能否生成好设计",
+      "summaryZh": "让 AI 模型完成两个设计任务，比较把原始用户评论与整合后的发现和建议作为研究上下文时，哪种情况下生成的设计更好，结果发现后者更好。两个任务分别是重新预订已取消航班的一页表单和在线商店的多步骤结账流程；每个任务的提示词和设计系统信息保持不变，只改变提供的研究上下文类型",
+      "reason": "NN/g 的最新研究用两个设计任务比较原始用户评论与整合后的发现和建议，后者让 AI 生成的界面设计更好。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "NN/g"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-20T18:00:00+00:00",
+      "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "2f69de9fa15668d7",
@@ -1817,6 +1866,34 @@
       "itemType": null,
       "publishedAt": "2026-11-10T14:00:00+00:00",
       "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "029fd5b60b0fa065",
+      "sourceId": "cint",
+      "sourceName": "Cint",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.cint.com/blog/what-happens-when-your-biggest-customer-is-an-ai-agent/",
+      "title": "What happens when your biggest customer is an AI agent?",
+      "titleZh": "Cint 谈当最大客户是 AI 智能体：市场研究购买方式如何变化",
+      "summaryZh": "Cint的Lindsay Fordham在Insight Platforms网络研讨会上讨论AI智能体成为研究买家，称95%的Cint客户常用AI。其agentic sampling workflow在beta，MCP可让Claude接入CRM等数据，将投标与项目设置从数小时/数天缩短到数分钟，但上线前需人工审核。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "Agent",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-20T21:49:45+00:00",
+      "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2610,6 +2687,33 @@
       "itemType": null,
       "publishedAt": "2026-11-02T05:05:41+00:00",
       "discoveredAt": "2026-11-02T17:55:39.509478+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "053f38f47f1520ad",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Qualitative User-Research Methods: An Overview",
+      "titleZh": "定性用户研究方法概览",
+      "summaryZh": "的定性用户研究方法概览梳理了可用性测试、用户访谈、田野研究（含情境调查）和日记研究 4 种常用方法。文章与《定量用户研究方法概览》配套，并对每种方法的成本和难度给出粗略、相对估计。实际成本取决于工具、参与者和方法适配方式",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "可用性测试"
+      ],
+      "entities": [
+        "nngroup"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-20T18:00:00+00:00",
+      "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -4945,6 +5049,29 @@
       "itemType": null,
       "publishedAt": "2026-11-10T08:50:30+00:00",
       "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "c5fedf822610d527",
+      "sourceId": "prodege",
+      "sourceName": "Prodege",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.prodege.com/resources/case-study/insights/from-supplier-to-strategic-partner/",
+      "title": "From Supplier to Strategic Partner – How Prodege Helped DEWALT Empower the Next Generation of Tradespeople",
+      "titleZh": "从供应商到战略合作伙伴：Prodege 如何帮助 DEWALT 赋能下一代行业技工",
+      "summaryZh": "Prodege 从供应商转变为 DEWALT 的战略合作伙伴，并帮助 DEWALT 赋能下一代行业技工。合作围绕支持下一代行业技工展开，体现供应商关系向战略伙伴关系的演进。",
+      "reason": null,
+      "category": null,
+      "tags": [],
+      "entities": [
+        "prodege"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-20T18:35:51+00:00",
+      "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
