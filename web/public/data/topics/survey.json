@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 97,
+  "count": 98,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -2485,6 +2485,38 @@
       "itemType": null,
       "publishedAt": "2026-07-09T16:51:21+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3a7c0cf7e48101b4",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/what-is-market-research-platform/",
+      "title": "What Is a Market Research Platform? Types & Costs",
+      "titleZh": "什么是市场研究平台？四种类型与成本",
+      "summaryZh": "市场研究平台将参与者招募、数据收集、分析和报告集中于一个系统。文章分其为端到端 AI 访谈、问卷与定量、样本库与招募、分析与洞察库四类；Listen Labs 属于端到端 AI 访谈平台，覆盖 50M+ 验证受访者、45+ 国家和 120+ 语言。其 AI 主持访谈可在 24 小时内交付幻灯片、备忘录和精彩片段，并已完成超 100 万次 AI 访谈。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "定性分析",
+        "问卷/定量",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-21T05:01:25+00:00",
+      "discoveredAt": "2026-11-21T12:12:57.608845+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

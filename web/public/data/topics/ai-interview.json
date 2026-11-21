@@ -3,7 +3,7 @@
   "name": "AI 访谈",
   "group": "field",
   "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-  "count": 104,
+  "count": 107,
   "items": [
     {
       "id": "fb5f5b4c25f7223f",
@@ -668,6 +668,35 @@
       "status": "selected",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "220c19f2b84b2b88",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-screen-sharing/",
+      "title": "Screen-Shared Customer Insights: A Practitioner’s Guide",
+      "titleZh": "Listen Labs 发布共享屏幕用户研究的实践者指南",
+      "summaryZh": "Listen Labs 发布一份共享屏幕用户研究的实践者指南，给出从任务与成功标准设定、限定共享窗口、准备测试账号到书面同意的分步流程。文中称其 Visual Insights 可在访谈中实时识别屏幕行为与口头表述的矛盾，重定向偏题的参与者，并生成逐秒打标的行为日志。文中引用 Nielsen Norman Group 对 113 组界面对比的分析，称用户自述偏好与实测表现的相关性仅 0.44。",
+      "reason": "文中给出共享屏幕研究的分步流程与同意记录、测试账号等安全边界，可直接迁移到可用性测试的执行流程。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "行为数据",
+        "研究伦理",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-11-21T05:01:19+00:00",
+      "discoveredAt": "2026-11-21T12:12:57.608845+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "58ed5db709425bda",
@@ -1775,6 +1804,38 @@
       "relation": null
     },
     {
+      "id": "6c4bdc26518db35e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-voice-of-customer-software/",
+      "title": "Voice of Customer Software Compared: Find Your Fit",
+      "titleZh": "VoC 软件对比：Listen Labs、Qualtrics 与 Medallia 如何选型",
+      "summaryZh": "在 VoC 软件对比中，Listen Labs 被定位为 AI 主导定性研究平台，选型按问卷套件、反馈分析和 AI 主导定性研究三类展开。Listen Labs 以 50M+ 验证受访者、45+ 国家和 120+ 语言支持 AI 主持访谈，把研究周期压到不到 24 小时，而传统定性研究需 4–6 周。Qualtrics 的问卷部署通常需 3–6 个月，企业级高级分析年合同常达六位数。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "定性分析",
+        "市场研究",
+        "Qualtrics",
+        "Medallia"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "medallia"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-21T05:01:53+00:00",
+      "discoveredAt": "2026-11-21T12:12:57.608845+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "10f9cc0e7897a987",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1947,6 +2008,34 @@
       "itemType": null,
       "publishedAt": "2026-11-11T05:03:34+00:00",
       "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "856bd108267a6e89",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/affordable-qualitative-research-startups/",
+      "title": "Affordable Qualitative Research For Startups: DIY to AI",
+      "titleZh": "Listen Labs：创业公司可负担定性研究的 DIY 到 AI 路径对比",
+      "summaryZh": "Listen Labs 把 AI 主持访谈、50M+ 验证受访者网络和自动分析整合到一个平台，提供 24 小时内交付、成本约传统研究三分之一的定性研究方案。其 Research Agent 自动生成主题、用户画像和统计检验；建议每细分招募 8–15 人，并指出 DIY 免费工具仍把招募、主持和编码负担留给创始人。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-21T05:01:58+00:00",
+      "discoveredAt": "2026-11-21T12:12:57.608845+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

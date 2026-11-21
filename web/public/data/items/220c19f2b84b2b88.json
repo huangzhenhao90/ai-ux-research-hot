@@ -1,0 +1,30 @@
+{
+  "id": "220c19f2b84b2b88",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/customer-insights-platform-screen-sharing/",
+  "title": "Screen-Shared Customer Insights: A Practitioner’s Guide",
+  "titleZh": "Listen Labs 发布共享屏幕用户研究的实践者指南",
+  "summaryZh": "Listen Labs 发布一份共享屏幕用户研究的实践者指南，给出从任务与成功标准设定、限定共享窗口、准备测试账号到书面同意的分步流程。文中称其 Visual Insights 可在访谈中实时识别屏幕行为与口头表述的矛盾，重定向偏题的参与者，并生成逐秒打标的行为日志。文中引用 Nielsen Norman Group 对 113 组界面对比的分析，称用户自述偏好与实测表现的相关性仅 0.44。",
+  "reason": "文中给出共享屏幕研究的分步流程与同意记录、测试账号等安全边界，可直接迁移到可用性测试的执行流程。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "可用性测试",
+    "行为数据",
+    "研究伦理",
+    "AI 访谈"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-11-21T05:01:19+00:00",
+  "discoveredAt": "2026-11-21T12:12:57.608845+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

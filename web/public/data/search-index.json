@@ -1,5 +1,5 @@
 {
-  "count": 441,
+  "count": 446,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -2326,6 +2326,26 @@
       "publishedAt": "2025-05-09T09:46:24+00:00"
     },
     {
+      "id": "220c19f2b84b2b88",
+      "title": "Screen-Shared Customer Insights: A Practitioner’s Guide",
+      "titleZh": "Listen Labs 发布共享屏幕用户研究的实践者指南",
+      "summaryZh": "Listen Labs 发布一份共享屏幕用户研究的实践者指南，给出从任务与成功标准设定、限定共享窗口、准备测试账号到书面同意的分步流程。文中称其 Visual Insights 可在访谈中实时识别屏幕行为与口头表述的矛盾，重定向偏题的参与者，并生成逐秒打标的行为日志。文中引用 Nielsen Norman Group 对 113 组界面对比的分析，称用户自述偏好与实测表现的相关性仅 0.44。",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "行为数据",
+        "研究伦理",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-screen-sharing/",
+      "publishedAt": "2026-11-21T05:01:19+00:00"
+    },
+    {
       "id": "58ed5db709425bda",
       "title": "The Startup Customer Research Checklist (5 Phases)",
       "titleZh": "Listen Labs 给出创业公司客户研究五阶段清单",
@@ -3100,6 +3120,24 @@
       "sourceName": "Nielsen Norman Group",
       "url": "https://www.nngroup.com/articles/designing-ai-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
       "publishedAt": "2026-09-18T17:00:00+00:00"
+    },
+    {
+      "id": "14e12a26e1057bf2",
+      "title": "Self-Serve Qualitative Interviews: A Complete Guide",
+      "titleZh": "Listen Labs 自助定性访谈完整指南",
+      "summaryZh": "Listen Labs 的《自助定性访谈完整指南》介绍如何借助 50M+ 参与者网络和 AI 主持访谈，在 45+ 国家、120+ 语言中规模化执行定性研究。随机试验显示其受访者词数约为书面调查开放题的 4.8 倍，约 80% 深度优势来自自适应追问；平台称回应长度比平均长 3x。Quality Guard 实时监测欺诈、低投入回答与重复受访者，参与者每月最多参与 3 项研究。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/self-serve-qualitative-interviews-guide/",
+      "publishedAt": "2026-11-21T05:01:47+00:00"
     },
     {
       "id": "029fd5b60b0fa065",
@@ -5018,6 +5056,29 @@
       "publishedAt": "2025-10-08T13:04:00+00:00"
     },
     {
+      "id": "6c4bdc26518db35e",
+      "title": "Voice of Customer Software Compared: Find Your Fit",
+      "titleZh": "VoC 软件对比：Listen Labs、Qualtrics 与 Medallia 如何选型",
+      "summaryZh": "在 VoC 软件对比中，Listen Labs 被定位为 AI 主导定性研究平台，选型按问卷套件、反馈分析和 AI 主导定性研究三类展开。Listen Labs 以 50M+ 验证受访者、45+ 国家和 120+ 语言支持 AI 主持访谈，把研究周期压到不到 24 小时，而传统定性研究需 4–6 周。Qualtrics 的问卷部署通常需 3–6 个月，企业级高级分析年合同常达六位数。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "定性分析",
+        "市场研究",
+        "Qualtrics",
+        "Medallia"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "medallia"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-voice-of-customer-software/",
+      "publishedAt": "2026-11-21T05:01:53+00:00"
+    },
+    {
       "id": "19a71996d15eeb58",
       "title": "Scrolling Into Balance: What Social Media Really Does to Gen Z’s Health Paradox",
       "titleZh": "Prodege 与 First & First Consulting 研究：社交媒体到底如何影响 Z 世代健康悖论",
@@ -5477,6 +5538,25 @@
       "sourceName": "Behaviour & Information Technology",
       "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2623945?af=R",
       "publishedAt": "2026-02-03T12:24:32+00:00"
+    },
+    {
+      "id": "856bd108267a6e89",
+      "title": "Affordable Qualitative Research For Startups: DIY to AI",
+      "titleZh": "Listen Labs：创业公司可负担定性研究的 DIY 到 AI 路径对比",
+      "summaryZh": "Listen Labs 把 AI 主持访谈、50M+ 验证受访者网络和自动分析整合到一个平台，提供 24 小时内交付、成本约传统研究三分之一的定性研究方案。其 Research Agent 自动生成主题、用户画像和统计检验；建议每细分招募 8–15 人，并指出 DIY 免费工具仍把招募、主持和编码负担留给创始人。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/affordable-qualitative-research-startups/",
+      "publishedAt": "2026-11-21T05:01:58+00:00"
     },
     {
       "id": "21b2efb0c76446e3",
@@ -6976,6 +7056,29 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2596752?af=R",
       "publishedAt": "2025-12-11T07:43:15+00:00"
+    },
+    {
+      "id": "3a7c0cf7e48101b4",
+      "title": "What Is a Market Research Platform? Types & Costs",
+      "titleZh": "什么是市场研究平台？四种类型与成本",
+      "summaryZh": "市场研究平台将参与者招募、数据收集、分析和报告集中于一个系统。文章分其为端到端 AI 访谈、问卷与定量、样本库与招募、分析与洞察库四类；Listen Labs 属于端到端 AI 访谈平台，覆盖 50M+ 验证受访者、45+ 国家和 120+ 语言。其 AI 主持访谈可在 24 小时内交付幻灯片、备忘录和精彩片段，并已完成超 100 万次 AI 访谈。",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "定性分析",
+        "问卷/定量",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "dovetail"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/what-is-market-research-platform/",
+      "publishedAt": "2026-11-21T05:01:25+00:00"
     },
     {
       "id": "1fe6a7b3a6f9c323",

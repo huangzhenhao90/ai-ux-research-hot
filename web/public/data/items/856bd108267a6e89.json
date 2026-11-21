@@ -1,0 +1,29 @@
+{
+  "id": "856bd108267a6e89",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/affordable-qualitative-research-startups/",
+  "title": "Affordable Qualitative Research For Startups: DIY to AI",
+  "titleZh": "Listen Labs：创业公司可负担定性研究的 DIY 到 AI 路径对比",
+  "summaryZh": "Listen Labs 把 AI 主持访谈、50M+ 验证受访者网络和自动分析整合到一个平台，提供 24 小时内交付、成本约传统研究三分之一的定性研究方案。其 Research Agent 自动生成主题、用户画像和统计检验；建议每细分招募 8–15 人，并指出 DIY 免费工具仍把招募、主持和编码负担留给创始人。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "定性分析",
+    "招募/样本"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-21T05:01:58+00:00",
+  "discoveredAt": "2026-11-21T12:12:57.608845+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

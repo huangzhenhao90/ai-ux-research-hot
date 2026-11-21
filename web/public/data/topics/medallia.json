@@ -3,7 +3,7 @@
   "name": "Medallia",
   "group": "company",
   "definition": "Medallia 的体验与反馈分析产品更新。",
-  "count": 5,
+  "count": 6,
   "items": [
     {
       "id": "22164f1907bfe9e3",
@@ -62,6 +62,38 @@
       "itemType": null,
       "publishedAt": "2026-11-18T05:08:30+00:00",
       "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6c4bdc26518db35e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-voice-of-customer-software/",
+      "title": "Voice of Customer Software Compared: Find Your Fit",
+      "titleZh": "VoC 软件对比：Listen Labs、Qualtrics 与 Medallia 如何选型",
+      "summaryZh": "在 VoC 软件对比中，Listen Labs 被定位为 AI 主导定性研究平台，选型按问卷套件、反馈分析和 AI 主导定性研究三类展开。Listen Labs 以 50M+ 验证受访者、45+ 国家和 120+ 语言支持 AI 主持访谈，把研究周期压到不到 24 小时，而传统定性研究需 4–6 周。Qualtrics 的问卷部署通常需 3–6 个月，企业级高级分析年合同常达六位数。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "定性分析",
+        "市场研究",
+        "Qualtrics",
+        "Medallia"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "medallia"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-21T05:01:53+00:00",
+      "discoveredAt": "2026-11-21T12:12:57.608845+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
