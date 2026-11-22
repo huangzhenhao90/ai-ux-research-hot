@@ -1,0 +1,24 @@
+{
+  "id": "05bf2cc9a557d74d",
+  "sourceId": "uxdesign-cc",
+  "sourceName": "UX Collective",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
+  "title": "The attack of the giant AI design slop monster: a survivor’s guide",
+  "titleZh": "巨型 AI 设计垃圾怪兽来袭：UX 设计师生存指南",
+  "summaryZh": "作者在伦敦大学城市圣乔治人机交互设计年会演讲后撰文，给出 UX 设计师应对 AI 设计垃圾的生存指南。84% 开发者用 AI 写代码；产品经理与开发者分别用 Claude Code 生成 UI，后者经 MCP 把 Figma 直喂 Claude Code，可能绕过设计系统并影响 focus states，该 UI 产出从 3 个月缩到 3 天。作者建议用用户研究、skeleton UI、最低 UI 门槛和快速 QA 约束 AI 设计。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-22T11:36:59+00:00",
+  "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "4d0e5fc9634a854a",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/affordable-fb-market-research-startups/",
+  "title": "Affordable Food & Beverage Consumer Insights for Startups",
+  "titleZh": "Listen Labs：食品饮料初创企业的可负担消费者洞察平台",
+  "summaryZh": "Listen Labs 为食品饮料初创企业提供 AI 主持访谈的消费者洞察平台，连接 50M+ 验证受访者，覆盖 45+ 国家和 120+ 语言，称 24 小时内交付结果，成本约为传统研究三分之一。初创企业可先用 USDA ERS、Census AIES 等免费数据估算 TAM/SAM/SOM，再用 20–30 场访谈验证购买意愿。传统 20 场一对一访谈成本 $4,000–$10,000，Listen Labs 称可整合招募、主持、转录和分析。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "招募/样本",
+    "定性分析"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-22T05:05:11+00:00",
+  "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

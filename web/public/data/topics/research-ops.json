@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 78,
+  "count": 80,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -1157,6 +1157,34 @@
       "relation": null
     },
     {
+      "id": "4d0e5fc9634a854a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/affordable-fb-market-research-startups/",
+      "title": "Affordable Food & Beverage Consumer Insights for Startups",
+      "titleZh": "Listen Labs：食品饮料初创企业的可负担消费者洞察平台",
+      "summaryZh": "Listen Labs 为食品饮料初创企业提供 AI 主持访谈的消费者洞察平台，连接 50M+ 验证受访者，覆盖 45+ 国家和 120+ 语言，称 24 小时内交付结果，成本约为传统研究三分之一。初创企业可先用 USDA ERS、Census AIES 等免费数据估算 TAM/SAM/SOM，再用 20–30 场访谈验证购买意愿。传统 20 场一对一访谈成本 $4,000–$10,000，Listen Labs 称可整合招募、主持、转录和分析。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-22T05:05:11+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "ba7cb117e7c61fa6",
       "sourceId": "dovetail-blog",
       "sourceName": "Dovetail Blog",
@@ -1787,6 +1815,36 @@
       "itemType": null,
       "publishedAt": "2026-11-12T05:00:30+00:00",
       "discoveredAt": "2026-11-12T16:38:15.630649+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "77681f14cd8e1c14",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-cpg-consumer-insights-companies/",
+      "title": "Top CPG Consumer Insights Companies: A Buyer’s Guide",
+      "titleZh": "顶级 CPG 消费者洞察公司买家指南：Listen Labs、NielsenIQ、Kantar 等按研究需求分类",
+      "summaryZh": "Listen Labs 的 CPG 消费者洞察买家指南将 Listen Labs 推荐为 AI 主持定性研究首选。指南称可从 50M+ 验证受访者网络、45+ 国家、120+ 语言招募，结果在 24 小时内交付。客户含 P&G、Nestlé、Skims、Levi's，已完成超 100 万次 AI 主持访谈。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar",
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-22T05:01:17+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

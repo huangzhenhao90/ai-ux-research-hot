@@ -1,0 +1,34 @@
+{
+  "id": "924c411b1089eaad",
+  "sourceId": "uxdesign-cc",
+  "sourceName": "UX Collective",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://uxdesign.cc/prototypes-have-always-been-the-most-effective-specification-10162107b2ee?source=rss----138adf9c44c---4",
+  "title": "Prototypes have always been the most effective specification-especially with AI",
+  "titleZh": "原型一直是最有效的规格说明，AI 让这一点更明显",
+  "summaryZh": "当做出可运行原型只需一个下午，规格文档的位置应挪到原型之后，用来记录已经被验证的决策。UX Tools 对 1,478 名设计师的调查中，59.1% 在过去六个月用 AI 做过自己的工具、应用或小工具；Figma 2026 AI Report 的 8,403 份回答显示，参与开发的设计师比例翻倍至 41%。文中还以微软 2002 年的 RITE 方法为例，说明边测边改能让最终文档描述已经观察到的行为。",
+  "reason": "文章用 RITE 方法和持续发现的每周节奏，说明原型先于规格文档后，研究流程与研究者的角色要如何调整。",
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "可用性测试"
+  ],
+  "entities": [],
+  "itemType": "opinion_analysis",
+  "publishedAt": "2026-11-22T11:36:31+00:00",
+  "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+  "status": "duplicate",
+  "dupOf": "1e3bc1afc02c69fd",
+  "relation": "same",
+  "related": [
+    {
+      "id": "1e3bc1afc02c69fd",
+      "title": "quinn’s Evolution To Fully Agentic Survey Creation",
+      "titleZh": "quantilope 宣布 quinn 进化为全智能体问卷搭建引擎",
+      "sourceName": "quantilope",
+      "url": "https://www.quantilope.com/resources/quinns-evolution-to-fully-agentic-survey-creation",
+      "publishedAt": "2026-11-19T19:30:50+00:00"
+    }
+  ]
+}

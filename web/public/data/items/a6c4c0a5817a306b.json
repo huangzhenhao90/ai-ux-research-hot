@@ -24,5 +24,14 @@
   "status": "selected",
   "dupOf": null,
   "relation": "different",
-  "related": []
+  "related": [
+    {
+      "id": "2d6e6583eec93e28",
+      "title": "Synthetic Micro-research: What Organisations Ask once Respondents Cost Nothing",
+      "titleZh": "合成微型研究：895 个企业项目日志显示受访者零成本后企业都在问什么",
+      "sourceName": "International Journal of Market Research",
+      "url": "https://doi.org/10.1177/14707853261510910",
+      "publishedAt": "2026-11-16T16:00:00+00:00"
+    }
+  ]
 }

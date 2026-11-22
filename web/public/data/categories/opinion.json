@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 98,
+  "count": 102,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -1344,6 +1344,35 @@
       "relation": null
     },
     {
+      "id": "94432b06e21ef21a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-qualitative-research-software-beginners/",
+      "title": "Best Qualitative Research Software for Beginners",
+      "titleZh": "面向初学者的定性研究软件推荐：Listen Labs 对比 ATLAS.ti、NVivo 等",
+      "summaryZh": "Listen Labs 被列为初学者定性研究软件首选，整合研究设计、招募、AI 主持访谈与分析，宣称不到 24 小时交付结果。它提供 50M+ 验证受访者网络和 120+ 访谈语言，Research Agent 可自动生成主题与发现。ATLAS.ti 与 NVivo 学生许可约 $130/年，Taguette、QualCoder 免费开源。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "maxqda",
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-22T05:01:11+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "21b2efb0c76446e3",
       "sourceId": "dynata",
       "sourceName": "Dynata",
@@ -1652,6 +1681,36 @@
       "itemType": null,
       "publishedAt": "2026-05-19T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "77681f14cd8e1c14",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-cpg-consumer-insights-companies/",
+      "title": "Top CPG Consumer Insights Companies: A Buyer’s Guide",
+      "titleZh": "顶级 CPG 消费者洞察公司买家指南：Listen Labs、NielsenIQ、Kantar 等按研究需求分类",
+      "summaryZh": "Listen Labs 的 CPG 消费者洞察买家指南将 Listen Labs 推荐为 AI 主持定性研究首选。指南称可从 50M+ 验证受访者网络、45+ 国家、120+ 语言招募，结果在 24 小时内交付。客户含 P&G、Nestlé、Skims、Levi's，已完成超 100 万次 AI 主持访谈。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar",
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-22T05:01:17+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2035,6 +2094,32 @@
       "relation": null
     },
     {
+      "id": "904c85a2c61086ad",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-global-telecom-research-reports/",
+      "title": "Global Telecom Customer Insights Reports for Enterprise",
+      "titleZh": "Listen Labs：面向企业战略的全球电信客户洞察报告与一手研究",
+      "summaryZh": "Listen Labs 梳理面向企业战略的全球电信客户洞察报告，纳入 Omdia、Deloitte 等五份二手研究，并以 AI 主持访谈补足一手买家证据。其访谈覆盖 45+ 国家和 120+ 语言，依托 50M+ 验证受访者网络，24 小时内交付分析结果；Omdia 1H26 覆盖 50 国与九条服务线，另两份报告免费。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-22T05:05:17+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "def47d91bb8fef1b",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2196,6 +2281,37 @@
       "itemType": null,
       "publishedAt": "2026-06-22T23:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "da044940a80465c9",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/financial-services-customer-research-software/",
+      "title": "Financial Services Customer Research Software: Buyer’s Guide",
+      "titleZh": "Listen Labs：金融服务客户研究软件买家指南",
+      "summaryZh": "Listen Labs 在金融服务客户研究软件买家指南中被列为主推平台，可借 50M+ 验证受访者网络开展 120+ 语言 AI 主持访谈，并在 24 小时内交付分析。它持有 SOC 2 Type II、ISO 27001、ISO 27701、ISO 42001 认证，已完成超 100 万次 AI 客户访谈，服务约 15% 的 Fortune 100。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "合成用户",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-22T05:05:05+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

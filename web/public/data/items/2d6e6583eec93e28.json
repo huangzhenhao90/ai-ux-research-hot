@@ -1,0 +1,35 @@
+{
+  "id": "2d6e6583eec93e28",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "International Journal of Market Research",
+  "venue": "International Journal of Market Research",
+  "tier": "T2",
+  "url": "https://doi.org/10.1177/14707853261510910",
+  "title": "Synthetic Micro-research: What Organisations Ask once Respondents Cost Nothing",
+  "titleZh": "合成微型研究：895 个企业项目日志显示受访者零成本后企业都在问什么",
+  "summaryZh": "一项对 895 个企业合成受访者项目使用日志的分析发现，多数项目由非研究人员发起，中位 3.9 小时即可获得结果。这些项目的主要用途是概念筛选和客户、市场描述，支撑低成本、低风险的微型市场决策。",
+  "reason": "日志数据呈现了合成受访者在企业内的实际使用分布，可对照自身研究流程判断这类微型研究的适用场景。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "市场研究"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-16T16:00:00+00:00",
+  "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+  "status": "duplicate",
+  "dupOf": "a6c4c0a5817a306b",
+  "relation": "same",
+  "related": [
+    {
+      "id": "a6c4c0a5817a306b",
+      "title": "How To Do Startup Customer Research on a Budget",
+      "titleZh": "Listen Labs 介绍如何在有限预算下开展初创公司客户研究",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/startup-market-research-on-budget/",
+      "publishedAt": "2026-11-18T05:09:30+00:00"
+    }
+  ]
+}

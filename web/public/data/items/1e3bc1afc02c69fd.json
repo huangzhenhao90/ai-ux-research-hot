@@ -24,5 +24,14 @@
   "status": "selected",
   "dupOf": null,
   "relation": "followup",
-  "related": []
+  "related": [
+    {
+      "id": "924c411b1089eaad",
+      "title": "Prototypes have always been the most effective specification-especially with AI",
+      "titleZh": "原型一直是最有效的规格说明，AI 让这一点更明显",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/prototypes-have-always-been-the-most-effective-specification-10162107b2ee?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-11-22T11:36:31+00:00"
+    }
+  ]
 }

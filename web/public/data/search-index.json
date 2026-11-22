@@ -1,5 +1,5 @@
 {
-  "count": 447,
+  "count": 454,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -1878,6 +1878,22 @@
       "publishedAt": "2026-11-19T19:30:50+00:00"
     },
     {
+      "id": "3d4fb189912801cc",
+      "title": "AI作为锚点：访谈排序与设计教育中对合成利益相关者声音的挪用之关系",
+      "titleZh": "AI作为锚点：访谈排序与设计教育中对合成利益相关者声音的挪用之关系",
+      "summaryZh": "一项针对设计课程 8 个团队的田野研究调整了 AI 与真实利益相关者的访谈顺序，发现顺序会影响 AI 所起的作用。AI 先访会提供宽泛框架并被后续人类访谈修正；人类先访时 AI 主要用于复核生活经验，最终设计更多回应人类关切。研究结合访谈与课程反思分析。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "定性分析"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.22740v1",
+      "publishedAt": "2026-11-16T16:00:00+00:00"
+    },
+    {
       "id": "7284c34ab7d8ac94",
       "title": "支持研究者掌控AI辅助社交媒体分析：AI4OSN混合方法研究",
       "titleZh": "AI4OSN 混合方法研究：支持研究者掌控 AI 辅助社交媒体分析",
@@ -3408,6 +3424,20 @@
       "publishedAt": "2025-11-26T05:49:55+00:00"
     },
     {
+      "id": "05bf2cc9a557d74d",
+      "title": "The attack of the giant AI design slop monster: a survivor’s guide",
+      "titleZh": "巨型 AI 设计垃圾怪兽来袭：UX 设计师生存指南",
+      "summaryZh": "作者在伦敦大学城市圣乔治人机交互设计年会演讲后撰文，给出 UX 设计师应对 AI 设计垃圾的生存指南。84% 开发者用 AI 写代码；产品经理与开发者分别用 Claude Code 生成 UI，后者经 MCP 把 Figma 直喂 Claude Code，可能绕过设计系统并影响 focus states，该 UI 产出从 3 个月缩到 3 天。作者建议用用户研究、skeleton UI、最低 UI 门槛和快速 QA 约束 AI 设计。",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-11-22T11:36:59+00:00"
+    },
+    {
       "id": "6bd3ef4be4d07313",
       "title": "利用多元主体扩大AI政策公众参与规模",
       "titleZh": "利用多元 AI 智能体扩大 AI 政策公众参与规模",
@@ -4006,6 +4036,25 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/ultimate-guide-comparing-qualitative-coding-software/",
       "publishedAt": "2025-12-16T00:00:00+00:00"
+    },
+    {
+      "id": "4d0e5fc9634a854a",
+      "title": "Affordable Food & Beverage Consumer Insights for Startups",
+      "titleZh": "Listen Labs：食品饮料初创企业的可负担消费者洞察平台",
+      "summaryZh": "Listen Labs 为食品饮料初创企业提供 AI 主持访谈的消费者洞察平台，连接 50M+ 验证受访者，覆盖 45+ 国家和 120+ 语言，称 24 小时内交付结果，成本约为传统研究三分之一。初创企业可先用 USDA ERS、Census AIES 等免费数据估算 TAM/SAM/SOM，再用 20–30 场访谈验证购买意愿。传统 20 场一对一访谈成本 $4,000–$10,000，Listen Labs 称可整合招募、主持、转录和分析。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/affordable-fb-market-research-startups/",
+      "publishedAt": "2026-11-22T05:05:11+00:00"
     },
     {
       "id": "f343c8249d5d63e8",
@@ -5540,6 +5589,26 @@
       "publishedAt": "2026-02-03T12:24:32+00:00"
     },
     {
+      "id": "94432b06e21ef21a",
+      "title": "Best Qualitative Research Software for Beginners",
+      "titleZh": "面向初学者的定性研究软件推荐：Listen Labs 对比 ATLAS.ti、NVivo 等",
+      "summaryZh": "Listen Labs 被列为初学者定性研究软件首选，整合研究设计、招募、AI 主持访谈与分析，宣称不到 24 小时交付结果。它提供 50M+ 验证受访者网络和 120+ 访谈语言，Research Agent 可自动生成主题与发现。ATLAS.ti 与 NVivo 学生许可约 $130/年，Taguette、QualCoder 免费开源。",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "maxqda",
+        "quirkos"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-qualitative-research-software-beginners/",
+      "publishedAt": "2026-11-22T05:01:11+00:00"
+    },
+    {
       "id": "856bd108267a6e89",
       "title": "Affordable Qualitative Research For Startups: DIY to AI",
       "titleZh": "Listen Labs：创业公司可负担定性研究的 DIY 到 AI 路径对比",
@@ -6094,6 +6163,27 @@
       "publishedAt": "2025-11-06T10:39:34+00:00"
     },
     {
+      "id": "77681f14cd8e1c14",
+      "title": "Top CPG Consumer Insights Companies: A Buyer’s Guide",
+      "titleZh": "顶级 CPG 消费者洞察公司买家指南：Listen Labs、NielsenIQ、Kantar 等按研究需求分类",
+      "summaryZh": "Listen Labs 的 CPG 消费者洞察买家指南将 Listen Labs 推荐为 AI 主持定性研究首选。指南称可从 50M+ 验证受访者网络、45+ 国家、120+ 语言招募，结果在 24 小时内交付。客户含 P&G、Nestlé、Skims、Levi's，已完成超 100 万次 AI 主持访谈。",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar",
+        "ipsos"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-cpg-consumer-insights-companies/",
+      "publishedAt": "2026-11-22T05:01:17+00:00"
+    },
+    {
       "id": "7a2af23fcf12b944",
       "title": "Best CPG Consumer Insights Companies In 2026: How To Choose",
       "titleZh": "2026 年最佳 CPG 消费者洞察公司：如何选择",
@@ -6642,6 +6732,23 @@
       "publishedAt": "2024-10-04T05:36:52+00:00"
     },
     {
+      "id": "904c85a2c61086ad",
+      "title": "Global Telecom Customer Insights Reports for Enterprise",
+      "titleZh": "Listen Labs：面向企业战略的全球电信客户洞察报告与一手研究",
+      "summaryZh": "Listen Labs 梳理面向企业战略的全球电信客户洞察报告，纳入 Omdia、Deloitte 等五份二手研究，并以 AI 主持访谈补足一手买家证据。其访谈覆盖 45+ 国家和 120+ 语言，依托 50M+ 验证受访者网络，24 小时内交付分析结果；Omdia 1H26 覆盖 50 国与九条服务线，另两份报告免费。",
+      "tags": [
+        "观点/讨论",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-global-telecom-research-reports/",
+      "publishedAt": "2026-11-22T05:05:17+00:00"
+    },
+    {
       "id": "a5b48ff12dfdf829",
       "title": "Self-Serve Qualitative Research Tools: Run the Whole Study",
       "titleZh": "自助式定性研究工具按生命周期排序：Listen Labs 覆盖全流程",
@@ -6915,6 +7022,28 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/voc-program-fragmentation-problem/",
       "publishedAt": "2026-06-22T23:00:00+00:00"
+    },
+    {
+      "id": "da044940a80465c9",
+      "title": "Financial Services Customer Research Software: Buyer’s Guide",
+      "titleZh": "Listen Labs：金融服务客户研究软件买家指南",
+      "summaryZh": "Listen Labs 在金融服务客户研究软件买家指南中被列为主推平台，可借 50M+ 验证受访者网络开展 120+ 语言 AI 主持访谈，并在 24 小时内交付分析。它持有 SOC 2 Type II、ISO 27001、ISO 27701、ISO 42001 认证，已完成超 100 万次 AI 客户访谈，服务约 15% 的 Fortune 100。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "合成用户",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/financial-services-customer-research-software/",
+      "publishedAt": "2026-11-22T05:05:05+00:00"
     },
     {
       "id": "7daf22f7064f11de",

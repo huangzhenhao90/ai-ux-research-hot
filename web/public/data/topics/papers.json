@@ -3,7 +3,7 @@
   "name": "论文",
   "group": "genre",
   "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-  "count": 94,
+  "count": 95,
   "items": [
     {
       "id": "fb5f5b4c25f7223f",
@@ -936,6 +936,31 @@
       "itemType": null,
       "publishedAt": "2026-11-05T16:00:00+00:00",
       "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3d4fb189912801cc",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.22740v1",
+      "title": "AI作为锚点：访谈排序与设计教育中对合成利益相关者声音的挪用之关系",
+      "titleZh": "AI作为锚点：访谈排序与设计教育中对合成利益相关者声音的挪用之关系",
+      "summaryZh": "一项针对设计课程 8 个团队的田野研究调整了 AI 与真实利益相关者的访谈顺序，发现顺序会影响 AI 所起的作用。AI 先访会提供宽泛框架并被后续人类访谈修正；人类先访时 AI 主要用于复核生活经验，最终设计更多回应人类关切。研究结合访谈与课程反思分析。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-16T16:00:00+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

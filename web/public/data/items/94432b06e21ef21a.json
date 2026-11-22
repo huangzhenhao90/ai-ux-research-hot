@@ -1,0 +1,30 @@
+{
+  "id": "94432b06e21ef21a",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-qualitative-research-software-beginners/",
+  "title": "Best Qualitative Research Software for Beginners",
+  "titleZh": "面向初学者的定性研究软件推荐：Listen Labs 对比 ATLAS.ti、NVivo 等",
+  "summaryZh": "Listen Labs 被列为初学者定性研究软件首选，整合研究设计、招募、AI 主持访谈与分析，宣称不到 24 小时交付结果。它提供 50M+ 验证受访者网络和 120+ 访谈语言，Research Agent 可自动生成主题与发现。ATLAS.ti 与 NVivo 学生许可约 $130/年，Taguette、QualCoder 免费开源。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "定性分析",
+    "AI 访谈"
+  ],
+  "entities": [
+    "listen-labs",
+    "maxqda",
+    "quirkos"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-22T05:01:11+00:00",
+  "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

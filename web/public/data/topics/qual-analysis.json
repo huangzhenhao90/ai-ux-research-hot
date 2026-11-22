@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 115,
+  "count": 119,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -700,6 +700,31 @@
       "publishedAt": "2025-01-23T10:27:25+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3d4fb189912801cc",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.22740v1",
+      "title": "AI作为锚点：访谈排序与设计教育中对合成利益相关者声音的挪用之关系",
+      "titleZh": "AI作为锚点：访谈排序与设计教育中对合成利益相关者声音的挪用之关系",
+      "summaryZh": "一项针对设计课程 8 个团队的田野研究调整了 AI 与真实利益相关者的访谈顺序，发现顺序会影响 AI 所起的作用。AI 先访会提供宽泛框架并被后续人类访谈修正；人类先访时 AI 主要用于复核生活经验，最终设计更多回应人类关切。研究结合访谈与课程反思分析。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "定性分析"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-16T16:00:00+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": null
     },
@@ -1600,6 +1625,34 @@
       "relation": null
     },
     {
+      "id": "4d0e5fc9634a854a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/affordable-fb-market-research-startups/",
+      "title": "Affordable Food & Beverage Consumer Insights for Startups",
+      "titleZh": "Listen Labs：食品饮料初创企业的可负担消费者洞察平台",
+      "summaryZh": "Listen Labs 为食品饮料初创企业提供 AI 主持访谈的消费者洞察平台，连接 50M+ 验证受访者，覆盖 45+ 国家和 120+ 语言，称 24 小时内交付结果，成本约为传统研究三分之一。初创企业可先用 USDA ERS、Census AIES 等免费数据估算 TAM/SAM/SOM，再用 20–30 场访谈验证购买意愿。传统 20 场一对一访谈成本 $4,000–$10,000，Listen Labs 称可整合招募、主持、转录和分析。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-22T05:05:11+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "5d964cfb887684a4",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2345,6 +2398,35 @@
       "relation": null
     },
     {
+      "id": "94432b06e21ef21a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-qualitative-research-software-beginners/",
+      "title": "Best Qualitative Research Software for Beginners",
+      "titleZh": "面向初学者的定性研究软件推荐：Listen Labs 对比 ATLAS.ti、NVivo 等",
+      "summaryZh": "Listen Labs 被列为初学者定性研究软件首选，整合研究设计、招募、AI 主持访谈与分析，宣称不到 24 小时交付结果。它提供 50M+ 验证受访者网络和 120+ 访谈语言，Research Agent 可自动生成主题与发现。ATLAS.ti 与 NVivo 学生许可约 $130/年，Taguette、QualCoder 免费开源。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "AI 访谈"
+      ],
+      "entities": [
+        "listen-labs",
+        "maxqda",
+        "quirkos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-22T05:01:11+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "856bd108267a6e89",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2681,6 +2763,36 @@
       "itemType": null,
       "publishedAt": "2025-11-06T10:39:34+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "77681f14cd8e1c14",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-cpg-consumer-insights-companies/",
+      "title": "Top CPG Consumer Insights Companies: A Buyer’s Guide",
+      "titleZh": "顶级 CPG 消费者洞察公司买家指南：Listen Labs、NielsenIQ、Kantar 等按研究需求分类",
+      "summaryZh": "Listen Labs 的 CPG 消费者洞察买家指南将 Listen Labs 推荐为 AI 主持定性研究首选。指南称可从 50M+ 验证受访者网络、45+ 国家、120+ 语言招募，结果在 24 小时内交付。客户含 P&G、Nestlé、Skims、Levi's，已完成超 100 万次 AI 主持访谈。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar",
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-22T05:01:17+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

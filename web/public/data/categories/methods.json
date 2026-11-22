@@ -3,7 +3,7 @@
   "label": "方法",
   "section": "方法与实践",
   "commentary": true,
-  "count": 173,
+  "count": 175,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -2176,6 +2176,29 @@
       "relation": null
     },
     {
+      "id": "05bf2cc9a557d74d",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
+      "title": "The attack of the giant AI design slop monster: a survivor’s guide",
+      "titleZh": "巨型 AI 设计垃圾怪兽来袭：UX 设计师生存指南",
+      "summaryZh": "作者在伦敦大学城市圣乔治人机交互设计年会演讲后撰文，给出 UX 设计师应对 AI 设计垃圾的生存指南。84% 开发者用 AI 写代码；产品经理与开发者分别用 Claude Code 生成 UI，后者经 MCP 把 Figma 直喂 Claude Code，可能绕过设计系统并影响 focus states，该 UI 产出从 3 个月缩到 3 天。作者建议用用户研究、skeleton UI、最低 UI 门槛和快速 QA 约束 AI 设计。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-22T11:36:59+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "4d7c2b7e72ec3ae5",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2652,6 +2675,34 @@
       "itemType": null,
       "publishedAt": "2026-08-18T00:00:00+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4d0e5fc9634a854a",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/affordable-fb-market-research-startups/",
+      "title": "Affordable Food & Beverage Consumer Insights for Startups",
+      "titleZh": "Listen Labs：食品饮料初创企业的可负担消费者洞察平台",
+      "summaryZh": "Listen Labs 为食品饮料初创企业提供 AI 主持访谈的消费者洞察平台，连接 50M+ 验证受访者，覆盖 45+ 国家和 120+ 语言，称 24 小时内交付结果，成本约为传统研究三分之一。初创企业可先用 USDA ERS、Census AIES 等免费数据估算 TAM/SAM/SOM，再用 20–30 场访谈验证购买意愿。传统 20 场一对一访谈成本 $4,000–$10,000，Listen Labs 称可整合招募、主持、转录和分析。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-22T05:05:11+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

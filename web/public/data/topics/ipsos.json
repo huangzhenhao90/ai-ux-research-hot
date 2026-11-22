@@ -3,7 +3,7 @@
   "name": "Ipsos",
   "group": "company",
   "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-  "count": 32,
+  "count": 33,
   "items": [
     {
       "id": "7863554bbd864674",
@@ -441,6 +441,36 @@
       "itemType": null,
       "publishedAt": "2026-10-30T10:53:59+00:00",
       "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "77681f14cd8e1c14",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-cpg-consumer-insights-companies/",
+      "title": "Top CPG Consumer Insights Companies: A Buyer’s Guide",
+      "titleZh": "顶级 CPG 消费者洞察公司买家指南：Listen Labs、NielsenIQ、Kantar 等按研究需求分类",
+      "summaryZh": "Listen Labs 的 CPG 消费者洞察买家指南将 Listen Labs 推荐为 AI 主持定性研究首选。指南称可从 50M+ 验证受访者网络、45+ 国家、120+ 语言招募，结果在 24 小时内交付。客户含 P&G、Nestlé、Skims、Levi's，已完成超 100 万次 AI 主持访谈。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析",
+        "市场研究",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar",
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-22T05:01:17+00:00",
+      "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
