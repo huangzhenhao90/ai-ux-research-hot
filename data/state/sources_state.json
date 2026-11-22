@@ -3,7 +3,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -12,7 +12,7 @@
     "etag": null,
     "lastModified": "Sun, 22 Nov 2026 10:38:08 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -57,16 +57,16 @@
     "etag": "\"70840f6e4210c7e2fc164bd4739b4b5f-gzip\"",
     "lastModified": "Fri, 20 Nov 2026 09:06:21 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
   },
   "quirkos": {
-    "etag": "W/\"50923-z8c/gjVfrFO1XiC24wC96G8WD1Q\"",
+    "etag": "W/\"50923-jIpFefZZe0IGhJbn/4v463XrfTQ\"",
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -81,10 +81,10 @@
     "extra": {}
   },
   "surveycto": {
-    "etag": "\"fb2152bf2f0d4e9a89e83a576eac3bf8\"",
-    "lastModified": "Sun, 22 Nov 2026 15:59:23 GMT",
+    "etag": "\"e734201e20e0992b8089cf5666ecf3da\"",
+    "lastModified": "Sun, 22 Nov 2026 21:41:30 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -93,7 +93,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -102,7 +102,7 @@
     "etag": "W/\"db8276bd9096900b2d638ca7f111b2da\"",
     "lastModified": "Fri, 20 Nov 2026 01:44:46 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -111,7 +111,7 @@
     "etag": "\"db223904dde32ff241d356142e7ea48a-gzip\"",
     "lastModified": "Thu, 19 Nov 2026 15:17:53 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -174,7 +174,7 @@
     "etag": "\"cf11566ad37d80d16a360a535e049737-gzip\"",
     "lastModified": "Mon, 16 Nov 2026 13:12:03 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -192,7 +192,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -237,7 +237,7 @@
     "etag": "W/\"5969cb05e364df260c53869b932401f7\"",
     "lastModified": "Thu, 19 Nov 2026 23:28:27 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -255,7 +255,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -274,7 +274,7 @@
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
     "lastFetchAt": "2026-11-17T23:23:08.044755+00:00",
-    "consecutiveFailures": 12,
+    "consecutiveFailures": 13,
     "lastError": "HTTP 403",
     "extra": {}
   },
@@ -301,7 +301,7 @@
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
     "lastFetchAt": "2026-11-17T12:50:23.835182+00:00",
-    "consecutiveFailures": 13,
+    "consecutiveFailures": 14,
     "lastError": "HTTP 404",
     "extra": {}
   },
@@ -310,7 +310,7 @@
     "lastModified": "Fri, 18 Sep 2026 14:58:09 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
     "lastFetchAt": "2026-10-23T00:55:48.549189+00:00",
-    "consecutiveFailures": 58,
+    "consecutiveFailures": 59,
     "lastError": "HTTP 502",
     "extra": {}
   },
@@ -327,7 +327,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -361,9 +361,9 @@
   },
   "strella-blog": {
     "etag": null,
-    "lastModified": "Sat, 21 Nov 2026 21:29:00 GMT",
+    "lastModified": "Sun, 22 Nov 2026 21:41:43 GMT",
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-21T21:28:37.885700+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}
@@ -390,7 +390,7 @@
     "etag": null,
     "lastModified": null,
     "firstImportAt": "2026-10-22T01:53:51.171535+00:00",
-    "lastFetchAt": "2026-11-22T15:59:14.419469+00:00",
+    "lastFetchAt": "2026-11-22T21:41:20.091849+00:00",
     "consecutiveFailures": 0,
     "lastError": null,
     "extra": {}

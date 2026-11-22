@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T15:59:14.419469+00:00",
+  "generatedAt": "2026-11-22T21:41:20.091849+00:00",
   "windowDays": 3,
   "editionHour": 0,
   "days": [
@@ -61,94 +61,6 @@
           "status": "selected",
           "dupOf": null,
           "relation": "different"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "count": 3,
-      "items": [
-        {
-          "id": "90ba6109cbd277d7",
-          "sourceId": "arxiv-cs-hc",
-          "sourceName": "arXiv cs.HC",
-          "venue": null,
-          "tier": "T2",
-          "url": "https://arxiv.org/abs/2611.25200",
-          "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
-          "titleZh": "Squoosh Bench 用 318 个历史网站 A/B 测试评测 UX-1",
-          "summaryZh": "研究团队用 318 个历史网站 A/B 测试评测模拟购物者模型 Squoosh UX-1，其正确分类 267 个结果（84.0%，95% Wilson 区间 79.5-87.6%），Qwen3 Next 80B 为 196 个（61.6%）。UX-1 判定变体胜出的 126 个实验中，118 个变体在线上获胜（93.7%），4 个失败、4 个结果不确定。评测从 412 个历史 A/B 测试中筛选出运行超过 21 天的 318 个，推理时屏蔽页面角色并隐藏实际结果。",
-          "reason": "研究以 318 个历史 A/B 测试比较模拟购物者模型与通用大模型的结果分类准确率，可供参考测试优先级的判定思路。",
-          "category": "research",
-          "tags": [
-            "论文/研究",
-            "合成用户",
-            "行为数据"
-          ],
-          "entities": [],
-          "itemType": "research_paper",
-          "publishedAt": "2026-11-20T05:00:00+00:00",
-          "discoveredAt": "2026-11-20T06:04:03.653199+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "followup"
-        },
-        {
-          "id": "2bcd97f71b517682",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/user-testing-participant-incentives/",
-          "title": "Research Participant Incentives: Rates & Best Practices",
-          "titleZh": "Listen Labs 梳理受访者报酬区间与支付实践",
-          "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰写指南，汇总不同研究类型与受众的受访者报酬区间，并梳理支付方式和缺席预留预算。文中列出的区间包括短时非主持式任务 $5–$75、主持式消费者访谈 $60–$125/小时，以及 B2B 或高管访谈 $100–$600/小时，并建议按目标完成数多招募 19–25% 以覆盖缺席。支付方式上，数字礼品卡是北美默认选项，DACH 和 Benelux 市场常预期银行转账；国际支付还会带来额外费用、货币转换成本和税务预扣要求。",
-          "reason": "原文汇总不同研究类型与受众的受访者报酬区间及支付方式，并给出缺席预留的预算口径供团队核算招募成本。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "招募/样本",
-            "市场研究"
-          ],
-          "entities": [
-            "listen-labs",
-            "conveo",
-            "user-interviews",
-            "great-question"
-          ],
-          "itemType": "tutorial_explainer",
-          "publishedAt": "2026-11-20T05:01:43+00:00",
-          "discoveredAt": "2026-11-20T16:45:54.869086+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "1e3bc1afc02c69fd",
-          "sourceId": "quantilope",
-          "sourceName": "quantilope",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://www.quantilope.com/resources/quinns-evolution-to-fully-agentic-survey-creation",
-          "title": "quinn’s Evolution To Fully Agentic Survey Creation",
-          "titleZh": "quantilope 宣布 quinn 进化为全智能体问卷搭建引擎",
-          "summaryZh": "quantilope 宣布其 AI 研究伙伴 quinn 从辅助助手进化为全智能体引擎，用户只需给出业务目标，quinn 即可自主设计并搭建可直接投放的研究。文中列出自动配置的范围，包括受众甄别、复杂路由与逻辑自检、循环与分组管理、答案带入逻辑、品牌视觉嵌入和多国翻译设置。官方称客户任务完成时间已从一整个工作日缩短到几分钟，研究者仍可自行修改或要求 quinn 调整。",
-          "reason": "原文列出智能体自动完成甄别、路由与多国设置的具体环节，可供评估问卷搭建流程中哪些步骤可以交给 AI。",
-          "category": "tools",
-          "tags": [
-            "工具发布",
-            "问卷/定量",
-            "Agent"
-          ],
-          "entities": [
-            "quantilope"
-          ],
-          "itemType": "tool_launch",
-          "publishedAt": "2026-11-19T19:30:50+00:00",
-          "discoveredAt": "2026-11-19T22:56:09.093449+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "followup"
         }
       ]
     }
