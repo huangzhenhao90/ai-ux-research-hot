@@ -1,5 +1,5 @@
 {
-  "count": 455,
+  "count": 465,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -458,6 +458,22 @@
       "sourceName": "arXiv cs.HC",
       "url": "https://arxiv.org/abs/2610.30568",
       "publishedAt": "2026-10-23T04:00:00+00:00"
+    },
+    {
+      "id": "d6bdd1beadbe62fe",
+      "title": "回应角色而非个人：合成受访者构建中的过度决定",
+      "titleZh": "研究构建1.4万个LLM合成受访者，发现其更贴近画像均值而非真实个体",
+      "summaryZh": "一项研究以欧洲社会调查画像构建1.4万个LLM合成受访者回答态度题，发现其回答更贴近画像条件均值，却难以追踪真实个体。画像属性所解释的方差远高于人类，个体维度也更少，重复生成仍难补足残余差异，作者据此认为人格提示会造成过度决定并削弱个体真实性。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.27449v1",
+      "publishedAt": "2026-11-19T16:00:00+00:00"
     },
     {
       "id": "ac5699bdf639bad5",
@@ -1390,6 +1406,23 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/",
       "publishedAt": "2026-10-28T05:10:50+00:00"
+    },
+    {
+      "id": "15545c0e8aff21c7",
+      "title": "双层情感框架：网页搜索中可扩展的多模态UX归因",
+      "titleZh": "双层情感框架：网页搜索中可扩展的多模态UX归因",
+      "summaryZh": "针对大规模网页搜索UX评估，双层情感框架以微调LLM从遥测数据回归用户满意度，并用多模态LLM诊断结果页视觉布局与操作负担。测量周期由数周缩至数小时，问卷成本降低逾40%，异常识别精度亦获提升。",
+      "tags": [
+        "论文/研究",
+        "多模态",
+        "行为数据",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.27899v1",
+      "publishedAt": "2026-11-19T16:00:00+00:00"
     },
     {
       "id": "25f7859e3b8bcd71",
@@ -3554,6 +3587,26 @@
       "publishedAt": "2026-03-03T20:43:47+00:00"
     },
     {
+      "id": "1175cc452883d900",
+      "title": "How Product Managers Get Consumer Insights Fast",
+      "titleZh": "产品经理如何用 Listen Labs 在一天内完成消费者洞察冲刺",
+      "summaryZh": "产品经理可用 Listen Labs 在 24 小时内完成从研究问题到咨询级交付物的研究冲刺，传统定性研究周期需 4–6 周。平台自动从 50M+ 验证网络招募参与者、执行 AI 主持访谈并生成主题、图表和幻灯片，还提供 MaxDiff、Gabor-Granger 和流失用户访谈等方法。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/fast-consumer-insights-product-managers/",
+      "publishedAt": "2026-11-23T05:04:23+00:00"
+    },
+    {
       "id": "5f832533c6ad3017",
       "title": "Travel Brand Testing: How To Benchmark & Measure",
       "titleZh": "Listen Labs 旅游品牌测试：如何基准测试与衡量",
@@ -5121,6 +5174,44 @@
       "publishedAt": "2025-10-08T13:04:00+00:00"
     },
     {
+      "id": "aeab6cc6a960b5bf",
+      "title": "Kantar Brand Tracking Pricing: What to Budget in 2026",
+      "titleZh": "Kantar 品牌追踪定价：2026 年预算指南",
+      "summaryZh": "Kantar 品牌追踪采用按项目报价，没有公开费率表，预算需按覆盖市场、样本量、波次频率等五项成本因素拆解。每增加一个国家通常增加 20% 到 40% 成本；一般消费者每份完成成本为 $2–$5，难触达专家为 $200–$500+。Listen Labs 称 Pulse 把开放式对话并入每波追踪，成本约为传统研究的三分之一。",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-pricing/",
+      "publishedAt": "2026-11-23T05:04:35+00:00"
+    },
+    {
+      "id": "687bf26b76de2d1f",
+      "title": "How To Build a Travel User Feedback Loop That Works",
+      "titleZh": "如何用 Listen Labs 构建有效的旅行用户反馈闭环",
+      "summaryZh": "Listen Labs 给出构建旅行用户反馈闭环的方法：按行前、行中、行后匹配渠道与时机，用 AI 主持访谈补齐评分背后的原因。其平台称可将4–6周旅行研究周期压缩至24小时内，Research Agent 不到1分钟就能把访谈整理成主题、decks 和 highlight reels。研究从50M+ verified respondent network 招募，覆盖45+国家、120+语言。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/travel-user-feedback-loops/",
+      "publishedAt": "2026-11-23T05:04:29+00:00"
+    },
+    {
       "id": "6c4bdc26518db35e",
       "title": "Voice of Customer Software Compared: Find Your Fit",
       "titleZh": "VoC 软件对比：Listen Labs、Qualtrics 与 Medallia 如何选型",
@@ -5328,6 +5419,27 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/compare-best-software-teach-qualitative-analysis/",
       "publishedAt": "2025-12-09T00:00:00+00:00"
+    },
+    {
+      "id": "906458513be74f0c",
+      "title": "Best AI Platforms for Brand Sentiment Analysis (2026)",
+      "titleZh": "2026 年品牌情绪分析最佳 AI 平台盘点：Listen Labs、Profound 等",
+      "summaryZh": "Listen Labs 在 2026 年品牌情绪分析 AI 平台盘点中被列为首要平台，提供 AI 主持访谈、50M+ 验证受访者（覆盖 45+ 国家）和 24 小时内出结果的自动分析。AI 可见性追踪与社交聆听仍只能报告症状；Profound Growth 档 $399/月、Otterly 入门价约 $29/月，Listen Labs 则能诊断情绪变化原因。",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-brand-sentiment-ai-platforms/",
+      "publishedAt": "2026-11-23T05:04:10+00:00"
     },
     {
       "id": "23879fe9518b23e4",
@@ -6592,6 +6704,29 @@
       "publishedAt": "2026-04-22T11:00:59+00:00"
     },
     {
+      "id": "2b5573b011080d43",
+      "title": "Tools Similar To Outset.ai: A Shortlist By Research Job",
+      "titleZh": "类似 Outset.ai 的工具：按研究任务划分的短名单",
+      "summaryZh": "Listen Labs 的短名单按研究任务将类似 Outset.ai 的工具分为 AI 主持访谈平台、UX 研究与分析平台、反馈与洞察工具三类。该短名单将 Listen Labs 列为最完整的替代方案，标出 50M+ 验证样本网络、24 小时内交付和超过 1 million 次 AI 访谈。Maze、Looppanel 和 Dovetail 只组织或分析他处开展的研究，不负责访谈或招募。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "outset",
+        "conveo",
+        "strella",
+        "maze",
+        "dovetail"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-outset-ai-alternatives/",
+      "publishedAt": "2026-11-23T05:04:16+00:00"
+    },
+    {
       "id": "c871f7fbdc551d2c",
       "title": "Kantar Brand Tracking Analysis: What It Measures & Misses",
       "titleZh": "Kantar 品牌追踪分析：测量什么、遗漏什么",
@@ -6746,6 +6881,24 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2024.2392494?af=R",
       "publishedAt": "2024-10-04T05:36:52+00:00"
+    },
+    {
+      "id": "4ef5b2b0492515dc",
+      "title": "Misfits and the Machine: Why AI alone can’t crack creative effectiveness",
+      "titleZh": "《Misfits and the Machine》：为何单靠 AI 无法破解广告创意效果",
+      "summaryZh": "在第二篇 AI in Advertising 论文中探讨 AI 用于广告开发的收益与局限。文章以《Misfits and the Machine》为题，追问单靠 AI 为何无法破解广告创意效果",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "opinion",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/misfits-and-machine-why-ai-alone-cant-crack-creative-effectiveness",
+      "publishedAt": "2026-11-23T13:31:01+00:00"
     },
     {
       "id": "904c85a2c61086ad",
@@ -7201,6 +7354,20 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2596752?af=R",
       "publishedAt": "2025-12-11T07:43:15+00:00"
+    },
+    {
+      "id": "f6560265876ccc18",
+      "title": "Decision theater, Human.MD, What is a researcher’s worth",
+      "titleZh": "UX Collective 周报：Decision theater、Human.MD 与研究者价值",
+      "summaryZh": "UX Collective 周报精选 Decision theater、Human.MD 与研究者价值等设计资源。Matt Rafalow 提出，省力的 AI 让人的摩擦成为最稀缺资产；Patrick Neeman 则把 AI 视为新的旧设计材料。",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/decision-theater-human-md-what-is-a-researchers-worth-d7687978bd26?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-11-23T12:18:14+00:00"
     },
     {
       "id": "3a7c0cf7e48101b4",
@@ -7805,6 +7972,22 @@
       "sourceName": "Ipsos",
       "url": "https://www.ipsos.com/en/context-advantage-winning-moments-matter",
       "publishedAt": "2026-11-10T08:50:30+00:00"
+    },
+    {
+      "id": "902a29357d7a4104",
+      "title": "From Insight to Trusted Outcomes: A Fireside Chat with commonFont and NRG Energy",
+      "titleZh": "Qualtrics、commonFont 与 NRG Energy 炉边对话：从洞察到可信成果",
+      "summaryZh": "Qualtrics 与 commonFont、NRG Energy 带来炉边对话，讨论企业如何从洞察走向可信成果。对话聚焦当 AI 智能体与自动化系统更快塑造品牌体验时，如何治理 AI 驱动互动、在无人在环时维持信任并弥合 Experience Gap。活动强调把客户洞察转化为行动，而非产品推介或趋势概览。",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [
+        "qualtrics"
+      ],
+      "category": "opinion",
+      "sourceName": "Qualtrics",
+      "url": "https://www.qualtrics.com/resources/events/nrg-common-font-webinar/",
+      "publishedAt": "2026-11-23T01:17:39+00:00"
     },
     {
       "id": "3c685dbe7a21e2e1",

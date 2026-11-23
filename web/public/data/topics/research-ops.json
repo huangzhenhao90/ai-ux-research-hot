@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 80,
+  "count": 83,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -1006,6 +1006,35 @@
       "relation": null
     },
     {
+      "id": "1175cc452883d900",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/fast-consumer-insights-product-managers/",
+      "title": "How Product Managers Get Consumer Insights Fast",
+      "titleZh": "产品经理如何用 Listen Labs 在一天内完成消费者洞察冲刺",
+      "summaryZh": "产品经理可用 Listen Labs 在 24 小时内完成从研究问题到咨询级交付物的研究冲刺，传统定性研究周期需 4–6 周。平台自动从 50M+ 验证网络招募参与者、执行 AI 主持访谈并生成主题、图表和幻灯片，还提供 MaxDiff、Gabor-Granger 和流失用户访谈等方法。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T05:04:23+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "e6dcd048961037f1",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1463,6 +1492,34 @@
       "itemType": null,
       "publishedAt": "2025-10-08T13:04:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "687bf26b76de2d1f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/travel-user-feedback-loops/",
+      "title": "How To Build a Travel User Feedback Loop That Works",
+      "titleZh": "如何用 Listen Labs 构建有效的旅行用户反馈闭环",
+      "summaryZh": "Listen Labs 给出构建旅行用户反馈闭环的方法：按行前、行中、行后匹配渠道与时机，用 AI 主持访谈补齐评分背后的原因。其平台称可将4–6周旅行研究周期压缩至24小时内，Research Agent 不到1分钟就能把访谈整理成主题、decks 和 highlight reels。研究从50M+ verified respondent network 招募，覆盖45+国家、120+语言。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T05:04:29+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1934,6 +1991,38 @@
       "itemType": null,
       "publishedAt": "2026-08-27T13:47:47+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2b5573b011080d43",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-outset-ai-alternatives/",
+      "title": "Tools Similar To Outset.ai: A Shortlist By Research Job",
+      "titleZh": "类似 Outset.ai 的工具：按研究任务划分的短名单",
+      "summaryZh": "Listen Labs 的短名单按研究任务将类似 Outset.ai 的工具分为 AI 主持访谈平台、UX 研究与分析平台、反馈与洞察工具三类。该短名单将 Listen Labs 列为最完整的替代方案，标出 50M+ 验证样本网络、24 小时内交付和超过 1 million 次 AI 访谈。Maze、Looppanel 和 Dovetail 只组织或分析他处开展的研究，不负责访谈或招募。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "outset",
+        "conveo",
+        "strella",
+        "maze",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T05:04:16+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -1,0 +1,29 @@
+{
+  "id": "687bf26b76de2d1f",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/travel-user-feedback-loops/",
+  "title": "How To Build a Travel User Feedback Loop That Works",
+  "titleZh": "如何用 Listen Labs 构建有效的旅行用户反馈闭环",
+  "summaryZh": "Listen Labs 给出构建旅行用户反馈闭环的方法：按行前、行中、行后匹配渠道与时机，用 AI 主持访谈补齐评分背后的原因。其平台称可将4–6周旅行研究周期压缩至24小时内，Research Agent 不到1分钟就能把访谈整理成主题、decks 和 highlight reels。研究从50M+ verified respondent network 招募，覆盖45+国家、120+语言。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "定性分析",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-23T05:04:29+00:00",
+  "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

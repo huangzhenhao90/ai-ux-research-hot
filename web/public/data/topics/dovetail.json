@@ -3,7 +3,7 @@
   "name": "Dovetail",
   "group": "company",
   "definition": "Dovetail 的洞察库与研究分析产品更新，以及其对研究流程自动化的做法。",
-  "count": 35,
+  "count": 36,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -723,6 +723,38 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:01:31+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "2b5573b011080d43",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-outset-ai-alternatives/",
+      "title": "Tools Similar To Outset.ai: A Shortlist By Research Job",
+      "titleZh": "类似 Outset.ai 的工具：按研究任务划分的短名单",
+      "summaryZh": "Listen Labs 的短名单按研究任务将类似 Outset.ai 的工具分为 AI 主持访谈平台、UX 研究与分析平台、反馈与洞察工具三类。该短名单将 Listen Labs 列为最完整的替代方案，标出 50M+ 验证样本网络、24 小时内交付和超过 1 million 次 AI 访谈。Maze、Looppanel 和 Dovetail 只组织或分析他处开展的研究，不负责访谈或招募。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "outset",
+        "conveo",
+        "strella",
+        "maze",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T05:04:16+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

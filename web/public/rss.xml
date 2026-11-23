@@ -5,7 +5,7 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Nov 2026 06:11:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 19:54:58 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
     <item>
@@ -36,15 +36,6 @@
       <category>methods</category>
     </item>
     <item>
-      <title>Squoosh Bench 用 318 个历史网站 A/B 测试评测 UX-1</title>
-      <link>https://arxiv.org/abs/2611.25200</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2611.25200</guid>
-      <pubDate>Fri, 20 Nov 2026 05:00:00 GMT</pubDate>
-      <description>研究团队用 318 个历史网站 A/B 测试评测模拟购物者模型 Squoosh UX-1，其正确分类 267 个结果（84.0%，95% Wilson 区间 79.5-87.6%），Qwen3 Next 80B 为 196 个（61.6%）。UX-1 判定变体胜出的 126 个实验中，118 个变体在线上获胜（93.7%），4 个失败、4 个结果不确定。评测从 412 个历史 A/B 测试中筛选出运行超过 21 天的 318 个，推理时屏蔽页面角色并隐藏实际结果。</description>
-      <category>arXiv cs.HC</category>
-      <category>research</category>
-    </item>
-    <item>
       <title>quantilope 宣布 quinn 进化为全智能体问卷搭建引擎</title>
       <link>https://www.quantilope.com/resources/quinns-evolution-to-fully-agentic-survey-creation</link>
       <guid isPermaLink="true">https://www.quantilope.com/resources/quinns-evolution-to-fully-agentic-survey-creation</guid>
@@ -52,6 +43,15 @@
       <description>quantilope 宣布其 AI 研究伙伴 quinn 从辅助助手进化为全智能体引擎，用户只需给出业务目标，quinn 即可自主设计并搭建可直接投放的研究。文中列出自动配置的范围，包括受众甄别、复杂路由与逻辑自检、循环与分组管理、答案带入逻辑、品牌视觉嵌入和多国翻译设置。官方称客户任务完成时间已从一整个工作日缩短到几分钟，研究者仍可自行修改或要求 quinn 调整。</description>
       <category>quantilope</category>
       <category>tools</category>
+    </item>
+    <item>
+      <title>研究构建1.4万个LLM合成受访者，发现其更贴近画像均值而非真实个体</title>
+      <link>https://arxiv.org/abs/2611.27449v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.27449v1</guid>
+      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
+      <description>一项研究以欧洲社会调查画像构建1.4万个LLM合成受访者回答态度题，发现其回答更贴近画像条件均值，却难以追踪真实个体。画像属性所解释的方差远高于人类，个体维度也更少，重复生成仍难补足残余差异，作者据此认为人格提示会造成过度决定并削弱个体真实性。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
     </item>
     <item>
       <title>研究提出 Chiron 基础模型，测量并预测人类行为</title>

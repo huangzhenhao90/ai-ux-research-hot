@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 99,
+  "count": 102,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -240,6 +240,31 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "d6bdd1beadbe62fe",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.27449v1",
+      "title": "回应角色而非个人：合成受访者构建中的过度决定",
+      "titleZh": "研究构建1.4万个LLM合成受访者，发现其更贴近画像均值而非真实个体",
+      "summaryZh": "一项研究以欧洲社会调查画像构建1.4万个LLM合成受访者回答态度题，发现其回答更贴近画像条件均值，却难以追踪真实个体。画像属性所解释的方差远高于人类，个体维度也更少，重复生成仍难补足残余差异，作者据此认为人格提示会造成过度决定并削弱个体真实性。",
+      "reason": "研究用1.4万个LLM合成受访者对照真实调查数据，可看清画像提示在群体均值与个体差异之间的边界。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-19T16:00:00+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "same"
     },
     {
       "id": "de7a6c9a4cb94d28",
@@ -618,6 +643,32 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "15545c0e8aff21c7",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.27899v1",
+      "title": "双层情感框架：网页搜索中可扩展的多模态UX归因",
+      "titleZh": "双层情感框架：网页搜索中可扩展的多模态UX归因",
+      "summaryZh": "针对大规模网页搜索UX评估，双层情感框架以微调LLM从遥测数据回归用户满意度，并用多模态LLM诊断结果页视觉布局与操作负担。测量周期由数周缩至数小时，问卷成本降低逾40%，异常识别精度亦获提升。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "多模态",
+        "行为数据",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-19T16:00:00+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
     },
     {
       "id": "25f7859e3b8bcd71",
@@ -1355,6 +1406,35 @@
       "itemType": null,
       "publishedAt": "2026-10-28T05:08:53+00:00",
       "discoveredAt": "2026-10-28T07:19:26.672389+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "1175cc452883d900",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/fast-consumer-insights-product-managers/",
+      "title": "How Product Managers Get Consumer Insights Fast",
+      "titleZh": "产品经理如何用 Listen Labs 在一天内完成消费者洞察冲刺",
+      "summaryZh": "产品经理可用 Listen Labs 在 24 小时内完成从研究问题到咨询级交付物的研究冲刺，传统定性研究周期需 4–6 周。平台自动从 50M+ 验证网络招募参与者、执行 AI 主持访谈并生成主题、图表和幻灯片，还提供 MaxDiff、Gabor-Granger 和流失用户访谈等方法。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T05:04:23+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

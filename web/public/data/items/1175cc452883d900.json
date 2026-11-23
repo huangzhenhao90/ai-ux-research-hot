@@ -1,0 +1,30 @@
+{
+  "id": "1175cc452883d900",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/fast-consumer-insights-product-managers/",
+  "title": "How Product Managers Get Consumer Insights Fast",
+  "titleZh": "产品经理如何用 Listen Labs 在一天内完成消费者洞察冲刺",
+  "summaryZh": "产品经理可用 Listen Labs 在 24 小时内完成从研究问题到咨询级交付物的研究冲刺，传统定性研究周期需 4–6 周。平台自动从 50M+ 验证网络招募参与者、执行 AI 主持访谈并生成主题、图表和幻灯片，还提供 MaxDiff、Gabor-Granger 和流失用户访谈等方法。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "问卷/定量",
+    "定性分析",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-23T05:04:23+00:00",
+  "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

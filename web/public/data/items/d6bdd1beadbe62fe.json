@@ -1,0 +1,26 @@
+{
+  "id": "d6bdd1beadbe62fe",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.27449v1",
+  "title": "回应角色而非个人：合成受访者构建中的过度决定",
+  "titleZh": "研究构建1.4万个LLM合成受访者，发现其更贴近画像均值而非真实个体",
+  "summaryZh": "一项研究以欧洲社会调查画像构建1.4万个LLM合成受访者回答态度题，发现其回答更贴近画像条件均值，却难以追踪真实个体。画像属性所解释的方差远高于人类，个体维度也更少，重复生成仍难补足残余差异，作者据此认为人格提示会造成过度决定并削弱个体真实性。",
+  "reason": "研究用1.4万个LLM合成受访者对照真实调查数据，可看清画像提示在群体均值与个体差异之间的边界。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "问卷/定量"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-19T16:00:00+00:00",
+  "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "same",
+  "related": []
+}

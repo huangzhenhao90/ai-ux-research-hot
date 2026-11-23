@@ -3,7 +3,7 @@
   "name": "文本分析 / VOC",
   "group": "field",
   "definition": "用 AI 分析用户反馈、评论、开放题与客服文本。",
-  "count": 19,
+  "count": 20,
   "items": [
     {
       "id": "791883e6a4cafac0",
@@ -402,6 +402,36 @@
       "itemType": null,
       "publishedAt": "2026-11-05T17:13:34+00:00",
       "discoveredAt": "2026-11-05T19:42:20.545393+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "906458513be74f0c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-brand-sentiment-ai-platforms/",
+      "title": "Best AI Platforms for Brand Sentiment Analysis (2026)",
+      "titleZh": "2026 年品牌情绪分析最佳 AI 平台盘点：Listen Labs、Profound 等",
+      "summaryZh": "Listen Labs 在 2026 年品牌情绪分析 AI 平台盘点中被列为首要平台，提供 AI 主持访谈、50M+ 验证受访者（覆盖 45+ 国家）和 24 小时内出结果的自动分析。AI 可见性追踪与社交聆听仍只能报告症状；Profound Growth 档 $399/月、Otterly 入门价约 $29/月，Listen Labs 则能诊断情绪变化原因。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T05:04:10+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

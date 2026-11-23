@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 102,
+  "count": 106,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -2005,6 +2005,38 @@
       "relation": null
     },
     {
+      "id": "2b5573b011080d43",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-outset-ai-alternatives/",
+      "title": "Tools Similar To Outset.ai: A Shortlist By Research Job",
+      "titleZh": "类似 Outset.ai 的工具：按研究任务划分的短名单",
+      "summaryZh": "Listen Labs 的短名单按研究任务将类似 Outset.ai 的工具分为 AI 主持访谈平台、UX 研究与分析平台、反馈与洞察工具三类。该短名单将 Listen Labs 列为最完整的替代方案，标出 50M+ 验证样本网络、24 小时内交付和超过 1 million 次 AI 访谈。Maze、Looppanel 和 Dovetail 只组织或分析他处开展的研究，不负责访谈或招募。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "outset",
+        "conveo",
+        "strella",
+        "maze",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T05:04:16+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "af1f75f5d52cf9d0",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2089,6 +2121,33 @@
       "itemType": null,
       "publishedAt": "2026-11-09T05:05:01+00:00",
       "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4ef5b2b0492515dc",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/misfits-and-machine-why-ai-alone-cant-crack-creative-effectiveness",
+      "title": "Misfits and the Machine: Why AI alone can’t crack creative effectiveness",
+      "titleZh": "《Misfits and the Machine》：为何单靠 AI 无法破解广告创意效果",
+      "summaryZh": "在第二篇 AI in Advertising 论文中探讨 AI 用于广告开发的收益与局限。文章以《Misfits and the Machine》为题，追问单靠 AI 为何无法破解广告创意效果",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T13:31:01+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2393,6 +2452,29 @@
       "itemType": null,
       "publishedAt": "2026-04-23T14:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f6560265876ccc18",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/decision-theater-human-md-what-is-a-researchers-worth-d7687978bd26?source=rss----138adf9c44c---4",
+      "title": "Decision theater, Human.MD, What is a researcher’s worth",
+      "titleZh": "UX Collective 周报：Decision theater、Human.MD 与研究者价值",
+      "summaryZh": "UX Collective 周报精选 Decision theater、Human.MD 与研究者价值等设计资源。Matt Rafalow 提出，省力的 AI 让人的摩擦成为最稀缺资产；Patrick Neeman 则把 AI 视为新的旧设计材料。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-23T12:18:14+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2713,6 +2795,31 @@
       "itemType": null,
       "publishedAt": "2026-11-10T08:50:30+00:00",
       "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "902a29357d7a4104",
+      "sourceId": "qualtrics",
+      "sourceName": "Qualtrics",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.qualtrics.com/resources/events/nrg-common-font-webinar/",
+      "title": "From Insight to Trusted Outcomes: A Fireside Chat with commonFont and NRG Energy",
+      "titleZh": "Qualtrics、commonFont 与 NRG Energy 炉边对话：从洞察到可信成果",
+      "summaryZh": "Qualtrics 与 commonFont、NRG Energy 带来炉边对话，讨论企业如何从洞察走向可信成果。对话聚焦当 AI 智能体与自动化系统更快塑造品牌体验时，如何治理 AI 驱动互动、在无人在环时维持信任并弥合 Experience Gap。活动强调把客户洞察转化为行动，而非产品推介或趋势概览。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T01:17:39+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

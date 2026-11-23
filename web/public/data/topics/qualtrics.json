@@ -3,7 +3,7 @@
   "name": "Qualtrics",
   "group": "company",
   "definition": "Qualtrics 的 XM 平台与 XM Institute 研究，以及体验管理产品的 AI 能力更新。",
-  "count": 32,
+  "count": 34,
   "items": [
     {
       "id": "513d0bb28edb882c",
@@ -358,6 +358,36 @@
       "itemType": null,
       "publishedAt": "2026-10-25T05:04:25+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "906458513be74f0c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-brand-sentiment-ai-platforms/",
+      "title": "Best AI Platforms for Brand Sentiment Analysis (2026)",
+      "titleZh": "2026 年品牌情绪分析最佳 AI 平台盘点：Listen Labs、Profound 等",
+      "summaryZh": "Listen Labs 在 2026 年品牌情绪分析 AI 平台盘点中被列为首要平台，提供 AI 主持访谈、50M+ 验证受访者（覆盖 45+ 国家）和 24 小时内出结果的自动分析。AI 可见性追踪与社交聆听仍只能报告症状；Profound Growth 档 $399/月、Otterly 入门价约 $29/月，Listen Labs 则能诊断情绪变化原因。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T05:04:10+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -947,6 +977,31 @@
       "itemType": null,
       "publishedAt": "2026-11-18T05:08:35+00:00",
       "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "902a29357d7a4104",
+      "sourceId": "qualtrics",
+      "sourceName": "Qualtrics",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.qualtrics.com/resources/events/nrg-common-font-webinar/",
+      "title": "From Insight to Trusted Outcomes: A Fireside Chat with commonFont and NRG Energy",
+      "titleZh": "Qualtrics、commonFont 与 NRG Energy 炉边对话：从洞察到可信成果",
+      "summaryZh": "Qualtrics 与 commonFont、NRG Energy 带来炉边对话，讨论企业如何从洞察走向可信成果。对话聚焦当 AI 智能体与自动化系统更快塑造品牌体验时，如何治理 AI 驱动互动、在无人在环时维持信任并弥合 Experience Gap。活动强调把客户洞察转化为行动，而非产品推介或趋势概览。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T01:17:39+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

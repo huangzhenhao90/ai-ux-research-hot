@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 176,
+  "count": 180,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -2306,6 +2306,35 @@
       "relation": null
     },
     {
+      "id": "1175cc452883d900",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/fast-consumer-insights-product-managers/",
+      "title": "How Product Managers Get Consumer Insights Fast",
+      "titleZh": "产品经理如何用 Listen Labs 在一天内完成消费者洞察冲刺",
+      "summaryZh": "产品经理可用 Listen Labs 在 24 小时内完成从研究问题到咨询级交付物的研究冲刺，传统定性研究周期需 4–6 周。平台自动从 50M+ 验证网络招募参与者、执行 AI 主持访谈并生成主题、图表和幻灯片，还提供 MaxDiff、Gabor-Granger 和流失用户访谈等方法。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T05:04:23+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "5f832533c6ad3017",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -3451,6 +3480,62 @@
       "relation": null
     },
     {
+      "id": "aeab6cc6a960b5bf",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-pricing/",
+      "title": "Kantar Brand Tracking Pricing: What to Budget in 2026",
+      "titleZh": "Kantar 品牌追踪定价：2026 年预算指南",
+      "summaryZh": "Kantar 品牌追踪采用按项目报价，没有公开费率表，预算需按覆盖市场、样本量、波次频率等五项成本因素拆解。每增加一个国家通常增加 20% 到 40% 成本；一般消费者每份完成成本为 $2–$5，难触达专家为 $200–$500+。Listen Labs 称 Pulse 把开放式对话并入每波追踪，成本约为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "Kantar"
+      ],
+      "entities": [
+        "kantar",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T05:04:35+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "687bf26b76de2d1f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/travel-user-feedback-loops/",
+      "title": "How To Build a Travel User Feedback Loop That Works",
+      "titleZh": "如何用 Listen Labs 构建有效的旅行用户反馈闭环",
+      "summaryZh": "Listen Labs 给出构建旅行用户反馈闭环的方法：按行前、行中、行后匹配渠道与时机，用 AI 主持访谈补齐评分背后的原因。其平台称可将4–6周旅行研究周期压缩至24小时内，Research Agent 不到1分钟就能把访谈整理成主题、decks 和 highlight reels。研究从50M+ verified respondent network 招募，覆盖45+国家、120+语言。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T05:04:29+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "57dbe200cade9ea3",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -3527,6 +3612,36 @@
       "itemType": null,
       "publishedAt": "2025-12-09T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "906458513be74f0c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-brand-sentiment-ai-platforms/",
+      "title": "Best AI Platforms for Brand Sentiment Analysis (2026)",
+      "titleZh": "2026 年品牌情绪分析最佳 AI 平台盘点：Listen Labs、Profound 等",
+      "summaryZh": "Listen Labs 在 2026 年品牌情绪分析 AI 平台盘点中被列为首要平台，提供 AI 主持访谈、50M+ 验证受访者（覆盖 45+ 国家）和 24 小时内出结果的自动分析。AI 可见性追踪与社交聆听仍只能报告症状；Profound Growth 档 $399/月、Otterly 入门价约 $29/月，Listen Labs 则能诊断情绪变化原因。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "AI 访谈",
+        "定性分析",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T05:04:10+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

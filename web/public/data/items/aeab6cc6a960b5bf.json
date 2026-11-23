@@ -1,0 +1,29 @@
+{
+  "id": "aeab6cc6a960b5bf",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/kantar-brand-tracking-pricing/",
+  "title": "Kantar Brand Tracking Pricing: What to Budget in 2026",
+  "titleZh": "Kantar 品牌追踪定价：2026 年预算指南",
+  "summaryZh": "Kantar 品牌追踪采用按项目报价，没有公开费率表，预算需按覆盖市场、样本量、波次频率等五项成本因素拆解。每增加一个国家通常增加 20% 到 40% 成本；一般消费者每份完成成本为 $2–$5，难触达专家为 $200–$500+。Listen Labs 称 Pulse 把开放式对话并入每波追踪，成本约为传统研究的三分之一。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "市场研究",
+    "Kantar"
+  ],
+  "entities": [
+    "kantar",
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-23T05:04:35+00:00",
+  "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

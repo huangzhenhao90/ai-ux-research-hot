@@ -3,7 +3,7 @@
   "name": "Ipsos",
   "group": "company",
   "definition": "Ipsos 的市场与民意研究业务、AI 化产品与行业动作。",
-  "count": 33,
+  "count": 34,
   "items": [
     {
       "id": "7863554bbd864674",
@@ -590,6 +590,33 @@
       "itemType": null,
       "publishedAt": "2026-10-23T15:11:46+00:00",
       "discoveredAt": "2026-10-23T22:56:32.316607+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "4ef5b2b0492515dc",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/misfits-and-machine-why-ai-alone-cant-crack-creative-effectiveness",
+      "title": "Misfits and the Machine: Why AI alone can’t crack creative effectiveness",
+      "titleZh": "《Misfits and the Machine》：为何单靠 AI 无法破解广告创意效果",
+      "summaryZh": "在第二篇 AI in Advertising 论文中探讨 AI 用于广告开发的收益与局限。文章以《Misfits and the Machine》为题，追问单靠 AI 为何无法破解广告创意效果",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-23T13:31:01+00:00",
+      "discoveredAt": "2026-11-23T19:54:58.272782+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
