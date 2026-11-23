@@ -1,5 +1,5 @@
 {
-  "count": 454,
+  "count": 455,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -2745,6 +2745,22 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/fetch-once-use-everywhere-rebuilding-data-ingestion/",
       "publishedAt": "2026-06-14T23:00:00+00:00"
+    },
+    {
+      "id": "26a877f2ed2235f6",
+      "title": "TractorBeam: Personalized AI Sensemaking Support via Collaborative Machine Annotation",
+      "titleZh": "TractorBeam：通过协作式机器标注提供个性化 AI 意义建构支持",
+      "summaryZh": "论文提出 TractorBeam，一个基于浏览器扩展的混合主动式系统，以协作式机器标注为界面隐喻，把语言模型输出呈现为 PDF 文档中的建议高亮。该系统在文档语境中就地展示 LM 结果，以缓解事实性与出处问题，并让用户迭代构建心智图式和模型查询。think-aloud 与日记研究发现，其协作标注界面支持个性化高亮系统、主动图式化，并兼顾自上而下与自下而上的意义建构。",
+      "tags": [
+        "论文/研究",
+        "定性分析",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2608.18994",
+      "publishedAt": "2026-11-23T05:00:00+00:00"
     },
     {
       "id": "50253980458a8a3a",

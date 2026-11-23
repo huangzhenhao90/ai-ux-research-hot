@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T21:41:20.091849+00:00",
+  "generatedAt": "2026-11-23T06:11:07.439929+00:00",
   "groups": [
     {
       "key": "company",
@@ -114,7 +114,7 @@
       "name": "定性分析",
       "group": "field",
       "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-      "count": 119
+      "count": 120
     },
     {
       "slug": "voc",
@@ -156,7 +156,7 @@
       "name": "论文",
       "group": "genre",
       "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-      "count": 95
+      "count": 96
     },
     {
       "slug": "methods",
