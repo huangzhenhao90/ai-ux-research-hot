@@ -1,5 +1,5 @@
 {
-  "count": 465,
+  "count": 473,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -2663,6 +2663,25 @@
       "publishedAt": "2026-10-30T16:00:00+00:00"
     },
     {
+      "id": "8bacf35e712e9e66",
+      "title": "Voice of Customer Survey Questions That Drive Real Insights",
+      "titleZh": "Listen Labs 整理能带来真实洞察的 VoC 问卷问题",
+      "summaryZh": "Listen Labs 整理了按研究目标组织的 VoC 问卷问题库，并建议每轮只保留 3–6 个核心问题。文章覆盖新用户引导、售后支持、流失与留存、产品反馈等场景，并指出固定问卷难以追问评分背后的原因。Listen Labs 的 AI 主持访谈以对话方式运行同一组问题，称回答长度约为平均水平的 3 倍。",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "AI 访谈",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/voice-of-customer-survey-questions/",
+      "publishedAt": "2026-11-24T05:09:12+00:00"
+    },
+    {
       "id": "a6c4c0a5817a306b",
       "title": "How To Do Startup Customer Research on a Budget",
       "titleZh": "Listen Labs 介绍如何在有限预算下开展初创公司客户研究",
@@ -2907,6 +2926,25 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/ai-moderated-interviews-retail-brands/",
       "publishedAt": "2026-11-17T05:07:09+00:00"
+    },
+    {
+      "id": "5ec8d05e034e744f",
+      "title": "How to Scale Qualitative Research with AI",
+      "titleZh": "Listen Labs 如何用 AI 规模化开展定性研究",
+      "summaryZh": "Listen Labs 用一套六步工作流演示如何用 AI 规模化开展定性研究，从 50M+ 受访者网络招募到 AI 主持访谈与实时反欺诈，全流程在 24 小时内完成。Research Agent 让主题回溯到逐字引用与时间戳片段，Emotional Intelligence 覆盖 50+ 语言。文中称 AI 主持访谈的回答长度为平均值 3 倍，92% 参与者舒适度处于最高档。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/scale-ai-qualitative-research/",
+      "publishedAt": "2026-11-24T05:09:19+00:00"
     },
     {
       "id": "6cba9350ec1ee800",
@@ -3770,6 +3808,24 @@
       "sourceName": "Ipsos",
       "url": "https://www.ipsos.com/en/ipsos-launches-its-new-creative-assessment-solution-creativespark-ipsosdigital-platform",
       "publishedAt": "2026-10-08T13:12:29+00:00"
+    },
+    {
+      "id": "f1f1752ada48b807",
+      "title": "How AI-moderated interviews give surveys the power of a focus group",
+      "titleZh": "Cint：AI 主持访谈如何让问卷具备焦点小组的力量",
+      "summaryZh": "Cint 的 Nik Blach 总结 AI 主持访谈（AIMI）如何让问卷具备焦点小组的力量：以一对一对话兼顾规模与深度，可在 130+ 国家同时访谈数百人。Cint 调研显示 76% 美国、73% 英国受访者愿意参与，单场建议约 15 分钟、每题预留约 2 分钟。AIMI 借视频/对话减少低质量回答，并用 LLM 处理大量转录文本。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "category": "methods",
+      "sourceName": "Cint",
+      "url": "https://www.cint.com/blog/how-ai-moderated-interviews-give-surveys-the-power-of-a-focus-group/",
+      "publishedAt": "2026-11-24T17:53:34+00:00"
     },
     {
       "id": "8d756da68885fa70",
@@ -4931,6 +4987,27 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/qualitative-codes-themes-names-uncertainty/",
       "publishedAt": "2025-02-25T11:29:07+00:00"
+    },
+    {
+      "id": "3118374762f123d7",
+      "title": "Customer Insights Platform ROI: A CFO-Ready Business Case",
+      "titleZh": "Listen Labs 客户洞察平台 ROI：面向 CFO 的商业论证",
+      "summaryZh": "Listen Labs 提出面向 CFO 的客户洞察平台 ROI 商业论证，主张把平台订阅、招募、内部工时、集成和慢研究机会成本纳入总成本。其称平台把研究周期从 4–6 周压缩到 24 小时内，并以 AI 主持访谈、50M+ 验证受访者网络和自动化分析替代多个供应商。文中还引用 Forrester TEI 对同类平台的三年 ROI 243%–415%，但注明为厂商委托建模。",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "usertesting"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-roi-business-case/",
+      "publishedAt": "2026-11-24T05:00:17+00:00"
     },
     {
       "id": "9994aea493402597",
@@ -6291,6 +6368,26 @@
       "publishedAt": "2025-11-06T10:39:34+00:00"
     },
     {
+      "id": "86e776e14bfec6c0",
+      "title": "Best User Testing Platforms for 2026: Top Picks by Use Case",
+      "titleZh": "2026 年最佳用户测试平台：按用例精选 Listen Labs、Maze、Lyssna 等",
+      "summaryZh": "Listen Labs 在 2026 年最佳用户测试平台推荐中，将自身列为规模化定性研究的综合首选。其平台从 50M+ 验证受访者网络、45+ 国家招募，以 120+ 语言运行 AI 主持访谈，不到 24 小时返回分析结果。Maze 聚焦原型与 Figma 流程测试，Lyssna 侧重五秒测试与首击测试，Lookback 仍需真人主持。",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs",
+        "usertesting",
+        "maze"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-user-testing-platforms/",
+      "publishedAt": "2026-11-24T05:06:19+00:00"
+    },
+    {
       "id": "77681f14cd8e1c14",
       "title": "Top CPG Consumer Insights Companies: A Buyer’s Guide",
       "titleZh": "顶级 CPG 消费者洞察公司买家指南：Listen Labs、NielsenIQ、Kantar 等按研究需求分类",
@@ -7083,6 +7180,27 @@
       "publishedAt": "2026-04-28T00:00:00+00:00"
     },
     {
+      "id": "9b50fb7526339239",
+      "title": "Best AI Tools for Accelerating UX Research in 2026",
+      "titleZh": "2026 年加速 UX 研究的最佳 AI 工具：Listen Labs 与 Dovetail 等对比",
+      "summaryZh": "Listen Labs 在 2026 年 AI 用研工具对比中称，其一体化平台把 4–6 周的 UX 研究周期压缩到 24 小时内完成。平台以覆盖 45+ 国家、120+ 语言的 5000 万+ 受访者网络支撑 AI 主持访谈，并由 Research Agent 输出主题、图表与幻灯片。Dovetail 已于 2025 年 10 月下线受访者招募功能，只保留分析与存储。",
+      "tags": [
+        "其他",
+        "AI 访谈",
+        "招募/样本",
+        "定性分析",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "tools",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-tools-accelerating-ux-research/",
+      "publishedAt": "2026-11-24T05:00:23+00:00"
+    },
+    {
       "id": "688334dd1c53e1ad",
       "title": "Telecom Consumer Insights AI: What Carriers Need",
       "titleZh": "电信消费者洞察 AI：运营商需要什么",
@@ -7441,6 +7559,23 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/marxism-and-critical-theory-in-qualitative-research/",
       "publishedAt": "2025-06-10T17:33:58+00:00"
+    },
+    {
+      "id": "97c2ba7eb80490b6",
+      "title": "Ipsos World Affairs & Security Report 2026",
+      "titleZh": "Ipsos World Affairs & Security Report 2026：公众对全球风险担忧上升，不确定政府是否做好准备",
+      "summaryZh": "Ipsos World Affairs & Security Report 2026 显示，公众对虚假信息、网络攻击、AI 和大国冲突等全球风险日益担忧。报告还指出，公众不确定政府是否已准备好应对这些风险。",
+      "tags": [
+        "论文/研究",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "category": "research",
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/ipsos-world-affairs-security-report-2026",
+      "publishedAt": "2026-11-24T09:00:00+00:00"
     },
     {
       "id": "cc0080c37ca29a91",
@@ -8247,6 +8382,18 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2025.2591872?af=R",
       "publishedAt": "2025-11-24T12:14:05+00:00"
+    },
+    {
+      "id": "3519c7445d33983e",
+      "title": "Mobile media in child injury situations: insights into perceptions of potential users and participants of a usability test",
+      "titleZh": "儿童伤害情境中的移动媒体：潜在用户与可用性测试参与者的感知洞察",
+      "summaryZh": "一项可用性测试围绕儿童伤害情境中的移动媒体，收集潜在用户与测试参与者对它的感知。原文未披露样本量、所用工具、价格与具体结果。",
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Behaviour & Information Technology",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0144929X.2026.2764264?af=R",
+      "publishedAt": "2026-11-23T08:54:51+00:00"
     }
   ]
 }

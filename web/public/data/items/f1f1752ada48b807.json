@@ -1,0 +1,28 @@
+{
+  "id": "f1f1752ada48b807",
+  "sourceId": "cint",
+  "sourceName": "Cint",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.cint.com/blog/how-ai-moderated-interviews-give-surveys-the-power-of-a-focus-group/",
+  "title": "How AI-moderated interviews give surveys the power of a focus group",
+  "titleZh": "Cint：AI 主持访谈如何让问卷具备焦点小组的力量",
+  "summaryZh": "Cint 的 Nik Blach 总结 AI 主持访谈（AIMI）如何让问卷具备焦点小组的力量：以一对一对话兼顾规模与深度，可在 130+ 国家同时访谈数百人。Cint 调研显示 76% 美国、73% 英国受访者愿意参与，单场建议约 15 分钟、每题预留约 2 分钟。AIMI 借视频/对话减少低质量回答，并用 LLM 处理大量转录文本。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "定性分析"
+  ],
+  "entities": [
+    "cint"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-24T17:53:34+00:00",
+  "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

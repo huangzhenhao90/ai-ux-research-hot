@@ -3,7 +3,7 @@
   "name": "AI 访谈",
   "group": "field",
   "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-  "count": 114,
+  "count": 117,
   "items": [
     {
       "id": "fb5f5b4c25f7223f",
@@ -898,6 +898,34 @@
       "relation": "different"
     },
     {
+      "id": "8bacf35e712e9e66",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/voice-of-customer-survey-questions/",
+      "title": "Voice of Customer Survey Questions That Drive Real Insights",
+      "titleZh": "Listen Labs 整理能带来真实洞察的 VoC 问卷问题",
+      "summaryZh": "Listen Labs 整理了按研究目标组织的 VoC 问卷问题库，并建议每轮只保留 3–6 个核心问题。文章覆盖新用户引导、售后支持、流失与留存、产品反馈等场景，并指出固定问卷难以追问评分背后的原因。Listen Labs 的 AI 主持访谈以对话方式运行同一组问题，称回答长度约为平均水平的 3 倍。",
+      "reason": "文章按用研目标拆出 VoC 问卷题库，并交代每题对应的决策与发送时机，可作为搭建短问卷的参考。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "AI 访谈",
+        "文本分析/VOC"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-11-24T05:09:12+00:00",
+      "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "50253980458a8a3a",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1354,6 +1382,33 @@
       "itemType": null,
       "publishedAt": "2026-10-29T05:03:39+00:00",
       "discoveredAt": "2026-10-29T13:27:59.987954+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f1f1752ada48b807",
+      "sourceId": "cint",
+      "sourceName": "Cint",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.cint.com/blog/how-ai-moderated-interviews-give-surveys-the-power-of-a-focus-group/",
+      "title": "How AI-moderated interviews give surveys the power of a focus group",
+      "titleZh": "Cint：AI 主持访谈如何让问卷具备焦点小组的力量",
+      "summaryZh": "Cint 的 Nik Blach 总结 AI 主持访谈（AIMI）如何让问卷具备焦点小组的力量：以一对一对话兼顾规模与深度，可在 130+ 国家同时访谈数百人。Cint 调研显示 76% 美国、73% 英国受访者愿意参与，单场建议约 15 分钟、每题预留约 2 分钟。AIMI 借视频/对话减少低质量回答，并用 LLM 处理大量转录文本。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-24T17:53:34+00:00",
+      "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -3065,6 +3120,36 @@
       "itemType": null,
       "publishedAt": "2026-10-21T05:03:24+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9b50fb7526339239",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-tools-accelerating-ux-research/",
+      "title": "Best AI Tools for Accelerating UX Research in 2026",
+      "titleZh": "2026 年加速 UX 研究的最佳 AI 工具：Listen Labs 与 Dovetail 等对比",
+      "summaryZh": "Listen Labs 在 2026 年 AI 用研工具对比中称，其一体化平台把 4–6 周的 UX 研究周期压缩到 24 小时内完成。平台以覆盖 45+ 国家、120+ 语言的 5000 万+ 受访者网络支撑 AI 主持访谈，并由 Research Agent 输出主题、图表与幻灯片。Dovetail 已于 2025 年 10 月下线受访者招募功能，只保留分析与存储。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "AI 访谈",
+        "招募/样本",
+        "定性分析",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-24T05:00:23+00:00",
+      "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

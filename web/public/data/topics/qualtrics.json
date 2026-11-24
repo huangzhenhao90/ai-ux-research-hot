@@ -3,7 +3,7 @@
   "name": "Qualtrics",
   "group": "company",
   "definition": "Qualtrics 的 XM 平台与 XM Institute 研究，以及体验管理产品的 AI 能力更新。",
-  "count": 34,
+  "count": 35,
   "items": [
     {
       "id": "513d0bb28edb882c",
@@ -239,6 +239,36 @@
       "itemType": null,
       "publishedAt": "2026-11-09T05:04:56+00:00",
       "discoveredAt": "2026-11-10T02:35:05.243115+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "3118374762f123d7",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-roi-business-case/",
+      "title": "Customer Insights Platform ROI: A CFO-Ready Business Case",
+      "titleZh": "Listen Labs 客户洞察平台 ROI：面向 CFO 的商业论证",
+      "summaryZh": "Listen Labs 提出面向 CFO 的客户洞察平台 ROI 商业论证，主张把平台订阅、招募、内部工时、集成和慢研究机会成本纳入总成本。其称平台把研究周期从 4–6 周压缩到 24 小时内，并以 AI 主持访谈、50M+ 验证受访者网络和自动化分析替代多个供应商。文中还引用 Forrester TEI 对同类平台的三年 ROI 243%–415%，但注明为厂商委托建模。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "市场研究",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "surveymonkey",
+        "usertesting"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-24T05:00:17+00:00",
+      "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

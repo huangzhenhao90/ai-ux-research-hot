@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 24 Nov 2026 04:39:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 19:23:45 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 整理能带来真实洞察的 VoC 问卷问题</title>
+      <link>https://listenlabs.com/articles/voice-of-customer-survey-questions/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/voice-of-customer-survey-questions/</guid>
+      <pubDate>Tue, 24 Nov 2026 05:09:12 GMT</pubDate>
+      <description>Listen Labs 整理了按研究目标组织的 VoC 问卷问题库，并建议每轮只保留 3–6 个核心问题。文章覆盖新用户引导、售后支持、流失与留存、产品反馈等场景，并指出固定问卷难以追问评分背后的原因。Listen Labs 的 AI 主持访谈以对话方式运行同一组问题，称回答长度约为平均水平的 3 倍。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>Listen Labs 发布共享屏幕用户研究的实践者指南</title>
       <link>https://listenlabs.com/articles/customer-insights-platform-screen-sharing/</link>
@@ -448,15 +457,6 @@
       <description>Listen Labs 增长负责人 Anish Rao 撰文拆解 7 种预测式营销信息测试方法，并说明各自评分方式与失效边界。文中以 Listen Twins 数字孪生预筛为例，称其基于 1 位真实受访者的访谈构建，可在数秒返回 100+ 条预测答案；文章还引用 Pew 研究指出合成民调平均绝对误差为 11–13 个百分点。文章列出理解度、可信度、差异化和行动意愿四项指标，并指出基于人物画像的预测只具方向性，应作为待检验假设而非最终结论。</description>
       <category>Listen Labs</category>
       <category>methods</category>
-    </item>
-    <item>
-      <title>研究提出判断 LLM 合成用户样本库何时可信的诊断与修正框架</title>
-      <link>https://arxiv.org/abs/2609.13148</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2609.13148</guid>
-      <pubDate>Tue, 27 Oct 2026 04:00:00 GMT</pubDate>
-      <description>该论文提出一套框架，用来判断 LLM 合成消费者样本库何时可信任、可修正或应弃用；框架用协变量重叠、条件校准与跨模型稳定性做诊断。修正需要完整的邀请名单、所有受邀者的应答指示和受访者的真人结果，并要求数据随机缺失且满足正值性假设。在 ANES 与 Twin-2K-500 的配对真人及 LLM 回答模拟中，部分可识别情形下名义 95% 置信区间仅覆盖 88–94%；当非应答依赖缺失的真人结果时，偏差仍然明显，覆盖率接近零。</description>
-      <category>arXiv cs.HC</category>
-      <category>research</category>
     </item>
   </channel>
 </rss>

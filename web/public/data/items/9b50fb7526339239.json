@@ -1,0 +1,31 @@
+{
+  "id": "9b50fb7526339239",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-tools-accelerating-ux-research/",
+  "title": "Best AI Tools for Accelerating UX Research in 2026",
+  "titleZh": "2026 年加速 UX 研究的最佳 AI 工具：Listen Labs 与 Dovetail 等对比",
+  "summaryZh": "Listen Labs 在 2026 年 AI 用研工具对比中称，其一体化平台把 4–6 周的 UX 研究周期压缩到 24 小时内完成。平台以覆盖 45+ 国家、120+ 语言的 5000 万+ 受访者网络支撑 AI 主持访谈，并由 Research Agent 输出主题、图表与幻灯片。Dovetail 已于 2025 年 10 月下线受访者招募功能，只保留分析与存储。",
+  "reason": null,
+  "category": "tools",
+  "tags": [
+    "其他",
+    "AI 访谈",
+    "招募/样本",
+    "定性分析",
+    "洞察库/ResearchOps",
+    "Dovetail"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-24T05:00:23+00:00",
+  "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

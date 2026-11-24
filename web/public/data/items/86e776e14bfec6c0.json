@@ -1,0 +1,30 @@
+{
+  "id": "86e776e14bfec6c0",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-user-testing-platforms/",
+  "title": "Best User Testing Platforms for 2026: Top Picks by Use Case",
+  "titleZh": "2026 年最佳用户测试平台：按用例精选 Listen Labs、Maze、Lyssna 等",
+  "summaryZh": "Listen Labs 在 2026 年最佳用户测试平台推荐中，将自身列为规模化定性研究的综合首选。其平台从 50M+ 验证受访者网络、45+ 国家招募，以 120+ 语言运行 AI 主持访谈，不到 24 小时返回分析结果。Maze 聚焦原型与 Figma 流程测试，Lyssna 侧重五秒测试与首击测试，Lookback 仍需真人主持。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "可用性测试",
+    "招募/样本"
+  ],
+  "entities": [
+    "listen-labs",
+    "usertesting",
+    "maze"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-24T05:06:19+00:00",
+  "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -3,7 +3,7 @@
   "label": "论文",
   "section": "研究与证据",
   "commentary": false,
-  "count": 101,
+  "count": 102,
   "items": [
     {
       "id": "fb5f5b4c25f7223f",
@@ -2386,6 +2386,32 @@
       "itemType": null,
       "publishedAt": "2026-11-13T21:23:22+00:00",
       "discoveredAt": "2026-11-14T00:43:56.816867+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "97c2ba7eb80490b6",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/ipsos-world-affairs-security-report-2026",
+      "title": "Ipsos World Affairs & Security Report 2026",
+      "titleZh": "Ipsos World Affairs & Security Report 2026：公众对全球风险担忧上升，不确定政府是否做好准备",
+      "summaryZh": "Ipsos World Affairs & Security Report 2026 显示，公众对虚假信息、网络攻击、AI 和大国冲突等全球风险日益担忧。报告还指出，公众不确定政府是否已准备好应对这些风险。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-24T09:00:00+00:00",
+      "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

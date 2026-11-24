@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 123,
+  "count": 126,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -1169,6 +1169,34 @@
       "relation": null
     },
     {
+      "id": "5ec8d05e034e744f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/scale-ai-qualitative-research/",
+      "title": "How to Scale Qualitative Research with AI",
+      "titleZh": "Listen Labs 如何用 AI 规模化开展定性研究",
+      "summaryZh": "Listen Labs 用一套六步工作流演示如何用 AI 规模化开展定性研究，从 50M+ 受访者网络招募到 AI 主持访谈与实时反欺诈，全流程在 24 小时内完成。Research Agent 让主题回溯到逐字引用与时间戳片段，Emotional Intelligence 覆盖 50+ 语言。文中称 AI 主持访谈的回答长度为平均值 3 倍，92% 参与者舒适度处于最高档。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-24T05:09:19+00:00",
+      "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "0fb5cd21ea968d97",
       "sourceId": "quirkos",
       "sourceName": "Quirkos",
@@ -1412,6 +1440,33 @@
       "itemType": null,
       "publishedAt": "2026-11-20T05:01:55+00:00",
       "discoveredAt": "2026-11-20T16:45:54.869086+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "f1f1752ada48b807",
+      "sourceId": "cint",
+      "sourceName": "Cint",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.cint.com/blog/how-ai-moderated-interviews-give-surveys-the-power-of-a-focus-group/",
+      "title": "How AI-moderated interviews give surveys the power of a focus group",
+      "titleZh": "Cint：AI 主持访谈如何让问卷具备焦点小组的力量",
+      "summaryZh": "Cint 的 Nik Blach 总结 AI 主持访谈（AIMI）如何让问卷具备焦点小组的力量：以一对一对话兼顾规模与深度，可在 130+ 国家同时访谈数百人。Cint 调研显示 76% 美国、73% 英国受访者愿意参与，单场建议约 15 分钟、每题预留约 2 分钟。AIMI 借视频/对话减少低质量回答，并用 LLM 处理大量转录文本。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "定性分析"
+      ],
+      "entities": [
+        "cint"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-24T17:53:34+00:00",
+      "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -3204,6 +3259,36 @@
       "itemType": null,
       "publishedAt": "2026-04-28T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "9b50fb7526339239",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-tools-accelerating-ux-research/",
+      "title": "Best AI Tools for Accelerating UX Research in 2026",
+      "titleZh": "2026 年加速 UX 研究的最佳 AI 工具：Listen Labs 与 Dovetail 等对比",
+      "summaryZh": "Listen Labs 在 2026 年 AI 用研工具对比中称，其一体化平台把 4–6 周的 UX 研究周期压缩到 24 小时内完成。平台以覆盖 45+ 国家、120+ 语言的 5000 万+ 受访者网络支撑 AI 主持访谈，并由 Research Agent 输出主题、图表与幻灯片。Dovetail 已于 2025 年 10 月下线受访者招募功能，只保留分析与存储。",
+      "reason": null,
+      "category": "tools",
+      "tags": [
+        "其他",
+        "AI 访谈",
+        "招募/样本",
+        "定性分析",
+        "洞察库/ResearchOps",
+        "Dovetail"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-24T05:00:23+00:00",
+      "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

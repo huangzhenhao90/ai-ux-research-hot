@@ -1,0 +1,29 @@
+{
+  "id": "8bacf35e712e9e66",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/voice-of-customer-survey-questions/",
+  "title": "Voice of Customer Survey Questions That Drive Real Insights",
+  "titleZh": "Listen Labs 整理能带来真实洞察的 VoC 问卷问题",
+  "summaryZh": "Listen Labs 整理了按研究目标组织的 VoC 问卷问题库，并建议每轮只保留 3–6 个核心问题。文章覆盖新用户引导、售后支持、流失与留存、产品反馈等场景，并指出固定问卷难以追问评分背后的原因。Listen Labs 的 AI 主持访谈以对话方式运行同一组问题，称回答长度约为平均水平的 3 倍。",
+  "reason": "文章按用研目标拆出 VoC 问卷题库，并交代每题对应的决策与发送时机，可作为搭建短问卷的参考。",
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "问卷/定量",
+    "AI 访谈",
+    "文本分析/VOC"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": "method_or_template",
+  "publishedAt": "2026-11-24T05:09:12+00:00",
+  "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

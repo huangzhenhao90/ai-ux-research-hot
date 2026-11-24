@@ -1,0 +1,29 @@
+{
+  "id": "5ec8d05e034e744f",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/scale-ai-qualitative-research/",
+  "title": "How to Scale Qualitative Research with AI",
+  "titleZh": "Listen Labs 如何用 AI 规模化开展定性研究",
+  "summaryZh": "Listen Labs 用一套六步工作流演示如何用 AI 规模化开展定性研究，从 50M+ 受访者网络招募到 AI 主持访谈与实时反欺诈，全流程在 24 小时内完成。Research Agent 让主题回溯到逐字引用与时间戳片段，Emotional Intelligence 覆盖 50+ 语言。文中称 AI 主持访谈的回答长度为平均值 3 倍，92% 参与者舒适度处于最高档。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "招募/样本",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-24T05:09:19+00:00",
+  "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
