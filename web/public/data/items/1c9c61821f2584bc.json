@@ -1,0 +1,26 @@
+{
+  "id": "1c9c61821f2584bc",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.20378",
+  "title": "Straight to the Product: What Online Retailers Miss When Shoppers Ask AI First",
+  "titleZh": "直奔产品：当购物者先问 AI，在线零售商忽略了什么",
+  "summaryZh": "研究将同一批人的 AI 助手对话与 20 家在线零售商浏览关联：一周内未到店者一天内访问助手点名产品的次数从每 100 次回答 0.02 次升至 2.07 次。但 89% 的到店访问没有助手链接的迹象，54% 经由网页搜索。研究提出 product follow-through 指标，以回答后被访问点名产品的比例评估购物助手。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "行为数据",
+    "市场研究"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-24T05:00:00+00:00",
+  "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

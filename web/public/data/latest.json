@@ -1,12 +1,37 @@
 {
-  "generatedAt": "2026-11-24T19:23:45.825561+00:00",
+  "generatedAt": "2026-11-25T03:24:33.404486+00:00",
   "windowDays": 3,
   "editionHour": 0,
   "days": [
     {
       "date": "2026-11-24",
-      "count": 1,
+      "count": 2,
       "items": [
+        {
+          "id": "fab5bfc6152350b2",
+          "sourceId": "arxiv-cs-hc",
+          "sourceName": "arXiv cs.HC",
+          "venue": null,
+          "tier": "T2",
+          "url": "https://arxiv.org/abs/2608.21294",
+          "title": "Event-Time Confounding Under Bursty Human Dynamics",
+          "titleZh": "论文提出事件时间混杂问题，惰性时间戳仍复现 AI 回答后 76% 的搜索增长",
+          "summaryZh": "一篇 arXiv 论文指出，衡量 AI 回答带来的后续商业活动时存在事件时间混杂，作者插入不标记任何事件的惰性时间戳重跑标准分析，仍复现 AI 回答后 76% 的搜索增长。该研究基于一份关联对话式 AI 使用、浏览与搜索的 opt-in panel，按 30 天活跃度匹配的对照组给出相同结果，惰性时间戳在 16 类网页事件上也显示类似搜索增量。作者称与近期历史匹配时刻作比较可消除大部分增量，但其所做的安慰剂审计均无法确认该比较无偏，已发表研究也几乎不做此类审计，文末给出选择比较对象与压力测试估计量的协议。",
+          "reason": "用惰性时间戳做安慰剂检验，为判断 AI 回答的归因是否被高估提供了可复用的检验协议。",
+          "category": "research",
+          "tags": [
+            "论文/研究",
+            "行为数据",
+            "市场研究"
+          ],
+          "entities": [],
+          "itemType": "research_paper",
+          "publishedAt": "2026-11-24T05:00:00+00:00",
+          "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+          "status": "selected",
+          "dupOf": null,
+          "relation": "different"
+        },
         {
           "id": "8bacf35e712e9e66",
           "sourceId": "listen-labs",

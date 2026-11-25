@@ -1,0 +1,26 @@
+{
+  "id": "187f75ed30eeb6c4",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.28018",
+  "title": "Monte Carlo Power Analysis for Small-System A/B Trials: Detecting Differences in Newsletter Engagement",
+  "titleZh": "小系统 A/B 试验的 Monte Carlo 功效分析：检测个性化新闻邮件简报参与度差异",
+  "summaryZh": "研究者提出一种 Monte Carlo 方法，用于估计旨在提升用户对推荐新闻文章个性化电子邮件简报参与度的小系统 A/B 试验的统计功效。该方法针对复杂实验设计，帮助避免高估或低估实验检出目标效应的概率。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "问卷/定量",
+    "行为数据"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-24T05:00:00+00:00",
+  "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

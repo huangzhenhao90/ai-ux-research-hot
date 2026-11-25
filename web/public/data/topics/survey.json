@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 103,
+  "count": 106,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -1804,6 +1804,33 @@
       "relation": null
     },
     {
+      "id": "b0ab7da6997b31a8",
+      "sourceId": "quantilope",
+      "sourceName": "quantilope",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.quantilope.com/resources/shifting-gears-how-mental-availability-supports-nascars-brand-strategy",
+      "title": "Shifting Gears: How Mental Availability Supports NASCAR's Brand Strategy",
+      "titleZh": "quantilope 案例：Mental Availability 如何支撑 NASCAR 的品牌策略",
+      "summaryZh": "NASCAR 与 quantilope 合作，把研究从现有车迷追踪转向覆盖更广人群的 Mental Availability 追踪，每季度测量 20 个 CEPs。数据发现 NASCAR 在「兴奋/刺激」上握有决定性 Mental Advantage，支撑了 2026 年品牌 anthem 广告，并指向现场氛围与家庭观看等联想机会。",
+      "reason": null,
+      "category": "cases",
+      "tags": [
+        "案例",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-24T19:52:38+00:00",
+      "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "9994aea493402597",
       "sourceId": "prodege",
       "sourceName": "Prodege",
@@ -2248,6 +2275,31 @@
       "relation": null
     },
     {
+      "id": "187f75ed30eeb6c4",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.28018",
+      "title": "Monte Carlo Power Analysis for Small-System A/B Trials: Detecting Differences in Newsletter Engagement",
+      "titleZh": "小系统 A/B 试验的 Monte Carlo 功效分析：检测个性化新闻邮件简报参与度差异",
+      "summaryZh": "研究者提出一种 Monte Carlo 方法，用于估计旨在提升用户对推荐新闻文章个性化电子邮件简报参与度的小系统 A/B 试验的统计功效。该方法针对复杂实验设计，帮助避免高估或低估实验检出目标效应的概率。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "行为数据"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-24T05:00:00+00:00",
+      "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "8735d76355f9442b",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2273,6 +2325,31 @@
       "itemType": null,
       "publishedAt": "2026-11-06T07:26:49+00:00",
       "discoveredAt": "2026-11-06T18:58:55.026284+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "8a33433f05fece2c",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.28028",
+      "title": "A Data-Mining Approach to Library User Segmentation: Clustering Readers by Perceived Marketing Communication",
+      "titleZh": "基于数据挖掘的图书馆用户细分：按营销传播感知对读者聚类",
+      "summaryZh": "一项数据挖掘研究对乌兹别克斯坦15家信息图书馆中心的读者按营销传播感知做聚类细分，基于180份完整问卷得到稳定的四类用户。样本源自213份问卷，保留7个Likert感知变量，经z-score标准化和k-means聚类，以轮廓系数选定四类。研究指出感知—忠诚悖论：部分用户在对中介化传播感知较弱时仍保持满意。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-24T05:00:00+00:00",
+      "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

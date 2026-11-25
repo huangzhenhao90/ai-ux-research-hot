@@ -23,5 +23,14 @@
   "status": "selected",
   "dupOf": null,
   "relation": "different",
-  "related": []
+  "related": [
+    {
+      "id": "d1320927728627ac",
+      "title": "Do Simulated Users Push Back Like Real Users? Correctness vs. Stance",
+      "titleZh": "arXiv 论文对比真实用户与 GPT 模拟用户的反驳行为，发现模拟器按对错而非立场反应",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.28024",
+      "publishedAt": "2026-11-24T05:00:00+00:00"
+    }
+  ]
 }

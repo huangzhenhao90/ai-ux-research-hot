@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 106,
+  "count": 108,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -439,6 +439,31 @@
       "itemType": null,
       "publishedAt": "2026-08-28T17:00:00+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "09f11d5748887c8c",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.29434",
+      "title": "Managing Verification Debt: A Framework for Responsible Human-AI Research Partnerships",
+      "titleZh": "管理验证债：负责任的人类—AI 研究合作框架",
+      "summaryZh": "arXiv 评论文章提出“验证债”框架，主张人类—AI 研究合作不能只靠更好的提示词，而需纪律化的验证管理。作者用共享拓扑结构连接研究问题、主张、假设、来源、测试与决策，并记录来源、依赖和验证状态，使未解决的验证债可见。框架要求有后果的贡献在研究推进前通过决策关口，并讨论双向合作、监督式合作、学术评估与同行评审。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "研究伦理",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-24T05:00:00+00:00",
+      "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2744,6 +2769,29 @@
       "itemType": null,
       "publishedAt": "2026-11-10T14:04:57+00:00",
       "discoveredAt": "2026-11-10T21:40:45.145663+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "80ec761c03110101",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/the-design-process-is-changing-are-we-asking-the-right-questions-c3c376cb7cb8?source=rss----138adf9c44c---4",
+      "title": "The design process is changing. Are we asking the right questions?",
+      "titleZh": "设计流程正在改变，我们问对问题了吗？",
+      "summaryZh": "UX Collective 一篇评论以「当设计流程本身变得智能会发生什么」切入，追问在设计流程正在改变之际，从业者是否问对了问题。原文未给出具体工具、样本量或数据，完整内容需在 UX Collective 阅读。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-24T22:11:13+00:00",
+      "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

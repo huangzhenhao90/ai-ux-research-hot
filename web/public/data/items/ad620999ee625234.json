@@ -1,0 +1,26 @@
+{
+  "id": "ad620999ee625234",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.29206",
+  "title": "DataRecycle: Trustworthy Distillation of Structured Data from Scattered Web Evidence",
+  "titleZh": "DataRecycle：从零散网络证据中可信提炼结构化数据",
+  "summaryZh": "DataRecycle 是一个交互式系统，能把零散的网络证据整理成可比较、可追溯来源的数值事实表格。它把用户查询拆解为实体与属性，以本体引导的自顶向下策略获取证据，可视化从检索片段到抽取值的谱系，并跨时间、定义与量纲对齐存在冲突的异构数据。论文通过模块级实验、使用场景与用户研究评估，显示该系统可帮助用户检查不确定性与冲突来源。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "文本分析/VOC",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-24T05:00:00+00:00",
+  "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

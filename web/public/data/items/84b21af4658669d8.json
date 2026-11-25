@@ -1,0 +1,28 @@
+{
+  "id": "84b21af4658669d8",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.30674",
+  "title": "The user who is not there: genealogy and critique of simulated users built with generative AI in UX testing",
+  "titleZh": "缺席的用户：UX 测试中生成式 AI 合成用户的谱系与批判",
+  "summaryZh": "论文 arXiv:2611.30674v1 结合批判性文献综述与谱系梳理，考察生成式 AI 构建的合成用户在 UX 测试中的承诺。文章提出，无需真实用户参与测试是 HCI 的长期目标，成本一直是理由，用户模型的效度标准从预测精度转向可信度，近期回归精度的研究报告结果偏弱，而模拟参与者与把参与视为政治权利的方法（以参与式设计为极端案例）相冲突。综述中拉美文献只用生成式 AI 辅助专家检查、未出现合成用户研究，留下代表性与巴西研究伦理监管的开放问题，论文同时说明该综述本身用 LLM 充当研究助理并讨论其含义。",
+  "reason": "梳理合成用户从 1980 年代认知模型到生成式智能体的脉络，并比较效度标准从精度转向可信度的变化，便于判断这类方法的边界。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "可用性测试",
+    "学术 HCI",
+    "研究伦理"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-24T05:00:00+00:00",
+  "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

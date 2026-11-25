@@ -16,6 +16,7 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 ## 最新精选
 
 - [Listen Labs 整理能带来真实洞察的 VoC 问卷问题](https://listenlabs.com/articles/voice-of-customer-survey-questions/)：Listen Labs 整理了按研究目标组织的 VoC 问卷问题库，并建议每轮只保留 3–6 个核心问题。文章覆盖新用户引导、售后支持、流失与留存、产品反馈等场景，并指出固定问卷难以追问评分背后的原因。Listen Labs 的 AI 主…（Listen Labs，2026-11-24）
+- [论文提出事件时间混杂问题，惰性时间戳仍复现 AI 回答后 76% 的搜索增长](https://arxiv.org/abs/2608.21294)：一篇 arXiv 论文指出，衡量 AI 回答带来的后续商业活动时存在事件时间混杂，作者插入不标记任何事件的惰性时间戳重跑标准分析，仍复现 AI 回答后 76% 的搜索增长。该研究基于一份关联对话式 AI 使用、浏览与搜索的 opt-in…（arXiv cs.HC，2026-11-24）
 - [Listen Labs 发布共享屏幕用户研究的实践者指南](https://listenlabs.com/articles/customer-insights-platform-screen-sharing/)：Listen Labs 发布一份共享屏幕用户研究的实践者指南，给出从任务与成功标准设定、限定共享窗口、准备测试账号到书面同意的分步流程。文中称其 Visual Insights 可在访谈中实时识别屏幕行为与口头表述的矛盾，重定向偏题的参与…（Listen Labs，2026-11-21）
 - [研究 AI 仅凭原始用户评论能否生成好设计](https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：让 AI 模型完成两个设计任务，比较把原始用户评论与整合后的发现和建议作为研究上下文时，哪种情况下生成的设计更好，结果发现后者更好。两个任务分别是重新预订已取消航班的一页表单和在线商店的多步骤结账流程；每个任务的提示词和设计系统信息保持不…（Nielsen Norman Group，2026-11-20）
 - [Listen Labs 梳理受访者报酬区间与支付实践](https://listenlabs.com/articles/user-testing-participant-incentives/)：Listen Labs 增长负责人 Anish Rao 撰写指南，汇总不同研究类型与受众的受访者报酬区间，并梳理支付方式和缺席预留预算。文中列出的区间包括短时非主持式任务 $5–$75、主持式消费者访谈 $60–$125/小时，以及 B2…（Listen Labs，2026-11-20）
@@ -44,6 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [Maze MCP 支持在 AI 工具内直接创建研究项目](https://maze.co/blog/maze-mcp-create-research-studies/)：Maze 在其 MCP 中新增能力，研究者无需离开所用的 AI 工具即可创建研究项目。（Maze Blog，2026-11-04）
 - [Listen Labs 详解如何用 AI 做定性编码的六步流程](https://listenlabs.com/articles/ai-qualitative-coding-customer-research/)：Listen Labs 增长负责人 Anish Rao 发布一份 AI 定性编码操作指南，把流程拆成转写清洗、编码本构建、演绎编码、归纳编码、主题聚类与逐条溯源六步，并规定由人工负责编码本定稿和结果核验。文中列出编码本六要素，包括定义、纳…（Listen Labs，2026-11-04）
 - [Listen Labs 解读 AI 生成人物画像的可靠性与构建方法](https://listenlabs.com/articles/ai-generated-personas-market-research/)：Listen Labs 梳理多项研究指出，基于真实访谈构建的 AI 人物画像可用于假设生成与方案探索，但不适合定价等高风险决策。Stanford 的 Park 等人用 1,052 名美国人的两小时访谈构建智能体，达到参与者自身重测一致性的…（Listen Labs，2026-11-04）
-- [MeasuringU 实验对比 AI 与人类主持访谈的主题覆盖](https://measuringu.com/do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators/?utm_source=rss&utm_medium=rss&utm_campaign=do-participants-provide-the-same-depth-of-insight-to-human-and-ai-moderators)：MeasuringU 的 20 人随机对照实验显示，基于 Gemini 3 Flash 搭建的 AI 主持访谈在主题覆盖上整体不及人类主持。AI 主持的场次短 37%，参与者每分钟说出的词数少 45%（54 vs. 98）；在 8 个主题…（MeasuringU（Jeff Sauro），2026-11-04）
 
-（更多 77 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 78 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）

@@ -1,0 +1,26 @@
+{
+  "id": "8a33433f05fece2c",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.28028",
+  "title": "A Data-Mining Approach to Library User Segmentation: Clustering Readers by Perceived Marketing Communication",
+  "titleZh": "基于数据挖掘的图书馆用户细分：按营销传播感知对读者聚类",
+  "summaryZh": "一项数据挖掘研究对乌兹别克斯坦15家信息图书馆中心的读者按营销传播感知做聚类细分，基于180份完整问卷得到稳定的四类用户。样本源自213份问卷，保留7个Likert感知变量，经z-score标准化和k-means聚类，以轮廓系数选定四类。研究指出感知—忠诚悖论：部分用户在对中介化传播感知较弱时仍保持满意。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "问卷/定量",
+    "市场研究"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-24T05:00:00+00:00",
+  "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

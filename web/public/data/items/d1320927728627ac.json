@@ -1,0 +1,35 @@
+{
+  "id": "d1320927728627ac",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.28024",
+  "title": "Do Simulated Users Push Back Like Real Users? Correctness vs. Stance",
+  "titleZh": "arXiv 论文对比真实用户与 GPT 模拟用户的反驳行为，发现模拟器按对错而非立场反应",
+  "summaryZh": "一篇 arXiv 论文从 WildChat 中选取助手明确挑战或支持用户立场的对话，比较真实用户的下一轮回复与同一前缀下的模拟回复，检验 LLM 模拟用户是否会像真实用户一样反驳。在回复的用户中，真实用户被挑战后的反驳率为 20.5%、被支持后为 8.2%，而基于 GPT 的模拟器在两种情况下均为 27.1%，立场差距 D = -0.12 [-0.17, -0.08]。模拟器是否反驳主要取决于助手立场被判为正确（挑战后 21% vs. 49%，支持后 16% vs. 58%），真实用户的变化较小；另一个 GPT 模拟器和两个 Claude 模拟器的立场效应接近真实用户，作者据此认为应对每个模拟器单独测量立场敏感性。",
+  "reason": "研究用同一段对话前缀对比真实用户与模拟用户，给出立场差距的具体数值，为选用模拟器提供一个可核查的参照。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "学术 HCI"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-24T05:00:00+00:00",
+  "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+  "status": "duplicate",
+  "dupOf": "fb5f5b4c25f7223f",
+  "relation": "same",
+  "related": [
+    {
+      "id": "fb5f5b4c25f7223f",
+      "title": "AI Simulations Grounded in Rich Self-Reports Increase Accuracy and Reduce Distortion",
+      "titleZh": "AI 语音访谈研究：丰富自述数据把 AI 模拟准确率从 60.4% 提升至 72.8%",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2411.10109",
+      "publishedAt": "2026-11-18T05:00:00+00:00"
+    }
+  ]
+}

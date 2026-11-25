@@ -1,5 +1,5 @@
 {
-  "count": 473,
+  "count": 484,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -581,6 +581,22 @@
       "publishedAt": "2026-05-11T14:00:00+00:00"
     },
     {
+      "id": "fab5bfc6152350b2",
+      "title": "Event-Time Confounding Under Bursty Human Dynamics",
+      "titleZh": "论文提出事件时间混杂问题，惰性时间戳仍复现 AI 回答后 76% 的搜索增长",
+      "summaryZh": "一篇 arXiv 论文指出，衡量 AI 回答带来的后续商业活动时存在事件时间混杂，作者插入不标记任何事件的惰性时间戳重跑标准分析，仍复现 AI 回答后 76% 的搜索增长。该研究基于一份关联对话式 AI 使用、浏览与搜索的 opt-in panel，按 30 天活跃度匹配的对照组给出相同结果，惰性时间戳在 16 类网页事件上也显示类似搜索增量。作者称与近期历史匹配时刻作比较可消除大部分增量，但其所做的安慰剂审计均无法确认该比较无偏，已发表研究也几乎不做此类审计，文末给出选择比较对象与压力测试估计量的协议。",
+      "tags": [
+        "论文/研究",
+        "行为数据",
+        "市场研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2608.21294",
+      "publishedAt": "2026-11-24T05:00:00+00:00"
+    },
+    {
       "id": "d35a45d8c6d0d356",
       "title": "TACT: A Pragmatic Approach to Qualitative Analysis with an AI Council",
       "titleZh": "TACT：用 AI 委员会做大规模定性主题分析的实用流程",
@@ -890,6 +906,24 @@
       "sourceName": "arXiv cs.HC",
       "url": "https://arxiv.org/abs/2611.25200",
       "publishedAt": "2026-11-20T05:00:00+00:00"
+    },
+    {
+      "id": "84b21af4658669d8",
+      "title": "The user who is not there: genealogy and critique of simulated users built with generative AI in UX testing",
+      "titleZh": "缺席的用户：UX 测试中生成式 AI 合成用户的谱系与批判",
+      "summaryZh": "论文 arXiv:2611.30674v1 结合批判性文献综述与谱系梳理，考察生成式 AI 构建的合成用户在 UX 测试中的承诺。文章提出，无需真实用户参与测试是 HCI 的长期目标，成本一直是理由，用户模型的效度标准从预测精度转向可信度，近期回归精度的研究报告结果偏弱，而模拟参与者与把参与视为政治权利的方法（以参与式设计为极端案例）相冲突。综述中拉美文献只用生成式 AI 辅助专家检查、未出现合成用户研究，留下代表性与巴西研究伦理监管的开放问题，论文同时说明该综述本身用 LLM 充当研究助理并讨论其含义。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "可用性测试",
+        "学术 HCI",
+        "研究伦理"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.30674",
+      "publishedAt": "2026-11-24T05:00:00+00:00"
     },
     {
       "id": "4e8f45dfecabdd91",
@@ -2046,6 +2080,22 @@
       "publishedAt": "2026-03-26T15:34:41+00:00"
     },
     {
+      "id": "1c9c61821f2584bc",
+      "title": "Straight to the Product: What Online Retailers Miss When Shoppers Ask AI First",
+      "titleZh": "直奔产品：当购物者先问 AI，在线零售商忽略了什么",
+      "summaryZh": "研究将同一批人的 AI 助手对话与 20 家在线零售商浏览关联：一周内未到店者一天内访问助手点名产品的次数从每 100 次回答 0.02 次升至 2.07 次。但 89% 的到店访问没有助手链接的迹象，54% 经由网页搜索。研究提出 product follow-through 指标，以回答后被访问点名产品的比例评估购物助手。",
+      "tags": [
+        "论文/研究",
+        "行为数据",
+        "市场研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.20378",
+      "publishedAt": "2026-11-24T05:00:00+00:00"
+    },
+    {
       "id": "9c7813c60b632dca",
       "title": "Supporting Researcher Control in AI-Assisted Social Media Analysis: A Mixed-Methods Study of AI4OSN",
       "titleZh": "AI4OSN：在 AI 辅助社交媒体分析中支持研究者控制的混合方法研究",
@@ -2095,6 +2145,22 @@
       "sourceName": "Cint",
       "url": "https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/",
       "publishedAt": "2026-10-20T20:46:56+00:00"
+    },
+    {
+      "id": "ad620999ee625234",
+      "title": "DataRecycle: Trustworthy Distillation of Structured Data from Scattered Web Evidence",
+      "titleZh": "DataRecycle：从零散网络证据中可信提炼结构化数据",
+      "summaryZh": "DataRecycle 是一个交互式系统，能把零散的网络证据整理成可比较、可追溯来源的数值事实表格。它把用户查询拆解为实体与属性，以本体引导的自顶向下策略获取证据，可视化从检索片段到抽取值的谱系，并跨时间、定义与量纲对齐存在冲突的异构数据。论文通过模块级实验、使用场景与用户研究评估，显示该系统可帮助用户检查不确定性与冲突来源。",
+      "tags": [
+        "论文/研究",
+        "文本分析/VOC",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.29206",
+      "publishedAt": "2026-11-24T05:00:00+00:00"
     },
     {
       "id": "191b6afc061043cc",
@@ -2375,6 +2441,23 @@
       "publishedAt": "2025-05-09T09:46:24+00:00"
     },
     {
+      "id": "c959636893fa4a27",
+      "title": "Co-Defining Transparency for Clinical AI: A Replicable Participatory Methodology",
+      "titleZh": "临床 AI 透明度的共同定义：一套可复现的参与式方法",
+      "summaryZh": "研究提出并在一家欧洲大型大学医院落地可复现的六工作坊参与式方法，让前线用户共同定义临床 AI 透明度需求。该方法从 274 条利益相关者原话等来源提炼 20 项指标，并在 5 个临床场景中评分；84% 参与者认为人工复核自动化决策最关键。评估的 151 个透明度方案中 79 个被直接接受，覆盖 20 项指标中的 17 项。",
+      "tags": [
+        "论文/研究",
+        "学术 HCI",
+        "定性分析",
+        "研究伦理"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.28232",
+      "publishedAt": "2026-11-24T05:00:00+00:00"
+    },
+    {
       "id": "220c19f2b84b2b88",
       "title": "Screen-Shared Customer Insights: A Practitioner’s Guide",
       "titleZh": "Listen Labs 发布共享屏幕用户研究的实践者指南",
@@ -2505,6 +2588,22 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/concept-testing-for-landing-pages/",
       "publishedAt": "2026-10-25T05:04:18+00:00"
+    },
+    {
+      "id": "09f11d5748887c8c",
+      "title": "Managing Verification Debt: A Framework for Responsible Human-AI Research Partnerships",
+      "titleZh": "管理验证债：负责任的人类—AI 研究合作框架",
+      "summaryZh": "arXiv 评论文章提出“验证债”框架，主张人类—AI 研究合作不能只靠更好的提示词，而需纪律化的验证管理。作者用共享拓扑结构连接研究问题、主张、假设、来源、测试与决策，并记录来源、依赖和验证状态，使未解决的验证债可见。框架要求有后果的贡献在研究推进前通过决策关口，并讨论双向合作、监督式合作、学术评估与同行评审。",
+      "tags": [
+        "观点/讨论",
+        "研究伦理",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.29434",
+      "publishedAt": "2026-11-24T05:00:00+00:00"
     },
     {
       "id": "6f448cafbd485871",
@@ -4742,6 +4841,24 @@
       "publishedAt": "2026-02-12T09:40:49+00:00"
     },
     {
+      "id": "b0ab7da6997b31a8",
+      "title": "Shifting Gears: How Mental Availability Supports NASCAR's Brand Strategy",
+      "titleZh": "quantilope 案例：Mental Availability 如何支撑 NASCAR 的品牌策略",
+      "summaryZh": "NASCAR 与 quantilope 合作，把研究从现有车迷追踪转向覆盖更广人群的 Mental Availability 追踪，每季度测量 20 个 CEPs。数据发现 NASCAR 在「兴奋/刺激」上握有决定性 Mental Advantage，支撑了 2026 年品牌 anthem 广告，并指向现场氛围与家庭观看等联想机会。",
+      "tags": [
+        "案例",
+        "市场研究",
+        "问卷/定量"
+      ],
+      "entities": [
+        "quantilope"
+      ],
+      "category": "cases",
+      "sourceName": "quantilope",
+      "url": "https://www.quantilope.com/resources/shifting-gears-how-mental-availability-supports-nascars-brand-strategy",
+      "publishedAt": "2026-11-24T19:52:38+00:00"
+    },
+    {
       "id": "b3654752af9a8102",
       "title": "ShopMind：用于个性化且逼真的电子商务用户模拟的心理世界模型",
       "titleZh": "ShopMind：用于个性化且逼真的电子商务用户模拟的心理世界模型",
@@ -5498,6 +5615,22 @@
       "publishedAt": "2025-12-09T00:00:00+00:00"
     },
     {
+      "id": "6376a15892a9db10",
+      "title": "Measuring Human-AI and AI-AI Teams in Multi-turn Layout Creation",
+      "titleZh": "测量 LLM 多轮布局创作中的人机与 AI-AI 团队差异",
+      "summaryZh": "n=6 的探索性研究比较多轮布局创作中的人机与 AI-AI 团队，人类-AI 团队得分始终低于 AI-AI 团队。研究以 19 份人类偏好数据拟合布局几何特征的评分函数，而非用 LLM 评判；LLM 倾向首轮就编码整个布局，人类则多轮迭代、指令更短。差距源于人类难以精确指定尺寸与位置（如向右 42 像素），在嵌套结构排序上则接近语言模型；把 speaker LLM 调得更像人类的干预难以奏效。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.28025",
+      "publishedAt": "2026-11-24T05:00:00+00:00"
+    },
+    {
       "id": "906458513be74f0c",
       "title": "Best AI Platforms for Brand Sentiment Analysis (2026)",
       "titleZh": "2026 年品牌情绪分析最佳 AI 平台盘点：Listen Labs、Profound 等",
@@ -6137,6 +6270,22 @@
       "publishedAt": "2026-03-31T00:00:00+00:00"
     },
     {
+      "id": "187f75ed30eeb6c4",
+      "title": "Monte Carlo Power Analysis for Small-System A/B Trials: Detecting Differences in Newsletter Engagement",
+      "titleZh": "小系统 A/B 试验的 Monte Carlo 功效分析：检测个性化新闻邮件简报参与度差异",
+      "summaryZh": "研究者提出一种 Monte Carlo 方法，用于估计旨在提升用户对推荐新闻文章个性化电子邮件简报参与度的小系统 A/B 试验的统计功效。该方法针对复杂实验设计，帮助避免高估或低估实验检出目标效应的概率。",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "行为数据"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.28018",
+      "publishedAt": "2026-11-24T05:00:00+00:00"
+    },
+    {
       "id": "f723b756206abefb",
       "title": "Best AI Qualitative Research Tools In 2026",
       "titleZh": "2026 年最佳 AI 定性研究工具：Listen Labs 居端到端平台首位",
@@ -6386,6 +6535,22 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/best-user-testing-platforms/",
       "publishedAt": "2026-11-24T05:06:19+00:00"
+    },
+    {
+      "id": "8a33433f05fece2c",
+      "title": "A Data-Mining Approach to Library User Segmentation: Clustering Readers by Perceived Marketing Communication",
+      "titleZh": "基于数据挖掘的图书馆用户细分：按营销传播感知对读者聚类",
+      "summaryZh": "一项数据挖掘研究对乌兹别克斯坦15家信息图书馆中心的读者按营销传播感知做聚类细分，基于180份完整问卷得到稳定的四类用户。样本源自213份问卷，保留7个Likert感知变量，经z-score标准化和k-means聚类，以轮廓系数选定四类。研究指出感知—忠诚悖论：部分用户在对中介化传播感知较弱时仍保持满意。",
+      "tags": [
+        "论文/研究",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.28028",
+      "publishedAt": "2026-11-24T05:00:00+00:00"
     },
     {
       "id": "77681f14cd8e1c14",
@@ -7972,6 +8137,20 @@
       "sourceName": "International Journal of Market Research",
       "url": "https://journals.sagepub.com/doi/abs/10.1177/1470785320941417?ai=2b4&mi=ehikzz&af=R",
       "publishedAt": "2020-07-02T10:29:38+00:00"
+    },
+    {
+      "id": "80ec761c03110101",
+      "title": "The design process is changing. Are we asking the right questions?",
+      "titleZh": "设计流程正在改变，我们问对问题了吗？",
+      "summaryZh": "UX Collective 一篇评论以「当设计流程本身变得智能会发生什么」切入，追问在设计流程正在改变之际，从业者是否问对了问题。原文未给出具体工具、样本量或数据，完整内容需在 UX Collective 阅读。",
+      "tags": [
+        "观点/讨论"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/the-design-process-is-changing-are-we-asking-the-right-questions-c3c376cb7cb8?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-11-24T22:11:13+00:00"
     },
     {
       "id": "8a2f08b20c89290b",

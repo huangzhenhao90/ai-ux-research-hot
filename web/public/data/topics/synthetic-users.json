@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 95,
+  "count": 97,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -629,6 +629,33 @@
       "status": "listed",
       "dupOf": null,
       "relation": "followup"
+    },
+    {
+      "id": "84b21af4658669d8",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.30674",
+      "title": "The user who is not there: genealogy and critique of simulated users built with generative AI in UX testing",
+      "titleZh": "缺席的用户：UX 测试中生成式 AI 合成用户的谱系与批判",
+      "summaryZh": "论文 arXiv:2611.30674v1 结合批判性文献综述与谱系梳理，考察生成式 AI 构建的合成用户在 UX 测试中的承诺。文章提出，无需真实用户参与测试是 HCI 的长期目标，成本一直是理由，用户模型的效度标准从预测精度转向可信度，近期回归精度的研究报告结果偏弱，而模拟参与者与把参与视为政治权利的方法（以参与式设计为极端案例）相冲突。综述中拉美文献只用生成式 AI 辅助专家检查、未出现合成用户研究，留下代表性与巴西研究伦理监管的开放问题，论文同时说明该综述本身用 LLM 充当研究助理并讨论其含义。",
+      "reason": "梳理合成用户从 1980 年代认知模型到生成式智能体的脉络，并比较效度标准从精度转向可信度的变化，便于判断这类方法的边界。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "可用性测试",
+        "学术 HCI",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-24T05:00:00+00:00",
+      "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "4e8f45dfecabdd91",
@@ -2355,6 +2382,31 @@
       "itemType": null,
       "publishedAt": "2026-11-01T05:04:39+00:00",
       "discoveredAt": "2026-11-01T14:48:09.206944+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6376a15892a9db10",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.28025",
+      "title": "Measuring Human-AI and AI-AI Teams in Multi-turn Layout Creation",
+      "titleZh": "测量 LLM 多轮布局创作中的人机与 AI-AI 团队差异",
+      "summaryZh": "n=6 的探索性研究比较多轮布局创作中的人机与 AI-AI 团队，人类-AI 团队得分始终低于 AI-AI 团队。研究以 19 份人类偏好数据拟合布局几何特征的评分函数，而非用 LLM 评判；LLM 倾向首轮就编码整个布局，人类则多轮迭代、指令更短。差距源于人类难以精确指定尺寸与位置（如向右 42 像素），在嵌套结构排序上则接近语言模型；把 speaker LLM 调得更像人类的干预难以奏效。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "学术 HCI"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-24T05:00:00+00:00",
+      "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

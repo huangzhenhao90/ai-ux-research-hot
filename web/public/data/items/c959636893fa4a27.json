@@ -1,0 +1,27 @@
+{
+  "id": "c959636893fa4a27",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.28232",
+  "title": "Co-Defining Transparency for Clinical AI: A Replicable Participatory Methodology",
+  "titleZh": "临床 AI 透明度的共同定义：一套可复现的参与式方法",
+  "summaryZh": "研究提出并在一家欧洲大型大学医院落地可复现的六工作坊参与式方法，让前线用户共同定义临床 AI 透明度需求。该方法从 274 条利益相关者原话等来源提炼 20 项指标，并在 5 个临床场景中评分；84% 参与者认为人工复核自动化决策最关键。评估的 151 个透明度方案中 79 个被直接接受，覆盖 20 项指标中的 17 项。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "学术 HCI",
+    "定性分析",
+    "研究伦理"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-24T05:00:00+00:00",
+  "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
