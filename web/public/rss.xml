@@ -5,7 +5,7 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 25 Nov 2026 03:24:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 13:58:01 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
     <item>
@@ -142,6 +142,15 @@
       <description>Jakob Nielsen 在最新一期 UX Roundup 中解读 AutoAnalysis 对 420 项研究的元分析，认为人机协作未产生协同增益。该分析由哈佛商学院 Michelle Vaccaro 与 MIT 合著者完成，合并 1,955 个效应量，其中仅 171 个同时单独测量了 AI；AI 在这一对一对决中胜出 68%，人机团队平均不敌表现更强的单独一方。研究中 AI agents 筛选 15,495 条记录、审阅 2,403 篇论文后筛出 420 项合格研究，结果在 auto-analysis.dev 按月更新。</description>
       <category>Jakob Nielsen on UX</category>
       <category>opinion</category>
+    </item>
+    <item>
+      <title>研究审计 LLM 合成受访者的人口统计信息披露</title>
+      <link>https://arxiv.org/abs/2611.20606v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.20606v1</guid>
+      <pubDate>Sun, 15 Nov 2026 16:00:00 GMT</pubDate>
+      <description>一项研究审计了 LLM 代替真实受访者回答调查时的人口统计信息披露，发现受访者档案对个体预测的增益有限。群体估计的收益多可由普查数据或合成角色替代。群体比较虽依赖受访者档案，却更多受人口标签驱动，并抹平真实群体差异。</description>
+      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
+      <category>research</category>
     </item>
     <item>
       <title>如何开展食品饮料焦点小组：一份七步操作手册</title>
@@ -448,15 +457,6 @@
       <description>作者在这篇评论中论证，产品团队让 LLM 先定义用户需求和生成画像，得到的多是基于平均值、难以追溯的结论，速度快不等于有进展。文中引用 Atlassian《State of Product 2026》称产品经理用 AI 每天省下近两小时，但 84% 仍担心产品难以成功；NN/g 用 AI 生成受访者重跑三项研究，答案过浅；2026 年 User Interviews 对 150 名研究者的调查中 81% 常用 AI，仅 8% 用它模拟受访者，88% 担心洞察质量。作者主张先用真实访谈与支持工单完成发现，再让 AI 综合笔记、排序失败场景并生成概念。</description>
       <category>UX Collective</category>
       <category>opinion</category>
-    </item>
-    <item>
-      <title>Listen Labs 如何用六步诊断流程和 AI 主持访谈查明 NPS 下滑原因</title>
-      <link>https://listenlabs.com/articles/best-ai-tools-nps-drop/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/best-ai-tools-nps-drop/</guid>
-      <pubDate>Tue, 27 Oct 2026 06:16:33 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 发布一份六步诊断指南，讲解如何用 AI 主持访谈查明 NPS 下滑的原因。文中指出只有约 10% 的 NPS 受访者会留下开放题文本，一轮 5000 账户、12–25% 回收率的调研可能只收到 60–150 条评论，且 30% 以上回答只有一两个词时应视为问卷设计问题而非分析问题。Listen Labs 的做法是从 50M+ 核实样本网络中招募贬损者，在 45+ 国家、120+ 语言开展自适应 AI 主持访谈，24 小时内交付可追溯到具体受访者、原话和视频片段的结论，并可通过 Listen Labs Pulse 对接 Qualtrics、Decipher 等现有 NPS 工具。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
     </item>
   </channel>
 </rss>

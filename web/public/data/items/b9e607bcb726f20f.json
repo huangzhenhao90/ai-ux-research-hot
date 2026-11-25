@@ -1,0 +1,29 @@
+{
+  "id": "b9e607bcb726f20f",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/startup-market-research-pain-points/",
+  "title": "Startup Customer Research Pain Points: A Founder’s Guide",
+  "titleZh": "Listen Labs：创业公司客户研究八大痛点指南",
+  "summaryZh": "Listen Labs 在创始人指南中梳理创业公司客户研究的八大痛点，并称其平台以 50M+ 验证受访者网络、AI 主持访谈和不到 24 小时交付分析覆盖从招募到交付的流程。平台称已进行超过 100 万次客户访谈，服务约 15% 的 Fortune 100，成本为传统研究的三分之一。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "AI 访谈",
+    "招募/样本",
+    "合成用户"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-25T05:06:27+00:00",
+  "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

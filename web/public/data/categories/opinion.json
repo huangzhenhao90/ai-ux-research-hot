@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 108,
+  "count": 111,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -817,6 +817,34 @@
       "relation": null
     },
     {
+      "id": "e7eb56d8ec0091ee",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/financial-services-survey-fatigue-fix/",
+      "title": "Financial Services Survey Fatigue: Why Shorter Surveys Fail",
+      "titleZh": "Listen Labs：金融服务问卷疲劳，缩短问卷为何无效",
+      "summaryZh": "Listen Labs 认为金融服务问卷疲劳源于受访者结构偏差，缩短问卷无效。Survicate 2025 报告显示金融服务问卷中位回复率 12.82%，7 题及以上降至 6.87%。Filene Research Institute 发现更短问卷未吸引不同受访者，Listen Labs 以 AI 主持访谈替代。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:04:08+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "b675cb512a956ff1",
       "sourceId": "producttalk",
       "sourceName": "Product Talk（Teresa Torres）",
@@ -1061,6 +1089,36 @@
       "itemType": null,
       "publishedAt": "2026-11-10T05:03:04+00:00",
       "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "80ec1188ae3e2b8e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-vs-surveys/",
+      "title": "Customer Insights Platform Vs Surveys: Which Wins?",
+      "titleZh": "Listen Labs：客户洞察平台与问卷调研，谁更胜一筹？",
+      "summaryZh": "Listen Labs 发文对比客户洞察平台与问卷调研，认为问卷仍适合 NPS 追踪等结构化场景，深度追问需靠 AI 主持访谈。文中引用 100 多项研究的 meta 分析：受访者自述支付意愿比实际支付高约 20%，自述意愿仅解释 18–23% 的行为方差。其 Emotional Intelligence 基于 Ekman 情绪框架、覆盖 50+ 语言，AI 主持访谈的回答长度达平均 3 倍。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:03:57+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2085,6 +2143,32 @@
       "itemType": null,
       "publishedAt": "2026-10-22T05:00:45+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "66105c0feb0fa560",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/self-serve-customer-insights-guide/",
+      "title": "Self-Serve Customer Insights: A Complete Guide",
+      "titleZh": "Listen Labs 自助式客户洞察完整指南",
+      "summaryZh": "Listen Labs 的自助式客户洞察指南把 AI 主持访谈、Research Agent 和 Research Library 串成端到端系统，让非研究岗直接获得定性“为什么”。该系统从 50M+ 验证受访者网络招募、支持 120+ 语言，并在不到 24 小时内产出分析发现、主题和汇报材料，区别于 Mixpanel、Amplitude、Hotjar、Qualtrics 等只能发现变化、不能自适应追问的工具。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:04:02+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

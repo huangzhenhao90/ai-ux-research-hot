@@ -1,0 +1,27 @@
+{
+  "id": "537944361438c9aa",
+  "sourceId": "ipsos",
+  "sourceName": "Ipsos",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://www.ipsos.com/en/you-are-here",
+  "title": "You Are Here",
+  "titleZh": "IAA x Ipsos 的 Global Trend Compass：帮助领导者理解营销行业现状与走向",
+  "summaryZh": "IAA x Ipsos 的 Global Trend Compass 帮助领导者理解营销行业当前所处位置及下一步走向。从 AI 到消费者价值观变化，营销格局正快速演变。",
+  "reason": null,
+  "category": "industry",
+  "tags": [
+    "行业报告",
+    "市场研究"
+  ],
+  "entities": [
+    "ipsos"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-25T09:00:00+00:00",
+  "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

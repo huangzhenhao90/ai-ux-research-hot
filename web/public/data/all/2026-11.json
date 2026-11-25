@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "count": 232,
+  "count": 242,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -230,6 +230,31 @@
       "relation": "different"
     },
     {
+      "id": "0a3ada330ec73d74",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.20606v1",
+      "title": "何为必要？对LLM合成受访者的人口统计信息披露进行审计",
+      "titleZh": "研究审计 LLM 合成受访者的人口统计信息披露",
+      "summaryZh": "一项研究审计了 LLM 代替真实受访者回答调查时的人口统计信息披露，发现受访者档案对个体预测的增益有限。群体估计的收益多可由普查数据或合成角色替代。群体比较虽依赖受访者档案，却更多受人口标签驱动，并抹平真实群体差异。",
+      "reason": "研究审计了合成受访者的人口统计档案，说明它给个体预测和群体估计分别带来多少增益。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-15T16:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "c6d5793f702bb40a",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -415,6 +440,31 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-03T05:05:29+00:00",
       "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "b698d6e7f15a665c",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.25577v1",
+      "title": "Epira的设计与评估：面向案件调查与接触者追踪的自动化访谈系统",
+      "titleZh": "Epira 的设计与评估：面向病例调查与接触者追踪的自动化访谈系统",
+      "summaryZh": "Epira 是面向病例调查与接触追踪的 LLM 访谈助手，由规则控制器约束，在模拟病例中必填字段覆盖率达 88.9%，较开放式访谈提升 31.1—41.9 个百分点。72 人真人实验完成率为 100%，SUS 均值 82.95。结果显示协议约束比模型选择更关键，本地与云端效果相近，适合隐私化应用。",
+      "reason": "模拟与真人实验显示协议约束比模型选择更影响必填字段覆盖率，为隐私场景下的本地部署提供了对比依据。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-18T16:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": "different"
@@ -2113,6 +2163,32 @@
       "relation": null
     },
     {
+      "id": "5df9fee2252a9083",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.25508v1",
+      "title": "Persona透镜：视觉语言模型何以透过Persona之眼观察？",
+      "titleZh": "Persona 透镜：视觉语言模型如何模拟人物凝视网页？",
+      "summaryZh": "研究提出文本、像素和权重三类 Persona 透镜，并在不同规模 Qwen 模型及真实页面上比较其模拟人物凝视网页的效果。文本透镜区分能力强但易受无关画像变化干扰，像素透镜更稳健，权重透镜适合较小模型。方案选择取决于成本与模型规模，该工作以 Persona 模拟网页注视，属用户视角但无真人评测。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "多模态",
+        "行为数据"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-18T16:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "cb5129a7fea265a9",
       "sourceId": "uxdesign-cc",
       "sourceName": "UX Collective",
@@ -2820,6 +2896,34 @@
       "itemType": null,
       "publishedAt": "2026-11-05T05:00:00+00:00",
       "discoveredAt": "2026-11-05T11:56:25.802047+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "e7eb56d8ec0091ee",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/financial-services-survey-fatigue-fix/",
+      "title": "Financial Services Survey Fatigue: Why Shorter Surveys Fail",
+      "titleZh": "Listen Labs：金融服务问卷疲劳，缩短问卷为何无效",
+      "summaryZh": "Listen Labs 认为金融服务问卷疲劳源于受访者结构偏差，缩短问卷无效。Survicate 2025 报告显示金融服务问卷中位回复率 12.82%，7 题及以上降至 6.87%。Filene Research Institute 发现更短问卷未吸引不同受访者，Listen Labs 以 AI 主持访谈替代。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:04:08+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -3712,6 +3816,36 @@
       "itemType": null,
       "publishedAt": "2026-11-10T05:03:04+00:00",
       "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "80ec1188ae3e2b8e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-vs-surveys/",
+      "title": "Customer Insights Platform Vs Surveys: Which Wins?",
+      "titleZh": "Listen Labs：客户洞察平台与问卷调研，谁更胜一筹？",
+      "summaryZh": "Listen Labs 发文对比客户洞察平台与问卷调研，认为问卷仍适合 NPS 追踪等结构化场景，深度追问需靠 AI 主持访谈。文中引用 100 多项研究的 meta 分析：受访者自述支付意愿比实际支付高约 20%，自述意愿仅解释 18–23% 的行为方差。其 Emotional Intelligence 基于 Ekman 情绪框架、覆盖 50+ 语言，AI 主持访谈的回答长度达平均 3 倍。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:03:57+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -5113,6 +5247,35 @@
       "relation": null
     },
     {
+      "id": "223232dc0c510ce7",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/telecom-market-research-vs-agencies/",
+      "title": "Telecom Customer Research: AI vs. Traditional Agencies",
+      "titleZh": "电信客户研究：Listen Labs 的 AI 平台与传统调研机构对比",
+      "summaryZh": "Listen Labs 对比其 AI 优先研究平台与传统调研机构，称可将 4–6 周研究周期压缩至 24 小时内，成本约为传统方式的三分之一。其 Listen Atlas 覆盖 45+ 国家、120+ 语言和 50M+ 验证受访者，Quality Guard 限制每人每月 3 项研究并实时监测。平台还能在同一研究中结合 AI 主持访谈与 Gabor-Granger、MaxDiff 等定量格式。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "定性分析",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:06:22+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "2b5573b011080d43",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -5197,6 +5360,32 @@
       "itemType": null,
       "publishedAt": "2026-11-18T05:09:20+00:00",
       "discoveredAt": "2026-11-18T16:59:22.262524+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "66105c0feb0fa560",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/self-serve-customer-insights-guide/",
+      "title": "Self-Serve Customer Insights: A Complete Guide",
+      "titleZh": "Listen Labs 自助式客户洞察完整指南",
+      "summaryZh": "Listen Labs 的自助式客户洞察指南把 AI 主持访谈、Research Agent 和 Research Library 串成端到端系统，让非研究岗直接获得定性“为什么”。该系统从 50M+ 验证受访者网络招募、支持 120+ 语言，并在不到 24 小时内产出分析发现、主题和汇报材料，区别于 Mixpanel、Amplitude、Hotjar、Qualtrics 等只能发现变化、不能自适应追问的工具。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:04:02+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -5646,6 +5835,34 @@
       "relation": null
     },
     {
+      "id": "b9e607bcb726f20f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/startup-market-research-pain-points/",
+      "title": "Startup Customer Research Pain Points: A Founder’s Guide",
+      "titleZh": "Listen Labs：创业公司客户研究八大痛点指南",
+      "summaryZh": "Listen Labs 在创始人指南中梳理创业公司客户研究的八大痛点，并称其平台以 50M+ 验证受访者网络、AI 主持访谈和不到 24 小时交付分析覆盖从招募到交付的流程。平台称已进行超过 100 万次客户访谈，服务约 15% 的 Fortune 100，成本为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "合成用户"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:06:27+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "f6560265876ccc18",
       "sourceId": "uxdesign-cc",
       "sourceName": "UX Collective",
@@ -6090,6 +6307,33 @@
       "relation": null
     },
     {
+      "id": "517238c6ece4b40e",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/webinar-keys-ipsos-global-trends-search-silver-linings",
+      "title": "[REPLAY] KEYS: Ipsos Global Trends: The Search for Silver Linings",
+      "titleZh": "Ipsos Global Trends 2026 报告洞察网络研讨会回放：寻找一线希望",
+      "summaryZh": "Ipsos 现提供 2026 Global Trends 报告洞察网络研讨会的回放，主题为“寻找一线希望”。回放展示该报告的部分洞察。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T09:44:36+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "80ec761c03110101",
       "sourceId": "uxdesign-cc",
       "sourceName": "UX Collective",
@@ -6207,6 +6451,32 @@
       "itemType": null,
       "publishedAt": "2026-11-20T18:35:51+00:00",
       "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "537944361438c9aa",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/you-are-here",
+      "title": "You Are Here",
+      "titleZh": "IAA x Ipsos 的 Global Trend Compass：帮助领导者理解营销行业现状与走向",
+      "summaryZh": "IAA x Ipsos 的 Global Trend Compass 帮助领导者理解营销行业当前所处位置及下一步走向。从 AI 到消费者价值观变化，营销格局正快速演变。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T09:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

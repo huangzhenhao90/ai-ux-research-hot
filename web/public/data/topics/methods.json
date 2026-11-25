@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 185,
+  "count": 187,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -4600,6 +4600,35 @@
       "relation": null
     },
     {
+      "id": "223232dc0c510ce7",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/telecom-market-research-vs-agencies/",
+      "title": "Telecom Customer Research: AI vs. Traditional Agencies",
+      "titleZh": "电信客户研究：Listen Labs 的 AI 平台与传统调研机构对比",
+      "summaryZh": "Listen Labs 对比其 AI 优先研究平台与传统调研机构，称可将 4–6 周研究周期压缩至 24 小时内，成本约为传统方式的三分之一。其 Listen Atlas 覆盖 45+ 国家、120+ 语言和 50M+ 验证受访者，Quality Guard 限制每人每月 3 项研究并实时监测。平台还能在同一研究中结合 AI 主持访谈与 Gabor-Granger、MaxDiff 等定量格式。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "定性分析",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:06:22+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "c871f7fbdc551d2c",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -4917,6 +4946,34 @@
       "itemType": null,
       "publishedAt": "2026-03-20T00:00:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "b9e607bcb726f20f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/startup-market-research-pain-points/",
+      "title": "Startup Customer Research Pain Points: A Founder’s Guide",
+      "titleZh": "Listen Labs：创业公司客户研究八大痛点指南",
+      "summaryZh": "Listen Labs 在创始人指南中梳理创业公司客户研究的八大痛点，并称其平台以 50M+ 验证受访者网络、AI 主持访谈和不到 24 小时交付分析覆盖从招募到交付的流程。平台称已进行超过 100 万次客户访谈，服务约 15% 的 Fortune 100，成本为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "合成用户"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:06:27+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

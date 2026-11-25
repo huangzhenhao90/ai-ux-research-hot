@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 106,
+  "count": 111,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -160,6 +160,31 @@
       "relation": "different"
     },
     {
+      "id": "0a3ada330ec73d74",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.20606v1",
+      "title": "何为必要？对LLM合成受访者的人口统计信息披露进行审计",
+      "titleZh": "研究审计 LLM 合成受访者的人口统计信息披露",
+      "summaryZh": "一项研究审计了 LLM 代替真实受访者回答调查时的人口统计信息披露，发现受访者档案对个体预测的增益有限。群体估计的收益多可由普查数据或合成角色替代。群体比较虽依赖受访者档案，却更多受人口标签驱动，并抹平真实群体差异。",
+      "reason": "研究审计了合成受访者的人口统计档案，说明它给个体预测和群体估计分别带来多少增益。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-15T16:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "c6d5793f702bb40a",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -265,6 +290,31 @@
       "status": "selected",
       "dupOf": null,
       "relation": "same"
+    },
+    {
+      "id": "b698d6e7f15a665c",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.25577v1",
+      "title": "Epira的设计与评估：面向案件调查与接触者追踪的自动化访谈系统",
+      "titleZh": "Epira 的设计与评估：面向病例调查与接触者追踪的自动化访谈系统",
+      "summaryZh": "Epira 是面向病例调查与接触追踪的 LLM 访谈助手，由规则控制器约束，在模拟病例中必填字段覆盖率达 88.9%，较开放式访谈提升 31.1—41.9 个百分点。72 人真人实验完成率为 100%，SUS 均值 82.95。结果显示协议约束比模型选择更关键，本地与云端效果相近，适合隐私化应用。",
+      "reason": "模拟与真人实验显示协议约束比模型选择更影响必填字段覆盖率，为隐私场景下的本地部署提供了对比依据。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-18T16:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "de7a6c9a4cb94d28",
@@ -1497,6 +1547,34 @@
       "relation": null
     },
     {
+      "id": "e7eb56d8ec0091ee",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/financial-services-survey-fatigue-fix/",
+      "title": "Financial Services Survey Fatigue: Why Shorter Surveys Fail",
+      "titleZh": "Listen Labs：金融服务问卷疲劳，缩短问卷为何无效",
+      "summaryZh": "Listen Labs 认为金融服务问卷疲劳源于受访者结构偏差，缩短问卷无效。Survicate 2025 报告显示金融服务问卷中位回复率 12.82%，7 题及以上降至 6.87%。Filene Research Institute 发现更短问卷未吸引不同受访者，Listen Labs 以 AI 主持访谈替代。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:04:08+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "b674ce6693988718",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1881,6 +1959,36 @@
       "itemType": null,
       "publishedAt": "2026-10-26T05:02:13+00:00",
       "discoveredAt": "2026-10-26T09:49:34.325402+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "80ec1188ae3e2b8e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-vs-surveys/",
+      "title": "Customer Insights Platform Vs Surveys: Which Wins?",
+      "titleZh": "Listen Labs：客户洞察平台与问卷调研，谁更胜一筹？",
+      "summaryZh": "Listen Labs 发文对比客户洞察平台与问卷调研，认为问卷仍适合 NPS 追踪等结构化场景，深度追问需靠 AI 主持访谈。文中引用 100 多项研究的 meta 分析：受访者自述支付意愿比实际支付高约 20%，自述意愿仅解释 18–23% 的行为方差。其 Emotional Intelligence 基于 Ekman 情绪框架、覆盖 50+ 语言，AI 主持访谈的回答长度达平均 3 倍。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:03:57+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -2441,6 +2549,35 @@
       "itemType": null,
       "publishedAt": "2026-10-27T20:30:03+00:00",
       "discoveredAt": "2026-10-28T04:28:31.660351+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "223232dc0c510ce7",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/telecom-market-research-vs-agencies/",
+      "title": "Telecom Customer Research: AI vs. Traditional Agencies",
+      "titleZh": "电信客户研究：Listen Labs 的 AI 平台与传统调研机构对比",
+      "summaryZh": "Listen Labs 对比其 AI 优先研究平台与传统调研机构，称可将 4–6 周研究周期压缩至 24 小时内，成本约为传统方式的三分之一。其 Listen Atlas 覆盖 45+ 国家、120+ 语言和 50M+ 验证受访者，Quality Guard 限制每人每月 3 项研究并实时监测。平台还能在同一研究中结合 AI 主持访谈与 Gabor-Granger、MaxDiff 等定量格式。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "问卷/定量",
+        "定性分析",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:06:22+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

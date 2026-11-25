@@ -1,0 +1,29 @@
+{
+  "id": "e7eb56d8ec0091ee",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/financial-services-survey-fatigue-fix/",
+  "title": "Financial Services Survey Fatigue: Why Shorter Surveys Fail",
+  "titleZh": "Listen Labs：金融服务问卷疲劳，缩短问卷为何无效",
+  "summaryZh": "Listen Labs 认为金融服务问卷疲劳源于受访者结构偏差，缩短问卷无效。Survicate 2025 报告显示金融服务问卷中位回复率 12.82%，7 题及以上降至 6.87%。Filene Research Institute 发现更短问卷未吸引不同受访者，Listen Labs 以 AI 主持访谈替代。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "AI 访谈",
+    "问卷/定量",
+    "招募/样本"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-25T05:04:08+00:00",
+  "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

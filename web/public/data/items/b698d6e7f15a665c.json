@@ -1,0 +1,26 @@
+{
+  "id": "b698d6e7f15a665c",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.25577v1",
+  "title": "Epira的设计与评估：面向案件调查与接触者追踪的自动化访谈系统",
+  "titleZh": "Epira 的设计与评估：面向病例调查与接触者追踪的自动化访谈系统",
+  "summaryZh": "Epira 是面向病例调查与接触追踪的 LLM 访谈助手，由规则控制器约束，在模拟病例中必填字段覆盖率达 88.9%，较开放式访谈提升 31.1—41.9 个百分点。72 人真人实验完成率为 100%，SUS 均值 82.95。结果显示协议约束比模型选择更关键，本地与云端效果相近，适合隐私化应用。",
+  "reason": "模拟与真人实验显示协议约束比模型选择更影响必填字段覆盖率，为隐私场景下的本地部署提供了对比依据。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "AI 访谈",
+    "问卷/定量"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-18T16:00:00+00:00",
+  "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

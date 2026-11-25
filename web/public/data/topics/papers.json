@@ -3,7 +3,7 @@
   "name": "论文",
   "group": "genre",
   "definition": "有实验与数据的学术论文、技术报告与白皮书。",
-  "count": 107,
+  "count": 110,
   "items": [
     {
       "id": "fb5f5b4c25f7223f",
@@ -186,6 +186,31 @@
       "relation": "different"
     },
     {
+      "id": "0a3ada330ec73d74",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.20606v1",
+      "title": "何为必要？对LLM合成受访者的人口统计信息披露进行审计",
+      "titleZh": "研究审计 LLM 合成受访者的人口统计信息披露",
+      "summaryZh": "一项研究审计了 LLM 代替真实受访者回答调查时的人口统计信息披露，发现受访者档案对个体预测的增益有限。群体估计的收益多可由普查数据或合成角色替代。群体比较虽依赖受访者档案，却更多受人口标签驱动，并抹平真实群体差异。",
+      "reason": "研究审计了合成受访者的人口统计档案，说明它给个体预测和群体估计分别带来多少增益。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-15T16:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "b80497b282a548ce",
       "sourceId": "arxiv-cs-hc",
       "sourceName": "arXiv cs.HC",
@@ -306,6 +331,31 @@
       "publishedAt": "2026-11-19T05:00:00+00:00",
       "discoveredAt": "2026-11-19T12:34:34.245349+00:00",
       "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "b698d6e7f15a665c",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.25577v1",
+      "title": "Epira的设计与评估：面向案件调查与接触者追踪的自动化访谈系统",
+      "titleZh": "Epira 的设计与评估：面向病例调查与接触者追踪的自动化访谈系统",
+      "summaryZh": "Epira 是面向病例调查与接触追踪的 LLM 访谈助手，由规则控制器约束，在模拟病例中必填字段覆盖率达 88.9%，较开放式访谈提升 31.1—41.9 个百分点。72 人真人实验完成率为 100%，SUS 均值 82.95。结果显示协议约束比模型选择更关键，本地与云端效果相近，适合隐私化应用。",
+      "reason": "模拟与真人实验显示协议约束比模型选择更影响必填字段覆盖率，为隐私场景下的本地部署提供了对比依据。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-18T16:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "listed",
       "dupOf": null,
       "relation": "different"
     },
@@ -1512,6 +1562,32 @@
       "itemType": null,
       "publishedAt": "2026-11-06T16:00:00+00:00",
       "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5df9fee2252a9083",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.25508v1",
+      "title": "Persona透镜：视觉语言模型何以透过Persona之眼观察？",
+      "titleZh": "Persona 透镜：视觉语言模型如何模拟人物凝视网页？",
+      "summaryZh": "研究提出文本、像素和权重三类 Persona 透镜，并在不同规模 Qwen 模型及真实页面上比较其模拟人物凝视网页的效果。文本透镜区分能力强但易受无关画像变化干扰，像素透镜更稳健，权重透镜适合较小模型。方案选择取决于成本与模型规模，该工作以 Persona 模拟网页注视，属用户视角但无真人评测。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "多模态",
+        "行为数据"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-18T16:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

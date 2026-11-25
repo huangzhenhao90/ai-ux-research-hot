@@ -3,7 +3,7 @@
   "name": "AI 访谈",
   "group": "field",
   "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-  "count": 117,
+  "count": 121,
   "items": [
     {
       "id": "fb5f5b4c25f7223f",
@@ -190,6 +190,31 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-11-03T05:05:29+00:00",
       "discoveredAt": "2026-11-03T11:40:56.435048+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "b698d6e7f15a665c",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.25577v1",
+      "title": "Epira的设计与评估：面向案件调查与接触者追踪的自动化访谈系统",
+      "titleZh": "Epira 的设计与评估：面向病例调查与接触者追踪的自动化访谈系统",
+      "summaryZh": "Epira 是面向病例调查与接触追踪的 LLM 访谈助手，由规则控制器约束，在模拟病例中必填字段覆盖率达 88.9%，较开放式访谈提升 31.1—41.9 个百分点。72 人真人实验完成率为 100%，SUS 均值 82.95。结果显示协议约束比模型选择更关键，本地与云端效果相近，适合隐私化应用。",
+      "reason": "模拟与真人实验显示协议约束比模型选择更影响必填字段覆盖率，为隐私场景下的本地部署提供了对比依据。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "AI 访谈",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-18T16:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": "different"
@@ -1477,6 +1502,34 @@
       "relation": null
     },
     {
+      "id": "e7eb56d8ec0091ee",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/financial-services-survey-fatigue-fix/",
+      "title": "Financial Services Survey Fatigue: Why Shorter Surveys Fail",
+      "titleZh": "Listen Labs：金融服务问卷疲劳，缩短问卷为何无效",
+      "summaryZh": "Listen Labs 认为金融服务问卷疲劳源于受访者结构偏差，缩短问卷无效。Survicate 2025 报告显示金融服务问卷中位回复率 12.82%，7 题及以上降至 6.87%。Filene Research Institute 发现更短问卷未吸引不同受访者，Listen Labs 以 AI 主持访谈替代。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:04:08+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "b97e6f256c387fd3",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1882,6 +1935,36 @@
       "itemType": null,
       "publishedAt": "2026-10-30T05:12:03+00:00",
       "discoveredAt": "2026-10-30T14:53:27.331676+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "80ec1188ae3e2b8e",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/customer-insights-platform-vs-surveys/",
+      "title": "Customer Insights Platform Vs Surveys: Which Wins?",
+      "titleZh": "Listen Labs：客户洞察平台与问卷调研，谁更胜一筹？",
+      "summaryZh": "Listen Labs 发文对比客户洞察平台与问卷调研，认为问卷仍适合 NPS 追踪等结构化场景，深度追问需靠 AI 主持访谈。文中引用 100 多项研究的 meta 分析：受访者自述支付意愿比实际支付高约 20%，自述意愿仅解释 18–23% 的行为方差。其 Emotional Intelligence 基于 Ekman 情绪框架、覆盖 50+ 语言，AI 主持访谈的回答长度达平均 3 倍。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "问卷/定量",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "dovetail"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:03:57+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -3329,6 +3412,34 @@
       "itemType": null,
       "publishedAt": "2026-11-11T05:04:04+00:00",
       "discoveredAt": "2026-11-11T15:54:36.387675+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "b9e607bcb726f20f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/startup-market-research-pain-points/",
+      "title": "Startup Customer Research Pain Points: A Founder’s Guide",
+      "titleZh": "Listen Labs：创业公司客户研究八大痛点指南",
+      "summaryZh": "Listen Labs 在创始人指南中梳理创业公司客户研究的八大痛点，并称其平台以 50M+ 验证受访者网络、AI 主持访谈和不到 24 小时交付分析覆盖从招募到交付的流程。平台称已进行超过 100 万次客户访谈，服务约 15% 的 Fortune 100，成本为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "合成用户"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:06:27+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

@@ -1,0 +1,30 @@
+{
+  "id": "223232dc0c510ce7",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/telecom-market-research-vs-agencies/",
+  "title": "Telecom Customer Research: AI vs. Traditional Agencies",
+  "titleZh": "电信客户研究：Listen Labs 的 AI 平台与传统调研机构对比",
+  "summaryZh": "Listen Labs 对比其 AI 优先研究平台与传统调研机构，称可将 4–6 周研究周期压缩至 24 小时内，成本约为传统方式的三分之一。其 Listen Atlas 覆盖 45+ 国家、120+ 语言和 50M+ 验证受访者，Quality Guard 限制每人每月 3 项研究并实时监测。平台还能在同一研究中结合 AI 主持访谈与 Gabor-Granger、MaxDiff 等定量格式。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "问卷/定量",
+    "定性分析",
+    "招募/样本",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-25T05:06:22+00:00",
+  "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

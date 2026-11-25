@@ -1,0 +1,27 @@
+{
+  "id": "66105c0feb0fa560",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/self-serve-customer-insights-guide/",
+  "title": "Self-Serve Customer Insights: A Complete Guide",
+  "titleZh": "Listen Labs 自助式客户洞察完整指南",
+  "summaryZh": "Listen Labs 的自助式客户洞察指南把 AI 主持访谈、Research Agent 和 Research Library 串成端到端系统，让非研究岗直接获得定性“为什么”。该系统从 50M+ 验证受访者网络招募、支持 120+ 语言，并在不到 24 小时内产出分析发现、主题和汇报材料，区别于 Mixpanel、Amplitude、Hotjar、Qualtrics 等只能发现变化、不能自适应追问的工具。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "定性分析"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-25T05:04:02+00:00",
+  "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

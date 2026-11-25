@@ -1,0 +1,26 @@
+{
+  "id": "0a3ada330ec73d74",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.20606v1",
+  "title": "何为必要？对LLM合成受访者的人口统计信息披露进行审计",
+  "titleZh": "研究审计 LLM 合成受访者的人口统计信息披露",
+  "summaryZh": "一项研究审计了 LLM 代替真实受访者回答调查时的人口统计信息披露，发现受访者档案对个体预测的增益有限。群体估计的收益多可由普查数据或合成角色替代。群体比较虽依赖受访者档案，却更多受人口标签驱动，并抹平真实群体差异。",
+  "reason": "研究审计了合成受访者的人口统计档案，说明它给个体预测和群体估计分别带来多少增益。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "问卷/定量"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-15T16:00:00+00:00",
+  "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

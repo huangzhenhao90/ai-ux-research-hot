@@ -3,7 +3,7 @@
   "name": "合成用户",
   "group": "field",
   "definition": "合成受访者、虚拟用户与数字孪生在研究中的用法与效度争论。",
-  "count": 97,
+  "count": 100,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -128,6 +128,31 @@
       "itemType": "research_paper",
       "publishedAt": "2026-11-07T16:00:00+00:00",
       "discoveredAt": "2026-11-10T12:14:19.339820+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "0a3ada330ec73d74",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.20606v1",
+      "title": "何为必要？对LLM合成受访者的人口统计信息披露进行审计",
+      "titleZh": "研究审计 LLM 合成受访者的人口统计信息披露",
+      "summaryZh": "一项研究审计了 LLM 代替真实受访者回答调查时的人口统计信息披露，发现受访者档案对个体预测的增益有限。群体估计的收益多可由普查数据或合成角色替代。群体比较虽依赖受访者档案，却更多受人口标签驱动，并抹平真实群体差异。",
+      "reason": "研究审计了合成受访者的人口统计档案，说明它给个体预测和群体估计分别带来多少增益。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-11-15T16:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -1587,6 +1612,32 @@
       "relation": null
     },
     {
+      "id": "5df9fee2252a9083",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "arXiv",
+      "venue": "arXiv",
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.25508v1",
+      "title": "Persona透镜：视觉语言模型何以透过Persona之眼观察？",
+      "titleZh": "Persona 透镜：视觉语言模型如何模拟人物凝视网页？",
+      "summaryZh": "研究提出文本、像素和权重三类 Persona 透镜，并在不同规模 Qwen 模型及真实页面上比较其模拟人物凝视网页的效果。文本透镜区分能力强但易受无关画像变化干扰，像素透镜更稳健，权重透镜适合较小模型。方案选择取决于成本与模型规模，该工作以 Persona 模拟网页注视，属用户视角但无真人评测。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "多模态",
+        "行为数据"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-18T16:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "06bbc6c9902e25bb",
       "sourceId": "uxdesign-cc",
       "sourceName": "UX Collective",
@@ -2648,6 +2699,34 @@
       "itemType": null,
       "publishedAt": "2026-11-22T05:05:05+00:00",
       "discoveredAt": "2026-11-22T15:59:14.419469+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "b9e607bcb726f20f",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/startup-market-research-pain-points/",
+      "title": "Startup Customer Research Pain Points: A Founder’s Guide",
+      "titleZh": "Listen Labs：创业公司客户研究八大痛点指南",
+      "summaryZh": "Listen Labs 在创始人指南中梳理创业公司客户研究的八大痛点，并称其平台以 50M+ 验证受访者网络、AI 主持访谈和不到 24 小时交付分析覆盖从招募到交付的流程。平台称已进行超过 100 万次客户访谈，服务约 15% 的 Fortune 100，成本为传统研究的三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本",
+        "合成用户"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T05:06:27+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

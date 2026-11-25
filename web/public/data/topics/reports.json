@@ -3,7 +3,7 @@
   "name": "行业报告",
   "group": "genre",
   "definition": "调研公司报告、行业协会规范与市场结构变化。",
-  "count": 22,
+  "count": 24,
   "items": [
     {
       "id": "7863554bbd864674",
@@ -512,6 +512,33 @@
       "relation": null
     },
     {
+      "id": "517238c6ece4b40e",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/webinar-keys-ipsos-global-trends-search-silver-linings",
+      "title": "[REPLAY] KEYS: Ipsos Global Trends: The Search for Silver Linings",
+      "titleZh": "Ipsos Global Trends 2026 报告洞察网络研讨会回放：寻找一线希望",
+      "summaryZh": "Ipsos 现提供 2026 Global Trends 报告洞察网络研讨会的回放，主题为“寻找一线希望”。回放展示该报告的部分洞察。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "市场研究",
+        "Ipsos"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T09:44:36+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "922ce100198fa404",
       "sourceId": "jmmr",
       "sourceName": "Journal of Mixed Methods Research",
@@ -531,6 +558,32 @@
       "itemType": null,
       "publishedAt": "2022-04-07T06:05:32+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "537944361438c9aa",
+      "sourceId": "ipsos",
+      "sourceName": "Ipsos",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.ipsos.com/en/you-are-here",
+      "title": "You Are Here",
+      "titleZh": "IAA x Ipsos 的 Global Trend Compass：帮助领导者理解营销行业现状与走向",
+      "summaryZh": "IAA x Ipsos 的 Global Trend Compass 帮助领导者理解营销行业当前所处位置及下一步走向。从 AI 到消费者价值观变化，营销格局正快速演变。",
+      "reason": null,
+      "category": "industry",
+      "tags": [
+        "行业报告",
+        "市场研究"
+      ],
+      "entities": [
+        "ipsos"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-25T09:00:00+00:00",
+      "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

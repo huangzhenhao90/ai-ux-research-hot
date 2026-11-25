@@ -1,0 +1,27 @@
+{
+  "id": "5df9fee2252a9083",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.25508v1",
+  "title": "Persona透镜：视觉语言模型何以透过Persona之眼观察？",
+  "titleZh": "Persona 透镜：视觉语言模型如何模拟人物凝视网页？",
+  "summaryZh": "研究提出文本、像素和权重三类 Persona 透镜，并在不同规模 Qwen 模型及真实页面上比较其模拟人物凝视网页的效果。文本透镜区分能力强但易受无关画像变化干扰，像素透镜更稳健，权重透镜适合较小模型。方案选择取决于成本与模型规模，该工作以 Persona 模拟网页注视，属用户视角但无真人评测。",
+  "reason": null,
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户",
+    "多模态",
+    "行为数据"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-18T16:00:00+00:00",
+  "discoveredAt": "2026-11-25T13:58:01.618861+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

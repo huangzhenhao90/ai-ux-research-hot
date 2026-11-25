@@ -30,6 +30,7 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [Listen Labs 分享移动应用用户测试六步流程](https://listenlabs.com/articles/user-testing-mobile-apps-playbook/)：Listen Labs 在博客中给出移动应用用户测试的六步流程，强调按设备与 OS 分组招募并让任务贴合真实手势。文中建议每个平台各招募 5 到 6 人，首轮移动测试通常需要 10 到 12 人，并用 iOS 或 Android 原生录屏…（Listen Labs，2026-11-17）
 - [Optimal Workshop 解读用户研究中的 AI 访谈员与 AI 主持](https://www.optimalworkshop.com/blog/understanding-ai-interviewers-and-ai-moderation-in-user-research)：Optimal Workshop 发布文章，解释用户研究中的 AI 访谈员与 AI 主持这两个概念。（Optimal Workshop Blog，2026-11-17）
 - [Jakob Nielsen UX Roundup：420 项研究显示人机团队未带来协同增益](https://jakobnielsenphd.substack.com/p/ux-roundup-20261116)：Jakob Nielsen 在最新一期 UX Roundup 中解读 AutoAnalysis 对 420 项研究的元分析，认为人机协作未产生协同增益。该分析由哈佛商学院 Michelle Vaccaro 与 MIT 合著者完成，合并 1…（Jakob Nielsen on UX，2026-11-16）
+- [研究审计 LLM 合成受访者的人口统计信息披露](https://arxiv.org/abs/2611.20606v1)：一项研究审计了 LLM 代替真实受访者回答调查时的人口统计信息披露，发现受访者档案对个体预测的增益有限。群体估计的收益多可由普查数据或合成角色替代。群体比较虽依赖受访者档案，却更多受人口标签驱动，并抹平真实群体差异。（ur-ai-papers（用户与交互 AI 论文库），2026-11-16）
 - [如何开展食品饮料焦点小组：一份七步操作手册](https://listenlabs.com/articles/food-beverage-focus-groups-playbook/)：Listen Labs 发布一份食品饮料焦点小组操作手册，给出七步执行流程，并区分焦点小组、训练有素的感官 panel 与 CLT 各自适用的研究问题。手册要求使用随机三位数盲码、平衡上样顺序、清水或青苹果等清口物，并在讨论开始前完成独立…（Listen Labs，2026-11-14）
 - [研究在环：UXR 如何适应 AI 提速的开发](https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication)：NN/g 发文讨论 AI 智能体写出更多代码后 UXR 如何调整研究方式。文章提出研究可明确每次发布要测量什么，以及能帮助团队发现什么，并以摄影从胶片到数字的转变类比成本降低后学习更多发生在拍摄之后。（Nielsen Norman Group，2026-11-13）
 - [没有研究团队时如何用七项测试验证产品概念](https://listenlabs.com/articles/validate-product-concept-without-team/)：Listen Labs 增长负责人 Anish Rao 撰文给出在没有研究团队时验证产品概念的七项测试序列，按成本与证据强度从低到高排列。前四项几乎不需预算并可在两天内完成，后三项只在早期信号支持时追加投入；文中为过去行为访谈、堆叠排序问…（Listen Labs，2026-11-13）
@@ -44,6 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [TACT：用 AI 委员会做大规模定性主题分析的实用流程](https://arxiv.org/abs/2611.05702)：论文提出 TACT（Traceable AI Council for Thematic analysis），用 AI 委员会在规模上完成定性主题分析，同时让团队保留对解读与判断的控制。TACT-Lite 为核心流程，TACT-Full 额…（arXiv cs.HC，2026-11-05）
 - [Maze MCP 支持在 AI 工具内直接创建研究项目](https://maze.co/blog/maze-mcp-create-research-studies/)：Maze 在其 MCP 中新增能力，研究者无需离开所用的 AI 工具即可创建研究项目。（Maze Blog，2026-11-04）
 - [Listen Labs 详解如何用 AI 做定性编码的六步流程](https://listenlabs.com/articles/ai-qualitative-coding-customer-research/)：Listen Labs 增长负责人 Anish Rao 发布一份 AI 定性编码操作指南，把流程拆成转写清洗、编码本构建、演绎编码、归纳编码、主题聚类与逐条溯源六步，并规定由人工负责编码本定稿和结果核验。文中列出编码本六要素，包括定义、纳…（Listen Labs，2026-11-04）
-- [Listen Labs 解读 AI 生成人物画像的可靠性与构建方法](https://listenlabs.com/articles/ai-generated-personas-market-research/)：Listen Labs 梳理多项研究指出，基于真实访谈构建的 AI 人物画像可用于假设生成与方案探索，但不适合定价等高风险决策。Stanford 的 Park 等人用 1,052 名美国人的两小时访谈构建智能体，达到参与者自身重测一致性的…（Listen Labs，2026-11-04）
 
-（更多 78 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 79 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
