@@ -1,0 +1,25 @@
+{
+  "id": "93548b478442cbb2",
+  "sourceId": "arxiv-cs-hc",
+  "sourceName": "arXiv cs.HC",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.33736",
+  "title": "AI Persona Dialogue Pipeline; From Survey Report to Conversational Personas, Evaluated by LLMs and Experts",
+  "titleZh": "论文提出从调查报告生成 AI 角色对话的端到端流水线",
+  "summaryZh": "论文提出一套端到端 AI 角色对话流水线，由 LLM 依据全国调查问卷报告撰写人物背景，再由现成 LLM 在无需微调的情况下扮演该角色，并对背景与对话的可信度打分。作者将其用于 30 个韩国独居老人角色，由三个 LLM 评审比较八个模拟器 LLM，选出 GPT-5.5 后再交由 30 位服务该人群的专家评估。专家认为背景和对话大体真实，最常指出角色比其背景设定更有能力，且专家评分与 LLM 评审之间的一致性无法确立；流水线、角色与对话已发布。",
+  "reason": "论文把从调查报告撰写角色背景到对话模拟串成一条可迁移流程，并给出专家评分与 LLM 评审不一致的实测结果。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-26T05:00:00+00:00",
+  "discoveredAt": "2026-11-26T13:36:40.094764+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

@@ -3,7 +3,7 @@
   "name": "研究伦理",
   "group": "field",
   "definition": "合成用户与 AI 研究的知情同意、隐私、偏见与合规争议。",
-  "count": 17,
+  "count": 18,
   "items": [
     {
       "id": "84b21af4658669d8",
@@ -59,6 +59,31 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "3c8e24170a0e4ee2",
+      "sourceId": "arxiv-cs-hc",
+      "sourceName": "arXiv cs.HC",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://arxiv.org/abs/2611.33327",
+      "title": "Who Attributes a Mind to Whom? Mutual Theory of Mind in Simulated User-Assistant Conversation",
+      "titleZh": "谁把心智归因于谁？模拟用户—助手对话中的相互心智理论",
+      "summaryZh": "一项模拟用户—助手对话研究发现，13项模拟用户特征中有9项提高了用户对助手的心智归因。研究以四方向消息级指标测量心智归因，并由受训编码者校验、微调编码器复现 LLM 评判。助手社交风格几乎不影响归因，AI 专属特征影响最小，谄媚指令反而提高助手对自身的归因；记忆仅在部分用户模型下提高用户归因。",
+      "reason": null,
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "研究伦理"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-26T05:00:00+00:00",
+      "discoveredAt": "2026-11-26T13:36:40.094764+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
     },
     {
       "id": "284a77109350fe60",

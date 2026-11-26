@@ -3,7 +3,7 @@
   "name": "AI 访谈",
   "group": "field",
   "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-  "count": 121,
+  "count": 123,
   "items": [
     {
       "id": "fb5f5b4c25f7223f",
@@ -1497,6 +1497,35 @@
       "itemType": null,
       "publishedAt": "2026-10-23T05:01:46+00:00",
       "discoveredAt": "2026-10-23T09:09:32.171281+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "5cffe1af728b99a8",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/validate-cpg-product-concept-fast/",
+      "title": "CPG Concept Testing: Validate Your Product Idea Fast",
+      "titleZh": "Listen Labs 的 CPG 概念测试指南：用 10 天冲刺快速验证产品概念",
+      "summaryZh": "Listen Labs 用 AI 主持访谈同时收集数百名目标消费者的反馈，在 24 小时内交付 CPG 概念验证的分析结果。其 10 天验证冲刺设四道 go/no-go 关卡，首轮访谈 20 到 40 名品类买家，并支持单项与顺序单项设计、Gabor-Granger 价格测试和 MaxDiff。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "市场研究",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-26T05:09:47+00:00",
+      "discoveredAt": "2026-11-26T13:36:40.094764+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -3467,6 +3496,35 @@
       "itemType": null,
       "publishedAt": "2026-11-14T05:18:03+00:00",
       "discoveredAt": "2026-11-14T11:15:08.397838+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "76d55cb1be50d6b6",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-brand-strategy-tools/",
+      "title": "Best AI Tools for Brand Strategy Research in 2026",
+      "titleZh": "Listen Labs 盘点 2026 年品牌策略研究最佳 AI 工具",
+      "summaryZh": "Listen Labs 在品牌策略研究 AI 工具盘点中将自身列为受众与情绪研究首选，称其 AI 主持访谈的回答长度达平均的 3 倍，并依托 50M+ 验证受访者网络在 24 小时内交付。文章把研究分为四阶段，并对比 Qualtrics、Brandwatch、Similarweb、Kantar BrandZ 等工具的能力边界。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-26T05:09:41+00:00",
+      "discoveredAt": "2026-11-26T13:36:40.094764+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

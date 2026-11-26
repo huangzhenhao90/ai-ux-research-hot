@@ -1,5 +1,5 @@
 {
-  "count": 495,
+  "count": 503,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -1085,6 +1085,21 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/concept-testing-template/",
       "publishedAt": "2026-10-31T05:11:39+00:00"
+    },
+    {
+      "id": "93548b478442cbb2",
+      "title": "AI Persona Dialogue Pipeline; From Survey Report to Conversational Personas, Evaluated by LLMs and Experts",
+      "titleZh": "论文提出从调查报告生成 AI 角色对话的端到端流水线",
+      "summaryZh": "论文提出一套端到端 AI 角色对话流水线，由 LLM 依据全国调查问卷报告撰写人物背景，再由现成 LLM 在无需微调的情况下扮演该角色，并对背景与对话的可信度打分。作者将其用于 30 个韩国独居老人角色，由三个 LLM 评审比较八个模拟器 LLM，选出 GPT-5.5 后再交由 30 位服务该人群的专家评估。专家认为背景和对话大体真实，最常指出角色比其背景设定更有能力，且专家评分与 LLM 评审之间的一致性无法确立；流水线、角色与对话已发布。",
+      "tags": [
+        "论文/研究",
+        "合成用户"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.33736",
+      "publishedAt": "2026-11-26T05:00:00+00:00"
     },
     {
       "id": "9406ef7b1798dc60",
@@ -2177,6 +2192,22 @@
       "sourceName": "Cint",
       "url": "https://www.cint.com/blog/tmre-2026-ai-moderated-interviews/",
       "publishedAt": "2026-10-20T20:46:56+00:00"
+    },
+    {
+      "id": "3c8e24170a0e4ee2",
+      "title": "Who Attributes a Mind to Whom? Mutual Theory of Mind in Simulated User-Assistant Conversation",
+      "titleZh": "谁把心智归因于谁？模拟用户—助手对话中的相互心智理论",
+      "summaryZh": "一项模拟用户—助手对话研究发现，13项模拟用户特征中有9项提高了用户对助手的心智归因。研究以四方向消息级指标测量心智归因，并由受训编码者校验、微调编码器复现 LLM 评判。助手社交风格几乎不影响归因，AI 专属特征影响最小，谄媚指令反而提高助手对自身的归因；记忆仅在部分用户模型下提高用户归因。",
+      "tags": [
+        "论文/研究",
+        "合成用户",
+        "研究伦理"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.33327",
+      "publishedAt": "2026-11-26T05:00:00+00:00"
     },
     {
       "id": "ad620999ee625234",
@@ -4147,6 +4178,26 @@
       "publishedAt": "2025-09-09T00:00:00+00:00"
     },
     {
+      "id": "5cffe1af728b99a8",
+      "title": "CPG Concept Testing: Validate Your Product Idea Fast",
+      "titleZh": "Listen Labs 的 CPG 概念测试指南：用 10 天冲刺快速验证产品概念",
+      "summaryZh": "Listen Labs 用 AI 主持访谈同时收集数百名目标消费者的反馈，在 24 小时内交付 CPG 概念验证的分析结果。其 10 天验证冲刺设四道 go/no-go 关卡，首轮访谈 20 到 40 名品类买家，并支持单项与顺序单项设计、Gabor-Granger 价格测试和 MaxDiff。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "问卷/定量",
+        "市场研究",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/validate-cpg-product-concept-fast/",
+      "publishedAt": "2026-11-26T05:09:47+00:00"
+    },
+    {
       "id": "e7eb56d8ec0091ee",
       "title": "Financial Services Survey Fatigue: Why Shorter Surveys Fail",
       "titleZh": "Listen Labs：金融服务问卷疲劳，缩短问卷为何无效",
@@ -4924,6 +4975,24 @@
       "publishedAt": "2026-02-12T09:40:49+00:00"
     },
     {
+      "id": "037564a666b8aaa6",
+      "title": "Food & Beverage Qualitative Research: Method-Selection Guide",
+      "titleZh": "Listen Labs 食品饮料定性研究方法选择指南",
+      "summaryZh": "Listen Labs 的食品饮料定性研究方法选择指南把七类 F&B 问题映射到对应方法，包括感官与口味测试、店内陪同、概念与包装测试和家庭使用测试。该平台称可从 50M+ 网络、45+ 国家的验证消费者中招募，并以 AI 主持访谈在 24 小时内交付分析结果，而非 4–6 周。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/food-beverage-qualitative-research-guide/",
+      "publishedAt": "2026-11-26T05:11:47+00:00"
+    },
+    {
       "id": "b0ab7da6997b31a8",
       "title": "Shifting Gears: How Mental Availability Supports NASCAR's Brand Strategy",
       "titleZh": "quantilope 案例：Mental Availability 如何支撑 NASCAR 的品牌策略",
@@ -5306,6 +5375,24 @@
       "sourceName": "Delve",
       "url": "https://delvetool.com/blog/comparing-best-software-for-thematic-analysis/",
       "publishedAt": "2025-12-09T00:00:00+00:00"
+    },
+    {
+      "id": "1dc31c1dfa070fbc",
+      "title": "Qualitative Consumer Research for Retail Brands",
+      "titleZh": "Listen Labs：面向零售品牌的定性消费者研究",
+      "summaryZh": "Listen Labs 用 AI 主持访谈、日记研究和 Visual Insights 等方法做零售品牌定性研究，称不到 24 小时交付分析结果。其网络覆盖 45+ 个国家、50M+ 名购物者，访谈支持 120+ 种语言；典型 IDI 样本为 12–15 名重度品类买家。包装、货架、合身、品类、价格和结账等零售决策分别对应到具体研究方法。",
+      "tags": [
+        "方法/实践",
+        "定性分析",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/qualitative-research-retail-brands/",
+      "publishedAt": "2026-11-26T05:09:56+00:00"
     },
     {
       "id": "80ec1188ae3e2b8e",
@@ -6812,6 +6899,18 @@
       "publishedAt": "2026-10-29T12:00:00+00:00"
     },
     {
+      "id": "3ce123399ff95fc6",
+      "title": "How Synthetic Populations Are Strengthening Audience Measurement",
+      "titleZh": "Ipsos：合成人群如何强化受众测量",
+      "summaryZh": "Ipsos 刊出由 Mario Paic 撰写的文章，讨论合成人群如何强化受众测量，聚焦快速演变媒体生态中的创新、整合与信任。",
+      "tags": [],
+      "entities": [],
+      "category": null,
+      "sourceName": "Ipsos",
+      "url": "https://www.ipsos.com/en/how-synthetic-populations-are-strengthening-audience-measurement",
+      "publishedAt": "2026-11-25T14:24:56+00:00"
+    },
+    {
       "id": "5e0c4c442ae269b8",
       "title": "Digital Twin Research Tools for Brand Teams: 2026 Guide",
       "titleZh": "面向品牌团队的数字孪生研究工具：2026 指南",
@@ -7284,6 +7383,23 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2024.2392494?af=R",
       "publishedAt": "2024-10-04T05:36:52+00:00"
+    },
+    {
+      "id": "9dcdc41ccf8ab1c4",
+      "title": "Tourism Market Size: Key Stats, Segments & Analysis",
+      "titleZh": "Listen Labs 旅游市场规模分析：关键数据、细分与统计口径",
+      "summaryZh": "Listen Labs旅游市场规模分析指出，WTTC 2025年旅游经济贡献为$11.6T，占全球GDP 9.8%。UN Tourism估算2025年国际旅游收入$1.9T、国际到访1.52B人次；$9T–$14T差异源于统计口径、范围和年份。Listen Labs以覆盖45+国家和120+语言的AI主持访谈补足定性层。",
+      "tags": [
+        "方法/实践",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/tourism-market-size-analysis/",
+      "publishedAt": "2026-11-26T05:11:55+00:00"
     },
     {
       "id": "4ef5b2b0492515dc",
@@ -7968,6 +8084,26 @@
       "sourceName": "Ipsos",
       "url": "https://www.ipsos.com/en/context-changes-everything",
       "publishedAt": "2026-10-26T16:25:27+00:00"
+    },
+    {
+      "id": "76d55cb1be50d6b6",
+      "title": "Best AI Tools for Brand Strategy Research in 2026",
+      "titleZh": "Listen Labs 盘点 2026 年品牌策略研究最佳 AI 工具",
+      "summaryZh": "Listen Labs 在品牌策略研究 AI 工具盘点中将自身列为受众与情绪研究首选，称其 AI 主持访谈的回答长度达平均的 3 倍，并依托 50M+ 验证受访者网络在 24 小时内交付。文章把研究分为四阶段，并对比 Qualtrics、Brandwatch、Similarweb、Kantar BrandZ 等工具的能力边界。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "市场研究"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "kantar"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-brand-strategy-tools/",
+      "publishedAt": "2026-11-26T05:09:41+00:00"
     },
     {
       "id": "efbf2c88b2353581",

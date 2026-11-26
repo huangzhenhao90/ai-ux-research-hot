@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 26 Nov 2026 00:00:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 13:36:40 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>论文提出从调查报告生成 AI 角色对话的端到端流水线</title>
+      <link>https://arxiv.org/abs/2611.33736</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.33736</guid>
+      <pubDate>Thu, 26 Nov 2026 05:00:00 GMT</pubDate>
+      <description>论文提出一套端到端 AI 角色对话流水线，由 LLM 依据全国调查问卷报告撰写人物背景，再由现成 LLM 在无需微调的情况下扮演该角色，并对背景与对话的可信度打分。作者将其用于 30 个韩国独居老人角色，由三个 LLM 评审比较八个模拟器 LLM，选出 GPT-5.5 后再交由 30 位服务该人群的专家评估。专家认为背景和对话大体真实，最常指出角色比其背景设定更有能力，且专家评分与 LLM 评审之间的一致性无法确立；流水线、角色与对话已发布。</description>
+      <category>arXiv cs.HC</category>
+      <category>research</category>
+    </item>
     <item>
       <title>Listen Labs 整理能带来真实洞察的 VoC 问卷问题</title>
       <link>https://listenlabs.com/articles/voice-of-customer-survey-questions/</link>
@@ -448,15 +457,6 @@
       <description>Listen Labs 增长负责人 Anish Rao 撰文把合成受访者平台分为从零模拟、真实数据建模和样本扩充三类，并建议采购前做留出真人对比、核查答案可追溯性、检测 persona 漂移等验证。文中引用 Pew Research Center 2026 年 9 月 30 日的研究称 AI 生成结果与人类民调平均相差 12.4 个百分点，共和党倾向者平均误差最高为 16.1 个百分点；Science Advances 同月刊出的哥伦比亚大学领衔 19 项预注册研究则发现 LLM 数字孪生在 164 个结果中有 154 个组内方差低于所模拟的真人。文章同时推介 Listen Labs 自有的 50M+ 真人网络与 Listen Twins。</description>
       <category>Listen Labs</category>
       <category>methods</category>
-    </item>
-    <item>
-      <title>为什么用 AI 生成用户画像与需求只是原地加速</title>
-      <link>https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4</link>
-      <guid isPermaLink="true">https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4</guid>
-      <pubDate>Tue, 27 Oct 2026 11:13:03 GMT</pubDate>
-      <description>作者在这篇评论中论证，产品团队让 LLM 先定义用户需求和生成画像，得到的多是基于平均值、难以追溯的结论，速度快不等于有进展。文中引用 Atlassian《State of Product 2026》称产品经理用 AI 每天省下近两小时，但 84% 仍担心产品难以成功；NN/g 用 AI 生成受访者重跑三项研究，答案过浅；2026 年 User Interviews 对 150 名研究者的调查中 81% 常用 AI，仅 8% 用它模拟受访者，88% 担心洞察质量。作者主张先用真实访谈与支持工单完成发现，再让 AI 综合笔记、排序失败场景并生成概念。</description>
-      <category>UX Collective</category>
-      <category>opinion</category>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,28 @@
+{
+  "id": "1dc31c1dfa070fbc",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/qualitative-research-retail-brands/",
+  "title": "Qualitative Consumer Research for Retail Brands",
+  "titleZh": "Listen Labs：面向零售品牌的定性消费者研究",
+  "summaryZh": "Listen Labs 用 AI 主持访谈、日记研究和 Visual Insights 等方法做零售品牌定性研究，称不到 24 小时交付分析结果。其网络覆盖 45+ 个国家、50M+ 名购物者，访谈支持 120+ 种语言；典型 IDI 样本为 12–15 名重度品类买家。包装、货架、合身、品类、价格和结账等零售决策分别对应到具体研究方法。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "定性分析",
+    "招募/样本"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-26T05:09:56+00:00",
+  "discoveredAt": "2026-11-26T13:36:40.094764+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
