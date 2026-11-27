@@ -1,0 +1,30 @@
+{
+  "id": "fbe2f91435ed6177",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/kantar-brand-tracking-benefits/",
+  "title": "Kantar Brand Tracking: Benefits, Gaps & Listen Labs",
+  "titleZh": "Kantar 品牌追踪：优势、诊断缺口与 Listen Labs",
+  "summaryZh": "Listen Labs 对比 Kantar 品牌追踪，称后者只报指标、不解释原因，自己同波次给出 KPI 与消费者原话。Kantar 的 MDS 框架能测品牌健康，但波次报告可能滞后 6–9 个月。Listen Labs 接入 Qualtrics、Decipher 并保留趋势线；Kantar 更适合周期性全球可比基准。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "市场研究",
+    "定性分析",
+    "问卷/定量"
+  ],
+  "entities": [
+    "listen-labs",
+    "kantar"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-27T05:03:17+00:00",
+  "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

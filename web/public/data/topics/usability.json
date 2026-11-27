@@ -3,7 +3,7 @@
   "name": "可用性测试",
   "group": "field",
   "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-  "count": 26,
+  "count": 30,
   "items": [
     {
       "id": "ccc7fa36869f8cdb",
@@ -331,6 +331,33 @@
       "relation": null
     },
     {
+      "id": "18868cd8851f03b7",
+      "sourceId": "johnnyholland",
+      "sourceName": "Johnny Holland",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://johnnyholland.org/2026/11/usability-is-not-loyalty-why-product-teams-need-customer-research-not-just-user-research/",
+      "title": "Usability Is Not Loyalty: Why Product Teams Need Customer Research, Not Just User Research",
+      "titleZh": "可用性不等于忠诚：产品团队为何需要客户研究，而不只是用户研究",
+      "summaryZh": "可用性测试只能发现界面摩擦，无法解释用户为何选择或离开；产品团队需在路线图锁定前先做定性客户研究，再用定量调研验证。2026 年 6 月 Makeable 对 130 名加拿大管理者的调查显示，85% 表示组织已用 AI 理解客户，但仅 19% 更信任 AI 而非直接客户研究，19% 称 AI 生成建议已伤害业务。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "可用性测试",
+        "定性分析",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-27T04:58:45+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "2a35eed0a8746362",
       "sourceId": "nngroup",
       "sourceName": "Nielsen Norman Group",
@@ -382,6 +409,60 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "7ae02e4e640e5d4e",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/how-do-i-use-ai-as-a-solo-designer-956a3954614e?source=rss----138adf9c44c---4",
+      "title": "How I use AI as a solo designer",
+      "titleZh": "独立设计师如何用 AI 做原型与用研：Claude Code、Figma Make 与 Gemini 实践",
+      "summaryZh": "独立设计师分享如何用 Claude Code、Figma Make 与 Gemini 做原型、可用性测试和用研综合。他把草图与 Figma/FigJam 布局交给 Claude Code 生成单个 .html 本地原型，再用 Figma Make 发布；用户研究综合时以 8 场访谈为例用 Gemini 合并提取主题，但提醒 AI 解读会丢失细节。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-27T11:22:26+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a30884de79a042e2",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/prototype-testing-at-scale/",
+      "title": "Prototype Testing at Scale: A Step-by-Step Guide",
+      "titleZh": "Listen Labs 规模化原型测试分步指南",
+      "summaryZh": "Listen Labs 的分步指南展示如何用 AI 主持访谈、Visual Insights 和 50M+ 验证受访者网络并行开展数百场测试，并在不到 24 小时内完成自动合成。指南建议定量可用性测试参考 NN/g 约 40 名参与者和 SUS 行业均值 68，并用 Quality Guard 将每位参与者限制为每月 3 项研究以剔除专业受访者。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "AI 访谈",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-27T05:03:10+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
     },
     {
       "id": "75f743fd63cba808",
@@ -492,6 +573,35 @@
       "itemType": null,
       "publishedAt": "2026-11-20T18:00:00+00:00",
       "discoveredAt": "2026-11-21T01:08:12.511089+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ab575948fdc4d9bf",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/usertesting-vs-userlytics/",
+      "title": "UserTesting vs Userlytics: Which Is Right for You?",
+      "titleZh": "UserTesting vs Userlytics：哪个更适合你？",
+      "summaryZh": "UserTesting 仅按报价合同销售，Userlytics 公开 Premium 年付每月 $699 起（5 席位），这是两者最直接的定价差异。UserTesting 覆盖 34 个核心国家、合并网络约 760 万参与者；Userlytics 样本库 200 万+、150+ 国家、60+ 语言。两者主持访谈仍依赖人工主持，每天约 4-6 场，周期拉长到数周。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "可用性测试",
+        "招募/样本",
+        "UserTesting"
+      ],
+      "entities": [
+        "usertesting",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-27T05:02:57+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

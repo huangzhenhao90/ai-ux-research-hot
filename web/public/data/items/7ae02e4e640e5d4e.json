@@ -1,0 +1,27 @@
+{
+  "id": "7ae02e4e640e5d4e",
+  "sourceId": "uxdesign-cc",
+  "sourceName": "UX Collective",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://uxdesign.cc/how-do-i-use-ai-as-a-solo-designer-956a3954614e?source=rss----138adf9c44c---4",
+  "title": "How I use AI as a solo designer",
+  "titleZh": "独立设计师如何用 AI 做原型与用研：Claude Code、Figma Make 与 Gemini 实践",
+  "summaryZh": "独立设计师分享如何用 Claude Code、Figma Make 与 Gemini 做原型、可用性测试和用研综合。他把草图与 Figma/FigJam 布局交给 Claude Code 生成单个 .html 本地原型，再用 Figma Make 发布；用户研究综合时以 8 场访谈为例用 Gemini 合并提取主题，但提醒 AI 解读会丢失细节。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "可用性测试",
+    "定性分析",
+    "转写/编码"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-27T11:22:26+00:00",
+  "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

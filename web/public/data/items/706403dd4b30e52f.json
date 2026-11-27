@@ -23,5 +23,14 @@
   "status": "selected",
   "dupOf": null,
   "relation": "different",
-  "related": []
+  "related": [
+    {
+      "id": "a5cc0354eefb6002",
+      "title": "复杂多步骤工作流中的可靠用户仿真",
+      "titleZh": "ReUST 将复杂多步骤工作流中 LLM 用户模拟目标成功率提升逾 12 个百分点",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.34044v1",
+      "publishedAt": "2026-11-24T16:00:00+00:00"
+    }
+  ]
 }

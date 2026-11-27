@@ -21,5 +21,14 @@
   "status": "selected",
   "dupOf": null,
   "relation": "different",
-  "related": []
+  "related": [
+    {
+      "id": "1456693a87f2636b",
+      "title": "PersonaFactory：基于合成人格库的风格化用户提示增强",
+      "titleZh": "PersonaFactory 基于 74 万余个结构化画像增强合成用户提示",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.34785v1",
+      "publishedAt": "2026-11-24T16:00:00+00:00"
+    }
+  ]
 }

@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 91,
+  "count": 94,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -197,6 +197,32 @@
       "itemType": "tutorial_explainer",
       "publishedAt": "2026-10-25T05:04:45+00:00",
       "discoveredAt": "2026-10-25T08:59:22.984155+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "87e7be04ab605ea8",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "International Journal of Human-Computer Studies",
+      "venue": "International Journal of Human-Computer Studies",
+      "tier": "T2",
+      "url": "https://doi.org/10.1016/j.ijhcs.2026.103979",
+      "title": "了解人们参与人类-LLM对话交互研究的意愿：一项情景研究",
+      "titleZh": "一项情景研究用157名参与者评估12种人-LLM对话研究场景的参与意愿",
+      "summaryZh": "一项情景研究通过157名参与者评估12种人-LLM对话研究场景，考察数据匿名化、数据留存、模型训练、数据访问及同意机制如何影响参与意愿。结果显示，匿名化和追加同意会提高参与意愿，无限期留存会降低参与意愿，舒适度、实用性与安全感完全中介参与意愿。",
+      "reason": "157人、12种场景的对照结果，把匿名化与数据留存条款对参与意愿的具体影响呈现出来，可供设计知情同意说明时参考。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "研究伦理",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-31T16:00:00+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
       "status": "selected",
       "dupOf": null,
       "relation": "different"
@@ -777,6 +803,34 @@
       "itemType": null,
       "publishedAt": "2026-11-24T05:09:19+00:00",
       "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a30884de79a042e2",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/prototype-testing-at-scale/",
+      "title": "Prototype Testing at Scale: A Step-by-Step Guide",
+      "titleZh": "Listen Labs 规模化原型测试分步指南",
+      "summaryZh": "Listen Labs 的分步指南展示如何用 AI 主持访谈、Visual Insights 和 50M+ 验证受访者网络并行开展数百场测试，并在不到 24 小时内完成自动合成。指南建议定量可用性测试参考 NN/g 约 40 名参与者和 SUS 行业均值 68，并用 Quality Guard 将每位参与者限制为每月 3 项研究以剔除专业受访者。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "AI 访谈",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-27T05:03:10+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1605,6 +1659,35 @@
       "itemType": null,
       "publishedAt": "2025-10-08T13:04:00+00:00",
       "discoveredAt": "2026-10-22T04:46:35.751493+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ab575948fdc4d9bf",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/usertesting-vs-userlytics/",
+      "title": "UserTesting vs Userlytics: Which Is Right for You?",
+      "titleZh": "UserTesting vs Userlytics：哪个更适合你？",
+      "summaryZh": "UserTesting 仅按报价合同销售，Userlytics 公开 Premium 年付每月 $699 起（5 席位），这是两者最直接的定价差异。UserTesting 覆盖 34 个核心国家、合并网络约 760 万参与者；Userlytics 样本库 200 万+、150+ 国家、60+ 语言。两者主持访谈仍依赖人工主持，每天约 4-6 场，周期拉长到数周。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "可用性测试",
+        "招募/样本",
+        "UserTesting"
+      ],
+      "entities": [
+        "usertesting",
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-27T05:02:57+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

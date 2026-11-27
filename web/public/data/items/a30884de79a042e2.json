@@ -1,0 +1,29 @@
+{
+  "id": "a30884de79a042e2",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/prototype-testing-at-scale/",
+  "title": "Prototype Testing at Scale: A Step-by-Step Guide",
+  "titleZh": "Listen Labs 规模化原型测试分步指南",
+  "summaryZh": "Listen Labs 的分步指南展示如何用 AI 主持访谈、Visual Insights 和 50M+ 验证受访者网络并行开展数百场测试，并在不到 24 小时内完成自动合成。指南建议定量可用性测试参考 NN/g 约 40 名参与者和 SUS 行业均值 68，并用 Quality Guard 将每位参与者限制为每月 3 项研究以剔除专业受访者。",
+  "reason": null,
+  "category": "methods",
+  "tags": [
+    "方法/实践",
+    "可用性测试",
+    "AI 访谈",
+    "招募/样本"
+  ],
+  "entities": [
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-27T05:03:10+00:00",
+  "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "4c93e744f2aeaea7",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.33736v1",
+  "title": "AI人格对话流程：从调查报告到对话人格，由LLM与专家评估",
+  "titleZh": "AI人格对话流程研究将韩国全国调查转为30个LLM扮演的独居老人角色并由专家评估",
+  "summaryZh": "一项AI人格对话流程研究把韩国全国调查报告转成30个由LLM扮演的独居老人角色，并由模拟模型、LLM评审及领域专家评估。角色背景与对话总体真实，但角色常出现能力越界，LLM与专家评分的一致性也无法确认，研究据此指出生成式角色仿真与自动评估的局限。",
+  "reason": "研究把全国调查转为30个LLM扮演的独居老人角色，并对照专家评估，呈现生成式角色仿真与自动评估的边界。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-24T16:00:00+00:00",
+  "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+  "status": "selected",
+  "dupOf": null,
+  "relation": "different",
+  "related": []
+}

@@ -1,5 +1,5 @@
 {
-  "count": 504,
+  "count": 512,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -1014,6 +1014,23 @@
       "publishedAt": "2026-10-23T17:00:00+00:00"
     },
     {
+      "id": "87e7be04ab605ea8",
+      "title": "了解人们参与人类-LLM对话交互研究的意愿：一项情景研究",
+      "titleZh": "一项情景研究用157名参与者评估12种人-LLM对话研究场景的参与意愿",
+      "summaryZh": "一项情景研究通过157名参与者评估12种人-LLM对话研究场景，考察数据匿名化、数据留存、模型训练、数据访问及同意机制如何影响参与意愿。结果显示，匿名化和追加同意会提高参与意愿，无限期留存会降低参与意愿，舒适度、实用性与安全感完全中介参与意愿。",
+      "tags": [
+        "论文/研究",
+        "研究伦理",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "International Journal of Human-Computer Studies",
+      "url": "https://doi.org/10.1016/j.ijhcs.2026.103979",
+      "publishedAt": "2026-10-31T16:00:00+00:00"
+    },
+    {
       "id": "774145de1d8bfc44",
       "title": "面向分布外人类行为模拟的语言模型行为画像设计",
       "titleZh": "研究用人类实验数据构建语言模型行为画像以模拟分布外人类行为",
@@ -1047,6 +1064,21 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/simulate-customer-reactions-with-ai/",
       "publishedAt": "2026-10-26T05:07:15+00:00"
+    },
+    {
+      "id": "4c93e744f2aeaea7",
+      "title": "AI人格对话流程：从调查报告到对话人格，由LLM与专家评估",
+      "titleZh": "AI人格对话流程研究将韩国全国调查转为30个LLM扮演的独居老人角色并由专家评估",
+      "summaryZh": "一项AI人格对话流程研究把韩国全国调查报告转成30个由LLM扮演的独居老人角色，并由模拟模型、LLM评审及领域专家评估。角色背景与对话总体真实，但角色常出现能力越界，LLM与专家评分的一致性也无法确认，研究据此指出生成式角色仿真与自动评估的局限。",
+      "tags": [
+        "论文/研究",
+        "合成用户"
+      ],
+      "entities": [],
+      "category": "research",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/abs/2611.33736v1",
+      "publishedAt": "2026-11-24T16:00:00+00:00"
     },
     {
       "id": "fc857a633c94e9de",
@@ -1703,6 +1735,24 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/introducing-explore-a-new-way-to-dive-into-customer-knowledge/",
       "publishedAt": "2026-03-27T01:00:00+00:00"
+    },
+    {
+      "id": "18868cd8851f03b7",
+      "title": "Usability Is Not Loyalty: Why Product Teams Need Customer Research, Not Just User Research",
+      "titleZh": "可用性不等于忠诚：产品团队为何需要客户研究，而不只是用户研究",
+      "summaryZh": "可用性测试只能发现界面摩擦，无法解释用户为何选择或离开；产品团队需在路线图锁定前先做定性客户研究，再用定量调研验证。2026 年 6 月 Makeable 对 130 名加拿大管理者的调查显示，85% 表示组织已用 AI 理解客户，但仅 19% 更信任 AI 而非直接客户研究，19% 称 AI 生成建议已伤害业务。",
+      "tags": [
+        "观点/讨论",
+        "可用性测试",
+        "定性分析",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "Johnny Holland",
+      "url": "https://johnnyholland.org/2026/11/usability-is-not-loyalty-why-product-teams-need-customer-research-not-just-user-research/",
+      "publishedAt": "2026-11-27T04:58:45+00:00"
     },
     {
       "id": "9333b6722e25af5e",
@@ -2843,6 +2893,23 @@
       "publishedAt": "2026-10-30T16:00:00+00:00"
     },
     {
+      "id": "7ae02e4e640e5d4e",
+      "title": "How I use AI as a solo designer",
+      "titleZh": "独立设计师如何用 AI 做原型与用研：Claude Code、Figma Make 与 Gemini 实践",
+      "summaryZh": "独立设计师分享如何用 Claude Code、Figma Make 与 Gemini 做原型、可用性测试和用研综合。他把草图与 Figma/FigJam 布局交给 Claude Code 生成单个 .html 本地原型，再用 Figma Make 发布；用户研究综合时以 8 场访谈为例用 Gemini 合并提取主题，但提醒 AI 解读会丢失细节。",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/how-do-i-use-ai-as-a-solo-designer-956a3954614e?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-11-27T11:22:26+00:00"
+    },
+    {
       "id": "8bacf35e712e9e66",
       "title": "Voice of Customer Survey Questions That Drive Real Insights",
       "titleZh": "Listen Labs 整理能带来真实洞察的 VoC 问卷问题",
@@ -3352,6 +3419,25 @@
       "sourceName": "Listen Labs",
       "url": "https://listenlabs.com/articles/concept-testing-retail-products/",
       "publishedAt": "2026-10-20T05:15:18+00:00"
+    },
+    {
+      "id": "a30884de79a042e2",
+      "title": "Prototype Testing at Scale: A Step-by-Step Guide",
+      "titleZh": "Listen Labs 规模化原型测试分步指南",
+      "summaryZh": "Listen Labs 的分步指南展示如何用 AI 主持访谈、Visual Insights 和 50M+ 验证受访者网络并行开展数百场测试，并在不到 24 小时内完成自动合成。指南建议定量可用性测试参考 NN/g 约 40 名参与者和 SUS 行业均值 68，并用 Quality Guard 将每位参与者限制为每月 3 项研究以剔除专业受访者。",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "AI 访谈",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/prototype-testing-at-scale/",
+      "publishedAt": "2026-11-27T05:03:10+00:00"
     },
     {
       "id": "3ad0c6ad6c2c25fb",
@@ -5276,6 +5362,26 @@
       "publishedAt": "2025-02-25T11:29:07+00:00"
     },
     {
+      "id": "fbe2f91435ed6177",
+      "title": "Kantar Brand Tracking: Benefits, Gaps & Listen Labs",
+      "titleZh": "Kantar 品牌追踪：优势、诊断缺口与 Listen Labs",
+      "summaryZh": "Listen Labs 对比 Kantar 品牌追踪，称后者只报指标、不解释原因，自己同波次给出 KPI 与消费者原话。Kantar 的 MDS 框架能测品牌健康，但波次报告可能滞后 6–9 个月。Listen Labs 接入 Qualtrics、Decipher 并保留趋势线；Kantar 更适合周期性全球可比基准。",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "定性分析",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-benefits/",
+      "publishedAt": "2026-11-27T05:03:17+00:00"
+    },
+    {
       "id": "3118374762f123d7",
       "title": "Customer Insights Platform ROI: A CFO-Ready Business Case",
       "titleZh": "Listen Labs 客户洞察平台 ROI：面向 CFO 的商业论证",
@@ -5575,6 +5681,26 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/power-product-strategy-with-customer-intelligence-pms-guide/",
       "publishedAt": "2025-10-08T13:04:00+00:00"
+    },
+    {
+      "id": "ab575948fdc4d9bf",
+      "title": "UserTesting vs Userlytics: Which Is Right for You?",
+      "titleZh": "UserTesting vs Userlytics：哪个更适合你？",
+      "summaryZh": "UserTesting 仅按报价合同销售，Userlytics 公开 Premium 年付每月 $699 起（5 席位），这是两者最直接的定价差异。UserTesting 覆盖 34 个核心国家、合并网络约 760 万参与者；Userlytics 样本库 200 万+、150+ 国家、60+ 语言。两者主持访谈仍依赖人工主持，每天约 4-6 场，周期拉长到数周。",
+      "tags": [
+        "观点/讨论",
+        "可用性测试",
+        "招募/样本",
+        "UserTesting"
+      ],
+      "entities": [
+        "usertesting",
+        "listen-labs"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/usertesting-vs-userlytics/",
+      "publishedAt": "2026-11-27T05:02:57+00:00"
     },
     {
       "id": "aeab6cc6a960b5bf",
@@ -7401,6 +7527,29 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2024.2392494?af=R",
       "publishedAt": "2024-10-04T05:36:52+00:00"
+    },
+    {
+      "id": "17ac78dd5b713fc0",
+      "title": "Top Voice Of Customer Software: Ranked Buying Guide 2026",
+      "titleZh": "2026 年顶级 VoC 软件：按购买任务排序的选购指南",
+      "summaryZh": "Listen Labs 的 2026 年顶级 VoC 软件购买指南按买家任务分为四层，并将 Listen Labs 列为大规模定性研究首选。其 AI 主持访谈覆盖 50M+ 验证受访者，已进行超 100 万次访谈，称研究周期可压缩到 24 小时内、成本为传统研究三分之一。Qualtrics XM 等企业 CX 套件另列，Qualtrics 合同价中位数为每年 $30,000。",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "文本分析/VOC",
+        "AI 访谈",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "medallia",
+        "surveymonkey"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-voice-of-customer-platforms/",
+      "publishedAt": "2026-11-27T05:03:04+00:00"
     },
     {
       "id": "9dcdc41ccf8ab1c4",

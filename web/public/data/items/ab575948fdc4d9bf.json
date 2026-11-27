@@ -1,0 +1,30 @@
+{
+  "id": "ab575948fdc4d9bf",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/usertesting-vs-userlytics/",
+  "title": "UserTesting vs Userlytics: Which Is Right for You?",
+  "titleZh": "UserTesting vs Userlytics：哪个更适合你？",
+  "summaryZh": "UserTesting 仅按报价合同销售，Userlytics 公开 Premium 年付每月 $699 起（5 席位），这是两者最直接的定价差异。UserTesting 覆盖 34 个核心国家、合并网络约 760 万参与者；Userlytics 样本库 200 万+、150+ 国家、60+ 语言。两者主持访谈仍依赖人工主持，每天约 4-6 场，周期拉长到数周。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "可用性测试",
+    "招募/样本",
+    "UserTesting"
+  ],
+  "entities": [
+    "usertesting",
+    "listen-labs"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-27T05:02:57+00:00",
+  "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

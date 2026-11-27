@@ -3,7 +3,7 @@
   "name": "方法",
   "group": "genre",
   "definition": "能照着做的研究流程、模板与质检办法。",
-  "count": 191,
+  "count": 193,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -1646,6 +1646,32 @@
       "relation": "different"
     },
     {
+      "id": "7ae02e4e640e5d4e",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/how-do-i-use-ai-as-a-solo-designer-956a3954614e?source=rss----138adf9c44c---4",
+      "title": "How I use AI as a solo designer",
+      "titleZh": "独立设计师如何用 AI 做原型与用研：Claude Code、Figma Make 与 Gemini 实践",
+      "summaryZh": "独立设计师分享如何用 Claude Code、Figma Make 与 Gemini 做原型、可用性测试和用研综合。他把草图与 Figma/FigJam 布局交给 Claude Code 生成单个 .html 本地原型，再用 Figma Make 发布；用户研究综合时以 8 场访谈为例用 Gemini 合并提取主题，但提醒 AI 解读会丢失细节。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-27T11:22:26+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "8bacf35e712e9e66",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1949,6 +1975,34 @@
       "itemType": null,
       "publishedAt": "2026-10-20T05:15:18+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "a30884de79a042e2",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/prototype-testing-at-scale/",
+      "title": "Prototype Testing at Scale: A Step-by-Step Guide",
+      "titleZh": "Listen Labs 规模化原型测试分步指南",
+      "summaryZh": "Listen Labs 的分步指南展示如何用 AI 主持访谈、Visual Insights 和 50M+ 验证受访者网络并行开展数百场测试，并在不到 24 小时内完成自动合成。指南建议定量可用性测试参考 NN/g 约 40 名参与者和 SUS 行业均值 68，并用 Quality Guard 将每位参与者限制为每月 3 项研究以剔除专业受访者。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "AI 访谈",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-27T05:03:10+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

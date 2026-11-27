@@ -1,0 +1,34 @@
+{
+  "id": "1456693a87f2636b",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.34785v1",
+  "title": "PersonaFactory：基于合成人格库的风格化用户提示增强",
+  "titleZh": "PersonaFactory 基于 74 万余个结构化画像增强合成用户提示",
+  "summaryZh": "PersonaFactory 生成 74 万余个结构化用户画像，并据此增强 LLM 合成用户提示，形成覆盖 85 种语言、约 124 万段合成对话。原文称属性化画像比自由文本更能逐维控制风格并保持意图，专家评价认可其自然性与真实性。增强数据在能力基准上的表现与原始数据相当。",
+  "reason": "论文比较了属性化画像与自由文本提示在风格控制上的差别，并给出覆盖 85 种语言的合成对话构建规模。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-24T16:00:00+00:00",
+  "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+  "status": "duplicate",
+  "dupOf": "93548b478442cbb2",
+  "relation": "same",
+  "related": [
+    {
+      "id": "93548b478442cbb2",
+      "title": "AI Persona Dialogue Pipeline; From Survey Report to Conversational Personas, Evaluated by LLMs and Experts",
+      "titleZh": "论文提出从调查报告生成 AI 角色对话的端到端流水线",
+      "sourceName": "arXiv cs.HC",
+      "url": "https://arxiv.org/abs/2611.33736",
+      "publishedAt": "2026-11-26T05:00:00+00:00"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "name": "研究伦理",
   "group": "field",
   "definition": "合成用户与 AI 研究的知情同意、隐私、偏见与合规争议。",
-  "count": 18,
+  "count": 19,
   "items": [
     {
       "id": "84b21af4658669d8",
@@ -29,6 +29,32 @@
       "publishedAt": "2026-11-24T05:00:00+00:00",
       "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
       "status": "listed",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
+      "id": "87e7be04ab605ea8",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "International Journal of Human-Computer Studies",
+      "venue": "International Journal of Human-Computer Studies",
+      "tier": "T2",
+      "url": "https://doi.org/10.1016/j.ijhcs.2026.103979",
+      "title": "了解人们参与人类-LLM对话交互研究的意愿：一项情景研究",
+      "titleZh": "一项情景研究用157名参与者评估12种人-LLM对话研究场景的参与意愿",
+      "summaryZh": "一项情景研究通过157名参与者评估12种人-LLM对话研究场景，考察数据匿名化、数据留存、模型训练、数据访问及同意机制如何影响参与意愿。结果显示，匿名化和追加同意会提高参与意愿，无限期留存会降低参与意愿，舒适度、实用性与安全感完全中介参与意愿。",
+      "reason": "157人、12种场景的对照结果，把匿名化与数据留存条款对参与意愿的具体影响呈现出来，可供设计知情同意说明时参考。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "研究伦理",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-31T16:00:00+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+      "status": "selected",
       "dupOf": null,
       "relation": "different"
     },

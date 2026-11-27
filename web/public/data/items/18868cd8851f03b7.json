@@ -1,0 +1,28 @@
+{
+  "id": "18868cd8851f03b7",
+  "sourceId": "johnnyholland",
+  "sourceName": "Johnny Holland",
+  "venue": null,
+  "tier": "T2",
+  "url": "https://johnnyholland.org/2026/11/usability-is-not-loyalty-why-product-teams-need-customer-research-not-just-user-research/",
+  "title": "Usability Is Not Loyalty: Why Product Teams Need Customer Research, Not Just User Research",
+  "titleZh": "可用性不等于忠诚：产品团队为何需要客户研究，而不只是用户研究",
+  "summaryZh": "可用性测试只能发现界面摩擦，无法解释用户为何选择或离开；产品团队需在路线图锁定前先做定性客户研究，再用定量调研验证。2026 年 6 月 Makeable 对 130 名加拿大管理者的调查显示，85% 表示组织已用 AI 理解客户，但仅 19% 更信任 AI 而非直接客户研究，19% 称 AI 生成建议已伤害业务。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "可用性测试",
+    "定性分析",
+    "问卷/定量",
+    "市场研究"
+  ],
+  "entities": [],
+  "itemType": null,
+  "publishedAt": "2026-11-27T04:58:45+00:00",
+  "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

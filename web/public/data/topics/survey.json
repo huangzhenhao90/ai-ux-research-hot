@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 113,
+  "count": 116,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -532,6 +532,32 @@
       "relation": "different"
     },
     {
+      "id": "87e7be04ab605ea8",
+      "sourceId": "ur-ai-papers",
+      "sourceName": "International Journal of Human-Computer Studies",
+      "venue": "International Journal of Human-Computer Studies",
+      "tier": "T2",
+      "url": "https://doi.org/10.1016/j.ijhcs.2026.103979",
+      "title": "了解人们参与人类-LLM对话交互研究的意愿：一项情景研究",
+      "titleZh": "一项情景研究用157名参与者评估12种人-LLM对话研究场景的参与意愿",
+      "summaryZh": "一项情景研究通过157名参与者评估12种人-LLM对话研究场景，考察数据匿名化、数据留存、模型训练、数据访问及同意机制如何影响参与意愿。结果显示，匿名化和追加同意会提高参与意愿，无限期留存会降低参与意愿，舒适度、实用性与安全感完全中介参与意愿。",
+      "reason": "157人、12种场景的对照结果，把匿名化与数据留存条款对参与意愿的具体影响呈现出来，可供设计知情同意说明时参考。",
+      "category": "research",
+      "tags": [
+        "论文/研究",
+        "研究伦理",
+        "招募/样本",
+        "问卷/定量"
+      ],
+      "entities": [],
+      "itemType": "research_paper",
+      "publishedAt": "2026-10-31T16:00:00+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
+    },
+    {
       "id": "53ab599720369930",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -819,6 +845,33 @@
       "itemType": null,
       "publishedAt": "2026-08-29T12:22:47+00:00",
       "discoveredAt": "2026-10-22T04:17:43.233437+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "18868cd8851f03b7",
+      "sourceId": "johnnyholland",
+      "sourceName": "Johnny Holland",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://johnnyholland.org/2026/11/usability-is-not-loyalty-why-product-teams-need-customer-research-not-just-user-research/",
+      "title": "Usability Is Not Loyalty: Why Product Teams Need Customer Research, Not Just User Research",
+      "titleZh": "可用性不等于忠诚：产品团队为何需要客户研究，而不只是用户研究",
+      "summaryZh": "可用性测试只能发现界面摩擦，无法解释用户为何选择或离开；产品团队需在路线图锁定前先做定性客户研究，再用定量调研验证。2026 年 6 月 Makeable 对 130 名加拿大管理者的调查显示，85% 表示组织已用 AI 理解客户，但仅 19% 更信任 AI 而非直接客户研究，19% 称 AI 生成建议已伤害业务。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "可用性测试",
+        "定性分析",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-27T04:58:45+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
@@ -1960,6 +2013,35 @@
       "itemType": null,
       "publishedAt": "2026-11-24T19:52:38+00:00",
       "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fbe2f91435ed6177",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-benefits/",
+      "title": "Kantar Brand Tracking: Benefits, Gaps & Listen Labs",
+      "titleZh": "Kantar 品牌追踪：优势、诊断缺口与 Listen Labs",
+      "summaryZh": "Listen Labs 对比 Kantar 品牌追踪，称后者只报指标、不解释原因，自己同波次给出 KPI 与消费者原话。Kantar 的 MDS 框架能测品牌健康，但波次报告可能滞后 6–9 个月。Listen Labs 接入 Qualtrics、Decipher 并保留趋势线；Kantar 更适合周期性全球可比基准。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "定性分析",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-27T05:03:17+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

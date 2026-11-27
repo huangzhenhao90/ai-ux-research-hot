@@ -1,0 +1,34 @@
+{
+  "id": "a5cc0354eefb6002",
+  "sourceId": "ur-ai-papers",
+  "sourceName": "arXiv",
+  "venue": "arXiv",
+  "tier": "T2",
+  "url": "https://arxiv.org/abs/2611.34044v1",
+  "title": "复杂多步骤工作流中的可靠用户仿真",
+  "titleZh": "ReUST 将复杂多步骤工作流中 LLM 用户模拟目标成功率提升逾 12 个百分点",
+  "summaryZh": "研究构建含 500 个 HTN 工作流的基准，用于评测复杂多步骤工作流中的 LLM 用户模拟器，发现复杂度升高会显著降低保真度，目标漂移是主要故障。ReUST 通过跨轮推理与用户状态跟踪，将中大型模型的目标成功率提升逾 12 个百分点，并降低评分对助手回复风格的敏感性。",
+  "reason": "500 个 HTN 工作流基准与 ReUST 方法让研究者能具体比较不同复杂度流程中用户模拟器的保真度。",
+  "category": "research",
+  "tags": [
+    "论文/研究",
+    "合成用户"
+  ],
+  "entities": [],
+  "itemType": "research_paper",
+  "publishedAt": "2026-11-24T16:00:00+00:00",
+  "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+  "status": "duplicate",
+  "dupOf": "706403dd4b30e52f",
+  "relation": "same",
+  "related": [
+    {
+      "id": "706403dd4b30e52f",
+      "title": "Can AI Generate Good Designs from Raw User Data?",
+      "titleZh": "研究 AI 仅凭原始用户评论能否生成好设计",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-11-20T18:00:00+00:00"
+    }
+  ]
+}

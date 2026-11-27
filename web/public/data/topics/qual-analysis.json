@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 133,
+  "count": 136,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -622,6 +622,33 @@
       "relation": null
     },
     {
+      "id": "18868cd8851f03b7",
+      "sourceId": "johnnyholland",
+      "sourceName": "Johnny Holland",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://johnnyholland.org/2026/11/usability-is-not-loyalty-why-product-teams-need-customer-research-not-just-user-research/",
+      "title": "Usability Is Not Loyalty: Why Product Teams Need Customer Research, Not Just User Research",
+      "titleZh": "可用性不等于忠诚：产品团队为何需要客户研究，而不只是用户研究",
+      "summaryZh": "可用性测试只能发现界面摩擦，无法解释用户为何选择或离开；产品团队需在路线图锁定前先做定性客户研究，再用定量调研验证。2026 年 6 月 Makeable 对 130 名加拿大管理者的调查显示，85% 表示组织已用 AI 理解客户，但仅 19% 更信任 AI 而非直接客户研究，19% 称 AI 生成建议已伤害业务。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "可用性测试",
+        "定性分析",
+        "问卷/定量",
+        "市场研究"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-27T04:58:45+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "9333b6722e25af5e",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -1138,6 +1165,32 @@
       "status": "selected",
       "dupOf": null,
       "relation": "different"
+    },
+    {
+      "id": "7ae02e4e640e5d4e",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/how-do-i-use-ai-as-a-solo-designer-956a3954614e?source=rss----138adf9c44c---4",
+      "title": "How I use AI as a solo designer",
+      "titleZh": "独立设计师如何用 AI 做原型与用研：Claude Code、Figma Make 与 Gemini 实践",
+      "summaryZh": "独立设计师分享如何用 Claude Code、Figma Make 与 Gemini 做原型、可用性测试和用研综合。他把草图与 Figma/FigJam 布局交给 Claude Code 生成单个 .html 本地原型，再用 Figma Make 发布；用户研究综合时以 8 场访谈为例用 Gemini 合并提取主题，但提醒 AI 解读会丢失细节。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试",
+        "定性分析",
+        "转写/编码"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-27T11:22:26+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
     },
     {
       "id": "26a877f2ed2235f6",
@@ -2245,6 +2298,35 @@
       "itemType": null,
       "publishedAt": "2025-02-25T11:29:07+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "fbe2f91435ed6177",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/kantar-brand-tracking-benefits/",
+      "title": "Kantar Brand Tracking: Benefits, Gaps & Listen Labs",
+      "titleZh": "Kantar 品牌追踪：优势、诊断缺口与 Listen Labs",
+      "summaryZh": "Listen Labs 对比 Kantar 品牌追踪，称后者只报指标、不解释原因，自己同波次给出 KPI 与消费者原话。Kantar 的 MDS 框架能测品牌健康，但波次报告可能滞后 6–9 个月。Listen Labs 接入 Qualtrics、Decipher 并保留趋势线；Kantar 更适合周期性全球可比基准。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "定性分析",
+        "问卷/定量"
+      ],
+      "entities": [
+        "listen-labs",
+        "kantar"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-27T05:03:17+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

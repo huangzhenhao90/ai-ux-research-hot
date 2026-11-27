@@ -3,7 +3,7 @@
   "name": "Medallia",
   "group": "company",
   "definition": "Medallia 的体验与反馈分析产品更新。",
-  "count": 6,
+  "count": 7,
   "items": [
     {
       "id": "22164f1907bfe9e3",
@@ -94,6 +94,38 @@
       "itemType": null,
       "publishedAt": "2026-11-21T05:01:53+00:00",
       "discoveredAt": "2026-11-21T12:12:57.608845+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "17ac78dd5b713fc0",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-voice-of-customer-platforms/",
+      "title": "Top Voice Of Customer Software: Ranked Buying Guide 2026",
+      "titleZh": "2026 年顶级 VoC 软件：按购买任务排序的选购指南",
+      "summaryZh": "Listen Labs 的 2026 年顶级 VoC 软件购买指南按买家任务分为四层，并将 Listen Labs 列为大规模定性研究首选。其 AI 主持访谈覆盖 50M+ 验证受访者，已进行超 100 万次访谈，称研究周期可压缩到 24 小时内、成本为传统研究三分之一。Qualtrics XM 等企业 CX 套件另列，Qualtrics 合同价中位数为每年 $30,000。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "市场研究",
+        "文本分析/VOC",
+        "AI 访谈",
+        "Qualtrics"
+      ],
+      "entities": [
+        "listen-labs",
+        "qualtrics",
+        "medallia",
+        "surveymonkey"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-27T05:03:04+00:00",
+      "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
