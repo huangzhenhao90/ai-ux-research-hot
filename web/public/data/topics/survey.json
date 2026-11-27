@@ -3,7 +3,7 @@
   "name": "问卷与定量",
   "group": "field",
   "definition": "AI 辅助问卷设计、投放、清洗与定量分析。",
-  "count": 112,
+  "count": 113,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -106,6 +106,33 @@
       "status": "selected",
       "dupOf": null,
       "relation": "same"
+    },
+    {
+      "id": "ccc7fa36869f8cdb",
+      "sourceId": "jakobnielsenphd",
+      "sourceName": "Jakob Nielsen on UX",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://jakobnielsenphd.substack.com/p/ai-ux-progress-rate",
+      "title": "What UX Tasks Will AI Be Able to Do, and When?",
+      "titleZh": "Jakob Nielsen 复核 2025 年 AI 用研预测并给出 2026 至 2030 年时间表",
+      "summaryZh": "Jakob Nielsen 用 13 个月的新证据复核自己 2025 年提出的五项 AI 用研预测，判定 4 项正确，但设计综合比分析更早达标，推翻了他原先按任务类型排序的理论。他改用结果可被验证的难易重新排序，并给出覆盖 2026 至 2030 年的逐年 UX 时间表，认为到 2030 年 AI 会在所有结果可查验的 UX 任务上胜过人类，人只剩下决定做什么和协调团队两件事。文中证据包括 139 场 AI 主持访谈与 24 场人类主持访谈对比、AI 单场成本约为人类的 20%，以及 4 个语言模型作合成受访者时把人群段差异放大 2 至 4 倍。",
+      "reason": "作者用 13 个月的新证据复核自己 2025 年的五项 AI 用研预测，并给出 2026 至 2030 年的逐年能力时间表。",
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "合成用户",
+        "问卷/定量",
+        "可用性测试"
+      ],
+      "entities": [],
+      "itemType": "opinion_analysis",
+      "publishedAt": "2026-11-25T12:21:07+00:00",
+      "discoveredAt": "2026-11-27T00:21:10.572904+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "followup"
     },
     {
       "id": "b84125256011e29d",

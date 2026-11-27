@@ -5,7 +5,7 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 26 Nov 2026 13:36:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:21:10 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
     <item>
@@ -16,6 +16,15 @@
       <description>论文提出一套端到端 AI 角色对话流水线，由 LLM 依据全国调查问卷报告撰写人物背景，再由现成 LLM 在无需微调的情况下扮演该角色，并对背景与对话的可信度打分。作者将其用于 30 个韩国独居老人角色，由三个 LLM 评审比较八个模拟器 LLM，选出 GPT-5.5 后再交由 30 位服务该人群的专家评估。专家认为背景和对话大体真实，最常指出角色比其背景设定更有能力，且专家评分与 LLM 评审之间的一致性无法确立；流水线、角色与对话已发布。</description>
       <category>arXiv cs.HC</category>
       <category>research</category>
+    </item>
+    <item>
+      <title>Jakob Nielsen 复核 2025 年 AI 用研预测并给出 2026 至 2030 年时间表</title>
+      <link>https://jakobnielsenphd.substack.com/p/ai-ux-progress-rate</link>
+      <guid isPermaLink="true">https://jakobnielsenphd.substack.com/p/ai-ux-progress-rate</guid>
+      <pubDate>Wed, 25 Nov 2026 12:21:07 GMT</pubDate>
+      <description>Jakob Nielsen 用 13 个月的新证据复核自己 2025 年提出的五项 AI 用研预测，判定 4 项正确，但设计综合比分析更早达标，推翻了他原先按任务类型排序的理论。他改用结果可被验证的难易重新排序，并给出覆盖 2026 至 2030 年的逐年 UX 时间表，认为到 2030 年 AI 会在所有结果可查验的 UX 任务上胜过人类，人只剩下决定做什么和协调团队两件事。文中证据包括 139 场 AI 主持访谈与 24 场人类主持访谈对比、AI 单场成本约为人类的 20%，以及 4 个语言模型作合成受访者时把人群段差异放大 2 至 4 倍。</description>
+      <category>Jakob Nielsen on UX</category>
+      <category>opinion</category>
     </item>
     <item>
       <title>Listen Labs 整理能带来真实洞察的 VoC 问卷问题</title>
@@ -448,15 +457,6 @@
       <description>一项研究在 14 个视觉语言模型上检验低视力、色盲、听力损失等角色提示能否模拟真实人群，结果显示角色提示从未胜过实测用户和仅采用人格事实的简单规则，反而抹平了群体与个体差异。研究还发现，描述模糊不改变模型识别，实际模糊图像才降低其表现，表明模型能陈述影响机制却不能据此看见。</description>
       <category>ur-ai-papers（用户与交互 AI 论文库）</category>
       <category>research</category>
-    </item>
-    <item>
-      <title>Listen Labs 撰文介绍合成受访者平台的评估与选择方法</title>
-      <link>https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/</link>
-      <guid isPermaLink="true">https://listenlabs.com/articles/synthetic-respondent-platforms-buyers-guide/</guid>
-      <pubDate>Wed, 28 Oct 2026 05:10:50 GMT</pubDate>
-      <description>Listen Labs 增长负责人 Anish Rao 撰文把合成受访者平台分为从零模拟、真实数据建模和样本扩充三类，并建议采购前做留出真人对比、核查答案可追溯性、检测 persona 漂移等验证。文中引用 Pew Research Center 2026 年 9 月 30 日的研究称 AI 生成结果与人类民调平均相差 12.4 个百分点，共和党倾向者平均误差最高为 16.1 个百分点；Science Advances 同月刊出的哥伦比亚大学领衔 19 项预注册研究则发现 LLM 数字孪生在 164 个结果中有 154 个组内方差低于所模拟的真人。文章同时推介 Listen Labs 自有的 50M+ 真人网络与 Listen Twins。</description>
-      <category>Listen Labs</category>
-      <category>methods</category>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T13:36:40.094764+00:00",
+  "generatedAt": "2026-11-27T00:21:10.572904+00:00",
   "windowDays": 3,
   "editionHour": 0,
   "days": [
@@ -34,61 +34,35 @@
       ]
     },
     {
-      "date": "2026-11-24",
-      "count": 2,
+      "date": "2026-11-25",
+      "count": 1,
       "items": [
         {
-          "id": "fab5bfc6152350b2",
-          "sourceId": "arxiv-cs-hc",
-          "sourceName": "arXiv cs.HC",
+          "id": "ccc7fa36869f8cdb",
+          "sourceId": "jakobnielsenphd",
+          "sourceName": "Jakob Nielsen on UX",
           "venue": null,
           "tier": "T2",
-          "url": "https://arxiv.org/abs/2608.21294",
-          "title": "Event-Time Confounding Under Bursty Human Dynamics",
-          "titleZh": "论文提出事件时间混杂问题，惰性时间戳仍复现 AI 回答后 76% 的搜索增长",
-          "summaryZh": "一篇 arXiv 论文指出，衡量 AI 回答带来的后续商业活动时存在事件时间混杂，作者插入不标记任何事件的惰性时间戳重跑标准分析，仍复现 AI 回答后 76% 的搜索增长。该研究基于一份关联对话式 AI 使用、浏览与搜索的 opt-in panel，按 30 天活跃度匹配的对照组给出相同结果，惰性时间戳在 16 类网页事件上也显示类似搜索增量。作者称与近期历史匹配时刻作比较可消除大部分增量，但其所做的安慰剂审计均无法确认该比较无偏，已发表研究也几乎不做此类审计，文末给出选择比较对象与压力测试估计量的协议。",
-          "reason": "用惰性时间戳做安慰剂检验，为判断 AI 回答的归因是否被高估提供了可复用的检验协议。",
-          "category": "research",
+          "url": "https://jakobnielsenphd.substack.com/p/ai-ux-progress-rate",
+          "title": "What UX Tasks Will AI Be Able to Do, and When?",
+          "titleZh": "Jakob Nielsen 复核 2025 年 AI 用研预测并给出 2026 至 2030 年时间表",
+          "summaryZh": "Jakob Nielsen 用 13 个月的新证据复核自己 2025 年提出的五项 AI 用研预测，判定 4 项正确，但设计综合比分析更早达标，推翻了他原先按任务类型排序的理论。他改用结果可被验证的难易重新排序，并给出覆盖 2026 至 2030 年的逐年 UX 时间表，认为到 2030 年 AI 会在所有结果可查验的 UX 任务上胜过人类，人只剩下决定做什么和协调团队两件事。文中证据包括 139 场 AI 主持访谈与 24 场人类主持访谈对比、AI 单场成本约为人类的 20%，以及 4 个语言模型作合成受访者时把人群段差异放大 2 至 4 倍。",
+          "reason": "作者用 13 个月的新证据复核自己 2025 年的五项 AI 用研预测，并给出 2026 至 2030 年的逐年能力时间表。",
+          "category": "opinion",
           "tags": [
-            "论文/研究",
-            "行为数据",
-            "市场研究"
+            "观点/讨论",
+            "AI 访谈",
+            "合成用户",
+            "问卷/定量",
+            "可用性测试"
           ],
           "entities": [],
-          "itemType": "research_paper",
-          "publishedAt": "2026-11-24T05:00:00+00:00",
-          "discoveredAt": "2026-11-25T03:24:33.404486+00:00",
+          "itemType": "opinion_analysis",
+          "publishedAt": "2026-11-25T12:21:07+00:00",
+          "discoveredAt": "2026-11-27T00:21:10.572904+00:00",
           "status": "selected",
           "dupOf": null,
-          "relation": "different"
-        },
-        {
-          "id": "8bacf35e712e9e66",
-          "sourceId": "listen-labs",
-          "sourceName": "Listen Labs",
-          "venue": null,
-          "tier": "T1",
-          "url": "https://listenlabs.com/articles/voice-of-customer-survey-questions/",
-          "title": "Voice of Customer Survey Questions That Drive Real Insights",
-          "titleZh": "Listen Labs 整理能带来真实洞察的 VoC 问卷问题",
-          "summaryZh": "Listen Labs 整理了按研究目标组织的 VoC 问卷问题库，并建议每轮只保留 3–6 个核心问题。文章覆盖新用户引导、售后支持、流失与留存、产品反馈等场景，并指出固定问卷难以追问评分背后的原因。Listen Labs 的 AI 主持访谈以对话方式运行同一组问题，称回答长度约为平均水平的 3 倍。",
-          "reason": "文章按用研目标拆出 VoC 问卷题库，并交代每题对应的决策与发送时机，可作为搭建短问卷的参考。",
-          "category": "methods",
-          "tags": [
-            "方法/实践",
-            "问卷/定量",
-            "AI 访谈",
-            "文本分析/VOC"
-          ],
-          "entities": [
-            "listen-labs"
-          ],
-          "itemType": "method_or_template",
-          "publishedAt": "2026-11-24T05:09:12+00:00",
-          "discoveredAt": "2026-11-24T19:23:45.825561+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
+          "relation": "followup"
         }
       ]
     }

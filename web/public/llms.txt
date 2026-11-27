@@ -16,6 +16,7 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 ## 最新精选
 
 - [论文提出从调查报告生成 AI 角色对话的端到端流水线](https://arxiv.org/abs/2611.33736)：论文提出一套端到端 AI 角色对话流水线，由 LLM 依据全国调查问卷报告撰写人物背景，再由现成 LLM 在无需微调的情况下扮演该角色，并对背景与对话的可信度打分。作者将其用于 30 个韩国独居老人角色，由三个 LLM 评审比较八个模拟器…（arXiv cs.HC，2026-11-26）
+- [Jakob Nielsen 复核 2025 年 AI 用研预测并给出 2026 至 2030 年时间表](https://jakobnielsenphd.substack.com/p/ai-ux-progress-rate)：Jakob Nielsen 用 13 个月的新证据复核自己 2025 年提出的五项 AI 用研预测，判定 4 项正确，但设计综合比分析更早达标，推翻了他原先按任务类型排序的理论。他改用结果可被验证的难易重新排序，并给出覆盖 2026 至…（Jakob Nielsen on UX，2026-11-25）
 - [Listen Labs 整理能带来真实洞察的 VoC 问卷问题](https://listenlabs.com/articles/voice-of-customer-survey-questions/)：Listen Labs 整理了按研究目标组织的 VoC 问卷问题库，并建议每轮只保留 3–6 个核心问题。文章覆盖新用户引导、售后支持、流失与留存、产品反馈等场景，并指出固定问卷难以追问评分背后的原因。Listen Labs 的 AI 主…（Listen Labs，2026-11-24）
 - [论文提出事件时间混杂问题，惰性时间戳仍复现 AI 回答后 76% 的搜索增长](https://arxiv.org/abs/2608.21294)：一篇 arXiv 论文指出，衡量 AI 回答带来的后续商业活动时存在事件时间混杂，作者插入不标记任何事件的惰性时间戳重跑标准分析，仍复现 AI 回答后 76% 的搜索增长。该研究基于一份关联对话式 AI 使用、浏览与搜索的 opt-in…（arXiv cs.HC，2026-11-24）
 - [Listen Labs 发布共享屏幕用户研究的实践者指南](https://listenlabs.com/articles/customer-insights-platform-screen-sharing/)：Listen Labs 发布一份共享屏幕用户研究的实践者指南，给出从任务与成功标准设定、限定共享窗口、准备测试账号到书面同意的分步流程。文中称其 Visual Insights 可在访谈中实时识别屏幕行为与口头表述的矛盾，重定向偏题的参与…（Listen Labs，2026-11-21）
@@ -44,6 +45,5 @@ URHOT（AI 用研热点）每天从研究工具官网、用研社区、HCI 学�
 - [Dovetail 推出统一客户上下文平台 Dovetail One](https://dovetail.com/blog/introducing-dovetail-one/)：Dovetail 发布 Dovetail One，把 VoC、产品与设计、用户研究和收入智能整合到同一个客户上下文平台上。按其描述，该平台面向各类团队共用同一份客户上下文。（Dovetail Blog，2026-11-05）
 - [Listen Labs 盘点 AI 数字孪生案例：测了什么、哪些站得住](https://listenlabs.com/articles/ai-digital-twin-case-studies/)：Listen Labs 盘点了 6 个 AI 数字孪生案例，并按通用人设、人群混合模型、消费者数字孪生、已验证数字孪生四层分类标注各自的验证方式。文中引用 Columbia Business School 团队 19 项预注册研究，Sci…（Listen Labs，2026-11-05）
 - [TACT：用 AI 委员会做大规模定性主题分析的实用流程](https://arxiv.org/abs/2611.05702)：论文提出 TACT（Traceable AI Council for Thematic analysis），用 AI 委员会在规模上完成定性主题分析，同时让团队保留对解读与判断的控制。TACT-Lite 为核心流程，TACT-Full 额…（arXiv cs.HC，2026-11-05）
-- [Maze MCP 支持在 AI 工具内直接创建研究项目](https://maze.co/blog/maze-mcp-create-research-studies/)：Maze 在其 MCP 中新增能力，研究者无需离开所用的 AI 工具即可创建研究项目。（Maze Blog，2026-11-04）
 
-（更多 80 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
+（更多 81 条精选见 https://huangzhenhao90.github.io/ai-ux-research-hot/all/ 与 RSS。）
