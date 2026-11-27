@@ -1,5 +1,5 @@
 {
-  "count": 512,
+  "count": 513,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -5234,6 +5234,21 @@
       "sourceName": "Dovetail Blog",
       "url": "https://dovetail.com/blog/pixel-fing-the-new-chat-library/",
       "publishedAt": "2026-06-14T23:00:00+00:00"
+    },
+    {
+      "id": "6e544391b39bb671",
+      "title": "Usability Testing 101",
+      "titleZh": "可用性测试 101",
+      "summaryZh": "可用性测试让研究者观察人们使用一个或多个界面完成真实任务，以发现可用性问题与改进机会。它有时被称为用户测试，是一种流行的 UX 研究方法。产品团队任何人都能学习这一方法。",
+      "tags": [
+        "方法/实践",
+        "可用性测试"
+      ],
+      "entities": [],
+      "category": "methods",
+      "sourceName": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "publishedAt": "2026-11-27T17:00:00+00:00"
     },
     {
       "id": "ff5e817db3ebd6cf",

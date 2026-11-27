@@ -3,7 +3,7 @@
   "label": "方法",
   "section": "方法与实践",
   "commentary": true,
-  "count": 192,
+  "count": 193,
   "items": [
     {
       "id": "efc712223f56320e",
@@ -3398,6 +3398,30 @@
       "itemType": null,
       "publishedAt": "2026-10-21T05:03:39+00:00",
       "discoveredAt": "2026-10-22T03:45:39.057677+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "6e544391b39bb671",
+      "sourceId": "nngroup",
+      "sourceName": "Nielsen Norman Group",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Usability Testing 101",
+      "titleZh": "可用性测试 101",
+      "summaryZh": "可用性测试让研究者观察人们使用一个或多个界面完成真实任务，以发现可用性问题与改进机会。它有时被称为用户测试，是一种流行的 UX 研究方法。产品团队任何人都能学习这一方法。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "可用性测试"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-27T17:00:00+00:00",
+      "discoveredAt": "2026-11-27T23:55:31.116736+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

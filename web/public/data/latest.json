@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T13:32:07.884827+00:00",
+  "generatedAt": "2026-11-27T23:55:31.116736+00:00",
   "windowDays": 3,
   "editionHour": 0,
   "days": [
@@ -27,63 +27,6 @@
           "itemType": "research_paper",
           "publishedAt": "2026-11-26T05:00:00+00:00",
           "discoveredAt": "2026-11-26T13:36:40.094764+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "different"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-25",
-      "count": 2,
-      "items": [
-        {
-          "id": "ccc7fa36869f8cdb",
-          "sourceId": "jakobnielsenphd",
-          "sourceName": "Jakob Nielsen on UX",
-          "venue": null,
-          "tier": "T2",
-          "url": "https://jakobnielsenphd.substack.com/p/ai-ux-progress-rate",
-          "title": "What UX Tasks Will AI Be Able to Do, and When?",
-          "titleZh": "Jakob Nielsen 复核 2025 年 AI 用研预测并给出 2026 至 2030 年时间表",
-          "summaryZh": "Jakob Nielsen 用 13 个月的新证据复核自己 2025 年提出的五项 AI 用研预测，判定 4 项正确，但设计综合比分析更早达标，推翻了他原先按任务类型排序的理论。他改用结果可被验证的难易重新排序，并给出覆盖 2026 至 2030 年的逐年 UX 时间表，认为到 2030 年 AI 会在所有结果可查验的 UX 任务上胜过人类，人只剩下决定做什么和协调团队两件事。文中证据包括 139 场 AI 主持访谈与 24 场人类主持访谈对比、AI 单场成本约为人类的 20%，以及 4 个语言模型作合成受访者时把人群段差异放大 2 至 4 倍。",
-          "reason": "作者用 13 个月的新证据复核自己 2025 年的五项 AI 用研预测，并给出 2026 至 2030 年的逐年能力时间表。",
-          "category": "opinion",
-          "tags": [
-            "观点/讨论",
-            "AI 访谈",
-            "合成用户",
-            "问卷/定量",
-            "可用性测试"
-          ],
-          "entities": [],
-          "itemType": "opinion_analysis",
-          "publishedAt": "2026-11-25T12:21:07+00:00",
-          "discoveredAt": "2026-11-27T00:21:10.572904+00:00",
-          "status": "selected",
-          "dupOf": null,
-          "relation": "followup"
-        },
-        {
-          "id": "4c93e744f2aeaea7",
-          "sourceId": "ur-ai-papers",
-          "sourceName": "arXiv",
-          "venue": "arXiv",
-          "tier": "T2",
-          "url": "https://arxiv.org/abs/2611.33736v1",
-          "title": "AI人格对话流程：从调查报告到对话人格，由LLM与专家评估",
-          "titleZh": "AI人格对话流程研究将韩国全国调查转为30个LLM扮演的独居老人角色并由专家评估",
-          "summaryZh": "一项AI人格对话流程研究把韩国全国调查报告转成30个由LLM扮演的独居老人角色，并由模拟模型、LLM评审及领域专家评估。角色背景与对话总体真实，但角色常出现能力越界，LLM与专家评分的一致性也无法确认，研究据此指出生成式角色仿真与自动评估的局限。",
-          "reason": "研究把全国调查转为30个LLM扮演的独居老人角色，并对照专家评估，呈现生成式角色仿真与自动评估的边界。",
-          "category": "research",
-          "tags": [
-            "论文/研究",
-            "合成用户"
-          ],
-          "entities": [],
-          "itemType": "research_paper",
-          "publishedAt": "2026-11-24T16:00:00+00:00",
-          "discoveredAt": "2026-11-27T13:32:07.884827+00:00",
           "status": "selected",
           "dupOf": null,
           "relation": "different"
