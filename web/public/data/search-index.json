@@ -1,5 +1,5 @@
 {
-  "count": 518,
+  "count": 519,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -6546,6 +6546,21 @@
       "sourceName": "Quirkos",
       "url": "https://www.quirkos.com/blog/post/how-to-cite-quirkos-materials/",
       "publishedAt": "2025-01-07T13:37:33+00:00"
+    },
+    {
+      "id": "ed366076bd05d651",
+      "title": "What working with AI is doing to us",
+      "titleZh": "Humankind：与 AI 共事正在如何改变我们",
+      "summaryZh": "UX Collective 刊出 Humankind 实验性系列，由设计师撰文审视与 AI 共事如何改变做设计的人。它不提供答案，转而追问：工具让人更快更自信时我们在变成谁、哪些事仍值得慢慢做，以及一切不再困难时会失去什么。",
+      "tags": [
+        "观点/讨论",
+        "岗位/职业"
+      ],
+      "entities": [],
+      "category": "opinion",
+      "sourceName": "UX Collective",
+      "url": "https://uxdesign.cc/what-working-with-ai-is-doing-to-us-c0df05190b66?source=rss----138adf9c44c---4",
+      "publishedAt": "2026-11-28T11:48:55+00:00"
     },
     {
       "id": "88877e2ea09ab16f",

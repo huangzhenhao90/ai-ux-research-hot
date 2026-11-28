@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T06:47:32.218970+00:00",
+  "generatedAt": "2026-11-28T16:40:15.985882+00:00",
   "groups": [
     {
       "key": "company",
@@ -149,7 +149,7 @@
       "name": "岗位与职业",
       "group": "field",
       "definition": "AI 对用研岗位需求、技能结构与团队组织的影响。",
-      "count": 3
+      "count": 4
     },
     {
       "slug": "papers",

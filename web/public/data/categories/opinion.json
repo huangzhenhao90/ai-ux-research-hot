@@ -3,7 +3,7 @@
   "label": "观点",
   "section": "观点与讨论",
   "commentary": true,
-  "count": 120,
+  "count": 121,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -1695,6 +1695,30 @@
       "itemType": null,
       "publishedAt": "2026-10-22T05:04:06+00:00",
       "discoveredAt": "2026-10-22T08:59:56.976067+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "ed366076bd05d651",
+      "sourceId": "uxdesign-cc",
+      "sourceName": "UX Collective",
+      "venue": null,
+      "tier": "T2",
+      "url": "https://uxdesign.cc/what-working-with-ai-is-doing-to-us-c0df05190b66?source=rss----138adf9c44c---4",
+      "title": "What working with AI is doing to us",
+      "titleZh": "Humankind：与 AI 共事正在如何改变我们",
+      "summaryZh": "UX Collective 刊出 Humankind 实验性系列，由设计师撰文审视与 AI 共事如何改变做设计的人。它不提供答案，转而追问：工具让人更快更自信时我们在变成谁、哪些事仍值得慢慢做，以及一切不再困难时会失去什么。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "岗位/职业"
+      ],
+      "entities": [],
+      "itemType": null,
+      "publishedAt": "2026-11-28T11:48:55+00:00",
+      "discoveredAt": "2026-11-28T16:40:15.985882+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null
