@@ -5,9 +5,18 @@
     <link>https://huangzhenhao90.github.io/ai-ux-research-hot</link>
     <description>每天从研究工具官网、用研社区、HCI 学术与行业媒体收集 AI × 用户研究的动态，模型双评分筛出值得看的，按天排进精选。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 27 Nov 2026 23:55:31 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 06:47:32 GMT</lastBuildDate>
     <atom:link href="https://huangzhenhao90.github.io/ai-ux-research-hot/rss.xml" rel="self" type="application/rss+xml"/>
     <generator>URHOT publish/rss_out.py</generator>
+    <item>
+      <title>Listen Labs 如何用客户研究快速验证创业想法</title>
+      <link>https://listenlabs.com/articles/validate-startup-idea-market-research/</link>
+      <guid isPermaLink="true">https://listenlabs.com/articles/validate-startup-idea-market-research/</guid>
+      <pubDate>Sat, 28 Nov 2026 05:01:07 GMT</pubDate>
+      <description>Listen Labs 增长负责人 Anish Rao 撰文给出一套用客户研究快速验证创业想法的三步流程：先按“错了会怎样”排序假设，再用品类规模与竞品扫描排除弱想法，最后招募网络之外的陌生人做只问过去行为的访谈。文中附可复制的访谈脚本，并引用 Hennink 与 Kaiser 的研究指出编码饱和常见于 9–17 场访谈、意义饱和需 16–24 场。Listen Labs 称其平台可将传统 6–8 周验证周期压缩到 24 小时内。</description>
+      <category>Listen Labs</category>
+      <category>methods</category>
+    </item>
     <item>
       <title>论文提出从调查报告生成 AI 角色对话的端到端流水线</title>
       <link>https://arxiv.org/abs/2611.33736</link>
@@ -448,15 +457,6 @@
       <description>Ipsos 宣布任命 Mitch Barns 为美洲区董事长兼 CEO，自 2026 年 11 月 2 日起生效。他将担任 Ipsos 美国 CEO，并负责统筹 Ipsos 在加拿大和拉美地区的业务。任命消息于 2026 年 10 月 29 日在巴黎发布。</description>
       <category>Ipsos</category>
       <category>industry</category>
-    </item>
-    <item>
-      <title>AutoAnalysis 元分析纳入 420 篇论文，人机组合通常不及更优一方</title>
-      <link>https://arxiv.org/abs/2610.42001v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.42001v1</guid>
-      <pubDate>Thu, 29 Oct 2026 16:00:00 GMT</pubDate>
-      <description>AutoAnalysis 这项可自动汇总并持续更新的元分析纳入 420 篇论文和 1955 个效应量，发现人机组合显著优于人类单独工作。但人机组合通常不及人类与 AI 中表现更优的一方，作者据此指出「优于人类」并不等于实现人机协同。</description>
-      <category>ur-ai-papers（用户与交互 AI 论文库）</category>
-      <category>research</category>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,29 @@
+{
+  "id": "365b443297fef7d6",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-qualitative-data-analysis-software/",
+  "title": "Qualitative Data Analysis Software: Top Options Compared",
+  "titleZh": "定性数据分析软件（QDAS）对比：Listen Labs 与 NVivo、MAXQDA、ATLAS.ti 等",
+  "summaryZh": "Listen Labs 在定性数据分析软件对比中主打覆盖招募、AI 主持访谈到自动分析的完整流程，称可从 50M+ 验证受访者网络招募、支持 120+ 语言并在 24 小时内交付结果。NVivo、MAXQDA、ATLAS.ti 则主要分析研究者已收集的数据。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "定性分析"
+  ],
+  "entities": [
+    "listen-labs",
+    "maxqda",
+    "delve"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-28T05:00:44+00:00",
+  "discoveredAt": "2026-11-28T06:47:32.218970+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}

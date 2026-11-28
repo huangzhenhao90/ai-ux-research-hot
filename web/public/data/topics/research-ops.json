@@ -3,7 +3,7 @@
   "name": "洞察库与 ResearchOps",
   "group": "field",
   "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-  "count": 94,
+  "count": 98,
   "items": [
     {
       "id": "a5f46290272974dd",
@@ -499,6 +499,33 @@
       "status": "listed",
       "dupOf": null,
       "relation": null
+    },
+    {
+      "id": "94837a7c4e19f2dd",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/validate-startup-idea-market-research/",
+      "title": "Customer Research for Startups: Validate Ideas Fast",
+      "titleZh": "Listen Labs 如何用客户研究快速验证创业想法",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文给出一套用客户研究快速验证创业想法的三步流程：先按“错了会怎样”排序假设，再用品类规模与竞品扫描排除弱想法，最后招募网络之外的陌生人做只问过去行为的访谈。文中附可复制的访谈脚本，并引用 Hennink 与 Kaiser 的研究指出编码饱和常见于 9–17 场访谈、意义饱和需 16–24 场。Listen Labs 称其平台可将传统 6–8 周验证周期压缩到 24 小时内。",
+      "reason": "文章把假设排序、陌生人访谈招募与提问脚本串成一套可复用的判定流程，可用于在访谈前先排除弱想法。",
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": "method_or_template",
+      "publishedAt": "2026-11-28T05:01:07+00:00",
+      "discoveredAt": "2026-11-28T06:47:32.218970+00:00",
+      "status": "selected",
+      "dupOf": null,
+      "relation": "different"
     },
     {
       "id": "2bcd97f71b517682",
@@ -1296,6 +1323,33 @@
       "relation": null
     },
     {
+      "id": "d55bf58905e6861c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/reduce-market-research-turnaround-time/",
+      "title": "How to Reduce Qualitative Research Timelines Fast",
+      "titleZh": "Listen Labs 如何快速缩短定性研究周期",
+      "summaryZh": "Listen Labs 将招募、AI 主持访谈、分析和报告整合进同一工作流，称可将定性研究周期从 4–6 周压缩到 24 小时内。50M+ 受访者网络覆盖 45+ 国家，Quality Guard 实时筛查作弊与重复受访者，每人每月限 3 项研究。四项重叠做法包括招募与指南定稿、报告结构搭建、分析计划制定和访谈打标签。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-28T05:01:01+00:00",
+      "discoveredAt": "2026-11-28T06:47:32.218970+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "4d0e5fc9634a854a",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2009,6 +2063,38 @@
       "relation": null
     },
     {
+      "id": "005303c86b798bdc",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-ai-tools-ux-researchers/",
+      "title": "Best AI Tools for UX Research for Faster Feedback Loops",
+      "titleZh": "最佳 AI 用研工具：Listen Labs 以 50M+ 样本库和 AI 主持访谈加速反馈闭环",
+      "summaryZh": "Listen Labs 被评为加速反馈闭环的最佳 AI 用研工具，覆盖研究设计、50M+ 验证受访者网络招募、AI 主持访谈、可用性测试与分析全流程。其网络覆盖 45+ 国家和 120+ 语言，智能追问让回答长度达平均 3 倍，分析交付少于 24 小时而非 4–6 周；Maze 的深层“why”需 Enterprise 计划，Dovetail 仅做分析与洞察库、不提供招募或访谈。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "可用性测试",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail",
+        "maze",
+        "usertesting"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-28T05:00:50+00:00",
+      "discoveredAt": "2026-11-28T06:47:32.218970+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "f723b756206abefb",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -2310,6 +2396,35 @@
       "itemType": null,
       "publishedAt": "2026-11-14T05:06:31+00:00",
       "discoveredAt": "2026-11-14T11:15:08.397838+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "194b51ff150a666d",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-customer-insights-platform-cpg/",
+      "title": "Customer Insights Platform for CPG: A Buyer’s Guide",
+      "titleZh": "CPG 客户洞察平台买家指南：Listen Labs 与 CDP、零售测量各回答什么问题",
+      "summaryZh": "Listen Labs 的 CPG 客户洞察平台买家指南将市场分为消费者研究/AI 主持定性研究、零售与购物者分析、社交聆听与 CX、CDP/CRM 四类。指南称其全球受访者网络有数千万验证参与者，已完成超过 100 万次 AI 访谈，研究周期从 4–6 周压缩到 24 小时内，成本约为传统研究三分之一。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "市场研究",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "nielsen"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-28T05:00:37+00:00",
+      "discoveredAt": "2026-11-28T06:47:32.218970+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

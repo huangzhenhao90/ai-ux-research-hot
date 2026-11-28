@@ -3,7 +3,7 @@
   "name": "定性分析",
   "group": "field",
   "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-  "count": 136,
+  "count": 138,
   "items": [
     {
       "id": "17aa5dce6e93a86c",
@@ -1842,6 +1842,33 @@
       "relation": null
     },
     {
+      "id": "d55bf58905e6861c",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/reduce-market-research-turnaround-time/",
+      "title": "How to Reduce Qualitative Research Timelines Fast",
+      "titleZh": "Listen Labs 如何快速缩短定性研究周期",
+      "summaryZh": "Listen Labs 将招募、AI 主持访谈、分析和报告整合进同一工作流，称可将定性研究周期从 4–6 周压缩到 24 小时内。50M+ 受访者网络覆盖 45+ 国家，Quality Guard 实时筛查作弊与重复受访者，每人每月限 3 项研究。四项重叠做法包括招募与指南定稿、报告结构搭建、分析计划制定和访谈打标签。",
+      "reason": null,
+      "category": "methods",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-28T05:01:01+00:00",
+      "discoveredAt": "2026-11-28T06:47:32.218970+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
       "id": "4d0e5fc9634a854a",
       "sourceId": "listen-labs",
       "sourceName": "Listen Labs",
@@ -3267,6 +3294,34 @@
       "itemType": null,
       "publishedAt": "2026-04-22T11:00:59+00:00",
       "discoveredAt": "2026-10-21T14:44:20.522731+00:00",
+      "status": "listed",
+      "dupOf": null,
+      "relation": null
+    },
+    {
+      "id": "365b443297fef7d6",
+      "sourceId": "listen-labs",
+      "sourceName": "Listen Labs",
+      "venue": null,
+      "tier": "T1",
+      "url": "https://listenlabs.com/articles/best-qualitative-data-analysis-software/",
+      "title": "Qualitative Data Analysis Software: Top Options Compared",
+      "titleZh": "定性数据分析软件（QDAS）对比：Listen Labs 与 NVivo、MAXQDA、ATLAS.ti 等",
+      "summaryZh": "Listen Labs 在定性数据分析软件对比中主打覆盖招募、AI 主持访谈到自动分析的完整流程，称可从 50M+ 验证受访者网络招募、支持 120+ 语言并在 24 小时内交付结果。NVivo、MAXQDA、ATLAS.ti 则主要分析研究者已收集的数据。",
+      "reason": null,
+      "category": "opinion",
+      "tags": [
+        "观点/讨论",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "maxqda",
+        "delve"
+      ],
+      "itemType": null,
+      "publishedAt": "2026-11-28T05:00:44+00:00",
+      "discoveredAt": "2026-11-28T06:47:32.218970+00:00",
       "status": "listed",
       "dupOf": null,
       "relation": null

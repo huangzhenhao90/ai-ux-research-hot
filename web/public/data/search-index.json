@@ -1,5 +1,5 @@
 {
-  "count": 513,
+  "count": 518,
   "items": [
     {
       "id": "89444ee16d42e6a8",
@@ -1885,6 +1885,24 @@
       "sourceName": "arXiv",
       "url": "https://arxiv.org/abs/2610.30568v1",
       "publishedAt": "2026-10-21T16:00:00+00:00"
+    },
+    {
+      "id": "94837a7c4e19f2dd",
+      "title": "Customer Research for Startups: Validate Ideas Fast",
+      "titleZh": "Listen Labs 如何用客户研究快速验证创业想法",
+      "summaryZh": "Listen Labs 增长负责人 Anish Rao 撰文给出一套用客户研究快速验证创业想法的三步流程：先按“错了会怎样”排序假设，再用品类规模与竞品扫描排除弱想法，最后招募网络之外的陌生人做只问过去行为的访谈。文中附可复制的访谈脚本，并引用 Hennink 与 Kaiser 的研究指出编码饱和常见于 9–17 场访谈、意义饱和需 16–24 场。Listen Labs 称其平台可将传统 6–8 周验证周期压缩到 24 小时内。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "招募/样本"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/validate-startup-idea-market-research/",
+      "publishedAt": "2026-11-28T05:01:07+00:00"
     },
     {
       "id": "4db34341e2f3feed",
@@ -4485,6 +4503,24 @@
       "publishedAt": "2025-12-16T00:00:00+00:00"
     },
     {
+      "id": "d55bf58905e6861c",
+      "title": "How to Reduce Qualitative Research Timelines Fast",
+      "titleZh": "Listen Labs 如何快速缩短定性研究周期",
+      "summaryZh": "Listen Labs 将招募、AI 主持访谈、分析和报告整合进同一工作流，称可将定性研究周期从 4–6 周压缩到 24 小时内。50M+ 受访者网络覆盖 45+ 国家，Quality Guard 实时筛查作弊与重复受访者，每人每月限 3 项研究。四项重叠做法包括招募与指南定稿、报告结构搭建、分析计划制定和访谈打标签。",
+      "tags": [
+        "方法/实践",
+        "招募/样本",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/reduce-market-research-turnaround-time/",
+      "publishedAt": "2026-11-28T05:01:01+00:00"
+    },
+    {
       "id": "4d0e5fc9634a854a",
       "title": "Affordable Food & Beverage Consumer Insights for Startups",
       "titleZh": "Listen Labs：食品饮料初创企业的可负担消费者洞察平台",
@@ -6620,6 +6656,29 @@
       "publishedAt": "2026-03-31T00:00:00+00:00"
     },
     {
+      "id": "005303c86b798bdc",
+      "title": "Best AI Tools for UX Research for Faster Feedback Loops",
+      "titleZh": "最佳 AI 用研工具：Listen Labs 以 50M+ 样本库和 AI 主持访谈加速反馈闭环",
+      "summaryZh": "Listen Labs 被评为加速反馈闭环的最佳 AI 用研工具，覆盖研究设计、50M+ 验证受访者网络招募、AI 主持访谈、可用性测试与分析全流程。其网络覆盖 45+ 国家和 120+ 语言，智能追问让回答长度达平均 3 倍，分析交付少于 24 小时而非 4–6 周；Maze 的深层“why”需 Enterprise 计划，Dovetail 仅做分析与洞察库、不提供招募或访谈。",
+      "tags": [
+        "观点/讨论",
+        "AI 访谈",
+        "可用性测试",
+        "招募/样本",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "dovetail",
+        "maze",
+        "usertesting"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-ai-tools-ux-researchers/",
+      "publishedAt": "2026-11-28T05:00:50+00:00"
+    },
+    {
       "id": "187f75ed30eeb6c4",
       "title": "Monte Carlo Power Analysis for Small-System A/B Trials: Detecting Differences in Newsletter Engagement",
       "titleZh": "小系统 A/B 试验的 Monte Carlo 功效分析：检测个性化新闻邮件简报参与度差异",
@@ -7328,6 +7387,25 @@
       "publishedAt": "2026-04-22T11:00:59+00:00"
     },
     {
+      "id": "365b443297fef7d6",
+      "title": "Qualitative Data Analysis Software: Top Options Compared",
+      "titleZh": "定性数据分析软件（QDAS）对比：Listen Labs 与 NVivo、MAXQDA、ATLAS.ti 等",
+      "summaryZh": "Listen Labs 在定性数据分析软件对比中主打覆盖招募、AI 主持访谈到自动分析的完整流程，称可从 50M+ 验证受访者网络招募、支持 120+ 语言并在 24 小时内交付结果。NVivo、MAXQDA、ATLAS.ti 则主要分析研究者已收集的数据。",
+      "tags": [
+        "观点/讨论",
+        "定性分析"
+      ],
+      "entities": [
+        "listen-labs",
+        "maxqda",
+        "delve"
+      ],
+      "category": "opinion",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-qualitative-data-analysis-software/",
+      "publishedAt": "2026-11-28T05:00:44+00:00"
+    },
+    {
       "id": "223232dc0c510ce7",
       "title": "Telecom Customer Research: AI vs. Traditional Agencies",
       "titleZh": "电信客户研究：Listen Labs 的 AI 平台与传统调研机构对比",
@@ -7542,6 +7620,26 @@
       "sourceName": "Human-Computer Interaction",
       "url": "https://www.tandfonline.com/doi/full/10.1080/07370024.2024.2392494?af=R",
       "publishedAt": "2024-10-04T05:36:52+00:00"
+    },
+    {
+      "id": "194b51ff150a666d",
+      "title": "Customer Insights Platform for CPG: A Buyer’s Guide",
+      "titleZh": "CPG 客户洞察平台买家指南：Listen Labs 与 CDP、零售测量各回答什么问题",
+      "summaryZh": "Listen Labs 的 CPG 客户洞察平台买家指南将市场分为消费者研究/AI 主持定性研究、零售与购物者分析、社交聆听与 CX、CDP/CRM 四类。指南称其全球受访者网络有数千万验证参与者，已完成超过 100 万次 AI 访谈，研究周期从 4–6 周压缩到 24 小时内，成本约为传统研究三分之一。",
+      "tags": [
+        "方法/实践",
+        "AI 访谈",
+        "市场研究",
+        "洞察库/ResearchOps"
+      ],
+      "entities": [
+        "listen-labs",
+        "nielsen"
+      ],
+      "category": "methods",
+      "sourceName": "Listen Labs",
+      "url": "https://listenlabs.com/articles/best-customer-insights-platform-cpg/",
+      "publishedAt": "2026-11-28T05:00:37+00:00"
     },
     {
       "id": "17ac78dd5b713fc0",

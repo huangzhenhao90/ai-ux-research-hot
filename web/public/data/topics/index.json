@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T23:55:31.116736+00:00",
+  "generatedAt": "2026-11-28T06:47:32.218970+00:00",
   "groups": [
     {
       "key": "company",
@@ -30,21 +30,21 @@
       "name": "Dovetail",
       "group": "company",
       "definition": "Dovetail 的洞察库与研究分析产品更新，以及其对研究流程自动化的做法。",
-      "count": 38
+      "count": 39
     },
     {
       "slug": "usertesting",
       "name": "UserTesting",
       "group": "company",
       "definition": "UserTesting（含 UserZoom）的可用性测试与 AI 分析能力更新。",
-      "count": 19
+      "count": 20
     },
     {
       "slug": "maze",
       "name": "Maze",
       "group": "company",
       "definition": "Maze 的快速研究平台、AI 功能与研究方法内容。",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "nngroup",
@@ -79,7 +79,7 @@
       "name": "Listen Labs",
       "group": "company",
       "definition": "Listen Labs 的 AI 主持访谈产品与研究能力更新。",
-      "count": 193
+      "count": 198
     },
     {
       "slug": "dscout",
@@ -93,7 +93,7 @@
       "name": "AI 访谈",
       "group": "field",
       "definition": "AI 主持或辅助访谈的实践、工具与效度证据。",
-      "count": 126
+      "count": 129
     },
     {
       "slug": "synthetic-users",
@@ -114,7 +114,7 @@
       "name": "定性分析",
       "group": "field",
       "definition": "AI 辅助的定性编码、主题分析、亲和图与转写工具。",
-      "count": 136
+      "count": 138
     },
     {
       "slug": "voc",
@@ -128,14 +128,14 @@
       "name": "可用性测试",
       "group": "field",
       "definition": "AI 参与的可用性测试设计、执行与结果分析。",
-      "count": 31
+      "count": 32
     },
     {
       "slug": "research-ops",
       "name": "洞察库与 ResearchOps",
       "group": "field",
       "definition": "洞察沉淀、研究运营、样本招募与参与者管理的 AI 化。",
-      "count": 94
+      "count": 98
     },
     {
       "slug": "ethics",
@@ -163,7 +163,7 @@
       "name": "方法",
       "group": "genre",
       "definition": "能照着做的研究流程、模板与质检办法。",
-      "count": 194
+      "count": 197
     },
     {
       "slug": "prompts",

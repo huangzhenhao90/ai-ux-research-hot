@@ -1,0 +1,33 @@
+{
+  "id": "005303c86b798bdc",
+  "sourceId": "listen-labs",
+  "sourceName": "Listen Labs",
+  "venue": null,
+  "tier": "T1",
+  "url": "https://listenlabs.com/articles/best-ai-tools-ux-researchers/",
+  "title": "Best AI Tools for UX Research for Faster Feedback Loops",
+  "titleZh": "最佳 AI 用研工具：Listen Labs 以 50M+ 样本库和 AI 主持访谈加速反馈闭环",
+  "summaryZh": "Listen Labs 被评为加速反馈闭环的最佳 AI 用研工具，覆盖研究设计、50M+ 验证受访者网络招募、AI 主持访谈、可用性测试与分析全流程。其网络覆盖 45+ 国家和 120+ 语言，智能追问让回答长度达平均 3 倍，分析交付少于 24 小时而非 4–6 周；Maze 的深层“why”需 Enterprise 计划，Dovetail 仅做分析与洞察库、不提供招募或访谈。",
+  "reason": null,
+  "category": "opinion",
+  "tags": [
+    "观点/讨论",
+    "AI 访谈",
+    "可用性测试",
+    "招募/样本",
+    "洞察库/ResearchOps"
+  ],
+  "entities": [
+    "listen-labs",
+    "dovetail",
+    "maze",
+    "usertesting"
+  ],
+  "itemType": null,
+  "publishedAt": "2026-11-28T05:00:50+00:00",
+  "discoveredAt": "2026-11-28T06:47:32.218970+00:00",
+  "status": "listed",
+  "dupOf": null,
+  "relation": null,
+  "related": []
+}
